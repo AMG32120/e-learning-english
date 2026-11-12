@@ -1,0 +1,275 @@
+/* ============================================================
+   styles/components.css —— 组件通用样式
+   ============================================================ */
+
+/* 关卡卡片 */
+.stage-card {
+  background: var(--c-bg-card);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-md);
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  text-align: left;
+  width: 100%;
+}
+
+.stage-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.stage-card.locked {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.stage-card.completed {
+  border-color: var(--c-accent);
+}
+
+.stage-card .stage-num {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--c-primary);
+}
+
+.stage-card .stage-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.stage-card .stage-desc {
+  font-size: 13px;
+  color: var(--c-text-secondary);
+}
+
+/* 等级卡片 */
+.level-card {
+  background: var(--c-bg-card);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  width: 100%;
+  text-align: left;
+}
+
+.level-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.level-card.locked {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.level-card .level-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--c-primary-light);
+  color: var(--c-primary);
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.level-card .level-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.level-card .level-desc {
+  font-size: 13px;
+  color: var(--c-text-secondary);
+}
+
+.level-card .level-progress {
+  margin-top: auto;
+}
+
+/* 测验选项 */
+.quiz-options {
+  display: grid;
+  gap: var(--space-sm);
+}
+
+.quiz-option {
+  padding: 14px 16px;
+  border: 1.5px solid var(--c-border);
+  border-radius: var(--radius-md);
+  background: var(--c-bg-card);
+  font-size: 16px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s, transform 0.1s;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.quiz-option:hover {
+  border-color: var(--c-primary);
+  background: var(--c-primary-light);
+}
+
+.quiz-option.selected {
+  border-color: var(--c-primary);
+  background: var(--c-primary-light);
+}
+
+.quiz-option.correct {
+  border-color: var(--c-accent);
+  background: rgba(52, 196, 139, 0.12);
+}
+
+.quiz-option.wrong {
+  border-color: var(--c-danger);
+  background: rgba(231, 76, 60, 0.1);
+}
+
+/* 发音按钮 */
+.tts-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--c-primary-light);
+  color: var(--c-primary);
+  transition: background 0.15s, transform 0.1s;
+  flex-shrink: 0;
+}
+
+.tts-btn:hover {
+  background: var(--c-primary);
+  color: #fff;
+}
+
+.tts-btn:active {
+  transform: scale(0.92);
+}
+
+.tts-btn.playing {
+  background: var(--c-accent);
+  color: #fff;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(52, 196, 139, 0.5); }
+  70% { box-shadow: 0 0 0 10px rgba(52, 196, 139, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(52, 196, 139, 0); }
+}
+
+/* 徽章 */
+.badge-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--c-primary-light);
+  color: var(--c-primary);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* 提示条 */
+.alert {
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-md);
+  font-size: 14px;
+}
+
+.alert-info {
+  background: var(--c-primary-light);
+  color: var(--c-primary-dark);
+}
+
+.alert-warn {
+  background: rgba(245, 166, 35, 0.15);
+  color: #b0780e;
+}
+
+.alert-error {
+  background: rgba(231, 76, 60, 0.12);
+  color: var(--c-danger);
+}
+
+/* 空状态 */
+.empty-state {
+  text-align: center;
+  padding: var(--space-xl) var(--space-md);
+  color: var(--c-text-muted);
+}
+
+/* 自评按钮组 */
+.self-eval-group {
+  display: grid;
+  gap: var(--space-sm);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.self-eval-btn {
+  padding: 12px 8px;
+  border-radius: var(--radius-md);
+  border: 1.5px solid var(--c-border);
+  background: var(--c-bg-card);
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.15s;
+}
+
+.self-eval-btn:hover {
+  border-color: var(--c-primary);
+}
+
+.self-eval-btn.good {
+  border-color: var(--c-accent);
+  background: rgba(52, 196, 139, 0.12);
+  color: var(--c-accent);
+}
+
+.self-eval-btn.mid {
+  border-color: var(--c-warn);
+  background: rgba(245, 166, 35, 0.12);
+  color: var(--c-warn);
+}
+
+.self-eval-btn.bad {
+  border-color: var(--c-danger);
+  background: rgba(231, 76, 60, 0.1);
+  color: var(--c-danger);
+}
+
+/* 返回按钮 */
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--c-primary);
+  font-size: 14px;
+  padding: 6px 10px;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-sm);
+  background: var(--c-bg-card);
+  cursor: pointer;
+}
+.back-btn:hover { background: var(--c-bg-soft); }
+

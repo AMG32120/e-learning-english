@@ -1,0 +1,149 @@
+<template>
+  <div class="page-container level">
+    <button class="back-btn" @click="router.push('/map')">← 返回地图</button>
+    <h1 class="page-title">L{{ lv.level }} {{ lv.name }}</h1>
+    <p class="page-subtitle">{{ lv.desc }}</p>
+
+    <div v-if="lv.available === false" class="alert alert-info">
+      本等级内容将在后续阶段开放，敬请期待。
+    </div>
+
+    <!-- 阶段综合测验入口 -->
+    <div v-if="lv.available !== false" class="card exam-entry">
+      <div class="exam-entry-head">
+        <span class="exam-entry-title">阶段综合测验</span>
+        <span v-if="progress.isLevelExamPassed(lv.level)" class="badge-chip">已通过</span>
+        <span v-else-if="examUnlocked" class="badge-chip">可挑战</span>
+      </div>
+      <p class="exam-entry-desc">
+        {{ examDesc }}
+      </p>
+      <button
+        class="btn btn-primary"
+        :disabled="!examUnlocked"
+        @click="router.push(`/exam/${lv.level}`)"
+      >
+        {{ progress.isLevelExamPassed(lv.level) ? '再次挑战' : '开始测验' }}
+      </button>
+    </div>
+
+    <div class="grid-stages">
+      <button
+        v-for="st in lv.stages"
+        :key="st.id"
+        class="stage-card"
+        :class="{
+          locked: !unlocked(st),
+          completed: record(st) && record(st).completed
+        }"
+        :disabled="!unlocked(st)"
+        @click="openStage(st)"
+      >
+        <div class="stage-card-head">
+          <span class="stage-num">第 {{ st.stage }} 关</span>
+          <span v-if="st.available === false" class="badge-chip">后续开放</span>
+          <span v-else-if="record(st)" class="stars">
+            <span v-for="i in 3" :key="i" class="star" :class="{ empty: i > record(st).bestStars }">★</span>
+          </span>
+        </div>
+        <div class="stage-title">{{ st.title }}</div>
+        <div class="stage-desc">{{ st.desc }}</div>
+        <div v-if="!unlocked(st)" class="stage-lock">🔒 未解锁</div>
+      </button>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { computed } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
+import { getLevel } from '../data/levels'
+import { useProgressStore } from '../stores/progress'
+
+const route = useRoute()
+const router = useRouter()
+const progress = useProgressStore()
+
+const lv = computed(() => getLevel(Number(route.params.level)) || { level: 0, name: '', desc: '', stages: [] })
+
+const examUnlocked = computed(() => {
+  return lv.value.available !== false && progress.isLevelExamUnlocked(lv.value.level)
+})
+
+const examDesc = computed(() => {
+  if (progress.isLevelExamPassed(lv.value.level)) {
+    return '本等级综合测验已通过，可再次挑战刷新成绩。'
+  }
+  if (examUnlocked.value) {
+    return '已完成本等级闯关，挑战综合测验检验阶段成果（正确率 ≥70% 通过）。'
+  }
+  const lp = progress.getLevelProgress(lv.value.level)
+  return `完成本等级全部 ${lp.total} 关后可挑战阶段综合测验（当前 ${lp.completed}/${lp.total}）。`
+})
+
+function record(st) {
+  return progress.stages[st.id] || null
+}
+
+function unlocked(st) {
+  return st.available !== false && progress.isStageUnlocked(st.id)
+}
+
+function openStage(st) {
+  if (st.available === false) {
+    alert('该关卡内容将在后续阶段开放')
+    return
+  }
+  if (!progress.isStageUnlocked(st.id)) {
+    alert('请先完成上一关')
+    return
+  }
+  router.push(`/stage/${st.id}`)
+}
+</script>
+
+<style scoped>
+.back-btn {
+  background: none;
+  border: none;
+  color: var(--c-primary);
+  font-size: 14px;
+  margin-bottom: var(--space-sm);
+  cursor: pointer;
+}
+
+.stage-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-xs);
+}
+
+.stage-lock {
+  font-size: 13px;
+  color: var(--c-text-muted);
+}
+
+.exam-entry {
+  margin-bottom: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.exam-entry-head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.exam-entry-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.exam-entry-desc {
+  font-size: 13px;
+  color: var(--c-text-secondary);
+}
+</style>
