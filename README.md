@@ -67,5 +67,45 @@ npm run preview
 
 ## 部署方式
 
-`npm run build` 产出 `dist/`（`vite.config.js` 已配置 `base: './'` + hash 路由），为纯静态文件，无需服务端重写规则，上传至 GitHub Pages / Vercel / Nginx / 任意静态托管即可直接访问。完整规划与验收记录见 [PLAN.md](PLAN.md)。
+`npm run build` 产出 `dist/`，为纯静态文件（`vite.config.js` 已配置 `base: './'` + hash 路由），无需服务端重写规则。
+
+### Cloudflare Pages（推荐）
+
+免费额度：带宽无限、500 次构建/月、允许商用、自动 HTTPS。
+
+**方式一：Git 集成（推荐，push 即自动部署）**
+
+1. 把本仓库推到 GitHub（私有仓库也可以）
+2. Cloudflare Dashboard → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**
+3. 选择仓库，构建配置填：
+
+   | 配置项 | 值 |
+   |---|---|
+   | Framework preset | `Vue`（或 `None`，行为一致） |
+   | Build command | `npm run build` |
+   | Build output directory | `dist` |
+   | Node version | 由 `.nvmrc` 自动指定为 `22` |
+
+4. 点 **Save and Deploy**，1~2 分钟后获得 `https://<项目名>.pages.dev`
+
+无需配置任何环境变量。`public/_headers` 会自动生效（构建产物长缓存 + `sw.js` 不缓存），`public/_redirects` 处理 404 回落。
+
+**方式二：命令行直传（不接 GitHub）**
+
+```bash
+npm run build
+npx wrangler pages deploy dist --project-name=e-learning-english
+```
+
+首次执行会打开浏览器要求登录 Cloudflare 账号授权，之后同一台机器无需再登录。
+
+### 其他平台
+
+产物同样可直接上传至 GitHub Pages / Vercel / Netlify / Nginx / 任意静态托管。
+
+注意：
+- **必须 HTTPS**——PWA 的 Service Worker 仅在 HTTPS（或 localhost）下注册，`file://` 直接打开无法离线与安装
+- 静态托管若支持自定义响应头，请保持 `sw.js` 为 `no-cache`，否则发版后用户可能长期停留在旧版本
+
+完整规划与验收记录见 [PLAN.md](PLAN.md)。
 *（内容由AI生成，仅供参考）*

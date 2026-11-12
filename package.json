@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "test": "esbuild tests/smoke.entry.js --bundle --platform=node --format=cjs --outfile=tests/smoke.bundle.cjs --log-level=error && node tests/smoke.bundle.cjs",
     "test:e2e": "node tests/e2e.cjs",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "deploy:cf": "npm run build && npx wrangler pages deploy dist --project-name=e-learning-english"
   },
   "dependencies": {
     "mespeak": "^2.0.2",
