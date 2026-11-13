@@ -150,11 +150,11 @@ const VOICE_OPTIONS = [
   { value: 'male', label: '男声', desc: '沉稳标准男声' }
 ]
 
-const currentGender = ref(getVoiceGender() || 'female')
+const currentGender = ref(getVoiceGender())
 const previewing = ref(false)
 
 function chooseVoice(gender) {
-  currentGender.value = setVoiceGender(gender) || gender
+  currentGender.value = setVoiceGender(gender)
   previewVoice()
 }
 

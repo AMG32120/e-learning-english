@@ -27,6 +27,7 @@ const VOICE_POLL_INTERVAL = 100   // 语音列表轮询间隔（毫秒）
 
 const GENDER_KEY = 'tts-voice-gender'   // localStorage 存储键
 export const VOICE_GENDERS = ['female', 'male']  // 支持的取值
+export const DEFAULT_VOICE_GENDER = 'female'     // 默认女声（自然，适合跟读）
 let voiceGender = null
 
 function loadVoiceGender() {
@@ -35,22 +36,22 @@ function loadVoiceGender() {
     const g = localStorage.getItem(GENDER_KEY)
     if (g === 'female' || g === 'male') voiceGender = g
   } catch { /* localStorage 不可用时忽略 */ }
-  return voiceGender
+  return voiceGender || DEFAULT_VOICE_GENDER
 }
 
-/** 获取当前声音性别偏好：'female' | 'male' | null（未设置/默认） */
+/** 获取当前声音性别偏好：'female' | 'male'（未设置时返回默认值） */
 export function getVoiceGender() {
   return loadVoiceGender()
 }
 
-/** 设置声音性别偏好并持久化（'female' | 'male' | null 取消偏好） */
+/** 设置声音性别偏好并持久化（'female' | 'male' | null 恢复默认） */
 export function setVoiceGender(gender) {
   voiceGender = gender === 'female' || gender === 'male' ? gender : null
   try {
     if (voiceGender) localStorage.setItem(GENDER_KEY, voiceGender)
     else localStorage.removeItem(GENDER_KEY)
   } catch { /* ignore */ }
-  return voiceGender
+  return voiceGender || DEFAULT_VOICE_GENDER
 }
 
 // meSpeak 性别变体映射（eSpeak voice variants，内置在 mespeak 引擎中）
