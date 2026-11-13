@@ -105,6 +105,50 @@ export function getEnglishVoice() {
   return preferred || null
 }
 
+/* ---------- Web Audio 自动播放策略解锁 ----------
+ * 浏览器自动播放策略：AudioContext 若不在用户手势的同步链路内创建/恢复，
+ * 会处于 suspended 状态且不报错（source.start() 静默无声）。
+ * meSpeak 在异步合成完成后才 new AudioContext()，此时手势激活已失效 → 没有声音。
+ * 解法：
+ *  1) speak() 入口（点击手势内同步执行）立即创建并 resume 一个「主上下文」
+ *  2) 包装 window.AudioContext，让后续所有构造（包括 meSpeak 的）复用主上下文
+ */
+let primeAudioCtx = null
+let audioCtxPatched = false
+
+function ensurePrimeAudio() {
+  if (typeof window === 'undefined') return
+  const AC = window.AudioContext || window.webkitAudioContext
+  if (!AC) return
+  try {
+    if (!primeAudioCtx) primeAudioCtx = new AC()
+  } catch {
+    return
+  }
+  if (primeAudioCtx && primeAudioCtx.state === 'suspended') {
+    primeAudioCtx.resume().catch(() => {})
+  }
+  if (!audioCtxPatched) {
+    audioCtxPatched = true
+    const RealAC = AC
+    const SharedContext = class extends RealAC {
+      constructor(...args) {
+        if (primeAudioCtx) return primeAudioCtx
+        super(...args)
+        primeAudioCtx = this
+        if (this.state === 'suspended') this.resume().catch(() => {})
+        return this
+      }
+    }
+    try {
+      window.AudioContext = SharedContext
+      if (window.webkitAudioContext) window.webkitAudioContext = SharedContext
+    } catch {
+      /* 某些环境下属性只读，无法包装，忽略 */
+    }
+  }
+}
+
 /* ---------- meSpeak 离线引擎（惰性加载） ---------- */
 
 async function loadOfflineEngine() {
@@ -145,6 +189,10 @@ async function speakWithOffline(text, { rate = 0.85, onStart, onEnd }) {
     if (!wav) {
       console.warn('[TTS] meSpeak 未生成音频流')
       return false
+    }
+    // 播放前再次确保主上下文处于运行态
+    if (primeAudioCtx && primeAudioCtx.state === 'suspended') {
+      primeAudioCtx.resume().catch(() => {})
     }
     const ok = await new Promise((resolve) => {
       let started = false
@@ -232,6 +280,9 @@ export async function speak(text, opts = {}) {
   const t = String(text == null ? '' : text).trim()
   const { rate = 0.85, pitch = 1, onStart, onEnd, onError } = opts
   userStopped = false
+
+  // 在用户手势内同步解锁 Web Audio（修复 meSpeak 离线合成无声问题）
+  ensurePrimeAudio()
 
   if (!t) {
     console.warn('[TTS] 播放失败：文本为空')

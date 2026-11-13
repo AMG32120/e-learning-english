@@ -9,7 +9,8 @@ export default [
   {
     files: ['scripts/**'],
     languageOptions: {
-      globals: { Buffer: 'readonly', process: 'readonly', console: 'readonly' }
+      globals: {
+        Event: 'readonly', Buffer: 'readonly', process: 'readonly', console: 'readonly' }
     }
   },
   {
@@ -17,6 +18,7 @@ export default [
       ecmaVersion: 'latest',
       sourceType: 'module',
       globals: {
+        Event: 'readonly',
         window: 'readonly',
         document: 'readonly',
         localStorage: 'readonly',
@@ -46,7 +48,8 @@ export default [
   {
     files: ['tests/**'],
     languageOptions: {
-      globals: { __dirname: 'readonly', require: 'readonly', module: 'readonly', process: 'readonly', console: 'readonly' }
+      globals: {
+        Event: 'readonly', __dirname: 'readonly', require: 'readonly', module: 'readonly', process: 'readonly', console: 'readonly' }
     },
     rules: {
       'no-unused-vars': 'off'

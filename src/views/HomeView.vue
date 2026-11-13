@@ -151,6 +151,10 @@ function goRecommended() {
   margin-bottom: var(--space-md);
 }
 
+.home-daily {
+  margin-bottom: var(--space-md);
+}
+
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

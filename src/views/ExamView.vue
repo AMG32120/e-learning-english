@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main class="container page">
+    <main class="page-container">
       <h1 class="page-title">{{ levelTitle }} · 等级综合测验</h1>
       <p class="page-sub">覆盖本等级已通关与已解锁内容，正确率 ≥ 70% 通过并发毕业徽章</p>
 

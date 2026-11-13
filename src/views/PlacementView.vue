@@ -39,7 +39,7 @@
 
         <div v-if="answered" class="placement-feedback">
           <span v-if="selected === current.answer" class="feedback-ok">回答正确</span>
-          <span v-else class="feedback-no">正确答案：{{ current.correctLabel }}</span>
+          <span v-else class="feedback-no">正确答案：{{ correctAnswerLabel }}</span>
         </div>
 
         <button class="btn btn-primary btn-block" :disabled="!answered" @click="next">
@@ -96,6 +96,10 @@ const correctCount = ref(0)
 const done = ref(false)
 
 const current = computed(() => QUESTIONS[index.value])
+const correctAnswerLabel = computed(() => {
+  const opt = current.value.options.find((o) => o.k === current.value.answer)
+  return opt ? opt.label : ''
+})
 const correct = computed(() => correctCount.value)
 const percent = computed(() => Math.round((correctCount.value / QUESTIONS.length) * 100))
 const recommendLevel = computed(() => {
@@ -170,6 +174,11 @@ function goL1() {
 .placement-feedback {
   margin-top: var(--space-md);
   font-weight: 600;
+}
+
+/* 选项组与「下一题」按钮之间保持呼吸感 */
+.quiz-options {
+  margin-bottom: var(--space-md);
 }
 
 .feedback-ok {

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main class="container page">
+    <main class="page-container">
       <h1 class="page-title">间隔重复复习</h1>
       <p class="page-sub">按次日 / 3 日 / 7 日节奏巩固错词错题，连续 2 次答对移出复习池</p>
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main class="container page">
+    <main class="page-container">
       <h1 class="page-title">随机测验</h1>
       <p class="page-sub">从已学习、已解锁内容池随机抽题，随时检验掌握程度</p>
 
