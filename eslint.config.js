@@ -7,22 +7,17 @@ export default [
   js.configs.recommended,
   ...pluginVue.configs['flat/essential'],
   {
-    files: ['scripts/**'],
-    languageOptions: {
-      globals: {
-        Event: 'readonly', Buffer: 'readonly', process: 'readonly', console: 'readonly' }
-    }
-  },
-  {
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',
       globals: {
         Event: 'readonly',
+        CustomEvent: 'readonly',
+        setTimeout: 'readonly',
+        clearTimeout: 'readonly',
         window: 'readonly',
         document: 'readonly',
         localStorage: 'readonly',
-        CustomEvent: 'readonly',
         FileReader: 'readonly',
         Blob: 'readonly',
         URL: 'readonly',
@@ -31,7 +26,6 @@ export default [
         navigator: 'readonly',
         SpeechSynthesisUtterance: 'readonly',
         speechSynthesis: 'readonly',
-        setTimeout: 'readonly',
         alert: 'readonly',
         require: 'readonly',
         process: 'readonly',
@@ -46,10 +40,27 @@ export default [
     }
   },
   {
+    files: ['scripts/**'],
+    languageOptions: {
+      globals: {
+        Buffer: 'readonly'
+      }
+    }
+  },
+  {
     files: ['tests/**'],
     languageOptions: {
       globals: {
-        Event: 'readonly', __dirname: 'readonly', require: 'readonly', module: 'readonly', process: 'readonly', console: 'readonly' }
+        Event: 'readonly',
+        CustomEvent: 'readonly',
+        setTimeout: 'readonly',
+        clearTimeout: 'readonly',
+        __dirname: 'readonly',
+        require: 'readonly',
+        module: 'readonly',
+        process: 'readonly',
+        console: 'readonly'
+      }
     },
     rules: {
       'no-unused-vars': 'off'

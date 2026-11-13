@@ -1,13 +1,17 @@
 /* ============================================================
-   services/tts.js —— 发音引擎封装（可靠性增强版）
-   播放优先级：系统 Web Speech API（speechSynthesis）→ meSpeak 离线合成 → 失败
-   - 语音加载可靠性：voiceschanged 监听 + 首次为空时轮询重试（最多 3 秒）
-   - Chrome 已知缺陷 workaround：speak 前 cancel() 清空队列 + resume()，
-     并延迟 150ms 再 speak，避免 utterance 入队后不出声
-   - meSpeak 离线兜底：speechSynthesis 不可用 / 无英语语音 / 播放失败时，
-     自动降级用 meSpeak 离线合成英语（en/en-us），生成 WAV data-url 播放
+   services/tts.js —— 发音引擎封装（离线优先版）
+   播放优先级：meSpeak 离线合成（程序自含，不依赖系统语音/网络）
+              → 系统 Web Speech API（speechSynthesis）兜底 → 失败
+   - 离线优先原因：
+     1) 国内环境 Chrome 的 Google 网络语音（如 Google US English）不可达，
+        合成静默失败并以 interrupted 错误收场——既无声也不报错；
+     2) Windows 本地语音多为中文（zh-CN），读英语效果差；
+     3) meSpeak 离线合成行为完全确定，配合 Web Audio 解锁即可稳定出声。
+   - Chrome 系统引擎缺陷 workaround：speak 前 cancel() 清空队列 + resume()，
+     并延迟 150ms 再 speak；utterance 未真正 onstart 就报 interrupted 时
+     视为「播放失败」而非用户停止，以便触发兜底。
    - speak() 返回 Promise<{ engine, started, voiceName, reason }>
-     engine 取值：system | offline | none
+     engine 取值：offline | system | none
    ============================================================ */
 
 let voicesCache = []
@@ -227,34 +231,51 @@ function speakWithSystem(text, voice, { rate = 0.85, pitch = 1, onStart, onEnd }
     utter.rate = rate
     utter.pitch = pitch
     let done = false
+    let started = false   // 是否真正开始发声（onstart 触发过）
     const finish = (ok) => { if (!done) { done = true; resolve(ok) } }
 
     utter.onstart = () => {
+      started = true
       console.info(`[TTS] 播放开始：${text.slice(0, 30)}`)
       try { onStart && onStart() } catch { /* ignore */ }
     }
     utter.onend = () => {
       console.info('[TTS] 播放结束')
       try { onEnd && onEnd() } catch { /* ignore */ }
-      finish(true)
+      _finish(true)
     }
     utter.onerror = (e) => {
       const err = e && (e.error || (e instanceof Error ? e.message : ''))
       if (err === 'canceled' || err === 'interrupted' || err === 'cancel' || err === 'interrupt') {
-        // 用户主动停止/切换：视为正常结束，不触发离线降级
-        console.info('[TTS] 播放被用户停止（' + err + '）')
-        try { onEnd && onEnd() } catch { /* ignore */ }
-        finish(true)
+        if (started) {
+          // 已开始后被打断：视为用户主动停止/切换，正常结束
+          console.info('[TTS] 播放被用户停止（' + err + '）')
+          try { onEnd && onEnd() } catch { /* ignore */ }
+          _finish(true)
+        } else {
+          // 从未开始就被打断（如 Google 网络语音在国内不可达）：
+          // 这是「播放失败」，必须返回 false 触发兜底引擎
+          console.warn('[TTS] 系统语音未开始即被打断（' + err + '），判定为播放失败：' + voice.name)
+          _finish(false)
+        }
       } else {
         console.warn('[TTS] 系统引擎播放失败：', err)
         try { onEnd && onEnd() } catch { /* ignore */ }
-        finish(false)
+        _finish(false)
       }
     }
 
     // Chrome 已知缺陷 workaround：先 cancel 清空队列，再 resume 唤醒
     try { window.speechSynthesis.cancel() } catch { /* ignore */ }
     try { window.speechSynthesis.resume() } catch { /* ignore */ }
+    // 看门狗：网络语音不可达时可能长时间无 onstart/onerror，超时判定失败以触发兜底
+    const watchdog = setTimeout(() => {
+      if (!started) {
+        console.warn('[TTS] 系统语音超时未开始（网络语音可能不可达），判定为播放失败')
+        finish(false)
+      }
+    }, 4000)
+    const _finish = (ok) => { clearTimeout(watchdog); finish(ok) }
     // 延迟 100~200ms 再 speak，避免 utterance 入队后不出声
     setTimeout(() => {
       try {
@@ -262,7 +283,7 @@ function speakWithSystem(text, voice, { rate = 0.85, pitch = 1, onStart, onEnd }
         console.info(`[TTS] 已调用 speak()：${text.slice(0, 30)} -> ${voice.name} (${voice.lang})`)
       } catch (e) {
         console.warn('[TTS] speak() 抛异常：', e && e.message)
-        finish(false)
+        _finish(false)
       }
     }, SPEAK_DELAY_MS)
   })
@@ -289,7 +310,15 @@ export async function speak(text, opts = {}) {
     return { engine: 'none', started: false, voiceName: null, reason: 'empty' }
   }
 
-  // 1) 系统引擎：等待语音列表就绪（最多 3 秒）并尝试英语语音
+  // 1) meSpeak 离线合成（主引擎）：程序自含发音，不依赖系统语音与网络
+  const offlineOk = await speakWithOffline(t, { rate, pitch, onStart, onEnd })
+  if (offlineOk) {
+    console.info('[TTS] 引擎选择=offline，语音=en/en-us（meSpeak），结果=成功')
+    return { engine: 'offline', started: true, voiceName: 'meSpeak en/en-us' }
+  }
+  console.warn('[TTS] meSpeak 离线合成不可用，尝试系统语音兜底')
+
+  // 2) 系统引擎兜底：等待语音列表就绪（最多 3 秒）并尝试英语语音
   if (isTtsSupported()) {
     await waitForVoices(VOICE_WAIT_TIMEOUT)
     const voice = getEnglishVoice()
@@ -299,24 +328,17 @@ export async function speak(text, opts = {}) {
         console.info(`[TTS] 引擎选择=system，语音=${voice.name} (${voice.lang})，结果=成功`)
         return { engine: 'system', started: true, voiceName: voice.name }
       }
-      console.warn('[TTS] 系统引擎播放失败，自动降级到 meSpeak 离线合成')
+      console.warn('[TTS] 系统引擎播放失败')
     } else {
-      console.warn('[TTS] 无系统英语语音，自动降级到 meSpeak 离线合成')
+      console.warn('[TTS] 无系统英语语音')
     }
   } else {
-    console.warn('[TTS] speechSynthesis 不可用，自动降级到 meSpeak 离线合成')
-  }
-
-  // 2) meSpeak 离线兜底
-  const offlineOk = await speakWithOffline(t, { rate, pitch, onStart, onEnd })
-  if (offlineOk) {
-    console.info('[TTS] 引擎选择=offline，语音=en/en-us（meSpeak），结果=成功')
-    return { engine: 'offline', started: true, voiceName: 'meSpeak en/en-us' }
+    console.warn('[TTS] speechSynthesis 不可用')
   }
 
   // 3) 彻底失败
-  console.error('[TTS] 播放失败：系统引擎与离线引擎均不可用')
-  try { onError && onError(new Error('TTS unavailable: no system voice and offline engine failed')) } catch { /* ignore */ }
+  console.error('[TTS] 播放失败：离线引擎与系统引擎均不可用')
+  try { onError && onError(new Error('TTS unavailable: offline engine failed and no usable system voice')) } catch { /* ignore */ }
   return { engine: 'none', started: false, voiceName: null, reason: 'no_engine' }
 }
 
