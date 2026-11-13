@@ -88,7 +88,7 @@ npm run preview
 
 4. 点 **Save and Deploy**，1~2 分钟后获得 `https://<项目名>.pages.dev`
 
-无需配置任何环境变量。`public/_headers` 会自动生效（构建产物长缓存 + `sw.js` 不缓存），`public/_redirects` 处理 404 回落。
+无需配置任何环境变量。`public/_headers` 会自动生效（构建产物长缓存 + `sw.js` 不缓存）。应用使用 hash 路由，所有导航都在 `/` 下，无需服务端 404 回落规则。
 
 **方式二：命令行直传（不接 GitHub）**
 
