@@ -23,6 +23,44 @@ const VOICE_WAIT_TIMEOUT = 3000   // 语音列表等待上限（毫秒）
 const SPEAK_DELAY_MS = 150        // Chrome 缺陷 workaround 延迟（毫秒）
 const VOICE_POLL_INTERVAL = 100   // 语音列表轮询间隔（毫秒）
 
+/* ---------- 声音性别偏好（男声/女声，本地记忆） ---------- */
+
+const GENDER_KEY = 'tts-voice-gender'   // localStorage 存储键
+export const VOICE_GENDERS = ['female', 'male']  // 支持的取值
+let voiceGender = null
+
+function loadVoiceGender() {
+  if (voiceGender) return voiceGender
+  try {
+    const g = localStorage.getItem(GENDER_KEY)
+    if (g === 'female' || g === 'male') voiceGender = g
+  } catch { /* localStorage 不可用时忽略 */ }
+  return voiceGender
+}
+
+/** 获取当前声音性别偏好：'female' | 'male' | null（未设置/默认） */
+export function getVoiceGender() {
+  return loadVoiceGender()
+}
+
+/** 设置声音性别偏好并持久化（'female' | 'male' | null 取消偏好） */
+export function setVoiceGender(gender) {
+  voiceGender = gender === 'female' || gender === 'male' ? gender : null
+  try {
+    if (voiceGender) localStorage.setItem(GENDER_KEY, voiceGender)
+    else localStorage.removeItem(GENDER_KEY)
+  } catch { /* ignore */ }
+  return voiceGender
+}
+
+// meSpeak 性别变体映射（eSpeak voice variants，内置在 mespeak 引擎中）
+// f2：自然女声；m3：清晰男声
+const OFFLINE_VARIANTS = { female: 'f2', male: 'm3' }
+
+/* 系统语音的性别启发式识别（按引擎名称猜测，Windows/macOS 常见语音名） */
+const FEMALE_NAME_RE = /female|zira|susan|hazel|samantha|karen|aria|jenny|sonia|eva|anna|kate|victoria|tessa|linda|heather|fiona|moira|tina|serena|allison|ava|nicky|joana|catherine|vicki/i
+const MALE_NAME_RE = /(?<![a-z])male|david|mark(?!us)|daniel|alex|fred|tom|george|ryan|guy|james|oliver|arthur|reed|rocko|grandpa|ralph|mohammad|aaron/i
+
 /* ---------- 语音加载可靠性 ---------- */
 
 function refreshVoices() {
@@ -88,21 +126,36 @@ export function isTtsSupported() {
   return typeof window !== 'undefined' && 'speechSynthesis' in window
 }
 
-/* 择优选择英语语音 */
-export function getEnglishVoice() {
+/* 择优选择英语语音（可按性别偏好过滤） */
+export function getEnglishVoice(preferGender) {
   refreshVoices()
   if (!voicesCache.length) {
     console.warn('[TTS] 语音列表为空（浏览器语音引擎可能尚未加载完成）')
     return null
   }
+  const gender = preferGender || loadVoiceGender()
   const lower = (v) => (v.lang || '').toLowerCase()
   const isEn = (v) => lower(v).startsWith('en')
-  const preferred = voicesCache.find((v) => lower(v) === 'en-us' || lower(v) === 'en_us')
-    || voicesCache.find((v) => lower(v) === 'en-gb' || lower(v) === 'en_gb')
-    || voicesCache.find((v) => isEn(v))
-    || voicesCache.find((v) => /^en/i.test(v.name))
+  const enVoices = voicesCache.filter((v) => isEn(v) || /^en/i.test(v.name))
+  const pool = enVoices.length ? enVoices : voicesCache
+
+  // 按性别偏好优先筛选（按名称启发式猜测，猜不出则退回全部候选）
+  let candidates = pool
+  if (gender === 'female') {
+    const matched = pool.filter((v) => FEMALE_NAME_RE.test(v.name))
+    if (matched.length) candidates = matched
+  } else if (gender === 'male') {
+    const matched = pool.filter((v) => !FEMALE_NAME_RE.test(v.name) && MALE_NAME_RE.test(v.name))
+    if (matched.length) candidates = matched
+  }
+
+  const isEnOf = (v) => isEn(v) || /^en/i.test(v.name)
+  const preferred = candidates.find((v) => lower(v) === 'en-us' || lower(v) === 'en_us')
+    || candidates.find((v) => lower(v) === 'en-gb' || lower(v) === 'en_gb')
+    || candidates.find(isEnOf)
+    || candidates.find((v) => /^en/i.test(v.name))
   if (preferred) {
-    console.info(`[TTS] 英语语音选择：${preferred.name} (${preferred.lang})`)
+    console.info(`[TTS] 英语语音选择：${preferred.name} (${preferred.lang})${gender ? `，性别偏好=${gender}` : ''}`)
   } else {
     console.warn('[TTS] 未找到英语语音，可用语音：', voicesCache.map((v) => `${v.name}(${v.lang})`).join(', '))
   }
@@ -178,13 +231,15 @@ async function loadOfflineEngine() {
   return offlineEnginePromise
 }
 
-async function speakWithOffline(text, { rate = 0.85, onStart, onEnd }) {
+async function speakWithOffline(text, { rate = 0.85, gender, onStart, onEnd }) {
   const ms = await loadOfflineEngine()
   if (!ms) return false
   try {
+    const variant = OFFLINE_VARIANTS[gender] || ''
     const wav = ms.speak(text, {
       rawdata: 'data-url',
       voice: 'en/en-us',
+      variant: variant || undefined,
       amplitude: 80,
       pitch: 45,
       speed: Math.round(175 - rate * 40),
@@ -299,8 +354,9 @@ function speakWithSystem(text, voice, { rate = 0.85, pitch = 1, onStart, onEnd }
  */
 export async function speak(text, opts = {}) {
   const t = String(text == null ? '' : text).trim()
-  const { rate = 0.85, pitch = 1, onStart, onEnd, onError } = opts
+  const { rate = 0.85, pitch = 1, gender, onStart, onEnd, onError } = opts
   userStopped = false
+  const genderPref = gender === 'female' || gender === 'male' ? gender : loadVoiceGender()
 
   // 在用户手势内同步解锁 Web Audio（修复 meSpeak 离线合成无声问题）
   ensurePrimeAudio()
@@ -311,17 +367,17 @@ export async function speak(text, opts = {}) {
   }
 
   // 1) meSpeak 离线合成（主引擎）：程序自含发音，不依赖系统语音与网络
-  const offlineOk = await speakWithOffline(t, { rate, pitch, onStart, onEnd })
+  const offlineOk = await speakWithOffline(t, { rate, pitch, gender: genderPref, onStart, onEnd })
   if (offlineOk) {
-    console.info('[TTS] 引擎选择=offline，语音=en/en-us（meSpeak），结果=成功')
-    return { engine: 'offline', started: true, voiceName: 'meSpeak en/en-us' }
+    console.info(`[TTS] 引擎选择=offline，语音=en/en-us${genderPref ? `+${OFFLINE_VARIANTS[genderPref]}` : ''}（meSpeak），结果=成功`)
+    return { engine: 'offline', started: true, voiceName: `meSpeak en/en-us${genderPref ? ` (${genderPref === 'male' ? '男声' : '女声'})` : ''}` }
   }
   console.warn('[TTS] meSpeak 离线合成不可用，尝试系统语音兜底')
 
   // 2) 系统引擎兜底：等待语音列表就绪（最多 3 秒）并尝试英语语音
   if (isTtsSupported()) {
     await waitForVoices(VOICE_WAIT_TIMEOUT)
-    const voice = getEnglishVoice()
+    const voice = getEnglishVoice(genderPref)
     if (voice) {
       const started = await speakWithSystem(t, voice, { rate, pitch, onStart, onEnd })
       if (started) {

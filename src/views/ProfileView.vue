@@ -44,6 +44,28 @@
       </div>
     </div>
 
+    <!-- 发音声音：男声 / 女声 -->
+    <div class="card profile-voice">
+      <h2 class="card-title">发音声音</h2>
+      <p class="data-tip">切换单词与例句的朗读声（内置离线发音，无需联网），点击后立即生效并试听。</p>
+      <div class="voice-grid">
+        <button
+          v-for="g in VOICE_OPTIONS"
+          :key="g.value"
+          class="voice-item"
+          :class="{ active: currentGender === g.value }"
+          @click="chooseVoice(g.value)"
+        >
+          <div class="voice-icon">{{ g.value === 'male' ? '👨' : '👩' }}</div>
+          <div class="voice-name">{{ g.label }}</div>
+          <div class="voice-desc">{{ g.desc }}</div>
+        </button>
+      </div>
+      <button class="btn btn-soft preview-btn" :disabled="previewing" @click="previewVoice">
+        {{ previewing ? '播放中…' : '🔊 试听当前声音' }}
+      </button>
+    </div>
+
     <!-- 数据管理：导出 / 导入用户进度 -->
     <div class="card profile-data">
       <h2 class="card-title">数据管理</h2>
@@ -83,6 +105,7 @@ import { useAuthStore } from '../stores/auth'
 import { useProgressStore } from '../stores/progress'
 import { useThemeStore, THEMES } from '../stores/theme'
 import { exportUserDataJson, importUserData } from '../services/storage'
+import { speak, stopSpeak, getVoiceGender, setVoiceGender } from '../services/tts'
 
 const router = useRouter()
 const auth = useAuthStore()
@@ -118,6 +141,35 @@ function swatchStyle(id) {
 function saveProfile() {
   auth.updateProfile({ nickname: nickname.value, avatar: avatar.value })
   alert('资料已保存')
+}
+
+/* ---------- 发音声音切换 ---------- */
+
+const VOICE_OPTIONS = [
+  { value: 'female', label: '女声', desc: '清晰自然女声' },
+  { value: 'male', label: '男声', desc: '沉稳标准男声' }
+]
+
+const currentGender = ref(getVoiceGender() || 'female')
+const previewing = ref(false)
+
+function chooseVoice(gender) {
+  currentGender.value = setVoiceGender(gender) || gender
+  previewVoice()
+}
+
+async function previewVoice() {
+  if (previewing.value) {
+    stopSpeak()
+    previewing.value = false
+    return
+  }
+  previewing.value = true
+  try {
+    await speak('Hello! This is my English voice.', { rate: 0.85 })
+  } finally {
+    previewing.value = false
+  }
 }
 
 /* 导出用户进度：下载 JSON 备份文件 */
@@ -186,9 +238,51 @@ function doLogout() {
 
 .profile-card,
 .profile-theme,
+.profile-voice,
 .profile-links,
 .profile-data {
   margin-bottom: var(--space-md);
+}
+
+.voice-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-sm);
+}
+
+.voice-item {
+  border: 2px solid var(--c-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-sm);
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.15s;
+  background: var(--c-bg-card);
+}
+
+.voice-item.active {
+  border-color: var(--c-primary);
+}
+
+.voice-icon {
+  font-size: 28px;
+  line-height: 1;
+  margin-bottom: var(--space-xs);
+}
+
+.voice-name {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.voice-desc {
+  font-size: 12px;
+  color: var(--c-text-muted);
+  margin-top: 2px;
+}
+
+.preview-btn {
+  margin-top: var(--space-sm);
 }
 
 .data-tip {
@@ -330,6 +424,10 @@ function doLogout() {
 
 @media (max-width: 767px) {
   .theme-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .voice-grid {
     grid-template-columns: 1fr;
   }
 }
