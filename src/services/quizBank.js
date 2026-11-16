@@ -9,7 +9,7 @@ import { getGrammarUnitById } from '../data/grammar'
 import { L5_THEMES } from '../data/words_l5'
 import { getL6ListeningById } from '../data/listening_l6'
 import { getArticleById } from '../data/reading_l7'
-import { getSimulationById } from '../data/simulation_l8'
+import { getSimulationById, L8_ACADEMIC_WORDS } from '../data/simulation_l8'
 
 export function shuffle(arr) {
   const a = arr.slice()
@@ -29,6 +29,27 @@ function makeWordChoice(word, zhPool) {
     options,
     answer: options.indexOf(word.zh),
     explain: `${word.word} ${word.ipa || ''}，${word.zh}`
+  }
+}
+
+/* 例句填空题生成器（cloze）：把例句中的目标词挖空选词填入 */
+function escapeReg(s) {
+  return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
+function makeCloze(word, wordPool) {
+  if (!word.example) return null
+  const re = new RegExp(`\\b${escapeReg(word.word)}\\b`, 'i')
+  if (!re.test(word.example)) return null
+  const blanked = word.example.replace(re, '______')
+  const distractors = shuffle(wordPool.filter((w) => w.word !== word.word)).slice(0, 3).map((w) => w.word)
+  if (distractors.length < 3) return null
+  const options = shuffle([word.word, ...distractors])
+  return {
+    q: `选词填空：${blanked}`,
+    options,
+    answer: options.indexOf(word.word),
+    explain: `${word.zh} —— ${word.example}`
   }
 }
 
@@ -58,7 +79,11 @@ export function collectLevelQuestions(progress, level) {
       // stage.content.pool 为 l2_* 前缀键，须经 getPoolData 映射到 WORDS_L2 实际词池
       const words = getPoolData(st.content.pool) || []
       const zhPool = words.map((w) => w.zh)
-      words.forEach((w) => qs.push(makeWordChoice(w, zhPool)))
+      words.forEach((w) => {
+        qs.push(makeWordChoice(w, zhPool))
+        const cloze = makeCloze(w, getPoolData(st.content.pool) || [])
+        if (cloze) qs.push(cloze)
+      })
     } else if (level === 3) {
       const d = DIALOGUES_L3.find((x) => x.id === st.content.scene)
       if (!d) return
@@ -83,7 +108,11 @@ export function collectLevelQuestions(progress, level) {
       const theme = L5_THEMES.find((t) => t.id === st.content.pool)
       if (!theme) return
       const zhPool = theme.words.map((w) => w.zh)
-      theme.words.forEach((w) => qs.push(makeWordChoice(w, zhPool)))
+      theme.words.forEach((w) => {
+        qs.push(makeWordChoice(w, zhPool))
+        const cloze = makeCloze(w, theme.words)
+        if (cloze) qs.push(cloze)
+      })
     } else if (level === 6) {
       const m = getL6ListeningById(st.content.script)
       if (!m) return
@@ -96,6 +125,11 @@ export function collectLevelQuestions(progress, level) {
       const sim = getSimulationById(st.content.simulation)
       if (!sim) return
       sim.questions.forEach((q) => qs.push({ q: q.q, options: q.options, answer: q.answer, explain: '仿真题题型训练' }))
+      // 学术词汇例句填空（L8_ACADEMIC_WORDS 带例句）
+      L8_ACADEMIC_WORDS.forEach((w) => {
+        const cloze = makeCloze(w, L8_ACADEMIC_WORDS)
+        if (cloze) qs.push(cloze)
+      })
     }
   })
   return qs

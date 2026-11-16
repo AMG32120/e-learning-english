@@ -33,6 +33,11 @@
             开始训练（{{ Math.min(10, poolSize || 0) }} 词）
           </button>
           <p v-if="!poolSize" class="setup-hint">词池为空：先闯关学习或收藏生词，再来训练。</p>
+          <div class="more-links">
+            <router-link class="more-link" to="/flashcards">🃏 卡片快刷</router-link>
+            <router-link class="more-link" to="/shadow">🎙️ 跟读对比</router-link>
+            <router-link class="more-link" to="/vocabtest">📏 词汇量测试</router-link>
+          </div>
         </div>
       </section>
 
@@ -410,6 +415,24 @@ onMounted(() => {
   color: var(--c-text-muted);
   margin-top: 10px;
   text-align: center;
+}
+
+.more-links {
+  display: flex;
+  gap: var(--space-sm);
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: var(--space-md);
+}
+
+.more-link {
+  font-size: 13px;
+  color: var(--c-primary);
+  text-decoration: none;
+  background: var(--c-bg-soft);
+  border: 1px solid var(--c-border);
+  border-radius: 16px;
+  padding: 6px 12px;
 }
 
 .btn-block {

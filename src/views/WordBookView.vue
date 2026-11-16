@@ -37,9 +37,12 @@
               <button class="wb-icon-btn" title="移出生词本" @click="remove(e.itemKey)">✕</button>
             </div>
           </div>
-          <button class="btn btn-primary btn-block wb-bottom-btn" @click="startSpell">
-            练一练这些生词（拼写模式）
-          </button>
+          <div class="wb-extra-actions">
+            <router-link class="btn btn-soft" to="/flashcards">🃏 卡片快刷</router-link>
+            <button class="btn btn-primary wb-bottom-btn" @click="startSpell">
+              练一练这些生词（拼写模式）
+            </button>
+          </div>
         </template>
       </section>
 
@@ -313,8 +316,15 @@ onMounted(() => {
   color: var(--c-danger, #ef4444);
 }
 
-.wb-bottom-btn {
+.wb-extra-actions {
   margin-top: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.wb-bottom-btn {
+  width: 100%;
 }
 
 /* 错题列表 */

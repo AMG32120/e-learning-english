@@ -93,6 +93,24 @@ const routes = [
     meta: { title: 'AI 对话陪练' }
   },
   {
+    path: '/flashcards',
+    name: 'flashcards',
+    component: () => import('../views/FlashcardView.vue'),
+    meta: { title: '卡片快刷' }
+  },
+  {
+    path: '/vocabtest',
+    name: 'vocabtest',
+    component: () => import('../views/VocabTestView.vue'),
+    meta: { title: '词汇量测试' }
+  },
+  {
+    path: '/shadow',
+    name: 'shadow',
+    component: () => import('../views/ShadowingView.vue'),
+    meta: { title: '跟读对比' }
+  },
+  {
     path: '/profile',
     name: 'profile',
     component: () => import('../views/ProfileView.vue'),

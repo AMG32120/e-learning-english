@@ -84,6 +84,13 @@
         </div>
       </div>
       <div v-else class="chart-empty">完成关卡后这里会出现词汇量增长曲线</div>
+
+      <div class="vocab-test-row">
+        <router-link class="btn btn-soft" to="/vocabtest">📏 测测词汇量</router-link>
+        <span v-if="lastVocabEstimate" class="vocab-est">
+          上次估算：约 <strong>{{ lastVocabEstimate.value }}</strong> 词
+        </span>
+      </div>
     </div>
 
     <!-- 各等级进度 -->
@@ -251,6 +258,11 @@ const vocabGrowth = computed(() => {
   const history = (progress.data && progress.data.stats && progress.data.stats.vocabHistory) || []
   if (history.length < 2) return 0
   return history[history.length - 1].count - history[0].count
+})
+
+const lastVocabEstimate = computed(() => {
+  const list = (progress.data && progress.data.stats && progress.data.stats.vocabEstimates) || []
+  return list.length ? list[list.length - 1] : null
 })
 
 function badgeLabel(id) {
@@ -424,6 +436,23 @@ function badgeLabel(id) {
   color: var(--c-text-muted);
   text-align: center;
   padding: 16px 0;
+}
+
+.vocab-test-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-top: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.vocab-est {
+  font-size: 13px;
+  color: var(--c-text-secondary);
+}
+
+.vocab-est strong {
+  color: var(--c-primary);
 }
 
 .checkin-week {
