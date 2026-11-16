@@ -69,7 +69,7 @@
     <!-- 数据管理：导出 / 导入用户进度 -->
     <div class="card profile-data">
       <h2 class="card-title">数据管理</h2>
-      <p class="data-tip">学习进度以 JSON 文件形式导出备份，也可从备份文件导入恢复（仅限同一账号）。</p>
+      <p class="data-tip">学习进度可导出为 JSON 文件备份，也可生成同步码/二维码在设备之间迁移（仅限同一账号）。</p>
       <div class="data-actions">
         <button class="btn btn-primary" @click="doExport">导出进度</button>
         <label class="btn btn-soft import-btn">
@@ -77,6 +77,9 @@
           <input ref="importInput" type="file" accept=".json,application/json" @change="doImport" />
         </label>
       </div>
+      <button class="btn btn-ghost btn-block sync-entry" @click="router.push('/sync')">
+        📱 跨设备同步（同步码 / 二维码）
+      </button>
       <div class="import-mode" v-if="showImportMode">
         <p class="data-tip">检测到当前账号已有学习进度，请选择导入方式：</p>
         <div class="data-actions">
@@ -307,6 +310,10 @@ function doLogout() {
 
 .import-btn input[type='file'] {
   display: none;
+}
+
+.sync-entry {
+  margin-top: var(--space-xs);
 }
 
 .import-mode {

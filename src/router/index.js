@@ -111,6 +111,12 @@ const routes = [
     meta: { title: '跟读对比' }
   },
   {
+    path: '/sync',
+    name: 'sync',
+    component: () => import('../views/SyncView.vue'),
+    meta: { title: '跨设备同步' }
+  },
+  {
     path: '/profile',
     name: 'profile',
     component: () => import('../views/ProfileView.vue'),

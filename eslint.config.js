@@ -3,7 +3,7 @@ import js from '@eslint/js'
 import pluginVue from 'eslint-plugin-vue'
 
 export default [
-  { ignores: ['dist/**', 'node_modules/**', 'tests/shots/**', 'tests/smoke.bundle.cjs'] },
+  { ignores: ['dist/**', 'node_modules/**', 'tests/shots/**', 'tests/*.cjs'] },
   js.configs.recommended,
   ...pluginVue.configs['flat/essential'],
   {
@@ -22,6 +22,12 @@ export default [
         Blob: 'readonly',
         URL: 'readonly',
         TextEncoder: 'readonly',
+        TextDecoder: 'readonly',
+        Response: 'readonly',
+        CompressionStream: 'readonly',
+        DecompressionStream: 'readonly',
+        atob: 'readonly',
+        btoa: 'readonly',
         crypto: 'readonly',
         navigator: 'readonly',
         SpeechSynthesisUtterance: 'readonly',
@@ -76,7 +82,8 @@ export default [
         require: 'readonly',
         module: 'readonly',
         process: 'readonly',
-        console: 'readonly'
+        console: 'readonly',
+        Buffer: 'readonly'
       }
     },
     rules: {

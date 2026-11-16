@@ -126,6 +126,12 @@ export const useAuthStore = defineStore('auth', {
       this.userData = null
     },
 
+    /* 从本地存储重新读取登录态与用户数据（同步码导入等外部写入后调用） */
+    refresh() {
+      this.session = getSession()
+      this._loadUserData()
+    },
+
     /* 更新个人资料 */
     updateProfile({ nickname, avatar }) {
       if (!this.userData) return

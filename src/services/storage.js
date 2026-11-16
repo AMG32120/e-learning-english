@@ -213,16 +213,65 @@ export function mergeUserData(base, incoming) {
   // 统计合并：题数/正确数/复习次数取较高值，掌握词取并集，每日一句取较新
   const sa = base.stats || def.stats
   const sb = incoming.stats || def.stats
+
+  // 每日学习统计：按日期累加（两台设备的学习量应相加）
+  const daily = {}
+  for (const src of [sa.daily || {}, sb.daily || {}]) {
+    for (const [key, day] of Object.entries(src)) {
+      const target = daily[key] || {}
+      for (const [field, v] of Object.entries(day || {})) {
+        target[field] = (target[field] || 0) + (Number(v) || 0)
+      }
+      daily[key] = target
+    }
+  }
+
+  // 词汇量曲线：按日期合并取较大值，并按日期排序
+  const vocabMap = new Map()
+  for (const item of [...(sa.vocabHistory || []), ...(sb.vocabHistory || [])]) {
+    if (!item || !item.date) continue
+    const prev = vocabMap.get(item.date)
+    if (!prev || (item.count || 0) > (prev.count || 0)) vocabMap.set(item.date, item)
+  }
+  const vocabHistory = [...vocabMap.values()].sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0))
+
+  // 词汇量估算记录：按日期去重
+  const estMap = new Map()
+  for (const item of [...(sa.vocabEstimates || []), ...(sb.vocabEstimates || [])]) {
+    if (!item || !item.date) continue
+    estMap.set(item.date, item)
+  }
+  const vocabEstimates = [...estMap.values()].sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0)).slice(-20)
+
   merged.stats = {
     quizCount: Math.max(sa.quizCount || 0, sb.quizCount || 0),
     quizCorrect: Math.max(sa.quizCorrect || 0, sb.quizCorrect || 0),
     reviewDone: Math.max(sa.reviewDone || 0, sb.reviewDone || 0),
     masteredWords: [...new Set([...(sa.masteredWords || []), ...(sb.masteredWords || [])])],
+    daily,
+    vocabHistory,
+    vocabEstimates,
     dailySentence:
       (sa.dailySentence && sb.dailySentence && sa.dailySentence.date >= sb.dailySentence.date
         ? sa.dailySentence
         : sb.dailySentence) || { date: '', key: '' }
   }
+
+  // 生词本：按 itemKey 并集
+  merged.wordbook = [...new Set([...(base.wordbook || []), ...(incoming.wordbook || [])])]
+
+  // 错题本：按 id 去重（同题以未消化状态为准），最多保留 100 条（新题在前）
+  const mistakeMap = new Map()
+  for (const m of [...(base.mistakes || []), ...(incoming.mistakes || [])]) {
+    if (!m || !m.id) continue
+    const prev = mistakeMap.get(m.id)
+    if (!prev) mistakeMap.set(m.id, m)
+    else if (prev.resolved && !m.resolved) mistakeMap.set(m.id, m)
+  }
+  merged.mistakes = [...mistakeMap.values()]
+    .sort((a, b) => (b.at || 0) - (a.at || 0))
+    .slice(0, 100)
+
   return merged
 }
 
