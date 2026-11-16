@@ -559,6 +559,14 @@ function choose(k) {
     correctCount.value += 1
   } else {
     progress.addToReviewPool([`${stage.value.id}:${current.value.answer}`])
+    // 错题快照进入错题本
+    progress.addMistake({
+      q: current.value.prompt || '关卡练习',
+      options: current.value.options || [],
+      answerKey: current.value.answer,
+      explain: '',
+      source: stage.value.title || stage.value.id || '关卡练习'
+    })
   }
 }
 

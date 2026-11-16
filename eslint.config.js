@@ -26,6 +26,8 @@ export default [
         navigator: 'readonly',
         SpeechSynthesisUtterance: 'readonly',
         speechSynthesis: 'readonly',
+        fetch: 'readonly',
+        AbortController: 'readonly',
         alert: 'readonly',
         require: 'readonly',
         process: 'readonly',

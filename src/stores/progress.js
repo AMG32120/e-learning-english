@@ -9,6 +9,7 @@
 import { defineStore } from 'pinia'
 import { LEVELS, getStageById, getStageWords, getLevel, LEVEL_UNLOCK_RATIO } from '../data/levels'
 import { getUserData, saveUserData } from '../services/storage'
+import { findWord } from '../services/dictionary'
 import { useAuthStore } from './auth'
 
 function pad(n) {
@@ -177,6 +178,27 @@ export const useProgressStore = defineStore('progress', {
       return n
     },
 
+    /* ---------- 生词本 / 错题本 ---------- */
+
+    wordbookCount(s) {
+      return s.data && Array.isArray(s.data.wordbook) ? s.data.wordbook.length : 0
+    },
+
+    /* 未消化的错题数（重练答对后移除） */
+    mistakeCount(s) {
+      return s.data && Array.isArray(s.data.mistakes)
+        ? s.data.mistakes.filter((m) => !m.resolved).length
+        : 0
+    },
+
+    /* 生词本条目（附带词条信息，含已删除词条的容错） */
+    wordbookEntries(s) {
+      if (!s.data || !Array.isArray(s.data.wordbook)) return []
+      return s.data.wordbook
+        .map((key) => ({ itemKey: key, ...findWord(key) }))
+        .filter((e) => e.word)
+    },
+
     /* 累计复习完成次数 */
     reviewDoneCount(s) {
       return s.data && s.data.stats ? s.data.stats.reviewDone || 0 : 0
@@ -241,6 +263,116 @@ export const useProgressStore = defineStore('progress', {
       this.data.stats = this.data.stats || { quizCount: 0, quizCorrect: 0, dailySentence: { date: '', key: '' }, masteredWords: [], reviewDone: 0 }
       if (!Array.isArray(this.data.stats.masteredWords)) this.data.stats.masteredWords = []
       if (typeof this.data.stats.reviewDone !== 'number') this.data.stats.reviewDone = 0
+      if (!this.data.stats.daily || typeof this.data.stats.daily !== 'object') this.data.stats.daily = {}
+      if (!Array.isArray(this.data.stats.vocabHistory)) this.data.stats.vocabHistory = []
+    },
+
+    _ensureWordbook() {
+      if (!this.data) return
+      if (!Array.isArray(this.data.wordbook)) this.data.wordbook = []
+    },
+
+    _ensureMistakes() {
+      if (!this.data) return
+      if (!Array.isArray(this.data.mistakes)) this.data.mistakes = []
+    },
+
+    /* ---------- 每日学习统计（拼写/听写/测验/关卡/复习） ---------- */
+
+    recordDaily(field, n = 1) {
+      if (!this.data) return
+      this._ensureStats()
+      const key = todayKey()
+      const day = this.data.stats.daily[key] || { stage: 0, quiz: 0, quizCorrect: 0, review: 0, spell: 0, dict: 0 }
+      day[field] = (day[field] || 0) + n
+      this.data.stats.daily[key] = day
+    },
+
+    /* 词汇量快照（增长曲线用；同日覆盖，数量变化才记录） */
+    snapshotVocab() {
+      if (!this.data) return
+      this._ensureStats()
+      const count = this.data.stats.masteredWords.length
+      const h = this.data.stats.vocabHistory
+      const t = todayKey()
+      if (h.length && h[h.length - 1].date === t) {
+        h[h.length - 1].count = count
+        return
+      }
+      if (h.length && h[h.length - 1].count === count) return
+      h.push({ date: t, count })
+    },
+
+    /* ---------- 生词本 ---------- */
+
+    isInWordbook(itemKey) {
+      return !!(this.data && Array.isArray(this.data.wordbook) && this.data.wordbook.includes(itemKey))
+    },
+
+    /* 收藏/取消收藏生词；返回收藏后状态 */
+    toggleWordbook(itemKey) {
+      if (!this.data) return false
+      this._ensureWordbook()
+      const arr = this.data.wordbook
+      const i = arr.indexOf(itemKey)
+      if (i >= 0) {
+        arr.splice(i, 1)
+        this._persist()
+        return false
+      }
+      arr.push(itemKey)
+      this._persist()
+      return true
+    },
+
+    /* ---------- 错题本 ---------- */
+
+    /**
+     * 收录错题快照（重复题去重；上限 100 条）
+     * @param {{q:string, options:Array<{key,label}>, answerKey, explain?:string, source?:string}} snap
+     */
+    addMistake(snap) {
+      if (!this.data || !snap || !snap.q) return
+      this._ensureMistakes()
+      const list = this.data.mistakes
+      if (list.some((m) => !m.resolved && m.q === snap.q)) return
+      list.unshift({
+        id: `${Date.now()}_${Math.floor(Math.random() * 10000)}`,
+        q: snap.q,
+        options: Array.isArray(snap.options) ? snap.options : [],
+        answerKey: snap.answerKey,
+        explain: snap.explain || '',
+        source: snap.source || '',
+        addedAt: Date.now(),
+        resolved: false
+      })
+      while (list.length > 100) list.pop()
+      this._persist()
+    },
+
+    removeMistake(id) {
+      if (!this.data) return
+      this._ensureMistakes()
+      this.data.mistakes = this.data.mistakes.filter((m) => m.id !== id)
+      this._persist()
+    },
+
+    /* 错题重练答对：标记已消化 */
+    resolveMistake(id) {
+      if (!this.data) return
+      this._ensureMistakes()
+      const m = this.data.mistakes.find((x) => x.id === id)
+      if (m) {
+        m.resolved = true
+        this._persist()
+      }
+    },
+
+    clearResolvedMistakes() {
+      if (!this.data) return
+      this._ensureMistakes()
+      this.data.mistakes = this.data.mistakes.filter((m) => !m.resolved)
+      this._persist()
     },
 
     /* 徽章规则评估：按 PLAN §3.5 的 16 项规则全量触发 */
@@ -316,6 +448,8 @@ export const useProgressStore = defineStore('progress', {
           }
         }
       }
+      this.recordDaily('stage', 1)
+      this.snapshotVocab()
 
       // 推荐关卡推进：若下一关存在则推荐下一关
       const next = getLevel(stage.level).stages.find((st) => st.stage === stage.stage + 1)
@@ -390,6 +524,9 @@ export const useProgressStore = defineStore('progress', {
       }
       this._ensureStats()
       this.data.stats.reviewDone += 1
+      this.recordDaily('review', 1)
+      this.recordDaily('quizCorrect', 1)
+      this.recordDaily('quiz', 1)
       this._touchCheckin()
       this._evaluateBadges()
       this._persist()
@@ -414,6 +551,12 @@ export const useProgressStore = defineStore('progress', {
       this._ensureStats()
       this.data.stats.quizCount += total
       this.data.stats.quizCorrect += correct
+      if (total > 0) {
+        this.recordDaily('quiz', total)
+        this.recordDaily('quizCorrect', correct)
+        this._touchCheckin()
+        this._evaluateBadges()
+      }
       this._persist()
     },
 

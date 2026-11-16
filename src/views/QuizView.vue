@@ -155,6 +155,14 @@ function pick(oi) {
     correct.value += 1
   } else {
     progress.addToReviewPool([`quiz-${index.value}-${Date.now() % 100000}`])
+    // 错题快照进入错题本
+    progress.addMistake({
+      q: current.value.q,
+      options: current.value.options.map((label, i) => ({ key: i, label })),
+      answerKey: current.value.answer,
+      explain: current.value.explain || '',
+      source: '随机测验'
+    })
   }
 }
 

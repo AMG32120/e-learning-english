@@ -75,6 +75,24 @@ const routes = [
     meta: { title: '等级综合测验' }
   },
   {
+    path: '/wordbook',
+    name: 'wordbook',
+    component: () => import('../views/WordBookView.vue'),
+    meta: { title: '生词本与错题本' }
+  },
+  {
+    path: '/practice',
+    name: 'practice',
+    component: () => import('../views/PracticeView.vue'),
+    meta: { title: '训练场' }
+  },
+  {
+    path: '/chat',
+    name: 'chat',
+    component: () => import('../views/ChatView.vue'),
+    meta: { title: 'AI 对话陪练' }
+  },
+  {
     path: '/profile',
     name: 'profile',
     component: () => import('../views/ProfileView.vue'),

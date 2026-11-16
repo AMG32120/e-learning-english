@@ -5,6 +5,9 @@
       <div class="top-nav-links">
         <router-link to="/" class="top-nav-link">首页</router-link>
         <router-link to="/map" class="top-nav-link">闯关地图</router-link>
+        <router-link to="/practice" class="top-nav-link">训练场</router-link>
+        <router-link to="/chat" class="top-nav-link">AI 陪练</router-link>
+        <router-link to="/wordbook" class="top-nav-link">生词本</router-link>
         <router-link to="/progress" class="top-nav-link">学习进度</router-link>
         <router-link to="/profile" class="top-nav-link">个人中心</router-link>
       </div>
