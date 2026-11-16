@@ -111,6 +111,18 @@ const routes = [
     meta: { title: '跟读对比' }
   },
   {
+    path: '/listen',
+    name: 'listen',
+    component: () => import('../views/ListenView.vue'),
+    meta: { title: '磨耳朵' }
+  },
+  {
+    path: '/report',
+    name: 'report',
+    component: () => import('../views/ReportView.vue'),
+    meta: { title: '学习周报' }
+  },
+  {
     path: '/sync',
     name: 'sync',
     component: () => import('../views/SyncView.vue'),

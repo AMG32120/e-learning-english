@@ -37,6 +37,7 @@
             <router-link class="more-link" to="/flashcards">🃏 卡片快刷</router-link>
             <router-link class="more-link" to="/shadow">🎙️ 跟读对比</router-link>
             <router-link class="more-link" to="/vocabtest">📏 词汇量测试</router-link>
+            <router-link class="more-link" to="/listen">🎧 磨耳朵</router-link>
           </div>
         </div>
       </section>
@@ -295,7 +296,7 @@ function reveal() {
   if (ok) {
     correctCount.value += 1
   } else {
-    progress.addToReviewPool([`practice:${current.value.word}`])
+    progress.addToReviewPool([current.value.word])
   }
   recordDailyMode(ok)
 }

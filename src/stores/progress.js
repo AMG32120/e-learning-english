@@ -1,4 +1,4 @@
-﻿/* ============================================================
+/* ============================================================
    stores/progress.js —— 闯关进度 / 打卡 / 复习池 / 徽章状态
    按账号隔离：仅操作当前登录用户的 user_<username> 数据。
    解锁逻辑（动态推导，不冗余存储）：
@@ -24,6 +24,14 @@ function addDays(base, n) {
   const d = new Date(base)
   d.setDate(d.getDate() + n)
   return d
+}
+
+/* 单日学习量口径：题目/拼写/听写/复习次数；关卡本身按 5 题折算（未记录题数时） */
+export function dailyVolume(rec) {
+  if (!rec) return 0
+  const direct = (rec.quiz || 0) + (rec.spell || 0) + (rec.dict || 0) + (rec.review || 0)
+  if (direct > 0) return direct
+  return (rec.stage || 0) * 5
 }
 
 /* ---------- 徽章规则表（PLAN §3.5） ---------- */
@@ -204,6 +212,71 @@ export const useProgressStore = defineStore('progress', {
       return s.data && s.data.stats ? s.data.stats.reviewDone || 0 : 0
     },
 
+    /* ---------- 每日目标 / 学习量 ---------- */
+
+    /* 每日目标题/词次；0 表示不设目标 */
+    dailyGoal: (s) => (s.data && typeof s.data.dailyGoal === 'number' ? s.data.dailyGoal : 20),
+
+    /* 今日学习明细 */
+    todayStats(s) {
+      const empty = { stage: 0, quiz: 0, quizCorrect: 0, review: 0, spell: 0, dict: 0, flash: 0 }
+      if (!s.data || !s.data.stats || !s.data.stats.daily) return empty
+      return { ...empty, ...(s.data.stats.daily[todayKey()] || {}) }
+    },
+
+    /* 今日学习量（做题 + 拼写 + 听写 + 复习；关卡按 5 题折算） */
+    todayStudyCount() {
+      return dailyVolume(this.todayStats)
+    },
+
+    /* 今日目标进度 0-100 */
+    todayGoalPercent() {
+      const goal = this.dailyGoal
+      if (!goal) return 0
+      return Math.min(100, Math.round((this.todayStudyCount / goal) * 100))
+    },
+
+    /* ---------- 易错词分析 ---------- */
+
+    /* 易错词排行：[{ itemKey, word, zh, ipa, wrongCount }]，按错误次数降序 */
+    errorWordRanking(s) {
+      if (!s.data) return []
+      const map = new Map()
+      // 1) 复习池的 wrongCount 是主要来源
+      for (const [key, item] of Object.entries(s.data.reviewPool || {})) {
+        const info = findWord(key)
+        if (!info) continue
+        const prev = map.get(info.word) || { itemKey: key, word: info.word, zh: info.zh, ipa: info.ipa, wrongCount: 0 }
+        prev.wrongCount += item.wrongCount || 1
+        map.set(info.word, prev)
+      }
+      // 2) 错题本里未消化的题目也按单词归类（q 为单词的题）
+      for (const m of s.data.mistakes || []) {
+        if (m.resolved) continue
+        const key = String(m.q || '').match(/^[a-zA-Z][a-zA-Z'-]*$/) ? m.q : ''
+        if (!key) continue
+        const info = findWord(key)
+        if (!info) continue
+        const prev = map.get(info.word) || { itemKey: key, word: info.word, zh: info.zh, ipa: info.ipa, wrongCount: 0 }
+        prev.wrongCount += 1
+        map.set(info.word, prev)
+      }
+      return [...map.values()].sort((a, b) => b.wrongCount - a.wrongCount)
+    },
+
+    /* 拼写/听写正确率（用于薄弱点提示） */
+    practiceAccuracy(s) {
+      let total = 0
+      let correct = 0
+      const daily = (s.data && s.data.stats && s.data.stats.daily) || {}
+      for (const d of Object.values(daily)) {
+        total += (d.spell || 0) + (d.dict || 0)
+        correct += d.spellCorrect || 0
+        correct += d.dictCorrect || 0
+      }
+      return { total, correct, percent: total ? Math.round((correct / total) * 100) : 0 }
+    },
+
     badges(s) {
       return s.data ? s.data.badges : []
     },
@@ -225,8 +298,34 @@ export const useProgressStore = defineStore('progress', {
       const auth = useAuthStore()
       if (auth.isLoggedIn) {
         this.data = getUserData(auth.username)
+        this._normalizeReviewPool()
       } else {
         this.data = null
+      }
+    },
+
+    /* 复习池键归一化：清理历史遗留的不可读键（L3-2:1 / quiz-123 / exam-L1-0） */
+    _normalizeReviewPool() {
+      if (!this.data || !this.data.reviewPool) return
+      const pool = this.data.reviewPool
+      const next = {}
+      let changed = false
+      for (const [key, item] of Object.entries(pool)) {
+        let clean = key
+        if (key.startsWith('flashcard:')) clean = key.slice(10)
+        else if (key.startsWith('practice:')) clean = key.slice(9)
+        const isLegacyJunk = /^(quiz|exam)-\d/.test(clean) || /^L\d+-\d+:\d+$/.test(clean)
+        if (isLegacyJunk) {
+          changed = true
+          continue
+        }
+        if (clean !== key) changed = true
+        if (!next[clean]) next[clean] = { ...item, itemKey: clean }
+        else next[clean].wrongCount = (next[clean].wrongCount || 1) + (item.wrongCount || 1)
+      }
+      if (changed) {
+        this.data.reviewPool = next
+        this._persist()
       }
     },
 
@@ -278,6 +377,14 @@ export const useProgressStore = defineStore('progress', {
     },
 
     /* ---------- 每日学习统计（拼写/听写/测验/关卡/复习） ---------- */
+
+    /* 设置每日学习目标（0 = 不设目标） */
+    setDailyGoal(n) {
+      if (!this.data) return
+      const v = Number(n) || 0
+      this.data.dailyGoal = Math.max(0, Math.min(500, Math.round(v)))
+      this._persist()
+    },
 
     recordDaily(field, n = 1) {
       if (!this.data) return

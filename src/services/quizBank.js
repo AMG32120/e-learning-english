@@ -28,7 +28,9 @@ function makeWordChoice(word, zhPool) {
     q: word.word,
     options,
     answer: options.indexOf(word.zh),
-    explain: `${word.word} ${word.ipa || ''}，${word.zh}`
+    explain: `${word.word} ${word.ipa || ''}，${word.zh}`,
+    word: word.word,
+    pos: word.pos || ''
   }
 }
 
@@ -49,7 +51,9 @@ function makeCloze(word, wordPool) {
     q: `选词填空：${blanked}`,
     options,
     answer: options.indexOf(word.word),
-    explain: `${word.zh} —— ${word.example}`
+    explain: `${word.zh} —— ${word.example}`,
+    word: word.word,
+    pos: word.pos || ''
   }
 }
 

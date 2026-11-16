@@ -11,6 +11,39 @@
       <button class="btn btn-primary">开始闯关</button>
     </div>
 
+    <!-- 今日目标 -->
+    <router-link
+      v-if="goal > 0"
+      to="/report"
+      class="card home-goal"
+      :class="{ 'home-goal-done': goalReached }"
+    >
+      <div class="goal-ring">
+        <svg viewBox="0 0 88 88" class="goal-svg" aria-hidden="true">
+          <circle class="goal-track" cx="44" cy="44" r="36" />
+          <circle
+            class="goal-fill"
+            cx="44"
+            cy="44"
+            r="36"
+            :stroke-dasharray="goalCircumference"
+            :stroke-dashoffset="goalDashOffset"
+          />
+        </svg>
+        <div class="goal-ring-text">
+          <span class="goal-percent">{{ goalPercent }}%</span>
+        </div>
+      </div>
+      <div class="goal-info">
+        <div class="goal-title">
+          今日目标
+          <span v-if="goalReached" class="goal-badge">已达成 🎉</span>
+        </div>
+        <div class="goal-count">{{ todayCount }} <span class="goal-unit">/ {{ goal }} 题</span></div>
+        <div class="goal-hint">{{ goalHint }}</div>
+      </div>
+    </router-link>
+
     <!-- 复习提醒 -->
     <router-link v-if="progress.reviewDueCount > 0" to="/review" class="alert alert-warn home-review">
       你有 {{ progress.reviewDueCount }} 个待复习内容，点击开始间隔复习
@@ -65,6 +98,8 @@
       <router-link to="/map" class="btn btn-soft">闯关地图</router-link>
       <router-link to="/quiz" class="btn btn-soft">随机测验</router-link>
       <router-link to="/review" class="btn btn-soft">间隔复习</router-link>
+      <router-link to="/listen" class="btn btn-soft">🎧 磨耳朵</router-link>
+      <router-link to="/report" class="btn btn-ghost">📊 学习周报</router-link>
       <router-link to="/progress" class="btn btn-ghost">学习进度</router-link>
     </div>
   </div>
@@ -101,6 +136,24 @@ const recommendStage = computed(() => getStageById(progress.recommendedStage) ||
 const overallPercent = computed(() => {
   if (!availableTotal) return 0
   return Math.round((progress.totalCompletedStages / availableTotal) * 100)
+})
+
+/* 每日目标进度 */
+const goal = computed(() => progress.dailyGoal)
+const todayCount = computed(() => progress.todayStudyCount)
+const goalPercent = computed(() => progress.todayGoalPercent)
+const goalReached = computed(() => goal.value > 0 && todayCount.value >= goal.value)
+const goalCircumference = (2 * Math.PI * 36).toFixed(1)
+const goalDashOffset = computed(() => {
+  const c = 2 * Math.PI * 36
+  return (c * (1 - goalPercent.value / 100)).toFixed(1)
+})
+const goalHint = computed(() => {
+  if (!goal.value) return ''
+  if (goalReached.value) return '今天的任务完成啦，继续保持！'
+  const left = goal.value - todayCount.value
+  if (progress.reviewDueCount > 0) return `还差 ${left} 题达标，先复习 ${progress.reviewDueCount} 项吧`
+  return `还差 ${left} 题达标，加油！`
 })
 
 const todayGreeting = computed(() => {
@@ -151,6 +204,102 @@ function goRecommended() {
   margin-bottom: var(--space-md);
 }
 
+/* 今日目标 */
+.home-goal {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-md);
+  color: inherit;
+  text-decoration: none;
+}
+
+.home-goal-done {
+  border-color: var(--c-accent);
+}
+
+.goal-ring {
+  position: relative;
+  width: 88px;
+  height: 88px;
+  flex: 0 0 88px;
+}
+
+.goal-svg {
+  width: 88px;
+  height: 88px;
+  transform: rotate(-90deg);
+}
+
+.goal-track {
+  fill: none;
+  stroke: var(--c-border, #e5e7eb);
+  stroke-width: 8;
+}
+
+.goal-fill {
+  fill: none;
+  stroke: var(--c-primary, #3b82f6);
+  stroke-width: 8;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.6s ease;
+}
+
+.home-goal-done .goal-fill {
+  stroke: var(--c-accent);
+}
+
+.goal-ring-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.goal-percent {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--c-primary);
+}
+
+.goal-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.goal-title {
+  font-size: 13px;
+  color: var(--c-text-muted);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.goal-badge {
+  font-size: 12px;
+  color: var(--c-accent);
+  font-weight: 700;
+}
+
+.goal-count {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--c-text);
+  margin: 2px 0;
+}
+
+.goal-unit {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--c-text-secondary);
+}
+
+.goal-hint {
+  font-size: 13px;
+  color: var(--c-text-secondary);
+}
+
 .home-daily {
   margin-bottom: var(--space-md);
 }
@@ -185,6 +334,7 @@ function goRecommended() {
 
 .home-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: var(--space-sm);
   margin-top: var(--space-md);
 }

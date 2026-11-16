@@ -154,7 +154,11 @@ function pick(oi) {
   if (oi === current.value.answer) {
     correct.value += 1
   } else {
-    progress.addToReviewPool([`quiz-${index.value}-${Date.now() % 100000}`])
+    progress.addToReviewPool([
+      current.value.word
+        ? `${current.value.word}${current.value.pos ? `|${current.value.pos}` : ''}`
+        : `quiz-${index.value}-${Date.now() % 100000}`
+    ])
     // 错题快照进入错题本
     progress.addMistake({
       q: current.value.q,

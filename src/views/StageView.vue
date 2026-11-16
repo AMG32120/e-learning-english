@@ -537,6 +537,15 @@ function spellClear() {
   spellPickedIndexes.value = []
 }
 
+function reviewKeyOf(q) {
+  // 词类题目用单词作为复习键，保证复习页可显示、可聚合易错词
+  if (q && q.word) return q.pos ? `${q.word}|${q.pos}` : q.word
+  if (q && typeof q.kind === 'string' && q.kind.startsWith('word') && typeof q.answer === 'string') {
+    return q.answer.toLowerCase()
+  }
+  return `${stage.value.id}:${index.value}`
+}
+
 function spellConfirm() {
   if (revealed.value) return
   const guess = spellChars.value.join('').toLowerCase()
@@ -546,7 +555,7 @@ function spellConfirm() {
   if (guess === current.value.answer) {
     correctCount.value += 1
   } else {
-    progress.addToReviewPool([`${stage.value.id}:${current.value.answer}`])
+    progress.addToReviewPool([reviewKeyOf(current.value)])
   }
 }
 
@@ -558,7 +567,7 @@ function choose(k) {
   if (k === current.value.answer) {
     correctCount.value += 1
   } else {
-    progress.addToReviewPool([`${stage.value.id}:${current.value.answer}`])
+    progress.addToReviewPool([reviewKeyOf(current.value)])
     // 错题快照进入错题本
     progress.addMistake({
       q: current.value.prompt || '关卡练习',

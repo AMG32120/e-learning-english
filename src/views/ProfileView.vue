@@ -66,6 +66,27 @@
       </button>
     </div>
 
+    <!-- 每日学习目标 -->
+    <div class="card profile-goal">
+      <h2 class="card-title">每日学习目标</h2>
+      <p class="data-tip">设定每天要完成的题量，首页会用进度环跟踪今日完成情况。</p>
+      <div class="goal-options">
+        <button
+          v-for="opt in GOAL_OPTIONS"
+          :key="opt.value"
+          class="goal-option"
+          :class="{ active: progress.dailyGoal === opt.value }"
+          @click="chooseGoal(opt.value)"
+        >
+          <span class="goal-option-num">{{ opt.value === 0 ? '不设' : opt.value }}</span>
+          <span class="goal-option-label">{{ opt.label }}</span>
+        </button>
+      </div>
+      <p class="goal-today" v-if="progress.dailyGoal > 0">
+        今日已完成 <strong>{{ progress.todayStudyCount }}</strong> / {{ progress.dailyGoal }} 题（{{ progress.todayGoalPercent }}%）
+      </p>
+    </div>
+
     <!-- 数据管理：导出 / 导入用户进度 -->
     <div class="card profile-data">
       <h2 class="card-title">数据管理</h2>
@@ -156,6 +177,19 @@ const VOICE_OPTIONS = [
 const currentGender = ref(getVoiceGender())
 const previewing = ref(false)
 
+/* 每日目标档位 */
+const GOAL_OPTIONS = [
+  { value: 10, label: '轻松' },
+  { value: 20, label: '标准' },
+  { value: 30, label: '进阶' },
+  { value: 50, label: '冲刺' },
+  { value: 0, label: '关闭' }
+]
+
+function chooseGoal(n) {
+  progress.setDailyGoal(n)
+}
+
 function chooseVoice(gender) {
   currentGender.value = setVoiceGender(gender)
   previewVoice()
@@ -242,9 +276,66 @@ function doLogout() {
 .profile-card,
 .profile-theme,
 .profile-voice,
+.profile-goal,
 .profile-links,
 .profile-data {
   margin-bottom: var(--space-md);
+}
+
+/* 每日目标档位 */
+.goal-options {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: var(--space-xs);
+}
+
+.goal-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 10px 4px;
+  border: 2px solid var(--c-border);
+  border-radius: var(--radius-md);
+  background: var(--c-bg-card);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.goal-option.active {
+  border-color: var(--c-primary);
+  background: var(--c-primary-light);
+}
+
+.goal-option-num {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--c-text);
+}
+
+.goal-option.active .goal-option-num {
+  color: var(--c-primary);
+}
+
+.goal-option-label {
+  font-size: 12px;
+  color: var(--c-text-muted);
+}
+
+.goal-today {
+  font-size: 13px;
+  color: var(--c-text-secondary);
+  margin-top: var(--space-sm);
+}
+
+.goal-today strong {
+  color: var(--c-primary);
+}
+
+@media (max-width: 420px) {
+  .goal-options {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .voice-grid {

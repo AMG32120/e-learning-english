@@ -84,6 +84,7 @@ export function buildDefaultUserData() {
     theme: 'blue',
     onboardingDone: false,
     placementDone: false,
+    dailyGoal: 20, // 每日学习目标（题/词次），0 表示不设目标
     progress: {
       stages: {}, // { [stageId]: { bestStars, completed, attempts, completedAt } }
       recommendedStage: 'L1-1'

@@ -154,7 +154,7 @@ function mark(known) {
     knownCount.value += 1
   } else {
     unknownCount.value += 1
-    progress.addToReviewPool([`flashcard:${current.value.word}`])
+    progress.addToReviewPool([current.value.word])
   }
   progress.recordDaily('flash', 1)
   if (index.value + 1 >= deck.value.length) {

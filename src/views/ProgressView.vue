@@ -87,6 +87,7 @@
 
       <div class="vocab-test-row">
         <router-link class="btn btn-soft" to="/vocabtest">📏 测测词汇量</router-link>
+        <router-link class="btn btn-soft" to="/report">📊 学习周报</router-link>
         <span v-if="lastVocabEstimate" class="vocab-est">
           上次估算：约 <strong>{{ lastVocabEstimate.value }}</strong> 词
         </span>

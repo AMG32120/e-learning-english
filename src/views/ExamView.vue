@@ -117,7 +117,11 @@ function pick(oi) {
   if (oi === current.value.answer) {
     correct.value += 1
   } else {
-    progress.addToReviewPool([`exam-L${level}-${index.value}`])
+    progress.addToReviewPool([
+      current.value.word
+        ? `${current.value.word}${current.value.pos ? `|${current.value.pos}` : ''}`
+        : `exam-L${level}-${index.value}`
+    ])
   }
 }
 

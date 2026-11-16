@@ -80,6 +80,34 @@
 
         <!-- 列表模式 -->
         <template v-else>
+          <div v-if="errorRanking.length" class="wb-analysis">
+            <div class="analysis-head">
+              <span class="analysis-title">📊 易错词分析</span>
+              <span class="analysis-sub">按累计错误次数排序</span>
+            </div>
+            <div v-for="(w, i) in errorRanking.slice(0, 6)" :key="w.word" class="analysis-row">
+              <span class="analysis-rank">{{ i + 1 }}</span>
+              <div class="analysis-word">
+                <div class="analysis-word-main">
+                  <span class="analysis-en">{{ w.word }}</span>
+                  <span v-if="w.ipa" class="analysis-ipa ipa">{{ w.ipa }}</span>
+                </div>
+                <div class="analysis-zh">{{ w.zh }}</div>
+              </div>
+              <div class="analysis-bar-wrap">
+                <div class="analysis-bar" :style="{ width: barWidth(w.wrongCount) }"></div>
+              </div>
+              <span class="analysis-count">{{ w.wrongCount }} 次</span>
+            </div>
+            <p class="analysis-tip">
+              这些词最容易记混，建议用<b>拼写模式</b>或<b>磨耳朵</b>集中过两遍。
+            </p>
+            <div class="analysis-actions">
+              <router-link class="btn btn-soft" :to="{ path: '/practice', query: { mode: 'spell' } }">去拼写专练</router-link>
+              <router-link class="btn btn-ghost" to="/listen">去磨耳朵</router-link>
+            </div>
+          </div>
+
           <div v-if="!activeMistakes.length" class="empty-state">
             <p class="empty-icon">✅</p>
             <p>错题本是空的</p>
@@ -144,6 +172,15 @@ const activeMistakes = computed(() => {
   if (!progress.data || !Array.isArray(progress.data.mistakes)) return []
   return progress.data.mistakes.filter((m) => !m.resolved)
 })
+
+/* 易错词分析：按累计错误次数排序 */
+const errorRanking = computed(() => progress.errorWordRanking)
+const maxWrong = computed(() => (errorRanking.value.length ? errorRanking.value[0].wrongCount : 1))
+
+function barWidth(n) {
+  const max = maxWrong.value || 1
+  return `${Math.max(8, Math.round((n / max) * 100))}%`
+}
 
 const currentM = computed(() => quizList.value[quizIndex.value] || null)
 
@@ -325,6 +362,125 @@ onMounted(() => {
 
 .wb-bottom-btn {
   width: 100%;
+}
+
+/* 易错词分析 */
+.wb-analysis {
+  border: 1px solid var(--c-border);
+  border-radius: 12px;
+  padding: 14px;
+  margin-bottom: var(--space-md);
+  background: var(--c-bg-card);
+}
+
+.analysis-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-sm);
+}
+
+.analysis-title {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.analysis-sub {
+  font-size: 12px;
+  color: var(--c-text-muted);
+}
+
+.analysis-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+}
+
+.analysis-rank {
+  width: 18px;
+  flex: 0 0 18px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--c-text-muted);
+}
+
+.analysis-word {
+  flex: 0 0 108px;
+  min-width: 0;
+}
+
+.analysis-word-main {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  min-width: 0;
+}
+
+.analysis-en {
+  font-weight: 700;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.analysis-ipa {
+  font-size: 12px;
+  color: var(--c-text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.analysis-zh {
+  font-size: 12px;
+  color: var(--c-text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.analysis-bar-wrap {
+  flex: 1;
+  height: 8px;
+  background: var(--c-bg-soft);
+  border-radius: 999px;
+  overflow: hidden;
+  min-width: 40px;
+}
+
+.analysis-bar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--c-warn), var(--c-danger));
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+.analysis-count {
+  flex: 0 0 40px;
+  text-align: right;
+  font-size: 12px;
+  color: var(--c-text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+.analysis-tip {
+  font-size: 13px;
+  color: var(--c-text-secondary);
+  margin-top: var(--space-sm);
+}
+
+.analysis-tip b {
+  color: var(--c-primary);
+}
+
+.analysis-actions {
+  display: flex;
+  gap: var(--space-sm);
+  margin-top: var(--space-sm);
 }
 
 /* 错题列表 */
