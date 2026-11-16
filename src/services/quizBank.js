@@ -6,10 +6,10 @@ import { getLevel, getPoolData } from '../data/levels'
 import { LETTERS } from '../data/letters'
 import { DIALOGUES_L3 } from '../data/dialogues'
 import { getGrammarUnitById } from '../data/grammar'
-import { L5_THEMES } from '../data/words_l5'
+import { getL5Themes, getL8Words } from './wordData'
 import { getL6ListeningById } from '../data/listening_l6'
 import { getArticleById } from '../data/reading_l7'
-import { getSimulationById, L8_ACADEMIC_WORDS } from '../data/simulation_l8'
+import { getSimulationById } from '../data/simulation_l8'
 
 export function shuffle(arr) {
   const a = arr.slice()
@@ -105,7 +105,7 @@ export function collectLevelQuestions(progress, level) {
         qs.push({ q: q.prompt, options: q.options, answer: q.answer, explain: q.explain })
       )
     } else if (level === 5) {
-      const theme = L5_THEMES.find((t) => t.id === st.content.pool)
+      const theme = getL5Themes().find((t) => t.id === st.content.pool)
       if (!theme) return
       const zhPool = theme.words.map((w) => w.zh)
       theme.words.forEach((w) => {
@@ -125,9 +125,10 @@ export function collectLevelQuestions(progress, level) {
       const sim = getSimulationById(st.content.simulation)
       if (!sim) return
       sim.questions.forEach((q) => qs.push({ q: q.q, options: q.options, answer: q.answer, explain: '仿真题题型训练' }))
-      // 学术词汇例句填空（L8_ACADEMIC_WORDS 带例句）
-      L8_ACADEMIC_WORDS.forEach((w) => {
-        const cloze = makeCloze(w, L8_ACADEMIC_WORDS)
+      // 学术词汇例句填空（L8 学术词带例句）
+      const l8Words = getL8Words()
+      l8Words.forEach((w) => {
+        const cloze = makeCloze(w, l8Words)
         if (cloze) qs.push(cloze)
       })
     }

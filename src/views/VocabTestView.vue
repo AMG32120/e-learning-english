@@ -67,9 +67,7 @@
 import { ref, computed, onMounted } from 'vue'
 import BottomTab from '../components/BottomTab.vue'
 import { useProgressStore, todayKey } from '../stores/progress'
-import { WORDS_L2 } from '../data/words'
-import { getAllL5Words } from '../data/words_l5'
-import { L8_ACADEMIC_WORDS } from '../data/simulation_l8'
+import { getWordsL2, getAllL5Words, getL8Words } from '../services/wordData'
 
 const progress = useProgressStore()
 
@@ -95,9 +93,9 @@ function shuffle(arr) {
 }
 
 function start() {
-  const easy = sampleWords(Object.values(WORDS_L2).flat(), 5)
+  const easy = sampleWords(Object.values(getWordsL2()).flat(), 5)
   const mid = sampleWords(getAllL5Words(), 5)
-  const hard = sampleWords(L8_ACADEMIC_WORDS, 5)
+  const hard = sampleWords(getL8Words(), 5)
   samples.value = [...easy, ...mid, ...hard].map((w) => ({
     word: w.word || w.en || '',
     ipa: w.ipa || '',

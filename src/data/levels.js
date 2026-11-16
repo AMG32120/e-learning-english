@@ -4,9 +4,7 @@
    关卡模型：{ id, level, stage, title, type, desc, available, content }
    ============================================================ */
 import { LETTERS, IPA_VOWELS, IPA_CONSONANTS, PHONICS_WORDS } from './letters'
-import { WORDS_L2 } from './words'
-import { getAllL5Words } from './words_l5'
-import { L8_ACADEMIC_WORDS } from './simulation_l8'
+import { getWordsL2, getAllL5Words, getL8Words } from '../services/wordData'
 
 export const LEVEL_UNLOCK_RATIO = 0.8
 
@@ -534,7 +532,7 @@ export function getStageWords(stageId) {
     // 每主题 12 词，按仿真题序号切片
     const idx = Number(String((st.content && st.content.simulation) || '').replace('s8_', ''))
     if (!idx || idx < 1 || idx > 8) return []
-    const slice = L8_ACADEMIC_WORDS.slice((idx - 1) * 12, idx * 12)
+    const slice = getL8Words().slice((idx - 1) * 12, idx * 12)
     return slice.map((w) => `${w.word}|${w.pos || ''}`)
   }
   if (['word_choice', 'word_match', 'word_spell'].includes(st.type)) {
@@ -568,21 +566,21 @@ export function getPoolData(pool) {
       return PHONICS_WORDS
     /* L2 基础词汇 */
     case 'l2_numbers_time':
-      return [...WORDS_L2.numbers, ...WORDS_L2.time]
+      return [...getWordsL2().numbers, ...getWordsL2().time]
     case 'l2_colors':
-      return WORDS_L2.colors
+      return getWordsL2().colors
     case 'l2_family':
-      return WORDS_L2.family
+      return getWordsL2().family
     case 'l2_food':
-      return WORDS_L2.food
+      return getWordsL2().food
     case 'l2_animals':
-      return WORDS_L2.animals
+      return getWordsL2().animals
     case 'l2_body':
-      return WORDS_L2.body
+      return getWordsL2().body
     case 'l2_weather':
-      return WORDS_L2.weather
+      return getWordsL2().weather
     case 'l2_transport_daily':
-      return [...WORDS_L2.transport, ...WORDS_L2.daily]
+      return [...getWordsL2().transport, ...getWordsL2().daily]
     /* L5 中级词汇 */
     case 'l5_family_feelings':
       return wordsByTheme('l5_family_feelings')

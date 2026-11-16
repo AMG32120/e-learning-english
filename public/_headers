@@ -14,6 +14,10 @@
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
 
+# 词库 JSON：文件名固定，当天内命中缓存即可，隔天回源校验保证内容更新
+/data/*
+  Cache-Control: public, max-age=86400
+
 # Service Worker 及相关脚本必须每次回源校验
 # 否则浏览器会长期命中旧 SW，导致发版后用户看不到更新
 /sw.js

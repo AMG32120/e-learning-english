@@ -1,9 +1,11 @@
 /**
- * L8 托福雅思冲刺：学术词汇 + 仿真题题型训练数据
- * 学术词汇 8 主题 × 12 词 = 96 词，全部标注 l5_core（对应 L5 核心词），
+ * L8 托福雅思冲刺：仿真题题型训练数据
+ * 学术词汇已抽至 public/data/words-l8.json（经 services/wordData.js 按需加载），
+ * 8 主题 × 12 词 = 96 词，全部标注 l5_core（对应 L5 核心词），
  * 覆盖率 96/120 = 80%，满足 PLAN §3.4 覆盖率要求（L8 覆盖 L5 核心词学术变体 ≥80%）。
- * 仿真题 8 套（原创题，按阅读/听力/写作/口语分题型，不使用真题原题）。
+ * 仿真题按阅读/听力/写作/口语分题型（原创题，不使用真题原题）。
  */
+import { getL8Words } from '../services/wordData'
 
 export const L8_THEMES = [
   { id: 's8_01', title: '学术生活', emoji: '🎓', l5_theme: 'l5_education' },
@@ -14,120 +16,6 @@ export const L8_THEMES = [
   { id: 's8_06', title: '工作与职业', emoji: '💼', l5_theme: 'l5_work_jobs' },
   { id: 's8_07', title: '旅行与文化', emoji: '🗺️', l5_theme: 'l5_travel' },
   { id: 's8_08', title: '家庭与情感', emoji: '🏡', l5_theme: 'l5_family_feelings' }
-]
-
-export const L8_ACADEMIC_WORDS = [
-  /* 学术生活（对应 l5_education） */
-  { word: 'academic', ipa: '/ˌækəˈdemɪk/', pos: 'adj.', zh: '学术的', example: 'Her academic record is excellent.', l5_core: 'subject' },
-  { word: 'curriculum', ipa: '/kəˈrɪkjələm/', pos: 'n.', zh: '课程体系', example: 'The curriculum includes art and music.', l5_core: 'course' },
-  { word: 'seminar', ipa: '/ˈsemɪnɑː(r)/', pos: 'n.', zh: '研讨课', example: 'We discussed the topic in the seminar.', l5_core: 'professor' },
-  { word: 'assignment', ipa: '/əˈsaɪnmənt/', pos: 'n.', zh: '作业，任务', example: 'The assignment is due on Friday.', l5_core: 'homework' },
-  { word: 'degree', ipa: '/dɪˈɡriː/', pos: 'n.', zh: '学位', example: 'She earned a degree in biology.', l5_core: 'degree' },
-  { word: 'scholarship', ipa: '/ˈskɒləʃɪp/', pos: 'n.', zh: '奖学金', example: 'He won a full scholarship.', l5_core: 'exam' },
-  { word: 'lecture', ipa: '/ˈlektʃə(r)/', pos: 'n.', zh: '讲座，讲课', example: 'The lecture lasted for two hours.', l5_core: 'professor' },
-  { word: 'research', ipa: '/rɪˈsɜːtʃ/', pos: 'n./v.', zh: '研究', example: 'She does research on climate change.', l5_core: 'research' },
-  { word: 'knowledge', ipa: '/ˈnɒlɪdʒ/', pos: 'n.', zh: '知识', example: 'Books give us knowledge.', l5_core: 'knowledge' },
-  { word: 'achieve', ipa: '/əˈtʃiːv/', pos: 'v.', zh: '实现，达到', example: 'You can achieve your goal with hard work.', l5_core: 'practice' },
-  { word: 'improve', ipa: '/ɪmˈpruːv/', pos: 'v.', zh: '提高，改进', example: 'Practice will improve your English.', l5_core: 'practice' },
-  { word: 'graduate', ipa: '/ˈɡrædʒueɪt/', pos: 'v./n.', zh: '毕业；毕业生', example: 'She will graduate next year.', l5_core: 'degree' },
-
-  /* 社会与新闻（对应 l5_society_news） */
-  { word: 'society', ipa: '/səˈsaɪəti/', pos: 'n.', zh: '社会', example: 'Technology changes our society fast.', l5_core: 'society' },
-  { word: 'community', ipa: '/kəˈmjuːnəti/', pos: 'n.', zh: '社区，群体', example: 'Our community holds a market on Sundays.', l5_core: 'community' },
-  { word: 'citizen', ipa: '/ˈsɪtɪzən/', pos: 'n.', zh: '公民，市民', example: 'Every citizen has the right to vote.', l5_core: 'citizen' },
-  { word: 'policy', ipa: '/ˈpɒləsi/', pos: 'n.', zh: '政策', example: 'The new policy supports small businesses.', l5_core: 'government' },
-  { word: 'government', ipa: '/ˈɡʌvənmənt/', pos: 'n.', zh: '政府', example: 'The government built a new hospital.', l5_core: 'government' },
-  { word: 'media', ipa: '/ˈmiːdiə/', pos: 'n.', zh: '媒体', example: 'The media reported the news quickly.', l5_core: 'news' },
-  { word: 'issue', ipa: '/ˈɪʃuː/', pos: 'n.', zh: '议题，问题', example: 'Housing is a big issue in cities.', l5_core: 'report' },
-  { word: 'affect', ipa: '/əˈfekt/', pos: 'v.', zh: '影响', example: 'The weather affects my mood.', l5_core: 'economy' },
-  { word: 'increase', ipa: '/ɪnˈkriːs/', pos: 'v./n.', zh: '增加', example: 'Sales increased by ten percent.', l5_core: 'population' },
-  { word: 'opinion', ipa: '/əˈpɪnjən/', pos: 'n.', zh: '观点', example: 'In my opinion, reading is important.', l5_core: 'tradition' },
-  { word: 'event', ipa: '/ɪˈvent/', pos: 'n.', zh: '事件，活动', example: 'The sports event was exciting.', l5_core: 'event' },
-  { word: 'culture', ipa: '/ˈkʌltʃə(r)/', pos: 'n.', zh: '文化', example: 'Music is part of our culture.', l5_core: 'culture' },
-
-  /* 健康与科学（对应 l5_health_sports） */
-  { word: 'health', ipa: '/helθ/', pos: 'n.', zh: '健康', example: 'Good sleep is important for health.', l5_core: 'healthy' },
-  { word: 'disease', ipa: '/dɪˈziːz/', pos: 'n.', zh: '疾病', example: 'Clean water prevents disease.', l5_core: 'hospital' },
-  { word: 'treatment', ipa: '/ˈtriːtmənt/', pos: 'n.', zh: '治疗', example: 'The treatment worked well.', l5_core: 'medicine' },
-  { word: 'nutrition', ipa: '/njuˈtrɪʃn/', pos: 'n.', zh: '营养', example: 'Good nutrition keeps you strong.', l5_core: 'diet' },
-  { word: 'exercise', ipa: '/ˈeksəsaɪz/', pos: 'n./v.', zh: '锻炼', example: 'Daily exercise benefits your heart.', l5_core: 'exercise' },
-  { word: 'scientific', ipa: '/ˌsaɪənˈtɪfɪk/', pos: 'adj.', zh: '科学的', example: 'The result comes from scientific tests.', l5_core: 'fitness' },
-  { word: 'experiment', ipa: '/ɪkˈsperɪmənt/', pos: 'n.', zh: '实验', example: 'We did an experiment in the lab.', l5_core: 'practice' },
-  { word: 'evidence', ipa: '/ˈevɪdəns/', pos: 'n.', zh: '证据', example: 'The evidence supports the theory.', l5_core: 'history' },
-  { word: 'prevent', ipa: '/prɪˈvent/', pos: 'v.', zh: '预防，阻止', example: 'Washing hands can prevent illness.', l5_core: 'protect' },
-  { word: 'energy', ipa: '/ˈenədʒi/', pos: 'n.', zh: '精力，能量', example: 'Exercise gives me energy.', l5_core: 'energy' },
-  { word: 'balance', ipa: '/ˈbæləns/', pos: 'n./v.', zh: '平衡', example: 'Keep a balance between work and rest.', l5_core: 'healthy' },
-  { word: 'recover', ipa: '/rɪˈkʌvə(r)/', pos: 'v.', zh: '恢复', example: 'He recovered from the cold quickly.', l5_core: 'patient' },
-
-  /* 科技与网络（对应 l5_tech_network） */
-  { word: 'technology', ipa: '/tekˈnɒlədʒi/', pos: 'n.', zh: '科技', example: 'Technology makes life convenient.', l5_core: 'computer' },
-  { word: 'digital', ipa: '/ˈdɪdʒɪtl/', pos: 'adj.', zh: '数字的', example: 'We live in a digital age.', l5_core: 'screen' },
-  { word: 'device', ipa: '/dɪˈvaɪs/', pos: 'n.', zh: '设备', example: 'This device can charge your phone.', l5_core: 'keyboard' },
-  { word: 'network', ipa: '/ˈnetwɜːk/', pos: 'n.', zh: '网络', example: 'The office network is very fast.', l5_core: 'internet' },
-  { word: 'software', ipa: '/ˈsɒftweə(r)/', pos: 'n.', zh: '软件', example: 'This software helps you edit photos.', l5_core: 'software' },
-  { word: 'data', ipa: '/ˈdeɪtə/', pos: 'n.', zh: '数据', example: 'We store data in the cloud.', l5_core: 'information' },
-  { word: 'connect', ipa: '/kəˈnekt/', pos: 'v.', zh: '连接', example: 'Connect the printer to the computer.', l5_core: 'email' },
-  { word: 'access', ipa: '/ˈækses/', pos: 'n./v.', zh: '访问，获取', example: 'Students have free access to the library.', l5_core: 'website' },
-  { word: 'communicate', ipa: '/kəˈmjuːnɪkeɪt/', pos: 'v.', zh: '交流', example: 'We communicate by email.', l5_core: 'message' },
-  { word: 'develop', ipa: '/dɪˈveləp/', pos: 'v.', zh: '开发，发展', example: 'They develop apps for learning.', l5_core: 'project' },
-  { word: 'download', ipa: '/ˌdaʊnˈləʊd/', pos: 'v.', zh: '下载', example: 'Download the file from the website.', l5_core: 'download' },
-  { word: 'security', ipa: '/sɪˈkjʊərəti/', pos: 'n.', zh: '安全', example: 'Password security is very important.', l5_core: 'password' },
-
-  /* 环境与自然（对应 l5_environment） */
-  { word: 'environment', ipa: '/ɪnˈvaɪrənmənt/', pos: 'n.', zh: '环境', example: 'We must protect the environment.', l5_core: 'environment' },
-  { word: 'pollution', ipa: '/pəˈluːʃn/', pos: 'n.', zh: '污染', example: 'Air pollution is a serious problem.', l5_core: 'waste' },
-  { word: 'resource', ipa: '/rɪˈsɔːs/', pos: 'n.', zh: '资源', example: 'Water is a precious resource.', l5_core: 'power' },
-  { word: 'climate', ipa: '/ˈklaɪmət/', pos: 'n.', zh: '气候', example: 'The climate is changing.', l5_core: 'climate' },
-  { word: 'recycle', ipa: '/ˌriːˈsaɪkl/', pos: 'v.', zh: '回收利用', example: 'We recycle paper and plastic.', l5_core: 'recycle' },
-  { word: 'reduce', ipa: '/rɪˈdjuːs/', pos: 'v.', zh: '减少', example: 'Turn off lights to reduce energy use.', l5_core: 'reduce' },
-  { word: 'protect', ipa: '/prəˈtekt/', pos: 'v.', zh: '保护', example: 'Protect the forest from fire.', l5_core: 'protect' },
-  { word: 'species', ipa: '/ˈspiːʃiːz/', pos: 'n.', zh: '物种', example: 'This species only lives on the island.', l5_core: 'plant' },
-  { word: 'natural', ipa: '/ˈnætʃrəl/', pos: 'adj.', zh: '自然的', example: 'Natural parks keep wildlife safe.', l5_core: 'natural' },
-  { word: 'global', ipa: '/ˈɡləʊbl/', pos: 'adj.', zh: '全球的', example: 'Global warming worries scientists.', l5_core: 'earth' },
-  { word: 'ecosystem', ipa: '/ˈiːkəʊsɪstəm/', pos: 'n.', zh: '生态系统', example: 'The wetland is a rich ecosystem.', l5_core: 'forest' },
-  { word: 'sustain', ipa: '/səˈsteɪn/', pos: 'v.', zh: '维持，可持续', example: 'We need sustainable ways of living.', l5_core: 'power' },
-
-  /* 工作与职业（对应 l5_work_jobs） */
-  { word: 'career', ipa: '/kəˈrɪə(r)/', pos: 'n.', zh: '职业，生涯', example: 'She plans a career in medicine.', l5_core: 'career' },
-  { word: 'profession', ipa: '/prəˈfeʃn/', pos: 'n.', zh: '专业职业', example: 'Teaching is a respected profession.', l5_core: 'engineer' },
-  { word: 'employer', ipa: '/ɪmˈplɔɪə(r)/', pos: 'n.', zh: '雇主', example: 'The employer offers free training.', l5_core: 'company' },
-  { word: 'employee', ipa: '/ɪmˈplɔɪiː/', pos: 'n.', zh: '雇员', example: 'The employees work in shifts.', l5_core: 'colleague' },
-  { word: 'salary', ipa: '/ˈsæləri/', pos: 'n.', zh: '薪水', example: 'The salary is paid monthly.', l5_core: 'salary' },
-  { word: 'skill', ipa: '/skɪl/', pos: 'n.', zh: '技能', example: 'Communication is a useful skill.', l5_core: 'skill' },
-  { word: 'experience', ipa: '/ɪkˈspɪəriəns/', pos: 'n.', zh: '经验，经历', example: 'She has three years of experience.', l5_core: 'experience' },
-  { word: 'interview', ipa: '/ˈɪntəvjuː/', pos: 'n./v.', zh: '面试，采访', example: 'The interview went very well.', l5_core: 'interview' },
-  { word: 'promote', ipa: '/prəˈməʊt/', pos: 'v.', zh: '晋升，推广', example: 'He was promoted to manager.', l5_core: 'manager' },
-  { word: 'responsibility', ipa: '/rɪˌspɒnsəˈbɪləti/', pos: 'n.', zh: '责任', example: 'Safety is everyone’s responsibility.', l5_core: 'project' },
-  { word: 'training', ipa: '/ˈtreɪnɪŋ/', pos: 'n.', zh: '培训', example: 'The company provides free training.', l5_core: 'practice' },
-  { word: 'retire', ipa: '/rɪˈtaɪə(r)/', pos: 'v.', zh: '退休', example: 'My father will retire at sixty.', l5_core: 'office' },
-
-  /* 旅行与文化（对应 l5_travel） */
-  { word: 'journey', ipa: '/ˈdʒɜːni/', pos: 'n.', zh: '旅程', example: 'The journey took eight hours.', l5_core: 'trip' },
-  { word: 'destination', ipa: '/ˌdestɪˈneɪʃn/', pos: 'n.', zh: '目的地', example: 'Beijing is our destination.', l5_core: 'destination' },
-  { word: 'tourist', ipa: '/ˈtʊərɪst/', pos: 'n.', zh: '游客', example: 'Tourists visit the old temple.', l5_core: 'tour' },
-  { word: 'custom', ipa: '/ˈkʌstəm/', pos: 'n.', zh: '风俗习惯', example: 'The local customs are interesting.', l5_core: 'tradition' },
-  { word: 'tradition', ipa: '/trəˈdɪʃn/', pos: 'n.', zh: '传统', example: 'Eating dumplings is a tradition.', l5_core: 'history' },
-  { word: 'abroad', ipa: '/əˈbrɔːd/', pos: 'adv.', zh: '在国外', example: 'She studies abroad in London.', l5_core: 'airport' },
-  { word: 'accommodation', ipa: '/əˌkɒməˈdeɪʃn/', pos: 'n.', zh: '住宿', example: 'The hotel offers cheap accommodation.', l5_core: 'hotel' },
-  { word: 'transport', ipa: '/ˈtrænspɔːt/', pos: 'n.', zh: '交通', example: 'Public transport is convenient here.', l5_core: 'railway' },
-  { word: 'scenery', ipa: '/ˈsiːnəri/', pos: 'n.', zh: '风景', example: 'The scenery in the mountains is beautiful.', l5_core: 'guide' },
-  { word: 'exchange', ipa: '/ɪksˈtʃeɪndʒ/', pos: 'n./v.', zh: '交换，交流', example: 'Students join an exchange program.', l5_core: 'ticket' },
-  { word: 'explore', ipa: '/ɪkˈsplɔː(r)/', pos: 'v.', zh: '探索', example: 'We explored the old town on foot.', l5_core: 'passport' },
-  { word: 'arrange', ipa: '/əˈreɪndʒ/', pos: 'v.', zh: '安排', example: 'She arranged the trip for us.', l5_core: 'booking' },
-
-  /* 家庭与情感（对应 l5_family_feelings） */
-  { word: 'relative', ipa: '/ˈrelətɪv/', pos: 'n.', zh: '亲戚', example: 'Many relatives came to the party.', l5_core: 'relative' },
-  { word: 'relationship', ipa: '/rɪˈleɪʃnʃɪp/', pos: 'n.', zh: '关系', example: 'They have a close relationship.', l5_core: 'cousin' },
-  { word: 'emotion', ipa: '/ɪˈməʊʃn/', pos: 'n.', zh: '情绪，情感', example: 'Music can bring strong emotions.', l5_core: 'excited' },
-  { word: 'support', ipa: '/səˈpɔːt/', pos: 'v./n.', zh: '支持', example: 'My family supports my dreams.', l5_core: 'husband' },
-  { word: 'trust', ipa: '/trʌst/', pos: 'v./n.', zh: '信任', example: 'Friends should trust each other.', l5_core: 'wife' },
-  { word: 'respect', ipa: '/rɪˈspekt/', pos: 'v./n.', zh: '尊重', example: 'We respect our elders.', l5_core: 'relative' },
-  { word: 'generation', ipa: '/ˌdʒenəˈreɪʃn/', pos: 'n.', zh: '一代人', example: 'This tradition passed through generations.', l5_core: 'nephew' },
-  { word: 'memory', ipa: '/ˈmeməri/', pos: 'n.', zh: '记忆', example: 'The photo brings back sweet memories.', l5_core: 'memorize' },
-  { word: 'encourage', ipa: '/ɪnˈkʌrɪdʒ/', pos: 'v.', zh: '鼓励', example: 'My parents encourage me to try new things.', l5_core: 'proud' },
-  { word: 'share', ipa: '/ʃeə(r)/', pos: 'v.', zh: '分享', example: 'We share happy moments together.', l5_core: 'lonely' },
-  { word: 'comfort', ipa: '/ˈkʌmfət/', pos: 'n./v.', zh: '安慰，舒适', example: 'A warm hug gives comfort.', l5_core: 'nervous' },
-  { word: 'belong', ipa: '/bɪˈlɒŋ/', pos: 'v.', zh: '属于', example: 'I feel I belong to this team.', l5_core: 'excited' }
 ]
 
 export const SIMULATIONS_L8 = [
@@ -162,11 +50,32 @@ export const SIMULATIONS_L8 = [
         explain: 'improve 意为“改进、使更好”。'
       },
       {
+        section: 'reading',
+        q: 'According to the passage, which schools report higher satisfaction among learners?',
+        options: ['Schools with only academic courses', 'Schools offering both academic courses and creative activities', 'Schools without any activities', 'Schools that ban hobbies'],
+        answer: 1,
+        explain: '原文：Schools that offer both academic courses and creative activities usually report higher satisfaction among learners.'
+      },
+      {
         section: 'vocab',
         q: '选出 academic 的正确释义：',
         options: ['娱乐的', '学术的', '便宜的', '紧张的'],
         answer: 1,
         explain: 'academic 意为“学术的”，如 academic record（学业成绩）。'
+      },
+      {
+        section: 'vocab',
+        q: '选出 curriculum 的正确释义：',
+        options: ['课程体系', '计算机', '社区', '走廊'],
+        answer: 0,
+        explain: 'curriculum 意为“课程体系”，如 a heavy curriculum（繁重的课程）。'
+      },
+      {
+        section: 'speaking',
+        q: '口语题（话题卡：Describe your favourite subject）：请选出最自然的表达 —— “我最喜欢的科目是英语，因为它很有趣。”',
+        options: ['My favourite subject is English because it is fun.', 'My favourite subject is English because it very funny.', 'English my favourite subject, it is fun.', 'I favourite subject is English because interesting.'],
+        answer: 0,
+        explain: '主系表 + because 从句表达自然；fun 意为“有趣的”，funny 意为“滑稽的”。'
       },
       {
         section: 'writing',
@@ -217,11 +126,33 @@ export const SIMULATIONS_L8 = [
         explain: '听力内容：the classes will increase job chances for older workers.'
       },
       {
+        section: 'listening',
+        audio: 'The media reported the news quickly, and many citizens shared their opinions online.',
+        q: '听力题：What did many citizens do after the news was reported?',
+        options: ['They ignored it', 'They shared their opinions online', 'They traveled abroad', 'They bought newspapers'],
+        answer: 1,
+        explain: '听力内容：many citizens shared their opinions online.'
+      },
+      {
         section: 'vocab',
         q: '选出 policy 的正确释义：',
         options: ['政策', '图片', '口袋', '警察'],
         answer: 0,
         explain: 'policy 意为“政策”，如 government policy（政府政策）。'
+      },
+      {
+        section: 'vocab',
+        q: '选出 media 的正确释义：',
+        options: ['媒体', '米饭', '市场', '记忆'],
+        answer: 0,
+        explain: 'media 意为“媒体”，如 social media（社交媒体）。'
+      },
+      {
+        section: 'speaking',
+        q: '口语题（话题卡：Talk about how you get news）：请选出最自然的表达 —— “我通常在手机上看新闻，因为很方便。”',
+        options: ['I usually read the news on my phone because it is convenient.', 'I usually read news on phone because convenient.', 'On my phone I read the news, very convenient it is.', 'I usually reading news on my phone because it convenient.'],
+        answer: 0,
+        explain: '一般现在时 + because 从句表达自然；convenient 意为“方便的”。'
       },
       {
         section: 'writing',
@@ -270,11 +201,32 @@ export const SIMULATIONS_L8 = [
         explain: 'prevent 意为“预防、阻止”，如 prevent diseases（预防疾病）。'
       },
       {
+        section: 'reading',
+        q: 'What do the researchers suggest about small changes, such as taking stairs?',
+        options: ['They make a real difference over time', 'They are useless for health', 'They only help young people', 'They can replace all medicine'],
+        answer: 0,
+        explain: '原文：small changes, such as taking stairs instead of elevators, can make a real difference over time.'
+      },
+      {
         section: 'vocab',
         q: '选出 evidence 的正确释义：',
         options: ['证据', '事件', '环境', '平衡'],
         answer: 0,
         explain: 'evidence 意为“证据”，如 scientific evidence（科学证据）。'
+      },
+      {
+        section: 'vocab',
+        q: '选出 nutrition 的正确释义：',
+        options: ['营养', '噪音', '数字', '名称'],
+        answer: 0,
+        explain: 'nutrition 意为“营养”，如 good nutrition（良好的营养）。'
+      },
+      {
+        section: 'speaking',
+        q: '口语题（话题卡：Describe your daily routine）：请选出最自然的表达 —— “我每天走路上学，这有助于保持健康。”',
+        options: ['I walk to school every day, which helps me stay healthy.', 'I walking to school every day, helps me stay healthy.', 'Walk to school every day I, which keep healthy.', 'I walk to school every day, which helps me staying healthy.'],
+        answer: 0,
+        explain: '非限制性定语从句 which 指代整个主句，stay healthy 用动词原形。'
       },
       {
         section: 'writing',
@@ -325,11 +277,33 @@ export const SIMULATIONS_L8 = [
         explain: '听力内容：Experts advise using different passwords and turning on two-step verification.'
       },
       {
+        section: 'listening',
+        audio: 'Turning on two-step verification adds an extra layer of protection to your accounts.',
+        q: '听力题：What does two-step verification add to your accounts?',
+        options: ['An extra layer of protection', 'More advertisements', 'A faster network', 'A new password every day'],
+        answer: 0,
+        explain: '听力内容：adds an extra layer of protection to your accounts.'
+      },
+      {
         section: 'vocab',
         q: '选出 access 的正确释义：',
         options: ['访问，获取', '接受', '加速', '附上'],
         answer: 0,
         explain: 'access 意为“访问、获取”，如 access your accounts（访问账户）。'
+      },
+      {
+        section: 'vocab',
+        q: '选出 device 的正确释义：',
+        options: ['设备', '决定', '发展', '距离'],
+        answer: 0,
+        explain: 'device 意为“设备”，如 a digital device（数字设备）。'
+      },
+      {
+        section: 'speaking',
+        q: '口语题（话题卡：Talk about technology in your life）：请选出最自然的表达 —— “科技让我们的生活更方便，但也带来了新问题。”',
+        options: ['Technology makes our lives more convenient, but it also brings new problems.', 'Technology make our lives more convenient, but it also bring new problems.', 'Technology our lives makes convenient, also brings problems new.', 'Technology makes our life more convenient, but also bringing new problems.'],
+        answer: 0,
+        explain: 'makes 用第三人称单数，but 并列转折表达自然。'
       },
       {
         section: 'writing',
@@ -378,11 +352,32 @@ export const SIMULATIONS_L8 = [
         explain: '原文：Protecting natural areas keeps many species safe from danger.'
       },
       {
+        section: 'reading',
+        q: 'The word "sustain" in the last sentence is closest in meaning to ______.',
+        options: ['maintain', 'destroy', 'forget', 'increase'],
+        answer: 0,
+        explain: 'sustain 与 maintain 近义，意为“维持、使持续”。'
+      },
+      {
         section: 'vocab',
         q: '选出 sustain 的正确释义：',
         options: ['维持，使持续', '破坏', '忘记', '扩大'],
         answer: 0,
         explain: 'sustain 意为“维持、使持续”，如 sustain a healthy planet（维持健康的地球）。'
+      },
+      {
+        section: 'vocab',
+        q: '选出 species 的正确释义：',
+        options: ['物种', '速度', '车站', '标准'],
+        answer: 0,
+        explain: 'species 意为“物种”，单复数同形，如 an endangered species（濒危物种）。'
+      },
+      {
+        section: 'speaking',
+        q: '口语题（话题卡：Talk about recycling）：请选出最自然的表达 —— “在我们家，我们把塑料瓶回收利用，而不是扔掉。”',
+        options: ['In our family, we recycle plastic bottles instead of throwing them away.', 'In our family, we recycle plastic bottles instead of throw them away.', 'Our family we recycle plastic bottles, not throwing them away.', 'In our family, we recycling plastic bottles instead of throw away them.'],
+        answer: 0,
+        explain: 'instead of 后接动名词 throwing，表达地道自然。'
       },
       {
         section: 'writing',
@@ -433,11 +428,33 @@ export const SIMULATIONS_L8 = [
         explain: '听力内容：they also give training every week.'
       },
       {
+        section: 'listening',
+        audio: 'A good interview is a two-way conversation: the employer asks questions, and you also ask about the role and the team.',
+        q: '听力题：According to the speaker, what should you also do in an interview?',
+        options: ['Stay silent all the time', 'Ask about the role and the team', 'Talk about salary only', 'Avoid all questions'],
+        answer: 1,
+        explain: '听力内容：you also ask about the role and the team.'
+      },
+      {
         section: 'vocab',
         q: '选出 interview 的正确释义：',
         options: ['面试，采访', '邀请', '投资', '发明'],
         answer: 0,
         explain: 'interview 意为“面试、采访”，如 a job interview（求职面试）。'
+      },
+      {
+        section: 'vocab',
+        q: '选出 employer 的正确释义：',
+        options: ['雇主', '员工', '电梯', '邮件'],
+        answer: 0,
+        explain: 'employer 意为“雇主”，与 employee（雇员）相对。'
+      },
+      {
+        section: 'speaking',
+        q: '口语题（话题卡：Describe your work style）：请选出最自然的表达 —— “我喜欢和同事合作，因为团队协作能完成更大的项目。”',
+        options: ['I like working with my colleagues because teamwork can finish bigger projects.', 'I like working with my colleagues because teamworking can finish more big projects.', 'With colleagues I like work, because teamwork finish bigger projects.', 'I like work with my colleagues because teamwork can finishing bigger projects.'],
+        answer: 0,
+        explain: 'like doing sth. + because 从句，teamwork 用词准确。'
       },
       {
         section: 'writing',
@@ -486,11 +503,32 @@ export const SIMULATIONS_L8 = [
         explain: '原文：arrange their trips to support local communities, for example by choosing small hotels and local transport.'
       },
       {
+        section: 'reading',
+        q: 'The word "exchange" in the last sentence is closest in meaning to ______.',
+        options: ['giving and receiving', 'buying and selling', 'coming and going', 'hiding and seeking'],
+        answer: 0,
+        explain: 'exchange 意为“交换、交流”，即给予并获得。'
+      },
+      {
         section: 'vocab',
         q: '选出 custom 的正确释义：',
         options: ['风俗习惯', '顾客', '海关人员', '好奇心'],
         answer: 0,
         explain: 'custom 意为“风俗习惯”，如 local customs（当地风俗）。'
+      },
+      {
+        section: 'vocab',
+        q: '选出 destination 的正确释义：',
+        options: ['目的地', '字典', '发展', '方向'],
+        answer: 0,
+        explain: 'destination 意为“目的地”，如 the final destination（最终目的地）。'
+      },
+      {
+        section: 'speaking',
+        q: '口语题（话题卡：Describe a trip you took）：请选出最自然的表达 —— “旅途虽然很长，但一路的风景值得。”',
+        options: ['Although the journey was long, the scenery along the way was worth it.', 'Although the journey was long, but the scenery was worth it.', 'The journey although long, scenery along way worth it.', 'Although the journey long, the scenery along the way worth.'],
+        answer: 0,
+        explain: 'although 不能与 but 连用，这是中文学习者最典型的错误之一。'
       },
       {
         section: 'writing',
@@ -541,11 +579,33 @@ export const SIMULATIONS_L8 = [
         explain: '听力内容：Friends are like family.'
       },
       {
+        section: 'listening',
+        audio: 'Mom: Do you remember Grandma’s birthday next week? Lily: Of course. I want to prepare a small gift and write her a card.',
+        q: '听力题：What does Lily want to do for Grandma’s birthday?',
+        options: ['Have a big party', 'Prepare a small gift and write a card', 'Buy a new phone', 'Take a trip'],
+        answer: 1,
+        explain: '听力内容：I want to prepare a small gift and write her a card.'
+      },
+      {
         section: 'vocab',
         q: '选出 support 的正确释义：',
         options: ['支持', '怀疑', '惊讶', '浪费'],
         answer: 0,
         explain: 'support 意为“支持”，如 support a dream（支持梦想）。'
+      },
+      {
+        section: 'vocab',
+        q: '选出 generation 的正确释义：',
+        options: ['一代人', '礼物', '花园', '游戏'],
+        answer: 0,
+        explain: 'generation 意为“一代人”，如 the next generation（下一代）。'
+      },
+      {
+        section: 'speaking',
+        q: '口语题（话题卡：Describe a family tradition）：请选出最自然的表达 —— “每年春节，我们全家人一起包饺子。”',
+        options: ['Every Spring Festival, our whole family makes dumplings together.', 'Every Spring Festival, our whole family making dumplings together.', 'Every Spring Festival our whole family make dumplings, together we.', 'In Spring Festival every year, our whole family makes dumpling together.'],
+        answer: 0,
+        explain: 'family 作整体用单数 makes，dumplings 用复数，表达自然。'
       },
       {
         section: 'writing',
@@ -568,11 +628,11 @@ export const SIMULATIONS_L8 = [
 export function getAcademicWordsByTheme(themeId) {
   const idx = L8_THEMES.findIndex((t) => t.id === themeId)
   if (idx < 0) return []
-  return L8_ACADEMIC_WORDS.slice(idx * 12, idx * 12 + 12)
+  return getL8Words().slice(idx * 12, idx * 12 + 12)
 }
 
 export function getSimulationById(id) {
   return SIMULATIONS_L8.find((s) => s.id === id) || null
 }
 
-export default { L8_THEMES, L8_ACADEMIC_WORDS, SIMULATIONS_L8, getAcademicWordsByTheme, getSimulationById }
+export default { L8_THEMES, SIMULATIONS_L8, getAcademicWordsByTheme, getSimulationById }

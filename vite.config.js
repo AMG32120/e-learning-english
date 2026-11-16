@@ -28,7 +28,8 @@ export default defineConfig({
         ]
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
+        /* json：预缓存 public/data 词库 JSON，离线也可学习 */
+        globPatterns: ['**/*.{js,css,html,svg,png,woff2,json}'],
         navigateFallback: 'index.html'
       }
     })

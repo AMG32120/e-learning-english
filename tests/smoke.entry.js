@@ -1,19 +1,26 @@
 /* 冒烟测试入口：esbuild 打包后由 node 执行 */
+import fs from 'fs'
 import { LEVELS, getLevel, getStageById, getStageWords, getPoolData, LEVEL_UNLOCK_RATIO } from '../src/data/levels'
 import { LETTERS, IPA_VOWELS, IPA_CONSONANTS, PHONICS_RULES } from '../src/data/letters'
-import { WORDS_L2, getAllL2Words } from '../src/data/words'
+import { hydrateWordData, getAllL2Words, getL5Themes, getL8Words } from '../src/services/wordData'
 import { DIALOGUES_L3, L3_LISTENING } from '../src/data/dialogues'
 import { getGrammarUnitById } from '../src/data/grammar'
-import { L5_THEMES, getAllL5Words } from '../src/data/words_l5'
 import { getL6ListeningById } from '../src/data/listening_l6'
 import { getArticleById } from '../src/data/reading_l7'
-import { L8_ACADEMIC_WORDS, getSimulationById } from '../src/data/simulation_l8'
+import { getSimulationById } from '../src/data/simulation_l8'
 import { DAILY_SENTENCES } from '../src/data/daily'
 import { collectLevelQuestions, collectUnlockedQuestions } from '../src/services/quizBank'
 import { getAccounts, saveAccounts, getSession, setSession, getUserData, saveUserData } from '../src/services/storage'
 import { createPinia, setActivePinia } from 'pinia'
 import { useAuthStore } from '../src/stores/auth'
 import { useProgressStore } from '../src/stores/progress'
+
+/* 词库 JSON 注入（Node 环境直接读文件，等价于浏览器的启动预载） */
+hydrateWordData({
+  l2: JSON.parse(fs.readFileSync('public/data/words-l2.json', 'utf8')),
+  l5: JSON.parse(fs.readFileSync('public/data/words-l5.json', 'utf8')),
+  l8: JSON.parse(fs.readFileSync('public/data/words-l8.json', 'utf8'))
+})
 
 let passed = 0, failed = 0
 /* 顺序执行队列，避免异步用例竞态 */
@@ -48,8 +55,8 @@ t('L3 对话 4 场景 + 2 听力', () => {
   eq(DIALOGUES_L3.length, 4, 'dialogues')
   eq(L3_LISTENING.length, 2, 'listening')
 })
-t('L5 主题 10（PLAN: 10+ 主题）', () => ok(L5_THEMES.length >= 10, 'themes=' + L5_THEMES.length))
-t('L8 学术词 96', () => eq(L8_ACADEMIC_WORDS.length, 96, 'l8 words'))
+t('L5 主题 10（PLAN: 10+ 主题）', () => ok(getL5Themes().length >= 10, 'themes=' + getL5Themes().length))
+t('L8 学术词 96', () => eq(getL8Words().length, 96, 'l8 words'))
 t('每日一句 60', () => eq(DAILY_SENTENCES.length, 60, 'daily'))
 
 /* 每关单词数校验 */
@@ -70,7 +77,7 @@ t('stage 引用数据完整', () => {
     for (const st of lv.stages) {
       const stageLevel = lv.level
       const c = st.content || {}
-      if (c.theme) ok(L5_THEMES.some(x => x.id === c.theme), `${st.id} theme ${c.theme} 缺失`)
+      if (c.theme) ok(getL5Themes().some(x => x.id === c.theme), `${st.id} theme ${c.theme} 缺失`)
       if (c.script) {
         if (lv.level === 3) ok(L3_LISTENING.some(x => x.id === c.script), `${st.id} script ${c.script} 缺失`)
         else ok(getL6ListeningById(c.script), `${st.id} script ${c.script} 缺失`)

@@ -4,18 +4,17 @@
    供复习池、每日一句、随机测验按 itemKey 快速查词。
    ============================================================ */
 import { LETTERS, IPA_VOWELS, IPA_CONSONANTS, PHONICS_WORDS } from '../data/letters'
-import { WORDS_L2 } from '../data/words'
-import { getAllL5Words } from '../data/words_l5'
-import { L8_ACADEMIC_WORDS } from '../data/simulation_l8'
+import { getWordsL2, getAllL5Words, getL8Words } from './wordData'
 
+/* SOURCES 为函数：延迟取值，保证词库 JSON 加载完成后构建索引 */
 const SOURCES = [
-  LETTERS,
-  IPA_VOWELS,
-  IPA_CONSONANTS,
-  PHONICS_WORDS,
-  ...Object.values(WORDS_L2).flat(),
-  getAllL5Words(),
-  L8_ACADEMIC_WORDS
+  () => LETTERS,
+  () => IPA_VOWELS,
+  () => IPA_CONSONANTS,
+  () => PHONICS_WORDS,
+  () => Object.values(getWordsL2()).flat(),
+  () => getAllL5Words(),
+  () => getL8Words()
 ]
 
 let CACHE = null
@@ -32,7 +31,8 @@ export function buildWordIndex() {
       index.set(mapKey, { word: key, pos, zh: item.zh || '', ipa: item.ipa || '', example: item.example || '' })
     }
   }
-  for (const list of SOURCES) {
+  for (const source of SOURCES) {
+    const list = source()
     if (Array.isArray(list)) list.forEach(push)
   }
   CACHE = index
