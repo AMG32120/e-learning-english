@@ -85,8 +85,12 @@ export const useProgressStore = defineStore('progress', {
         if (!stage) return false
         if (!self.isLevelUnlocked(stage.level)) return false
         if (stage.stage === 1) return true
-        const prevId = `L${stage.level}-${stage.stage - 1}`
-        const prev = s.data.progress.stages[prevId]
+        // 按等级内关卡顺序取前一关（兼容 L2-1 与 L2-U1-S1 两种 ID 形态）
+        const lv = getLevel(stage.level)
+        if (!lv) return false
+        const idx = lv.stages.findIndex((x) => x.id === stage.id)
+        if (idx <= 0) return true
+        const prev = s.data.progress.stages[lv.stages[idx - 1].id]
         return !!(prev && prev.completed)
       }
     },

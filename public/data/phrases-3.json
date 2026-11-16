@@ -1,0 +1,97 @@
+[
+  {
+    "id": "ph_health",
+    "title": "健康身体",
+    "emoji": "🩺",
+    "words": [
+      { "word": "get over", "pos": "phr.", "zh": "康复；克服", "example": "It took him a week to get over the flu.", "emoji": "🛏️" },
+      { "word": "come down with", "pos": "phr.", "zh": "患上（小病）", "example": "She came down with a cold last night.", "emoji": "💊" },
+      { "word": "throw up", "pos": "phr.", "zh": "呕吐", "example": "He threw up after the long ride.", "emoji": "🤢" },
+      { "word": "pass out", "pos": "phr.", "zh": "昏倒", "example": "She passed out in the hot sun.", "emoji": "😵" },
+      { "word": "stay up", "pos": "phr.", "zh": "熬夜", "example": "Do not stay up too late before the exam.", "emoji": "🌙" },
+      { "word": "eat out", "pos": "phr.", "zh": "外出就餐", "example": "We eat out once a week.", "emoji": "🍴" },
+      { "word": "cut back on", "pos": "phr.", "zh": "减少（摄入）", "example": "You should cut back on salt.", "emoji": "🌾" },
+      { "word": "put on weight", "pos": "phr.", "zh": "增重", "example": "He put on weight during the holiday.", "emoji": "⚖️" },
+      { "word": "lose weight", "pos": "phr.", "zh": "减重", "example": "She lost weight by walking daily.", "emoji": "🏋️" },
+      { "word": "keep fit", "pos": "phr.", "zh": "保持健康", "example": "Swimming helps me keep fit.", "emoji": "🏃" },
+      { "word": "warm up", "pos": "phr.", "zh": "热身", "example": "Warm up before you start running.", "emoji": "🤸" },
+      { "word": "cool down", "pos": "phr.", "zh": "放松（运动后）", "example": "Take five minutes to cool down.", "emoji": "🧊" }
+    ]
+  },
+  {
+    "id": "ph_travel",
+    "title": "出行旅游",
+    "emoji": "✈️",
+    "words": [
+      { "word": "check in", "pos": "phr.", "zh": "办理登机/入住", "example": "Check in two hours before the flight.", "emoji": "🛎️" },
+      { "word": "check out", "pos": "phr.", "zh": "退房；结账离开", "example": "We checked out at noon.", "emoji": "🧳" },
+      { "word": "set out", "pos": "phr.", "zh": "动身出发", "example": "They set out before sunrise.", "emoji": "🚗" },
+      { "word": "get around", "pos": "phr.", "zh": "四处走动", "example": "It is easy to get around by subway.", "emoji": "🗺️" },
+      { "word": "look around", "pos": "phr.", "zh": "四处看看", "example": "Let us look around the old town.", "emoji": "👀" },
+      { "word": "stop over", "pos": "phr.", "zh": "中途停留", "example": "We stopped over in Tokyo for a night.", "emoji": "🛬" },
+      { "word": "drop off", "pos": "phr.", "zh": "送到；放下", "example": "The driver dropped us off at the gate.", "emoji": "🚕" },
+      { "word": "see off", "pos": "phr.", "zh": "送行", "example": "My parents saw me off at the station.", "emoji": "👋" },
+      { "word": "go abroad", "pos": "phr.", "zh": "出国", "example": "She went abroad to study design.", "emoji": "🌍" },
+      { "word": "put up", "pos": "phr.", "zh": "留宿；安排住宿", "example": "They put us up for two nights.", "emoji": "🏨" },
+      { "word": "get lost", "pos": "phr.", "zh": "迷路", "example": "We got lost in the narrow streets.", "emoji": "🧭" },
+      { "word": "run into", "pos": "phr.", "zh": "偶遇", "example": "I ran into an old friend at the airport.", "emoji": "🎯" }
+    ]
+  },
+  {
+    "id": "ph_shopping",
+    "title": "购物服务",
+    "emoji": "🛍️",
+    "words": [
+      { "word": "try on", "pos": "phr.", "zh": "试穿", "example": "May I try on this jacket?", "emoji": "👗" },
+      { "word": "ring up", "pos": "phr.", "zh": "结账；打收银机", "example": "The cashier rang up my items quickly.", "emoji": "🧾" },
+      { "word": "take back", "pos": "phr.", "zh": "退回（商品）", "example": "I took back the shoes because of the size.", "emoji": "🔙" },
+      { "word": "pay by card", "pos": "phr.", "zh": "刷卡付款", "example": "Can I pay by card here?", "emoji": "💳" },
+      { "word": "on sale", "pos": "phr.", "zh": "打折出售", "example": "These bags are on sale this week.", "emoji": "🏷️" },
+      { "word": "sell off", "pos": "phr.", "zh": "清仓甩卖", "example": "The shop is selling off old stock.", "emoji": "📦" },
+      { "word": "stock up", "pos": "phr.", "zh": "囤货", "example": "We stocked up on water before the storm.", "emoji": "🛍️" },
+      { "word": "look for", "pos": "phr.", "zh": "寻找", "example": "I am looking for a gift for my mother.", "emoji": "🔍" },
+      { "word": "ask for", "pos": "phr.", "zh": "要求；询问", "example": "She asked for a discount.", "emoji": "🙋" },
+      { "word": "wait for", "pos": "phr.", "zh": "等待", "example": "We waited for the shop to open.", "emoji": "⏱️" },
+      { "word": "close down", "pos": "phr.", "zh": "停业；关闭", "example": "The bakery closed down last month.", "emoji": "🚪" },
+      { "word": "go shopping", "pos": "phr.", "zh": "去购物", "example": "We go shopping every Saturday.", "emoji": "🛒" }
+    ]
+  },
+  {
+    "id": "ph_phone_online",
+    "title": "电话网络",
+    "emoji": "📱",
+    "words": [
+      { "word": "call up", "pos": "phr.", "zh": "打电话给", "example": "I will call up the hotel to confirm.", "emoji": "📞" },
+      { "word": "hang on", "pos": "phr.", "zh": "稍等（电话）", "example": "Hang on, I am getting a pen.", "emoji": "⏸️" },
+      { "word": "cut off", "pos": "phr.", "zh": "切断；中断", "example": "We were cut off in the middle of the call.", "emoji": "📴" },
+      { "word": "get through", "pos": "phr.", "zh": "接通电话", "example": "I could not get through all morning.", "emoji": "☎️" },
+      { "word": "log in", "pos": "phr.", "zh": "登录", "example": "Log in with your email address.", "emoji": "🔑" },
+      { "word": "log out", "pos": "phr.", "zh": "退出登录", "example": "Always log out on a shared computer.", "emoji": "🚪" },
+      { "word": "sign up", "pos": "phr.", "zh": "注册", "example": "Sign up to get the free trial.", "emoji": "📝" },
+      { "word": "turn down", "pos": "phr.", "zh": "调小；拒绝", "example": "Please turn down the music.", "emoji": "🔉" },
+      { "word": "turn up", "pos": "phr.", "zh": "调大（音量）", "example": "Turn up the volume a little.", "emoji": "🔊" },
+      { "word": "back up", "pos": "phr.", "zh": "备份", "example": "Back up your files every week.", "emoji": "💾" },
+      { "word": "shut down", "pos": "phr.", "zh": "关机；停运", "example": "Shut down the computer before you leave.", "emoji": "⏻" },
+      { "word": "switch off", "pos": "phr.", "zh": "关掉（电源）", "example": "Switch off the lights when you go out.", "emoji": "🔌" }
+    ]
+  },
+  {
+    "id": "ph_cooking",
+    "title": "饮食烹饪",
+    "emoji": "🍳",
+    "words": [
+      { "word": "eat up", "pos": "phr.", "zh": "吃光", "example": "Eat up your vegetables, please.", "emoji": "🍽️" },
+      { "word": "cut up", "pos": "phr.", "zh": "切碎", "example": "Cut up the onions into small pieces.", "emoji": "🔪" },
+      { "word": "mix up", "pos": "phr.", "zh": "搅匀；混淆", "example": "Mix up the eggs and the flour.", "emoji": "🥣" },
+      { "word": "heat up", "pos": "phr.", "zh": "加热", "example": "Heat up the soup for five minutes.", "emoji": "♨️" },
+      { "word": "serve up", "pos": "phr.", "zh": "上菜；端上", "example": "She served up a big bowl of noodles.", "emoji": "🍲" },
+      { "word": "order in", "pos": "phr.", "zh": "点外卖", "example": "It is raining, let us order in.", "emoji": "🥡" },
+      { "word": "eat in", "pos": "phr.", "zh": "在家吃", "example": "We usually eat in on weekdays.", "emoji": "🏠" },
+      { "word": "fill up", "pos": "phr.", "zh": "装满", "example": "Fill up the bottle before you go.", "emoji": "🥛" },
+      { "word": "drink up", "pos": "phr.", "zh": "喝光", "example": "Drink up your milk.", "emoji": "🥤" },
+      { "word": "put away", "pos": "phr.", "zh": "收好；放回", "example": "Put away the dishes after dinner.", "emoji": "🧺" },
+      { "word": "clean up", "pos": "phr.", "zh": "收拾干净", "example": "Clean up the kitchen before you leave.", "emoji": "🧽" },
+      { "word": "boil over", "pos": "phr.", "zh": "煮得溢出来", "example": "Turn down the heat or the milk will boil over.", "emoji": "🫕" }
+    ]
+  }
+]

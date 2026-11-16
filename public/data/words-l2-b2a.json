@@ -1,0 +1,1156 @@
+{
+  "fruits": [
+    {
+      "word": "apple",
+      "ipa": "/ˈæpl/",
+      "pos": "n.",
+      "zh": "苹果",
+      "example": "I eat an apple every day.",
+      "emoji": "🍎",
+      "cefr": "A1"
+    },
+    {
+      "word": "banana",
+      "ipa": "/bəˈnɑːnə/",
+      "pos": "n.",
+      "zh": "香蕉",
+      "example": "The banana is yellow.",
+      "emoji": "🍌",
+      "cefr": "A1"
+    },
+    {
+      "word": "orange",
+      "ipa": "/ˈɒrɪndʒ/",
+      "pos": "n.",
+      "zh": "橙子",
+      "example": "She drinks orange juice.",
+      "emoji": "🍊",
+      "cefr": "A1"
+    },
+    {
+      "word": "grape",
+      "ipa": "/ɡreɪp/",
+      "pos": "n.",
+      "zh": "葡萄",
+      "example": "These grapes are very sweet.",
+      "emoji": "🍇",
+      "cefr": "A1"
+    },
+    {
+      "word": "peach",
+      "ipa": "/piːtʃ/",
+      "pos": "n.",
+      "zh": "桃子",
+      "example": "The peach is soft and juicy.",
+      "emoji": "🍑",
+      "cefr": "A2"
+    },
+    {
+      "word": "pear",
+      "ipa": "/peə(r)/",
+      "pos": "n.",
+      "zh": "梨",
+      "example": "I bought two pears at the market.",
+      "emoji": "🍐",
+      "cefr": "A1"
+    },
+    {
+      "word": "strawberry",
+      "ipa": "/ˈstrɔːbəri/",
+      "pos": "n.",
+      "zh": "草莓",
+      "example": "She likes strawberry ice cream.",
+      "emoji": "🍓",
+      "cefr": "A1"
+    },
+    {
+      "word": "watermelon",
+      "ipa": "/ˈwɔːtəmelən/",
+      "pos": "n.",
+      "zh": "西瓜",
+      "example": "Watermelon is perfect in summer.",
+      "emoji": "🍉",
+      "cefr": "A2"
+    },
+    {
+      "word": "lemon",
+      "ipa": "/ˈlemən/",
+      "pos": "n.",
+      "zh": "柠檬",
+      "example": "Add a little lemon to the tea.",
+      "emoji": "🍋",
+      "cefr": "A1"
+    },
+    {
+      "word": "mango",
+      "ipa": "/ˈmæŋɡəʊ/",
+      "pos": "n.",
+      "zh": "芒果",
+      "example": "This mango is ripe and sweet.",
+      "emoji": "🥭",
+      "cefr": "A2"
+    },
+    {
+      "word": "cherry",
+      "ipa": "/ˈtʃeri/",
+      "pos": "n.",
+      "zh": "樱桃",
+      "example": "There is a cherry on the cake.",
+      "emoji": "🍒",
+      "cefr": "A2"
+    },
+    {
+      "word": "pineapple",
+      "ipa": "/ˈpaɪnæpl/",
+      "pos": "n.",
+      "zh": "菠萝",
+      "example": "He cut the pineapple into pieces.",
+      "emoji": "🍍",
+      "cefr": "A2"
+    }
+  ],
+  "vegetables": [
+    {
+      "word": "tomato",
+      "ipa": "/təˈmɑːtəʊ/",
+      "pos": "n.",
+      "zh": "西红柿",
+      "example": "I put a tomato in the salad.",
+      "emoji": "🍅",
+      "cefr": "A1"
+    },
+    {
+      "word": "potato",
+      "ipa": "/pəˈteɪtəʊ/",
+      "pos": "n.",
+      "zh": "土豆",
+      "example": "She cooked some potatoes.",
+      "emoji": "🥔",
+      "cefr": "A1"
+    },
+    {
+      "word": "carrot",
+      "ipa": "/ˈkærət/",
+      "pos": "n.",
+      "zh": "胡萝卜",
+      "example": "Rabbits love eating carrots.",
+      "emoji": "🥕",
+      "cefr": "A1"
+    },
+    {
+      "word": "onion",
+      "ipa": "/ˈʌnjən/",
+      "pos": "n.",
+      "zh": "洋葱",
+      "example": "The onion makes me cry.",
+      "emoji": "🧅",
+      "cefr": "A1"
+    },
+    {
+      "word": "cabbage",
+      "ipa": "/ˈkæbɪdʒ/",
+      "pos": "n.",
+      "zh": "卷心菜",
+      "example": "We had cabbage soup for lunch.",
+      "emoji": "🥬",
+      "cefr": "A2"
+    },
+    {
+      "word": "cucumber",
+      "ipa": "/ˈkjuːkʌmbə(r)/",
+      "pos": "n.",
+      "zh": "黄瓜",
+      "example": "The cucumber is fresh and cool.",
+      "emoji": "🥒",
+      "cefr": "A2"
+    },
+    {
+      "word": "pepper",
+      "ipa": "/ˈpepə(r)/",
+      "pos": "n.",
+      "zh": "辣椒；胡椒",
+      "example": "This pepper is very hot.",
+      "emoji": "🫑",
+      "cefr": "A2"
+    },
+    {
+      "word": "mushroom",
+      "ipa": "/ˈmʌʃrʊm/",
+      "pos": "n.",
+      "zh": "蘑菇",
+      "example": "Mushrooms grow in the forest.",
+      "emoji": "🍄",
+      "cefr": "A2"
+    },
+    {
+      "word": "bean",
+      "ipa": "/biːn/",
+      "pos": "n.",
+      "zh": "豆子",
+      "example": "Beans are good for your health.",
+      "emoji": "🫘",
+      "cefr": "A2"
+    },
+    {
+      "word": "corn",
+      "ipa": "/kɔːn/",
+      "pos": "n.",
+      "zh": "玉米",
+      "example": "We bought corn at the farm.",
+      "emoji": "🌽",
+      "cefr": "A1"
+    },
+    {
+      "word": "pumpkin",
+      "ipa": "/ˈpʌmpkɪn/",
+      "pos": "n.",
+      "zh": "南瓜",
+      "example": "The pumpkin is big and orange.",
+      "emoji": "🎃",
+      "cefr": "A2"
+    },
+    {
+      "word": "garlic",
+      "ipa": "/ˈɡɑːlɪk/",
+      "pos": "n.",
+      "zh": "大蒜",
+      "example": "Add some garlic to the sauce.",
+      "emoji": "🧄",
+      "cefr": "A2"
+    }
+  ],
+  "drinks": [
+    {
+      "word": "water",
+      "ipa": "/ˈwɔːtə(r)/",
+      "pos": "n.",
+      "zh": "水",
+      "example": "Please give me a glass of water.",
+      "emoji": "💧",
+      "cefr": "A1"
+    },
+    {
+      "word": "milk",
+      "ipa": "/mɪlk/",
+      "pos": "n.",
+      "zh": "牛奶",
+      "example": "The baby drinks milk every morning.",
+      "emoji": "🥛",
+      "cefr": "A1"
+    },
+    {
+      "word": "tea",
+      "ipa": "/tiː/",
+      "pos": "n.",
+      "zh": "茶",
+      "example": "My father drinks green tea.",
+      "emoji": "🍵",
+      "cefr": "A1"
+    },
+    {
+      "word": "coffee",
+      "ipa": "/ˈkɒfi/",
+      "pos": "n.",
+      "zh": "咖啡",
+      "example": "She needs coffee to start the day.",
+      "emoji": "☕",
+      "cefr": "A1"
+    },
+    {
+      "word": "juice",
+      "ipa": "/dʒuːs/",
+      "pos": "n.",
+      "zh": "果汁",
+      "example": "This juice has no sugar.",
+      "emoji": "🧃",
+      "cefr": "A1"
+    },
+    {
+      "word": "soda",
+      "ipa": "/ˈsəʊdə/",
+      "pos": "n.",
+      "zh": "汽水",
+      "example": "He opened a can of soda.",
+      "emoji": "🥤",
+      "cefr": "A2"
+    },
+    {
+      "word": "beer",
+      "ipa": "/bɪə(r)/",
+      "pos": "n.",
+      "zh": "啤酒",
+      "example": "They shared a bottle of beer.",
+      "emoji": "🍺",
+      "cefr": "A2"
+    },
+    {
+      "word": "wine",
+      "ipa": "/waɪn/",
+      "pos": "n.",
+      "zh": "葡萄酒",
+      "example": "This wine comes from France.",
+      "emoji": "🍷",
+      "cefr": "A2"
+    },
+    {
+      "word": "soup",
+      "ipa": "/suːp/",
+      "pos": "n.",
+      "zh": "汤",
+      "example": "The soup is hot and salty.",
+      "emoji": "🍲",
+      "cefr": "A1"
+    },
+    {
+      "word": "honey",
+      "ipa": "/ˈhʌni/",
+      "pos": "n.",
+      "zh": "蜂蜜",
+      "example": "Put some honey in your tea.",
+      "emoji": "🍯",
+      "cefr": "A2"
+    },
+    {
+      "word": "bottle",
+      "ipa": "/ˈbɒtl/",
+      "pos": "n.",
+      "zh": "瓶子",
+      "example": "Fill the bottle with cold water.",
+      "emoji": "🍾",
+      "cefr": "A1"
+    },
+    {
+      "word": "thirsty",
+      "ipa": "/ˈθɜːsti/",
+      "pos": "adj.",
+      "zh": "口渴的",
+      "example": "I am thirsty after the run.",
+      "emoji": "🥵",
+      "cefr": "A2"
+    }
+  ],
+  "meals": [
+    {
+      "word": "breakfast",
+      "ipa": "/ˈbrekfəst/",
+      "pos": "n.",
+      "zh": "早餐",
+      "example": "We have breakfast at seven.",
+      "emoji": "🥣",
+      "cefr": "A1"
+    },
+    {
+      "word": "lunch",
+      "ipa": "/lʌntʃ/",
+      "pos": "n.",
+      "zh": "午餐",
+      "example": "Let us have lunch together.",
+      "emoji": "🍱",
+      "cefr": "A1"
+    },
+    {
+      "word": "dinner",
+      "ipa": "/ˈdɪnə(r)/",
+      "pos": "n.",
+      "zh": "晚餐",
+      "example": "Dinner is ready at six.",
+      "emoji": "🍽️",
+      "cefr": "A1"
+    },
+    {
+      "word": "snack",
+      "ipa": "/snæk/",
+      "pos": "n.",
+      "zh": "零食",
+      "example": "He eats a snack after school.",
+      "emoji": "🍿",
+      "cefr": "A2"
+    },
+    {
+      "word": "bread",
+      "ipa": "/bred/",
+      "pos": "n.",
+      "zh": "面包",
+      "example": "She bought fresh bread this morning.",
+      "emoji": "🍞",
+      "cefr": "A1"
+    },
+    {
+      "word": "rice",
+      "ipa": "/raɪs/",
+      "pos": "n.",
+      "zh": "米饭",
+      "example": "We eat rice with every meal.",
+      "emoji": "🍚",
+      "cefr": "A1"
+    },
+    {
+      "word": "noodle",
+      "ipa": "/ˈnuːdl/",
+      "pos": "n.",
+      "zh": "面条",
+      "example": "These noodles are very tasty.",
+      "emoji": "🍜",
+      "cefr": "A1"
+    },
+    {
+      "word": "egg",
+      "ipa": "/eɡ/",
+      "pos": "n.",
+      "zh": "鸡蛋",
+      "example": "I want two eggs for breakfast.",
+      "emoji": "🥚",
+      "cefr": "A1"
+    },
+    {
+      "word": "meat",
+      "ipa": "/miːt/",
+      "pos": "n.",
+      "zh": "肉",
+      "example": "She does not eat meat.",
+      "emoji": "🍖",
+      "cefr": "A1"
+    },
+    {
+      "word": "fish",
+      "ipa": "/fɪʃ/",
+      "pos": "n.",
+      "zh": "鱼",
+      "example": "The fish smells delicious.",
+      "emoji": "🐟",
+      "cefr": "A1"
+    },
+    {
+      "word": "salad",
+      "ipa": "/ˈsæləd/",
+      "pos": "n.",
+      "zh": "沙拉",
+      "example": "I made a green salad for lunch.",
+      "emoji": "🥗",
+      "cefr": "A2"
+    },
+    {
+      "word": "cake",
+      "ipa": "/keɪk/",
+      "pos": "n.",
+      "zh": "蛋糕",
+      "example": "The cake is for her birthday.",
+      "emoji": "🍰",
+      "cefr": "A1"
+    },
+    {
+      "word": "flour",
+      "ipa": "/ˈflaʊə(r)/",
+      "pos": "n.",
+      "zh": "面粉",
+      "example": "You need flour to make bread.",
+      "emoji": "🌾",
+      "cefr": "A2"
+    },
+    {
+      "word": "salt",
+      "ipa": "/sɔːlt/",
+      "pos": "n.",
+      "zh": "盐",
+      "example": "Add a little salt to the soup.",
+      "emoji": "🧂",
+      "cefr": "A1"
+    },
+    {
+      "word": "sugar",
+      "ipa": "/ˈʃʊɡə(r)/",
+      "pos": "n.",
+      "zh": "糖",
+      "example": "No sugar in my coffee, thanks.",
+      "emoji": "🍬",
+      "cefr": "A1"
+    },
+    {
+      "word": "sauce",
+      "ipa": "/sɔːs/",
+      "pos": "n.",
+      "zh": "酱汁",
+      "example": "The sauce is a bit too sweet.",
+      "emoji": "🥫",
+      "cefr": "A2"
+    },
+    {
+      "word": "vinegar",
+      "ipa": "/ˈvɪnɪɡə(r)/",
+      "pos": "n.",
+      "zh": "醋",
+      "example": "Put some vinegar on the chips.",
+      "emoji": "🍶",
+      "cefr": "A2"
+    },
+    {
+      "word": "butter",
+      "ipa": "/ˈbʌtə(r)/",
+      "pos": "n.",
+      "zh": "黄油",
+      "example": "Spread butter on the toast.",
+      "emoji": "🧈",
+      "cefr": "A1"
+    }
+  ],
+  "kitchen": [
+    {
+      "word": "knife",
+      "ipa": "/naɪf/",
+      "pos": "n.",
+      "zh": "刀",
+      "example": "Be careful with that sharp knife.",
+      "emoji": "🔪",
+      "cefr": "A1"
+    },
+    {
+      "word": "fork",
+      "ipa": "/fɔːk/",
+      "pos": "n.",
+      "zh": "叉子",
+      "example": "Use a fork to eat the salad.",
+      "emoji": "🍴",
+      "cefr": "A1"
+    },
+    {
+      "word": "spoon",
+      "ipa": "/spuːn/",
+      "pos": "n.",
+      "zh": "勺子",
+      "example": "She needs a spoon for the soup.",
+      "emoji": "🥄",
+      "cefr": "A1"
+    },
+    {
+      "word": "plate",
+      "ipa": "/pleɪt/",
+      "pos": "n.",
+      "zh": "盘子",
+      "example": "Put the fish on the plate.",
+      "emoji": "🍽️",
+      "cefr": "A1"
+    },
+    {
+      "word": "bowl",
+      "ipa": "/bəʊl/",
+      "pos": "n.",
+      "zh": "碗",
+      "example": "The bowl is full of rice.",
+      "emoji": "🥣",
+      "cefr": "A1"
+    },
+    {
+      "word": "cup",
+      "ipa": "/kʌp/",
+      "pos": "n.",
+      "zh": "杯子",
+      "example": "There is a cup on the table.",
+      "emoji": "🫖",
+      "cefr": "A1"
+    },
+    {
+      "word": "pan",
+      "ipa": "/pæn/",
+      "pos": "n.",
+      "zh": "平底锅",
+      "example": "Heat the oil in the pan.",
+      "emoji": "🍳",
+      "cefr": "A2"
+    },
+    {
+      "word": "pot",
+      "ipa": "/pɒt/",
+      "pos": "n.",
+      "zh": "锅",
+      "example": "Boil the water in the pot.",
+      "emoji": "🫕",
+      "cefr": "A2"
+    },
+    {
+      "word": "oven",
+      "ipa": "/ˈʌvn/",
+      "pos": "n.",
+      "zh": "烤箱",
+      "example": "The bread is in the oven.",
+      "emoji": "🔥",
+      "cefr": "A2"
+    },
+    {
+      "word": "sink",
+      "ipa": "/sɪŋk/",
+      "pos": "n.",
+      "zh": "水槽",
+      "example": "Wash your hands in the sink.",
+      "emoji": "🚰",
+      "cefr": "A2"
+    },
+    {
+      "word": "towel",
+      "ipa": "/ˈtaʊəl/",
+      "pos": "n.",
+      "zh": "毛巾",
+      "example": "Dry your hands with the towel.",
+      "emoji": "🧻",
+      "cefr": "A1"
+    },
+    {
+      "word": "jar",
+      "ipa": "/dʒɑː(r)/",
+      "pos": "n.",
+      "zh": "罐子",
+      "example": "There is honey in the jar.",
+      "emoji": "🫙",
+      "cefr": "A2"
+    }
+  ],
+  "bathroom": [
+    {
+      "word": "soap",
+      "ipa": "/səʊp/",
+      "pos": "n.",
+      "zh": "肥皂",
+      "example": "Wash your hands with soap.",
+      "emoji": "🧼",
+      "cefr": "A1"
+    },
+    {
+      "word": "shampoo",
+      "ipa": "/ʃæmˈpuː/",
+      "pos": "n.",
+      "zh": "洗发水",
+      "example": "We need more shampoo.",
+      "emoji": "🧴",
+      "cefr": "A2"
+    },
+    {
+      "word": "toothbrush",
+      "ipa": "/ˈtuːθbrʌʃ/",
+      "pos": "n.",
+      "zh": "牙刷",
+      "example": "My toothbrush is blue.",
+      "emoji": "🪥",
+      "cefr": "A1"
+    },
+    {
+      "word": "comb",
+      "ipa": "/kəʊm/",
+      "pos": "n.",
+      "zh": "梳子",
+      "example": "She keeps a comb in her bag.",
+      "emoji": "💈",
+      "cefr": "A2"
+    },
+    {
+      "word": "mirror",
+      "ipa": "/ˈmɪrə(r)/",
+      "pos": "n.",
+      "zh": "镜子",
+      "example": "He looked at himself in the mirror.",
+      "emoji": "🪞",
+      "cefr": "A1"
+    },
+    {
+      "word": "bathtub",
+      "ipa": "/ˈbɑːθtʌb/",
+      "pos": "n.",
+      "zh": "浴缸",
+      "example": "The bathtub is full of warm water.",
+      "emoji": "🛁",
+      "cefr": "A2"
+    },
+    {
+      "word": "shower",
+      "ipa": "/ˈʃaʊə(r)/",
+      "pos": "n.",
+      "zh": "淋浴",
+      "example": "I take a shower every night.",
+      "emoji": "🚿",
+      "cefr": "A1"
+    },
+    {
+      "word": "toilet",
+      "ipa": "/ˈtɔɪlət/",
+      "pos": "n.",
+      "zh": "马桶",
+      "example": "The toilet is next to the door.",
+      "emoji": "🚽",
+      "cefr": "A1"
+    },
+    {
+      "word": "sponge",
+      "ipa": "/spʌndʒ/",
+      "pos": "n.",
+      "zh": "海绵",
+      "example": "Clean the cup with a sponge.",
+      "emoji": "🧽",
+      "cefr": "A2"
+    },
+    {
+      "word": "razor",
+      "ipa": "/ˈreɪzə(r)/",
+      "pos": "n.",
+      "zh": "剃须刀",
+      "example": "He shaves with a razor.",
+      "emoji": "🪒",
+      "cefr": "A2"
+    },
+    {
+      "word": "tissue",
+      "ipa": "/ˈtɪʃuː/",
+      "pos": "n.",
+      "zh": "纸巾",
+      "example": "Pass me a tissue, please.",
+      "emoji": "🧾",
+      "cefr": "A2"
+    },
+    {
+      "word": "bucket",
+      "ipa": "/ˈbʌkɪt/",
+      "pos": "n.",
+      "zh": "水桶",
+      "example": "Fill the bucket with water.",
+      "emoji": "🪣",
+      "cefr": "A2"
+    }
+  ],
+  "appliances": [
+    {
+      "word": "fridge",
+      "ipa": "/frɪdʒ/",
+      "pos": "n.",
+      "zh": "冰箱",
+      "example": "The milk is in the fridge.",
+      "emoji": "🧊",
+      "cefr": "A1"
+    },
+    {
+      "word": "washer",
+      "ipa": "/ˈwɒʃə(r)/",
+      "pos": "n.",
+      "zh": "洗衣机",
+      "example": "The washer is broken again.",
+      "emoji": "🌀",
+      "cefr": "A2"
+    },
+    {
+      "word": "aircon",
+      "ipa": "/ˈeə kɒn/",
+      "pos": "n.",
+      "zh": "空调",
+      "example": "Please turn on the aircon.",
+      "emoji": "❄️",
+      "cefr": "A2"
+    },
+    {
+      "word": "fan",
+      "ipa": "/fæn/",
+      "pos": "n.",
+      "zh": "风扇",
+      "example": "The fan keeps the room cool.",
+      "emoji": "🪭",
+      "cefr": "A1"
+    },
+    {
+      "word": "lamp",
+      "ipa": "/læmp/",
+      "pos": "n.",
+      "zh": "台灯",
+      "example": "Turn on the lamp, please.",
+      "emoji": "💡",
+      "cefr": "A1"
+    },
+    {
+      "word": "television",
+      "ipa": "/ˈtelɪvɪʒn/",
+      "pos": "n.",
+      "zh": "电视",
+      "example": "We watch television after dinner.",
+      "emoji": "📺",
+      "cefr": "A1"
+    },
+    {
+      "word": "microwave",
+      "ipa": "/ˈmaɪkrəweɪv/",
+      "pos": "n.",
+      "zh": "微波炉",
+      "example": "Heat the soup in the microwave.",
+      "emoji": "♨️",
+      "cefr": "A2"
+    },
+    {
+      "word": "vacuum",
+      "ipa": "/ˈvækjuːm/",
+      "pos": "n.",
+      "zh": "吸尘器",
+      "example": "She cleans the floor with a vacuum.",
+      "emoji": "🧹",
+      "cefr": "A2"
+    },
+    {
+      "word": "kettle",
+      "ipa": "/ˈketl/",
+      "pos": "n.",
+      "zh": "水壶",
+      "example": "The kettle is boiling.",
+      "emoji": "🫖",
+      "cefr": "A2"
+    },
+    {
+      "word": "heater",
+      "ipa": "/ˈhiːtə(r)/",
+      "pos": "n.",
+      "zh": "取暖器",
+      "example": "We use the heater in winter.",
+      "emoji": "🔥",
+      "cefr": "A2"
+    },
+    {
+      "word": "dryer",
+      "ipa": "/ˈdraɪə(r)/",
+      "pos": "n.",
+      "zh": "烘干机",
+      "example": "Put the clothes in the dryer.",
+      "emoji": "🌬️",
+      "cefr": "A2"
+    },
+    {
+      "word": "toaster",
+      "ipa": "/ˈtəʊstə(r)/",
+      "pos": "n.",
+      "zh": "烤面包机",
+      "example": "The toaster makes the bread warm.",
+      "emoji": "🍞",
+      "cefr": "A2"
+    }
+  ],
+  "toys": [
+    {
+      "word": "doll",
+      "ipa": "/dɒl/",
+      "pos": "n.",
+      "zh": "玩偶",
+      "example": "The girl holds a small doll.",
+      "emoji": "🪆",
+      "cefr": "A1"
+    },
+    {
+      "word": "kite",
+      "ipa": "/kaɪt/",
+      "pos": "n.",
+      "zh": "风筝",
+      "example": "They fly a kite in the park.",
+      "emoji": "🪁",
+      "cefr": "A1"
+    },
+    {
+      "word": "balloon",
+      "ipa": "/bəˈluːn/",
+      "pos": "n.",
+      "zh": "气球",
+      "example": "The red balloon flew away.",
+      "emoji": "🎈",
+      "cefr": "A1"
+    },
+    {
+      "word": "puzzle",
+      "ipa": "/ˈpʌzl/",
+      "pos": "n.",
+      "zh": "拼图",
+      "example": "This puzzle has a thousand pieces.",
+      "emoji": "🧩",
+      "cefr": "A2"
+    },
+    {
+      "word": "teddy",
+      "ipa": "/ˈtedi/",
+      "pos": "n.",
+      "zh": "泰迪熊",
+      "example": "The baby sleeps with a teddy.",
+      "emoji": "🧸",
+      "cefr": "A1"
+    },
+    {
+      "word": "block",
+      "ipa": "/blɒk/",
+      "pos": "n.",
+      "zh": "积木",
+      "example": "He builds a tower with blocks.",
+      "emoji": "🧱",
+      "cefr": "A2"
+    },
+    {
+      "word": "robot",
+      "ipa": "/ˈrəʊbɒt/",
+      "pos": "n.",
+      "zh": "机器人",
+      "example": "The robot can walk and talk.",
+      "emoji": "🤖",
+      "cefr": "A2"
+    },
+    {
+      "word": "car",
+      "ipa": "/kɑː(r)/",
+      "pos": "n.",
+      "zh": "小汽车",
+      "example": "This toy car is very fast.",
+      "emoji": "🚗",
+      "cefr": "A1"
+    },
+    {
+      "word": "train",
+      "ipa": "/treɪn/",
+      "pos": "n.",
+      "zh": "火车",
+      "example": "The toy train goes around the tree.",
+      "emoji": "🚂",
+      "cefr": "A1"
+    },
+    {
+      "word": "drum",
+      "ipa": "/drʌm/",
+      "pos": "n.",
+      "zh": "鼓",
+      "example": "He plays the drum loudly.",
+      "emoji": "🥁",
+      "cefr": "A2"
+    },
+    {
+      "word": "whistle",
+      "ipa": "/ˈwɪsl/",
+      "pos": "n.",
+      "zh": "哨子",
+      "example": "The teacher blew the whistle.",
+      "emoji": "📢",
+      "cefr": "A2"
+    },
+    {
+      "word": "marble",
+      "ipa": "/ˈmɑːbl/",
+      "pos": "n.",
+      "zh": "弹珠",
+      "example": "The boy lost his favourite marble.",
+      "emoji": "🔮",
+      "cefr": "A2"
+    }
+  ],
+  "pets": [
+    {
+      "word": "dog",
+      "ipa": "/dɒɡ/",
+      "pos": "n.",
+      "zh": "狗",
+      "example": "The dog runs in the garden.",
+      "emoji": "🐕",
+      "cefr": "A1"
+    },
+    {
+      "word": "cat",
+      "ipa": "/kæt/",
+      "pos": "n.",
+      "zh": "猫",
+      "example": "The cat sleeps on the sofa.",
+      "emoji": "🐈",
+      "cefr": "A1"
+    },
+    {
+      "word": "rabbit",
+      "ipa": "/ˈræbɪt/",
+      "pos": "n.",
+      "zh": "兔子",
+      "example": "The rabbit eats a carrot.",
+      "emoji": "🐇",
+      "cefr": "A1"
+    },
+    {
+      "word": "hamster",
+      "ipa": "/ˈhæmstə(r)/",
+      "pos": "n.",
+      "zh": "仓鼠",
+      "example": "The hamster runs on a wheel.",
+      "emoji": "🐹",
+      "cefr": "A2"
+    },
+    {
+      "word": "parrot",
+      "ipa": "/ˈpærət/",
+      "pos": "n.",
+      "zh": "鹦鹉",
+      "example": "The parrot can say hello.",
+      "emoji": "🦜",
+      "cefr": "A2"
+    },
+    {
+      "word": "goldfish",
+      "ipa": "/ˈɡəʊldfɪʃ/",
+      "pos": "n.",
+      "zh": "金鱼",
+      "example": "There are two goldfish in the tank.",
+      "emoji": "🐠",
+      "cefr": "A2"
+    },
+    {
+      "word": "turtle",
+      "ipa": "/ˈtɜːtl/",
+      "pos": "n.",
+      "zh": "乌龟",
+      "example": "The turtle moves very slowly.",
+      "emoji": "🐢",
+      "cefr": "A2"
+    },
+    {
+      "word": "snake",
+      "ipa": "/sneɪk/",
+      "pos": "n.",
+      "zh": "蛇",
+      "example": "The snake lives in the grass.",
+      "emoji": "🐍",
+      "cefr": "A2"
+    },
+    {
+      "word": "horse",
+      "ipa": "/hɔːs/",
+      "pos": "n.",
+      "zh": "马",
+      "example": "She rides a brown horse.",
+      "emoji": "🐎",
+      "cefr": "A1"
+    },
+    {
+      "word": "bird",
+      "ipa": "/bɜːd/",
+      "pos": "n.",
+      "zh": "鸟",
+      "example": "A bird is singing outside.",
+      "emoji": "🐦",
+      "cefr": "A1"
+    },
+    {
+      "word": "puppy",
+      "ipa": "/ˈpʌpi/",
+      "pos": "n.",
+      "zh": "小狗",
+      "example": "The puppy is only two months old.",
+      "emoji": "🐶",
+      "cefr": "A1"
+    },
+    {
+      "word": "kitten",
+      "ipa": "/ˈkɪtn/",
+      "pos": "n.",
+      "zh": "小猫",
+      "example": "The kitten plays with a ball.",
+      "emoji": "🐱",
+      "cefr": "A1"
+    }
+  ],
+  "farm": [
+    {
+      "word": "cow",
+      "ipa": "/kaʊ/",
+      "pos": "n.",
+      "zh": "奶牛",
+      "example": "The cow gives us milk.",
+      "emoji": "🐄",
+      "cefr": "A1"
+    },
+    {
+      "word": "pig",
+      "ipa": "/pɪɡ/",
+      "pos": "n.",
+      "zh": "猪",
+      "example": "The pig is in the mud.",
+      "emoji": "🐖",
+      "cefr": "A1"
+    },
+    {
+      "word": "sheep",
+      "ipa": "/ʃiːp/",
+      "pos": "n.",
+      "zh": "绵羊",
+      "example": "Ten sheep are on the hill.",
+      "emoji": "🐑",
+      "cefr": "A1"
+    },
+    {
+      "word": "chicken",
+      "ipa": "/ˈtʃɪkɪn/",
+      "pos": "n.",
+      "zh": "鸡",
+      "example": "The chicken lays eggs every day.",
+      "emoji": "🐔",
+      "cefr": "A1"
+    },
+    {
+      "word": "duck",
+      "ipa": "/dʌk/",
+      "pos": "n.",
+      "zh": "鸭子",
+      "example": "The duck swims in the pond.",
+      "emoji": "🦆",
+      "cefr": "A1"
+    },
+    {
+      "word": "goat",
+      "ipa": "/ɡəʊt/",
+      "pos": "n.",
+      "zh": "山羊",
+      "example": "The goat eats grass on the hill.",
+      "emoji": "🐐",
+      "cefr": "A2"
+    },
+    {
+      "word": "donkey",
+      "ipa": "/ˈdɒŋki/",
+      "pos": "n.",
+      "zh": "驴",
+      "example": "The farmer rides a donkey.",
+      "emoji": "🫏",
+      "cefr": "A2"
+    },
+    {
+      "word": "tractor",
+      "ipa": "/ˈtræktə(r)/",
+      "pos": "n.",
+      "zh": "拖拉机",
+      "example": "The tractor works in the field.",
+      "emoji": "🚜",
+      "cefr": "A2"
+    },
+    {
+      "word": "barn",
+      "ipa": "/bɑːn/",
+      "pos": "n.",
+      "zh": "谷仓",
+      "example": "The hay is kept in the barn.",
+      "emoji": "🏚️",
+      "cefr": "A2"
+    },
+    {
+      "word": "wheat",
+      "ipa": "/wiːt/",
+      "pos": "n.",
+      "zh": "小麦",
+      "example": "The wheat turns gold in June.",
+      "emoji": "🌾",
+      "cefr": "A2"
+    },
+    {
+      "word": "field",
+      "ipa": "/fiːld/",
+      "pos": "n.",
+      "zh": "田地",
+      "example": "The field is full of green grass.",
+      "emoji": "🌿",
+      "cefr": "A2"
+    },
+    {
+      "word": "rooster",
+      "ipa": "/ˈruːstə(r)/",
+      "pos": "n.",
+      "zh": "公鸡",
+      "example": "The rooster wakes us up early.",
+      "emoji": "🐓",
+      "cefr": "A2"
+    }
+  ]
+}

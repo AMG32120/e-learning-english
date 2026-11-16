@@ -361,8 +361,10 @@ function buildQuiz() {
   }
 
   const pool = getPoolData(s.content.pool)
+  // 细分关卡：本关只练 focusWords 里的词，干扰项仍从整个主题池取
+  const focus = Array.isArray(s.content.focusWords) && s.content.focusWords.length ? s.content.focusWords : pool
   const count = s.content.count || 10
-  const picked = shuffle(pool).slice(0, count)
+  const picked = shuffle(focus).slice(0, count)
 
   if (s.type === 'letter_recognize') {
     questions.value = picked.map((item) => {
@@ -438,7 +440,7 @@ function buildQuiz() {
       if (wMode === 'zh2en') {
         const options = shuffle([item, ...distractors]).map((x) => ({ key: x.word, label: x.word }))
         return {
-          prompt: `选出与「${item.zh}」对应的英文单词`,
+          prompt: `选出与「${item.zh}」对应的${/\s/.test(item.word) ? '英文搭配' : '英文单词'}`,
           answer: item.word,
           options,
           display: { main: item.zh, emoji: item.emoji },

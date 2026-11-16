@@ -166,9 +166,9 @@ async function main() {
     await shot(page, '07b-l1-all-done')
   })
 
-  await step('通关 L2-1（解锁随机测验）', async () => {
+  await step('通关 L2-U1-S1（解锁随机测验）', async () => {
     await completeStageFlow(2, 1)
-    console.log('  L2-1 done, url=', page.url())
+    console.log('  L2-U1-S1 done, url=', page.url())
     await shot(page, '07c-l2-1-done')
   })
 

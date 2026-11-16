@@ -1,0 +1,97 @@
+[
+  {
+    "id": "ph_emotions",
+    "title": "情绪态度",
+    "emoji": "😌",
+    "words": [
+      { "word": "calm down", "pos": "phr.", "zh": "冷静下来", "example": "Calm down and tell me the whole story.", "emoji": "🧘" },
+      { "word": "cheer up", "pos": "phr.", "zh": "振作起来", "example": "Cheer up, things will get better.", "emoji": "🎈" },
+      { "word": "look forward to", "pos": "phr.", "zh": "期待", "example": "I look forward to seeing you again.", "emoji": "🌟" },
+      { "word": "put up with", "pos": "phr.", "zh": "忍受", "example": "I cannot put up with the noise any more.", "emoji": "😤" },
+      { "word": "care about", "pos": "phr.", "zh": "在乎；关心", "example": "She really cares about her students.", "emoji": "💗" },
+      { "word": "look down on", "pos": "phr.", "zh": "轻视", "example": "Do not look down on simple work.", "emoji": "👀" },
+      { "word": "open up", "pos": "phr.", "zh": "敞开心扉", "example": "He finally opened up about his worries.", "emoji": "🚪" },
+      { "word": "give up", "pos": "phr.", "zh": "放弃", "example": "Never give up on your dream.", "emoji": "🏳️" },
+      { "word": "hold back", "pos": "phr.", "zh": "抑制（情绪）", "example": "She could not hold back her tears.", "emoji": "😶" },
+      { "word": "break down", "pos": "phr.", "zh": "情绪崩溃", "example": "He broke down after hearing the news.", "emoji": "😢" },
+      { "word": "freak out", "pos": "phr.", "zh": "惊慌失措", "example": "Do not freak out, we still have time.", "emoji": "😱" },
+      { "word": "loosen up", "pos": "phr.", "zh": "放松一点", "example": "Loosen up and enjoy the party.", "emoji": "🎵" }
+    ]
+  },
+  {
+    "id": "ph_relationships",
+    "title": "人际关系",
+    "emoji": "🤝",
+    "words": [
+      { "word": "get along with", "pos": "phr.", "zh": "与…相处融洽", "example": "I get along with my new roommates.", "emoji": "🫂" },
+      { "word": "make up", "pos": "phr.", "zh": "和好；编造", "example": "They argued but made up the next day.", "emoji": "🕊️" },
+      { "word": "break up", "pos": "phr.", "zh": "分手；解散", "example": "The band broke up last year.", "emoji": "💔" },
+      { "word": "look after", "pos": "phr.", "zh": "照顾", "example": "She looks after her little brother.", "emoji": "🧸" },
+      { "word": "take care of", "pos": "phr.", "zh": "照看；负责", "example": "Please take care of the plants while I am away.", "emoji": "🩹" },
+      { "word": "grow up", "pos": "phr.", "zh": "长大", "example": "He grew up in a small town.", "emoji": "🌱" },
+      { "word": "hang out", "pos": "phr.", "zh": "一起消磨时间", "example": "We often hang out after class.", "emoji": "🛝" },
+      { "word": "fit in", "pos": "phr.", "zh": "融入（群体）", "example": "It took her a month to fit in.", "emoji": "🧩" },
+      { "word": "turn to", "pos": "phr.", "zh": "求助于；转向", "example": "She turned to her teacher for advice.", "emoji": "🙏" },
+      { "word": "count on", "pos": "phr.", "zh": "依靠；指望", "example": "You can always count on me.", "emoji": "🤜" },
+      { "word": "fall out", "pos": "phr.", "zh": "闹翻", "example": "They fell out over a small matter.", "emoji": "⚡" },
+      { "word": "settle down", "pos": "phr.", "zh": "安定下来", "example": "They settled down in a quiet village.", "emoji": "🏡" }
+    ]
+  },
+  {
+    "id": "ph_money",
+    "title": "金钱交易",
+    "emoji": "💰",
+    "words": [
+      { "word": "pay for", "pos": "phr.", "zh": "为…付款", "example": "Who will pay for the tickets?", "emoji": "💳" },
+      { "word": "pay back", "pos": "phr.", "zh": "还钱", "example": "I will pay you back next week.", "emoji": "💵" },
+      { "word": "save up", "pos": "phr.", "zh": "攒钱", "example": "She saved up for a new laptop.", "emoji": "🏦" },
+      { "word": "give away", "pos": "phr.", "zh": "赠送；捐出", "example": "He gave away most of his books.", "emoji": "🎀" },
+      { "word": "sell out", "pos": "phr.", "zh": "售罄", "example": "The tickets sold out in an hour.", "emoji": "📉" },
+      { "word": "shop around", "pos": "phr.", "zh": "货比三家", "example": "Shop around before you buy a car.", "emoji": "🛒" },
+      { "word": "cut down on", "pos": "phr.", "zh": "减少（用量）", "example": "Try to cut down on sugar.", "emoji": "⬇️" },
+      { "word": "run out of", "pos": "phr.", "zh": "用完；耗尽", "example": "We ran out of milk this morning.", "emoji": "🚫" },
+      { "word": "get by", "pos": "phr.", "zh": "勉强维持", "example": "They get by on a small income.", "emoji": "🪙" },
+      { "word": "take out", "pos": "phr.", "zh": "取出；办理（贷款）", "example": "He took out a loan for the house.", "emoji": "🏧" },
+      { "word": "chip in", "pos": "phr.", "zh": "凑钱；出份力", "example": "Everyone chipped in for the gift.", "emoji": "🤲" },
+      { "word": "put down", "pos": "phr.", "zh": "支付（定金）", "example": "They put down a deposit on the flat.", "emoji": "📝" }
+    ]
+  },
+  {
+    "id": "ph_time_plan",
+    "title": "时间计划",
+    "emoji": "⏰",
+    "words": [
+      { "word": "put off", "pos": "phr.", "zh": "推迟", "example": "Do not put off your homework again.", "emoji": "🕗" },
+      { "word": "take up", "pos": "phr.", "zh": "占用（时间）", "example": "The meeting took up the whole morning.", "emoji": "⏳" },
+      { "word": "carry on", "pos": "phr.", "zh": "继续（进行）", "example": "Carry on with your work, please.", "emoji": "🚀" },
+      { "word": "wrap up", "pos": "phr.", "zh": "收尾；结束", "example": "Let us wrap up the meeting here.", "emoji": "📦" },
+      { "word": "hold on", "pos": "phr.", "zh": "稍等；坚持", "example": "Hold on, I will check the file.", "emoji": "✋" },
+      { "word": "end up", "pos": "phr.", "zh": "最终落到", "example": "We ended up walking home in the rain.", "emoji": "🔚" },
+      { "word": "come up", "pos": "phr.", "zh": "出现；被提出", "example": "A new problem came up during the test.", "emoji": "🌤️" },
+      { "word": "set aside", "pos": "phr.", "zh": "留出；搁置", "example": "Set aside an hour for review each day.", "emoji": "🗄️" },
+      { "word": "keep up", "pos": "phr.", "zh": "保持（进度）", "example": "Keep up the good work.", "emoji": "🔋" },
+      { "word": "look ahead", "pos": "phr.", "zh": "展望未来", "example": "Look ahead and plan the next month.", "emoji": "🔭" },
+      { "word": "go on", "pos": "phr.", "zh": "继续；发生", "example": "What is going on here?", "emoji": "▶️" },
+      { "word": "run late", "pos": "phr.", "zh": "迟到；晚点", "example": "The train is running late again.", "emoji": "🕐" }
+    ]
+  },
+  {
+    "id": "ph_change",
+    "title": "变化结果",
+    "emoji": "🔄",
+    "words": [
+      { "word": "turn into", "pos": "phr.", "zh": "变成", "example": "The discussion turned into an argument.", "emoji": "🦋" },
+      { "word": "turn out", "pos": "phr.", "zh": "结果是；证明是", "example": "The plan turned out better than expected.", "emoji": "🎭" },
+      { "word": "come true", "pos": "phr.", "zh": "实现（愿望）", "example": "Her dream of studying abroad came true.", "emoji": "✨" },
+      { "word": "break out", "pos": "phr.", "zh": "爆发（战争、火灾）", "example": "A fire broke out in the kitchen.", "emoji": "🔥" },
+      { "word": "bring about", "pos": "phr.", "zh": "带来；引起", "example": "The new rule brought about big changes.", "emoji": "🌊" },
+      { "word": "lead to", "pos": "phr.", "zh": "导致", "example": "Careless driving leads to accidents.", "emoji": "🧲" },
+      { "word": "result in", "pos": "phr.", "zh": "造成；结果是", "example": "The delay resulted in a huge loss.", "emoji": "📊" },
+      { "word": "add up", "pos": "phr.", "zh": "累积；说得通", "example": "His story does not add up.", "emoji": "➕" },
+      { "word": "come about", "pos": "phr.", "zh": "发生；产生", "example": "How did this change come about?", "emoji": "🌐" },
+      { "word": "grow into", "pos": "phr.", "zh": "长成", "example": "The seed grew into a tall tree.", "emoji": "🌳" },
+      { "word": "wear off", "pos": "phr.", "zh": "逐渐消失", "example": "The effect of the medicine wore off.", "emoji": "🌫️" },
+      { "word": "die down", "pos": "phr.", "zh": "减弱；平息", "example": "The wind died down after midnight.", "emoji": "🍃" }
+    ]
+  }
+]

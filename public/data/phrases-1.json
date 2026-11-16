@@ -1,0 +1,97 @@
+[
+  {
+    "id": "ph_daily_actions",
+    "title": "日常动作",
+    "emoji": "🧴",
+    "words": [
+      { "word": "get up", "pos": "phr.", "zh": "起床", "example": "I get up at seven every morning.", "emoji": "⏰" },
+      { "word": "wake up", "pos": "phr.", "zh": "醒来；叫醒", "example": "She wakes up before the alarm rings.", "emoji": "🌅" },
+      { "word": "put on", "pos": "phr.", "zh": "穿上；戴上", "example": "Put on your coat, it is cold outside.", "emoji": "👕" },
+      { "word": "take off", "pos": "phr.", "zh": "脱下", "example": "Please take off your shoes at the door.", "emoji": "🧦" },
+      { "word": "lie down", "pos": "phr.", "zh": "躺下", "example": "You look tired, lie down for a while.", "emoji": "🛌" },
+      { "word": "stand up", "pos": "phr.", "zh": "站起来", "example": "Everyone stood up when the teacher came in.", "emoji": "🧍" },
+      { "word": "sit down", "pos": "phr.", "zh": "坐下", "example": "Sit down and tell me what happened.", "emoji": "🪑" },
+      { "word": "turn on", "pos": "phr.", "zh": "打开（电器）", "example": "Turn on the light, it is getting dark.", "emoji": "🔆" },
+      { "word": "turn off", "pos": "phr.", "zh": "关掉（电器）", "example": "Remember to turn off the air conditioner.", "emoji": "🌑" },
+      { "word": "pick up", "pos": "phr.", "zh": "捡起；接人", "example": "He picked up the coin from the floor.", "emoji": "🤏" },
+      { "word": "throw away", "pos": "phr.", "zh": "扔掉", "example": "Do not throw away the receipt.", "emoji": "🗑️" },
+      { "word": "get dressed", "pos": "phr.", "zh": "穿好衣服", "example": "I get dressed and make breakfast quickly.", "emoji": "👗" }
+    ]
+  },
+  {
+    "id": "ph_movement",
+    "title": "移动方向",
+    "emoji": "🚶",
+    "words": [
+      { "word": "go up", "pos": "phr.", "zh": "上升；上涨", "example": "Prices keep going up this year.", "emoji": "⬆️" },
+      { "word": "go down", "pos": "phr.", "zh": "下降；下跌", "example": "The temperature went down at night.", "emoji": "⬇️" },
+      { "word": "come back", "pos": "phr.", "zh": "回来", "example": "She will come back next Monday.", "emoji": "↩️" },
+      { "word": "get on", "pos": "phr.", "zh": "上（车、船）", "example": "Get on the bus at the next stop.", "emoji": "🚌" },
+      { "word": "get off", "pos": "phr.", "zh": "下（车、船）", "example": "We got off the train in Shanghai.", "emoji": "🚏" },
+      { "word": "go ahead", "pos": "phr.", "zh": "继续；请便", "example": "You can go ahead, I will catch up later.", "emoji": "➡️" },
+      { "word": "set off", "pos": "phr.", "zh": "出发；动身", "example": "We set off at six in the morning.", "emoji": "🎬" },
+      { "word": "turn around", "pos": "phr.", "zh": "转身", "example": "He turned around and smiled at me.", "emoji": "🔄" },
+      { "word": "head for", "pos": "phr.", "zh": "前往；朝…去", "example": "The boat headed for the shore.", "emoji": "🧭" },
+      { "word": "pass by", "pos": "phr.", "zh": "路过；经过", "example": "A bus passes by my window every hour.", "emoji": "🛣️" },
+      { "word": "move in", "pos": "phr.", "zh": "搬进", "example": "They moved in last weekend.", "emoji": "📦" },
+      { "word": "move out", "pos": "phr.", "zh": "搬出", "example": "I have to move out before June.", "emoji": "🚚" }
+    ]
+  },
+  {
+    "id": "ph_communication",
+    "title": "沟通表达",
+    "emoji": "💬",
+    "words": [
+      { "word": "speak up", "pos": "phr.", "zh": "大声说；大胆发言", "example": "Please speak up, we cannot hear you.", "emoji": "📢" },
+      { "word": "point out", "pos": "phr.", "zh": "指出", "example": "She pointed out a mistake in my report.", "emoji": "👉" },
+      { "word": "bring up", "pos": "phr.", "zh": "提出（话题）", "example": "He brought up the topic at dinner.", "emoji": "🗣️" },
+      { "word": "get across", "pos": "phr.", "zh": "把…讲清楚", "example": "It is hard to get the idea across in one sentence.", "emoji": "📡" },
+      { "word": "put forward", "pos": "phr.", "zh": "提出（建议）", "example": "She put forward a new plan.", "emoji": "💡" },
+      { "word": "sum up", "pos": "phr.", "zh": "总结", "example": "Let me sum up what we agreed on.", "emoji": "📝" },
+      { "word": "call back", "pos": "phr.", "zh": "回电话", "example": "I will call you back in ten minutes.", "emoji": "☎️" },
+      { "word": "hang up", "pos": "phr.", "zh": "挂断电话", "example": "He hung up without saying goodbye.", "emoji": "📵" },
+      { "word": "speak out", "pos": "phr.", "zh": "公开表态", "example": "Few people dare to speak out against it.", "emoji": "🔉" },
+      { "word": "talk about", "pos": "phr.", "zh": "谈论", "example": "They talked about the trip all evening.", "emoji": "💭" },
+      { "word": "hear from", "pos": "phr.", "zh": "收到…的消息", "example": "I have not heard from him for months.", "emoji": "📨" },
+      { "word": "write down", "pos": "phr.", "zh": "记录下", "example": "Write down the address before you forget.", "emoji": "✍️" }
+    ]
+  },
+  {
+    "id": "ph_work_tasks",
+    "title": "工作任务",
+    "emoji": "📋",
+    "words": [
+      { "word": "carry out", "pos": "phr.", "zh": "执行；实施", "example": "They carried out the survey last month.", "emoji": "✅" },
+      { "word": "take on", "pos": "phr.", "zh": "承担（工作）", "example": "She took on more work than she could handle.", "emoji": "🧑‍💼" },
+      { "word": "deal with", "pos": "phr.", "zh": "处理；应对", "example": "I will deal with the problem tomorrow.", "emoji": "🛠️" },
+      { "word": "work out", "pos": "phr.", "zh": "解决；计算出", "example": "We worked out a cheaper solution.", "emoji": "🧮" },
+      { "word": "set up", "pos": "phr.", "zh": "建立；搭建", "example": "They set up a new office downtown.", "emoji": "🏗️" },
+      { "word": "hand in", "pos": "phr.", "zh": "上交；提交", "example": "Hand in your report by Friday.", "emoji": "📤" },
+      { "word": "take over", "pos": "phr.", "zh": "接管", "example": "A young manager took over the team.", "emoji": "🤲" },
+      { "word": "fill in", "pos": "phr.", "zh": "填写", "example": "Fill in this form and sign here.", "emoji": "📄" },
+      { "word": "sort out", "pos": "phr.", "zh": "整理；解决", "example": "Let us sort out the files first.", "emoji": "🗂️" },
+      { "word": "catch up", "pos": "phr.", "zh": "赶上（进度）", "example": "I need to catch up on my emails.", "emoji": "⏩" },
+      { "word": "look into", "pos": "phr.", "zh": "调查；研究", "example": "The company is looking into the complaint.", "emoji": "🔍" },
+      { "word": "take part in", "pos": "phr.", "zh": "参加", "example": "Over fifty people took part in the race.", "emoji": "🙋" }
+    ]
+  },
+  {
+    "id": "ph_learning",
+    "title": "学习理解",
+    "emoji": "📚",
+    "words": [
+      { "word": "figure out", "pos": "phr.", "zh": "弄明白；想出", "example": "I cannot figure out how this works.", "emoji": "💡" },
+      { "word": "find out", "pos": "phr.", "zh": "查明；得知", "example": "She found out the truth from a friend.", "emoji": "🔎" },
+      { "word": "look up", "pos": "phr.", "zh": "查阅", "example": "Look up the word in the dictionary.", "emoji": "📖" },
+      { "word": "go over", "pos": "phr.", "zh": "复习；检查", "example": "Let us go over the notes before the test.", "emoji": "🔁" },
+      { "word": "come across", "pos": "phr.", "zh": "偶然遇到", "example": "I came across an old photo yesterday.", "emoji": "🎲" },
+      { "word": "take in", "pos": "phr.", "zh": "理解；吸收", "example": "There was too much to take in at once.", "emoji": "🧠" },
+      { "word": "catch on", "pos": "phr.", "zh": "明白过来；流行", "example": "He caught on quickly and finished early.", "emoji": "💫" },
+      { "word": "read up on", "pos": "phr.", "zh": "研读（某专题）", "example": "Read up on the topic before the interview.", "emoji": "📑" },
+      { "word": "learn by heart", "pos": "phr.", "zh": "背熟；记牢", "example": "She learned the poem by heart.", "emoji": "❤️" },
+      { "word": "test out", "pos": "phr.", "zh": "试验；检验", "example": "We tested out the new app last week.", "emoji": "✔️" },
+      { "word": "go through", "pos": "phr.", "zh": "通读；经历", "example": "Go through the article once more.", "emoji": "📜" },
+      { "word": "pick out", "pos": "phr.", "zh": "挑出；辨认出", "example": "Can you pick out the main idea?", "emoji": "🎯" }
+    ]
+  }
+]

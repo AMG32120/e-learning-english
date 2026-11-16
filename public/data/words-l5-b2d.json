@@ -1,0 +1,192 @@
+[
+  {
+    "id": "l5b_media_digital",
+    "title": "数字媒体",
+    "emoji": "📱",
+    "words": [
+      { "word": "podcast", "ipa": "/ˈpɒdkɑːst/", "pos": "n.", "zh": "播客", "example": "I listen to a podcast on my way.", "emoji": "🎙️", "cefr": "B1" },
+      { "word": "platform", "ipa": "/ˈplætfɔːm/", "pos": "n.", "zh": "平台", "example": "The platform has millions of users.", "emoji": "🧱", "cefr": "B1" },
+      { "word": "algorithm", "ipa": "/ˈælɡərɪðəm/", "pos": "n.", "zh": "算法", "example": "The algorithm decides what you see.", "emoji": "🧮", "cefr": "B1" },
+      { "word": "viral", "ipa": "/ˈvaɪrəl/", "pos": "adj.", "zh": "病毒式传播的", "example": "The video went viral overnight.", "emoji": "🔥", "cefr": "B1" },
+      { "word": "influencer", "ipa": "/ˈɪnfluənsə(r)/", "pos": "n.", "zh": "网红", "example": "An influencer promoted the brand.", "emoji": "🌟", "cefr": "B1" },
+      { "word": "broadcast", "ipa": "/ˈbrɔːdkɑːst/", "pos": "v.", "zh": "播送", "example": "They broadcast the match live.", "emoji": "📡", "cefr": "B1" },
+      { "word": "subscriber", "ipa": "/səbˈskraɪbə(r)/", "pos": "n.", "zh": "订阅者", "example": "The channel has a million subscribers.", "emoji": "🔔", "cefr": "B1" },
+      { "word": "content", "ipa": "/ˈkɒntent/", "pos": "n.", "zh": "内容", "example": "Good content attracts readers.", "emoji": "📄", "cefr": "B1" },
+      { "word": "hashtag", "ipa": "/ˈhæʃtæɡ/", "pos": "n.", "zh": "话题标签", "example": "Use the right hashtag in your post.", "emoji": "#️⃣", "cefr": "B1" },
+      { "word": "moderation", "ipa": "/ˌmɒdəˈreɪʃn/", "pos": "n.", "zh": "内容审核", "example": "Content moderation is a hard job.", "emoji": "🛡️", "cefr": "B1" },
+      { "word": "copyright", "ipa": "/ˈkɒpiraɪt/", "pos": "n.", "zh": "版权", "example": "The image is protected by copyright.", "emoji": "©️", "cefr": "B1" },
+      { "word": "trend", "ipa": "/trend/", "pos": "n.", "zh": "趋势", "example": "Short videos are the new trend.", "emoji": "📈", "cefr": "B1" }
+    ]
+  },
+  {
+    "id": "l5b_pr",
+    "title": "公共关系",
+    "emoji": "📣",
+    "words": [
+      { "word": "reputation", "ipa": "/ˌrepjuˈteɪʃn/", "pos": "n.", "zh": "声誉", "example": "The company protects its reputation.", "emoji": "🏅", "cefr": "B1" },
+      { "word": "spokesperson", "ipa": "/ˈspəʊkspɜːsn/", "pos": "n.", "zh": "发言人", "example": "A spokesperson answered the questions.", "emoji": "🗣️", "cefr": "B1" },
+      { "word": "press", "ipa": "/pres/", "pos": "n.", "zh": "新闻界", "example": "The press covered the story.", "emoji": "📰", "cefr": "B1" },
+      { "word": "announcement", "ipa": "/əˈnaʊnsmənt/", "pos": "n.", "zh": "公告", "example": "The announcement came at noon.", "emoji": "📢", "cefr": "B1" },
+      { "word": "crisis", "ipa": "/ˈkraɪsɪs/", "pos": "n.", "zh": "危机", "example": "The firm handled the crisis badly.", "emoji": "🚨", "cefr": "B1" },
+      { "word": "scandal", "ipa": "/ˈskændl/", "pos": "n.", "zh": "丑闻", "example": "The scandal damaged the brand.", "emoji": "💥", "cefr": "B1" },
+      { "word": "transparency", "ipa": "/trænsˈpærənsi/", "pos": "n.", "zh": "透明度", "example": "Voters demand transparency.", "emoji": "🔍", "cefr": "B1" },
+      { "word": "charity", "ipa": "/ˈtʃærəti/", "pos": "n.", "zh": "慈善机构", "example": "The charity helps local families.", "emoji": "💝", "cefr": "B1" },
+      { "word": "donation", "ipa": "/dəʊˈneɪʃn/", "pos": "n.", "zh": "捐赠", "example": "Every donation goes to the school.", "emoji": "🎗️", "cefr": "B1" },
+      { "word": "lobby", "ipa": "/ˈlɒbi/", "pos": "v.", "zh": "游说", "example": "They lobby the government for change.", "emoji": "🏛️", "cefr": "B1" },
+      { "word": "campaign", "ipa": "/kæmˈpeɪn/", "pos": "n.", "zh": "宣传活动", "example": "The campaign raised awareness.", "emoji": "📣", "cefr": "B1" },
+      { "word": "message", "ipa": "/ˈmesɪdʒ/", "pos": "n.", "zh": "对外传达的信息", "example": "Keep the message simple.", "emoji": "💬", "cefr": "B1" }
+    ]
+  },
+  {
+    "id": "l5b_retail",
+    "title": "零售商业",
+    "emoji": "🏬",
+    "words": [
+      { "word": "merchandise", "ipa": "/ˈmɜːtʃəndaɪs/", "pos": "n.", "zh": "商品", "example": "The store sells sports merchandise.", "emoji": "🏬", "cefr": "B1" },
+      { "word": "checkout", "ipa": "/ˈtʃekaʊt/", "pos": "n.", "zh": "收银台", "example": "Please pay at the checkout.", "emoji": "💳", "cefr": "B1" },
+      { "word": "aisle", "ipa": "/aɪl/", "pos": "n.", "zh": "货架通道", "example": "Rice is in aisle three.", "emoji": "🚶", "cefr": "B1" },
+      { "word": "stock", "ipa": "/stɒk/", "pos": "n.", "zh": "存货", "example": "That size is out of stock.", "emoji": "📦", "cefr": "B1" },
+      { "word": "bargain", "ipa": "/ˈbɑːɡən/", "pos": "n.", "zh": "便宜货", "example": "This coat was a real bargain.", "emoji": "🏷️", "cefr": "B1" },
+      { "word": "voucher", "ipa": "/ˈvaʊtʃə(r)/", "pos": "n.", "zh": "代金券", "example": "She paid with a gift voucher.", "emoji": "🎟️", "cefr": "B1" },
+      { "word": "loyalty", "ipa": "/ˈlɔɪəlti/", "pos": "n.", "zh": "忠诚度", "example": "The card rewards customer loyalty.", "emoji": "❤️", "cefr": "B1" },
+      { "word": "outlet", "ipa": "/ˈaʊtlet/", "pos": "n.", "zh": "直销店", "example": "The outlet sells last year's models.", "emoji": "🏪", "cefr": "B1" },
+      { "word": "wholesale", "ipa": "/ˈhəʊlseɪl/", "pos": "adj.", "zh": "批发的", "example": "Wholesale prices are much lower.", "emoji": "📊", "cefr": "B1" },
+      { "word": "supermarket", "ipa": "/ˈsuːpəmɑːkɪt/", "pos": "n.", "zh": "超市", "example": "The supermarket opens at eight.", "emoji": "🛒", "cefr": "B1" },
+      { "word": "shelf", "ipa": "/ʃelf/", "pos": "n.", "zh": "货架", "example": "The top shelf is empty.", "emoji": "🗄️", "cefr": "B1" },
+      { "word": "warranty", "ipa": "/ˈwɒrənti/", "pos": "n.", "zh": "保修", "example": "The warranty covers two years.", "emoji": "🛠️", "cefr": "B1" }
+    ]
+  },
+  {
+    "id": "l5b_hospitality",
+    "title": "酒店服务",
+    "emoji": "🛎️",
+    "words": [
+      { "word": "hospitality", "ipa": "/ˌhɒspɪˈtæləti/", "pos": "n.", "zh": "款待业", "example": "She works in the hospitality industry.", "emoji": "🛎️", "cefr": "B1" },
+      { "word": "accommodation", "ipa": "/əˌkɒməˈdeɪʃn/", "pos": "n.", "zh": "住宿", "example": "Accommodation is included in the price.", "emoji": "🏨", "cefr": "B1" },
+      { "word": "concierge", "ipa": "/ˈkɒnsieəʒ/", "pos": "n.", "zh": "礼宾员", "example": "The concierge booked us a taxi.", "emoji": "🎩", "cefr": "B1" },
+      { "word": "suite", "ipa": "/swiːt/", "pos": "n.", "zh": "套房", "example": "They stayed in a family suite.", "emoji": "🛏️", "cefr": "B1" },
+      { "word": "amenity", "ipa": "/əˈmiːnəti/", "pos": "n.", "zh": "配套设施", "example": "The hotel has few amenities.", "emoji": "🏊", "cefr": "B1" },
+      { "word": "housekeeping", "ipa": "/ˈhaʊskiːpɪŋ/", "pos": "n.", "zh": "客房清洁", "example": "Housekeeping comes every morning.", "emoji": "🧹", "cefr": "B1" },
+      { "word": "catering", "ipa": "/ˈkeɪtərɪŋ/", "pos": "n.", "zh": "餐饮服务", "example": "The catering was excellent.", "emoji": "🍽️", "cefr": "B1" },
+      { "word": "booking", "ipa": "/ˈbʊkɪŋ/", "pos": "n.", "zh": "预订记录", "example": "I cannot find your booking.", "emoji": "📅", "cefr": "B1" },
+      { "word": "rating", "ipa": "/ˈreɪtɪŋ/", "pos": "n.", "zh": "评分", "example": "The hotel has a five-star rating.", "emoji": "⭐", "cefr": "B1" },
+      { "word": "service", "ipa": "/ˈsɜːvɪs/", "pos": "n.", "zh": "服务", "example": "The service was slow but friendly.", "emoji": "🤝", "cefr": "B1" },
+      { "word": "vacancy", "ipa": "/ˈveɪkənsi/", "pos": "n.", "zh": "空房", "example": "There are no vacancies tonight.", "emoji": "🚫", "cefr": "B1" },
+      { "word": "refund", "ipa": "/ˈriːfʌnd/", "pos": "n.", "zh": "退款", "example": "She asked for a full refund.", "emoji": "↩️", "cefr": "B1" }
+    ]
+  },
+  {
+    "id": "l5b_aviation",
+    "title": "航空出行",
+    "emoji": "🛫",
+    "words": [
+      { "word": "aviation", "ipa": "/ˌeɪviˈeɪʃn/", "pos": "n.", "zh": "航空业", "example": "The aviation industry is recovering.", "emoji": "🛫", "cefr": "B1" },
+      { "word": "aircraft", "ipa": "/ˈeəkrɑːft/", "pos": "n.", "zh": "飞行器", "example": "The aircraft seats 300 people.", "emoji": "✈️", "cefr": "B1" },
+      { "word": "cabin", "ipa": "/ˈkæbɪn/", "pos": "n.", "zh": "客舱", "example": "Please stay in your cabin.", "emoji": "💺", "cefr": "B1" },
+      { "word": "terminal", "ipa": "/ˈtɜːmɪnl/", "pos": "n.", "zh": "航站楼", "example": "Terminal two is on the left.", "emoji": "🏢", "cefr": "B1" },
+      { "word": "turbulence", "ipa": "/ˈtɜːbjələns/", "pos": "n.", "zh": "气流颠簸", "example": "We hit bad turbulence.", "emoji": "🌪️", "cefr": "B1" },
+      { "word": "crew", "ipa": "/kruː/", "pos": "n.", "zh": "机组人员", "example": "The crew welcomed the passengers.", "emoji": "👥", "cefr": "B1" },
+      { "word": "boarding", "ipa": "/ˈbɔːdɪŋ/", "pos": "n.", "zh": "登机", "example": "Boarding starts at six.", "emoji": "🎫", "cefr": "B1" },
+      { "word": "departure", "ipa": "/dɪˈpɑːtʃə(r)/", "pos": "n.", "zh": "出发", "example": "The departure was delayed.", "emoji": "🛬", "cefr": "B1" },
+      { "word": "arrival", "ipa": "/əˈraɪvl/", "pos": "n.", "zh": "到达", "example": "Our arrival time is ten o'clock.", "emoji": "🕙", "cefr": "B1" },
+      { "word": "airfare", "ipa": "/ˈeəfeə(r)/", "pos": "n.", "zh": "机票价格", "example": "Airfare doubles in summer.", "emoji": "💰", "cefr": "B1" },
+      { "word": "route", "ipa": "/ruːt/", "pos": "n.", "zh": "航线", "example": "The airline opened a new route.", "emoji": "🗺️", "cefr": "B1" },
+      { "word": "check-in", "ipa": "/ˈtʃek ɪn/", "pos": "n.", "zh": "值机", "example": "Check-in closes an hour before.", "emoji": "🛄", "cefr": "B1" }
+    ]
+  },
+  {
+    "id": "l5b_shipping",
+    "title": "航运海运",
+    "emoji": "🚢",
+    "words": [
+      { "word": "shipping", "ipa": "/ˈʃɪpɪŋ/", "pos": "n.", "zh": "航运", "example": "Shipping costs have fallen.", "emoji": "🚢", "cefr": "B1" },
+      { "word": "vessel", "ipa": "/ˈvesl/", "pos": "n.", "zh": "船只", "example": "A large vessel entered the port.", "emoji": "🛳️", "cefr": "B1" },
+      { "word": "harbour", "ipa": "/ˈhɑːbə(r)/", "pos": "n.", "zh": "港口", "example": "The harbour is full of boats.", "emoji": "⚓", "cefr": "B1" },
+      { "word": "dock", "ipa": "/dɒk/", "pos": "n.", "zh": "码头", "example": "The ship is at the dock.", "emoji": "🏗️", "cefr": "B1" },
+      { "word": "anchor", "ipa": "/ˈæŋkə(r)/", "pos": "n.", "zh": "锚", "example": "They dropped the anchor at dusk.", "emoji": "🔱", "cefr": "B1" },
+      { "word": "sail", "ipa": "/seɪl/", "pos": "v.", "zh": "航行", "example": "We sail at sunrise.", "emoji": "⛵", "cefr": "B1" },
+      { "word": "voyage", "ipa": "/ˈvɔɪɪdʒ/", "pos": "n.", "zh": "航程", "example": "The voyage took three weeks.", "emoji": "🌊", "cefr": "B1" },
+      { "word": "tide", "ipa": "/taɪd/", "pos": "n.", "zh": "潮汐", "example": "The tide comes in quickly.", "emoji": "🌒", "cefr": "B1" },
+      { "word": "buoy", "ipa": "/bɔɪ/", "pos": "n.", "zh": "浮标", "example": "Keep the boat inside the buoys.", "emoji": "🔴", "cefr": "B1" },
+      { "word": "pier", "ipa": "/pɪə(r)/", "pos": "n.", "zh": "栈桥", "example": "We walked to the end of the pier.", "emoji": "🌉", "cefr": "B1" },
+      { "word": "cargo", "ipa": "/ˈkɑːɡəʊ/", "pos": "n.", "zh": "船货", "example": "The cargo was unloaded at night.", "emoji": "📦", "cefr": "B1" },
+      { "word": "nautical", "ipa": "/ˈnɔːtɪkl/", "pos": "adj.", "zh": "航海的", "example": "The town has a nautical museum.", "emoji": "🧭", "cefr": "B1" }
+    ]
+  },
+  {
+    "id": "l5b_urban",
+    "title": "城市治理",
+    "emoji": "🏙️",
+    "words": [
+      { "word": "municipality", "ipa": "/mjuːˌnɪsɪˈpæləti/", "pos": "n.", "zh": "市政当局", "example": "The municipality repairs the roads.", "emoji": "🏛️", "cefr": "B1" },
+      { "word": "infrastructure", "ipa": "/ˈɪnfrəstrʌktʃə(r)/", "pos": "n.", "zh": "基础设施", "example": "The city needs new infrastructure.", "emoji": "🌉", "cefr": "B1" },
+      { "word": "zoning", "ipa": "/ˈzəʊnɪŋ/", "pos": "n.", "zh": "分区规划", "example": "Zoning rules limit new buildings.", "emoji": "📐", "cefr": "B1" },
+      { "word": "traffic", "ipa": "/ˈtræfɪk/", "pos": "n.", "zh": "交通流量", "example": "Traffic is heavy at eight.", "emoji": "🚦", "cefr": "B1" },
+      { "word": "congestion", "ipa": "/kənˈdʒestʃən/", "pos": "n.", "zh": "拥堵", "example": "Congestion costs the city millions.", "emoji": "🚗", "cefr": "B1" },
+      { "word": "pedestrian", "ipa": "/pəˈdestriən/", "pos": "n.", "zh": "行人", "example": "Pedestrians have the right of way.", "emoji": "🚶", "cefr": "B1" },
+      { "word": "transit", "ipa": "/ˈtrænzɪt/", "pos": "n.", "zh": "公共交通", "example": "Public transit is cheap here.", "emoji": "🚇", "cefr": "B1" },
+      { "word": "residential", "ipa": "/ˌrezɪˈdenʃl/", "pos": "adj.", "zh": "住宅的", "example": "This is a quiet residential area.", "emoji": "🏘️", "cefr": "B1" },
+      { "word": "commercial", "ipa": "/kəˈmɜːʃl/", "pos": "adj.", "zh": "商业的", "example": "The commercial district is busy.", "emoji": "🏢", "cefr": "B1" },
+      { "word": "sanitation", "ipa": "/ˌsænɪˈteɪʃn/", "pos": "n.", "zh": "卫生设施", "example": "Sanitation is poor in that area.", "emoji": "🚰", "cefr": "B1" },
+      { "word": "suburb", "ipa": "/ˈsʌbɜːb/", "pos": "n.", "zh": "郊区", "example": "They moved to a quiet suburb.", "emoji": "🏡", "cefr": "B1" },
+      { "word": "facility", "ipa": "/fəˈsɪləti/", "pos": "n.", "zh": "公共设施", "example": "The sports facility opens in May.", "emoji": "🏟️", "cefr": "B1" }
+    ]
+  },
+  {
+    "id": "l5b_welfare",
+    "title": "社会福利",
+    "emoji": "🏥",
+    "words": [
+      { "word": "welfare", "ipa": "/ˈwelfeə(r)/", "pos": "n.", "zh": "福利", "example": "The welfare system supports families.", "emoji": "🏥", "cefr": "B1" },
+      { "word": "pension", "ipa": "/ˈpenʃn/", "pos": "n.", "zh": "养老金", "example": "He lives on a small pension.", "emoji": "👴", "cefr": "B1" },
+      { "word": "allowance", "ipa": "/əˈlaʊəns/", "pos": "n.", "zh": "津贴", "example": "Students get a monthly allowance.", "emoji": "💵", "cefr": "B1" },
+      { "word": "benefit", "ipa": "/ˈbenɪfɪt/", "pos": "n.", "zh": "补助", "example": "Many families receive benefits.", "emoji": "🎁", "cefr": "B1" },
+      { "word": "unemployment", "ipa": "/ˌʌnɪmˈplɔɪmənt/", "pos": "n.", "zh": "失业", "example": "Unemployment rose last year.", "emoji": "📉", "cefr": "B1" },
+      { "word": "poverty", "ipa": "/ˈpɒvəti/", "pos": "n.", "zh": "贫困", "example": "The charity fights poverty.", "emoji": "🥀", "cefr": "B1" },
+      { "word": "housing", "ipa": "/ˈhaʊzɪŋ/", "pos": "n.", "zh": "住房", "example": "Housing is expensive in the city.", "emoji": "🏠", "cefr": "B1" },
+      { "word": "subsidy", "ipa": "/ˈsʌbsədi/", "pos": "n.", "zh": "补贴", "example": "The farm receives a subsidy.", "emoji": "💰", "cefr": "B1" },
+      { "word": "healthcare", "ipa": "/ˈhelθkeə(r)/", "pos": "n.", "zh": "医疗保健", "example": "Healthcare should be free.", "emoji": "⚕️", "cefr": "B1" },
+      { "word": "disability", "ipa": "/ˌdɪsəˈbɪləti/", "pos": "n.", "zh": "残疾", "example": "The building suits people with a disability.", "emoji": "♿", "cefr": "B1" },
+      { "word": "relief", "ipa": "/rɪˈliːf/", "pos": "n.", "zh": "救济", "example": "Relief was sent after the flood.", "emoji": "🆘", "cefr": "B1" },
+      { "word": "equality", "ipa": "/iˈkwɒləti/", "pos": "n.", "zh": "平等", "example": "They campaign for equality.", "emoji": "⚖️", "cefr": "B1" }
+    ]
+  },
+  {
+    "id": "l5b_immigration",
+    "title": "移民签证",
+    "emoji": "🛂",
+    "words": [
+      { "word": "immigration", "ipa": "/ˌɪmɪˈɡreɪʃn/", "pos": "n.", "zh": "移民", "example": "Immigration rules changed again.", "emoji": "🛂", "cefr": "B1" },
+      { "word": "migrant", "ipa": "/ˈmaɪɡrənt/", "pos": "n.", "zh": "移民工人", "example": "Many migrants work in farming.", "emoji": "🧳", "cefr": "B1" },
+      { "word": "refugee", "ipa": "/ˌrefjuˈdʒiː/", "pos": "n.", "zh": "难民", "example": "The camp houses 5000 refugees.", "emoji": "⛺", "cefr": "B1" },
+      { "word": "visa", "ipa": "/ˈviːzə/", "pos": "n.", "zh": "签证", "example": "My visa expires in June.", "emoji": "📘", "cefr": "B1" },
+      { "word": "citizenship", "ipa": "/ˈsɪtɪzənʃɪp/", "pos": "n.", "zh": "公民身份", "example": "She applied for citizenship.", "emoji": "🪪", "cefr": "B1" },
+      { "word": "asylum", "ipa": "/əˈsaɪləm/", "pos": "n.", "zh": "庇护", "example": "They sought asylum abroad.", "emoji": "🕊️", "cefr": "B1" },
+      { "word": "deport", "ipa": "/dɪˈpɔːt/", "pos": "v.", "zh": "驱逐出境", "example": "He was deported last month.", "emoji": "✈️", "cefr": "B1" },
+      { "word": "residence", "ipa": "/ˈrezɪdəns/", "pos": "n.", "zh": "居留", "example": "She has permanent residence.", "emoji": "🏠", "cefr": "B1" },
+      { "word": "quota", "ipa": "/ˈkwəʊtə/", "pos": "n.", "zh": "配额", "example": "The country set a strict quota.", "emoji": "📊", "cefr": "B1" },
+      { "word": "emigrate", "ipa": "/ˈemɪɡreɪt/", "pos": "v.", "zh": "移居国外", "example": "His family emigrated in 1990.", "emoji": "🌍", "cefr": "B1" },
+      { "word": "integration", "ipa": "/ˌɪntɪˈɡreɪʃn/", "pos": "n.", "zh": "社会融合", "example": "Language helps integration.", "emoji": "🤝", "cefr": "B1" },
+      { "word": "ethnicity", "ipa": "/eθˈnɪsəti/", "pos": "n.", "zh": "族裔", "example": "The city has many ethnicities.", "emoji": "🌏", "cefr": "B1" }
+    ]
+  },
+  {
+    "id": "l5b_globalization",
+    "title": "全球化",
+    "emoji": "🌏",
+    "words": [
+      { "word": "globalization", "ipa": "/ˌɡləʊbəlaɪˈzeɪʃn/", "pos": "n.", "zh": "全球化", "example": "Globalization connects markets.", "emoji": "🌏", "cefr": "B1" },
+      { "word": "trade", "ipa": "/treɪd/", "pos": "n.", "zh": "贸易", "example": "Trade between the two grew fast.", "emoji": "🚢", "cefr": "B1" },
+      { "word": "multinational", "ipa": "/ˌmʌltiˈnæʃnəl/", "pos": "adj.", "zh": "跨国的", "example": "She works for a multinational firm.", "emoji": "🏢", "cefr": "B1" },
+      { "word": "outsourcing", "ipa": "/ˈaʊtsɔːsɪŋ/", "pos": "n.", "zh": "外包", "example": "Outsourcing cut the costs.", "emoji": "🔀", "cefr": "B1" },
+      { "word": "tariff", "ipa": "/ˈtærɪf/", "pos": "n.", "zh": "关税", "example": "New tariffs raised prices.", "emoji": "💵", "cefr": "B1" },
+      { "word": "import", "ipa": "/ˈɪmpɔːt/", "pos": "n.", "zh": "进口", "example": "Imports exceed exports here.", "emoji": "📥", "cefr": "B1" },
+      { "word": "interconnected", "ipa": "/ˌɪntəkəˈnektɪd/", "pos": "adj.", "zh": "相互关联的", "example": "Modern economies are interconnected.", "emoji": "🔗", "cefr": "B1" },
+      { "word": "economy", "ipa": "/ɪˈkɒnəmi/", "pos": "n.", "zh": "经济", "example": "The economy is growing slowly.", "emoji": "📈", "cefr": "B1" },
+      { "word": "prosperity", "ipa": "/prɒˈsperəti/", "pos": "n.", "zh": "繁荣", "example": "Trade brought prosperity.", "emoji": "🌟", "cefr": "B1" },
+      { "word": "inequality", "ipa": "/ˌɪnɪˈkwɒləti/", "pos": "n.", "zh": "不平等", "example": "Inequality has widened.", "emoji": "⚖️", "cefr": "B1" },
+      { "word": "cooperation", "ipa": "/kəʊˌɒpəˈreɪʃn/", "pos": "n.", "zh": "合作", "example": "International cooperation is essential.", "emoji": "🤝", "cefr": "B1" },
+      { "word": "barrier", "ipa": "/ˈbæriə(r)/", "pos": "n.", "zh": "壁垒", "example": "They removed trade barriers.", "emoji": "🚧", "cefr": "B1" }
+    ]
+  }
+]

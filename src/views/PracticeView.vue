@@ -38,6 +38,7 @@
             <router-link class="more-link" to="/shadow">🎙️ 跟读对比</router-link>
             <router-link class="more-link" to="/vocabtest">📏 词汇量测试</router-link>
             <router-link class="more-link" to="/listen">🎧 磨耳朵</router-link>
+            <router-link class="more-link" to="/writing">✍️ 写作批改</router-link>
           </div>
         </div>
       </section>

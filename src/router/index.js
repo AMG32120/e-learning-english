@@ -117,6 +117,12 @@ const routes = [
     meta: { title: '磨耳朵' }
   },
   {
+    path: '/writing',
+    name: 'writing',
+    component: () => import('../views/WritingView.vue'),
+    meta: { title: 'AI 写作批改' }
+  },
+  {
     path: '/report',
     name: 'report',
     component: () => import('../views/ReportView.vue'),

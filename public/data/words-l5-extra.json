@@ -1,0 +1,1526 @@
+[
+  {
+    "id": "l5_money_bank",
+    "title": "金钱与银行",
+    "emoji": "💰",
+    "words": [
+      {
+        "word": "account",
+        "ipa": "/əˈkaʊnt/",
+        "pos": "n.",
+        "zh": "账户",
+        "example": "I opened a bank account last week.",
+        "emoji": "🏦",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "budget",
+        "ipa": "/ˈbʌdʒɪt/",
+        "pos": "n.",
+        "zh": "预算",
+        "example": "We must keep to the budget.",
+        "emoji": "📊",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "currency",
+        "ipa": "/ˈkʌrənsi/",
+        "pos": "n.",
+        "zh": "货币",
+        "example": "The euro is a common currency.",
+        "emoji": "💶",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "debt",
+        "ipa": "/det/",
+        "pos": "n.",
+        "zh": "债务",
+        "example": "He is paying off his debt.",
+        "emoji": "📉",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "deposit",
+        "ipa": "/dɪˈpɒzɪt/",
+        "pos": "v.",
+        "zh": "存款",
+        "example": "I deposit money every month.",
+        "emoji": "💵",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "expense",
+        "ipa": "/ɪkˈspens/",
+        "pos": "n.",
+        "zh": "开支",
+        "example": "Travel is a big expense.",
+        "emoji": "🧾",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "income",
+        "ipa": "/ˈɪnkʌm/",
+        "pos": "n.",
+        "zh": "收入",
+        "example": "Her income doubled last year.",
+        "emoji": "📈",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "invest",
+        "ipa": "/ɪnˈvest/",
+        "pos": "v.",
+        "zh": "投资",
+        "example": "They invest in small companies.",
+        "emoji": "💹",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "loan",
+        "ipa": "/ləʊn/",
+        "pos": "n.",
+        "zh": "贷款",
+        "example": "The bank gave him a loan.",
+        "emoji": "🏛️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "profit",
+        "ipa": "/ˈprɒfɪt/",
+        "pos": "n.",
+        "zh": "利润",
+        "example": "The shop made a small profit.",
+        "emoji": "💰",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "salary",
+        "ipa": "/ˈsæləri/",
+        "pos": "n.",
+        "zh": "薪水",
+        "example": "His salary is paid monthly.",
+        "emoji": "💳",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "tax",
+        "ipa": "/tæks/",
+        "pos": "n.",
+        "zh": "税",
+        "example": "Everyone pays income tax.",
+        "emoji": "🧮",
+        "cefr": "B1",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_media",
+    "title": "媒体与广告",
+    "emoji": "📰",
+    "words": [
+      {
+        "word": "advertise",
+        "ipa": "/ˈædvətaɪz/",
+        "pos": "v.",
+        "zh": "做广告",
+        "example": "They advertise on social media.",
+        "emoji": "📢",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "audience",
+        "ipa": "/ˈɔːdiəns/",
+        "pos": "n.",
+        "zh": "观众",
+        "example": "The audience clapped loudly.",
+        "emoji": "👥",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "broadcast",
+        "ipa": "/ˈbrɔːdkɑːst/",
+        "pos": "v.",
+        "zh": "播出",
+        "example": "The match will be broadcast live.",
+        "emoji": "📡",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "campaign",
+        "ipa": "/kæmˈpeɪn/",
+        "pos": "n.",
+        "zh": "活动",
+        "example": "The campaign raised awareness.",
+        "emoji": "🗓️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "channel",
+        "ipa": "/ˈtʃænl/",
+        "pos": "n.",
+        "zh": "频道",
+        "example": "Switch to another channel.",
+        "emoji": "📺",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "headline",
+        "ipa": "/ˈhedlaɪn/",
+        "pos": "n.",
+        "zh": "标题",
+        "example": "The headline caught my eye.",
+        "emoji": "🗞️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "influence",
+        "ipa": "/ˈɪnfluəns/",
+        "pos": "v.",
+        "zh": "影响",
+        "example": "Ads influence what we buy.",
+        "emoji": "🎯",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "journalist",
+        "ipa": "/ˈdʒɜːnəlɪst/",
+        "pos": "n.",
+        "zh": "记者",
+        "example": "The journalist asked three questions.",
+        "emoji": "🎙️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "publish",
+        "ipa": "/ˈpʌblɪʃ/",
+        "pos": "v.",
+        "zh": "出版；发布",
+        "example": "The paper publishes weekly.",
+        "emoji": "🖨️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "rating",
+        "ipa": "/ˈreɪtɪŋ/",
+        "pos": "n.",
+        "zh": "收视率；评分",
+        "example": "The show has high ratings.",
+        "emoji": "⭐",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "report",
+        "ipa": "/rɪˈpɔːt/",
+        "pos": "n.",
+        "zh": "报道",
+        "example": "The report was based on facts.",
+        "emoji": "📄",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "subscription",
+        "ipa": "/səbˈskrɪpʃn/",
+        "pos": "n.",
+        "zh": "订阅",
+        "example": "The subscription costs ten dollars.",
+        "emoji": "🔔",
+        "cefr": "B1",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_culture_art",
+    "title": "文化与艺术",
+    "emoji": "🎨",
+    "words": [
+      {
+        "word": "ancient",
+        "ipa": "/ˈeɪnʃənt/",
+        "pos": "adj.",
+        "zh": "古代的",
+        "example": "The ancient city was rebuilt.",
+        "emoji": "🏺",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "architecture",
+        "ipa": "/ˈɑːkɪtektʃə/",
+        "pos": "n.",
+        "zh": "建筑",
+        "example": "The architecture is very modern.",
+        "emoji": "🏛️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "artwork",
+        "ipa": "/ˈɑːtwɜːk/",
+        "pos": "n.",
+        "zh": "艺术品",
+        "example": "The artwork hangs in the hall.",
+        "emoji": "🖌️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "ceremony",
+        "ipa": "/ˈserəməni/",
+        "pos": "n.",
+        "zh": "仪式",
+        "example": "The ceremony lasted an hour.",
+        "emoji": "🎊",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "costume",
+        "ipa": "/ˈkɒstjuːm/",
+        "pos": "n.",
+        "zh": "服装；戏服",
+        "example": "Dancers wore bright costumes.",
+        "emoji": "👘",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "exhibit",
+        "ipa": "/ɪɡˈzɪbɪt/",
+        "pos": "n.",
+        "zh": "展品",
+        "example": "The exhibit opens on Monday.",
+        "emoji": "🧑‍🎨",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "festival",
+        "ipa": "/ˈfestɪvl/",
+        "pos": "n.",
+        "zh": "节日",
+        "example": "The festival lasts three days.",
+        "emoji": "🎉",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "gallery",
+        "ipa": "/ˈɡæləri/",
+        "pos": "n.",
+        "zh": "画廊",
+        "example": "We visited a small gallery.",
+        "emoji": "🖼️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "heritage",
+        "ipa": "/ˈherɪtɪdʒ/",
+        "pos": "n.",
+        "zh": "遗产",
+        "example": "The town protects its heritage.",
+        "emoji": "🏯",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "literature",
+        "ipa": "/ˈlɪtrətʃə/",
+        "pos": "n.",
+        "zh": "文学",
+        "example": "She studies English literature.",
+        "emoji": "📚",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "sculpture",
+        "ipa": "/ˈskʌlptʃə/",
+        "pos": "n.",
+        "zh": "雕塑",
+        "example": "The sculpture stands in the park.",
+        "emoji": "🗿",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "tradition",
+        "ipa": "/trəˈdɪʃn/",
+        "pos": "n.",
+        "zh": "传统",
+        "example": "This is a family tradition.",
+        "emoji": "🎎",
+        "cefr": "B1",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_science",
+    "title": "科学与研究",
+    "emoji": "🔬",
+    "words": [
+      {
+        "word": "analyze",
+        "ipa": "/ˈænəlaɪz/",
+        "pos": "v.",
+        "zh": "分析",
+        "example": "We analyze the data carefully.",
+        "emoji": "📊",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "evidence",
+        "ipa": "/ˈevɪdəns/",
+        "pos": "n.",
+        "zh": "证据",
+        "example": "There is no evidence for that.",
+        "emoji": "🔍",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "experiment",
+        "ipa": "/ɪkˈsperɪmənt/",
+        "pos": "n.",
+        "zh": "实验",
+        "example": "The experiment failed twice.",
+        "emoji": "🧪",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "hypothesis",
+        "ipa": "/haɪˈpɒθəsɪs/",
+        "pos": "n.",
+        "zh": "假设",
+        "example": "The hypothesis needs testing.",
+        "emoji": "💡",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "laboratory",
+        "ipa": "/ləˈbɒrətri/",
+        "pos": "n.",
+        "zh": "实验室",
+        "example": "She works in a laboratory.",
+        "emoji": "⚗️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "measure",
+        "ipa": "/ˈmeʒə/",
+        "pos": "v.",
+        "zh": "测量",
+        "example": "Measure the length of the table.",
+        "emoji": "📏",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "molecule",
+        "ipa": "/ˈmɒlɪkjuːl/",
+        "pos": "n.",
+        "zh": "分子",
+        "example": "A water molecule has three atoms.",
+        "emoji": "⚛️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "observe",
+        "ipa": "/əbˈzɜːv/",
+        "pos": "v.",
+        "zh": "观察",
+        "example": "Observe the changes each day.",
+        "emoji": "👀",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "particle",
+        "ipa": "/ˈpɑːtɪkl/",
+        "pos": "n.",
+        "zh": "粒子",
+        "example": "Tiny particles fill the air.",
+        "emoji": "✨",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "research",
+        "ipa": "/rɪˈsɜːtʃ/",
+        "pos": "n.",
+        "zh": "研究",
+        "example": "His research takes years.",
+        "emoji": "🔬",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "sample",
+        "ipa": "/ˈsɑːmpl/",
+        "pos": "n.",
+        "zh": "样本",
+        "example": "The sample was too small.",
+        "emoji": "🧫",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "theory",
+        "ipa": "/ˈθɪəri/",
+        "pos": "n.",
+        "zh": "理论",
+        "example": "The theory explains the result.",
+        "emoji": "📐",
+        "cefr": "B1",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_law_crime",
+    "title": "法律与犯罪",
+    "emoji": "⚖️",
+    "words": [
+      {
+        "word": "arrest",
+        "ipa": "/əˈrest/",
+        "pos": "v.",
+        "zh": "逮捕",
+        "example": "Police arrested two men.",
+        "emoji": "🚔",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "court",
+        "ipa": "/kɔːt/",
+        "pos": "n.",
+        "zh": "法庭",
+        "example": "The case goes to court.",
+        "emoji": "🏛️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "crime",
+        "ipa": "/kraɪm/",
+        "pos": "n.",
+        "zh": "犯罪",
+        "example": "Crime has fallen this year.",
+        "emoji": "🚨",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "guilty",
+        "ipa": "/ˈɡɪlti/",
+        "pos": "adj.",
+        "zh": "有罪的",
+        "example": "The jury found him guilty.",
+        "emoji": "🔨",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "illegal",
+        "ipa": "/ɪˈliːɡl/",
+        "pos": "adj.",
+        "zh": "非法的",
+        "example": "It is illegal to park here.",
+        "emoji": "🚫",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "judge",
+        "ipa": "/dʒʌdʒ/",
+        "pos": "n.",
+        "zh": "法官",
+        "example": "The judge asked for silence.",
+        "emoji": "⚖️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "lawyer",
+        "ipa": "/ˈlɔːjə/",
+        "pos": "n.",
+        "zh": "律师",
+        "example": "Her lawyer gave advice.",
+        "emoji": "💼",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "prison",
+        "ipa": "/ˈprɪzn/",
+        "pos": "n.",
+        "zh": "监狱",
+        "example": "He spent two years in prison.",
+        "emoji": "🔒",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "punish",
+        "ipa": "/ˈpʌnɪʃ/",
+        "pos": "v.",
+        "zh": "惩罚",
+        "example": "The law punishes drunk driving.",
+        "emoji": "⚠️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "suspect",
+        "ipa": "/ˈsʌspekt/",
+        "pos": "n.",
+        "zh": "嫌疑人",
+        "example": "The suspect said nothing.",
+        "emoji": "🕵️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "trial",
+        "ipa": "/ˈtraɪəl/",
+        "pos": "n.",
+        "zh": "审判",
+        "example": "The trial starts next month.",
+        "emoji": "📜",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "witness",
+        "ipa": "/ˈwɪtnəs/",
+        "pos": "n.",
+        "zh": "证人",
+        "example": "A witness saw the car.",
+        "emoji": "👁️",
+        "cefr": "B1",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_politics",
+    "title": "政治与公共事务",
+    "emoji": "🏛️",
+    "words": [
+      {
+        "word": "citizen",
+        "ipa": "/ˈsɪtɪzn/",
+        "pos": "n.",
+        "zh": "公民",
+        "example": "Every citizen has a vote.",
+        "emoji": "🧑",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "community",
+        "ipa": "/kəˈmjuːnəti/",
+        "pos": "n.",
+        "zh": "社区",
+        "example": "The community built a park.",
+        "emoji": "🏘️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "council",
+        "ipa": "/ˈkaʊnsl/",
+        "pos": "n.",
+        "zh": "委员会",
+        "example": "The city council met on Friday.",
+        "emoji": "🗂️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "election",
+        "ipa": "/ɪˈlekʃn/",
+        "pos": "n.",
+        "zh": "选举",
+        "example": "The election is in May.",
+        "emoji": "📮",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "government",
+        "ipa": "/ˈɡʌvənmənt/",
+        "pos": "n.",
+        "zh": "政府",
+        "example": "The government announced a plan.",
+        "emoji": "🏛️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "mayor",
+        "ipa": "/meə/",
+        "pos": "n.",
+        "zh": "市长",
+        "example": "The mayor opened the new road.",
+        "emoji": "🎗️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "policy",
+        "ipa": "/ˈpɒləsi/",
+        "pos": "n.",
+        "zh": "政策",
+        "example": "The policy takes effect soon.",
+        "emoji": "📋",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "protest",
+        "ipa": "/ˈprəʊtest/",
+        "pos": "n.",
+        "zh": "抗议",
+        "example": "The protest stayed peaceful.",
+        "emoji": "✊",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "reform",
+        "ipa": "/rɪˈfɔːm/",
+        "pos": "n.",
+        "zh": "改革",
+        "example": "The reform improved schools.",
+        "emoji": "🔄",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "resident",
+        "ipa": "/ˈrezɪdənt/",
+        "pos": "n.",
+        "zh": "居民",
+        "example": "Residents asked for a bus line.",
+        "emoji": "🏠",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "vote",
+        "ipa": "/vəʊt/",
+        "pos": "v.",
+        "zh": "投票",
+        "example": "Many young people vote early.",
+        "emoji": "🗳️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "welfare",
+        "ipa": "/ˈwelfeə/",
+        "pos": "n.",
+        "zh": "福利",
+        "example": "The program supports child welfare.",
+        "emoji": "🤝",
+        "cefr": "B1",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_emotions",
+    "title": "情绪与性格",
+    "emoji": "😊",
+    "words": [
+      {
+        "word": "ambitious",
+        "ipa": "/æmˈbɪʃəs/",
+        "pos": "adj.",
+        "zh": "有雄心的",
+        "example": "She is ambitious and hard-working.",
+        "emoji": "🚀",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "anxious",
+        "ipa": "/ˈæŋkʃəs/",
+        "pos": "adj.",
+        "zh": "焦虑的",
+        "example": "He felt anxious before the exam.",
+        "emoji": "😰",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "confident",
+        "ipa": "/ˈkɒnfɪdənt/",
+        "pos": "adj.",
+        "zh": "自信的",
+        "example": "She is confident in her English.",
+        "emoji": "😎",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "curious",
+        "ipa": "/ˈkjʊəriəs/",
+        "pos": "adj.",
+        "zh": "好奇的",
+        "example": "Children are curious about everything.",
+        "emoji": "🧐",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "generous",
+        "ipa": "/ˈdʒenərəs/",
+        "pos": "adj.",
+        "zh": "慷慨的",
+        "example": "He is generous with his time.",
+        "emoji": "🎁",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "honest",
+        "ipa": "/ˈɒnɪst/",
+        "pos": "adj.",
+        "zh": "诚实的",
+        "example": "To be honest, I disagree.",
+        "emoji": "🤝",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "impatient",
+        "ipa": "/ɪmˈpeɪʃnt/",
+        "pos": "adj.",
+        "zh": "不耐烦的",
+        "example": "Drivers grow impatient in traffic.",
+        "emoji": "😤",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "mood",
+        "ipa": "/muːd/",
+        "pos": "n.",
+        "zh": "心情",
+        "example": "Music improves my mood.",
+        "emoji": "🌤️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "nervous",
+        "ipa": "/ˈnɜːvəs/",
+        "pos": "adj.",
+        "zh": "紧张的",
+        "example": "I get nervous when I speak.",
+        "emoji": "😬",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "patient",
+        "ipa": "/ˈpeɪʃnt/",
+        "pos": "adj.",
+        "zh": "有耐心的",
+        "example": "A good teacher is patient.",
+        "emoji": "🧘",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "sensitive",
+        "ipa": "/ˈsensətɪv/",
+        "pos": "adj.",
+        "zh": "敏感的",
+        "example": "She is sensitive to criticism.",
+        "emoji": "🎐",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "temper",
+        "ipa": "/ˈtempə/",
+        "pos": "n.",
+        "zh": "脾气",
+        "example": "He lost his temper quickly.",
+        "emoji": "🌋",
+        "cefr": "B1",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_relationships",
+    "title": "人际关系",
+    "emoji": "🤝",
+    "words": [
+      {
+        "word": "acquaintance",
+        "ipa": "/əˈkweɪntəns/",
+        "pos": "n.",
+        "zh": "熟人",
+        "example": "He is an old acquaintance.",
+        "emoji": "👋",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "apologize",
+        "ipa": "/əˈpɒlədʒaɪz/",
+        "pos": "v.",
+        "zh": "道歉",
+        "example": "You should apologize to her.",
+        "emoji": "🙏",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "argue",
+        "ipa": "/ˈɑːɡjuː/",
+        "pos": "v.",
+        "zh": "争论",
+        "example": "They argue about small things.",
+        "emoji": "💬",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "colleague",
+        "ipa": "/ˈkɒliːɡ/",
+        "pos": "n.",
+        "zh": "同事",
+        "example": "My colleague helped me finish.",
+        "emoji": "🧑‍💼",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "couple",
+        "ipa": "/ˈkʌpl/",
+        "pos": "n.",
+        "zh": "夫妻；情侣",
+        "example": "The couple moved to a new flat.",
+        "emoji": "💑",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "engage",
+        "ipa": "/ɪnˈɡeɪdʒ/",
+        "pos": "v.",
+        "zh": "建立密切关系",
+        "example": "He engages well with students.",
+        "emoji": "🤝",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "friendship",
+        "ipa": "/ˈfrendʃɪp/",
+        "pos": "n.",
+        "zh": "友谊",
+        "example": "Their friendship lasted forty years.",
+        "emoji": "🫂",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "neighbor",
+        "ipa": "/ˈneɪbə/",
+        "pos": "n.",
+        "zh": "邻居",
+        "example": "Our neighbor is very friendly.",
+        "emoji": "🏡",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "partner",
+        "ipa": "/ˈpɑːtnə/",
+        "pos": "n.",
+        "zh": "伙伴；伴侣",
+        "example": "She works with a business partner.",
+        "emoji": "👥",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "respect",
+        "ipa": "/rɪˈspekt/",
+        "pos": "n.",
+        "zh": "尊重",
+        "example": "Students show respect to teachers.",
+        "emoji": "🫡",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "stranger",
+        "ipa": "/ˈstreɪndʒə/",
+        "pos": "n.",
+        "zh": "陌生人",
+        "example": "Never open the door to strangers.",
+        "emoji": "🚶",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "trust",
+        "ipa": "/trʌst/",
+        "pos": "v.",
+        "zh": "信任",
+        "example": "I trust his judgment.",
+        "emoji": "🔗",
+        "cefr": "B1",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_time_change",
+    "title": "时间与变化",
+    "emoji": "⏳",
+    "words": [
+      {
+        "word": "century",
+        "ipa": "/ˈsentʃəri/",
+        "pos": "n.",
+        "zh": "世纪",
+        "example": "The bridge is a century old.",
+        "emoji": "🏛️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "decade",
+        "ipa": "/ˈdekeɪd/",
+        "pos": "n.",
+        "zh": "十年",
+        "example": "Prices rose over the decade.",
+        "emoji": "📅",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "gradual",
+        "ipa": "/ˈɡrædʒuəl/",
+        "pos": "adj.",
+        "zh": "逐渐的",
+        "example": "Recovery was slow and gradual.",
+        "emoji": "📈",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "immediate",
+        "ipa": "/ɪˈmiːdiət/",
+        "pos": "adj.",
+        "zh": "立即的",
+        "example": "The change had an immediate effect.",
+        "emoji": "⚡",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "permanent",
+        "ipa": "/ˈpɜːmənənt/",
+        "pos": "adj.",
+        "zh": "永久的",
+        "example": "She found a permanent job.",
+        "emoji": "📌",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "previous",
+        "ipa": "/ˈpriːviəs/",
+        "pos": "adj.",
+        "zh": "以前的",
+        "example": "The previous owner kept the keys.",
+        "emoji": "⏮️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "recent",
+        "ipa": "/ˈriːsnt/",
+        "pos": "adj.",
+        "zh": "最近的",
+        "example": "Recent studies support this idea.",
+        "emoji": "🕐",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "schedule",
+        "ipa": "/ˈʃedjuːl/",
+        "pos": "n.",
+        "zh": "日程",
+        "example": "My schedule is full today.",
+        "emoji": "🗓️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "sudden",
+        "ipa": "/ˈsʌdn/",
+        "pos": "adj.",
+        "zh": "突然的",
+        "example": "There was a sudden noise.",
+        "emoji": "💥",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "temporary",
+        "ipa": "/ˈtemprəri/",
+        "pos": "adj.",
+        "zh": "临时的",
+        "example": "He took a temporary job.",
+        "emoji": "⏱️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "throughout",
+        "ipa": "/θruːˈaʊt/",
+        "pos": "prep.",
+        "zh": "贯穿",
+        "example": "It rained throughout the night.",
+        "emoji": "🌧️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "update",
+        "ipa": "/ˌʌpˈdeɪt/",
+        "pos": "v.",
+        "zh": "更新",
+        "example": "Please update your address.",
+        "emoji": "🔄",
+        "cefr": "B1",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_communication",
+    "title": "沟通与表达",
+    "emoji": "💬",
+    "words": [
+      {
+        "word": "announce",
+        "ipa": "/əˈnaʊns/",
+        "pos": "v.",
+        "zh": "宣布",
+        "example": "They announced the results today.",
+        "emoji": "📣",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "comment",
+        "ipa": "/ˈkɒment/",
+        "pos": "n.",
+        "zh": "评论",
+        "example": "She left a helpful comment.",
+        "emoji": "💭",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "communicate",
+        "ipa": "/kəˈmjuːnɪkeɪt/",
+        "pos": "v.",
+        "zh": "交流",
+        "example": "We communicate by email.",
+        "emoji": "🗨️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "conversation",
+        "ipa": "/ˌkɒnvəˈseɪʃn/",
+        "pos": "n.",
+        "zh": "对话",
+        "example": "The conversation lasted an hour.",
+        "emoji": "👥",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "discuss",
+        "ipa": "/dɪˈskʌs/",
+        "pos": "v.",
+        "zh": "讨论",
+        "example": "Let us discuss the plan.",
+        "emoji": "🗣️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "explain",
+        "ipa": "/ɪkˈspleɪn/",
+        "pos": "v.",
+        "zh": "解释",
+        "example": "Can you explain the rule?",
+        "emoji": "📘",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "express",
+        "ipa": "/ɪkˈspres/",
+        "pos": "v.",
+        "zh": "表达",
+        "example": "She expressed her opinion clearly.",
+        "emoji": "💬",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "mention",
+        "ipa": "/ˈmenʃn/",
+        "pos": "v.",
+        "zh": "提到",
+        "example": "He mentioned your name.",
+        "emoji": "👉",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "persuade",
+        "ipa": "/pəˈsweɪd/",
+        "pos": "v.",
+        "zh": "说服",
+        "example": "She persuaded me to try again.",
+        "emoji": "🎯",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "reply",
+        "ipa": "/rɪˈplaɪ/",
+        "pos": "v.",
+        "zh": "回复",
+        "example": "Please reply before Friday.",
+        "emoji": "↩️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "suggest",
+        "ipa": "/səˈdʒest/",
+        "pos": "v.",
+        "zh": "建议",
+        "example": "I suggest taking the train.",
+        "emoji": "💡",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "translate",
+        "ipa": "/trænsˈleɪt/",
+        "pos": "v.",
+        "zh": "翻译",
+        "example": "Translate this sentence into English.",
+        "emoji": "🔤",
+        "cefr": "B1",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_transport_city",
+    "title": "交通与城市",
+    "emoji": "🚇",
+    "words": [
+      {
+        "word": "commute",
+        "ipa": "/kəˈmjuːt/",
+        "pos": "v.",
+        "zh": "通勤",
+        "example": "He commutes by subway daily.",
+        "emoji": "🚈",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "congestion",
+        "ipa": "/kənˈdʒestʃən/",
+        "pos": "n.",
+        "zh": "拥堵",
+        "example": "Traffic congestion delays buses.",
+        "emoji": "🚗",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "fare",
+        "ipa": "/feə/",
+        "pos": "n.",
+        "zh": "车费",
+        "example": "The bus fare went up.",
+        "emoji": "🎫",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "highway",
+        "ipa": "/ˈhaɪweɪ/",
+        "pos": "n.",
+        "zh": "高速公路",
+        "example": "The highway was closed for repairs.",
+        "emoji": "🛣️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "pedestrian",
+        "ipa": "/pəˈdestriən/",
+        "pos": "n.",
+        "zh": "行人",
+        "example": "Pedestrians cross at the light.",
+        "emoji": "🚶",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "platform",
+        "ipa": "/ˈplætfɔːm/",
+        "pos": "n.",
+        "zh": "站台",
+        "example": "The train leaves from platform three.",
+        "emoji": "🚉",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "route",
+        "ipa": "/ruːt/",
+        "pos": "n.",
+        "zh": "路线",
+        "example": "This route is faster at noon.",
+        "emoji": "🗺️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "subway",
+        "ipa": "/ˈsʌbweɪ/",
+        "pos": "n.",
+        "zh": "地铁",
+        "example": "The subway runs until midnight.",
+        "emoji": "🚇",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "taxi",
+        "ipa": "/ˈtæksi/",
+        "pos": "n.",
+        "zh": "出租车",
+        "example": "We took a taxi to the hotel.",
+        "emoji": "🚕",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "traffic",
+        "ipa": "/ˈtræfɪk/",
+        "pos": "n.",
+        "zh": "交通",
+        "example": "Traffic is heavy this morning.",
+        "emoji": "🚦",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "vehicle",
+        "ipa": "/ˈviːəkl/",
+        "pos": "n.",
+        "zh": "车辆",
+        "example": "No vehicles are allowed here.",
+        "emoji": "🚙",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "zone",
+        "ipa": "/zəʊn/",
+        "pos": "n.",
+        "zh": "区域",
+        "example": "Parking is free in this zone.",
+        "emoji": "📍",
+        "cefr": "B1",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_abstract",
+    "title": "抽象概念",
+    "emoji": "💡",
+    "words": [
+      {
+        "word": "ability",
+        "ipa": "/əˈbɪləti/",
+        "pos": "n.",
+        "zh": "能力",
+        "example": "He has the ability to learn fast.",
+        "emoji": "🧠",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "approach",
+        "ipa": "/əˈprəʊtʃ/",
+        "pos": "n.",
+        "zh": "方法",
+        "example": "We need a new approach.",
+        "emoji": "🧭",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "benefit",
+        "ipa": "/ˈbenɪfɪt/",
+        "pos": "n.",
+        "zh": "好处",
+        "example": "Exercise has many benefits.",
+        "emoji": "➕",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "challenge",
+        "ipa": "/ˈtʃælɪndʒ/",
+        "pos": "n.",
+        "zh": "挑战",
+        "example": "The task is a real challenge.",
+        "emoji": "🏔️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "concept",
+        "ipa": "/ˈkɒnsept/",
+        "pos": "n.",
+        "zh": "概念",
+        "example": "The concept is easy to understand.",
+        "emoji": "💭",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "factor",
+        "ipa": "/ˈfæktə/",
+        "pos": "n.",
+        "zh": "因素",
+        "example": "Cost is a key factor.",
+        "emoji": "🔑",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "impact",
+        "ipa": "/ˈɪmpækt/",
+        "pos": "n.",
+        "zh": "影响",
+        "example": "The policy had a big impact.",
+        "emoji": "💥",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "method",
+        "ipa": "/ˈmeθəd/",
+        "pos": "n.",
+        "zh": "方法",
+        "example": "This method saves time.",
+        "emoji": "🛠️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "quality",
+        "ipa": "/ˈkwɒləti/",
+        "pos": "n.",
+        "zh": "质量",
+        "example": "The quality of air improved.",
+        "emoji": "🏅",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "result",
+        "ipa": "/rɪˈzʌlt/",
+        "pos": "n.",
+        "zh": "结果",
+        "example": "The result surprised everyone.",
+        "emoji": "📊",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "situation",
+        "ipa": "/ˌsɪtʃuˈeɪʃn/",
+        "pos": "n.",
+        "zh": "情况",
+        "example": "The situation is under control.",
+        "emoji": "🗺️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "standard",
+        "ipa": "/ˈstændəd/",
+        "pos": "n.",
+        "zh": "标准",
+        "example": "The food meets high standards.",
+        "emoji": "📐",
+        "cefr": "B1",
+        "level": "l5"
+      }
+    ]
+  }
+]

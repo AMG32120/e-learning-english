@@ -1,0 +1,1152 @@
+[
+ {
+  "id": "l5d_physics_mechanics",
+  "title": "物理·力学",
+  "emoji": "🧲",
+  "words": [
+   {
+    "word": "momentum",
+    "ipa": "/məʊˈmentəm/",
+    "pos": "n.",
+    "zh": "动量；势头",
+    "example": "The car gained momentum as it rolled downhill.",
+    "emoji": "🚀",
+    "cefr": "C1"
+   },
+   {
+    "word": "friction",
+    "ipa": "/ˈfrɪkʃn/",
+    "pos": "n.",
+    "zh": "摩擦（力）",
+    "example": "Friction between the wheels slows the bicycle down.",
+    "emoji": "🛞",
+    "cefr": "B2"
+   },
+   {
+    "word": "velocity",
+    "ipa": "/vəˈlɒsəti/",
+    "pos": "n.",
+    "zh": "速度",
+    "example": "The rocket reached a velocity of 20,000 km/h.",
+    "emoji": "🏎️",
+    "cefr": "B2"
+   },
+   {
+    "word": "acceleration",
+    "ipa": "/əkˌseləˈreɪʃn/",
+    "pos": "n.",
+    "zh": "加速；加速度",
+    "example": "The sports car is famous for its rapid acceleration.",
+    "emoji": "📈",
+    "cefr": "B2"
+   },
+   {
+    "word": "inertia",
+    "ipa": "/ɪˈnɜːʃə/",
+    "pos": "n.",
+    "zh": "惯性",
+    "example": "Due to inertia, passengers lurch forward when the bus stops.",
+    "emoji": "🛋️",
+    "cefr": "C1"
+   },
+   {
+    "word": "trajectory",
+    "ipa": "/trəˈdʒektəri/",
+    "pos": "n.",
+    "zh": "轨迹；弹道",
+    "example": "Engineers calculated the trajectory of the launched rocket.",
+    "emoji": "🎯",
+    "cefr": "C1"
+   },
+   {
+    "word": "equilibrium",
+    "ipa": "/ˌiːkwɪˈlɪbriəm/",
+    "pos": "n.",
+    "zh": "平衡（状态）",
+    "example": "The two forces cancel out and the system reaches equilibrium.",
+    "emoji": "⚖️",
+    "cefr": "C1"
+   },
+   {
+    "word": "tension",
+    "ipa": "/ˈtenʃn/",
+    "pos": "n.",
+    "zh": "张力；拉力",
+    "example": "The rope snapped under extreme tension.",
+    "emoji": "🪢",
+    "cefr": "B2"
+   },
+   {
+    "word": "elasticity",
+    "ipa": "/ˌiːlæˈstɪsəti/",
+    "pos": "n.",
+    "zh": "弹性",
+    "example": "Rubber is prized for its high elasticity.",
+    "emoji": "🧽",
+    "cefr": "C1"
+   },
+   {
+    "word": "buoyancy",
+    "ipa": "/ˈbɔɪənsi/",
+    "pos": "n.",
+    "zh": "浮力",
+    "example": "Salt water provides greater buoyancy than fresh water.",
+    "emoji": "🛟",
+    "cefr": "C1"
+   },
+   {
+    "word": "repel",
+    "ipa": "/rɪˈpel/",
+    "pos": "v.",
+    "zh": "排斥；击退",
+    "example": "Like magnetic poles repel each other.",
+    "emoji": "🧿",
+    "cefr": "B2"
+   },
+   {
+    "word": "resistance",
+    "ipa": "/rɪˈzɪstəns/",
+    "pos": "n.",
+    "zh": "阻力；电阻；抵抗",
+    "example": "Air resistance slows a falling object gradually.",
+    "emoji": "🛑",
+    "cefr": "B2"
+   }
+  ]
+ },
+ {
+  "id": "l5d_chemistry_reactions",
+  "title": "化学·反应",
+  "emoji": "⚗️",
+  "words": [
+   {
+    "word": "reagent",
+    "ipa": "/riˈeɪdʒənt/",
+    "pos": "n.",
+    "zh": "试剂",
+    "example": "Add the reagent drop by drop and observe the colour.",
+    "emoji": "🧪",
+    "cefr": "C1"
+   },
+   {
+    "word": "solvent",
+    "ipa": "/ˈsɒlvənt/",
+    "pos": "n.",
+    "zh": "溶剂",
+    "example": "Water is the most common solvent in chemistry.",
+    "emoji": "🫙",
+    "cefr": "C1"
+   },
+   {
+    "word": "combustion",
+    "ipa": "/kəmˈbʌstʃən/",
+    "pos": "n.",
+    "zh": "燃烧",
+    "example": "Internal combustion engines burn petrol to produce power.",
+    "emoji": "🔥",
+    "cefr": "B2"
+   },
+   {
+    "word": "oxidation",
+    "ipa": "/ˌɒksɪˈdeɪʃn/",
+    "pos": "n.",
+    "zh": "氧化",
+    "example": "Rust is the result of slow oxidation of iron.",
+    "emoji": "🟤",
+    "cefr": "C1"
+   },
+   {
+    "word": "dissolve",
+    "ipa": "/dɪˈzɒlv/",
+    "pos": "v.",
+    "zh": "溶解；解散",
+    "example": "Stir until the sugar fully dissolves in the water.",
+    "emoji": "🥄",
+    "cefr": "B2"
+   },
+   {
+    "word": "solubility",
+    "ipa": "/ˌsɒljuˈbɪləti/",
+    "pos": "n.",
+    "zh": "溶解度",
+    "example": "The solubility of salt rises as water gets warmer.",
+    "emoji": "🥂",
+    "cefr": "C1"
+   },
+   {
+    "word": "acidic",
+    "ipa": "/əˈsɪdɪk/",
+    "pos": "adj.",
+    "zh": "酸性的",
+    "example": "Rain in polluted areas can be highly acidic.",
+    "emoji": "🍋",
+    "cefr": "B2"
+   },
+   {
+    "word": "alkaline",
+    "ipa": "/ˈælkəlaɪn/",
+    "pos": "adj.",
+    "zh": "碱性的",
+    "example": "Soap solutions are mildly alkaline.",
+    "emoji": "🧼",
+    "cefr": "C1"
+   },
+   {
+    "word": "dilute",
+    "ipa": "/daɪˈluːt/",
+    "pos": "v.",
+    "zh": "稀释",
+    "example": "Dilute the acid with plenty of water first.",
+    "emoji": "🚿",
+    "cefr": "C1"
+   },
+   {
+    "word": "synthesis",
+    "ipa": "/ˈsɪnθəsɪs/",
+    "pos": "n.",
+    "zh": "合成",
+    "example": "The lab completed the synthesis overnight.",
+    "emoji": "⚗️",
+    "cefr": "C1"
+   },
+   {
+    "word": "evaporate",
+    "ipa": "/ɪˈvæpəreɪt/",
+    "pos": "v.",
+    "zh": "蒸发",
+    "example": "Puddles evaporate quickly on a hot day.",
+    "emoji": "☁️",
+    "cefr": "B2"
+   },
+   {
+    "word": "condense",
+    "ipa": "/kənˈdens/",
+    "pos": "v.",
+    "zh": "凝结；压缩",
+    "example": "Steam condenses on the cold window glass.",
+    "emoji": "🌫️",
+    "cefr": "B2"
+   }
+  ]
+ },
+ {
+  "id": "l5d_bio_cell",
+  "title": "生物·细胞",
+  "emoji": "🔬",
+  "words": [
+   {
+    "word": "nucleus",
+    "ipa": "/ˈnjuːkliəs/",
+    "pos": "n.",
+    "zh": "细胞核；核心",
+    "example": "The nucleus stores the cell's genetic instructions.",
+    "emoji": "🧠",
+    "cefr": "C1"
+   },
+   {
+    "word": "membrane",
+    "ipa": "/ˈmembreɪn/",
+    "pos": "n.",
+    "zh": "（细胞）膜",
+    "example": "The cell membrane controls what enters and leaves.",
+    "emoji": "🛡️",
+    "cefr": "C1"
+   },
+   {
+    "word": "enzyme",
+    "ipa": "/ˈenzaɪm/",
+    "pos": "n.",
+    "zh": "酶",
+    "example": "Digestive enzymes break food into nutrients.",
+    "emoji": "🥣",
+    "cefr": "C1"
+   },
+   {
+    "word": "metabolism",
+    "ipa": "/məˈtæbəlɪzəm/",
+    "pos": "n.",
+    "zh": "新陈代谢",
+    "example": "Exercise speeds up your metabolism.",
+    "emoji": "🔥",
+    "cefr": "B2"
+   },
+   {
+    "word": "chromosome",
+    "ipa": "/ˈkrəʊməsəʊm/",
+    "pos": "n.",
+    "zh": "染色体",
+    "example": "Humans have 23 pairs of chromosomes.",
+    "emoji": "🧶",
+    "cefr": "C1"
+   },
+   {
+    "word": "organism",
+    "ipa": "/ˈɔːɡənɪzəm/",
+    "pos": "n.",
+    "zh": "生物体",
+    "example": "Every living organism depends on water.",
+    "emoji": "🌱",
+    "cefr": "B2"
+   },
+   {
+    "word": "respiration",
+    "ipa": "/ˌrespəˈreɪʃn/",
+    "pos": "n.",
+    "zh": "呼吸（作用）",
+    "example": "Cellular respiration releases energy from glucose.",
+    "emoji": "💨",
+    "cefr": "C1"
+   },
+   {
+    "word": "antibody",
+    "ipa": "/ˈæntibɒdi/",
+    "pos": "n.",
+    "zh": "抗体",
+    "example": "Vaccines train the body to produce antibodies.",
+    "emoji": "💉",
+    "cefr": "C1"
+   },
+   {
+    "word": "microbe",
+    "ipa": "/ˈmaɪkrəʊb/",
+    "pos": "n.",
+    "zh": "微生物",
+    "example": "Some microbes in soil are vital to plant growth.",
+    "emoji": "🦠",
+    "cefr": "C1"
+   },
+   {
+    "word": "specimen",
+    "ipa": "/ˈspesɪmən/",
+    "pos": "n.",
+    "zh": "标本；样本",
+    "example": "The lab keeps each specimen clearly labelled.",
+    "emoji": "🧫",
+    "cefr": "B2"
+   },
+   {
+    "word": "nutrient",
+    "ipa": "/ˈnjuːtriənt/",
+    "pos": "n.",
+    "zh": "养分；营养物",
+    "example": "Roots absorb nutrients from the soil.",
+    "emoji": "🥗",
+    "cefr": "B2"
+   },
+   {
+    "word": "embryo",
+    "ipa": "/ˈembriəʊ/",
+    "pos": "n.",
+    "zh": "胚胎",
+    "example": "The embryo develops rapidly in the first weeks.",
+    "emoji": "🥚",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l5d_astronomy",
+  "title": "天文·宇宙",
+  "emoji": "🌌",
+  "words": [
+   {
+    "word": "cosmology",
+    "ipa": "/kɒzˈmɒlədʒi/",
+    "pos": "n.",
+    "zh": "宇宙学",
+    "example": "Modern cosmology dates the universe at 13.8 billion years.",
+    "emoji": "🌌",
+    "cefr": "C1"
+   },
+   {
+    "word": "interstellar",
+    "ipa": "/ˌɪntəˈstelə/",
+    "pos": "adj.",
+    "zh": "星际的",
+    "example": "Voyager is the first interstellar spacecraft.",
+    "emoji": "🌠",
+    "cefr": "C1"
+   },
+   {
+    "word": "meteor",
+    "ipa": "/ˈmiːtiə/",
+    "pos": "n.",
+    "zh": "流星",
+    "example": "Make a wish on the meteor before it fades.",
+    "emoji": "💫",
+    "cefr": "B2"
+   },
+   {
+    "word": "neutron",
+    "ipa": "/ˈnjuːtrɒn/",
+    "pos": "n.",
+    "zh": "中子",
+    "example": "A neutron carries no electric charge.",
+    "emoji": "⚛️",
+    "cefr": "C1"
+   },
+   {
+    "word": "supernova",
+    "ipa": "/ˌsuːpəˈnəʊvə/",
+    "pos": "n.",
+    "zh": "超新星",
+    "example": "A supernova can briefly outshine its whole galaxy.",
+    "emoji": "💥",
+    "cefr": "C1"
+   },
+   {
+    "word": "astronomer",
+    "ipa": "/əˈstrɒnəmə/",
+    "pos": "n.",
+    "zh": "天文学家",
+    "example": "The astronomer tracked the object for months.",
+    "emoji": "🔭",
+    "cefr": "B2"
+   },
+   {
+    "word": "solstice",
+    "ipa": "/ˈsɒlstɪs/",
+    "pos": "n.",
+    "zh": "至日（夏至/冬至）",
+    "example": "The June solstice brings the longest daylight.",
+    "emoji": "🌞",
+    "cefr": "C1"
+   },
+   {
+    "word": "cosmic",
+    "ipa": "/ˈkɒzmɪk/",
+    "pos": "adj.",
+    "zh": "宇宙的",
+    "example": "Cosmic radiation is far stronger outside Earth's shield.",
+    "emoji": "🪐",
+    "cefr": "B2"
+   },
+   {
+    "word": "probe",
+    "ipa": "/prəʊb/",
+    "pos": "n.",
+    "zh": "探测器；探查",
+    "example": "The probe sent back pictures of Saturn's rings.",
+    "emoji": "🛰️",
+    "cefr": "C1"
+   },
+   {
+    "word": "equinox",
+    "ipa": "/ˈekwɪnɒks/",
+    "pos": "n.",
+    "zh": "春/秋分",
+    "example": "Day and night are equal at the equinox.",
+    "emoji": "⚖️",
+    "cefr": "C1"
+   },
+   {
+    "word": "celestial",
+    "ipa": "/səˈlestʃiəl/",
+    "pos": "adj.",
+    "zh": "天体的",
+    "example": "Ancient sailors navigated by celestial bodies.",
+    "emoji": "🌟",
+    "cefr": "C1"
+   },
+   {
+    "word": "plasma",
+    "ipa": "/ˈplæzmə/",
+    "pos": "n.",
+    "zh": "等离子体",
+    "example": "Plasma makes up 99% of the visible universe.",
+    "emoji": "🔥",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l5d_geology",
+  "title": "地质·地球",
+  "emoji": "⛰️",
+  "words": [
+   {
+    "word": "erosion",
+    "ipa": "/ɪˈrəʊʒn/",
+    "pos": "n.",
+    "zh": "侵蚀",
+    "example": "Tree roots help prevent soil erosion.",
+    "emoji": "🏞️",
+    "cefr": "C1"
+   },
+   {
+    "word": "sediment",
+    "ipa": "/ˈsedɪmənt/",
+    "pos": "n.",
+    "zh": "沉积物",
+    "example": "Layers of sediment record millions of years of history.",
+    "emoji": "🏖️",
+    "cefr": "C1"
+   },
+   {
+    "word": "tectonic",
+    "ipa": "/tekˈtɒnɪk/",
+    "pos": "adj.",
+    "zh": "地壳构造的",
+    "example": "Tectonic plates slowly shift and reshape continents.",
+    "emoji": "🌍",
+    "cefr": "C1"
+   },
+   {
+    "word": "magma",
+    "ipa": "/ˈmæɡmə/",
+    "pos": "n.",
+    "zh": "岩浆",
+    "example": "Magma rises through cracks in the crust.",
+    "emoji": "🌋",
+    "cefr": "C1"
+   },
+   {
+    "word": "seismic",
+    "ipa": "/ˈsaɪzmɪk/",
+    "pos": "adj.",
+    "zh": "地震的",
+    "example": "Seismic waves reveal the planet’s interior.",
+    "emoji": "📳",
+    "cefr": "C1"
+   },
+   {
+    "word": "mineral",
+    "ipa": "/ˈmɪnərəl/",
+    "pos": "n.",
+    "zh": "矿物",
+    "example": "Quartz is one of the hardest common minerals.",
+    "emoji": "💎",
+    "cefr": "B2"
+   },
+   {
+    "word": "crust",
+    "ipa": "/krʌst/",
+    "pos": "n.",
+    "zh": "地壳；外壳",
+    "example": "Earth's crust is thinner under the oceans.",
+    "emoji": "🥧",
+    "cefr": "B2"
+   },
+   {
+    "word": "fault",
+    "ipa": "/fɔːlt/",
+    "pos": "n.",
+    "zh": "断层；过错",
+    "example": "The city sits directly above an active fault line.",
+    "emoji": "🪚",
+    "cefr": "B2"
+   },
+   {
+    "word": "landslide",
+    "ipa": "/ˈlændslaɪd/",
+    "pos": "n.",
+    "zh": "山体滑坡",
+    "example": "Heavy rain triggered a landslide on the highway.",
+    "emoji": "⚠️",
+    "cefr": "B2"
+   },
+   {
+    "word": "quarry",
+    "ipa": "/ˈkwɒri/",
+    "pos": "n.",
+    "zh": "采石场",
+    "example": "Marble from the quarry exports to 30 countries.",
+    "emoji": "🧱",
+    "cefr": "C1"
+   },
+   {
+    "word": "cavern",
+    "ipa": "/ˈkævən/",
+    "pos": "n.",
+    "zh": "大山洞",
+    "example": "Stalactites hang from the roof of the limestone cavern.",
+    "emoji": "🕯️",
+    "cefr": "C1"
+   },
+   {
+    "word": "topography",
+    "ipa": "/təˈpɒɡrəfi/",
+    "pos": "n.",
+    "zh": "地形；地形图",
+    "example": "The topography map marks every ridge and valley.",
+    "emoji": "🗺️",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l5d_genetics",
+  "title": "遗传·基因",
+  "emoji": "🧬",
+  "words": [
+   {
+    "word": "gene",
+    "ipa": "/dʒiːn/",
+    "pos": "n.",
+    "zh": "基因",
+    "example": "A single gene can decide your blood type.",
+    "emoji": "🧬",
+    "cefr": "B2"
+   },
+   {
+    "word": "heredity",
+    "ipa": "/həˈredəti/",
+    "pos": "n.",
+    "zh": "遗传",
+    "example": "Height is strongly shaped by heredity.",
+    "emoji": "📜",
+    "cefr": "C1"
+   },
+   {
+    "word": "mutation",
+    "ipa": "/mjuːˈteɪʃn/",
+    "pos": "n.",
+    "zh": "突变",
+    "example": "A tiny mutation changed the virus dramatically.",
+    "emoji": "🔄",
+    "cefr": "C1"
+   },
+   {
+    "word": "genome",
+    "ipa": "/ˈdʒiːnəʊm/",
+    "pos": "n.",
+    "zh": "基因组",
+    "example": "Mapping the human genome took thirteen years.",
+    "emoji": "🗂️",
+    "cefr": "C1"
+   },
+   {
+    "word": "clone",
+    "ipa": "/kləʊn/",
+    "pos": "n./v.",
+    "zh": "克隆；复制",
+    "example": "Scientists cloned the sheep from a single cell.",
+    "emoji": "🐑",
+    "cefr": "B2"
+   },
+   {
+    "word": "trait",
+    "ipa": "/treɪt/",
+    "pos": "n.",
+    "zh": "特征；特质",
+    "example": "Eye colour is an inherited trait.",
+    "emoji": "🎨",
+    "cefr": "B2"
+   },
+   {
+    "word": "dominant",
+    "ipa": "/ˈdɒmɪnənt/",
+    "pos": "adj.",
+    "zh": "显性的；占优势的",
+    "example": "Brown eyes come from a dominant gene.",
+    "emoji": "👑",
+    "cefr": "B2"
+   },
+   {
+    "word": "recessive",
+    "ipa": "/rɪˈsesɪv/",
+    "pos": "adj.",
+    "zh": "隐性的",
+    "example": "Blue eyes are a recessive trait in most cases.",
+    "emoji": "🙈",
+    "cefr": "C1"
+   },
+   {
+    "word": "hybrid",
+    "ipa": "/ˈhaɪbrɪd/",
+    "pos": "n./adj.",
+    "zh": "杂交；混合的",
+    "example": "The farm grows hybrid rice with higher yields.",
+    "emoji": "🌾",
+    "cefr": "B2"
+   },
+   {
+    "word": "evolve",
+    "ipa": "/ɪˈvɒlv/",
+    "pos": "v.",
+    "zh": "进化；逐步发展",
+    "example": "Whales evolved from land-dwelling ancestors.",
+    "emoji": "🦋",
+    "cefr": "B2"
+   },
+   {
+    "word": "extinction",
+    "ipa": "/ɪkˈstɪŋkʃn/",
+    "pos": "n.",
+    "zh": "灭绝",
+    "example": "Habitat loss pushes many species towards extinction.",
+    "emoji": "🦕",
+    "cefr": "B2"
+   },
+   {
+    "word": "breeding",
+    "ipa": "/ˈbriːdɪŋ/",
+    "pos": "n.",
+    "zh": "繁育；育种",
+    "example": "Selective breeding improved the crop over generations.",
+    "emoji": "🐣",
+    "cefr": "B2"
+   }
+  ]
+ },
+ {
+  "id": "l5d_human_anatomy",
+  "title": "人体·解剖",
+  "emoji": "🫀",
+  "words": [
+   {
+    "word": "skeleton",
+    "ipa": "/ˈskelɪtn/",
+    "pos": "n.",
+    "zh": "骨骼",
+    "example": "The adult skeleton contains 206 bones.",
+    "emoji": "🦴",
+    "cefr": "B2"
+   },
+   {
+    "word": "skull",
+    "ipa": "/skʌl/",
+    "pos": "n.",
+    "zh": "颅骨；头骨",
+    "example": "The helmet protects the skull from impact.",
+    "emoji": "💀",
+    "cefr": "B2"
+   },
+   {
+    "word": "joint",
+    "ipa": "/dʒɔɪnt/",
+    "pos": "n.",
+    "zh": "关节；接合处",
+    "example": "Yoga keeps your joints flexible.",
+    "emoji": "🦵",
+    "cefr": "B2"
+   },
+   {
+    "word": "tendon",
+    "ipa": "/ˈtendən/",
+    "pos": "n.",
+    "zh": "肌腱",
+    "example": "A torn tendon kept the athlete out for months.",
+    "emoji": "🪢",
+    "cefr": "C1"
+   },
+   {
+    "word": "artery",
+    "ipa": "/ˈɑːtəri/",
+    "pos": "n.",
+    "zh": "动脉",
+    "example": "Blocked arteries raise the risk of heart attack.",
+    "emoji": "🩸",
+    "cefr": "C1"
+   },
+   {
+    "word": "vein",
+    "ipa": "/veɪn/",
+    "pos": "n.",
+    "zh": "静脉",
+    "example": "The nurse found a vein easily on the first try.",
+    "emoji": "💠",
+    "cefr": "B2"
+   },
+   {
+    "word": "lungs",
+    "ipa": "/lʌŋz/",
+    "pos": "n.",
+    "zh": "肺",
+    "example": "Smoking damages the lungs over time.",
+    "emoji": "🫁",
+    "cefr": "B2"
+   },
+   {
+    "word": "liver",
+    "ipa": "/ˈlɪvə/",
+    "pos": "n.",
+    "zh": "肝脏",
+    "example": "The liver filters toxins from the blood.",
+    "emoji": "🫙",
+    "cefr": "B2"
+   },
+   {
+    "word": "kidney",
+    "ipa": "/ˈkɪdni/",
+    "pos": "n.",
+    "zh": "肾脏",
+    "example": "He donated a kidney to his younger brother.",
+    "emoji": "🫘",
+    "cefr": "B2"
+   },
+   {
+    "word": "bladder",
+    "ipa": "/ˈblædə/",
+    "pos": "n.",
+    "zh": "膀胱",
+    "example": "Drinking less water at night eases bladder pressure.",
+    "emoji": "💧",
+    "cefr": "C1"
+   },
+   {
+    "word": "neuron",
+    "ipa": "/ˈnjʊərɒn/",
+    "pos": "n.",
+    "zh": "神经元",
+    "example": "The brain contains billions of neurons.",
+    "emoji": "⚡",
+    "cefr": "C1"
+   },
+   {
+    "word": "hormone",
+    "ipa": "/ˈhɔːməʊn/",
+    "pos": "n.",
+    "zh": "激素",
+    "example": "Sleep loss disturbs the hormones that control appetite.",
+    "emoji": "💊",
+    "cefr": "B2"
+   }
+  ]
+ },
+ {
+  "id": "l5d_marine_biology",
+  "title": "海洋生物",
+  "emoji": "🐠",
+  "words": [
+   {
+    "word": "atoll",
+    "ipa": "/ˈætɒl/",
+    "pos": "n.",
+    "zh": "环礁",
+    "example": "The atoll circles a shallow turquoise lagoon.",
+    "emoji": "🪸",
+    "cefr": "C1"
+   },
+   {
+    "word": "reef",
+    "ipa": "/riːf/",
+    "pos": "n.",
+    "zh": "礁（石）",
+    "example": "The Great Barrier Reef stretches over 2,000 km.",
+    "emoji": "🐠",
+    "cefr": "B2"
+   },
+   {
+    "word": "plankton",
+    "ipa": "/ˈplæŋktən/",
+    "pos": "n.",
+    "zh": "浮游生物",
+    "example": "Whale sharks feed mainly on plankton.",
+    "emoji": "🦐",
+    "cefr": "C1"
+   },
+   {
+    "word": "algae",
+    "ipa": "/ˈældʒiː/",
+    "pos": "n.",
+    "zh": "藻类",
+    "example": "Algae blooms turn the lake green each summer.",
+    "emoji": "🌿",
+    "cefr": "C1"
+   },
+   {
+    "word": "tidal",
+    "ipa": "/ˈtaɪdl/",
+    "pos": "adj.",
+    "zh": "潮汐的",
+    "example": "Tidal power stations harness the daily rise and fall.",
+    "emoji": "🌗",
+    "cefr": "C1"
+   },
+   {
+    "word": "surge",
+    "ipa": "/sɜːdʒ/",
+    "pos": "n./v.",
+    "zh": "浪涌；激增",
+    "example": "A storm surge flooded the low-lying streets.",
+    "emoji": "🌊",
+    "cefr": "C1"
+   },
+   {
+    "word": "estuary",
+    "ipa": "/ˈestʃuəri/",
+    "pos": "n.",
+    "zh": "河口（湾）",
+    "example": "The estuary is a feeding ground for migrating birds.",
+    "emoji": "🛶",
+    "cefr": "C1"
+   },
+   {
+    "word": "krill",
+    "ipa": "/krɪl/",
+    "pos": "n.",
+    "zh": "磷虾",
+    "example": "Penguins depend on krill for food.",
+    "emoji": "🦞",
+    "cefr": "C1"
+   },
+   {
+    "word": "jellyfish",
+    "ipa": "/ˈdʒelifɪʃ/",
+    "pos": "n.",
+    "zh": "水母",
+    "example": "Warmer seas bring jellyfish closer to the shore.",
+    "emoji": "🪼",
+    "cefr": "B2"
+   },
+   {
+    "word": "crustacean",
+    "ipa": "/krʌˈsteɪʃn/",
+    "pos": "n.",
+    "zh": "甲壳类动物",
+    "example": "Crabs and lobsters are crustaceans.",
+    "emoji": "🦀",
+    "cefr": "C1"
+   },
+   {
+    "word": "submerge",
+    "ipa": "/səbˈmɜːdʒ/",
+    "pos": "v.",
+    "zh": "淹没；（使）潜入水中",
+    "example": "The divers submerged at dawn to film the reef.",
+    "emoji": "🤿",
+    "cefr": "B2"
+   },
+   {
+    "word": "salinity",
+    "ipa": "/səˈlɪnəti/",
+    "pos": "n.",
+    "zh": "盐度",
+    "example": "Evaporation raises the salinity of the lagoon.",
+    "emoji": "🧂",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l5d_climate_science",
+  "title": "气候科学",
+  "emoji": "🌡️",
+  "words": [
+   {
+    "word": "aerosol",
+    "ipa": "/ˈeərəsɒl/",
+    "pos": "n.",
+    "zh": "气溶胶；喷雾剂",
+    "example": "Aerosols can cool or warm the climate.",
+    "emoji": "🧴",
+    "cefr": "C1"
+   },
+   {
+    "word": "methane",
+    "ipa": "/ˈmiːθeɪn/",
+    "pos": "n.",
+    "zh": "甲烷",
+    "example": "Methane traps far more heat than carbon dioxide.",
+    "emoji": "💨",
+    "cefr": "C1"
+   },
+   {
+    "word": "arid",
+    "ipa": "/ˈærɪd/",
+    "pos": "adj.",
+    "zh": "干旱的",
+    "example": "Nothing grows in the arid desert soil.",
+    "emoji": "🏜️",
+    "cefr": "C1"
+   },
+   {
+    "word": "reforestation",
+    "ipa": "/ˌriːˌfɒrɪˈsteɪʃn/",
+    "pos": "n.",
+    "zh": "再造林",
+    "example": "Reforestation restored the hillside in a decade.",
+    "emoji": "🌲",
+    "cefr": "C1"
+   },
+   {
+    "word": "ozone",
+    "ipa": "/ˈəʊzəʊn/",
+    "pos": "n.",
+    "zh": "臭氧",
+    "example": "The ozone layer blocks harmful ultraviolet rays.",
+    "emoji": "🕶️",
+    "cefr": "C1"
+   },
+   {
+    "word": "humid",
+    "ipa": "/ˈhjuːmɪd/",
+    "pos": "adj.",
+    "zh": "湿热的",
+    "example": "Summers here are humid and exhausting.",
+    "emoji": "💦",
+    "cefr": "B2"
+   },
+   {
+    "word": "precipitation",
+    "ipa": "/prɪˌsɪpɪˈteɪʃn/",
+    "pos": "n.",
+    "zh": "降水",
+    "example": "Annual precipitation has doubled in the highlands.",
+    "emoji": "🌧️",
+    "cefr": "C1"
+   },
+   {
+    "word": "monsoon",
+    "ipa": "/ˌmɒnˈsuːn/",
+    "pos": "n.",
+    "zh": "季风；雨季",
+    "example": "The monsoon brings 80% of the region's yearly rain.",
+    "emoji": "🌂",
+    "cefr": "C1"
+   },
+   {
+    "word": "permafrost",
+    "ipa": "/ˈpɜːməfrɒst/",
+    "pos": "n.",
+    "zh": "永久冻土",
+    "example": "Thawing permafrost releases methane underground.",
+    "emoji": "❄️",
+    "cefr": "C1"
+   },
+   {
+    "word": "thaw",
+    "ipa": "/θɔː/",
+    "pos": "v./n.",
+    "zh": "解冻；融化",
+    "example": "The frozen road begins to thaw in April.",
+    "emoji": "🌡️",
+    "cefr": "C1"
+   },
+   {
+    "word": "sequester",
+    "ipa": "/ˈsekwəstə/",
+    "pos": "v.",
+    "zh": "封存（碳）",
+    "example": "Forests sequester carbon for centuries.",
+    "emoji": "🔒",
+    "cefr": "C1"
+   },
+   {
+    "word": "mitigation",
+    "ipa": "/ˌmɪtɪˈɡeɪʃn/",
+    "pos": "n.",
+    "zh": "减轻；缓解措施",
+    "example": "Sea walls are one form of flood mitigation.",
+    "emoji": "🧯",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l5d_energy_tech",
+  "title": "能源技术",
+  "emoji": "🔋",
+  "words": [
+   {
+    "word": "hydro",
+    "ipa": "/ˈhaɪdrəʊ/",
+    "pos": "adj.",
+    "zh": "水力（发电）的",
+    "example": "Hydro dams supply most of the region’s power.",
+    "emoji": "💧",
+    "cefr": "B2"
+   },
+   {
+    "word": "windmill",
+    "ipa": "/ˈwɪndmɪl/",
+    "pos": "n.",
+    "zh": "风车",
+    "example": "Old windmill designs inspired modern blades.",
+    "emoji": "🌬️",
+    "cefr": "B2"
+   },
+   {
+    "word": "photovoltaic",
+    "ipa": "/ˌfəʊtəʊvɒlˈteɪɪk/",
+    "pos": "adj.",
+    "zh": "光伏的",
+    "example": "Photovoltaic panels turn sunlight into electricity.",
+    "emoji": "☀️",
+    "cefr": "C1"
+   },
+   {
+    "word": "fission",
+    "ipa": "/ˈfɪʃn/",
+    "pos": "n.",
+    "zh": "核裂变",
+    "example": "Nuclear fission splits heavy atoms to release energy.",
+    "emoji": "⚛️",
+    "cefr": "C1"
+   },
+   {
+    "word": "fusion",
+    "ipa": "/ˈfjuːʒn/",
+    "pos": "n.",
+    "zh": "核聚变；融合",
+    "example": "Fusion power promises clean energy but remains experimental.",
+    "emoji": "🌞",
+    "cefr": "C1"
+   },
+   {
+    "word": "pylon",
+    "ipa": "/ˈpaɪlən/",
+    "pos": "n.",
+    "zh": "输电塔",
+    "example": "Pylons march across the countryside in rows.",
+    "emoji": "🗼",
+    "cefr": "C1"
+   },
+   {
+    "word": "voltage",
+    "ipa": "/ˈvəʊltɪdʒ/",
+    "pos": "n.",
+    "zh": "电压",
+    "example": "Check the voltage before plugging in the device.",
+    "emoji": "🔌",
+    "cefr": "C1"
+   },
+   {
+    "word": "insulation",
+    "ipa": "/ˌɪnsjuˈleɪʃn/",
+    "pos": "n.",
+    "zh": "隔热；绝缘",
+    "example": "Better insulation cut the heating bill in half.",
+    "emoji": "🧣",
+    "cefr": "C1"
+   },
+   {
+    "word": "generator",
+    "ipa": "/ˈdʒenəreɪtə/",
+    "pos": "n.",
+    "zh": "发电机",
+    "example": "The hospital keeps a backup generator for blackouts.",
+    "emoji": "🔋",
+    "cefr": "B2"
+   },
+   {
+    "word": "geothermal",
+    "ipa": "/ˌdʒiːəʊˈθɜːml/",
+    "pos": "adj.",
+    "zh": "地热的",
+    "example": "Iceland heats most homes with geothermal energy.",
+    "emoji": "♨️",
+    "cefr": "C1"
+   },
+   {
+    "word": "biomass",
+    "ipa": "/ˈbaɪəʊmæs/",
+    "pos": "n.",
+    "zh": "生物质",
+    "example": "Wood pellets are a common biomass fuel.",
+    "emoji": "🌾",
+    "cefr": "C1"
+   },
+   {
+    "word": "kilowatt",
+    "ipa": "/ˈkɪləwɒt/",
+    "pos": "n.",
+    "zh": "千瓦",
+    "example": "The array produces 500 kilowatts at noon.",
+    "emoji": "⚡",
+    "cefr": "C1"
+   }
+  ]
+ }
+]

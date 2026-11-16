@@ -1,0 +1,1287 @@
+[
+  {
+    "id": "l5c_research_method",
+    "title": "研究方法",
+    "emoji": "🔬",
+    "words": [
+      {
+        "word": "methodology",
+        "ipa": "/ˌmeθəˈdɒlədʒi/",
+        "pos": "n.",
+        "zh": "方法论",
+        "example": "The methodology section explains how data were collected.",
+        "emoji": "🧭",
+        "cefr": "B2"
+      },
+      {
+        "word": "sample",
+        "ipa": "/ˈsɑːmpl/",
+        "pos": "n.",
+        "zh": "样本",
+        "example": "The sample included 500 students.",
+        "emoji": "🧫",
+        "cefr": "B2"
+      },
+      {
+        "word": "variable",
+        "ipa": "/ˈveəriəbl/",
+        "pos": "n.",
+        "zh": "变量",
+        "example": "Age was the strongest variable in the study.",
+        "emoji": "🎚️",
+        "cefr": "B2"
+      },
+      {
+        "word": "survey",
+        "ipa": "/ˈsɜːveɪ/",
+        "pos": "n.",
+        "zh": "调查",
+        "example": "A national survey was carried out last year.",
+        "emoji": "📋",
+        "cefr": "B2"
+      },
+      {
+        "word": "questionnaire",
+        "ipa": "/ˌkwestʃəˈneə(r)/",
+        "pos": "n.",
+        "zh": "问卷",
+        "example": "Please complete the questionnaire honestly.",
+        "emoji": "📝",
+        "cefr": "B2"
+      },
+      {
+        "word": "experiment",
+        "ipa": "/ɪkˈsperɪmənt/",
+        "pos": "n.",
+        "zh": "实验",
+        "example": "The experiment was repeated three times.",
+        "emoji": "🧪",
+        "cefr": "B2"
+      },
+      {
+        "word": "observation",
+        "ipa": "/ˌɒbzəˈveɪʃn/",
+        "pos": "n.",
+        "zh": "观察",
+        "example": "Careful observation revealed a pattern.",
+        "emoji": "👁️",
+        "cefr": "B2"
+      },
+      {
+        "word": "participant",
+        "ipa": "/pɑːˈtɪsɪpənt/",
+        "pos": "n.",
+        "zh": "参与者",
+        "example": "Each participant signed a consent form.",
+        "emoji": "🙋",
+        "cefr": "B2"
+      },
+      {
+        "word": "reliability",
+        "ipa": "/rɪˌlaɪəˈbɪləti/",
+        "pos": "n.",
+        "zh": "可靠性",
+        "example": "The test has high reliability.",
+        "emoji": "🛡️",
+        "cefr": "B2"
+      },
+      {
+        "word": "bias",
+        "ipa": "/ˈbaɪəs/",
+        "pos": "n.",
+        "zh": "偏差；偏见",
+        "example": "Small samples often produce bias.",
+        "emoji": "📐",
+        "cefr": "B2"
+      },
+      {
+        "word": "correlation",
+        "ipa": "/ˌkɒrəˈleɪʃn/",
+        "pos": "n.",
+        "zh": "相关性",
+        "example": "There is a clear correlation between the two.",
+        "emoji": "🔗",
+        "cefr": "B2"
+      },
+      {
+        "word": "statistic",
+        "ipa": "/stəˈtɪstɪk/",
+        "pos": "n.",
+        "zh": "统计数字",
+        "example": "That statistic surprised many readers.",
+        "emoji": "📊",
+        "cefr": "B2"
+      }
+    ]
+  },
+  {
+    "id": "l5c_quantitative",
+    "title": "数量表达",
+    "emoji": "📐",
+    "words": [
+      {
+        "word": "proportion",
+        "ipa": "/prəˈpɔːʃn/",
+        "pos": "n.",
+        "zh": "比例",
+        "example": "A large proportion of workers commute by bus.",
+        "emoji": "🍰",
+        "cefr": "B2"
+      },
+      {
+        "word": "percentage",
+        "ipa": "/pəˈsentɪdʒ/",
+        "pos": "n.",
+        "zh": "百分比",
+        "example": "The percentage of smokers has fallen.",
+        "emoji": "％",
+        "cefr": "B2"
+      },
+      {
+        "word": "average",
+        "ipa": "/ˈævərɪdʒ/",
+        "pos": "n.",
+        "zh": "平均数",
+        "example": "The average is about forty hours a week.",
+        "emoji": "＝",
+        "cefr": "B2"
+      },
+      {
+        "word": "total",
+        "ipa": "/ˈtəʊtl/",
+        "pos": "n.",
+        "zh": "总数",
+        "example": "The total reached two million.",
+        "emoji": "∑",
+        "cefr": "B2"
+      },
+      {
+        "word": "majority",
+        "ipa": "/məˈdʒɒrəti/",
+        "pos": "n.",
+        "zh": "多数",
+        "example": "The majority voted for the change.",
+        "emoji": "🔵",
+        "cefr": "B2"
+      },
+      {
+        "word": "minority",
+        "ipa": "/maɪˈnɒrəti/",
+        "pos": "n.",
+        "zh": "少数",
+        "example": "Only a small minority disagreed.",
+        "emoji": "🔹",
+        "cefr": "B2"
+      },
+      {
+        "word": "ratio",
+        "ipa": "/ˈreɪʃiəʊ/",
+        "pos": "n.",
+        "zh": "比率",
+        "example": "The ratio of students to teachers is 20 to 1.",
+        "emoji": "➗",
+        "cefr": "B2"
+      },
+      {
+        "word": "trend",
+        "ipa": "/trend/",
+        "pos": "n.",
+        "zh": "趋势",
+        "example": "The chart shows a downward trend.",
+        "emoji": "📉",
+        "cefr": "B2"
+      },
+      {
+        "word": "peak",
+        "ipa": "/piːk/",
+        "pos": "n.",
+        "zh": "峰值；高峰",
+        "example": "Sales reached a peak in December.",
+        "emoji": "⛰️",
+        "cefr": "B2"
+      },
+      {
+        "word": "decline",
+        "ipa": "/dɪˈklaɪn/",
+        "pos": "n.",
+        "zh": "下降",
+        "example": "There was a sharp decline in demand.",
+        "emoji": "↘️",
+        "cefr": "B2"
+      },
+      {
+        "word": "increase",
+        "ipa": "/ˈɪŋkriːs/",
+        "pos": "n.",
+        "zh": "增长",
+        "example": "A steady increase was recorded.",
+        "emoji": "↗️",
+        "cefr": "B2"
+      },
+      {
+        "word": "fluctuate",
+        "ipa": "/ˈflʌktʃueɪt/",
+        "pos": "v.",
+        "zh": "波动",
+        "example": "Prices fluctuated all summer.",
+        "emoji": "〰️",
+        "cefr": "B2"
+      }
+    ]
+  },
+  {
+    "id": "l5c_comparison",
+    "title": "比较对照",
+    "emoji": "🔲",
+    "words": [
+      {
+        "word": "similar",
+        "ipa": "/ˈsɪmələ(r)/",
+        "pos": "adj.",
+        "zh": "相似的",
+        "example": "The two results are strikingly similar.",
+        "emoji": "👥",
+        "cefr": "B2"
+      },
+      {
+        "word": "identical",
+        "ipa": "/aɪˈdentɪkl/",
+        "pos": "adj.",
+        "zh": "完全相同的",
+        "example": "The twins wore identical coats.",
+        "emoji": "🟰",
+        "cefr": "B2"
+      },
+      {
+        "word": "distinct",
+        "ipa": "/dɪˈstɪŋkt/",
+        "pos": "adj.",
+        "zh": "截然不同的",
+        "example": "The two dialects are quite distinct.",
+        "emoji": "🔀",
+        "cefr": "B2"
+      },
+      {
+        "word": "comparable",
+        "ipa": "/ˈkɒmpərəbl/",
+        "pos": "adj.",
+        "zh": "可比的",
+        "example": "The data are comparable across regions.",
+        "emoji": "⚖️",
+        "cefr": "B2"
+      },
+      {
+        "word": "superior",
+        "ipa": "/suːˈpɪəriə(r)/",
+        "pos": "adj.",
+        "zh": "更好的；优越的",
+        "example": "This method proved superior in speed.",
+        "emoji": "⬆️",
+        "cefr": "B2"
+      },
+      {
+        "word": "inferior",
+        "ipa": "/ɪnˈfɪəriə(r)/",
+        "pos": "adj.",
+        "zh": "较差的",
+        "example": "The cheaper model was clearly inferior.",
+        "emoji": "⬇️",
+        "cefr": "B2"
+      },
+      {
+        "word": "equivalent",
+        "ipa": "/ɪˈkwɪvələnt/",
+        "pos": "adj.",
+        "zh": "等同的",
+        "example": "The two qualifications are equivalent.",
+        "emoji": "🟦",
+        "cefr": "B2"
+      },
+      {
+        "word": "resemble",
+        "ipa": "/rɪˈzembl/",
+        "pos": "v.",
+        "zh": "与…相似",
+        "example": "The pattern resembles the one found in 2019.",
+        "emoji": "🪞",
+        "cefr": "B2"
+      },
+      {
+        "word": "distinguish",
+        "ipa": "/dɪˈstɪŋɡwɪʃ/",
+        "pos": "v.",
+        "zh": "区分",
+        "example": "It is hard to distinguish the two sounds.",
+        "emoji": "🔍",
+        "cefr": "B2"
+      },
+      {
+        "word": "distinction",
+        "ipa": "/dɪˈstɪŋkʃn/",
+        "pos": "n.",
+        "zh": "区别",
+        "example": "The author draws a clear distinction.",
+        "emoji": "✂️",
+        "cefr": "B2"
+      },
+      {
+        "word": "analogy",
+        "ipa": "/əˈnælədʒi/",
+        "pos": "n.",
+        "zh": "类比",
+        "example": "She explained the brain by analogy with a computer.",
+        "emoji": "🧩",
+        "cefr": "B2"
+      },
+      {
+        "word": "disparity",
+        "ipa": "/dɪˈspærəti/",
+        "pos": "n.",
+        "zh": "差异；悬殊",
+        "example": "The income disparity keeps widening.",
+        "emoji": "📏",
+        "cefr": "B2"
+      }
+    ]
+  },
+  {
+    "id": "l5c_academic_adj",
+    "title": "学术形容词",
+    "emoji": "🎓",
+    "words": [
+      {
+        "word": "empirical",
+        "ipa": "/ɪmˈpɪrɪkl/",
+        "pos": "adj.",
+        "zh": "实证的",
+        "example": "The claim lacks empirical support.",
+        "emoji": "🔬",
+        "cefr": "B2"
+      },
+      {
+        "word": "theoretical",
+        "ipa": "/ˌθɪəˈretɪkl/",
+        "pos": "adj.",
+        "zh": "理论的",
+        "example": "The paper is mostly theoretical.",
+        "emoji": "📐",
+        "cefr": "B2"
+      },
+      {
+        "word": "systematic",
+        "ipa": "/ˌsɪstəˈmætɪk/",
+        "pos": "adj.",
+        "zh": "系统的",
+        "example": "They carried out a systematic review.",
+        "emoji": "🗂️",
+        "cefr": "B2"
+      },
+      {
+        "word": "comprehensive",
+        "ipa": "/ˌkɒmprɪˈhensɪv/",
+        "pos": "adj.",
+        "zh": "全面的",
+        "example": "The book gives a comprehensive overview.",
+        "emoji": "🗺️",
+        "cefr": "B2"
+      },
+      {
+        "word": "preliminary",
+        "ipa": "/prɪˈlɪmɪnəri/",
+        "pos": "adj.",
+        "zh": "初步的",
+        "example": "Preliminary results look promising.",
+        "emoji": "🚧",
+        "cefr": "B2"
+      },
+      {
+        "word": "substantial",
+        "ipa": "/səbˈstænʃl/",
+        "pos": "adj.",
+        "zh": "大量的；实质的",
+        "example": "A substantial number of people agreed.",
+        "emoji": "🧱",
+        "cefr": "B2"
+      },
+      {
+        "word": "marginal",
+        "ipa": "/ˈmɑːdʒɪnl/",
+        "pos": "adj.",
+        "zh": "微小的；边缘的",
+        "example": "The improvement was marginal.",
+        "emoji": "▪️",
+        "cefr": "B2"
+      },
+      {
+        "word": "radical",
+        "ipa": "/ˈrædɪkl/",
+        "pos": "adj.",
+        "zh": "根本的；激进的",
+        "example": "The report calls for radical reform.",
+        "emoji": "💥",
+        "cefr": "B2"
+      },
+      {
+        "word": "conventional",
+        "ipa": "/kənˈvenʃənl/",
+        "pos": "adj.",
+        "zh": "传统的；常规的",
+        "example": "The findings challenge conventional wisdom.",
+        "emoji": "🏛️",
+        "cefr": "B2"
+      },
+      {
+        "word": "innovative",
+        "ipa": "/ˈɪnəveɪtɪv/",
+        "pos": "adj.",
+        "zh": "创新的",
+        "example": "They tried an innovative teaching method.",
+        "emoji": "💡",
+        "cefr": "B2"
+      },
+      {
+        "word": "rigorous",
+        "ipa": "/ˈrɪɡərəs/",
+        "pos": "adj.",
+        "zh": "严谨的",
+        "example": "The study used rigorous controls.",
+        "emoji": "📏",
+        "cefr": "B2"
+      },
+      {
+        "word": "underlying",
+        "ipa": "/ˌʌndəˈlaɪɪŋ/",
+        "pos": "adj.",
+        "zh": "潜在的；根本的",
+        "example": "We must address the underlying cause.",
+        "emoji": "🪨",
+        "cefr": "B2"
+      }
+    ]
+  },
+  {
+    "id": "l5c_education_theory",
+    "title": "教育理论",
+    "emoji": "📖",
+    "words": [
+      {
+        "word": "curriculum",
+        "ipa": "/kəˈrɪkjələm/",
+        "pos": "n.",
+        "zh": "课程体系",
+        "example": "Coding is now part of the school curriculum.",
+        "emoji": "📚",
+        "cefr": "B2"
+      },
+      {
+        "word": "literacy",
+        "ipa": "/ˈlɪtərəsi/",
+        "pos": "n.",
+        "zh": "读写能力",
+        "example": "Adult literacy has improved steadily.",
+        "emoji": "🔤",
+        "cefr": "B2"
+      },
+      {
+        "word": "assessment",
+        "ipa": "/əˈsesmənt/",
+        "pos": "n.",
+        "zh": "评估",
+        "example": "Continuous assessment counts for 40 per cent.",
+        "emoji": "📊",
+        "cefr": "B2"
+      },
+      {
+        "word": "motivation",
+        "ipa": "/ˌməʊtɪˈveɪʃn/",
+        "pos": "n.",
+        "zh": "动机；积极性",
+        "example": "Clear goals raise student motivation.",
+        "emoji": "🔥",
+        "cefr": "B2"
+      },
+      {
+        "word": "discipline",
+        "ipa": "/ˈdɪsəplɪn/",
+        "pos": "n.",
+        "zh": "学科；纪律",
+        "example": "History is a demanding discipline.",
+        "emoji": "📐",
+        "cefr": "B2"
+      },
+      {
+        "word": "pedagogy",
+        "ipa": "/ˈpedəɡɒdʒi/",
+        "pos": "n.",
+        "zh": "教学法",
+        "example": "Her research focuses on pedagogy.",
+        "emoji": "🧑‍🏫",
+        "cefr": "B2"
+      },
+      {
+        "word": "tuition",
+        "ipa": "/tjuˈɪʃn/",
+        "pos": "n.",
+        "zh": "学费；教学",
+        "example": "Tuition fees rose again this year.",
+        "emoji": "💰",
+        "cefr": "B2"
+      },
+      {
+        "word": "scholarship",
+        "ipa": "/ˈskɒləʃɪp/",
+        "pos": "n.",
+        "zh": "奖学金",
+        "example": "She won a full scholarship.",
+        "emoji": "🏅",
+        "cefr": "B2"
+      },
+      {
+        "word": "qualification",
+        "ipa": "/ˌkwɒlɪfɪˈkeɪʃn/",
+        "pos": "n.",
+        "zh": "资格；学历",
+        "example": "The job needs a teaching qualification.",
+        "emoji": "📜",
+        "cefr": "B2"
+      },
+      {
+        "word": "enrolment",
+        "ipa": "/ɪnˈrəʊlmənt/",
+        "pos": "n.",
+        "zh": "注册人数",
+        "example": "Enrolment doubled in five years.",
+        "emoji": "🖊️",
+        "cefr": "B2"
+      },
+      {
+        "word": "syllabus",
+        "ipa": "/ˈsɪləbəs/",
+        "pos": "n.",
+        "zh": "教学大纲",
+        "example": "The syllabus lists all required readings.",
+        "emoji": "🗒️",
+        "cefr": "B2"
+      },
+      {
+        "word": "peer",
+        "ipa": "/pɪə(r)/",
+        "pos": "n.",
+        "zh": "同龄人；同伴",
+        "example": "Peer feedback helps students improve.",
+        "emoji": "👥",
+        "cefr": "B2"
+      }
+    ]
+  },
+  {
+    "id": "l5c_workplace",
+    "title": "职场进阶",
+    "emoji": "💼",
+    "words": [
+      {
+        "word": "promotion",
+        "ipa": "/prəˈməʊʃn/",
+        "pos": "n.",
+        "zh": "晋升",
+        "example": "She earned a promotion after two years.",
+        "emoji": "🪜",
+        "cefr": "B2"
+      },
+      {
+        "word": "appraisal",
+        "ipa": "/əˈpreɪzl/",
+        "pos": "n.",
+        "zh": "绩效考核",
+        "example": "The annual appraisal is next week.",
+        "emoji": "📋",
+        "cefr": "B2"
+      },
+      {
+        "word": "workload",
+        "ipa": "/ˈwɜːkləʊd/",
+        "pos": "n.",
+        "zh": "工作量",
+        "example": "His workload doubled this quarter.",
+        "emoji": "🏋️",
+        "cefr": "B2"
+      },
+      {
+        "word": "supervisor",
+        "ipa": "/ˈsuːpəvaɪzə(r)/",
+        "pos": "n.",
+        "zh": "主管",
+        "example": "Ask your supervisor before you leave.",
+        "emoji": "🧑‍💼",
+        "cefr": "B2"
+      },
+      {
+        "word": "redundancy",
+        "ipa": "/rɪˈdʌndənsi/",
+        "pos": "n.",
+        "zh": "裁员",
+        "example": "The factory announced 200 redundancies.",
+        "emoji": "📉",
+        "cefr": "B2"
+      },
+      {
+        "word": "incentive",
+        "ipa": "/ɪnˈsentɪv/",
+        "pos": "n.",
+        "zh": "激励；奖励",
+        "example": "Bonuses act as a strong incentive.",
+        "emoji": "🎁",
+        "cefr": "B2"
+      },
+      {
+        "word": "productivity",
+        "ipa": "/ˌprɒdʌkˈtɪvəti/",
+        "pos": "n.",
+        "zh": "生产率",
+        "example": "Productivity rose after the change.",
+        "emoji": "📈",
+        "cefr": "B2"
+      },
+      {
+        "word": "turnover",
+        "ipa": "/ˈtɜːnəʊvə(r)/",
+        "pos": "n.",
+        "zh": "人员流动率；营业额",
+        "example": "Staff turnover is unusually high.",
+        "emoji": "🔄",
+        "cefr": "B2"
+      },
+      {
+        "word": "recruitment",
+        "ipa": "/rɪˈkruːtmənt/",
+        "pos": "n.",
+        "zh": "招聘",
+        "example": "Recruitment starts in September.",
+        "emoji": "🧲",
+        "cefr": "B2"
+      },
+      {
+        "word": "probation",
+        "ipa": "/prəˈbeɪʃn/",
+        "pos": "n.",
+        "zh": "试用期",
+        "example": "New staff are on probation for three months.",
+        "emoji": "⏳",
+        "cefr": "B2"
+      },
+      {
+        "word": "resign",
+        "ipa": "/rɪˈzaɪn/",
+        "pos": "v.",
+        "zh": "辞职",
+        "example": "He resigned for personal reasons.",
+        "emoji": "🚪",
+        "cefr": "B2"
+      },
+      {
+        "word": "overtime",
+        "ipa": "/ˈəʊvətaɪm/",
+        "pos": "n.",
+        "zh": "加班",
+        "example": "She worked overtime all week.",
+        "emoji": "🌙",
+        "cefr": "B2"
+      }
+    ]
+  },
+  {
+    "id": "l5c_finance_tools",
+    "title": "金融工具",
+    "emoji": "💹",
+    "words": [
+      {
+        "word": "investment",
+        "ipa": "/ɪnˈvestmənt/",
+        "pos": "n.",
+        "zh": "投资",
+        "example": "The investment paid off in five years.",
+        "emoji": "💼",
+        "cefr": "B2"
+      },
+      {
+        "word": "dividend",
+        "ipa": "/ˈdɪvɪdend/",
+        "pos": "n.",
+        "zh": "股息",
+        "example": "The company pays a small dividend.",
+        "emoji": "🪙",
+        "cefr": "B2"
+      },
+      {
+        "word": "interest",
+        "ipa": "/ˈɪntrəst/",
+        "pos": "n.",
+        "zh": "利息",
+        "example": "Interest on the loan is very low.",
+        "emoji": "％",
+        "cefr": "B2"
+      },
+      {
+        "word": "mortgage",
+        "ipa": "/ˈmɔːɡɪdʒ/",
+        "pos": "n.",
+        "zh": "抵押贷款",
+        "example": "They took out a thirty-year mortgage.",
+        "emoji": "🏠",
+        "cefr": "B2"
+      },
+      {
+        "word": "portfolio",
+        "ipa": "/pɔːtˈfəʊliəʊ/",
+        "pos": "n.",
+        "zh": "投资组合",
+        "example": "A mixed portfolio reduces risk.",
+        "emoji": "🗂️",
+        "cefr": "B2"
+      },
+      {
+        "word": "asset",
+        "ipa": "/ˈæset/",
+        "pos": "n.",
+        "zh": "资产",
+        "example": "The house is their main asset.",
+        "emoji": "🏦",
+        "cefr": "B2"
+      },
+      {
+        "word": "liability",
+        "ipa": "/ˌlaɪəˈbɪləti/",
+        "pos": "n.",
+        "zh": "负债",
+        "example": "Total liabilities exceed total assets.",
+        "emoji": "📉",
+        "cefr": "B2"
+      },
+      {
+        "word": "liquidity",
+        "ipa": "/lɪˈkwɪdəti/",
+        "pos": "n.",
+        "zh": "流动性",
+        "example": "Small firms often lack liquidity.",
+        "emoji": "💧",
+        "cefr": "B2"
+      },
+      {
+        "word": "inflation",
+        "ipa": "/ɪnˈfleɪʃn/",
+        "pos": "n.",
+        "zh": "通货膨胀",
+        "example": "Inflation reached five per cent.",
+        "emoji": "🎈",
+        "cefr": "B2"
+      },
+      {
+        "word": "recession",
+        "ipa": "/rɪˈseʃn/",
+        "pos": "n.",
+        "zh": "经济衰退",
+        "example": "Many shops closed during the recession.",
+        "emoji": "📊",
+        "cefr": "B2"
+      },
+      {
+        "word": "equity",
+        "ipa": "/ˈekwəti/",
+        "pos": "n.",
+        "zh": "股权；净值",
+        "example": "He holds equity in two startups.",
+        "emoji": "📑",
+        "cefr": "B2"
+      },
+      {
+        "word": "speculate",
+        "ipa": "/ˈspekjuleɪt/",
+        "pos": "v.",
+        "zh": "投机；推测",
+        "example": "Some traders speculate on currency.",
+        "emoji": "🎲",
+        "cefr": "B2"
+      },
+      {
+        "word": "annuity",
+        "ipa": "/əˈnjuːəti/",
+        "pos": "n.",
+        "zh": "年金",
+        "example": "He bought an annuity for his retirement.",
+        "emoji": "📅",
+        "cefr": "B2"
+      },
+      {
+        "word": "collateral",
+        "ipa": "/kəˈlætərəl/",
+        "pos": "n.",
+        "zh": "抵押品",
+        "example": "The bank asked for collateral.",
+        "emoji": "🔐",
+        "cefr": "B2"
+      },
+      {
+        "word": "default",
+        "ipa": "/dɪˈfɔːlt/",
+        "pos": "n.",
+        "zh": "违约",
+        "example": "The borrower defaulted on the loan.",
+        "emoji": "⛔",
+        "cefr": "B2"
+      },
+      {
+        "word": "depreciation",
+        "ipa": "/dɪˌpriːʃiˈeɪʃn/",
+        "pos": "n.",
+        "zh": "折旧；贬值",
+        "example": "Car depreciation is fastest in year one.",
+        "emoji": "🧾",
+        "cefr": "B2"
+      },
+      {
+        "word": "merger",
+        "ipa": "/ˈmɜːdʒə(r)/",
+        "pos": "n.",
+        "zh": "合并",
+        "example": "The merger created a giant company.",
+        "emoji": "🤝",
+        "cefr": "B2"
+      },
+      {
+        "word": "yield",
+        "ipa": "/jiːld/",
+        "pos": "n.",
+        "zh": "收益率；产量",
+        "example": "The bond offers a yield of four per cent.",
+        "emoji": "🌾",
+        "cefr": "B2"
+      },
+      {
+        "word": "audit",
+        "ipa": "/ˈɔːdɪt/",
+        "pos": "n.",
+        "zh": "审计",
+        "example": "The yearly audit found no problems.",
+        "emoji": "🔍",
+        "cefr": "B2"
+      },
+      {
+        "word": "leverage",
+        "ipa": "/ˈliːvərɪdʒ/",
+        "pos": "n.",
+        "zh": "杠杆；影响力",
+        "example": "High leverage increases risk.",
+        "emoji": "⚖️",
+        "cefr": "B2"
+      }
+    ]
+  },
+  {
+    "id": "l5c_society_issue",
+    "title": "社会议题",
+    "emoji": "👥",
+    "words": [
+      {
+        "word": "inequality",
+        "ipa": "/ˌɪnɪˈkwɒləti/",
+        "pos": "n.",
+        "zh": "不平等",
+        "example": "Income inequality has widened.",
+        "emoji": "📐",
+        "cefr": "B2"
+      },
+      {
+        "word": "discrimination",
+        "ipa": "/dɪˌskrɪmɪˈneɪʃn/",
+        "pos": "n.",
+        "zh": "歧视",
+        "example": "The law bans age discrimination.",
+        "emoji": "🚫",
+        "cefr": "B2"
+      },
+      {
+        "word": "poverty",
+        "ipa": "/ˈpɒvəti/",
+        "pos": "n.",
+        "zh": "贫困",
+        "example": "Millions still live in poverty.",
+        "emoji": "🏚️",
+        "cefr": "B2"
+      },
+      {
+        "word": "unemployment",
+        "ipa": "/ˌʌnɪmˈplɔɪmənt/",
+        "pos": "n.",
+        "zh": "失业",
+        "example": "Youth unemployment is rising.",
+        "emoji": "📉",
+        "cefr": "B2"
+      },
+      {
+        "word": "housing",
+        "ipa": "/ˈhaʊzɪŋ/",
+        "pos": "n.",
+        "zh": "住房",
+        "example": "Housing costs keep climbing.",
+        "emoji": "🏘️",
+        "cefr": "B2"
+      },
+      {
+        "word": "healthcare",
+        "ipa": "/ˈhelθkeə(r)/",
+        "pos": "n.",
+        "zh": "医疗保健",
+        "example": "Access to healthcare varies widely.",
+        "emoji": "🏥",
+        "cefr": "B2"
+      },
+      {
+        "word": "offender",
+        "ipa": "/əˈfendə(r)/",
+        "pos": "n.",
+        "zh": "违法者",
+        "example": "Young offenders receive lighter sentences.",
+        "emoji": "🚨",
+        "cefr": "B2"
+      },
+      {
+        "word": "subsidy",
+        "ipa": "/ˈsʌbsədi/",
+        "pos": "n.",
+        "zh": "补贴",
+        "example": "Farmers depend on government subsidies.",
+        "emoji": "💵",
+        "cefr": "B2"
+      },
+      {
+        "word": "legislation",
+        "ipa": "/ˌledʒɪsˈleɪʃn/",
+        "pos": "n.",
+        "zh": "立法；法规",
+        "example": "New legislation takes effect in June.",
+        "emoji": "📜",
+        "cefr": "B2"
+      },
+      {
+        "word": "enforcement",
+        "ipa": "/ɪnˈfɔːsmənt/",
+        "pos": "n.",
+        "zh": "执法",
+        "example": "Strict enforcement reduced speeding.",
+        "emoji": "👮",
+        "cefr": "B2"
+      },
+      {
+        "word": "integration",
+        "ipa": "/ˌɪntɪˈɡreɪʃn/",
+        "pos": "n.",
+        "zh": "融合；一体化",
+        "example": "Language classes aid integration.",
+        "emoji": "🧩",
+        "cefr": "B2"
+      },
+      {
+        "word": "demographic",
+        "ipa": "/ˌdeməˈɡræfɪk/",
+        "pos": "adj.",
+        "zh": "人口的",
+        "example": "Demographic change affects pensions.",
+        "emoji": "👨‍👩‍👧",
+        "cefr": "B2"
+      },
+      {
+        "word": "segregation",
+        "ipa": "/ˌseɡrɪˈɡeɪʃn/",
+        "pos": "n.",
+        "zh": "隔离",
+        "example": "Racial segregation was once legal there.",
+        "emoji": "🚧",
+        "cefr": "B2"
+      },
+      {
+        "word": "deprivation",
+        "ipa": "/ˌdeprɪˈveɪʃn/",
+        "pos": "n.",
+        "zh": "匮乏",
+        "example": "Childhood deprivation affects health later.",
+        "emoji": "🕳️",
+        "cefr": "B2"
+      },
+      {
+        "word": "prejudice",
+        "ipa": "/ˈpredʒudɪs/",
+        "pos": "n.",
+        "zh": "偏见",
+        "example": "Education can reduce prejudice.",
+        "emoji": "🙅",
+        "cefr": "B2"
+      },
+      {
+        "word": "marginalise",
+        "ipa": "/ˈmɑːdʒɪnəlaɪz/",
+        "pos": "v.",
+        "zh": "使边缘化",
+        "example": "Poor transport marginalises rural families.",
+        "emoji": "🔻",
+        "cefr": "B2"
+      },
+      {
+        "word": "philanthropy",
+        "ipa": "/fɪˈlænθrəpi/",
+        "pos": "n.",
+        "zh": "慈善事业",
+        "example": "Her philanthropy funded three schools.",
+        "emoji": "❤️",
+        "cefr": "B2"
+      },
+      {
+        "word": "inclusion",
+        "ipa": "/ɪnˈkluːʒn/",
+        "pos": "n.",
+        "zh": "包容；纳入",
+        "example": "The school promotes inclusion.",
+        "emoji": "🌈",
+        "cefr": "B2"
+      },
+      {
+        "word": "vulnerable",
+        "ipa": "/ˈvʌlnərəbl/",
+        "pos": "adj.",
+        "zh": "脆弱的；易受伤害的",
+        "example": "Older people are more vulnerable to heat.",
+        "emoji": "🩹",
+        "cefr": "B2"
+      }
+    ]
+  },
+  {
+    "id": "l5c_environment_policy",
+    "title": "环保政策",
+    "emoji": "🌿",
+    "words": [
+      {
+        "word": "emission",
+        "ipa": "/ɪˈmɪʃn/",
+        "pos": "n.",
+        "zh": "排放",
+        "example": "Carbon emissions must fall by half.",
+        "emoji": "🏭",
+        "cefr": "B2"
+      },
+      {
+        "word": "sustainable",
+        "ipa": "/səˈsteɪnəbl/",
+        "pos": "adj.",
+        "zh": "可持续的",
+        "example": "We need a sustainable food system.",
+        "emoji": "♻️",
+        "cefr": "B2"
+      },
+      {
+        "word": "renewable",
+        "ipa": "/rɪˈnjuːəbl/",
+        "pos": "adj.",
+        "zh": "可再生的",
+        "example": "Renewable energy now supplies a third of homes.",
+        "emoji": "🌞",
+        "cefr": "B2"
+      },
+      {
+        "word": "conservation",
+        "ipa": "/ˌkɒnsəˈveɪʃn/",
+        "pos": "n.",
+        "zh": "保护；保育",
+        "example": "Wildlife conservation depends on funding.",
+        "emoji": "🐾",
+        "cefr": "B2"
+      },
+      {
+        "word": "biodiversity",
+        "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+        "pos": "n.",
+        "zh": "生物多样性",
+        "example": "Forests protect local biodiversity.",
+        "emoji": "🦋",
+        "cefr": "B2"
+      },
+      {
+        "word": "deforestation",
+        "ipa": "/ˌdiːˌfɒrɪˈsteɪʃn/",
+        "pos": "n.",
+        "zh": "森林砍伐",
+        "example": "Deforestation threatens many species.",
+        "emoji": "🪓",
+        "cefr": "B2"
+      },
+      {
+        "word": "pollutant",
+        "ipa": "/pəˈluːtənt/",
+        "pos": "n.",
+        "zh": "污染物",
+        "example": "The river carries industrial pollutants.",
+        "emoji": "☣️",
+        "cefr": "B2"
+      },
+      {
+        "word": "carbon",
+        "ipa": "/ˈkɑːbən/",
+        "pos": "n.",
+        "zh": "碳",
+        "example": "The city aims for carbon neutrality.",
+        "emoji": "⚫",
+        "cefr": "B2"
+      },
+      {
+        "word": "ecosystem",
+        "ipa": "/ˈiːkəʊsɪstəm/",
+        "pos": "n.",
+        "zh": "生态系统",
+        "example": "Wetlands form a fragile ecosystem.",
+        "emoji": "🌾",
+        "cefr": "B2"
+      },
+      {
+        "word": "habitat",
+        "ipa": "/ˈhæbɪtæt/",
+        "pos": "n.",
+        "zh": "栖息地",
+        "example": "The dam destroyed the fish habitat.",
+        "emoji": "🪺",
+        "cefr": "B2"
+      },
+      {
+        "word": "degradation",
+        "ipa": "/ˌdeɡrəˈdeɪʃn/",
+        "pos": "n.",
+        "zh": "退化；恶化",
+        "example": "Soil degradation lowers crop yields.",
+        "emoji": "🏜️",
+        "cefr": "B2"
+      },
+      {
+        "word": "mitigate",
+        "ipa": "/ˈmɪtɪɡeɪt/",
+        "pos": "v.",
+        "zh": "缓解",
+        "example": "Trees help mitigate urban heat.",
+        "emoji": "🌳",
+        "cefr": "B2"
+      }
+    ]
+  },
+  {
+    "id": "l5c_media_literacy",
+    "title": "媒介素养",
+    "emoji": "📡",
+    "words": [
+      {
+        "word": "credibility",
+        "ipa": "/ˌkredəˈbɪləti/",
+        "pos": "n.",
+        "zh": "可信度",
+        "example": "The scandal damaged the paper's credibility.",
+        "emoji": "🛡️",
+        "cefr": "B2"
+      },
+      {
+        "word": "propaganda",
+        "ipa": "/ˌprɒpəˈɡændə/",
+        "pos": "n.",
+        "zh": "宣传（带贬义）",
+        "example": "The film was pure propaganda.",
+        "emoji": "📢",
+        "cefr": "B2"
+      },
+      {
+        "word": "censorship",
+        "ipa": "/ˈsensəʃɪp/",
+        "pos": "n.",
+        "zh": "审查",
+        "example": "Strict censorship limits the press.",
+        "emoji": "🚫",
+        "cefr": "B2"
+      },
+      {
+        "word": "coverage",
+        "ipa": "/ˈkʌvərɪdʒ/",
+        "pos": "n.",
+        "zh": "报道",
+        "example": "Media coverage of the event was huge.",
+        "emoji": "📰",
+        "cefr": "B2"
+      },
+      {
+        "word": "headline",
+        "ipa": "/ˈhedlaɪn/",
+        "pos": "n.",
+        "zh": "标题",
+        "example": "The headline was misleading.",
+        "emoji": "🗞️",
+        "cefr": "B2"
+      },
+      {
+        "word": "editorial",
+        "ipa": "/ˌedɪˈtɔːriəl/",
+        "pos": "n.",
+        "zh": "社论",
+        "example": "The editorial criticised the policy.",
+        "emoji": "✍️",
+        "cefr": "B2"
+      },
+      {
+        "word": "source",
+        "ipa": "/sɔːs/",
+        "pos": "n.",
+        "zh": "来源；消息源",
+        "example": "Always check the original source.",
+        "emoji": "🔗",
+        "cefr": "B2"
+      },
+      {
+        "word": "circulation",
+        "ipa": "/ˌsɜːkjəˈleɪʃn/",
+        "pos": "n.",
+        "zh": "发行量",
+        "example": "Print circulation keeps falling.",
+        "emoji": "📦",
+        "cefr": "B2"
+      },
+      {
+        "word": "audience",
+        "ipa": "/ˈɔːdiəns/",
+        "pos": "n.",
+        "zh": "受众；观众",
+        "example": "The audience for podcasts has grown.",
+        "emoji": "👥",
+        "cefr": "B2"
+      },
+      {
+        "word": "viral",
+        "ipa": "/ˈvaɪrəl/",
+        "pos": "adj.",
+        "zh": "疯传的",
+        "example": "The clip went viral overnight.",
+        "emoji": "🔥",
+        "cefr": "B2"
+      },
+      {
+        "word": "misinformation",
+        "ipa": "/ˌmɪsɪnfəˈmeɪʃn/",
+        "pos": "n.",
+        "zh": "错误信息",
+        "example": "Misinformation spreads faster than facts.",
+        "emoji": "⚠️",
+        "cefr": "B2"
+      },
+      {
+        "word": "transparency",
+        "ipa": "/trænsˈpærənsi/",
+        "pos": "n.",
+        "zh": "透明度",
+        "example": "Readers demand greater transparency.",
+        "emoji": "🔍",
+        "cefr": "B2"
+      }
+    ]
+  }
+]

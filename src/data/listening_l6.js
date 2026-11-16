@@ -163,6 +163,166 @@ export const L6_LISTENING = [
       { q: 'Who encourages the speaker?', options: ['The mother', 'The science teacher', 'The friend'], answer: 1 },
       { q: 'How will the speaker make the dream come true?', options: ['Study hard every day', 'Watch TV every day', 'Sleep early every day'], answer: 0 }
     ]
+  },
+  {
+    id: 'l6_09',
+    title: '在餐厅点餐',
+    emoji: '🍽️',
+    script: [
+      { en: 'Good evening, table for two, please.', zh: '晚上好，请给我们一张两人桌。' },
+      { en: 'Sure, this way please. Here is the menu.', zh: '好的，这边请。这是菜单。' },
+      { en: 'What would you recommend?', zh: '你有什么推荐吗？' },
+      { en: 'The grilled fish is very popular today.', zh: '今天的烤鱼很受欢迎。' },
+      { en: 'That sounds good. I will have the fish and a green salad.', zh: '听起来不错，我要烤鱼和一份蔬菜沙拉。' },
+      { en: 'Would you like anything to drink?', zh: '想喝点什么吗？' },
+      { en: 'Two glasses of sparkling water, please.', zh: '请给我们两杯气泡水。' }
+    ],
+    questions: [
+      { q: 'How many people are dining?', options: ['Two', 'Three', 'Four'], answer: 0 },
+      { q: 'What does the waiter recommend?', options: ['The soup', 'The grilled fish', 'The steak'], answer: 1 },
+      { q: 'What does the customer order besides the fish?', options: ['A green salad', 'Some rice', 'French fries'], answer: 0 },
+      { q: 'What do they drink?', options: ['Coffee', 'Orange juice', 'Sparkling water'], answer: 2 }
+    ]
+  },
+  {
+    id: 'l6_10',
+    title: '机场办理登机',
+    emoji: '✈️',
+    script: [
+      { en: 'Good morning. May I see your passport and ticket?', zh: '早上好，请出示您的护照和机票。' },
+      { en: 'Here you are. I am flying to London.', zh: '给您，我要飞往伦敦。' },
+      { en: 'Do you have any bags to check in?', zh: '您有行李要托运吗？' },
+      { en: 'Yes, one suitcase and one backpack.', zh: '有一个行李箱和一个背包。' },
+      { en: 'Your suitcase is a little heavy, but it is within the limit.', zh: '您的箱子有点重，但在限额之内。' },
+      { en: 'Great. Which gate should I go to?', zh: '太好了，我应该去哪个登机口？' },
+      { en: 'Gate 12. Boarding starts at ten thirty.', zh: '12 号登机口，十点半开始登机。' }
+    ],
+    questions: [
+      { q: 'Where is the passenger flying to?', options: ['Paris', 'London', 'New York'], answer: 1 },
+      { q: 'How many bags does the passenger check in?', options: ['One', 'Two', 'Three'], answer: 1 },
+      { q: 'What does the clerk say about the suitcase?', options: ['It is too heavy', 'It is within the limit', 'It is lost'], answer: 1 },
+      { q: 'When does boarding start?', options: ['At ten thirty', 'At eleven thirty', 'At twelve thirty'], answer: 0 }
+    ]
+  },
+  {
+    id: 'l6_11',
+    title: '看病就诊',
+    emoji: '🏥',
+    script: [
+      { en: 'What seems to be the problem?', zh: '您哪里不舒服？' },
+      { en: 'I have had a sore throat and a headache for three days.', zh: '我喉咙痛、头疼已经三天了。' },
+      { en: 'Do you have a fever as well?', zh: '您也发烧吗？' },
+      { en: 'Yes, my temperature was thirty-eight degrees last night.', zh: '是的，昨晚量到三十八度。' },
+      { en: 'Let me have a look. Open your mouth and say ah.', zh: '让我看看，张开嘴说啊。' },
+      { en: 'It looks like a throat infection. Take this medicine twice a day.', zh: '看起来是咽喉感染，这药一天服两次。' },
+      { en: 'Thank you, doctor. Should I stay at home?', zh: '谢谢医生，我需要待在家里吗？' }
+    ],
+    questions: [
+      { q: 'How long has the problem lasted?', options: ['One day', 'Two days', 'Three days'], answer: 2 },
+      { q: 'What was the patient’s temperature last night?', options: ['36 degrees', '37 degrees', '38 degrees'], answer: 2 },
+      { q: 'What does the doctor find?', options: ['A cold', 'A throat infection', 'A broken arm'], answer: 1 },
+      { q: 'How often should the medicine be taken?', options: ['Once a day', 'Twice a day', 'Three times a day'], answer: 1 }
+    ]
+  },
+  {
+    id: 'l6_12',
+    title: '银行业务',
+    emoji: '🏦',
+    script: [
+      { en: 'Hello, I would like to open a savings account.', zh: '你好，我想开一个储蓄账户。' },
+      { en: 'Sure. Please fill in this form first.', zh: '好的，请先填这张表。' },
+      { en: 'Do I need to show my ID card?', zh: '需要出示身份证吗？' },
+      { en: 'Yes, and please set a password with six numbers.', zh: '需要，另外请设置一个六位数字的密码。' },
+      { en: 'Done. Is there any service charge?', zh: '填好了，有手续费吗？' },
+      { en: 'There is no charge for the first year.', zh: '第一年免收手续费。' },
+      { en: 'Perfect. When can I get my bank card?', zh: '太好了，我什么时候能拿到银行卡？' }
+    ],
+    questions: [
+      { q: 'What does the customer want to do?', options: ['Exchange money', 'Open a savings account', 'Report a lost card'], answer: 1 },
+      { q: 'How many numbers should the password have?', options: ['Four', 'Five', 'Six'], answer: 2 },
+      { q: 'What about the service charge?', options: ['Free for the first year', 'Ten yuan a month', 'No free service'], answer: 0 },
+      { q: 'What does the customer ask at the end?', options: ['About the interest rate', 'About the bank card', 'About the opening hours'], answer: 1 }
+    ]
+  },
+  {
+    id: 'l6_13',
+    title: '电话预订酒店',
+    emoji: '🏨',
+    script: [
+      { en: 'Grand Hotel, how may I help you?', zh: '格兰德酒店，有什么可以帮您？' },
+      { en: 'I would like to book a double room for two nights.', zh: '我想订一间双人房，住两晚。' },
+      { en: 'For which dates?', zh: '请问哪两天？' },
+      { en: 'From the fifteenth to the seventeenth of June.', zh: '6 月 15 日到 17 日。' },
+      { en: 'We have a room with a sea view for 380 yuan a night.', zh: '我们有一间海景房，每晚 380 元。' },
+      { en: 'Does that include breakfast?', zh: '含早餐吗？' },
+      { en: 'Yes, breakfast is included. May I have your name?', zh: '含早餐。请问您的姓名？' }
+    ],
+    questions: [
+      { q: 'What kind of room does the caller want?', options: ['A single room', 'A double room', 'A family room'], answer: 1 },
+      { q: 'How many nights will the caller stay?', options: ['One', 'Two', 'Three'], answer: 1 },
+      { q: 'How much is the room per night?', options: ['280 yuan', '380 yuan', '480 yuan'], answer: 1 },
+      { q: 'What is included in the price?', options: ['Dinner', 'Breakfast', 'Airport pickup'], answer: 1 }
+    ]
+  },
+  {
+    id: 'l6_14',
+    title: '网上购物咨询',
+    emoji: '📱',
+    script: [
+      { en: 'Hello, I have a question about my order.', zh: '你好，我想咨询一下我的订单。' },
+      { en: 'Sure, could you tell me the order number?', zh: '好的，请告诉我订单号。' },
+      { en: 'It is 20260358. The shoes have not arrived yet.', zh: '订单号 20260358，鞋子还没到。' },
+      { en: 'Let me check. They were sent out two days ago.', zh: '我查一下，鞋子两天前已经发出。' },
+      { en: 'How long does delivery usually take?', zh: '配送一般要多久？' },
+      { en: 'Usually three to five working days.', zh: '一般三到五个工作日。' },
+      { en: 'OK, I will wait a bit longer. Thank you.', zh: '好的，我再等等，谢谢。' }
+    ],
+    questions: [
+      { q: 'What is the customer asking about?', options: ['A refund', 'A delayed order', 'A discount'], answer: 1 },
+      { q: 'When were the shoes sent out?', options: ['Yesterday', 'Two days ago', 'Last week'], answer: 1 },
+      { q: 'How long does delivery usually take?', options: ['Two to three days', 'Three to five working days', 'A week'], answer: 1 },
+      { q: 'What does the customer decide to do?', options: ['Cancel the order', 'Wait a bit longer', 'Change the address'], answer: 1 }
+    ]
+  },
+  {
+    id: 'l6_15',
+    title: '天气预报',
+    emoji: '⛅',
+    script: [
+      { en: 'Here is the weather report for tomorrow.', zh: '这里是明天的天气预报。' },
+      { en: 'In the morning, it will be cloudy with light rain.', zh: '上午多云，有小雨。' },
+      { en: 'The rain will stop around noon, and the sun will come out.', zh: '中午前后雨会停，太阳出来。' },
+      { en: 'In the afternoon, temperatures will reach twenty-two degrees.', zh: '下午气温将升至 22 度。' },
+      { en: 'However, a strong wind will blow along the coast.', zh: '不过，沿海将有强风。' },
+      { en: 'Drivers should be careful on the bridges.', zh: '司机过桥时要小心。' },
+      { en: 'The weekend looks sunny and warm.', zh: '周末看起来晴朗温暖。' }
+    ],
+    questions: [
+      { q: 'What will the weather be like in the morning?', options: ['Sunny', 'Cloudy with light rain', 'Snowy'], answer: 1 },
+      { q: 'When will the rain stop?', options: ['Around noon', 'In the evening', 'Late at night'], answer: 0 },
+      { q: 'What will the afternoon temperature be?', options: ['12 degrees', '22 degrees', '32 degrees'], answer: 1 },
+      { q: 'What warning does the report give?', options: ['Strong wind along the coast', 'Heavy snow in the mountains', 'Fog on the roads'], answer: 0 }
+    ]
+  },
+  {
+    id: 'l6_16',
+    title: '问路与交通',
+    emoji: '🚦',
+    script: [
+      { en: 'Excuse me, how can I get to the science museum?', zh: '打扰一下，去科技博物馆怎么走？' },
+      { en: 'Take Line 2 and get off at Green Park station.', zh: '乘 2 号线，在 Green Park 站下车。' },
+      { en: 'How many stops is that from here?', zh: '从这里坐几站？' },
+      { en: 'About six stops, around fifteen minutes.', zh: '大约六站，十五分钟左右。' },
+      { en: 'Do I need to change trains?', zh: '需要换乘吗？' },
+      { en: 'No, but the museum is ten minutes on foot from the station.', zh: '不用换乘，但从车站步行到博物馆要十分钟。' },
+      { en: 'Thanks a lot. Is there a map nearby?', zh: '非常感谢，附近有地图吗？' }
+    ],
+    questions: [
+      { q: 'Which line should the visitor take?', options: ['Line 1', 'Line 2', 'Line 3'], answer: 1 },
+      { q: 'At which station should the visitor get off?', options: ['City Hall', 'Green Park', 'Museum Square'], answer: 1 },
+      { q: 'How long does the ride take?', options: ['About ten minutes', 'About fifteen minutes', 'About twenty minutes'], answer: 1 },
+      { q: 'How far is the museum from the station?', options: ['Five minutes by bus', 'Ten minutes on foot', 'Fifteen minutes by taxi'], answer: 1 }
+    ]
   }
 ]
 

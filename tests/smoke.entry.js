@@ -15,11 +15,22 @@ import { createPinia, setActivePinia } from 'pinia'
 import { useAuthStore } from '../src/stores/auth'
 import { useProgressStore } from '../src/stores/progress'
 
-/* 词库 JSON 注入（Node 环境直接读文件，等价于浏览器的启动预载） */
+/* 词库 JSON 注入（Node 环境直接读文件，等价于浏览器的启动预载）
+   分批文件按顺序合并，与 wordData.preloadWordData 的行为保持一致。 */
+function readJson(file) {
+  return JSON.parse(fs.readFileSync(`public/data/${file}`, 'utf8'))
+}
+const L2_FILES = ['words-l2.json', 'words-l2-extra.json', 'words-l2-b2a.json', 'words-l2-b2b.json', 'words-l2-b2c.json', 'words-l2-b2d.json', 'words-l2-b2e.json', 'words-l2-b3a.json']
+const L5_FILES = ['words-l5.json', 'words-l5-extra.json', 'words-l5-b2a.json', 'words-l5-b2b.json', 'words-l5-b2c.json', 'words-l5-b2d.json', 'words-l5-b2e.json', 'words-l5-b3a.json', 'words-l5-b3b.json', 'phrases-1.json', 'phrases-2.json', 'phrases-3.json', 'phrases-4.json', 'phrases-5.json']
+const l2Merged = {}
+L2_FILES.forEach((f) => Object.assign(l2Merged, readJson(f)))
+const l5Merged = []
+L5_FILES.forEach((f) => l5Merged.push(...readJson(f)))
+
 hydrateWordData({
-  l2: JSON.parse(fs.readFileSync('public/data/words-l2.json', 'utf8')),
-  l5: JSON.parse(fs.readFileSync('public/data/words-l5.json', 'utf8')),
-  l8: JSON.parse(fs.readFileSync('public/data/words-l8.json', 'utf8'))
+  l2: l2Merged,
+  l5: l5Merged,
+  l8: readJson('words-l8.json')
 })
 
 let passed = 0, failed = 0
@@ -45,19 +56,51 @@ function ok(v, msg) { if (!v) throw new Error(msg) }
 
 /* ---------- 数据完整性 ---------- */
 const totalStages = LEVELS.reduce((s, l) => s + l.stages.length, 0)
-t('总关卡数=58', () => eq(totalStages, 58, 'stages'))
+t('总关卡数 ≥ 250（词库扩至 1500 后）', () => ok(totalStages >= 250, 'stages=' + totalStages))
 t('8 个等级', () => eq(LEVELS.length, 8, 'levels'))
 t('解锁比例 0.8', () => eq(LEVEL_UNLOCK_RATIO, 0.8, 'ratio'))
 t('26 字母', () => eq(LETTERS.length, 26, 'letters'))
 t('48 音标', () => eq(IPA_VOWELS.length + IPA_CONSONANTS.length, 48, 'ipa'))
-t('L2 词库 120', () => eq(getAllL2Words().length, 120, 'words'))
+t('L2 去重词条 ≥ 600', () => ok(getAllL2Words().length >= 600, 'L2 words=' + getAllL2Words().length))
 t('L3 对话 4 场景 + 2 听力', () => {
   eq(DIALOGUES_L3.length, 4, 'dialogues')
   eq(L3_LISTENING.length, 2, 'listening')
 })
-t('L5 主题 10（PLAN: 10+ 主题）', () => ok(getL5Themes().length >= 10, 'themes=' + getL5Themes().length))
+t('L5 主题 ≥ 90（含词组包）', () => ok(getL5Themes().length >= 90, 'themes=' + getL5Themes().length))
+t('词组搭配 ≥ 250 条且无跨包重复', () => {
+  const phraseThemes = getL5Themes().filter((x) => String(x.id).startsWith('ph_'))
+  ok(phraseThemes.length >= 20, 'phrase themes=' + phraseThemes.length)
+  const words = phraseThemes.flatMap((x) => x.words.map((w) => w.word.toLowerCase()))
+  ok(words.length >= 250, 'phrases=' + words.length)
+  eq(new Set(words).size, words.length, '词组重复数')
+  ok(words.every((w) => /\s/.test(w)), '存在不含空格的词组')
+})
+t('词组关卡只用选择题且带 mode', () => {
+  const level = getLevel(5)
+  const phraseStages = level.stages.filter((st) => String(st.content.pool).startsWith('ph_'))
+  ok(phraseStages.length >= 40, 'phrase stages=' + phraseStages.length)
+  for (const st of phraseStages) {
+    eq(st.type, 'word_choice', `${st.id} type`)
+    ok(['en2zh', 'zh2en'].includes(st.content.mode), `${st.id} mode=${st.content.mode}`)
+  }
+})
 t('L8 学术词 96', () => eq(getL8Words().length, 96, 'l8 words'))
 t('每日一句 60', () => eq(DAILY_SENTENCES.length, 60, 'daily'))
+t('词汇关卡每关 3-6 词且词池可解析', () => {
+  for (const lv of [2, 5]) {
+    const level = getLevel(lv)
+    for (const st of level.stages) {
+      const n = (st.content.focus || []).length
+      ok(n >= 3 && n <= 6, `${st.id} focus=${n}`)
+      ok(getPoolData(st.content.pool).length >= 6, `${st.id} pool 过小`)
+    }
+  }
+})
+t('关卡 stage 序号连续', () => {
+  for (const lv of LEVELS) {
+    lv.stages.forEach((st, i) => eq(st.stage, i + 1, `${lv.level} 第 ${i + 1} 关`))
+  }
+})
 
 /* 每关单词数校验 */
 t('各关 getStageWords 非空且≤12', () => {

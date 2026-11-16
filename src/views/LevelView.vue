@@ -27,35 +27,55 @@
       </button>
     </div>
 
-    <div class="grid-stages">
-      <button
-        v-for="st in lv.stages"
-        :key="st.id"
-        class="stage-card"
-        :class="{
-          locked: !unlocked(st),
-          completed: record(st) && record(st).completed
-        }"
-        :disabled="!unlocked(st)"
-        @click="openStage(st)"
-      >
-        <div class="stage-card-head">
-          <span class="stage-num">第 {{ st.stage }} 关</span>
-          <span v-if="st.available === false" class="badge-chip">后续开放</span>
-          <span v-else-if="record(st)" class="stars">
-            <span v-for="i in 3" :key="i" class="star" :class="{ empty: i > record(st).bestStars }">★</span>
-          </span>
+    <div v-if="hasUnits" class="unit-toolbar">
+      <span class="unit-progress">已完成 {{ completedUnits }} / {{ groups.length }} 个单元</span>
+      <button class="link-btn" @click="toggleAll">{{ allOpen ? '全部收起' : '展开全部' }}</button>
+    </div>
+
+    <div class="unit-list">
+      <section v-for="(g, gi) in groups" :key="gi" class="unit-block">
+        <button
+          v-if="g.title"
+          class="unit-head"
+          :class="{ open: isOpen(g) }"
+          @click="toggle(g)"
+        >
+          <span class="unit-caret">{{ isOpen(g) ? '▾' : '▸' }}</span>
+          <span class="unit-emoji">{{ g.emoji }}</span>
+          <span class="unit-title">单元 {{ g.unit }} · {{ g.title }}</span>
+          <span class="unit-stars">{{ g.stars }} / {{ g.max }} ★</span>
+        </button>
+        <div v-show="!g.title || isOpen(g)" class="grid-stages">
+          <button
+            v-for="st in g.stages"
+            :key="st.id"
+            class="stage-card"
+            :class="{
+              locked: !unlocked(st),
+              completed: record(st) && record(st).completed
+            }"
+            :disabled="!unlocked(st)"
+            @click="openStage(st)"
+          >
+            <div class="stage-card-head">
+              <span class="stage-num">第 {{ st.stage }} 关</span>
+              <span v-if="st.available === false" class="badge-chip">后续开放</span>
+              <span v-else-if="record(st)" class="stars">
+                <span v-for="i in 3" :key="i" class="star" :class="{ empty: i > record(st).bestStars }">★</span>
+              </span>
+            </div>
+            <div class="stage-title">{{ st.title }}</div>
+            <div class="stage-desc">{{ st.desc }}</div>
+            <div v-if="!unlocked(st)" class="stage-lock">🔒 未解锁</div>
+          </button>
         </div>
-        <div class="stage-title">{{ st.title }}</div>
-        <div class="stage-desc">{{ st.desc }}</div>
-        <div v-if="!unlocked(st)" class="stage-lock">🔒 未解锁</div>
-      </button>
+      </section>
     </div>
   </div>
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { getLevel } from '../data/levels'
 import { useProgressStore } from '../stores/progress'
@@ -65,6 +85,26 @@ const router = useRouter()
 const progress = useProgressStore()
 
 const lv = computed(() => getLevel(Number(route.params.level)) || { level: 0, name: '', desc: '', stages: [] })
+
+/* 按单元分组：L2/L5 主题驱动关卡带 unit 字段，其余等级平铺 */
+const groups = computed(() => {
+  const list = lv.value.stages || []
+  if (!list.some((s) => s.unit)) {
+    return [{ unit: 0, title: '', emoji: '', stages: list, stars: 0, max: list.length * 3 }]
+  }
+  const map = new Map()
+  for (const st of list) {
+    if (!map.has(st.unit)) {
+      map.set(st.unit, { unit: st.unit, title: st.unitTitle || '', emoji: st.unitEmoji || '', stages: [] })
+    }
+    map.get(st.unit).stages.push(st)
+  }
+  return [...map.values()].map((g) => ({
+    ...g,
+    stars: g.stages.reduce((sum, st) => sum + ((progress.stages[st.id] && progress.stages[st.id].bestStars) || 0), 0),
+    max: g.stages.length * 3
+  }))
+})
 
 const examUnlocked = computed(() => {
   return lv.value.available !== false && progress.isLevelExamUnlocked(lv.value.level)
@@ -80,6 +120,45 @@ const examDesc = computed(() => {
   const lp = progress.getLevelProgress(lv.value.level)
   return `完成本等级全部 ${lp.total} 关后可挑战阶段综合测验（当前 ${lp.completed}/${lp.total}）。`
 })
+
+/* ---------- 单元折叠：单元数量多时默认只展开当前进度所在单元 ---------- */
+const manualOpen = ref({})
+
+const hasUnits = computed(() => groups.value.some((g) => g.title))
+
+/* 当前进度所在单元：第一个还有未通关关卡的单元 */
+const currentUnit = computed(() => {
+  const g = groups.value.find((x) => x.stages.some((st) => !record(st) || !record(st).completed))
+  return g ? g.unit : (groups.value.length ? groups.value[groups.value.length - 1].unit : 0)
+})
+
+function isOpen(g) {
+  if (!g.title) return true
+  if (g.unit in manualOpen.value) return manualOpen.value[g.unit]
+  return g.unit === currentUnit.value
+}
+
+const allOpen = computed(() => {
+  if (!hasUnits.value) return true
+  return groups.value.every((g) => isOpen(g))
+})
+
+const completedUnits = computed(
+  () => groups.value.filter((g) => g.stages.every((st) => record(st) && record(st).completed)).length
+)
+
+function toggle(g) {
+  manualOpen.value = { ...manualOpen.value, [g.unit]: !isOpen(g) }
+}
+
+function toggleAll() {
+  const next = !allOpen.value
+  const map = {}
+  groups.value.forEach((g) => {
+    map[g.unit] = next
+  })
+  manualOpen.value = map
+}
 
 function record(st) {
   return progress.stages[st.id] || null
@@ -117,6 +196,74 @@ function openStage(st) {
   align-items: center;
   justify-content: space-between;
   gap: var(--space-xs);
+}
+
+.unit-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.unit-block {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.unit-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+  font-size: 13px;
+  color: var(--c-text-muted);
+}
+
+.unit-head {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: 8px 10px;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-md);
+  background: var(--c-surface);
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  transition: background 0.15s ease;
+}
+
+.unit-head:hover {
+  background: var(--c-surface-2);
+}
+
+.unit-head.open {
+  background: var(--c-surface-2);
+}
+
+.unit-caret {
+  font-size: 11px;
+  color: var(--c-text-muted);
+  width: 10px;
+}
+
+.unit-emoji {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.unit-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--c-text);
+}
+
+.unit-stars {
+  margin-left: auto;
+  font-size: 12px;
+  color: var(--c-text-muted);
 }
 
 .stage-lock {

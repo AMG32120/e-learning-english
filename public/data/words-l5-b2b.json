@@ -1,0 +1,1152 @@
+[
+  {
+    "id": "l5b_police",
+    "title": "警务治安",
+    "emoji": "🚓",
+    "words": [
+      {
+        "word": "patrol",
+        "ipa": "/pəˈtrəʊl/",
+        "pos": "v.",
+        "zh": "巡逻",
+        "example": "Officers patrol the street at night.",
+        "emoji": "🚓",
+        "cefr": "B1"
+      },
+      {
+        "word": "arrest",
+        "ipa": "/əˈrest/",
+        "pos": "v.",
+        "zh": "逮捕",
+        "example": "The police arrested two men.",
+        "emoji": "🔗",
+        "cefr": "B1"
+      },
+      {
+        "word": "suspect",
+        "ipa": "/ˈsʌspekt/",
+        "pos": "n.",
+        "zh": "嫌疑人",
+        "example": "The suspect was questioned.",
+        "emoji": "🕵️",
+        "cefr": "B1"
+      },
+      {
+        "word": "offence",
+        "ipa": "/əˈfens/",
+        "pos": "n.",
+        "zh": "违法行为",
+        "example": "It is a serious offence.",
+        "emoji": "🚫",
+        "cefr": "B1"
+      },
+      {
+        "word": "investigation",
+        "ipa": "/ɪnˌvestɪˈɡeɪʃn/",
+        "pos": "n.",
+        "zh": "调查",
+        "example": "The investigation took six months.",
+        "emoji": "🔎",
+        "cefr": "B1"
+      },
+      {
+        "word": "custody",
+        "ipa": "/ˈkʌstədi/",
+        "pos": "n.",
+        "zh": "拘留",
+        "example": "He was held in custody overnight.",
+        "emoji": "🔒",
+        "cefr": "B1"
+      },
+      {
+        "word": "warrant",
+        "ipa": "/ˈwɒrənt/",
+        "pos": "n.",
+        "zh": "搜查令",
+        "example": "They entered with a warrant.",
+        "emoji": "📜",
+        "cefr": "B1"
+      },
+      {
+        "word": "detective",
+        "ipa": "/dɪˈtektɪv/",
+        "pos": "n.",
+        "zh": "侦探",
+        "example": "A detective took over the case.",
+        "emoji": "🕶️",
+        "cefr": "B1"
+      },
+      {
+        "word": "fine",
+        "ipa": "/faɪn/",
+        "pos": "n.",
+        "zh": "罚款",
+        "example": "He paid a fine of fifty pounds.",
+        "emoji": "💸",
+        "cefr": "B1"
+      },
+      {
+        "word": "weapon",
+        "ipa": "/ˈwepən/",
+        "pos": "n.",
+        "zh": "武器",
+        "example": "No weapons are allowed here.",
+        "emoji": "🗡️",
+        "cefr": "B1"
+      },
+      {
+        "word": "rescue",
+        "ipa": "/ˈreskjuː/",
+        "pos": "v.",
+        "zh": "营救",
+        "example": "They rescued the driver quickly.",
+        "emoji": "🛟",
+        "cefr": "B1"
+      },
+      {
+        "word": "surveillance",
+        "ipa": "/sɜːˈveɪləns/",
+        "pos": "n.",
+        "zh": "监控",
+        "example": "The area is under surveillance.",
+        "emoji": "📹",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_military",
+    "title": "军事国防",
+    "emoji": "🎖️",
+    "words": [
+      {
+        "word": "army",
+        "ipa": "/ˈɑːmi/",
+        "pos": "n.",
+        "zh": "陆军",
+        "example": "The army moved north at dawn.",
+        "emoji": "🎖️",
+        "cefr": "B1"
+      },
+      {
+        "word": "navy",
+        "ipa": "/ˈneɪvi/",
+        "pos": "n.",
+        "zh": "海军",
+        "example": "The navy guards the coast.",
+        "emoji": "⚓",
+        "cefr": "B1"
+      },
+      {
+        "word": "soldier",
+        "ipa": "/ˈsəʊldʒə(r)/",
+        "pos": "n.",
+        "zh": "士兵",
+        "example": "The soldier stood at the gate.",
+        "emoji": "🪖",
+        "cefr": "B1"
+      },
+      {
+        "word": "battle",
+        "ipa": "/ˈbætl/",
+        "pos": "n.",
+        "zh": "战役",
+        "example": "The battle lasted two days.",
+        "emoji": "⚔️",
+        "cefr": "B1"
+      },
+      {
+        "word": "missile",
+        "ipa": "/ˈmɪsaɪl/",
+        "pos": "n.",
+        "zh": "导弹",
+        "example": "The missile system was tested.",
+        "emoji": "🚀",
+        "cefr": "B1"
+      },
+      {
+        "word": "defence",
+        "ipa": "/dɪˈfens/",
+        "pos": "n.",
+        "zh": "防御",
+        "example": "The country spends much on defence.",
+        "emoji": "🛡️",
+        "cefr": "B1"
+      },
+      {
+        "word": "troop",
+        "ipa": "/truːp/",
+        "pos": "n.",
+        "zh": "部队",
+        "example": "Troops were sent to the border.",
+        "emoji": "👥",
+        "cefr": "B1"
+      },
+      {
+        "word": "tank",
+        "ipa": "/tæŋk/",
+        "pos": "n.",
+        "zh": "坦克",
+        "example": "A tank blocked the road.",
+        "emoji": "🚜",
+        "cefr": "B1"
+      },
+      {
+        "word": "retreat",
+        "ipa": "/rɪˈtriːt/",
+        "pos": "v.",
+        "zh": "撤退",
+        "example": "The army retreated to the hills.",
+        "emoji": "↩️",
+        "cefr": "B1"
+      },
+      {
+        "word": "victory",
+        "ipa": "/ˈvɪktəri/",
+        "pos": "n.",
+        "zh": "胜利",
+        "example": "The victory was celebrated widely.",
+        "emoji": "🏆",
+        "cefr": "B1"
+      },
+      {
+        "word": "treaty",
+        "ipa": "/ˈtriːti/",
+        "pos": "n.",
+        "zh": "条约",
+        "example": "The two sides signed a treaty.",
+        "emoji": "📃",
+        "cefr": "B1"
+      },
+      {
+        "word": "command",
+        "ipa": "/kəˈmɑːnd/",
+        "pos": "v.",
+        "zh": "指挥",
+        "example": "A general commanded the unit.",
+        "emoji": "📣",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_diplomacy",
+    "title": "外交关系",
+    "emoji": "🌐",
+    "words": [
+      {
+        "word": "ambassador",
+        "ipa": "/æmˈbæsədə(r)/",
+        "pos": "n.",
+        "zh": "大使",
+        "example": "The ambassador arrived in May.",
+        "emoji": "🎩",
+        "cefr": "B1"
+      },
+      {
+        "word": "embassy",
+        "ipa": "/ˈembəsi/",
+        "pos": "n.",
+        "zh": "大使馆",
+        "example": "Apply for the visa at the embassy.",
+        "emoji": "🏛️",
+        "cefr": "B1"
+      },
+      {
+        "word": "negotiation",
+        "ipa": "/nɪˌɡəʊʃiˈeɪʃn/",
+        "pos": "n.",
+        "zh": "谈判",
+        "example": "The negotiations lasted weeks.",
+        "emoji": "🤝",
+        "cefr": "B1"
+      },
+      {
+        "word": "summit",
+        "ipa": "/ˈsʌmɪt/",
+        "pos": "n.",
+        "zh": "峰会",
+        "example": "Leaders met at the summit.",
+        "emoji": "🗻",
+        "cefr": "B1"
+      },
+      {
+        "word": "alliance",
+        "ipa": "/əˈlaɪəns/",
+        "pos": "n.",
+        "zh": "联盟",
+        "example": "The two countries formed an alliance.",
+        "emoji": "🔗",
+        "cefr": "B1"
+      },
+      {
+        "word": "sanction",
+        "ipa": "/ˈsæŋkʃn/",
+        "pos": "n.",
+        "zh": "制裁",
+        "example": "New sanctions were announced.",
+        "emoji": "🚫",
+        "cefr": "B1"
+      },
+      {
+        "word": "consul",
+        "ipa": "/ˈkɒnsl/",
+        "pos": "n.",
+        "zh": "领事",
+        "example": "The consul helped the travellers.",
+        "emoji": "🧑‍💼",
+        "cefr": "B1"
+      },
+      {
+        "word": "agreement",
+        "ipa": "/əˈɡriːmənt/",
+        "pos": "n.",
+        "zh": "协议",
+        "example": "They reached an agreement.",
+        "emoji": "📝",
+        "cefr": "B1"
+      },
+      {
+        "word": "bilateral",
+        "ipa": "/ˌbaɪˈlætərəl/",
+        "pos": "adj.",
+        "zh": "双边的",
+        "example": "Bilateral trade has grown.",
+        "emoji": "⚖️",
+        "cefr": "B1"
+      },
+      {
+        "word": "sovereignty",
+        "ipa": "/ˈsɒvrənti/",
+        "pos": "n.",
+        "zh": "主权",
+        "example": "They defend their sovereignty.",
+        "emoji": "🏰",
+        "cefr": "B1"
+      },
+      {
+        "word": "delegate",
+        "ipa": "/ˈdelɪɡət/",
+        "pos": "n.",
+        "zh": "代表",
+        "example": "Each country sent two delegates.",
+        "emoji": "👤",
+        "cefr": "B1"
+      },
+      {
+        "word": "protocol",
+        "ipa": "/ˈprəʊtəkɒl/",
+        "pos": "n.",
+        "zh": "外交礼仪",
+        "example": "Protocol requires a formal reply.",
+        "emoji": "📋",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_climate",
+    "title": "气候变化",
+    "emoji": "🌡️",
+    "words": [
+      {
+        "word": "climate",
+        "ipa": "/ˈklaɪmət/",
+        "pos": "n.",
+        "zh": "气候",
+        "example": "The climate here is mild.",
+        "emoji": "🌍",
+        "cefr": "B1"
+      },
+      {
+        "word": "greenhouse",
+        "ipa": "/ˈɡriːnhaʊs/",
+        "pos": "n.",
+        "zh": "温室",
+        "example": "Greenhouse gases trap heat.",
+        "emoji": "🌿",
+        "cefr": "B1"
+      },
+      {
+        "word": "emission",
+        "ipa": "/ɪˈmɪʃn/",
+        "pos": "n.",
+        "zh": "排放",
+        "example": "Carbon emissions must fall.",
+        "emoji": "🏭",
+        "cefr": "B1"
+      },
+      {
+        "word": "drought",
+        "ipa": "/draʊt/",
+        "pos": "n.",
+        "zh": "干旱",
+        "example": "The drought lasted two years.",
+        "emoji": "🏜️",
+        "cefr": "B1"
+      },
+      {
+        "word": "flood",
+        "ipa": "/flʌd/",
+        "pos": "n.",
+        "zh": "洪水",
+        "example": "The flood destroyed many homes.",
+        "emoji": "🌊",
+        "cefr": "B1"
+      },
+      {
+        "word": "glacier",
+        "ipa": "/ˈɡlæsiə(r)/",
+        "pos": "n.",
+        "zh": "冰川",
+        "example": "The glacier is melting fast.",
+        "emoji": "🧊",
+        "cefr": "B1"
+      },
+      {
+        "word": "tropical",
+        "ipa": "/ˈtrɒpɪkl/",
+        "pos": "adj.",
+        "zh": "热带的",
+        "example": "Tropical storms are getting stronger.",
+        "emoji": "🌴",
+        "cefr": "B1"
+      },
+      {
+        "word": "arctic",
+        "ipa": "/ˈɑːktɪk/",
+        "pos": "adj.",
+        "zh": "北极的",
+        "example": "Arctic ice is thinning.",
+        "emoji": "🐻‍❄️",
+        "cefr": "B1"
+      },
+      {
+        "word": "temperature",
+        "ipa": "/ˈtemprətʃə(r)/",
+        "pos": "n.",
+        "zh": "温度",
+        "example": "The average temperature is rising.",
+        "emoji": "🌡️",
+        "cefr": "B1"
+      },
+      {
+        "word": "humidity",
+        "ipa": "/hjuːˈmɪdəti/",
+        "pos": "n.",
+        "zh": "湿度",
+        "example": "The humidity makes it feel hotter.",
+        "emoji": "💧",
+        "cefr": "B1"
+      },
+      {
+        "word": "forecast",
+        "ipa": "/ˈfɔːkɑːst/",
+        "pos": "n.",
+        "zh": "预报",
+        "example": "The forecast says rain tomorrow.",
+        "emoji": "📺",
+        "cefr": "B1"
+      },
+      {
+        "word": "season",
+        "ipa": "/ˈsiːzn/",
+        "pos": "n.",
+        "zh": "季节",
+        "example": "The rainy season starts in June.",
+        "emoji": "🍂",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_energy",
+    "title": "能源电力",
+    "emoji": "⚡",
+    "words": [
+      {
+        "word": "energy",
+        "ipa": "/ˈenədʒi/",
+        "pos": "n.",
+        "zh": "能源",
+        "example": "We should use less energy.",
+        "emoji": "⚡",
+        "cefr": "B1"
+      },
+      {
+        "word": "solar",
+        "ipa": "/ˈsəʊlə(r)/",
+        "pos": "adj.",
+        "zh": "太阳能的",
+        "example": "Solar panels cover the roof.",
+        "emoji": "☀️",
+        "cefr": "B1"
+      },
+      {
+        "word": "turbine",
+        "ipa": "/ˈtɜːbaɪn/",
+        "pos": "n.",
+        "zh": "涡轮机",
+        "example": "Each turbine is very tall.",
+        "emoji": "🌀",
+        "cefr": "B1"
+      },
+      {
+        "word": "nuclear",
+        "ipa": "/ˈnjuːkliə(r)/",
+        "pos": "adj.",
+        "zh": "核能的",
+        "example": "The country builds nuclear plants.",
+        "emoji": "☢️",
+        "cefr": "B1"
+      },
+      {
+        "word": "coal",
+        "ipa": "/kəʊl/",
+        "pos": "n.",
+        "zh": "煤",
+        "example": "Coal is no longer cheap.",
+        "emoji": "🪨",
+        "cefr": "B1"
+      },
+      {
+        "word": "oil",
+        "ipa": "/ɔɪl/",
+        "pos": "n.",
+        "zh": "石油",
+        "example": "The price of oil went up.",
+        "emoji": "🛢️",
+        "cefr": "B1"
+      },
+      {
+        "word": "gas",
+        "ipa": "/ɡæs/",
+        "pos": "n.",
+        "zh": "天然气",
+        "example": "Most homes use gas for heating.",
+        "emoji": "🔥",
+        "cefr": "B1"
+      },
+      {
+        "word": "renewable",
+        "ipa": "/rɪˈnjuːəbl/",
+        "pos": "adj.",
+        "zh": "可再生的",
+        "example": "Renewable energy is growing fast.",
+        "emoji": "♻️",
+        "cefr": "B1"
+      },
+      {
+        "word": "generate",
+        "ipa": "/ˈdʒenəreɪt/",
+        "pos": "v.",
+        "zh": "发电",
+        "example": "The plant generates enough power.",
+        "emoji": "🔌",
+        "cefr": "B1"
+      },
+      {
+        "word": "battery",
+        "ipa": "/ˈbætəri/",
+        "pos": "n.",
+        "zh": "电池",
+        "example": "The battery lasts two days.",
+        "emoji": "🔋",
+        "cefr": "B1"
+      },
+      {
+        "word": "grid",
+        "ipa": "/ɡrɪd/",
+        "pos": "n.",
+        "zh": "电网",
+        "example": "The grid failed during the storm.",
+        "emoji": "🕸️",
+        "cefr": "B1"
+      },
+      {
+        "word": "efficiency",
+        "ipa": "/ɪˈfɪʃnsi/",
+        "pos": "n.",
+        "zh": "效率",
+        "example": "We improved energy efficiency.",
+        "emoji": "📈",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_pollution",
+    "title": "污染治理",
+    "emoji": "🏭",
+    "words": [
+      {
+        "word": "pollution",
+        "ipa": "/pəˈluːʃn/",
+        "pos": "n.",
+        "zh": "污染",
+        "example": "Air pollution is a health risk.",
+        "emoji": "🏭",
+        "cefr": "B1"
+      },
+      {
+        "word": "waste",
+        "ipa": "/weɪst/",
+        "pos": "n.",
+        "zh": "废物",
+        "example": "The factory dumps waste into the river.",
+        "emoji": "🗑️",
+        "cefr": "B1"
+      },
+      {
+        "word": "toxic",
+        "ipa": "/ˈtɒksɪk/",
+        "pos": "adj.",
+        "zh": "有毒的",
+        "example": "Toxic smoke filled the valley.",
+        "emoji": "☠️",
+        "cefr": "B1"
+      },
+      {
+        "word": "chemical",
+        "ipa": "/ˈkemɪkl/",
+        "pos": "n.",
+        "zh": "化学物质",
+        "example": "These chemicals harm fish.",
+        "emoji": "🧪",
+        "cefr": "B1"
+      },
+      {
+        "word": "sewage",
+        "ipa": "/ˈsuːɪdʒ/",
+        "pos": "n.",
+        "zh": "污水",
+        "example": "Sewage flows into the sea.",
+        "emoji": "🚱",
+        "cefr": "B1"
+      },
+      {
+        "word": "landfill",
+        "ipa": "/ˈlændfɪl/",
+        "pos": "n.",
+        "zh": "垃圾填埋场",
+        "example": "The landfill is almost full.",
+        "emoji": "⛰️",
+        "cefr": "B1"
+      },
+      {
+        "word": "contaminate",
+        "ipa": "/kənˈtæmɪneɪt/",
+        "pos": "v.",
+        "zh": "污染",
+        "example": "The spill contaminated the soil.",
+        "emoji": "🦠",
+        "cefr": "B1"
+      },
+      {
+        "word": "filter",
+        "ipa": "/ˈfɪltə(r)/",
+        "pos": "n.",
+        "zh": "过滤器",
+        "example": "Change the filter every month.",
+        "emoji": "🧽",
+        "cefr": "B1"
+      },
+      {
+        "word": "smoke",
+        "ipa": "/sməʊk/",
+        "pos": "n.",
+        "zh": "烟雾",
+        "example": "Thick smoke covered the city.",
+        "emoji": "🌫️",
+        "cefr": "B1"
+      },
+      {
+        "word": "dust",
+        "ipa": "/dʌst/",
+        "pos": "n.",
+        "zh": "灰尘",
+        "example": "Dust from the site fills the air.",
+        "emoji": "🌪️",
+        "cefr": "B1"
+      },
+      {
+        "word": "noise",
+        "ipa": "/nɔɪz/",
+        "pos": "n.",
+        "zh": "噪音",
+        "example": "Noise from the road is terrible.",
+        "emoji": "🔊",
+        "cefr": "B1"
+      },
+      {
+        "word": "purify",
+        "ipa": "/ˈpjʊərɪfaɪ/",
+        "pos": "v.",
+        "zh": "净化",
+        "example": "Plants help purify the water.",
+        "emoji": "💧",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_recycle",
+    "title": "回收环保",
+    "emoji": "♻️",
+    "words": [
+      {
+        "word": "recycle",
+        "ipa": "/ˌriːˈsaɪkl/",
+        "pos": "v.",
+        "zh": "回收利用",
+        "example": "We recycle glass and paper.",
+        "emoji": "♻️",
+        "cefr": "B1"
+      },
+      {
+        "word": "reuse",
+        "ipa": "/ˌriːˈjuːz/",
+        "pos": "v.",
+        "zh": "再利用",
+        "example": "Reuse the bag instead of buying one.",
+        "emoji": "🔁",
+        "cefr": "B1"
+      },
+      {
+        "word": "rubbish",
+        "ipa": "/ˈrʌbɪʃ/",
+        "pos": "n.",
+        "zh": "垃圾",
+        "example": "Put the rubbish outside.",
+        "emoji": "🗑️",
+        "cefr": "B1"
+      },
+      {
+        "word": "bin",
+        "ipa": "/bɪn/",
+        "pos": "n.",
+        "zh": "垃圾桶",
+        "example": "The bin is full again.",
+        "emoji": "🪣",
+        "cefr": "B1"
+      },
+      {
+        "word": "compost",
+        "ipa": "/ˈkɒmpɒst/",
+        "pos": "n.",
+        "zh": "堆肥",
+        "example": "Food waste becomes compost.",
+        "emoji": "🌱",
+        "cefr": "B1"
+      },
+      {
+        "word": "sustainable",
+        "ipa": "/səˈsteɪnəbl/",
+        "pos": "adj.",
+        "zh": "可持续的",
+        "example": "We need a sustainable system.",
+        "emoji": "🌍",
+        "cefr": "B1"
+      },
+      {
+        "word": "eco-friendly",
+        "ipa": "/ˌiːkəʊ ˈfrendli/",
+        "pos": "adj.",
+        "zh": "环保的",
+        "example": "This is an eco-friendly product.",
+        "emoji": "🍃",
+        "cefr": "B1"
+      },
+      {
+        "word": "conserve",
+        "ipa": "/kənˈsɜːv/",
+        "pos": "v.",
+        "zh": "节约",
+        "example": "Turn off lights to conserve power.",
+        "emoji": "💡",
+        "cefr": "B1"
+      },
+      {
+        "word": "packaging",
+        "ipa": "/ˈpækɪdʒɪŋ/",
+        "pos": "n.",
+        "zh": "包装",
+        "example": "Too much packaging goes to waste.",
+        "emoji": "📦",
+        "cefr": "B1"
+      },
+      {
+        "word": "disposable",
+        "ipa": "/dɪˈspəʊzəbl/",
+        "pos": "adj.",
+        "zh": "一次性的",
+        "example": "Avoid disposable cups.",
+        "emoji": "🥤",
+        "cefr": "B1"
+      },
+      {
+        "word": "litter",
+        "ipa": "/ˈlɪtə(r)/",
+        "pos": "n.",
+        "zh": "乱扔的垃圾",
+        "example": "Do not drop litter in the park.",
+        "emoji": "🚯",
+        "cefr": "B1"
+      },
+      {
+        "word": "decompose",
+        "ipa": "/ˌdiːkəmˈpəʊz/",
+        "pos": "v.",
+        "zh": "分解",
+        "example": "Plastic takes years to decompose.",
+        "emoji": "🦠",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_agriculture",
+    "title": "农业种植",
+    "emoji": "🌾",
+    "words": [
+      {
+        "word": "harvest",
+        "ipa": "/ˈhɑːvɪst/",
+        "pos": "n.",
+        "zh": "收获",
+        "example": "The harvest was better this year.",
+        "emoji": "🍂",
+        "cefr": "B1"
+      },
+      {
+        "word": "crop",
+        "ipa": "/krɒp/",
+        "pos": "n.",
+        "zh": "庄稼",
+        "example": "Rice is the main crop here.",
+        "emoji": "🌱",
+        "cefr": "B1"
+      },
+      {
+        "word": "soil",
+        "ipa": "/sɔɪl/",
+        "pos": "n.",
+        "zh": "土壤",
+        "example": "The soil is rich and dark.",
+        "emoji": "🟫",
+        "cefr": "B1"
+      },
+      {
+        "word": "fertilizer",
+        "ipa": "/ˈfɜːtəlaɪzə(r)/",
+        "pos": "n.",
+        "zh": "肥料",
+        "example": "Too much fertilizer harms the soil.",
+        "emoji": "🧴",
+        "cefr": "B1"
+      },
+      {
+        "word": "irrigation",
+        "ipa": "/ˌɪrɪˈɡeɪʃn/",
+        "pos": "n.",
+        "zh": "灌溉",
+        "example": "Irrigation keeps the fields green.",
+        "emoji": "💧",
+        "cefr": "B1"
+      },
+      {
+        "word": "livestock",
+        "ipa": "/ˈlaɪvstɒk/",
+        "pos": "n.",
+        "zh": "牲畜",
+        "example": "They keep livestock on the farm.",
+        "emoji": "🐄",
+        "cefr": "B1"
+      },
+      {
+        "word": "plough",
+        "ipa": "/plaʊ/",
+        "pos": "v.",
+        "zh": "犁地",
+        "example": "Farmers plough the field in spring.",
+        "emoji": "🚜",
+        "cefr": "B1"
+      },
+      {
+        "word": "grain",
+        "ipa": "/ɡreɪn/",
+        "pos": "n.",
+        "zh": "谷物",
+        "example": "The grain is stored in silos.",
+        "emoji": "🌾",
+        "cefr": "B1"
+      },
+      {
+        "word": "orchard",
+        "ipa": "/ˈɔːtʃəd/",
+        "pos": "n.",
+        "zh": "果园",
+        "example": "The orchard has apple trees.",
+        "emoji": "🍎",
+        "cefr": "B1"
+      },
+      {
+        "word": "pesticide",
+        "ipa": "/ˈpestɪsaɪd/",
+        "pos": "n.",
+        "zh": "农药",
+        "example": "Pesticides can reach the water.",
+        "emoji": "☠️",
+        "cefr": "B1"
+      },
+      {
+        "word": "rural",
+        "ipa": "/ˈrʊərəl/",
+        "pos": "adj.",
+        "zh": "农村的",
+        "example": "Rural areas have fewer buses.",
+        "emoji": "🏡",
+        "cefr": "B1"
+      },
+      {
+        "word": "yield",
+        "ipa": "/jiːld/",
+        "pos": "n.",
+        "zh": "产量",
+        "example": "The yield doubled in five years.",
+        "emoji": "📊",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_industry",
+    "title": "工业制造",
+    "emoji": "⚙️",
+    "words": [
+      {
+        "word": "factory",
+        "ipa": "/ˈfæktri/",
+        "pos": "n.",
+        "zh": "工厂",
+        "example": "The factory runs day and night.",
+        "emoji": "🏭",
+        "cefr": "B1"
+      },
+      {
+        "word": "manufacture",
+        "ipa": "/ˌmænjuˈfæktʃə(r)/",
+        "pos": "v.",
+        "zh": "制造",
+        "example": "They manufacture car parts.",
+        "emoji": "⚙️",
+        "cefr": "B1"
+      },
+      {
+        "word": "machinery",
+        "ipa": "/məˈʃiːnəri/",
+        "pos": "n.",
+        "zh": "机械",
+        "example": "The machinery is very old.",
+        "emoji": "🔧",
+        "cefr": "B1"
+      },
+      {
+        "word": "assembly",
+        "ipa": "/əˈsembli/",
+        "pos": "n.",
+        "zh": "装配",
+        "example": "The assembly line moves fast.",
+        "emoji": "🔩",
+        "cefr": "B1"
+      },
+      {
+        "word": "output",
+        "ipa": "/ˈaʊtpʊt/",
+        "pos": "n.",
+        "zh": "产量",
+        "example": "Output fell by ten percent.",
+        "emoji": "📈",
+        "cefr": "B1"
+      },
+      {
+        "word": "raw",
+        "ipa": "/rɔː/",
+        "pos": "adj.",
+        "zh": "未加工的",
+        "example": "The plant needs raw materials.",
+        "emoji": "🪨",
+        "cefr": "B1"
+      },
+      {
+        "word": "warehouse",
+        "ipa": "/ˈweəhaʊs/",
+        "pos": "n.",
+        "zh": "仓库",
+        "example": "Goods are kept in a warehouse.",
+        "emoji": "🏬",
+        "cefr": "B1"
+      },
+      {
+        "word": "labour",
+        "ipa": "/ˈleɪbə(r)/",
+        "pos": "n.",
+        "zh": "劳动力",
+        "example": "Cheap labour attracted factories.",
+        "emoji": "👷",
+        "cefr": "B1"
+      },
+      {
+        "word": "automation",
+        "ipa": "/ˌɔːtəˈmeɪʃn/",
+        "pos": "n.",
+        "zh": "自动化",
+        "example": "Automation reduced the workforce.",
+        "emoji": "🤖",
+        "cefr": "B1"
+      },
+      {
+        "word": "product",
+        "ipa": "/ˈprɒdʌkt/",
+        "pos": "n.",
+        "zh": "产品",
+        "example": "The product sells well abroad.",
+        "emoji": "📦",
+        "cefr": "B1"
+      },
+      {
+        "word": "supply",
+        "ipa": "/səˈplaɪ/",
+        "pos": "n.",
+        "zh": "供应",
+        "example": "The supply of parts is limited.",
+        "emoji": "🚚",
+        "cefr": "B1"
+      },
+      {
+        "word": "export",
+        "ipa": "/ˈekspɔːt/",
+        "pos": "n.",
+        "zh": "出口",
+        "example": "Exports rose sharply this year.",
+        "emoji": "🚢",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_construction",
+    "title": "建筑建造",
+    "emoji": "🏗️",
+    "words": [
+      {
+        "word": "construction",
+        "ipa": "/kənˈstrʌkʃn/",
+        "pos": "n.",
+        "zh": "建造",
+        "example": "The construction takes two years.",
+        "emoji": "🏗️",
+        "cefr": "B1"
+      },
+      {
+        "word": "concrete",
+        "ipa": "/ˈkɒŋkriːt/",
+        "pos": "n.",
+        "zh": "混凝土",
+        "example": "The floor is solid concrete.",
+        "emoji": "🏛️",
+        "cefr": "B1"
+      },
+      {
+        "word": "steel",
+        "ipa": "/stiːl/",
+        "pos": "n.",
+        "zh": "钢",
+        "example": "The bridge is made of steel.",
+        "emoji": "🔩",
+        "cefr": "B1"
+      },
+      {
+        "word": "brick",
+        "ipa": "/brɪk/",
+        "pos": "n.",
+        "zh": "砖",
+        "example": "The old wall is red brick.",
+        "emoji": "🧱",
+        "cefr": "B1"
+      },
+      {
+        "word": "scaffold",
+        "ipa": "/ˈskæfəʊld/",
+        "pos": "n.",
+        "zh": "脚手架",
+        "example": "Workers climbed the scaffold.",
+        "emoji": "🪜",
+        "cefr": "B1"
+      },
+      {
+        "word": "architect",
+        "ipa": "/ˈɑːkɪtekt/",
+        "pos": "n.",
+        "zh": "建筑师",
+        "example": "The architect designed the museum.",
+        "emoji": "📐",
+        "cefr": "B1"
+      },
+      {
+        "word": "foundation",
+        "ipa": "/faʊnˈdeɪʃn/",
+        "pos": "n.",
+        "zh": "地基",
+        "example": "The foundation must be deep.",
+        "emoji": "🪨",
+        "cefr": "B1"
+      },
+      {
+        "word": "crane",
+        "ipa": "/kreɪn/",
+        "pos": "n.",
+        "zh": "吊车",
+        "example": "A crane lifted the beam.",
+        "emoji": "🦾",
+        "cefr": "B1"
+      },
+      {
+        "word": "blueprint",
+        "ipa": "/ˈbluːprɪnt/",
+        "pos": "n.",
+        "zh": "蓝图",
+        "example": "The blueprint shows every room.",
+        "emoji": "📘",
+        "cefr": "B1"
+      },
+      {
+        "word": "site",
+        "ipa": "/saɪt/",
+        "pos": "n.",
+        "zh": "工地",
+        "example": "The site is closed to visitors.",
+        "emoji": "🚧",
+        "cefr": "B1"
+      },
+      {
+        "word": "excavate",
+        "ipa": "/ˈekskəveɪt/",
+        "pos": "v.",
+        "zh": "挖掘",
+        "example": "They excavated the whole area.",
+        "emoji": "⛏️",
+        "cefr": "B1"
+      },
+      {
+        "word": "renovate",
+        "ipa": "/ˈrenəveɪt/",
+        "pos": "v.",
+        "zh": "翻新",
+        "example": "They renovated the old house.",
+        "emoji": "🔨",
+        "cefr": "B1"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1152 @@
+[
+  {
+    "id": "l5b_edu_system",
+    "title": "教育制度",
+    "emoji": "🎓",
+    "words": [
+      {
+        "word": "curriculum",
+        "ipa": "/kəˈrɪkjələm/",
+        "pos": "n.",
+        "zh": "课程体系",
+        "example": "The school changed its curriculum.",
+        "emoji": "🗂️",
+        "cefr": "B1"
+      },
+      {
+        "word": "semester",
+        "ipa": "/sɪˈmestə(r)/",
+        "pos": "n.",
+        "zh": "学期",
+        "example": "The new semester starts in September.",
+        "emoji": "📅",
+        "cefr": "B1"
+      },
+      {
+        "word": "tuition",
+        "ipa": "/tjuˈɪʃn/",
+        "pos": "n.",
+        "zh": "学费",
+        "example": "Tuition costs more each year.",
+        "emoji": "💳",
+        "cefr": "B1"
+      },
+      {
+        "word": "scholarship",
+        "ipa": "/ˈskɒləʃɪp/",
+        "pos": "n.",
+        "zh": "奖学金",
+        "example": "She won a full scholarship.",
+        "emoji": "🏅",
+        "cefr": "B1"
+      },
+      {
+        "word": "degree",
+        "ipa": "/dɪˈɡriː/",
+        "pos": "n.",
+        "zh": "学位",
+        "example": "He has a degree in physics.",
+        "emoji": "📜",
+        "cefr": "B1"
+      },
+      {
+        "word": "major",
+        "ipa": "/ˈmeɪdʒə(r)/",
+        "pos": "n.",
+        "zh": "专业",
+        "example": "Her major is economics.",
+        "emoji": "🎯",
+        "cefr": "B1"
+      },
+      {
+        "word": "graduate",
+        "ipa": "/ˈɡrædʒuət/",
+        "pos": "v.",
+        "zh": "毕业",
+        "example": "They graduate next summer.",
+        "emoji": "🎓",
+        "cefr": "B1"
+      },
+      {
+        "word": "lecture",
+        "ipa": "/ˈlektʃə(r)/",
+        "pos": "n.",
+        "zh": "讲座",
+        "example": "The lecture lasted two hours.",
+        "emoji": "🎤",
+        "cefr": "B1"
+      },
+      {
+        "word": "professor",
+        "ipa": "/prəˈfesə(r)/",
+        "pos": "n.",
+        "zh": "教授",
+        "example": "The professor answered every question.",
+        "emoji": "👨‍🏫",
+        "cefr": "B1"
+      },
+      {
+        "word": "campus",
+        "ipa": "/ˈkæmpəs/",
+        "pos": "n.",
+        "zh": "校园",
+        "example": "The campus is near the river.",
+        "emoji": "🏫",
+        "cefr": "B1"
+      },
+      {
+        "word": "enrolment",
+        "ipa": "/ɪnˈrəʊlmənt/",
+        "pos": "n.",
+        "zh": "入学注册",
+        "example": "Enrolment closes on Friday.",
+        "emoji": "✍️",
+        "cefr": "B1"
+      },
+      {
+        "word": "compulsory",
+        "ipa": "/kəmˈpʌlsəri/",
+        "pos": "adj.",
+        "zh": "必修的",
+        "example": "Maths is a compulsory subject.",
+        "emoji": "❗",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_university",
+    "title": "大学生活",
+    "emoji": "🏫",
+    "words": [
+      {
+        "word": "dormitory",
+        "ipa": "/ˈdɔːmətri/",
+        "pos": "n.",
+        "zh": "宿舍",
+        "example": "He shares a dormitory with two students.",
+        "emoji": "🛏️",
+        "cefr": "B1"
+      },
+      {
+        "word": "canteen",
+        "ipa": "/kænˈtiːn/",
+        "pos": "n.",
+        "zh": "食堂",
+        "example": "We eat lunch in the canteen.",
+        "emoji": "🍽️",
+        "cefr": "B1"
+      },
+      {
+        "word": "assignment",
+        "ipa": "/əˈsaɪnmənt/",
+        "pos": "n.",
+        "zh": "作业",
+        "example": "The assignment is due on Monday.",
+        "emoji": "📝",
+        "cefr": "B1"
+      },
+      {
+        "word": "deadline",
+        "ipa": "/ˈdedlaɪn/",
+        "pos": "n.",
+        "zh": "截止日期",
+        "example": "I missed the deadline.",
+        "emoji": "⏰",
+        "cefr": "B1"
+      },
+      {
+        "word": "thesis",
+        "ipa": "/ˈθiːsɪs/",
+        "pos": "n.",
+        "zh": "毕业论文",
+        "example": "She is writing her thesis.",
+        "emoji": "📑",
+        "cefr": "B1"
+      },
+      {
+        "word": "tutor",
+        "ipa": "/ˈtjuːtə(r)/",
+        "pos": "n.",
+        "zh": "导师",
+        "example": "My tutor gave me useful advice.",
+        "emoji": "🧑‍🏫",
+        "cefr": "B1"
+      },
+      {
+        "word": "seminar",
+        "ipa": "/ˈsemɪnɑː(r)/",
+        "pos": "n.",
+        "zh": "研讨课",
+        "example": "The seminar has only ten students.",
+        "emoji": "💬",
+        "cefr": "B1"
+      },
+      {
+        "word": "credit",
+        "ipa": "/ˈkredɪt/",
+        "pos": "n.",
+        "zh": "学分",
+        "example": "This course is worth three credits.",
+        "emoji": "🔢",
+        "cefr": "B1"
+      },
+      {
+        "word": "freshman",
+        "ipa": "/ˈfreʃmən/",
+        "pos": "n.",
+        "zh": "大一新生",
+        "example": "Every freshman joins a club.",
+        "emoji": "🐣",
+        "cefr": "B1"
+      },
+      {
+        "word": "club",
+        "ipa": "/klʌb/",
+        "pos": "n.",
+        "zh": "社团",
+        "example": "She joined the debate club.",
+        "emoji": "🎭",
+        "cefr": "B1"
+      },
+      {
+        "word": "graduation",
+        "ipa": "/ˌɡrædʒuˈeɪʃn/",
+        "pos": "n.",
+        "zh": "毕业典礼",
+        "example": "Graduation is in June.",
+        "emoji": "🎉",
+        "cefr": "B1"
+      },
+      {
+        "word": "textbook",
+        "ipa": "/ˈtekstbʊk/",
+        "pos": "n.",
+        "zh": "教科书",
+        "example": "Bring your textbook to class.",
+        "emoji": "📘",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_job_hunting",
+    "title": "求职面试",
+    "emoji": "📄",
+    "words": [
+      {
+        "word": "resume",
+        "ipa": "/ˈrezjumeɪ/",
+        "pos": "n.",
+        "zh": "简历",
+        "example": "Send your resume by email.",
+        "emoji": "📄",
+        "cefr": "B1"
+      },
+      {
+        "word": "interview",
+        "ipa": "/ˈɪntəvjuː/",
+        "pos": "n.",
+        "zh": "面试",
+        "example": "My interview is on Thursday.",
+        "emoji": "🗣️",
+        "cefr": "B1"
+      },
+      {
+        "word": "vacancy",
+        "ipa": "/ˈveɪkənsi/",
+        "pos": "n.",
+        "zh": "职位空缺",
+        "example": "There is a vacancy in our team.",
+        "emoji": "🪑",
+        "cefr": "B1"
+      },
+      {
+        "word": "applicant",
+        "ipa": "/ˈæplɪkənt/",
+        "pos": "n.",
+        "zh": "申请人",
+        "example": "Fifty applicants applied for the job.",
+        "emoji": "🙋",
+        "cefr": "B1"
+      },
+      {
+        "word": "recruit",
+        "ipa": "/rɪˈkruːt/",
+        "pos": "v.",
+        "zh": "招聘",
+        "example": "They recruit ten people each year.",
+        "emoji": "📢",
+        "cefr": "B1"
+      },
+      {
+        "word": "salary",
+        "ipa": "/ˈsæləri/",
+        "pos": "n.",
+        "zh": "薪水",
+        "example": "The salary is paid monthly.",
+        "emoji": "💵",
+        "cefr": "B1"
+      },
+      {
+        "word": "promotion",
+        "ipa": "/prəˈməʊʃn/",
+        "pos": "n.",
+        "zh": "晋升",
+        "example": "She got a promotion last month.",
+        "emoji": "📈",
+        "cefr": "B1"
+      },
+      {
+        "word": "colleague",
+        "ipa": "/ˈkɒliːɡ/",
+        "pos": "n.",
+        "zh": "同事",
+        "example": "My colleagues are very friendly.",
+        "emoji": "👥",
+        "cefr": "B1"
+      },
+      {
+        "word": "experience",
+        "ipa": "/ɪkˈspɪəriəns/",
+        "pos": "n.",
+        "zh": "经验",
+        "example": "He has five years of experience.",
+        "emoji": "🧭",
+        "cefr": "B1"
+      },
+      {
+        "word": "qualification",
+        "ipa": "/ˌkwɒlɪfɪˈkeɪʃn/",
+        "pos": "n.",
+        "zh": "资格",
+        "example": "You need the right qualifications.",
+        "emoji": "📑",
+        "cefr": "B1"
+      },
+      {
+        "word": "contract",
+        "ipa": "/ˈkɒntrækt/",
+        "pos": "n.",
+        "zh": "合同",
+        "example": "Read the contract carefully.",
+        "emoji": "✍️",
+        "cefr": "B1"
+      },
+      {
+        "word": "resign",
+        "ipa": "/rɪˈzaɪn/",
+        "pos": "v.",
+        "zh": "辞职",
+        "example": "He resigned after two years.",
+        "emoji": "🚪",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_office",
+    "title": "办公室日常",
+    "emoji": "🗂️",
+    "words": [
+      {
+        "word": "workload",
+        "ipa": "/ˈwɜːkləʊd/",
+        "pos": "n.",
+        "zh": "工作量",
+        "example": "My workload is heavy this week.",
+        "emoji": "📚",
+        "cefr": "B1"
+      },
+      {
+        "word": "overtime",
+        "ipa": "/ˈəʊvətaɪm/",
+        "pos": "n.",
+        "zh": "加班",
+        "example": "They pay extra for overtime.",
+        "emoji": "🌙",
+        "cefr": "B1"
+      },
+      {
+        "word": "shift",
+        "ipa": "/ʃɪft/",
+        "pos": "n.",
+        "zh": "班次",
+        "example": "I work the night shift.",
+        "emoji": "🕒",
+        "cefr": "B1"
+      },
+      {
+        "word": "stationery",
+        "ipa": "/ˈsteɪʃənri/",
+        "pos": "n.",
+        "zh": "文具",
+        "example": "Order more stationery for the office.",
+        "emoji": "✏️",
+        "cefr": "B1"
+      },
+      {
+        "word": "filing",
+        "ipa": "/ˈfaɪlɪŋ/",
+        "pos": "n.",
+        "zh": "归档",
+        "example": "Filing takes half my morning.",
+        "emoji": "🗄️",
+        "cefr": "B1"
+      },
+      {
+        "word": "supervise",
+        "ipa": "/ˈsuːpəvaɪz/",
+        "pos": "v.",
+        "zh": "监督",
+        "example": "She supervises six new staff.",
+        "emoji": "👀",
+        "cefr": "B1"
+      },
+      {
+        "word": "coordinate",
+        "ipa": "/kəʊˈɔːdɪneɪt/",
+        "pos": "v.",
+        "zh": "协调",
+        "example": "He coordinates the weekly meeting.",
+        "emoji": "🔗",
+        "cefr": "B1"
+      },
+      {
+        "word": "proposal",
+        "ipa": "/prəˈpəʊzl/",
+        "pos": "n.",
+        "zh": "提案",
+        "example": "The proposal was accepted.",
+        "emoji": "📋",
+        "cefr": "B1"
+      },
+      {
+        "word": "budget",
+        "ipa": "/ˈbʌdʒɪt/",
+        "pos": "n.",
+        "zh": "预算",
+        "example": "We are over budget this month.",
+        "emoji": "🧮",
+        "cefr": "B1"
+      },
+      {
+        "word": "schedule",
+        "ipa": "/ˈʃedjuːl/",
+        "pos": "n.",
+        "zh": "日程",
+        "example": "The schedule changed again.",
+        "emoji": "🗓️",
+        "cefr": "B1"
+      },
+      {
+        "word": "staff",
+        "ipa": "/stɑːf/",
+        "pos": "n.",
+        "zh": "员工",
+        "example": "All staff must attend the training.",
+        "emoji": "🧑‍💼",
+        "cefr": "B1"
+      },
+      {
+        "word": "memo",
+        "ipa": "/ˈmeməʊ/",
+        "pos": "n.",
+        "zh": "内部通知",
+        "example": "A memo was sent to everyone.",
+        "emoji": "📨",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_business",
+    "title": "商务往来",
+    "emoji": "🤝",
+    "words": [
+      {
+        "word": "negotiate",
+        "ipa": "/nɪˈɡəʊʃieɪt/",
+        "pos": "v.",
+        "zh": "谈判",
+        "example": "We negotiated a better price.",
+        "emoji": "⚖️",
+        "cefr": "B1"
+      },
+      {
+        "word": "partnership",
+        "ipa": "/ˈpɑːtnəʃɪp/",
+        "pos": "n.",
+        "zh": "合作关系",
+        "example": "They formed a new partnership.",
+        "emoji": "🤝",
+        "cefr": "B1"
+      },
+      {
+        "word": "client",
+        "ipa": "/ˈklaɪənt/",
+        "pos": "n.",
+        "zh": "客户",
+        "example": "Our client wants a faster delivery.",
+        "emoji": "🧑‍💼",
+        "cefr": "B1"
+      },
+      {
+        "word": "supplier",
+        "ipa": "/səˈplaɪə(r)/",
+        "pos": "n.",
+        "zh": "供应商",
+        "example": "The supplier raised its prices.",
+        "emoji": "🚚",
+        "cefr": "B1"
+      },
+      {
+        "word": "deal",
+        "ipa": "/diːl/",
+        "pos": "n.",
+        "zh": "交易",
+        "example": "They closed the deal yesterday.",
+        "emoji": "📝",
+        "cefr": "B1"
+      },
+      {
+        "word": "profit",
+        "ipa": "/ˈprɒfɪt/",
+        "pos": "n.",
+        "zh": "利润",
+        "example": "Profit rose by ten percent.",
+        "emoji": "📈",
+        "cefr": "B1"
+      },
+      {
+        "word": "investment",
+        "ipa": "/ɪnˈvestmənt/",
+        "pos": "n.",
+        "zh": "投资",
+        "example": "The investment paid off.",
+        "emoji": "💹",
+        "cefr": "B1"
+      },
+      {
+        "word": "merger",
+        "ipa": "/ˈmɜːdʒə(r)/",
+        "pos": "n.",
+        "zh": "合并",
+        "example": "The merger created a huge company.",
+        "emoji": "🔀",
+        "cefr": "B1"
+      },
+      {
+        "word": "enterprise",
+        "ipa": "/ˈentəpraɪz/",
+        "pos": "n.",
+        "zh": "企业",
+        "example": "She runs a small enterprise.",
+        "emoji": "🏢",
+        "cefr": "B1"
+      },
+      {
+        "word": "transaction",
+        "ipa": "/trænˈzækʃn/",
+        "pos": "n.",
+        "zh": "交易记录",
+        "example": "Each transaction is recorded.",
+        "emoji": "🧾",
+        "cefr": "B1"
+      },
+      {
+        "word": "trademark",
+        "ipa": "/ˈtreɪdmɑːk/",
+        "pos": "n.",
+        "zh": "商标",
+        "example": "The logo is a registered trademark.",
+        "emoji": "™️",
+        "cefr": "B1"
+      },
+      {
+        "word": "brand",
+        "ipa": "/brænd/",
+        "pos": "n.",
+        "zh": "品牌",
+        "example": "This brand is popular with students.",
+        "emoji": "🏷️",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_marketing",
+    "title": "市场营销",
+    "emoji": "📈",
+    "words": [
+      {
+        "word": "campaign",
+        "ipa": "/kæmˈpeɪn/",
+        "pos": "n.",
+        "zh": "营销活动",
+        "example": "The campaign starts next week.",
+        "emoji": "📣",
+        "cefr": "B1"
+      },
+      {
+        "word": "consumer",
+        "ipa": "/kənˈsjuːmə(r)/",
+        "pos": "n.",
+        "zh": "消费者",
+        "example": "Consumers want lower prices.",
+        "emoji": "🛒",
+        "cefr": "B1"
+      },
+      {
+        "word": "promote",
+        "ipa": "/prəˈməʊt/",
+        "pos": "v.",
+        "zh": "推广",
+        "example": "They promote the app online.",
+        "emoji": "📢",
+        "cefr": "B1"
+      },
+      {
+        "word": "slogan",
+        "ipa": "/ˈsləʊɡən/",
+        "pos": "n.",
+        "zh": "广告语",
+        "example": "Everyone remembers the slogan.",
+        "emoji": "💬",
+        "cefr": "B1"
+      },
+      {
+        "word": "survey",
+        "ipa": "/ˈsɜːveɪ/",
+        "pos": "n.",
+        "zh": "问卷调查",
+        "example": "We ran a survey of 500 people.",
+        "emoji": "📊",
+        "cefr": "B1"
+      },
+      {
+        "word": "target",
+        "ipa": "/ˈtɑːɡɪt/",
+        "pos": "n.",
+        "zh": "目标群体",
+        "example": "Young people are our target.",
+        "emoji": "🎯",
+        "cefr": "B1"
+      },
+      {
+        "word": "launch",
+        "ipa": "/lɔːntʃ/",
+        "pos": "v.",
+        "zh": "发布",
+        "example": "They launch the product in May.",
+        "emoji": "🚀",
+        "cefr": "B1"
+      },
+      {
+        "word": "demand",
+        "ipa": "/dɪˈmɑːnd/",
+        "pos": "n.",
+        "zh": "需求",
+        "example": "Demand is growing quickly.",
+        "emoji": "📦",
+        "cefr": "B1"
+      },
+      {
+        "word": "competitor",
+        "ipa": "/kəmˈpetɪtə(r)/",
+        "pos": "n.",
+        "zh": "竞争对手",
+        "example": "Our competitor cut its prices.",
+        "emoji": "🥊",
+        "cefr": "B1"
+      },
+      {
+        "word": "sponsor",
+        "ipa": "/ˈspɒnsə(r)/",
+        "pos": "v.",
+        "zh": "赞助",
+        "example": "A bank sponsors the event.",
+        "emoji": "💰",
+        "cefr": "B1"
+      },
+      {
+        "word": "feedback",
+        "ipa": "/ˈfiːdbæk/",
+        "pos": "n.",
+        "zh": "反馈",
+        "example": "We need feedback from users.",
+        "emoji": "🗣️",
+        "cefr": "B1"
+      },
+      {
+        "word": "strategy",
+        "ipa": "/ˈstrætədʒi/",
+        "pos": "n.",
+        "zh": "策略",
+        "example": "The strategy worked well.",
+        "emoji": "♟️",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_finance",
+    "title": "金融投资",
+    "emoji": "📊",
+    "words": [
+      {
+        "word": "asset",
+        "ipa": "/ˈæset/",
+        "pos": "n.",
+        "zh": "资产",
+        "example": "The house is their main asset.",
+        "emoji": "🏠",
+        "cefr": "B1"
+      },
+      {
+        "word": "liability",
+        "ipa": "/ˌlaɪəˈbɪləti/",
+        "pos": "n.",
+        "zh": "负债",
+        "example": "The company has large liabilities.",
+        "emoji": "📉",
+        "cefr": "B1"
+      },
+      {
+        "word": "interest",
+        "ipa": "/ˈɪntrəst/",
+        "pos": "n.",
+        "zh": "利息",
+        "example": "The bank pays low interest.",
+        "emoji": "💹",
+        "cefr": "B1"
+      },
+      {
+        "word": "loan",
+        "ipa": "/ləʊn/",
+        "pos": "n.",
+        "zh": "贷款",
+        "example": "They took a loan to buy a car.",
+        "emoji": "🏦",
+        "cefr": "B1"
+      },
+      {
+        "word": "mortgage",
+        "ipa": "/ˈmɔːɡɪdʒ/",
+        "pos": "n.",
+        "zh": "按揭贷款",
+        "example": "The mortgage lasts thirty years.",
+        "emoji": "🏡",
+        "cefr": "B1"
+      },
+      {
+        "word": "debt",
+        "ipa": "/det/",
+        "pos": "n.",
+        "zh": "债务",
+        "example": "He paid off all his debt.",
+        "emoji": "⛓️",
+        "cefr": "B1"
+      },
+      {
+        "word": "portfolio",
+        "ipa": "/pɔːtˈfəʊliəʊ/",
+        "pos": "n.",
+        "zh": "投资组合",
+        "example": "She has a diverse portfolio.",
+        "emoji": "🗂️",
+        "cefr": "B1"
+      },
+      {
+        "word": "dividend",
+        "ipa": "/ˈdɪvɪdend/",
+        "pos": "n.",
+        "zh": "股息",
+        "example": "The company pays a yearly dividend.",
+        "emoji": "💵",
+        "cefr": "B1"
+      },
+      {
+        "word": "inflation",
+        "ipa": "/ɪnˈfleɪʃn/",
+        "pos": "n.",
+        "zh": "通货膨胀",
+        "example": "Inflation reached five percent.",
+        "emoji": "🎈",
+        "cefr": "B1"
+      },
+      {
+        "word": "currency",
+        "ipa": "/ˈkʌrənsi/",
+        "pos": "n.",
+        "zh": "货币",
+        "example": "The local currency is stable.",
+        "emoji": "💱",
+        "cefr": "B1"
+      },
+      {
+        "word": "exchange",
+        "ipa": "/ɪksˈtʃeɪndʒ/",
+        "pos": "v.",
+        "zh": "兑换",
+        "example": "Where can I exchange money?",
+        "emoji": "🔄",
+        "cefr": "B1"
+      },
+      {
+        "word": "bankrupt",
+        "ipa": "/ˈbæŋkrʌpt/",
+        "pos": "adj.",
+        "zh": "破产的",
+        "example": "The firm went bankrupt last year.",
+        "emoji": "💥",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_insurance",
+    "title": "保险保障",
+    "emoji": "🛡️",
+    "words": [
+      {
+        "word": "policy",
+        "ipa": "/ˈpɒləsi/",
+        "pos": "n.",
+        "zh": "保单",
+        "example": "Read your policy before you sign.",
+        "emoji": "📄",
+        "cefr": "B1"
+      },
+      {
+        "word": "premium",
+        "ipa": "/ˈpriːmiəm/",
+        "pos": "n.",
+        "zh": "保费",
+        "example": "The premium is paid monthly.",
+        "emoji": "💳",
+        "cefr": "B1"
+      },
+      {
+        "word": "claim",
+        "ipa": "/kleɪm/",
+        "pos": "n.",
+        "zh": "理赔申请",
+        "example": "She filed a claim after the accident.",
+        "emoji": "📝",
+        "cefr": "B1"
+      },
+      {
+        "word": "coverage",
+        "ipa": "/ˈkʌvərɪdʒ/",
+        "pos": "n.",
+        "zh": "保障范围",
+        "example": "The policy offers full coverage.",
+        "emoji": "🧩",
+        "cefr": "B1"
+      },
+      {
+        "word": "accident",
+        "ipa": "/ˈæksɪdənt/",
+        "pos": "n.",
+        "zh": "事故",
+        "example": "The accident happened at night.",
+        "emoji": "💥",
+        "cefr": "B1"
+      },
+      {
+        "word": "risk",
+        "ipa": "/rɪsk/",
+        "pos": "n.",
+        "zh": "风险",
+        "example": "Driving fast increases the risk.",
+        "emoji": "⚠️",
+        "cefr": "B1"
+      },
+      {
+        "word": "compensation",
+        "ipa": "/ˌkɒmpenˈseɪʃn/",
+        "pos": "n.",
+        "zh": "赔偿金",
+        "example": "He received compensation for the damage.",
+        "emoji": "💰",
+        "cefr": "B1"
+      },
+      {
+        "word": "clause",
+        "ipa": "/klɔːz/",
+        "pos": "n.",
+        "zh": "条款",
+        "example": "One clause is easy to miss.",
+        "emoji": "🔍",
+        "cefr": "B1"
+      },
+      {
+        "word": "insure",
+        "ipa": "/ɪnˈʃʊə(r)/",
+        "pos": "v.",
+        "zh": "投保",
+        "example": "They insure the house against fire.",
+        "emoji": "🛡️",
+        "cefr": "B1"
+      },
+      {
+        "word": "agent",
+        "ipa": "/ˈeɪdʒənt/",
+        "pos": "n.",
+        "zh": "代理人",
+        "example": "Ask your agent for help.",
+        "emoji": "🧑‍💼",
+        "cefr": "B1"
+      },
+      {
+        "word": "damage",
+        "ipa": "/ˈdæmɪdʒ/",
+        "pos": "n.",
+        "zh": "损失",
+        "example": "The storm caused serious damage.",
+        "emoji": "🧱",
+        "cefr": "B1"
+      },
+      {
+        "word": "renew",
+        "ipa": "/rɪˈnjuː/",
+        "pos": "v.",
+        "zh": "续保",
+        "example": "Remember to renew the policy.",
+        "emoji": "🔁",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_tax",
+    "title": "税务申报",
+    "emoji": "🧾",
+    "words": [
+      {
+        "word": "income",
+        "ipa": "/ˈɪnkʌm/",
+        "pos": "n.",
+        "zh": "收入",
+        "example": "His income doubled in two years.",
+        "emoji": "💵",
+        "cefr": "B1"
+      },
+      {
+        "word": "revenue",
+        "ipa": "/ˈrevənjuː/",
+        "pos": "n.",
+        "zh": "税收；营收",
+        "example": "Tax revenue fell this year.",
+        "emoji": "📊",
+        "cefr": "B1"
+      },
+      {
+        "word": "declare",
+        "ipa": "/dɪˈkleə(r)/",
+        "pos": "v.",
+        "zh": "申报",
+        "example": "You must declare all earnings.",
+        "emoji": "✍️",
+        "cefr": "B1"
+      },
+      {
+        "word": "refund",
+        "ipa": "/ˈriːfʌnd/",
+        "pos": "n.",
+        "zh": "退税款",
+        "example": "The refund arrived in April.",
+        "emoji": "↩️",
+        "cefr": "B1"
+      },
+      {
+        "word": "deduction",
+        "ipa": "/dɪˈdʌkʃn/",
+        "pos": "n.",
+        "zh": "扣除项",
+        "example": "The deduction is allowed by law.",
+        "emoji": "➖",
+        "cefr": "B1"
+      },
+      {
+        "word": "audit",
+        "ipa": "/ˈɔːdɪt/",
+        "pos": "n.",
+        "zh": "审计",
+        "example": "The company passed the audit.",
+        "emoji": "🔎",
+        "cefr": "B1"
+      },
+      {
+        "word": "invoice",
+        "ipa": "/ˈɪnvɔɪs/",
+        "pos": "n.",
+        "zh": "发票",
+        "example": "Send the invoice by Friday.",
+        "emoji": "📃",
+        "cefr": "B1"
+      },
+      {
+        "word": "levy",
+        "ipa": "/ˈlevi/",
+        "pos": "n.",
+        "zh": "征税",
+        "example": "The government imposed a new levy.",
+        "emoji": "⚖️",
+        "cefr": "B1"
+      },
+      {
+        "word": "exempt",
+        "ipa": "/ɪɡˈzempt/",
+        "pos": "adj.",
+        "zh": "豁免的",
+        "example": "Students are exempt from this tax.",
+        "emoji": "🆓",
+        "cefr": "B1"
+      },
+      {
+        "word": "fiscal",
+        "ipa": "/ˈfɪskl/",
+        "pos": "adj.",
+        "zh": "财政的",
+        "example": "The fiscal year ends in March.",
+        "emoji": "📅",
+        "cefr": "B1"
+      },
+      {
+        "word": "rate",
+        "ipa": "/reɪt/",
+        "pos": "n.",
+        "zh": "税率",
+        "example": "The tax rate is twenty percent.",
+        "emoji": "📈",
+        "cefr": "B1"
+      },
+      {
+        "word": "penalty",
+        "ipa": "/ˈpenəlti/",
+        "pos": "n.",
+        "zh": "罚金",
+        "example": "Late payment brings a penalty.",
+        "emoji": "🚫",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_court",
+    "title": "法庭审判",
+    "emoji": "⚖️",
+    "words": [
+      {
+        "word": "trial",
+        "ipa": "/ˈtraɪəl/",
+        "pos": "n.",
+        "zh": "审判",
+        "example": "The trial lasted three weeks.",
+        "emoji": "🏛️",
+        "cefr": "B1"
+      },
+      {
+        "word": "judge",
+        "ipa": "/dʒʌdʒ/",
+        "pos": "n.",
+        "zh": "法官",
+        "example": "The judge listened carefully.",
+        "emoji": "👨‍⚖️",
+        "cefr": "B1"
+      },
+      {
+        "word": "jury",
+        "ipa": "/ˈdʒʊəri/",
+        "pos": "n.",
+        "zh": "陪审团",
+        "example": "The jury reached a decision.",
+        "emoji": "👥",
+        "cefr": "B1"
+      },
+      {
+        "word": "evidence",
+        "ipa": "/ˈevɪdəns/",
+        "pos": "n.",
+        "zh": "证据",
+        "example": "There is no clear evidence.",
+        "emoji": "🔍",
+        "cefr": "B1"
+      },
+      {
+        "word": "verdict",
+        "ipa": "/ˈvɜːdɪkt/",
+        "pos": "n.",
+        "zh": "裁决",
+        "example": "The verdict surprised everyone.",
+        "emoji": "🔨",
+        "cefr": "B1"
+      },
+      {
+        "word": "lawyer",
+        "ipa": "/ˈlɔːjə(r)/",
+        "pos": "n.",
+        "zh": "律师",
+        "example": "His lawyer asked for more time.",
+        "emoji": "💼",
+        "cefr": "B1"
+      },
+      {
+        "word": "witness",
+        "ipa": "/ˈwɪtnəs/",
+        "pos": "n.",
+        "zh": "证人",
+        "example": "A witness saw the car leave.",
+        "emoji": "👁️",
+        "cefr": "B1"
+      },
+      {
+        "word": "appeal",
+        "ipa": "/əˈpiːl/",
+        "pos": "n.",
+        "zh": "上诉",
+        "example": "They filed an appeal.",
+        "emoji": "📤",
+        "cefr": "B1"
+      },
+      {
+        "word": "sentence",
+        "ipa": "/ˈsentəns/",
+        "pos": "n.",
+        "zh": "判决",
+        "example": "He received a short sentence.",
+        "emoji": "⏳",
+        "cefr": "B1"
+      },
+      {
+        "word": "guilty",
+        "ipa": "/ˈɡɪlti/",
+        "pos": "adj.",
+        "zh": "有罪的",
+        "example": "The court found him guilty.",
+        "emoji": "🔴",
+        "cefr": "B1"
+      },
+      {
+        "word": "innocent",
+        "ipa": "/ˈɪnəsnt/",
+        "pos": "adj.",
+        "zh": "无罪的",
+        "example": "She insisted she was innocent.",
+        "emoji": "⚪",
+        "cefr": "B1"
+      },
+      {
+        "word": "testimony",
+        "ipa": "/ˈtestɪməni/",
+        "pos": "n.",
+        "zh": "证词",
+        "example": "His testimony was very clear.",
+        "emoji": "🗣️",
+        "cefr": "B1"
+      }
+    ]
+  }
+]

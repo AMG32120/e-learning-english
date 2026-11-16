@@ -4,7 +4,7 @@
    关卡模型：{ id, level, stage, title, type, desc, available, content }
    ============================================================ */
 import { LETTERS, IPA_VOWELS, IPA_CONSONANTS, PHONICS_WORDS } from './letters'
-import { getWordsL2, getAllL5Words, getL8Words } from '../services/wordData'
+import { getWordsL2, getAllL5Words, getL5Themes, getL8Words } from '../services/wordData'
 
 export const LEVEL_UNLOCK_RATIO = 0.8
 
@@ -83,86 +83,200 @@ const L1 = {
   ]
 }
 
-/* ---------- L2 基础词汇（8 关） ---------- */
+/* ---------- 词汇关卡生成器（L2 / L5） ----------
+   词库按主题组织，每个主题 12 词拆成 2 关（每关 6 词）：
+   第 1 关「认词」用选择/听音，第 2 关「巩固」用看图或拼写。
+   新增主题只要往词库 JSON 加数据，关卡自动出现，无需改本文件。 */
+
+const L2_THEME_META = {
+  numbers: { title: '数字', emoji: '🔢' },
+  colors: { title: '颜色', emoji: '🎨' },
+  family: { title: '家庭', emoji: '👨‍👩‍👧' },
+  food: { title: '食物', emoji: '🍎' },
+  animals: { title: '动物', emoji: '🐶' },
+  body: { title: '身体', emoji: '🙋' },
+  weather: { title: '天气', emoji: '🌦️' },
+  time: { title: '时间', emoji: '🕐' },
+  transport: { title: '交通', emoji: '🚌' },
+  daily: { title: '日常用品', emoji: '🧴' },
+  clothes: { title: '衣物', emoji: '👕' },
+  school: { title: '学校', emoji: '🏫' },
+  jobs: { title: '职业', emoji: '👮' },
+  house: { title: '家居', emoji: '🏠' },
+  sports: { title: '运动', emoji: '⚽' },
+  feelings: { title: '情绪', emoji: '😊' },
+  city: { title: '城市场所', emoji: '🏙️' },
+  verbs: { title: '常用动词', emoji: '🏃' },
+  adjectives: { title: '常用形容词', emoji: '📏' },
+  nature: { title: '自然', emoji: '🌳' },
+  health: { title: '健康', emoji: '💊' },
+  tech: { title: '科技', emoji: '📱' },
+  fruits: { title: '水果', emoji: '🍓' },
+  vegetables: { title: '蔬菜', emoji: '🥕' },
+  drinks: { title: '饮料', emoji: '☕' },
+  meals: { title: '三餐', emoji: '🍱' },
+  kitchen: { title: '厨房', emoji: '🍳' },
+  bathroom: { title: '浴室', emoji: '🛁' },
+  appliances: { title: '家电', emoji: '🔌' },
+  toys: { title: '玩具', emoji: '🧸' },
+  pets: { title: '宠物', emoji: '🐱' },
+  farm: { title: '农场', emoji: '🐄' },
+  insects: { title: '昆虫', emoji: '🐝' },
+  plants: { title: '花草', emoji: '🌷' },
+  trees: { title: '树木', emoji: '🌲' },
+  space: { title: '太空', emoji: '🌌' },
+  sea: { title: '海洋', emoji: '🌊' },
+  landforms: { title: '地形', emoji: '⛰️' },
+  materials: { title: '材料', emoji: '🧱' },
+  shapes: { title: '形状', emoji: '🔷' },
+  sizes: { title: '大小度量', emoji: '📐' },
+  positions: { title: '方位', emoji: '🧭' },
+  directions: { title: '方向', emoji: '➡️' },
+  money: { title: '钱币', emoji: '💵' },
+  shopping: { title: '购物', emoji: '🛒' },
+  restaurant: { title: '餐厅', emoji: '🍴' },
+  hotel: { title: '酒店', emoji: '🏨' },
+  airport: { title: '机场', emoji: '✈️' },
+  station: { title: '车站', emoji: '🚉' },
+  post: { title: '邮局', emoji: '📮' },
+  phone: { title: '电话', emoji: '📞' },
+  screen: { title: '电脑操作', emoji: '🖱️' },
+  network: { title: '网络', emoji: '🌐' },
+  music: { title: '音乐', emoji: '🎵' },
+  movies: { title: '电影', emoji: '🎬' },
+  reading: { title: '阅读', emoji: '📖' },
+  painting: { title: '绘画', emoji: '🖼️' },
+  party: { title: '聚会', emoji: '🎉' },
+  festival: { title: '节日', emoji: '🎊' },
+  wedding: { title: '婚礼', emoji: '💒' },
+  sickness: { title: '病症', emoji: '🤒' },
+  safety: { title: '安全', emoji: '🚨' },
+  berries: { title: '浆果', emoji: '🫐' },
+  seafood: { title: '海鲜水产', emoji: '🦐' },
+  sweets: { title: '甜食点心', emoji: '🍬' },
+  tools: { title: '工具五金', emoji: '🔧' },
+  birds: { title: '鸟类', emoji: '🦅' },
+  weather2: { title: '天气现象', emoji: '⛅' },
+  writing: { title: '文具办公', emoji: '✒️' },
+  grains: { title: '谷物坚果', emoji: '🥜' },
+  instruments: { title: '乐器', emoji: '🎻' },
+  furniture: { title: '家具', emoji: '🛋️' },
+  accessories: { title: '服饰配件', emoji: '🧣' },
+  vehicles: { title: '车辆', emoji: '🚗' },
+  occupations: { title: '职业人物', emoji: '🧑‍🔧' },
+  wild_animals: { title: '野生动物', emoji: '🦊' },
+  body_parts: { title: '身体部位', emoji: '🦵' },
+  buildings: { title: '建筑物', emoji: '🏛️' },
+  disaster: { title: '自然灾害', emoji: '🌪️' },
+  colors2: { title: '颜色扩展', emoji: '🟣' },
+  hand_actions: { title: '手部动作', emoji: '✋' },
+  move_verbs: { title: '移动动词', emoji: '🏃' }
+}
+
+const WORD_STAGE_CACHE = new Map()
+
+function wordThemesFor(prefix) {
+  if (prefix === 'L2') {
+    const data = getWordsL2()
+    return Object.keys(data).map((key) => {
+      const meta = L2_THEME_META[key] || {}
+      return {
+        key,
+        pool: `l2_${key}`,
+        title: meta.title || key,
+        emoji: meta.emoji || '📘',
+        words: Array.isArray(data[key]) ? data[key] : []
+      }
+    })
+  }
+  return getL5Themes().map((t) => ({
+    key: t.id,
+    pool: t.id,
+    title: t.title || t.id,
+    emoji: t.emoji || '📗',
+    words: Array.isArray(t.words) ? t.words : []
+  }))
+}
+
+function buildWordStages(prefix) {
+  const themes = wordThemesFor(prefix)
+  const signature = themes.map((t) => t.words.length).join(',')
+  const cached = WORD_STAGE_CACHE.get(prefix)
+  // 词库未加载（签名全 0）时不读写缓存，避免启动早期锁死空关卡
+  if (cached && cached.signature === signature && themes.some((t) => t.words.length)) {
+    return cached.stages
+  }
+
+  const stages = []
+  let seq = 0
+  themes.forEach((t, ti) => {
+    if (!t.words.length) return
+    const half = Math.ceil(t.words.length / 2)
+    const groups = [t.words.slice(0, half), t.words.slice(half)]
+    groups.forEach((group, gi) => {
+      if (!group.length) return
+      seq += 1
+      const first = gi === 0
+      /* 词组包（id 形如 ph_*）：不含 emoji 看图义，也不做字母拼写，
+         两关都用选择题——先看英文选释义，再看中文选英文表达。 */
+      const isPhrase = String(t.key).startsWith('ph_')
+      const listenMode = first && !isPhrase && ti % 3 === 2
+      let type = 'word_choice'
+      let mode = ''
+      let desc = `认识「${t.title}」的 ${group.length} 个词`
+      if (isPhrase) {
+        mode = first ? 'en2zh' : 'zh2en'
+        desc = first
+          ? `理解「${t.title}」的 ${group.length} 个搭配`
+          : `看中文，选出「${t.title}」的 ${group.length} 个搭配`
+      } else if (!first) {
+        if (prefix === 'L2') {
+          type = 'word_match'
+          desc = `看图巩固这 ${group.length} 个词`
+        } else {
+          type = ti % 2 === 1 ? 'word_spell' : 'word_match'
+          desc = type === 'word_spell' ? `用字母盘拼出这 ${group.length} 个词` : `看图巩固这 ${group.length} 个词`
+        }
+      } else if (listenMode) {
+        desc = `听发音选出「${t.title}」的 ${group.length} 个词`
+      }
+
+      stages.push({
+        id: `${prefix}-U${ti + 1}-S${gi + 1}`,
+        stage: seq,
+        unit: ti + 1,
+        unitTitle: t.title,
+        unitEmoji: t.emoji,
+        title: `${t.title} · ${first ? (isPhrase ? '理解' : '认词') : '巩固'}`,
+        type,
+        desc,
+        available: true,
+        content: {
+          pool: t.pool,
+          focus: group.map((w) => `${w.word}|${w.pos || ''}`),
+          focusWords: group,
+          count: group.length,
+          ...(mode ? { mode } : {}),
+          ...(listenMode ? { mode: 'listen' } : {})
+        }
+      })
+    })
+  })
+
+  const result = { signature, stages }
+  if (themes.some((t) => t.words.length)) WORD_STAGE_CACHE.set(prefix, result)
+  return stages
+}
+
+/* ---------- L2 基础词汇（主题驱动，22 主题 × 2 关） ---------- */
 const L2 = {
   level: 2,
   name: '基础词汇',
-  desc: '数字、颜色、家庭、食物等主题基础词汇（约 120 词）',
+  desc: '主题基础词汇，每个主题 2 关：先认词，再巩固',
   available: true,
-  stages: [
-    {
-      id: 'L2-1',
-      stage: 1,
-      title: '数字与时间',
-      type: 'word_choice',
-      desc: '认识数字与时间的常用词',
-      available: true,
-      content: { pool: 'l2_numbers_time', count: 10 }
-    },
-    {
-      id: 'L2-2',
-      stage: 2,
-      title: '色彩世界',
-      type: 'word_choice',
-      desc: '选择颜色单词的正确释义',
-      available: true,
-      content: { pool: 'l2_colors', count: 10 }
-    },
-    {
-      id: 'L2-3',
-      stage: 3,
-      title: '我的家庭',
-      type: 'word_match',
-      desc: '看图（emoji）选出对应的家庭称呼',
-      available: true,
-      content: { pool: 'l2_family', count: 10 }
-    },
-    {
-      id: 'L2-4',
-      stage: 4,
-      title: '美味食物',
-      type: 'word_spell',
-      desc: '看中文释义，用字母盘拼出食物单词',
-      available: true,
-      content: { pool: 'l2_food', count: 8 }
-    },
-    {
-      id: 'L2-5',
-      stage: 5,
-      title: '可爱动物',
-      type: 'word_choice',
-      desc: '听发音选出正确的动物单词',
-      available: true,
-      content: { pool: 'l2_animals', count: 10, mode: 'listen' }
-    },
-    {
-      id: 'L2-6',
-      stage: 6,
-      title: '认识身体',
-      type: 'word_match',
-      desc: '看图（emoji）选出对应的身体部位',
-      available: true,
-      content: { pool: 'l2_body', count: 10 }
-    },
-    {
-      id: 'L2-7',
-      stage: 7,
-      title: '天气变化',
-      type: 'word_spell',
-      desc: '看中文释义，用字母盘拼出天气单词',
-      available: true,
-      content: { pool: 'l2_weather', count: 8 }
-    },
-    {
-      id: 'L2-8',
-      stage: 8,
-      title: '交通与日用品',
-      type: 'word_choice',
-      desc: '选择交通工具与日用品的正确释义',
-      available: true,
-      content: { pool: 'l2_transport_daily', count: 10 }
-    }
-  ]
+  get stages() {
+    return buildWordStages('L2')
+  }
 }
 
 /* ---------- L3 日常对话（6 关：4 场景 + 2 听力） ---------- */
@@ -293,104 +407,15 @@ const L4 = {
   ]
 }
 
-/* ---------- L5 中级词汇（10 关） ---------- */
+/* ---------- L5 中级词汇（主题驱动，每主题 2 关） ---------- */
 const L5 = {
   level: 5,
   name: '中级词汇',
-  desc: '家人情感、教育、职场、科技等 10 大主题词汇（120 词）',
+  desc: 'B1 话题词汇，每个主题 2 关：先认词，再巩固',
   available: true,
-  stages: [
-    {
-      id: 'L5-1',
-      stage: 1,
-      title: '家人与情感',
-      type: 'word_choice',
-      desc: '认识家庭称谓与情感形容词',
-      available: true,
-      content: { pool: 'l5_family_feelings', count: 10 }
-    },
-    {
-      id: 'L5-2',
-      stage: 2,
-      title: '教育与学习',
-      type: 'word_match',
-      desc: '看图（emoji）选出教育学习词汇',
-      available: true,
-      content: { pool: 'l5_education', count: 10 }
-    },
-    {
-      id: 'L5-3',
-      stage: 3,
-      title: '健康与运动',
-      type: 'word_spell',
-      desc: '拼出健康运动相关单词',
-      available: true,
-      content: { pool: 'l5_health_sports', count: 8 }
-    },
-    {
-      id: 'L5-4',
-      stage: 4,
-      title: '工作与职业',
-      type: 'word_choice',
-      desc: '认识职场与职业词汇',
-      available: true,
-      content: { pool: 'l5_work_jobs', count: 10 }
-    },
-    {
-      id: 'L5-5',
-      stage: 5,
-      title: '科技与网络',
-      type: 'word_match',
-      desc: '看图（emoji）选出科技网络词汇',
-      available: true,
-      content: { pool: 'l5_tech_network', count: 10 }
-    },
-    {
-      id: 'L5-6',
-      stage: 6,
-      title: '旅行与交通',
-      type: 'word_spell',
-      desc: '拼出旅行交通相关单词',
-      available: true,
-      content: { pool: 'l5_travel', count: 8 }
-    },
-    {
-      id: 'L5-7',
-      stage: 7,
-      title: '食物与餐饮',
-      type: 'word_choice',
-      desc: '认识餐饮与食物词汇',
-      available: true,
-      content: { pool: 'l5_food_restaurant', count: 10 }
-    },
-    {
-      id: 'L5-8',
-      stage: 8,
-      title: '购物与消费',
-      type: 'word_match',
-      desc: '看图（emoji）选出购物消费词汇',
-      available: true,
-      content: { pool: 'l5_shopping', count: 10 }
-    },
-    {
-      id: 'L5-9',
-      stage: 9,
-      title: '环境与自然',
-      type: 'word_spell',
-      desc: '拼出环境自然相关单词',
-      available: true,
-      content: { pool: 'l5_environment', count: 8 }
-    },
-    {
-      id: 'L5-10',
-      stage: 10,
-      title: '社会与新闻',
-      type: 'word_choice',
-      desc: '认识社会新闻词汇',
-      available: true,
-      content: { pool: 'l5_society_news', count: 12 }
-    }
-  ]
+  get stages() {
+    return buildWordStages('L5')
+  }
 }
 
 /* ---------- L6 听说进阶（8 关：每关 1 篇听力） ---------- */
@@ -536,6 +561,10 @@ export function getStageWords(stageId) {
     return slice.map((w) => `${w.word}|${w.pos || ''}`)
   }
   if (['word_choice', 'word_match', 'word_spell'].includes(st.type)) {
+    // 细分关卡只掌握本关聚焦的词（content.focus），否则取整个词池
+    if (st.content && Array.isArray(st.content.focus) && st.content.focus.length) {
+      return st.content.focus
+    }
     const pool = st.content && st.content.pool
     const data = getPoolData(pool)
     if (!Array.isArray(data)) return []
@@ -603,8 +632,14 @@ export function getPoolData(pool) {
     case 'l5_society_news':
       return wordsByTheme('l5_society_news')
     default:
-      return []
+      break
   }
+  /* 通用规则：l2_ 开头取单主题词表；l5*（l5_/l5b_/l5c_）与 ph_ 开头取主题包 */
+  if (typeof pool === 'string') {
+    if (pool.startsWith('l2_')) return getWordsL2()[pool.slice(3)] || []
+    if (pool.startsWith('l5') || pool.startsWith('ph_')) return wordsByTheme(pool)
+  }
+  return []
 }
 
 export default { LEVELS, STAGE_TYPES, LEVEL_UNLOCK_RATIO, getLevel, getStageById, getStageWords, getPoolData }

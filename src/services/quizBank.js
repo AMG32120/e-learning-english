@@ -41,6 +41,9 @@ function escapeReg(s) {
 
 function makeCloze(word, wordPool) {
   if (!word.example) return null
+  /* 词组搭配不做挖空：例句里常是变形（stood up / took over），
+     挖空后选项都是多词短语，辨识度低、体验差。 */
+  if (/\s/.test(String(word.word || '').trim())) return null
   const re = new RegExp(`\\b${escapeReg(word.word)}\\b`, 'i')
   if (!re.test(word.example)) return null
   const blanked = word.example.replace(re, '______')

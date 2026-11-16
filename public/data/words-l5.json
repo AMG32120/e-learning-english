@@ -1,1 +1,1282 @@
-[{"id":"l5_family_feelings","title":"家人与情感","emoji":"👨‍👩‍👧","extends_from":"l2_family","words":[{"word":"relative","ipa":"/ˈrelətɪv/","pos":"n.","zh":"亲戚","example":"She is visiting her relatives this weekend.","emoji":"👪","cefr":"B1","level":"l5"},{"word":"husband","ipa":"/ˈhʌzbənd/","pos":"n.","zh":"丈夫","example":"My husband cooks dinner every evening.","emoji":"💍","cefr":"A2","level":"l5"},{"word":"wife","ipa":"/waɪf/","pos":"n.","zh":"妻子","example":"His wife works in a hospital.","emoji":"💑","cefr":"A2","level":"l5"},{"word":"nephew","ipa":"/ˈnefjuː/","pos":"n.","zh":"侄子","example":"My nephew is only five years old.","emoji":"🧒","cefr":"B1","level":"l5"},{"word":"niece","ipa":"/niːs/","pos":"n.","zh":"侄女","example":"His niece loves drawing pictures.","emoji":"👧","cefr":"B1","level":"l5"},{"word":"cousin","ipa":"/ˈkʌzn/","pos":"n.","zh":"堂/表兄弟姐妹","example":"My cousin and I play basketball together.","emoji":"🏀","cefr":"A2","level":"l5"},{"word":"proud","ipa":"/praʊd/","pos":"adj.","zh":"自豪的","example":"I am proud of my little brother.","emoji":"🌟","cefr":"B1","level":"l5"},{"word":"angry","ipa":"/ˈæŋɡri/","pos":"adj.","zh":"生气的","example":"Mom is angry because I came home late.","emoji":"😠","cefr":"A2","level":"l5"},{"word":"worried","ipa":"/ˈwʌrid/","pos":"adj.","zh":"担心的","example":"She is worried about the exam tomorrow.","emoji":"😟","cefr":"A2","level":"l5"},{"word":"nervous","ipa":"/ˈnɜːvəs/","pos":"adj.","zh":"紧张的","example":"I feel nervous before a speech.","emoji":"😬","cefr":"B1","level":"l5"},{"word":"excited","ipa":"/ɪkˈsaɪtɪd/","pos":"adj.","zh":"兴奋的","example":"The children are excited about the trip.","emoji":"🤩","cefr":"A2","level":"l5"},{"word":"lonely","ipa":"/ˈləʊnli/","pos":"adj.","zh":"孤独的","example":"He feels lonely when everyone is away.","emoji":"🌧️","cefr":"B1","level":"l5"}]},{"id":"l5_education","title":"教育与学习","emoji":"📚","extends_from":null,"words":[{"word":"subject","ipa":"/ˈsʌbdʒɪkt/","pos":"n.","zh":"科目","example":"English is my favourite subject.","emoji":"📖","cefr":"A2","level":"l5"},{"word":"homework","ipa":"/ˈhəʊmwɜːk/","pos":"n.","zh":"家庭作业","example":"I usually do my homework after dinner.","emoji":"📝","cefr":"A2","level":"l5"},{"word":"exam","ipa":"/ɪɡˈzæm/","pos":"n.","zh":"考试","example":"We have a math exam next week.","emoji":"📋","cefr":"A2","level":"l5"},{"word":"library","ipa":"/ˈlaɪbrəri/","pos":"n.","zh":"图书馆","example":"She studies in the library every day.","emoji":"🏛️","cefr":"A2","level":"l5"},{"word":"knowledge","ipa":"/ˈnɒlɪdʒ/","pos":"n.","zh":"知识","example":"Reading gives us a lot of knowledge.","emoji":"🧠","cefr":"B1","level":"l5"},{"word":"practice","ipa":"/ˈpræktɪs/","pos":"n./v.","zh":"练习","example":"Practice makes perfect.","emoji":"🎯","cefr":"A2","level":"l5"},{"word":"course","ipa":"/kɔːs/","pos":"n.","zh":"课程","example":"This course teaches spoken English.","emoji":"📘","cefr":"A2","level":"l5"},{"word":"professor","ipa":"/prəˈfesə(r)/","pos":"n.","zh":"教授","example":"The professor gave a wonderful lecture.","emoji":"👨‍🏫","cefr":"B1","level":"l5"},{"word":"research","ipa":"/rɪˈsɜːtʃ/","pos":"n./v.","zh":"研究","example":"They are doing research on robots.","emoji":"🔬","cefr":"B1","level":"l5"},{"word":"degree","ipa":"/dɪˈɡriː/","pos":"n.","zh":"学位","example":"She got a degree in computer science.","emoji":"🎓","cefr":"B1","level":"l5"},{"word":"notebook","ipa":"/ˈnəʊtbʊk/","pos":"n.","zh":"笔记本","example":"Write the new words in your notebook.","emoji":"📓","cefr":"A2","level":"l5"},{"word":"memorize","ipa":"/ˈmeməraɪz/","pos":"v.","zh":"记忆，背诵","example":"I need to memorize these sentences.","emoji":"🔁","cefr":"B1","level":"l5"}]},{"id":"l5_health_sports","title":"健康与运动","emoji":"💪","extends_from":"l2_body","words":[{"word":"healthy","ipa":"/ˈhelθi/","pos":"adj.","zh":"健康的","example":"Eating vegetables keeps you healthy.","emoji":"🥦","cefr":"A2","level":"l5"},{"word":"exercise","ipa":"/ˈeksəsaɪz/","pos":"n./v.","zh":"锻炼","example":"I exercise three times a week.","emoji":"🏃","cefr":"A2","level":"l5"},{"word":"muscle","ipa":"/ˈmʌsl/","pos":"n.","zh":"肌肉","example":"Swimming builds strong muscles.","emoji":"💪","cefr":"B1","level":"l5"},{"word":"diet","ipa":"/ˈdaɪət/","pos":"n.","zh":"饮食","example":"A balanced diet is very important.","emoji":"🥗","cefr":"B1","level":"l5"},{"word":"medicine","ipa":"/ˈmedsn/","pos":"n.","zh":"药","example":"Take this medicine after meals.","emoji":"💊","cefr":"A2","level":"l5"},{"word":"patient","ipa":"/ˈpeɪʃnt/","pos":"n.","zh":"病人","example":"The doctor is looking after the patients.","emoji":"🛏️","cefr":"A2","level":"l5"},{"word":"injury","ipa":"/ˈɪndʒəri/","pos":"n.","zh":"受伤","example":"He missed the game because of his injury.","emoji":"🤕","cefr":"B1","level":"l5"},{"word":"fitness","ipa":"/ˈfɪtnəs/","pos":"n.","zh":"健身","example":"She goes to the fitness centre on weekends.","emoji":"🏋️","cefr":"B1","level":"l5"},{"word":"weight","ipa":"/weɪt/","pos":"n.","zh":"体重","example":"He is trying to lose weight.","emoji":"⚖️","cefr":"A2","level":"l5"},{"word":"energy","ipa":"/ˈenədʒi/","pos":"n.","zh":"精力，能量","example":"A good breakfast gives you energy.","emoji":"⚡","cefr":"B1","level":"l5"},{"word":"hospital","ipa":"/ˈhɒspɪtl/","pos":"n.","zh":"医院","example":"The hospital is near the park.","emoji":"🏥","cefr":"A2","level":"l5"},{"word":"sleep","ipa":"/sliːp/","pos":"v./n.","zh":"睡眠","example":"I need eight hours of sleep a night.","emoji":"😴","cefr":"A2","level":"l5"}]},{"id":"l5_work_jobs","title":"工作与职业","emoji":"💼","extends_from":null,"words":[{"word":"engineer","ipa":"/ˌendʒɪˈnɪə(r)/","pos":"n.","zh":"工程师","example":"My uncle is a software engineer.","emoji":"👨‍💻","cefr":"A2","level":"l5"},{"word":"manager","ipa":"/ˈmænɪdʒə(r)/","pos":"n.","zh":"经理","example":"The manager is having a meeting now.","emoji":"🧑‍💼","cefr":"A2","level":"l5"},{"word":"interview","ipa":"/ˈɪntəvjuː/","pos":"n./v.","zh":"面试","example":"I have a job interview tomorrow.","emoji":"🤝","cefr":"B1","level":"l5"},{"word":"salary","ipa":"/ˈsæləri/","pos":"n.","zh":"薪水","example":"He is happy with his new salary.","emoji":"💰","cefr":"B1","level":"l5"},{"word":"company","ipa":"/ˈkʌmpəni/","pos":"n.","zh":"公司","example":"She works for a big company.","emoji":"🏢","cefr":"A2","level":"l5"},{"word":"office","ipa":"/ˈɒfɪs/","pos":"n.","zh":"办公室","example":"Our office is on the fifth floor.","emoji":"🏬","cefr":"A2","level":"l5"},{"word":"experience","ipa":"/ɪkˈspɪəriəns/","pos":"n.","zh":"经验","example":"She has five years of teaching experience.","emoji":"📈","cefr":"B1","level":"l5"},{"word":"skill","ipa":"/skɪl/","pos":"n.","zh":"技能","example":"Communication is an important skill.","emoji":"🛠️","cefr":"B1","level":"l5"},{"word":"career","ipa":"/kəˈrɪə(r)/","pos":"n.","zh":"职业，事业","example":"She wants a career in music.","emoji":"🚀","cefr":"B1","level":"l5"},{"word":"boss","ipa":"/bɒs/","pos":"n.","zh":"老板","example":"My boss is very kind to us.","emoji":"🧓","cefr":"A2","level":"l5"},{"word":"colleague","ipa":"/ˈkɒliːɡ/","pos":"n.","zh":"同事","example":"I often have lunch with my colleagues.","emoji":"🧑‍🤝‍🧑","cefr":"B1","level":"l5"},{"word":"project","ipa":"/ˈprɒdʒekt/","pos":"n.","zh":"项目","example":"We are working on a new project.","emoji":"🗂️","cefr":"A2","level":"l5"}]},{"id":"l5_tech_network","title":"科技与网络","emoji":"🖥️","extends_from":null,"words":[{"word":"computer","ipa":"/kəmˈpjuːtə(r)/","pos":"n.","zh":"电脑","example":"I use a computer to study English.","emoji":"💻","cefr":"A1","level":"l5"},{"word":"internet","ipa":"/ˈɪntənet/","pos":"n.","zh":"互联网","example":"The internet connects people around the world.","emoji":"🌐","cefr":"A2","level":"l5"},{"word":"website","ipa":"/ˈwebsaɪt/","pos":"n.","zh":"网站","example":"This website has many free lessons.","emoji":"🖧","cefr":"A2","level":"l5"},{"word":"email","ipa":"/ˈiːmeɪl/","pos":"n./v.","zh":"电子邮件","example":"I will send you an email tonight.","emoji":"📧","cefr":"A2","level":"l5"},{"word":"download","ipa":"/ˌdaʊnˈləʊd/","pos":"v.","zh":"下载","example":"You can download the app for free.","emoji":"⬇️","cefr":"B1","level":"l5"},{"word":"upload","ipa":"/ˌʌpˈləʊd/","pos":"v.","zh":"上传","example":"Please upload your photos here.","emoji":"⬆️","cefr":"B1","level":"l5"},{"word":"password","ipa":"/ˈpɑːswɜːd/","pos":"n.","zh":"密码","example":"Do not tell your password to others.","emoji":"🔑","cefr":"A2","level":"l5"},{"word":"screen","ipa":"/skriːn/","pos":"n.","zh":"屏幕","example":"The screen is too bright at night.","emoji":"🖥️","cefr":"A2","level":"l5"},{"word":"keyboard","ipa":"/ˈkiːbɔːd/","pos":"n.","zh":"键盘","example":"My keyboard has a problem.","emoji":"⌨️","cefr":"B1","level":"l5"},{"word":"software","ipa":"/ˈsɒftweə(r)/","pos":"n.","zh":"软件","example":"This software can translate words.","emoji":"💿","cefr":"B1","level":"l5"},{"word":"information","ipa":"/ˌɪnfəˈmeɪʃn/","pos":"n.","zh":"信息","example":"You can find the information online.","emoji":"ℹ️","cefr":"A2","level":"l5"},{"word":"message","ipa":"/ˈmesɪdʒ/","pos":"n.","zh":"消息","example":"I got a message from my friend.","emoji":"💬","cefr":"A2","level":"l5"}]},{"id":"l5_travel","title":"旅行与交通","emoji":"✈️","extends_from":"l2_transport_daily","words":[{"word":"airport","ipa":"/ˈeəpɔːt/","pos":"n.","zh":"机场","example":"We arrived at the airport at nine.","emoji":"🛫","cefr":"A2","level":"l5"},{"word":"ticket","ipa":"/ˈtɪkɪt/","pos":"n.","zh":"票","example":"I bought a train ticket online.","emoji":"🎫","cefr":"A2","level":"l5"},{"word":"luggage","ipa":"/ˈlʌɡɪdʒ/","pos":"n.","zh":"行李","example":"My luggage is too heavy.","emoji":"🧳","cefr":"B1","level":"l5"},{"word":"passport","ipa":"/ˈpɑːspɔːt/","pos":"n.","zh":"护照","example":"Remember to take your passport.","emoji":"🛂","cefr":"B1","level":"l5"},{"word":"hotel","ipa":"/həʊˈtel/","pos":"n.","zh":"酒店","example":"We stayed in a small hotel by the sea.","emoji":"🏨","cefr":"A2","level":"l5"},{"word":"trip","ipa":"/trɪp/","pos":"n.","zh":"旅行","example":"Have a nice trip to Beijing!","emoji":"🗺️","cefr":"A2","level":"l5"},{"word":"tour","ipa":"/tʊə(r)/","pos":"n.","zh":"旅游，观光","example":"We took a city tour on the first day.","emoji":"🚌","cefr":"A2","level":"l5"},{"word":"guide","ipa":"/ɡaɪd/","pos":"n.","zh":"导游","example":"The guide showed us around the old town.","emoji":"🧭","cefr":"B1","level":"l5"},{"word":"booking","ipa":"/ˈbʊkɪŋ/","pos":"n.","zh":"预订","example":"I made a booking for two nights.","emoji":"📅","cefr":"B1","level":"l5"},{"word":"flight","ipa":"/flaɪt/","pos":"n.","zh":"航班","example":"My flight leaves at six in the morning.","emoji":"🛩️","cefr":"B1","level":"l5"},{"word":"railway","ipa":"/ˈreɪlweɪ/","pos":"n.","zh":"铁路","example":"The railway station is very busy.","emoji":"🚉","cefr":"B1","level":"l5"},{"word":"destination","ipa":"/ˌdestɪˈneɪʃn/","pos":"n.","zh":"目的地","example":"Our destination is a small island.","emoji":"🏝️","cefr":"B1","level":"l5"}]},{"id":"l5_food_restaurant","title":"食物与餐饮","emoji":"🍽️","extends_from":"l2_food","words":[{"word":"menu","ipa":"/ˈmenjuː/","pos":"n.","zh":"菜单","example":"Can I see the menu, please?","emoji":"📃","cefr":"A2","level":"l5"},{"word":"waiter","ipa":"/ˈweɪtə(r)/","pos":"n.","zh":"服务员","example":"The waiter brought us the drinks.","emoji":"🧑‍🍳","cefr":"A2","level":"l5"},{"word":"dish","ipa":"/dɪʃ/","pos":"n.","zh":"菜肴","example":"This dish is very famous here.","emoji":"🍲","cefr":"A2","level":"l5"},{"word":"delicious","ipa":"/dɪˈlɪʃəs/","pos":"adj.","zh":"美味的","example":"The soup is really delicious.","emoji":"😋","cefr":"A2","level":"l5"},{"word":"order","ipa":"/ˈɔːdə(r)/","pos":"v./n.","zh":"点餐，订购","example":"I would like to order some noodles.","emoji":"🛎️","cefr":"A2","level":"l5"},{"word":"taste","ipa":"/teɪst/","pos":"n./v.","zh":"味道，尝","example":"The cake tastes sweet.","emoji":"👅","cefr":"A2","level":"l5"},{"word":"soup","ipa":"/suːp/","pos":"n.","zh":"汤","example":"A bowl of hot soup is good in winter.","emoji":"🍜","cefr":"A2","level":"l5"},{"word":"dessert","ipa":"/dɪˈzɜːt/","pos":"n.","zh":"甜点","example":"Ice cream is my favourite dessert.","emoji":"🍨","cefr":"B1","level":"l5"},{"word":"fresh","ipa":"/freʃ/","pos":"adj.","zh":"新鲜的","example":"These vegetables are very fresh.","emoji":"🌿","cefr":"A2","level":"l5"},{"word":"spicy","ipa":"/ˈspaɪsi/","pos":"adj.","zh":"辣的","example":"The hot pot is too spicy for me.","emoji":"🌶️","cefr":"B1","level":"l5"},{"word":"meal","ipa":"/miːl/","pos":"n.","zh":"一餐","example":"Dinner is the biggest meal of the day.","emoji":"🍚","cefr":"A2","level":"l5"},{"word":"restaurant","ipa":"/ˈrestrɒnt/","pos":"n.","zh":"餐馆","example":"There is a new restaurant near my home.","emoji":"🏮","cefr":"A2","level":"l5"}]},{"id":"l5_shopping","title":"购物与消费","emoji":"🛍️","extends_from":null,"words":[{"word":"price","ipa":"/praɪs/","pos":"n.","zh":"价格","example":"The price of the shoes is too high.","emoji":"🏷️","cefr":"A2","level":"l5"},{"word":"discount","ipa":"/ˈdɪskaʊnt/","pos":"n.","zh":"折扣","example":"I got a 20% discount on this coat.","emoji":"🔖","cefr":"B1","level":"l5"},{"word":"pay","ipa":"/peɪ/","pos":"v.","zh":"支付","example":"You can pay by card here.","emoji":"💳","cefr":"A2","level":"l5"},{"word":"cash","ipa":"/kæʃ/","pos":"n.","zh":"现金","example":"Sorry, we do not accept cash.","emoji":"💵","cefr":"A2","level":"l5"},{"word":"receipt","ipa":"/rɪˈsiːt/","pos":"n.","zh":"收据","example":"Keep the receipt in case you return it.","emoji":"🧾","cefr":"B1","level":"l5"},{"word":"customer","ipa":"/ˈkʌstəmə(r)/","pos":"n.","zh":"顾客","example":"The shop is full of customers today.","emoji":"👥","cefr":"A2","level":"l5"},{"word":"quality","ipa":"/ˈkwɒləti/","pos":"n.","zh":"质量","example":"This brand is known for good quality.","emoji":"⭐","cefr":"B1","level":"l5"},{"word":"cheap","ipa":"/tʃiːp/","pos":"adj.","zh":"便宜的","example":"The apples are cheap this week.","emoji":"🪙","cefr":"A2","level":"l5"},{"word":"expensive","ipa":"/ɪkˈspensɪv/","pos":"adj.","zh":"昂贵的","example":"That watch is too expensive for me.","emoji":"💎","cefr":"A2","level":"l5"},{"word":"brand","ipa":"/brænd/","pos":"n.","zh":"品牌","example":"I like this brand of shoes.","emoji":"🏷️","cefr":"B1","level":"l5"},{"word":"mall","ipa":"/mɔːl/","pos":"n.","zh":"商场","example":"We went shopping at the new mall.","emoji":"🏬","cefr":"A2","level":"l5"},{"word":"sale","ipa":"/seɪl/","pos":"n.","zh":"促销，出售","example":"The store is having a big sale now.","emoji":"🎉","cefr":"A2","level":"l5"}]},{"id":"l5_environment","title":"环境与自然","emoji":"🌍","extends_from":"l2_weather","words":[{"word":"environment","ipa":"/ɪnˈvaɪrənmənt/","pos":"n.","zh":"环境","example":"We should protect the environment.","emoji":"🌏","cefr":"B1","level":"l5"},{"word":"pollution","ipa":"/pəˈluːʃn/","pos":"n.","zh":"污染","example":"Air pollution is a big problem in cities.","emoji":"🏭","cefr":"B1","level":"l5"},{"word":"recycle","ipa":"/ˌriːˈsaɪkl/","pos":"v.","zh":"回收利用","example":"We recycle paper and bottles at home.","emoji":"♻️","cefr":"B1","level":"l5"},{"word":"protect","ipa":"/prəˈtekt/","pos":"v.","zh":"保护","example":"We should protect wild animals.","emoji":"🛡️","cefr":"B1","level":"l5"},{"word":"forest","ipa":"/ˈfɒrɪst/","pos":"n.","zh":"森林","example":"Many birds live in the forest.","emoji":"🌲","cefr":"A2","level":"l5"},{"word":"river","ipa":"/ˈrɪvə(r)/","pos":"n.","zh":"河流","example":"The river runs through the city.","emoji":"🏞️","cefr":"A2","level":"l5"},{"word":"climate","ipa":"/ˈklaɪmət/","pos":"n.","zh":"气候","example":"The climate here is warm and wet.","emoji":"🌤️","cefr":"B1","level":"l5"},{"word":"power","ipa":"/ˈpaʊə(r)/","pos":"n.","zh":"能源，电力","example":"Solar power is clean energy.","emoji":"🔆","cefr":"B1","level":"l5"},{"word":"waste","ipa":"/weɪst/","pos":"n./v.","zh":"浪费，垃圾","example":"Do not waste water.","emoji":"🗑️","cefr":"B1","level":"l5"},{"word":"earth","ipa":"/ɜːθ/","pos":"n.","zh":"地球","example":"The earth is our only home.","emoji":"🌍","cefr":"A2","level":"l5"},{"word":"plant","ipa":"/plɑːnt/","pos":"n./v.","zh":"植物，种植","example":"Water the plants every morning.","emoji":"🌱","cefr":"A2","level":"l5"},{"word":"natural","ipa":"/ˈnætʃrəl/","pos":"adj.","zh":"自然的","example":"This park has many natural wonders.","emoji":"🏔️","cefr":"B1","level":"l5"}]},{"id":"l5_society_news","title":"社会与新闻","emoji":"📰","extends_from":null,"words":[{"word":"society","ipa":"/səˈsaɪəti/","pos":"n.","zh":"社会","example":"Everyone plays a role in society.","emoji":"🏘️","cefr":"B1","level":"l5"},{"word":"news","ipa":"/njuːz/","pos":"n.","zh":"新闻","example":"I watch the news every evening.","emoji":"📺","cefr":"A2","level":"l5"},{"word":"report","ipa":"/rɪˈpɔːt/","pos":"n./v.","zh":"报道","example":"The report is about traffic in the city.","emoji":"🗞️","cefr":"B1","level":"l5"},{"word":"event","ipa":"/ɪˈvent/","pos":"n.","zh":"事件，活动","example":"The sports event was very exciting.","emoji":"🏅","cefr":"B1","level":"l5"},{"word":"government","ipa":"/ˈɡʌvənmənt/","pos":"n.","zh":"政府","example":"The government is building new schools.","emoji":"🏛️","cefr":"B1","level":"l5"},{"word":"citizen","ipa":"/ˈsɪtɪzn/","pos":"n.","zh":"公民","example":"Every citizen should follow the rules.","emoji":"🧑‍⚖️","cefr":"B1","level":"l5"},{"word":"culture","ipa":"/ˈkʌltʃə(r)/","pos":"n.","zh":"文化","example":"I am interested in Chinese culture.","emoji":"🎎","cefr":"B1","level":"l5"},{"word":"history","ipa":"/ˈhɪstri/","pos":"n.","zh":"历史","example":"This city has a long history.","emoji":"🏺","cefr":"A2","level":"l5"},{"word":"economy","ipa":"/ɪˈkɒnəmi/","pos":"n.","zh":"经济","example":"The economy is growing fast.","emoji":"📊","cefr":"B1","level":"l5"},{"word":"population","ipa":"/ˌpɒpjuˈleɪʃn/","pos":"n.","zh":"人口","example":"The population of the city is ten million.","emoji":"👥","cefr":"B1","level":"l5"},{"word":"community","ipa":"/kəˈmjuːnəti/","pos":"n.","zh":"社区","example":"Our community has a lovely garden.","emoji":"🏡","cefr":"B1","level":"l5"},{"word":"tradition","ipa":"/trəˈdɪʃn/","pos":"n.","zh":"传统","example":"Eating dumplings is a Chinese tradition.","emoji":"🏮","cefr":"B1","level":"l5"}]}]
+[
+  {
+    "id": "l5_family_feelings",
+    "title": "家人与情感",
+    "emoji": "👨‍👩‍👧",
+    "extends_from": "l2_family",
+    "words": [
+      {
+        "word": "relative",
+        "ipa": "/ˈrelətɪv/",
+        "pos": "n.",
+        "zh": "亲戚",
+        "example": "She is visiting her relatives this weekend.",
+        "emoji": "👪",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "husband",
+        "ipa": "/ˈhʌzbənd/",
+        "pos": "n.",
+        "zh": "丈夫",
+        "example": "My husband cooks dinner every evening.",
+        "emoji": "💍",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "wife",
+        "ipa": "/waɪf/",
+        "pos": "n.",
+        "zh": "妻子",
+        "example": "His wife works in a hospital.",
+        "emoji": "💑",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "nephew",
+        "ipa": "/ˈnefjuː/",
+        "pos": "n.",
+        "zh": "侄子",
+        "example": "My nephew is only five years old.",
+        "emoji": "🧒",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "niece",
+        "ipa": "/niːs/",
+        "pos": "n.",
+        "zh": "侄女",
+        "example": "His niece loves drawing pictures.",
+        "emoji": "👧",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "cousin",
+        "ipa": "/ˈkʌzn/",
+        "pos": "n.",
+        "zh": "堂/表兄弟姐妹",
+        "example": "My cousin and I play basketball together.",
+        "emoji": "🏀",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "proud",
+        "ipa": "/praʊd/",
+        "pos": "adj.",
+        "zh": "自豪的",
+        "example": "I am proud of my little brother.",
+        "emoji": "🌟",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "angry",
+        "ipa": "/ˈæŋɡri/",
+        "pos": "adj.",
+        "zh": "生气的",
+        "example": "Mom is angry because I came home late.",
+        "emoji": "😠",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "worried",
+        "ipa": "/ˈwʌrid/",
+        "pos": "adj.",
+        "zh": "担心的",
+        "example": "She is worried about the exam tomorrow.",
+        "emoji": "😟",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "nervous",
+        "ipa": "/ˈnɜːvəs/",
+        "pos": "adj.",
+        "zh": "紧张的",
+        "example": "I feel nervous before a speech.",
+        "emoji": "😬",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "excited",
+        "ipa": "/ɪkˈsaɪtɪd/",
+        "pos": "adj.",
+        "zh": "兴奋的",
+        "example": "The children are excited about the trip.",
+        "emoji": "🤩",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "lonely",
+        "ipa": "/ˈləʊnli/",
+        "pos": "adj.",
+        "zh": "孤独的",
+        "example": "He feels lonely when everyone is away.",
+        "emoji": "🌧️",
+        "cefr": "B1",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_education",
+    "title": "教育与学习",
+    "emoji": "📚",
+    "extends_from": null,
+    "words": [
+      {
+        "word": "subject",
+        "ipa": "/ˈsʌbdʒɪkt/",
+        "pos": "n.",
+        "zh": "科目",
+        "example": "English is my favourite subject.",
+        "emoji": "📖",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "homework",
+        "ipa": "/ˈhəʊmwɜːk/",
+        "pos": "n.",
+        "zh": "家庭作业",
+        "example": "I usually do my homework after dinner.",
+        "emoji": "📝",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "exam",
+        "ipa": "/ɪɡˈzæm/",
+        "pos": "n.",
+        "zh": "考试",
+        "example": "We have a math exam next week.",
+        "emoji": "📋",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "library",
+        "ipa": "/ˈlaɪbrəri/",
+        "pos": "n.",
+        "zh": "图书馆",
+        "example": "She studies in the library every day.",
+        "emoji": "🏛️",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "knowledge",
+        "ipa": "/ˈnɒlɪdʒ/",
+        "pos": "n.",
+        "zh": "知识",
+        "example": "Reading gives us a lot of knowledge.",
+        "emoji": "🧠",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "practice",
+        "ipa": "/ˈpræktɪs/",
+        "pos": "n./v.",
+        "zh": "练习",
+        "example": "Practice makes perfect.",
+        "emoji": "🎯",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "course",
+        "ipa": "/kɔːs/",
+        "pos": "n.",
+        "zh": "课程",
+        "example": "This course teaches spoken English.",
+        "emoji": "📘",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "professor",
+        "ipa": "/prəˈfesə(r)/",
+        "pos": "n.",
+        "zh": "教授",
+        "example": "The professor gave a wonderful lecture.",
+        "emoji": "👨‍🏫",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "research",
+        "ipa": "/rɪˈsɜːtʃ/",
+        "pos": "n./v.",
+        "zh": "研究",
+        "example": "They are doing research on robots.",
+        "emoji": "🔬",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "degree",
+        "ipa": "/dɪˈɡriː/",
+        "pos": "n.",
+        "zh": "学位",
+        "example": "She got a degree in computer science.",
+        "emoji": "🎓",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "notebook",
+        "ipa": "/ˈnəʊtbʊk/",
+        "pos": "n.",
+        "zh": "笔记本",
+        "example": "Write the new words in your notebook.",
+        "emoji": "📓",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "memorize",
+        "ipa": "/ˈmeməraɪz/",
+        "pos": "v.",
+        "zh": "记忆，背诵",
+        "example": "I need to memorize these sentences.",
+        "emoji": "🔁",
+        "cefr": "B1",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_health_sports",
+    "title": "健康与运动",
+    "emoji": "💪",
+    "extends_from": "l2_body",
+    "words": [
+      {
+        "word": "healthy",
+        "ipa": "/ˈhelθi/",
+        "pos": "adj.",
+        "zh": "健康的",
+        "example": "Eating vegetables keeps you healthy.",
+        "emoji": "🥦",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "exercise",
+        "ipa": "/ˈeksəsaɪz/",
+        "pos": "n./v.",
+        "zh": "锻炼",
+        "example": "I exercise three times a week.",
+        "emoji": "🏃",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "muscle",
+        "ipa": "/ˈmʌsl/",
+        "pos": "n.",
+        "zh": "肌肉",
+        "example": "Swimming builds strong muscles.",
+        "emoji": "💪",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "diet",
+        "ipa": "/ˈdaɪət/",
+        "pos": "n.",
+        "zh": "饮食",
+        "example": "A balanced diet is very important.",
+        "emoji": "🥗",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "medicine",
+        "ipa": "/ˈmedsn/",
+        "pos": "n.",
+        "zh": "药",
+        "example": "Take this medicine after meals.",
+        "emoji": "💊",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "patient",
+        "ipa": "/ˈpeɪʃnt/",
+        "pos": "n.",
+        "zh": "病人",
+        "example": "The doctor is looking after the patients.",
+        "emoji": "🛏️",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "injury",
+        "ipa": "/ˈɪndʒəri/",
+        "pos": "n.",
+        "zh": "受伤",
+        "example": "He missed the game because of his injury.",
+        "emoji": "🤕",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "fitness",
+        "ipa": "/ˈfɪtnəs/",
+        "pos": "n.",
+        "zh": "健身",
+        "example": "She goes to the fitness centre on weekends.",
+        "emoji": "🏋️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "weight",
+        "ipa": "/weɪt/",
+        "pos": "n.",
+        "zh": "体重",
+        "example": "He is trying to lose weight.",
+        "emoji": "⚖️",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "energy",
+        "ipa": "/ˈenədʒi/",
+        "pos": "n.",
+        "zh": "精力，能量",
+        "example": "A good breakfast gives you energy.",
+        "emoji": "⚡",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "hospital",
+        "ipa": "/ˈhɒspɪtl/",
+        "pos": "n.",
+        "zh": "医院",
+        "example": "The hospital is near the park.",
+        "emoji": "🏥",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "sleep",
+        "ipa": "/sliːp/",
+        "pos": "v./n.",
+        "zh": "睡眠",
+        "example": "I need eight hours of sleep a night.",
+        "emoji": "😴",
+        "cefr": "A2",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_work_jobs",
+    "title": "工作与职业",
+    "emoji": "💼",
+    "extends_from": null,
+    "words": [
+      {
+        "word": "engineer",
+        "ipa": "/ˌendʒɪˈnɪə(r)/",
+        "pos": "n.",
+        "zh": "工程师",
+        "example": "My uncle is a software engineer.",
+        "emoji": "👨‍💻",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "manager",
+        "ipa": "/ˈmænɪdʒə(r)/",
+        "pos": "n.",
+        "zh": "经理",
+        "example": "The manager is having a meeting now.",
+        "emoji": "🧑‍💼",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "interview",
+        "ipa": "/ˈɪntəvjuː/",
+        "pos": "n./v.",
+        "zh": "面试",
+        "example": "I have a job interview tomorrow.",
+        "emoji": "🤝",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "salary",
+        "ipa": "/ˈsæləri/",
+        "pos": "n.",
+        "zh": "薪水",
+        "example": "He is happy with his new salary.",
+        "emoji": "💰",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "company",
+        "ipa": "/ˈkʌmpəni/",
+        "pos": "n.",
+        "zh": "公司",
+        "example": "She works for a big company.",
+        "emoji": "🏢",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "office",
+        "ipa": "/ˈɒfɪs/",
+        "pos": "n.",
+        "zh": "办公室",
+        "example": "Our office is on the fifth floor.",
+        "emoji": "🏬",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "experience",
+        "ipa": "/ɪkˈspɪəriəns/",
+        "pos": "n.",
+        "zh": "经验",
+        "example": "She has five years of teaching experience.",
+        "emoji": "📈",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "skill",
+        "ipa": "/skɪl/",
+        "pos": "n.",
+        "zh": "技能",
+        "example": "Communication is an important skill.",
+        "emoji": "🛠️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "career",
+        "ipa": "/kəˈrɪə(r)/",
+        "pos": "n.",
+        "zh": "职业，事业",
+        "example": "She wants a career in music.",
+        "emoji": "🚀",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "boss",
+        "ipa": "/bɒs/",
+        "pos": "n.",
+        "zh": "老板",
+        "example": "My boss is very kind to us.",
+        "emoji": "🧓",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "colleague",
+        "ipa": "/ˈkɒliːɡ/",
+        "pos": "n.",
+        "zh": "同事",
+        "example": "I often have lunch with my colleagues.",
+        "emoji": "🧑‍🤝‍🧑",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "project",
+        "ipa": "/ˈprɒdʒekt/",
+        "pos": "n.",
+        "zh": "项目",
+        "example": "We are working on a new project.",
+        "emoji": "🗂️",
+        "cefr": "A2",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_tech_network",
+    "title": "科技与网络",
+    "emoji": "🖥️",
+    "extends_from": null,
+    "words": [
+      {
+        "word": "computer",
+        "ipa": "/kəmˈpjuːtə(r)/",
+        "pos": "n.",
+        "zh": "电脑",
+        "example": "I use a computer to study English.",
+        "emoji": "💻",
+        "cefr": "A1",
+        "level": "l5"
+      },
+      {
+        "word": "internet",
+        "ipa": "/ˈɪntənet/",
+        "pos": "n.",
+        "zh": "互联网",
+        "example": "The internet connects people around the world.",
+        "emoji": "🌐",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "website",
+        "ipa": "/ˈwebsaɪt/",
+        "pos": "n.",
+        "zh": "网站",
+        "example": "This website has many free lessons.",
+        "emoji": "🖧",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "email",
+        "ipa": "/ˈiːmeɪl/",
+        "pos": "n./v.",
+        "zh": "电子邮件",
+        "example": "I will send you an email tonight.",
+        "emoji": "📧",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "download",
+        "ipa": "/ˌdaʊnˈləʊd/",
+        "pos": "v.",
+        "zh": "下载",
+        "example": "You can download the app for free.",
+        "emoji": "⬇️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "upload",
+        "ipa": "/ˌʌpˈləʊd/",
+        "pos": "v.",
+        "zh": "上传",
+        "example": "Please upload your photos here.",
+        "emoji": "⬆️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "password",
+        "ipa": "/ˈpɑːswɜːd/",
+        "pos": "n.",
+        "zh": "密码",
+        "example": "Do not tell your password to others.",
+        "emoji": "🔑",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "screen",
+        "ipa": "/skriːn/",
+        "pos": "n.",
+        "zh": "屏幕",
+        "example": "The screen is too bright at night.",
+        "emoji": "🖥️",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "keyboard",
+        "ipa": "/ˈkiːbɔːd/",
+        "pos": "n.",
+        "zh": "键盘",
+        "example": "My keyboard has a problem.",
+        "emoji": "⌨️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "software",
+        "ipa": "/ˈsɒftweə(r)/",
+        "pos": "n.",
+        "zh": "软件",
+        "example": "This software can translate words.",
+        "emoji": "💿",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "information",
+        "ipa": "/ˌɪnfəˈmeɪʃn/",
+        "pos": "n.",
+        "zh": "信息",
+        "example": "You can find the information online.",
+        "emoji": "ℹ️",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "message",
+        "ipa": "/ˈmesɪdʒ/",
+        "pos": "n.",
+        "zh": "消息",
+        "example": "I got a message from my friend.",
+        "emoji": "💬",
+        "cefr": "A2",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_travel",
+    "title": "旅行与交通",
+    "emoji": "✈️",
+    "extends_from": "l2_transport_daily",
+    "words": [
+      {
+        "word": "airport",
+        "ipa": "/ˈeəpɔːt/",
+        "pos": "n.",
+        "zh": "机场",
+        "example": "We arrived at the airport at nine.",
+        "emoji": "🛫",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "ticket",
+        "ipa": "/ˈtɪkɪt/",
+        "pos": "n.",
+        "zh": "票",
+        "example": "I bought a train ticket online.",
+        "emoji": "🎫",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "luggage",
+        "ipa": "/ˈlʌɡɪdʒ/",
+        "pos": "n.",
+        "zh": "行李",
+        "example": "My luggage is too heavy.",
+        "emoji": "🧳",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "passport",
+        "ipa": "/ˈpɑːspɔːt/",
+        "pos": "n.",
+        "zh": "护照",
+        "example": "Remember to take your passport.",
+        "emoji": "🛂",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "hotel",
+        "ipa": "/həʊˈtel/",
+        "pos": "n.",
+        "zh": "酒店",
+        "example": "We stayed in a small hotel by the sea.",
+        "emoji": "🏨",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "trip",
+        "ipa": "/trɪp/",
+        "pos": "n.",
+        "zh": "旅行",
+        "example": "Have a nice trip to Beijing!",
+        "emoji": "🗺️",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "tour",
+        "ipa": "/tʊə(r)/",
+        "pos": "n.",
+        "zh": "旅游，观光",
+        "example": "We took a city tour on the first day.",
+        "emoji": "🚌",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "guide",
+        "ipa": "/ɡaɪd/",
+        "pos": "n.",
+        "zh": "导游",
+        "example": "The guide showed us around the old town.",
+        "emoji": "🧭",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "booking",
+        "ipa": "/ˈbʊkɪŋ/",
+        "pos": "n.",
+        "zh": "预订",
+        "example": "I made a booking for two nights.",
+        "emoji": "📅",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "flight",
+        "ipa": "/flaɪt/",
+        "pos": "n.",
+        "zh": "航班",
+        "example": "My flight leaves at six in the morning.",
+        "emoji": "🛩️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "railway",
+        "ipa": "/ˈreɪlweɪ/",
+        "pos": "n.",
+        "zh": "铁路",
+        "example": "The railway station is very busy.",
+        "emoji": "🚉",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "destination",
+        "ipa": "/ˌdestɪˈneɪʃn/",
+        "pos": "n.",
+        "zh": "目的地",
+        "example": "Our destination is a small island.",
+        "emoji": "🏝️",
+        "cefr": "B1",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_food_restaurant",
+    "title": "食物与餐饮",
+    "emoji": "🍽️",
+    "extends_from": "l2_food",
+    "words": [
+      {
+        "word": "menu",
+        "ipa": "/ˈmenjuː/",
+        "pos": "n.",
+        "zh": "菜单",
+        "example": "Can I see the menu, please?",
+        "emoji": "📃",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "waiter",
+        "ipa": "/ˈweɪtə(r)/",
+        "pos": "n.",
+        "zh": "服务员",
+        "example": "The waiter brought us the drinks.",
+        "emoji": "🧑‍🍳",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "dish",
+        "ipa": "/dɪʃ/",
+        "pos": "n.",
+        "zh": "菜肴",
+        "example": "This dish is very famous here.",
+        "emoji": "🍲",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "delicious",
+        "ipa": "/dɪˈlɪʃəs/",
+        "pos": "adj.",
+        "zh": "美味的",
+        "example": "The soup is really delicious.",
+        "emoji": "😋",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "order",
+        "ipa": "/ˈɔːdə(r)/",
+        "pos": "v./n.",
+        "zh": "点餐，订购",
+        "example": "I would like to order some noodles.",
+        "emoji": "🛎️",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "taste",
+        "ipa": "/teɪst/",
+        "pos": "n./v.",
+        "zh": "味道，尝",
+        "example": "The cake tastes sweet.",
+        "emoji": "👅",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "soup",
+        "ipa": "/suːp/",
+        "pos": "n.",
+        "zh": "汤",
+        "example": "A bowl of hot soup is good in winter.",
+        "emoji": "🍜",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "dessert",
+        "ipa": "/dɪˈzɜːt/",
+        "pos": "n.",
+        "zh": "甜点",
+        "example": "Ice cream is my favourite dessert.",
+        "emoji": "🍨",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "fresh",
+        "ipa": "/freʃ/",
+        "pos": "adj.",
+        "zh": "新鲜的",
+        "example": "These vegetables are very fresh.",
+        "emoji": "🌿",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "spicy",
+        "ipa": "/ˈspaɪsi/",
+        "pos": "adj.",
+        "zh": "辣的",
+        "example": "The hot pot is too spicy for me.",
+        "emoji": "🌶️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "meal",
+        "ipa": "/miːl/",
+        "pos": "n.",
+        "zh": "一餐",
+        "example": "Dinner is the biggest meal of the day.",
+        "emoji": "🍚",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "restaurant",
+        "ipa": "/ˈrestrɒnt/",
+        "pos": "n.",
+        "zh": "餐馆",
+        "example": "There is a new restaurant near my home.",
+        "emoji": "🏮",
+        "cefr": "A2",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_shopping",
+    "title": "购物与消费",
+    "emoji": "🛍️",
+    "extends_from": null,
+    "words": [
+      {
+        "word": "price",
+        "ipa": "/praɪs/",
+        "pos": "n.",
+        "zh": "价格",
+        "example": "The price of the shoes is too high.",
+        "emoji": "🏷️",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "discount",
+        "ipa": "/ˈdɪskaʊnt/",
+        "pos": "n.",
+        "zh": "折扣",
+        "example": "I got a 20% discount on this coat.",
+        "emoji": "🔖",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "pay",
+        "ipa": "/peɪ/",
+        "pos": "v.",
+        "zh": "支付",
+        "example": "You can pay by card here.",
+        "emoji": "💳",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "cash",
+        "ipa": "/kæʃ/",
+        "pos": "n.",
+        "zh": "现金",
+        "example": "Sorry, we do not accept cash.",
+        "emoji": "💵",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "receipt",
+        "ipa": "/rɪˈsiːt/",
+        "pos": "n.",
+        "zh": "收据",
+        "example": "Keep the receipt in case you return it.",
+        "emoji": "🧾",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "customer",
+        "ipa": "/ˈkʌstəmə(r)/",
+        "pos": "n.",
+        "zh": "顾客",
+        "example": "The shop is full of customers today.",
+        "emoji": "👥",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "quality",
+        "ipa": "/ˈkwɒləti/",
+        "pos": "n.",
+        "zh": "质量",
+        "example": "This brand is known for good quality.",
+        "emoji": "⭐",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "cheap",
+        "ipa": "/tʃiːp/",
+        "pos": "adj.",
+        "zh": "便宜的",
+        "example": "The apples are cheap this week.",
+        "emoji": "🪙",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "expensive",
+        "ipa": "/ɪkˈspensɪv/",
+        "pos": "adj.",
+        "zh": "昂贵的",
+        "example": "That watch is too expensive for me.",
+        "emoji": "💎",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "brand",
+        "ipa": "/brænd/",
+        "pos": "n.",
+        "zh": "品牌",
+        "example": "I like this brand of shoes.",
+        "emoji": "™️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "mall",
+        "ipa": "/mɔːl/",
+        "pos": "n.",
+        "zh": "商场",
+        "example": "We went shopping at the new mall.",
+        "emoji": "🏬",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "sale",
+        "ipa": "/seɪl/",
+        "pos": "n.",
+        "zh": "促销，出售",
+        "example": "The store is having a big sale now.",
+        "emoji": "🎉",
+        "cefr": "A2",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_environment",
+    "title": "环境与自然",
+    "emoji": "🌍",
+    "extends_from": "l2_weather",
+    "words": [
+      {
+        "word": "environment",
+        "ipa": "/ɪnˈvaɪrənmənt/",
+        "pos": "n.",
+        "zh": "环境",
+        "example": "We should protect the environment.",
+        "emoji": "🌏",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "pollution",
+        "ipa": "/pəˈluːʃn/",
+        "pos": "n.",
+        "zh": "污染",
+        "example": "Air pollution is a big problem in cities.",
+        "emoji": "🏭",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "recycle",
+        "ipa": "/ˌriːˈsaɪkl/",
+        "pos": "v.",
+        "zh": "回收利用",
+        "example": "We recycle paper and bottles at home.",
+        "emoji": "♻️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "protect",
+        "ipa": "/prəˈtekt/",
+        "pos": "v.",
+        "zh": "保护",
+        "example": "We should protect wild animals.",
+        "emoji": "🛡️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "forest",
+        "ipa": "/ˈfɒrɪst/",
+        "pos": "n.",
+        "zh": "森林",
+        "example": "Many birds live in the forest.",
+        "emoji": "🌲",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "river",
+        "ipa": "/ˈrɪvə(r)/",
+        "pos": "n.",
+        "zh": "河流",
+        "example": "The river runs through the city.",
+        "emoji": "🏞️",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "climate",
+        "ipa": "/ˈklaɪmət/",
+        "pos": "n.",
+        "zh": "气候",
+        "example": "The climate here is warm and wet.",
+        "emoji": "🌤️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "power",
+        "ipa": "/ˈpaʊə(r)/",
+        "pos": "n.",
+        "zh": "能源，电力",
+        "example": "Solar power is clean energy.",
+        "emoji": "🔆",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "waste",
+        "ipa": "/weɪst/",
+        "pos": "n./v.",
+        "zh": "浪费，垃圾",
+        "example": "Do not waste water.",
+        "emoji": "🗑️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "earth",
+        "ipa": "/ɜːθ/",
+        "pos": "n.",
+        "zh": "地球",
+        "example": "The earth is our only home.",
+        "emoji": "🌍",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "plant",
+        "ipa": "/plɑːnt/",
+        "pos": "n./v.",
+        "zh": "植物，种植",
+        "example": "Water the plants every morning.",
+        "emoji": "🌱",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "natural",
+        "ipa": "/ˈnætʃrəl/",
+        "pos": "adj.",
+        "zh": "自然的",
+        "example": "This park has many natural wonders.",
+        "emoji": "🏔️",
+        "cefr": "B1",
+        "level": "l5"
+      }
+    ]
+  },
+  {
+    "id": "l5_society_news",
+    "title": "社会与新闻",
+    "emoji": "📰",
+    "extends_from": null,
+    "words": [
+      {
+        "word": "society",
+        "ipa": "/səˈsaɪəti/",
+        "pos": "n.",
+        "zh": "社会",
+        "example": "Everyone plays a role in society.",
+        "emoji": "🏘️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "news",
+        "ipa": "/njuːz/",
+        "pos": "n.",
+        "zh": "新闻",
+        "example": "I watch the news every evening.",
+        "emoji": "📺",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "report",
+        "ipa": "/rɪˈpɔːt/",
+        "pos": "n./v.",
+        "zh": "报道",
+        "example": "The report is about traffic in the city.",
+        "emoji": "🗞️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "event",
+        "ipa": "/ɪˈvent/",
+        "pos": "n.",
+        "zh": "事件，活动",
+        "example": "The sports event was very exciting.",
+        "emoji": "🏅",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "government",
+        "ipa": "/ˈɡʌvənmənt/",
+        "pos": "n.",
+        "zh": "政府",
+        "example": "The government is building new schools.",
+        "emoji": "🏛️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "citizen",
+        "ipa": "/ˈsɪtɪzn/",
+        "pos": "n.",
+        "zh": "公民",
+        "example": "Every citizen should follow the rules.",
+        "emoji": "🧑‍⚖️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "culture",
+        "ipa": "/ˈkʌltʃə(r)/",
+        "pos": "n.",
+        "zh": "文化",
+        "example": "I am interested in Chinese culture.",
+        "emoji": "🎎",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "history",
+        "ipa": "/ˈhɪstri/",
+        "pos": "n.",
+        "zh": "历史",
+        "example": "This city has a long history.",
+        "emoji": "🏺",
+        "cefr": "A2",
+        "level": "l5"
+      },
+      {
+        "word": "economy",
+        "ipa": "/ɪˈkɒnəmi/",
+        "pos": "n.",
+        "zh": "经济",
+        "example": "The economy is growing fast.",
+        "emoji": "📊",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "population",
+        "ipa": "/ˌpɒpjuˈleɪʃn/",
+        "pos": "n.",
+        "zh": "人口",
+        "example": "The population of the city is ten million.",
+        "emoji": "👥",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "community",
+        "ipa": "/kəˈmjuːnəti/",
+        "pos": "n.",
+        "zh": "社区",
+        "example": "Our community has a lovely garden.",
+        "emoji": "🏡",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "tradition",
+        "ipa": "/trəˈdɪʃn/",
+        "pos": "n.",
+        "zh": "传统",
+        "example": "Eating dumplings is a Chinese tradition.",
+        "emoji": "🏮",
+        "cefr": "B1",
+        "level": "l5"
+      }
+    ]
+  }
+]

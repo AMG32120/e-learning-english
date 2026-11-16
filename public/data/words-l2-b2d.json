@@ -1,0 +1,992 @@
+{
+  "network": [
+    {
+      "word": "internet",
+      "ipa": "/ˈɪntənet/",
+      "pos": "n.",
+      "zh": "互联网",
+      "example": "The internet is very slow today.",
+      "emoji": "🌐",
+      "cefr": "A1"
+    },
+    {
+      "word": "website",
+      "ipa": "/ˈwebsaɪt/",
+      "pos": "n.",
+      "zh": "网站",
+      "example": "This website has free lessons.",
+      "emoji": "🕸️",
+      "cefr": "A2"
+    },
+    {
+      "word": "email",
+      "ipa": "/ˈiːmeɪl/",
+      "pos": "n.",
+      "zh": "电子邮件",
+      "example": "I sent you an email.",
+      "emoji": "📧",
+      "cefr": "A1"
+    },
+    {
+      "word": "wifi",
+      "ipa": "/ˈwaɪfaɪ/",
+      "pos": "n.",
+      "zh": "无线网络",
+      "example": "What is the wifi password?",
+      "emoji": "📶",
+      "cefr": "A1"
+    },
+    {
+      "word": "online",
+      "ipa": "/ˌɒnˈlaɪn/",
+      "pos": "adj.",
+      "zh": "在线的",
+      "example": "She studies online every evening.",
+      "emoji": "🟢",
+      "cefr": "A1"
+    },
+    {
+      "word": "download",
+      "ipa": "/ˌdaʊnˈləʊd/",
+      "pos": "v.",
+      "zh": "下载",
+      "example": "Download the app first.",
+      "emoji": "⬇️",
+      "cefr": "A2"
+    },
+    {
+      "word": "upload",
+      "ipa": "/ˌʌpˈləʊd/",
+      "pos": "v.",
+      "zh": "上传",
+      "example": "Upload your photo here.",
+      "emoji": "⬆️",
+      "cefr": "A2"
+    },
+    {
+      "word": "link",
+      "ipa": "/lɪŋk/",
+      "pos": "n.",
+      "zh": "链接",
+      "example": "Click the link below.",
+      "emoji": "🔗",
+      "cefr": "A2"
+    },
+    {
+      "word": "search",
+      "ipa": "/sɜːtʃ/",
+      "pos": "v.",
+      "zh": "搜索",
+      "example": "Search for the word online.",
+      "emoji": "🔍",
+      "cefr": "A1"
+    },
+    {
+      "word": "chat",
+      "ipa": "/tʃæt/",
+      "pos": "v.",
+      "zh": "聊天",
+      "example": "We chat every night.",
+      "emoji": "💬",
+      "cefr": "A1"
+    },
+    {
+      "word": "account",
+      "ipa": "/əˈkaʊnt/",
+      "pos": "n.",
+      "zh": "账号",
+      "example": "Create a free account.",
+      "emoji": "👤",
+      "cefr": "A2"
+    },
+    {
+      "word": "stream",
+      "ipa": "/striːm/",
+      "pos": "v.",
+      "zh": "在线播放",
+      "example": "You can stream the film tonight.",
+      "emoji": "🎞️",
+      "cefr": "A2"
+    }
+  ],
+  "music": [
+    {
+      "word": "music",
+      "ipa": "/ˈmjuːzɪk/",
+      "pos": "n.",
+      "zh": "音乐",
+      "example": "I listen to music on the bus.",
+      "emoji": "🎵",
+      "cefr": "A1"
+    },
+    {
+      "word": "song",
+      "ipa": "/sɒŋ/",
+      "pos": "n.",
+      "zh": "歌曲",
+      "example": "This song is very popular.",
+      "emoji": "🎶",
+      "cefr": "A1"
+    },
+    {
+      "word": "guitar",
+      "ipa": "/ɡɪˈtɑː(r)/",
+      "pos": "n.",
+      "zh": "吉他",
+      "example": "He plays the guitar well.",
+      "emoji": "🎸",
+      "cefr": "A1"
+    },
+    {
+      "word": "piano",
+      "ipa": "/piˈænəʊ/",
+      "pos": "n.",
+      "zh": "钢琴",
+      "example": "She practises the piano daily.",
+      "emoji": "🎹",
+      "cefr": "A1"
+    },
+    {
+      "word": "violin",
+      "ipa": "/ˌvaɪəˈlɪn/",
+      "pos": "n.",
+      "zh": "小提琴",
+      "example": "The violin sounds beautiful.",
+      "emoji": "🎻",
+      "cefr": "A2"
+    },
+    {
+      "word": "drum",
+      "ipa": "/drʌm/",
+      "pos": "n.",
+      "zh": "鼓",
+      "example": "The drums are very loud.",
+      "emoji": "🥁",
+      "cefr": "A2"
+    },
+    {
+      "word": "sing",
+      "ipa": "/sɪŋ/",
+      "pos": "v.",
+      "zh": "唱歌",
+      "example": "She sings in a band.",
+      "emoji": "🎤",
+      "cefr": "A1"
+    },
+    {
+      "word": "dance",
+      "ipa": "/dɑːns/",
+      "pos": "v.",
+      "zh": "跳舞",
+      "example": "They dance every Friday.",
+      "emoji": "💃",
+      "cefr": "A1"
+    },
+    {
+      "word": "concert",
+      "ipa": "/ˈkɒnsət/",
+      "pos": "n.",
+      "zh": "音乐会",
+      "example": "We went to a concert last night.",
+      "emoji": "🎪",
+      "cefr": "A2"
+    },
+    {
+      "word": "band",
+      "ipa": "/bænd/",
+      "pos": "n.",
+      "zh": "乐队",
+      "example": "The band played for two hours.",
+      "emoji": "🎷",
+      "cefr": "A2"
+    },
+    {
+      "word": "note",
+      "ipa": "/nəʊt/",
+      "pos": "n.",
+      "zh": "音符",
+      "example": "I cannot read the notes.",
+      "emoji": "🎼",
+      "cefr": "A2"
+    },
+    {
+      "word": "headphone",
+      "ipa": "/ˈhedfəʊn/",
+      "pos": "n.",
+      "zh": "耳机",
+      "example": "Put on your headphones.",
+      "emoji": "🎧",
+      "cefr": "A2"
+    }
+  ],
+  "movies": [
+    {
+      "word": "movie",
+      "ipa": "/ˈmuːvi/",
+      "pos": "n.",
+      "zh": "电影",
+      "example": "This movie is two hours long.",
+      "emoji": "🎬",
+      "cefr": "A1"
+    },
+    {
+      "word": "film",
+      "ipa": "/fɪlm/",
+      "pos": "n.",
+      "zh": "影片",
+      "example": "The film won three awards.",
+      "emoji": "🎞️",
+      "cefr": "A1"
+    },
+    {
+      "word": "actor",
+      "ipa": "/ˈæktə(r)/",
+      "pos": "n.",
+      "zh": "演员",
+      "example": "He is a famous actor.",
+      "emoji": "🎭",
+      "cefr": "A1"
+    },
+    {
+      "word": "cinema",
+      "ipa": "/ˈsɪnəmə/",
+      "pos": "n.",
+      "zh": "电影院",
+      "example": "Let us go to the cinema.",
+      "emoji": "🎦",
+      "cefr": "A1"
+    },
+    {
+      "word": "ticket",
+      "ipa": "/ˈtɪkɪt/",
+      "pos": "n.",
+      "zh": "票",
+      "example": "I bought two tickets online.",
+      "emoji": "🎟️",
+      "cefr": "A1"
+    },
+    {
+      "word": "director",
+      "ipa": "/dəˈrektə(r)/",
+      "pos": "n.",
+      "zh": "导演",
+      "example": "The director is very young.",
+      "emoji": "🎥",
+      "cefr": "A2"
+    },
+    {
+      "word": "popcorn",
+      "ipa": "/ˈpɒpkɔːn/",
+      "pos": "n.",
+      "zh": "爆米花",
+      "example": "We shared a box of popcorn.",
+      "emoji": "🍿",
+      "cefr": "A2"
+    },
+    {
+      "word": "funny",
+      "ipa": "/ˈfʌni/",
+      "pos": "adj.",
+      "zh": "有趣的",
+      "example": "The film was really funny.",
+      "emoji": "😂",
+      "cefr": "A1"
+    },
+    {
+      "word": "scary",
+      "ipa": "/ˈskeəri/",
+      "pos": "adj.",
+      "zh": "吓人的",
+      "example": "That was a scary scene.",
+      "emoji": "😱",
+      "cefr": "A2"
+    },
+    {
+      "word": "cartoon",
+      "ipa": "/kɑːˈtuːn/",
+      "pos": "n.",
+      "zh": "动画片",
+      "example": "Children love this cartoon.",
+      "emoji": "🐭",
+      "cefr": "A1"
+    },
+    {
+      "word": "subtitle",
+      "ipa": "/ˈsʌbtaɪtl/",
+      "pos": "n.",
+      "zh": "字幕",
+      "example": "Turn on the subtitles, please.",
+      "emoji": "💬",
+      "cefr": "A2"
+    },
+    {
+      "word": "ending",
+      "ipa": "/ˈendɪŋ/",
+      "pos": "n.",
+      "zh": "结局",
+      "example": "The ending surprised everyone.",
+      "emoji": "🔚",
+      "cefr": "A2"
+    }
+  ],
+  "reading": [
+    {
+      "word": "book",
+      "ipa": "/bʊk/",
+      "pos": "n.",
+      "zh": "书",
+      "example": "This book is easy to read.",
+      "emoji": "📖",
+      "cefr": "A1"
+    },
+    {
+      "word": "story",
+      "ipa": "/ˈstɔːri/",
+      "pos": "n.",
+      "zh": "故事",
+      "example": "She told us a funny story.",
+      "emoji": "📚",
+      "cefr": "A1"
+    },
+    {
+      "word": "page",
+      "ipa": "/peɪdʒ/",
+      "pos": "n.",
+      "zh": "页",
+      "example": "Open your book at page ten.",
+      "emoji": "📄",
+      "cefr": "A1"
+    },
+    {
+      "word": "word",
+      "ipa": "/wɜːd/",
+      "pos": "n.",
+      "zh": "单词",
+      "example": "I learn ten new words a day.",
+      "emoji": "🔤",
+      "cefr": "A1"
+    },
+    {
+      "word": "sentence",
+      "ipa": "/ˈsentəns/",
+      "pos": "n.",
+      "zh": "句子",
+      "example": "Write a sentence with this word.",
+      "emoji": "🔡",
+      "cefr": "A1"
+    },
+    {
+      "word": "chapter",
+      "ipa": "/ˈtʃæptə(r)/",
+      "pos": "n.",
+      "zh": "章节",
+      "example": "Read the first chapter tonight.",
+      "emoji": "📑",
+      "cefr": "A2"
+    },
+    {
+      "word": "author",
+      "ipa": "/ˈɔːθə(r)/",
+      "pos": "n.",
+      "zh": "作者",
+      "example": "Who is the author of this book?",
+      "emoji": "✍️",
+      "cefr": "A2"
+    },
+    {
+      "word": "novel",
+      "ipa": "/ˈnɒvl/",
+      "pos": "n.",
+      "zh": "小说",
+      "example": "He is reading a long novel.",
+      "emoji": "📕",
+      "cefr": "A2"
+    },
+    {
+      "word": "magazine",
+      "ipa": "/ˌmæɡəˈziːn/",
+      "pos": "n.",
+      "zh": "杂志",
+      "example": "This magazine comes monthly.",
+      "emoji": "📰",
+      "cefr": "A2"
+    },
+    {
+      "word": "newspaper",
+      "ipa": "/ˈnjuːzpeɪpə(r)/",
+      "pos": "n.",
+      "zh": "报纸",
+      "example": "My father reads a newspaper daily.",
+      "emoji": "🗞️",
+      "cefr": "A1"
+    },
+    {
+      "word": "dictionary",
+      "ipa": "/ˈdɪkʃənri/",
+      "pos": "n.",
+      "zh": "词典",
+      "example": "Look it up in the dictionary.",
+      "emoji": "📔",
+      "cefr": "A1"
+    },
+    {
+      "word": "library",
+      "ipa": "/ˈlaɪbrəri/",
+      "pos": "n.",
+      "zh": "图书馆",
+      "example": "The library is quiet in the morning.",
+      "emoji": "🏛️",
+      "cefr": "A1"
+    }
+  ],
+  "painting": [
+    {
+      "word": "paint",
+      "ipa": "/peɪnt/",
+      "pos": "v.",
+      "zh": "画；油漆",
+      "example": "She paints every weekend.",
+      "emoji": "🎨",
+      "cefr": "A1"
+    },
+    {
+      "word": "brush",
+      "ipa": "/brʌʃ/",
+      "pos": "n.",
+      "zh": "画笔",
+      "example": "Use a thin brush for the lines.",
+      "emoji": "🖌️",
+      "cefr": "A2"
+    },
+    {
+      "word": "color",
+      "ipa": "/ˈkʌlə(r)/",
+      "pos": "n.",
+      "zh": "颜色",
+      "example": "Which color do you like best?",
+      "emoji": "🌈",
+      "cefr": "A1"
+    },
+    {
+      "word": "draw",
+      "ipa": "/drɔː/",
+      "pos": "v.",
+      "zh": "画画",
+      "example": "He can draw very well.",
+      "emoji": "✏️",
+      "cefr": "A1"
+    },
+    {
+      "word": "picture",
+      "ipa": "/ˈpɪktʃə(r)/",
+      "pos": "n.",
+      "zh": "图画",
+      "example": "She drew a picture of her cat.",
+      "emoji": "🖼️",
+      "cefr": "A1"
+    },
+    {
+      "word": "art",
+      "ipa": "/ɑːt/",
+      "pos": "n.",
+      "zh": "艺术",
+      "example": "Art makes life interesting.",
+      "emoji": "🎭",
+      "cefr": "A1"
+    },
+    {
+      "word": "gallery",
+      "ipa": "/ˈɡæləri/",
+      "pos": "n.",
+      "zh": "美术馆",
+      "example": "The gallery is free on Sundays.",
+      "emoji": "🏛️",
+      "cefr": "A2"
+    },
+    {
+      "word": "frame",
+      "ipa": "/freɪm/",
+      "pos": "n.",
+      "zh": "画框",
+      "example": "The picture needs a new frame.",
+      "emoji": "🔲",
+      "cefr": "A2"
+    },
+    {
+      "word": "ink",
+      "ipa": "/ɪŋk/",
+      "pos": "n.",
+      "zh": "墨水",
+      "example": "The pen has no ink.",
+      "emoji": "🖋️",
+      "cefr": "A2"
+    },
+    {
+      "word": "sculpture",
+      "ipa": "/ˈskʌlptʃə(r)/",
+      "pos": "n.",
+      "zh": "雕塑",
+      "example": "The sculpture is made of stone.",
+      "emoji": "🗿",
+      "cefr": "B1"
+    },
+    {
+      "word": "design",
+      "ipa": "/dɪˈzaɪn/",
+      "pos": "n.",
+      "zh": "设计",
+      "example": "I like the design of this bag.",
+      "emoji": "📐",
+      "cefr": "A2"
+    },
+    {
+      "word": "craft",
+      "ipa": "/krɑːft/",
+      "pos": "n.",
+      "zh": "手工",
+      "example": "The children do craft after school.",
+      "emoji": "🧶",
+      "cefr": "A2"
+    }
+  ],
+  "party": [
+    {
+      "word": "party",
+      "ipa": "/ˈpɑːti/",
+      "pos": "n.",
+      "zh": "聚会",
+      "example": "We had a party last night.",
+      "emoji": "🎉",
+      "cefr": "A1"
+    },
+    {
+      "word": "gift",
+      "ipa": "/ɡɪft/",
+      "pos": "n.",
+      "zh": "礼物",
+      "example": "This gift is for you.",
+      "emoji": "🎁",
+      "cefr": "A1"
+    },
+    {
+      "word": "balloon",
+      "ipa": "/bəˈluːn/",
+      "pos": "n.",
+      "zh": "气球",
+      "example": "The room is full of balloons.",
+      "emoji": "🎈",
+      "cefr": "A1"
+    },
+    {
+      "word": "cake",
+      "ipa": "/keɪk/",
+      "pos": "n.",
+      "zh": "蛋糕",
+      "example": "She cut the cake into eight pieces.",
+      "emoji": "🎂",
+      "cefr": "A1"
+    },
+    {
+      "word": "invite",
+      "ipa": "/ɪnˈvaɪt/",
+      "pos": "v.",
+      "zh": "邀请",
+      "example": "They invited all their friends.",
+      "emoji": "📨",
+      "cefr": "A2"
+    },
+    {
+      "word": "friend",
+      "ipa": "/frend/",
+      "pos": "n.",
+      "zh": "朋友",
+      "example": "My best friend lives next door.",
+      "emoji": "🧑‍🤝‍🧑",
+      "cefr": "A1"
+    },
+    {
+      "word": "candle",
+      "ipa": "/ˈkændl/",
+      "pos": "n.",
+      "zh": "蜡烛",
+      "example": "Blow out the candles.",
+      "emoji": "🕯️",
+      "cefr": "A2"
+    },
+    {
+      "word": "laugh",
+      "ipa": "/lɑːf/",
+      "pos": "v.",
+      "zh": "笑",
+      "example": "We laughed all evening.",
+      "emoji": "😄",
+      "cefr": "A1"
+    },
+    {
+      "word": "celebrate",
+      "ipa": "/ˈselɪbreɪt/",
+      "pos": "v.",
+      "zh": "庆祝",
+      "example": "We celebrate her birthday today.",
+      "emoji": "🥳",
+      "cefr": "A2"
+    },
+    {
+      "word": "hat",
+      "ipa": "/hæt/",
+      "pos": "n.",
+      "zh": "帽子",
+      "example": "He wore a funny party hat.",
+      "emoji": "🎩",
+      "cefr": "A1"
+    },
+    {
+      "word": "cheers",
+      "ipa": "/tʃɪəz/",
+      "pos": "int.",
+      "zh": "干杯",
+      "example": "Cheers to a good year!",
+      "emoji": "🥂",
+      "cefr": "A2"
+    },
+    {
+      "word": "music",
+      "ipa": "/ˈmjuːzɪk/",
+      "pos": "n.",
+      "zh": "音乐",
+      "example": "The music was too loud.",
+      "emoji": "🔊",
+      "cefr": "A1"
+    }
+  ],
+  "festival": [
+    {
+      "word": "festival",
+      "ipa": "/ˈfestɪvl/",
+      "pos": "n.",
+      "zh": "节日",
+      "example": "The spring festival is coming.",
+      "emoji": "🎊",
+      "cefr": "A1"
+    },
+    {
+      "word": "holiday",
+      "ipa": "/ˈhɒlədeɪ/",
+      "pos": "n.",
+      "zh": "假日",
+      "example": "We travel during the holiday.",
+      "emoji": "🗓️",
+      "cefr": "A1"
+    },
+    {
+      "word": "christmas",
+      "ipa": "/ˈkrɪsməs/",
+      "pos": "n.",
+      "zh": "圣诞节",
+      "example": "Christmas is on December 25th.",
+      "emoji": "🎄",
+      "cefr": "A1"
+    },
+    {
+      "word": "lantern",
+      "ipa": "/ˈlæntən/",
+      "pos": "n.",
+      "zh": "灯笼",
+      "example": "Red lanterns hang outside.",
+      "emoji": "🏮",
+      "cefr": "A2"
+    },
+    {
+      "word": "firework",
+      "ipa": "/ˈfaɪəwɜːk/",
+      "pos": "n.",
+      "zh": "烟花",
+      "example": "The fireworks lit up the sky.",
+      "emoji": "🎇",
+      "cefr": "A2"
+    },
+    {
+      "word": "parade",
+      "ipa": "/pəˈreɪd/",
+      "pos": "n.",
+      "zh": "游行",
+      "example": "A parade went down the street.",
+      "emoji": "🎺",
+      "cefr": "A2"
+    },
+    {
+      "word": "tradition",
+      "ipa": "/trəˈdɪʃn/",
+      "pos": "n.",
+      "zh": "传统",
+      "example": "This is an old tradition here.",
+      "emoji": "🏺",
+      "cefr": "A2"
+    },
+    {
+      "word": "custom",
+      "ipa": "/ˈkʌstəm/",
+      "pos": "n.",
+      "zh": "风俗",
+      "example": "Each country has its own customs.",
+      "emoji": "📜",
+      "cefr": "A2"
+    },
+    {
+      "word": "family",
+      "ipa": "/ˈfæməli/",
+      "pos": "n.",
+      "zh": "家人",
+      "example": "The whole family gets together.",
+      "emoji": "👨‍👩‍👧",
+      "cefr": "A1"
+    },
+    {
+      "word": "decorate",
+      "ipa": "/ˈdekəreɪt/",
+      "pos": "v.",
+      "zh": "装饰",
+      "example": "We decorate the house with flowers.",
+      "emoji": "🌟",
+      "cefr": "A2"
+    },
+    {
+      "word": "luck",
+      "ipa": "/lʌk/",
+      "pos": "n.",
+      "zh": "运气",
+      "example": "Good luck in the new year!",
+      "emoji": "🍀",
+      "cefr": "A1"
+    },
+    {
+      "word": "wish",
+      "ipa": "/wɪʃ/",
+      "pos": "v.",
+      "zh": "许愿；祝愿",
+      "example": "Make a wish before you blow.",
+      "emoji": "✨",
+      "cefr": "A1"
+    }
+  ],
+  "wedding": [
+    {
+      "word": "wedding",
+      "ipa": "/ˈwedɪŋ/",
+      "pos": "n.",
+      "zh": "婚礼",
+      "example": "Their wedding is in June.",
+      "emoji": "💒",
+      "cefr": "A2"
+    },
+    {
+      "word": "bride",
+      "ipa": "/braɪd/",
+      "pos": "n.",
+      "zh": "新娘",
+      "example": "The bride wore white.",
+      "emoji": "👰",
+      "cefr": "A2"
+    },
+    {
+      "word": "groom",
+      "ipa": "/ɡruːm/",
+      "pos": "n.",
+      "zh": "新郎",
+      "example": "The groom gave a short speech.",
+      "emoji": "🤵",
+      "cefr": "A2"
+    },
+    {
+      "word": "ring",
+      "ipa": "/rɪŋ/",
+      "pos": "n.",
+      "zh": "戒指",
+      "example": "He put the ring on her finger.",
+      "emoji": "💍",
+      "cefr": "A2"
+    },
+    {
+      "word": "dress",
+      "ipa": "/dres/",
+      "pos": "n.",
+      "zh": "连衣裙",
+      "example": "She bought a long dress.",
+      "emoji": "👗",
+      "cefr": "A1"
+    },
+    {
+      "word": "church",
+      "ipa": "/tʃɜːtʃ/",
+      "pos": "n.",
+      "zh": "教堂",
+      "example": "The church is very old.",
+      "emoji": "⛪",
+      "cefr": "A2"
+    },
+    {
+      "word": "guest",
+      "ipa": "/ɡest/",
+      "pos": "n.",
+      "zh": "宾客",
+      "example": "Two hundred guests came.",
+      "emoji": "🎩",
+      "cefr": "A2"
+    },
+    {
+      "word": "photo",
+      "ipa": "/ˈfəʊtəʊ/",
+      "pos": "n.",
+      "zh": "照片",
+      "example": "Take a photo of us.",
+      "emoji": "📷",
+      "cefr": "A1"
+    },
+    {
+      "word": "flower",
+      "ipa": "/ˈflaʊə(r)/",
+      "pos": "n.",
+      "zh": "花",
+      "example": "She carried a bunch of flowers.",
+      "emoji": "💐",
+      "cefr": "A1"
+    },
+    {
+      "word": "promise",
+      "ipa": "/ˈprɒmɪs/",
+      "pos": "v.",
+      "zh": "承诺",
+      "example": "They promised to stay together.",
+      "emoji": "🙏",
+      "cefr": "A2"
+    },
+    {
+      "word": "kiss",
+      "ipa": "/kɪs/",
+      "pos": "v.",
+      "zh": "亲吻",
+      "example": "They kissed after the ceremony.",
+      "emoji": "💏",
+      "cefr": "A2"
+    },
+    {
+      "word": "reception",
+      "ipa": "/rɪˈsepʃn/",
+      "pos": "n.",
+      "zh": "宴会",
+      "example": "The reception starts at seven.",
+      "emoji": "🍾",
+      "cefr": "B1"
+    }
+  ],
+  "safety": [
+    {
+      "word": "safe",
+      "ipa": "/seɪf/",
+      "pos": "adj.",
+      "zh": "安全的",
+      "example": "This street is safe at night.",
+      "emoji": "🛟",
+      "cefr": "A1"
+    },
+    {
+      "word": "danger",
+      "ipa": "/ˈdeɪndʒə(r)/",
+      "pos": "n.",
+      "zh": "危险",
+      "example": "There is danger ahead.",
+      "emoji": "⚠️",
+      "cefr": "A2"
+    },
+    {
+      "word": "fire",
+      "ipa": "/ˈfaɪə(r)/",
+      "pos": "n.",
+      "zh": "火灾",
+      "example": "Call help if there is a fire.",
+      "emoji": "🧯",
+      "cefr": "A1"
+    },
+    {
+      "word": "police",
+      "ipa": "/pəˈliːs/",
+      "pos": "n.",
+      "zh": "警察",
+      "example": "The police arrived in minutes.",
+      "emoji": "👮",
+      "cefr": "A1"
+    },
+    {
+      "word": "helmet",
+      "ipa": "/ˈhelmɪt/",
+      "pos": "n.",
+      "zh": "头盔",
+      "example": "Wear a helmet when you ride.",
+      "emoji": "⛑️",
+      "cefr": "A2"
+    },
+    {
+      "word": "seatbelt",
+      "ipa": "/ˈsiːtbelt/",
+      "pos": "n.",
+      "zh": "安全带",
+      "example": "Always wear your seatbelt.",
+      "emoji": "🚗",
+      "cefr": "A2"
+    },
+    {
+      "word": "emergency",
+      "ipa": "/ɪˈmɜːdʒənsi/",
+      "pos": "n.",
+      "zh": "紧急情况",
+      "example": "In an emergency, call this number.",
+      "emoji": "🚨",
+      "cefr": "A2"
+    },
+    {
+      "word": "exit",
+      "ipa": "/ˈeksɪt/",
+      "pos": "n.",
+      "zh": "出口",
+      "example": "The exit is on your left.",
+      "emoji": "🚪",
+      "cefr": "A1"
+    },
+    {
+      "word": "lock",
+      "ipa": "/lɒk/",
+      "pos": "v.",
+      "zh": "锁上",
+      "example": "Lock the door before you leave.",
+      "emoji": "🔒",
+      "cefr": "A1"
+    },
+    {
+      "word": "alarm",
+      "ipa": "/əˈlɑːm/",
+      "pos": "n.",
+      "zh": "警报",
+      "example": "The alarm woke the whole building.",
+      "emoji": "🔔",
+      "cefr": "A2"
+    },
+    {
+      "word": "guard",
+      "ipa": "/ɡɑːd/",
+      "pos": "n.",
+      "zh": "保安",
+      "example": "The guard checked our bags.",
+      "emoji": "💂",
+      "cefr": "A2"
+    },
+    {
+      "word": "bandage",
+      "ipa": "/ˈbændɪdʒ/",
+      "pos": "n.",
+      "zh": "绷带",
+      "example": "Put a bandage on the cut.",
+      "emoji": "🩹",
+      "cefr": "A2"
+    }
+  ]
+}

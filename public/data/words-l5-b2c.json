@@ -1,0 +1,1152 @@
+[
+  {
+    "id": "l5b_logistics",
+    "title": "物流运输",
+    "emoji": "📦",
+    "words": [
+      {
+        "word": "logistics",
+        "ipa": "/ləˈdʒɪstɪks/",
+        "pos": "n.",
+        "zh": "物流",
+        "example": "Good logistics keeps costs low.",
+        "emoji": "📦",
+        "cefr": "B1"
+      },
+      {
+        "word": "shipment",
+        "ipa": "/ˈʃɪpmənt/",
+        "pos": "n.",
+        "zh": "货运批次",
+        "example": "The shipment arrives on Friday.",
+        "emoji": "🚚",
+        "cefr": "B1"
+      },
+      {
+        "word": "cargo",
+        "ipa": "/ˈkɑːɡəʊ/",
+        "pos": "n.",
+        "zh": "货物",
+        "example": "The ship carries heavy cargo.",
+        "emoji": "🚢",
+        "cefr": "B1"
+      },
+      {
+        "word": "container",
+        "ipa": "/kənˈteɪnə(r)/",
+        "pos": "n.",
+        "zh": "集装箱",
+        "example": "Each container holds twenty tons.",
+        "emoji": "🛳️",
+        "cefr": "B1"
+      },
+      {
+        "word": "delivery",
+        "ipa": "/dɪˈlɪvəri/",
+        "pos": "n.",
+        "zh": "送货",
+        "example": "Delivery takes three days.",
+        "emoji": "🚪",
+        "cefr": "B1"
+      },
+      {
+        "word": "courier",
+        "ipa": "/ˈkʊriə(r)/",
+        "pos": "n.",
+        "zh": "快递员",
+        "example": "The courier called before arriving.",
+        "emoji": "🧑‍✈️",
+        "cefr": "B1"
+      },
+      {
+        "word": "inventory",
+        "ipa": "/ˈɪnvəntri/",
+        "pos": "n.",
+        "zh": "库存",
+        "example": "We check the inventory monthly.",
+        "emoji": "📋",
+        "cefr": "B1"
+      },
+      {
+        "word": "route",
+        "ipa": "/ruːt/",
+        "pos": "n.",
+        "zh": "路线",
+        "example": "This route avoids the traffic.",
+        "emoji": "🗺️",
+        "cefr": "B1"
+      },
+      {
+        "word": "freight",
+        "ipa": "/freɪt/",
+        "pos": "n.",
+        "zh": "货运",
+        "example": "Freight costs rose sharply.",
+        "emoji": "🚛",
+        "cefr": "B1"
+      },
+      {
+        "word": "customs",
+        "ipa": "/ˈkʌstəmz/",
+        "pos": "n.",
+        "zh": "海关",
+        "example": "The goods cleared customs today.",
+        "emoji": "🛃",
+        "cefr": "B1"
+      },
+      {
+        "word": "tracking",
+        "ipa": "/ˈtrækɪŋ/",
+        "pos": "n.",
+        "zh": "物流追踪",
+        "example": "Tracking shows it left the city.",
+        "emoji": "📍",
+        "cefr": "B1"
+      },
+      {
+        "word": "dispatch",
+        "ipa": "/dɪˈspætʃ/",
+        "pos": "v.",
+        "zh": "发货",
+        "example": "They dispatch orders before noon.",
+        "emoji": "📤",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_tourism",
+    "title": "旅游观光",
+    "emoji": "🧳",
+    "words": [
+      {
+        "word": "tourist",
+        "ipa": "/ˈtʊərɪst/",
+        "pos": "n.",
+        "zh": "游客",
+        "example": "Tourists fill the square in summer.",
+        "emoji": "🧳",
+        "cefr": "B1"
+      },
+      {
+        "word": "attraction",
+        "ipa": "/əˈtrækʃn/",
+        "pos": "n.",
+        "zh": "景点",
+        "example": "The castle is the main attraction.",
+        "emoji": "🏰",
+        "cefr": "B1"
+      },
+      {
+        "word": "itinerary",
+        "ipa": "/aɪˈtɪnərəri/",
+        "pos": "n.",
+        "zh": "行程",
+        "example": "Our itinerary is very full.",
+        "emoji": "📋",
+        "cefr": "B1"
+      },
+      {
+        "word": "souvenir",
+        "ipa": "/ˌsuːvəˈnɪə(r)/",
+        "pos": "n.",
+        "zh": "纪念品",
+        "example": "She bought a small souvenir.",
+        "emoji": "🎁",
+        "cefr": "B1"
+      },
+      {
+        "word": "guide",
+        "ipa": "/ɡaɪd/",
+        "pos": "n.",
+        "zh": "导游",
+        "example": "The guide spoke three languages.",
+        "emoji": "🗣️",
+        "cefr": "B1"
+      },
+      {
+        "word": "resort",
+        "ipa": "/rɪˈzɔːt/",
+        "pos": "n.",
+        "zh": "度假村",
+        "example": "The resort is beside the beach.",
+        "emoji": "🏖️",
+        "cefr": "B1"
+      },
+      {
+        "word": "landmark",
+        "ipa": "/ˈlændmɑːk/",
+        "pos": "n.",
+        "zh": "地标",
+        "example": "The tower is a famous landmark.",
+        "emoji": "🗼",
+        "cefr": "B1"
+      },
+      {
+        "word": "brochure",
+        "ipa": "/ˈbrəʊʃə(r)/",
+        "pos": "n.",
+        "zh": "宣传册",
+        "example": "The brochure lists all tours.",
+        "emoji": "📰",
+        "cefr": "B1"
+      },
+      {
+        "word": "reservation",
+        "ipa": "/ˌrezəˈveɪʃn/",
+        "pos": "n.",
+        "zh": "预订",
+        "example": "I made a reservation online.",
+        "emoji": "📅",
+        "cefr": "B1"
+      },
+      {
+        "word": "sightseeing",
+        "ipa": "/ˈsaɪtsiːɪŋ/",
+        "pos": "n.",
+        "zh": "观光",
+        "example": "We went sightseeing all morning.",
+        "emoji": "📷",
+        "cefr": "B1"
+      },
+      {
+        "word": "destination",
+        "ipa": "/ˌdestɪˈneɪʃn/",
+        "pos": "n.",
+        "zh": "目的地",
+        "example": "This island is a popular destination.",
+        "emoji": "📍",
+        "cefr": "B1"
+      },
+      {
+        "word": "cruise",
+        "ipa": "/kruːz/",
+        "pos": "n.",
+        "zh": "邮轮旅行",
+        "example": "They took a cruise in the summer.",
+        "emoji": "🛳️",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_food_culture",
+    "title": "饮食文化",
+    "emoji": "🍜",
+    "words": [
+      {
+        "word": "cuisine",
+        "ipa": "/kwɪˈziːn/",
+        "pos": "n.",
+        "zh": "菜系",
+        "example": "Sichuan cuisine is very spicy.",
+        "emoji": "🍜",
+        "cefr": "B1"
+      },
+      {
+        "word": "recipe",
+        "ipa": "/ˈresəpi/",
+        "pos": "n.",
+        "zh": "食谱",
+        "example": "This recipe needs four eggs.",
+        "emoji": "📖",
+        "cefr": "B1"
+      },
+      {
+        "word": "ingredient",
+        "ipa": "/ɪnˈɡriːdiənt/",
+        "pos": "n.",
+        "zh": "食材",
+        "example": "Fresh ingredients make a difference.",
+        "emoji": "🥕",
+        "cefr": "B1"
+      },
+      {
+        "word": "flavour",
+        "ipa": "/ˈfleɪvə(r)/",
+        "pos": "n.",
+        "zh": "风味",
+        "example": "The soup has a smoky flavour.",
+        "emoji": "😋",
+        "cefr": "B1"
+      },
+      {
+        "word": "roast",
+        "ipa": "/rəʊst/",
+        "pos": "v.",
+        "zh": "烤",
+        "example": "They roast the duck slowly.",
+        "emoji": "🍗",
+        "cefr": "B1"
+      },
+      {
+        "word": "boil",
+        "ipa": "/bɔɪl/",
+        "pos": "v.",
+        "zh": "水煮",
+        "example": "Boil the noodles for three minutes.",
+        "emoji": "🫕",
+        "cefr": "B1"
+      },
+      {
+        "word": "fry",
+        "ipa": "/fraɪ/",
+        "pos": "v.",
+        "zh": "煎炒",
+        "example": "Fry the onions in oil.",
+        "emoji": "🍳",
+        "cefr": "B1"
+      },
+      {
+        "word": "spice",
+        "ipa": "/spaɪs/",
+        "pos": "n.",
+        "zh": "香料",
+        "example": "This dish uses many spices.",
+        "emoji": "🌶️",
+        "cefr": "B1"
+      },
+      {
+        "word": "vegetarian",
+        "ipa": "/ˌvedʒəˈteəriən/",
+        "pos": "n.",
+        "zh": "素食者",
+        "example": "She has been a vegetarian for years.",
+        "emoji": "🥗",
+        "cefr": "B1"
+      },
+      {
+        "word": "nutrition",
+        "ipa": "/njuˈtrɪʃn/",
+        "pos": "n.",
+        "zh": "营养",
+        "example": "Good nutrition supports learning.",
+        "emoji": "🥦",
+        "cefr": "B1"
+      },
+      {
+        "word": "appetite",
+        "ipa": "/ˈæpɪtaɪt/",
+        "pos": "n.",
+        "zh": "食欲",
+        "example": "The walk gave me an appetite.",
+        "emoji": "🍽️",
+        "cefr": "B1"
+      },
+      {
+        "word": "banquet",
+        "ipa": "/ˈbæŋkwɪt/",
+        "pos": "n.",
+        "zh": "宴席",
+        "example": "A banquet was held for the guests.",
+        "emoji": "🥂",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_fitness",
+    "title": "健身锻炼",
+    "emoji": "🏋️",
+    "words": [
+      {
+        "word": "fitness",
+        "ipa": "/ˈfɪtnəs/",
+        "pos": "n.",
+        "zh": "健身",
+        "example": "She works on fitness every morning.",
+        "emoji": "🏋️",
+        "cefr": "B1"
+      },
+      {
+        "word": "workout",
+        "ipa": "/ˈwɜːkaʊt/",
+        "pos": "n.",
+        "zh": "锻炼",
+        "example": "My workout takes an hour.",
+        "emoji": "💪",
+        "cefr": "B1"
+      },
+      {
+        "word": "muscle",
+        "ipa": "/ˈmʌsl/",
+        "pos": "n.",
+        "zh": "肌肉",
+        "example": "Lifting builds muscle.",
+        "emoji": "🦵",
+        "cefr": "B1"
+      },
+      {
+        "word": "stretch",
+        "ipa": "/stretʃ/",
+        "pos": "v.",
+        "zh": "拉伸",
+        "example": "Stretch before you run.",
+        "emoji": "🤸",
+        "cefr": "B1"
+      },
+      {
+        "word": "cardio",
+        "ipa": "/ˈkɑːdiəʊ/",
+        "pos": "n.",
+        "zh": "有氧运动",
+        "example": "Running is good cardio.",
+        "emoji": "🏃",
+        "cefr": "B1"
+      },
+      {
+        "word": "yoga",
+        "ipa": "/ˈjəʊɡə/",
+        "pos": "n.",
+        "zh": "瑜伽",
+        "example": "Yoga helps me relax.",
+        "emoji": "🧘",
+        "cefr": "B1"
+      },
+      {
+        "word": "dumbbell",
+        "ipa": "/ˈdʌmbel/",
+        "pos": "n.",
+        "zh": "哑铃",
+        "example": "He lifts light dumbbells first.",
+        "emoji": "🏋️‍♂️",
+        "cefr": "B1"
+      },
+      {
+        "word": "endurance",
+        "ipa": "/ɪnˈdjʊərəns/",
+        "pos": "n.",
+        "zh": "耐力",
+        "example": "Long runs build endurance.",
+        "emoji": "⏱️",
+        "cefr": "B1"
+      },
+      {
+        "word": "calorie",
+        "ipa": "/ˈkæləri/",
+        "pos": "n.",
+        "zh": "卡路里",
+        "example": "This meal has 500 calories.",
+        "emoji": "🔢",
+        "cefr": "B1"
+      },
+      {
+        "word": "posture",
+        "ipa": "/ˈpɒstʃə(r)/",
+        "pos": "n.",
+        "zh": "姿势",
+        "example": "Good posture protects your back.",
+        "emoji": "🧍",
+        "cefr": "B1"
+      },
+      {
+        "word": "injury",
+        "ipa": "/ˈɪndʒəri/",
+        "pos": "n.",
+        "zh": "受伤",
+        "example": "He recovered from a knee injury.",
+        "emoji": "🩹",
+        "cefr": "B1"
+      },
+      {
+        "word": "coach",
+        "ipa": "/kəʊtʃ/",
+        "pos": "n.",
+        "zh": "教练",
+        "example": "The coach changed the training plan.",
+        "emoji": "📣",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_mental",
+    "title": "心理健康",
+    "emoji": "🧠",
+    "words": [
+      {
+        "word": "stress",
+        "ipa": "/stres/",
+        "pos": "n.",
+        "zh": "压力",
+        "example": "Exam stress affects sleep.",
+        "emoji": "😰",
+        "cefr": "B1"
+      },
+      {
+        "word": "anxiety",
+        "ipa": "/æŋˈzaɪəti/",
+        "pos": "n.",
+        "zh": "焦虑",
+        "example": "He feels anxiety before speaking.",
+        "emoji": "😟",
+        "cefr": "B1"
+      },
+      {
+        "word": "depression",
+        "ipa": "/dɪˈpreʃn/",
+        "pos": "n.",
+        "zh": "抑郁",
+        "example": "Depression needs proper treatment.",
+        "emoji": "🌧️",
+        "cefr": "B1"
+      },
+      {
+        "word": "therapy",
+        "ipa": "/ˈθerəpi/",
+        "pos": "n.",
+        "zh": "治疗",
+        "example": "Talking therapy helped her a lot.",
+        "emoji": "🛋️",
+        "cefr": "B1"
+      },
+      {
+        "word": "counselling",
+        "ipa": "/ˈkaʊnsəlɪŋ/",
+        "pos": "n.",
+        "zh": "心理咨询",
+        "example": "The school offers free counselling.",
+        "emoji": "💬",
+        "cefr": "B1"
+      },
+      {
+        "word": "relax",
+        "ipa": "/rɪˈlæks/",
+        "pos": "v.",
+        "zh": "放松",
+        "example": "Music helps me relax.",
+        "emoji": "😌",
+        "cefr": "B1"
+      },
+      {
+        "word": "meditation",
+        "ipa": "/ˌmedɪˈteɪʃn/",
+        "pos": "n.",
+        "zh": "冥想",
+        "example": "Ten minutes of meditation is enough.",
+        "emoji": "🧘",
+        "cefr": "B1"
+      },
+      {
+        "word": "mindset",
+        "ipa": "/ˈmaɪndset/",
+        "pos": "n.",
+        "zh": "心态",
+        "example": "A positive mindset changes results.",
+        "emoji": "🧠",
+        "cefr": "B1"
+      },
+      {
+        "word": "motivation",
+        "ipa": "/ˌməʊtɪˈveɪʃn/",
+        "pos": "n.",
+        "zh": "动力",
+        "example": "He lost motivation after failing.",
+        "emoji": "🔥",
+        "cefr": "B1"
+      },
+      {
+        "word": "burnout",
+        "ipa": "/ˈbɜːnaʊt/",
+        "pos": "n.",
+        "zh": "倦怠",
+        "example": "Long hours led to burnout.",
+        "emoji": "🕯️",
+        "cefr": "B1"
+      },
+      {
+        "word": "resilience",
+        "ipa": "/rɪˈzɪliəns/",
+        "pos": "n.",
+        "zh": "抗压能力",
+        "example": "Children need resilience.",
+        "emoji": "🌱",
+        "cefr": "B1"
+      },
+      {
+        "word": "balance",
+        "ipa": "/ˈbæləns/",
+        "pos": "n.",
+        "zh": "平衡",
+        "example": "Find a balance between work and rest.",
+        "emoji": "⚖️",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_psychology",
+    "title": "心理与认知",
+    "emoji": "🔍",
+    "words": [
+      {
+        "word": "psychology",
+        "ipa": "/saɪˈkɒlədʒi/",
+        "pos": "n.",
+        "zh": "心理学",
+        "example": "She studies psychology at university.",
+        "emoji": "🔍",
+        "cefr": "B1"
+      },
+      {
+        "word": "behaviour",
+        "ipa": "/bɪˈheɪvjə(r)/",
+        "pos": "n.",
+        "zh": "行为",
+        "example": "His behaviour changed suddenly.",
+        "emoji": "🚶",
+        "cefr": "B1"
+      },
+      {
+        "word": "cognitive",
+        "ipa": "/ˈkɒɡnətɪv/",
+        "pos": "adj.",
+        "zh": "认知的",
+        "example": "Reading improves cognitive skills.",
+        "emoji": "🧩",
+        "cefr": "B1"
+      },
+      {
+        "word": "memory",
+        "ipa": "/ˈmeməri/",
+        "pos": "n.",
+        "zh": "记忆",
+        "example": "My memory is better in the morning.",
+        "emoji": "💭",
+        "cefr": "B1"
+      },
+      {
+        "word": "perception",
+        "ipa": "/pəˈsepʃn/",
+        "pos": "n.",
+        "zh": "知觉",
+        "example": "Colour affects perception of taste.",
+        "emoji": "👁️",
+        "cefr": "B1"
+      },
+      {
+        "word": "personality",
+        "ipa": "/ˌpɜːsəˈnæləti/",
+        "pos": "n.",
+        "zh": "性格",
+        "example": "Twins can have different personalities.",
+        "emoji": "🎭",
+        "cefr": "B1"
+      },
+      {
+        "word": "stimulus",
+        "ipa": "/ˈstɪmjələs/",
+        "pos": "n.",
+        "zh": "刺激",
+        "example": "Light is a stimulus for the eye.",
+        "emoji": "⚡",
+        "cefr": "B1"
+      },
+      {
+        "word": "instinct",
+        "ipa": "/ˈɪnstɪŋkt/",
+        "pos": "n.",
+        "zh": "本能",
+        "example": "Birds build nests by instinct.",
+        "emoji": "🐦",
+        "cefr": "B1"
+      },
+      {
+        "word": "conscious",
+        "ipa": "/ˈkɒnʃəs/",
+        "pos": "adj.",
+        "zh": "有意识的",
+        "example": "He was conscious of the danger.",
+        "emoji": "💡",
+        "cefr": "B1"
+      },
+      {
+        "word": "reinforce",
+        "ipa": "/ˌriːɪnˈfɔːs/",
+        "pos": "v.",
+        "zh": "强化",
+        "example": "Praise reinforces good habits.",
+        "emoji": "🔁",
+        "cefr": "B1"
+      },
+      {
+        "word": "bias",
+        "ipa": "/ˈbaɪəs/",
+        "pos": "n.",
+        "zh": "偏见",
+        "example": "The test has a cultural bias.",
+        "emoji": "⚖️",
+        "cefr": "B1"
+      },
+      {
+        "word": "attention",
+        "ipa": "/əˈtenʃn/",
+        "pos": "n.",
+        "zh": "注意力",
+        "example": "Noise reduces attention.",
+        "emoji": "🎯",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_history",
+    "title": "历史文明",
+    "emoji": "🏺",
+    "words": [
+      {
+        "word": "history",
+        "ipa": "/ˈhɪstri/",
+        "pos": "n.",
+        "zh": "历史",
+        "example": "He teaches history at school.",
+        "emoji": "🏺",
+        "cefr": "B1"
+      },
+      {
+        "word": "ancient",
+        "ipa": "/ˈeɪnʃənt/",
+        "pos": "adj.",
+        "zh": "古代的",
+        "example": "Ancient walls surround the town.",
+        "emoji": "🏛️",
+        "cefr": "B1"
+      },
+      {
+        "word": "dynasty",
+        "ipa": "/ˈdɪnəsti/",
+        "pos": "n.",
+        "zh": "朝代",
+        "example": "The dynasty ruled for 300 years.",
+        "emoji": "👑",
+        "cefr": "B1"
+      },
+      {
+        "word": "empire",
+        "ipa": "/ˈempaɪə(r)/",
+        "pos": "n.",
+        "zh": "帝国",
+        "example": "The empire covered half the region.",
+        "emoji": "🗺️",
+        "cefr": "B1"
+      },
+      {
+        "word": "revolution",
+        "ipa": "/ˌrevəˈluːʃn/",
+        "pos": "n.",
+        "zh": "革命",
+        "example": "The revolution changed everything.",
+        "emoji": "✊",
+        "cefr": "B1"
+      },
+      {
+        "word": "century",
+        "ipa": "/ˈsentʃəri/",
+        "pos": "n.",
+        "zh": "世纪",
+        "example": "The bridge is a century old.",
+        "emoji": "📅",
+        "cefr": "B1"
+      },
+      {
+        "word": "civilization",
+        "ipa": "/ˌsɪvəlaɪˈzeɪʃn/",
+        "pos": "n.",
+        "zh": "文明",
+        "example": "The river fed a great civilization.",
+        "emoji": "🏙️",
+        "cefr": "B1"
+      },
+      {
+        "word": "archaeologist",
+        "ipa": "/ˌɑːkiˈɒlədʒɪst/",
+        "pos": "n.",
+        "zh": "考古学家",
+        "example": "Archaeologists found a buried city.",
+        "emoji": "⛏️",
+        "cefr": "B1"
+      },
+      {
+        "word": "relic",
+        "ipa": "/ˈrelɪk/",
+        "pos": "n.",
+        "zh": "遗迹",
+        "example": "The museum shows ancient relics.",
+        "emoji": "🗿",
+        "cefr": "B1"
+      },
+      {
+        "word": "medieval",
+        "ipa": "/ˌmediˈiːvl/",
+        "pos": "adj.",
+        "zh": "中世纪的",
+        "example": "The town has a medieval centre.",
+        "emoji": "🏰",
+        "cefr": "B1"
+      },
+      {
+        "word": "colony",
+        "ipa": "/ˈkɒləni/",
+        "pos": "n.",
+        "zh": "殖民地",
+        "example": "The colony gained independence.",
+        "emoji": "🚩",
+        "cefr": "B1"
+      },
+      {
+        "word": "heritage",
+        "ipa": "/ˈherɪtɪdʒ/",
+        "pos": "n.",
+        "zh": "遗产",
+        "example": "The old town is a world heritage site.",
+        "emoji": "🎗️",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_geography",
+    "title": "地理地貌",
+    "emoji": "🗺️",
+    "words": [
+      {
+        "word": "geography",
+        "ipa": "/dʒiˈɒɡrəfi/",
+        "pos": "n.",
+        "zh": "地理",
+        "example": "Geography was my favourite subject.",
+        "emoji": "🗺️",
+        "cefr": "B1"
+      },
+      {
+        "word": "continent",
+        "ipa": "/ˈkɒntɪnənt/",
+        "pos": "n.",
+        "zh": "大陆",
+        "example": "Africa is a large continent.",
+        "emoji": "🌍",
+        "cefr": "B1"
+      },
+      {
+        "word": "equator",
+        "ipa": "/ɪˈkweɪtə(r)/",
+        "pos": "n.",
+        "zh": "赤道",
+        "example": "The equator crosses this country.",
+        "emoji": "➖",
+        "cefr": "B1"
+      },
+      {
+        "word": "latitude",
+        "ipa": "/ˈlætɪtjuːd/",
+        "pos": "n.",
+        "zh": "纬度",
+        "example": "This city is at a high latitude.",
+        "emoji": "📐",
+        "cefr": "B1"
+      },
+      {
+        "word": "longitude",
+        "ipa": "/ˈlɒndʒɪtjuːd/",
+        "pos": "n.",
+        "zh": "经度",
+        "example": "Longitude is measured in degrees.",
+        "emoji": "🧭",
+        "cefr": "B1"
+      },
+      {
+        "word": "terrain",
+        "ipa": "/təˈreɪn/",
+        "pos": "n.",
+        "zh": "地形",
+        "example": "The terrain is rough and steep.",
+        "emoji": "⛰️",
+        "cefr": "B1"
+      },
+      {
+        "word": "population",
+        "ipa": "/ˌpɒpjuˈleɪʃn/",
+        "pos": "n.",
+        "zh": "人口",
+        "example": "The population is growing fast.",
+        "emoji": "👥",
+        "cefr": "B1"
+      },
+      {
+        "word": "urban",
+        "ipa": "/ˈɜːbən/",
+        "pos": "adj.",
+        "zh": "城市的",
+        "example": "Urban areas have more jobs.",
+        "emoji": "🏙️",
+        "cefr": "B1"
+      },
+      {
+        "word": "altitude",
+        "ipa": "/ˈæltɪtjuːd/",
+        "pos": "n.",
+        "zh": "海拔",
+        "example": "At this altitude the air is thin.",
+        "emoji": "🏔️",
+        "cefr": "B1"
+      },
+      {
+        "word": "border",
+        "ipa": "/ˈbɔːdə(r)/",
+        "pos": "n.",
+        "zh": "边界",
+        "example": "We crossed the border at night.",
+        "emoji": "🚧",
+        "cefr": "B1"
+      },
+      {
+        "word": "region",
+        "ipa": "/ˈriːdʒən/",
+        "pos": "n.",
+        "zh": "地区",
+        "example": "This region produces good wine.",
+        "emoji": "📍",
+        "cefr": "B1"
+      },
+      {
+        "word": "hemisphere",
+        "ipa": "/ˈhemɪsfɪə(r)/",
+        "pos": "n.",
+        "zh": "半球",
+        "example": "Summer comes in December here.",
+        "emoji": "🌐",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_literature",
+    "title": "文学阅读",
+    "emoji": "📚",
+    "words": [
+      {
+        "word": "literature",
+        "ipa": "/ˈlɪtrətʃə(r)/",
+        "pos": "n.",
+        "zh": "文学",
+        "example": "She studies English literature.",
+        "emoji": "📚",
+        "cefr": "B1"
+      },
+      {
+        "word": "poetry",
+        "ipa": "/ˈpəʊətri/",
+        "pos": "n.",
+        "zh": "诗歌",
+        "example": "He writes poetry in his free time.",
+        "emoji": "🪶",
+        "cefr": "B1"
+      },
+      {
+        "word": "novelist",
+        "ipa": "/ˈnɒvəlɪst/",
+        "pos": "n.",
+        "zh": "小说家",
+        "example": "The novelist won a major prize.",
+        "emoji": "✍️",
+        "cefr": "B1"
+      },
+      {
+        "word": "character",
+        "ipa": "/ˈkærəktə(r)/",
+        "pos": "n.",
+        "zh": "角色",
+        "example": "My favourite character dies early.",
+        "emoji": "🎭",
+        "cefr": "B1"
+      },
+      {
+        "word": "plot",
+        "ipa": "/plɒt/",
+        "pos": "n.",
+        "zh": "情节",
+        "example": "The plot is easy to follow.",
+        "emoji": "🧩",
+        "cefr": "B1"
+      },
+      {
+        "word": "metaphor",
+        "ipa": "/ˈmetəfə(r)/",
+        "pos": "n.",
+        "zh": "隐喻",
+        "example": "The poem uses a simple metaphor.",
+        "emoji": "💭",
+        "cefr": "B1"
+      },
+      {
+        "word": "narrative",
+        "ipa": "/ˈnærətɪv/",
+        "pos": "n.",
+        "zh": "叙事",
+        "example": "The narrative jumps between years.",
+        "emoji": "📖",
+        "cefr": "B1"
+      },
+      {
+        "word": "rhythm",
+        "ipa": "/ˈrɪðəm/",
+        "pos": "n.",
+        "zh": "韵律",
+        "example": "The rhythm makes it easy to read.",
+        "emoji": "🥁",
+        "cefr": "B1"
+      },
+      {
+        "word": "tragedy",
+        "ipa": "/ˈtrædʒədi/",
+        "pos": "n.",
+        "zh": "悲剧",
+        "example": "The play is a classic tragedy.",
+        "emoji": "🥀",
+        "cefr": "B1"
+      },
+      {
+        "word": "comedy",
+        "ipa": "/ˈkɒmədi/",
+        "pos": "n.",
+        "zh": "喜剧",
+        "example": "We watched a comedy last night.",
+        "emoji": "😄",
+        "cefr": "B1"
+      },
+      {
+        "word": "manuscript",
+        "ipa": "/ˈmænjuskrɪpt/",
+        "pos": "n.",
+        "zh": "手稿",
+        "example": "The manuscript was never finished.",
+        "emoji": "📜",
+        "cefr": "B1"
+      },
+      {
+        "word": "publish",
+        "ipa": "/ˈpʌblɪʃ/",
+        "pos": "v.",
+        "zh": "出版",
+        "example": "They publish two books a year.",
+        "emoji": "🖨️",
+        "cefr": "B1"
+      }
+    ]
+  },
+  {
+    "id": "l5b_philosophy",
+    "title": "哲学思辨",
+    "emoji": "💭",
+    "words": [
+      {
+        "word": "philosophy",
+        "ipa": "/fəˈlɒsəfi/",
+        "pos": "n.",
+        "zh": "哲学",
+        "example": "He reads philosophy before bed.",
+        "emoji": "💭",
+        "cefr": "B1"
+      },
+      {
+        "word": "logic",
+        "ipa": "/ˈlɒdʒɪk/",
+        "pos": "n.",
+        "zh": "逻辑",
+        "example": "There is no logic in that answer.",
+        "emoji": "🧩",
+        "cefr": "B1"
+      },
+      {
+        "word": "ethics",
+        "ipa": "/ˈeθɪks/",
+        "pos": "n.",
+        "zh": "伦理",
+        "example": "Medical ethics guides doctors.",
+        "emoji": "⚖️",
+        "cefr": "B1"
+      },
+      {
+        "word": "morality",
+        "ipa": "/məˈræləti/",
+        "pos": "n.",
+        "zh": "道德",
+        "example": "They debated the morality of the law.",
+        "emoji": "🕊️",
+        "cefr": "B1"
+      },
+      {
+        "word": "existence",
+        "ipa": "/ɪɡˈzɪstəns/",
+        "pos": "n.",
+        "zh": "存在",
+        "example": "He questioned the existence of free will.",
+        "emoji": "🌌",
+        "cefr": "B1"
+      },
+      {
+        "word": "truth",
+        "ipa": "/truːθ/",
+        "pos": "n.",
+        "zh": "真理",
+        "example": "She finally learned the truth.",
+        "emoji": "🔍",
+        "cefr": "B1"
+      },
+      {
+        "word": "wisdom",
+        "ipa": "/ˈwɪzdəm/",
+        "pos": "n.",
+        "zh": "智慧",
+        "example": "Old books still hold wisdom.",
+        "emoji": "🦉",
+        "cefr": "B1"
+      },
+      {
+        "word": "argument",
+        "ipa": "/ˈɑːɡjumənt/",
+        "pos": "n.",
+        "zh": "论证",
+        "example": "His argument was very strong.",
+        "emoji": "🗣️",
+        "cefr": "B1"
+      },
+      {
+        "word": "paradox",
+        "ipa": "/ˈpærədɒks/",
+        "pos": "n.",
+        "zh": "悖论",
+        "example": "The statement is a paradox.",
+        "emoji": "♾️",
+        "cefr": "B1"
+      },
+      {
+        "word": "ideology",
+        "ipa": "/ˌaɪdiˈɒlədʒi/",
+        "pos": "n.",
+        "zh": "意识形态",
+        "example": "The party changed its ideology.",
+        "emoji": "🚩",
+        "cefr": "B1"
+      },
+      {
+        "word": "principle",
+        "ipa": "/ˈprɪnsəpl/",
+        "pos": "n.",
+        "zh": "原则",
+        "example": "He refuses to break his principles.",
+        "emoji": "🧱",
+        "cefr": "B1"
+      },
+      {
+        "word": "rational",
+        "ipa": "/ˈræʃnəl/",
+        "pos": "adj.",
+        "zh": "理性的",
+        "example": "We need a rational decision.",
+        "emoji": "🧠",
+        "cefr": "B1"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1152 @@
+[
+  {
+    "id": "l5c_academic_verbs",
+    "title": "学术动词",
+    "emoji": "📘",
+    "words": [
+      {
+        "word": "assess",
+        "ipa": "/əˈses/",
+        "pos": "v.",
+        "zh": "评估",
+        "example": "The study assesses the impact of remote work.",
+        "emoji": "📊",
+        "cefr": "B2"
+      },
+      {
+        "word": "imply",
+        "ipa": "/ɪmˈplaɪ/",
+        "pos": "v.",
+        "zh": "暗示；意味着",
+        "example": "The results imply a strong link between the two.",
+        "emoji": "💭",
+        "cefr": "B2"
+      },
+      {
+        "word": "derive",
+        "ipa": "/dɪˈraɪv/",
+        "pos": "v.",
+        "zh": "得出；源于",
+        "example": "These figures are derived from official data.",
+        "emoji": "🧮",
+        "cefr": "B2"
+      },
+      {
+        "word": "constitute",
+        "ipa": "/ˈkɒnstɪtjuːt/",
+        "pos": "v.",
+        "zh": "构成",
+        "example": "Women constitute half of the workforce.",
+        "emoji": "🧱",
+        "cefr": "B2"
+      },
+      {
+        "word": "pursue",
+        "ipa": "/pəˈsjuː/",
+        "pos": "v.",
+        "zh": "追求；从事",
+        "example": "She decided to pursue a career in research.",
+        "emoji": "🎯",
+        "cefr": "B2"
+      },
+      {
+        "word": "indicate",
+        "ipa": "/ˈɪndɪkeɪt/",
+        "pos": "v.",
+        "zh": "表明；指示",
+        "example": "Recent surveys indicate a change in attitude.",
+        "emoji": "📌",
+        "cefr": "B2"
+      },
+      {
+        "word": "demonstrate",
+        "ipa": "/ˈdemənstreɪt/",
+        "pos": "v.",
+        "zh": "证明；演示",
+        "example": "The experiment demonstrates how heat moves.",
+        "emoji": "🔬",
+        "cefr": "B2"
+      },
+      {
+        "word": "establish",
+        "ipa": "/ɪˈstæblɪʃ/",
+        "pos": "v.",
+        "zh": "建立；确立",
+        "example": "The two sides established a formal agreement.",
+        "emoji": "🏛️",
+        "cefr": "B2"
+      },
+      {
+        "word": "maintain",
+        "ipa": "/meɪnˈteɪn/",
+        "pos": "v.",
+        "zh": "主张；维持",
+        "example": "The author maintains that the policy failed.",
+        "emoji": "⚖️",
+        "cefr": "B2"
+      },
+      {
+        "word": "reveal",
+        "ipa": "/rɪˈviːl/",
+        "pos": "v.",
+        "zh": "揭示",
+        "example": "The report reveals a gap between rich and poor.",
+        "emoji": "🔓",
+        "cefr": "B2"
+      },
+      {
+        "word": "assume",
+        "ipa": "/əˈsjuːm/",
+        "pos": "v.",
+        "zh": "假设；承担",
+        "example": "Let us assume the cost stays the same.",
+        "emoji": "🤔",
+        "cefr": "B2"
+      },
+      {
+        "word": "conclude",
+        "ipa": "/kənˈkluːd/",
+        "pos": "v.",
+        "zh": "得出结论；结束",
+        "example": "The researchers concluded that more data is needed.",
+        "emoji": "🏁",
+        "cefr": "B2"
+      }
+    ]
+  },
+  {
+    "id": "l5c_analysis_verbs",
+    "title": "分析动词",
+    "emoji": "🔍",
+    "words": [
+      {
+        "word": "analyse",
+        "ipa": "/ˈænəlaɪz/",
+        "pos": "v.",
+        "zh": "分析",
+        "example": "We analysed the data from three schools.",
+        "emoji": "🧪",
+        "cefr": "B2"
+      },
+      {
+        "word": "compare",
+        "ipa": "/kəmˈpeə(r)/",
+        "pos": "v.",
+        "zh": "比较",
+        "example": "Compare the two charts carefully.",
+        "emoji": "⚖️",
+        "cefr": "B2"
+      },
+      {
+        "word": "contrast",
+        "ipa": "/kənˈtrɑːst/",
+        "pos": "v.",
+        "zh": "对照；形成对比",
+        "example": "The essay contrasts city life with country life.",
+        "emoji": "🔲",
+        "cefr": "B2"
+      },
+      {
+        "word": "classify",
+        "ipa": "/ˈklæsɪfaɪ/",
+        "pos": "v.",
+        "zh": "分类",
+        "example": "Scientists classify these animals by diet.",
+        "emoji": "🗂️",
+        "cefr": "B2"
+      },
+      {
+        "word": "evaluate",
+        "ipa": "/ɪˈvæljueɪt/",
+        "pos": "v.",
+        "zh": "评价；评估",
+        "example": "Teachers evaluate students at the end of term.",
+        "emoji": "📋",
+        "cefr": "B2"
+      },
+      {
+        "word": "examine",
+        "ipa": "/ɪɡˈzæmɪn/",
+        "pos": "v.",
+        "zh": "审查；检查",
+        "example": "The paper examines how children learn words.",
+        "emoji": "🔎",
+        "cefr": "B2"
+      },
+      {
+        "word": "identify",
+        "ipa": "/aɪˈdentɪfaɪ/",
+        "pos": "v.",
+        "zh": "识别；确定",
+        "example": "The survey identified three main problems.",
+        "emoji": "🎯",
+        "cefr": "B2"
+      },
+      {
+        "word": "interpret",
+        "ipa": "/ɪnˈtɜːprɪt/",
+        "pos": "v.",
+        "zh": "解释；理解",
+        "example": "Different readers interpret the poem in different ways.",
+        "emoji": "🧠",
+        "cefr": "B2"
+      },
+      {
+        "word": "measure",
+        "ipa": "/ˈmeʒə(r)/",
+        "pos": "v.",
+        "zh": "测量；衡量",
+        "example": "It is hard to measure happiness.",
+        "emoji": "📏",
+        "cefr": "B2"
+      },
+      {
+        "word": "estimate",
+        "ipa": "/ˈestɪmeɪt/",
+        "pos": "v.",
+        "zh": "估计",
+        "example": "Experts estimate the cost at ten million.",
+        "emoji": "📐",
+        "cefr": "B2"
+      },
+      {
+        "word": "verify",
+        "ipa": "/ˈverɪfaɪ/",
+        "pos": "v.",
+        "zh": "核实",
+        "example": "Please verify the figures before publishing.",
+        "emoji": "✔️",
+        "cefr": "B2"
+      },
+      {
+        "word": "summarise",
+        "ipa": "/ˈsʌməraɪz/",
+        "pos": "v.",
+        "zh": "概括",
+        "example": "Summarise the passage in two sentences.",
+        "emoji": "📝",
+        "cefr": "B2"
+      }
+    ]
+  },
+  {
+    "id": "l5c_abstract_adj",
+    "title": "抽象形容词",
+    "emoji": "🎭",
+    "words": [
+      {
+        "word": "crucial",
+        "ipa": "/ˈkruːʃl/",
+        "pos": "adj.",
+        "zh": "关键的",
+        "example": "Sleep is crucial for memory.",
+        "emoji": "🔑",
+        "cefr": "B2"
+      },
+      {
+        "word": "subtle",
+        "ipa": "/ˈsʌtl/",
+        "pos": "adj.",
+        "zh": "微妙的",
+        "example": "There is a subtle difference between the two words.",
+        "emoji": "🪶",
+        "cefr": "B2"
+      },
+      {
+        "word": "plausible",
+        "ipa": "/ˈplɔːzəbl/",
+        "pos": "adj.",
+        "zh": "看似合理的",
+        "example": "That sounds plausible, but we need proof.",
+        "emoji": "🤝",
+        "cefr": "B2"
+      },
+      {
+        "word": "reluctant",
+        "ipa": "/rɪˈlʌktənt/",
+        "pos": "adj.",
+        "zh": "不情愿的",
+        "example": "He was reluctant to admit his mistake.",
+        "emoji": "😕",
+        "cefr": "B2"
+      },
+      {
+        "word": "evident",
+        "ipa": "/ˈevɪdənt/",
+        "pos": "adj.",
+        "zh": "明显的",
+        "example": "It is evident that the plan needs more work.",
+        "emoji": "💡",
+        "cefr": "B2"
+      },
+      {
+        "word": "ambiguous",
+        "ipa": "/æmˈbɪɡjuəs/",
+        "pos": "adj.",
+        "zh": "含糊的",
+        "example": "The question was ambiguous and confused everyone.",
+        "emoji": "❓",
+        "cefr": "B2"
+      },
+      {
+        "word": "consistent",
+        "ipa": "/kənˈsɪstənt/",
+        "pos": "adj.",
+        "zh": "一致的；始终如一的",
+        "example": "Her results are consistent across all tests.",
+        "emoji": "📊",
+        "cefr": "B2"
+      },
+      {
+        "word": "relevant",
+        "ipa": "/ˈreləvənt/",
+        "pos": "adj.",
+        "zh": "相关的",
+        "example": "Please attach only relevant documents.",
+        "emoji": "🔗",
+        "cefr": "B2"
+      },
+      {
+        "word": "significant",
+        "ipa": "/sɪɡˈnɪfɪkənt/",
+        "pos": "adj.",
+        "zh": "重要的；显著的",
+        "example": "There was a significant rise in sales.",
+        "emoji": "📈",
+        "cefr": "B2"
+      },
+      {
+        "word": "apparent",
+        "ipa": "/əˈpærənt/",
+        "pos": "adj.",
+        "zh": "明显的；表面的",
+        "example": "The reason soon became apparent.",
+        "emoji": "👁️",
+        "cefr": "B2"
+      },
+      {
+        "word": "essential",
+        "ipa": "/ɪˈsenʃl/",
+        "pos": "adj.",
+        "zh": "必不可少的",
+        "example": "Water is essential to life.",
+        "emoji": "💧",
+        "cefr": "B2"
+      },
+      {
+        "word": "potential",
+        "ipa": "/pəˈtenʃl/",
+        "pos": "adj.",
+        "zh": "潜在的",
+        "example": "We must consider the potential risks.",
+        "emoji": "🌱",
+        "cefr": "B2"
+      }
+    ]
+  },
+  {
+    "id": "l5c_evaluation_adj",
+    "title": "评价形容词",
+    "emoji": "⚖️",
+    "words": [
+      {
+        "word": "adequate",
+        "ipa": "/ˈædɪkwət/",
+        "pos": "adj.",
+        "zh": "足够的；适当的",
+        "example": "The room was small but adequate.",
+        "emoji": "🪑",
+        "cefr": "B2"
+      },
+      {
+        "word": "accurate",
+        "ipa": "/ˈækjərət/",
+        "pos": "adj.",
+        "zh": "准确的",
+        "example": "The map is accurate to the metre.",
+        "emoji": "🎯",
+        "cefr": "B2"
+      },
+      {
+        "word": "efficient",
+        "ipa": "/ɪˈfɪʃnt/",
+        "pos": "adj.",
+        "zh": "高效的",
+        "example": "This method is faster and more efficient.",
+        "emoji": "⚡",
+        "cefr": "B2"
+      },
+      {
+        "word": "flexible",
+        "ipa": "/ˈfleksəbl/",
+        "pos": "adj.",
+        "zh": "灵活的",
+        "example": "The schedule is flexible enough for everyone.",
+        "emoji": "🧘",
+        "cefr": "B2"
+      },
+      {
+        "word": "reliable",
+        "ipa": "/rɪˈlaɪəbl/",
+        "pos": "adj.",
+        "zh": "可靠的",
+        "example": "We need reliable data, not guesses.",
+        "emoji": "🛡️",
+        "cefr": "B2"
+      },
+      {
+        "word": "reasonable",
+        "ipa": "/ˈriːznəbl/",
+        "pos": "adj.",
+        "zh": "合理的",
+        "example": "The price seems reasonable for this quality.",
+        "emoji": "🤝",
+        "cefr": "B2"
+      },
+      {
+        "word": "sufficient",
+        "ipa": "/səˈfɪʃnt/",
+        "pos": "adj.",
+        "zh": "充足的",
+        "example": "There is sufficient evidence to support the claim.",
+        "emoji": "📦",
+        "cefr": "B2"
+      },
+      {
+        "word": "valid",
+        "ipa": "/ˈvælɪd/",
+        "pos": "adj.",
+        "zh": "有效的；成立的",
+        "example": "Your ticket is valid for one month.",
+        "emoji": "🎫",
+        "cefr": "B2"
+      },
+      {
+        "word": "appropriate",
+        "ipa": "/əˈprəʊpriət/",
+        "pos": "adj.",
+        "zh": "恰当的",
+        "example": "Choose an appropriate title for the essay.",
+        "emoji": "✅",
+        "cefr": "B2"
+      },
+      {
+        "word": "complex",
+        "ipa": "/ˈkɒmpleks/",
+        "pos": "adj.",
+        "zh": "复杂的",
+        "example": "The issue is more complex than it looks.",
+        "emoji": "🧩",
+        "cefr": "B2"
+      },
+      {
+        "word": "specific",
+        "ipa": "/spəˈsɪfɪk/",
+        "pos": "adj.",
+        "zh": "具体的；特定的",
+        "example": "Can you give a specific example?",
+        "emoji": "🔹",
+        "cefr": "B2"
+      },
+      {
+        "word": "typical",
+        "ipa": "/ˈtɪpɪkl/",
+        "pos": "adj.",
+        "zh": "典型的",
+        "example": "This is a typical mistake for beginners.",
+        "emoji": "📐",
+        "cefr": "B2"
+      }
+    ]
+  },
+  {
+    "id": "l5c_linkers",
+    "title": "书面连接词",
+    "emoji": "🔗",
+    "words": [
+      {
+        "word": "nevertheless",
+        "ipa": "/ˌnevəðəˈles/",
+        "pos": "adv.",
+        "zh": "然而；尽管如此",
+        "example": "The plan was risky; nevertheless, they went ahead.",
+        "emoji": "↔️",
+        "cefr": "B2"
+      },
+      {
+        "word": "furthermore",
+        "ipa": "/ˌfɜːðəˈmɔː(r)/",
+        "pos": "adv.",
+        "zh": "此外",
+        "example": "Furthermore, the cost has fallen sharply.",
+        "emoji": "➕",
+        "cefr": "B2"
+      },
+      {
+        "word": "consequently",
+        "ipa": "/ˈkɒnsɪkwəntli/",
+        "pos": "adv.",
+        "zh": "因此",
+        "example": "He missed the train and consequently arrived late.",
+        "emoji": "➡️",
+        "cefr": "B2"
+      },
+      {
+        "word": "whereas",
+        "ipa": "/ˌweərˈæz/",
+        "pos": "conj.",
+        "zh": "而；然而",
+        "example": "Sales rose in spring, whereas they fell in summer.",
+        "emoji": "⚖️",
+        "cefr": "B2"
+      },
+      {
+        "word": "moreover",
+        "ipa": "/mɔːrˈəʊvə(r)/",
+        "pos": "adv.",
+        "zh": "而且",
+        "example": "Moreover, the study had a large sample.",
+        "emoji": "🔁",
+        "cefr": "B2"
+      },
+      {
+        "word": "hence",
+        "ipa": "/hens/",
+        "pos": "adv.",
+        "zh": "因此",
+        "example": "The data were incomplete, hence the delay.",
+        "emoji": "➰",
+        "cefr": "B2"
+      },
+      {
+        "word": "thereby",
+        "ipa": "/ˌðeəˈbaɪ/",
+        "pos": "adv.",
+        "zh": "从而",
+        "example": "They cut waste, thereby saving money.",
+        "emoji": "🔗",
+        "cefr": "B2"
+      },
+      {
+        "word": "nonetheless",
+        "ipa": "/ˌnʌnðəˈles/",
+        "pos": "adv.",
+        "zh": "尽管如此",
+        "example": "The evidence is thin but nonetheless useful.",
+        "emoji": "🔄",
+        "cefr": "B2"
+      },
+      {
+        "word": "likewise",
+        "ipa": "/ˈlaɪkwaɪz/",
+        "pos": "adv.",
+        "zh": "同样地",
+        "example": "The second group improved; likewise, the third did too.",
+        "emoji": "🟰",
+        "cefr": "B2"
+      },
+      {
+        "word": "alternatively",
+        "ipa": "/ɔːlˈtɜːnətɪvli/",
+        "pos": "adv.",
+        "zh": "或者；作为替代",
+        "example": "Alternatively, you can submit the form online.",
+        "emoji": "🔀",
+        "cefr": "B2"
+      },
+      {
+        "word": "accordingly",
+        "ipa": "/əˈkɔːdɪŋli/",
+        "pos": "adv.",
+        "zh": "相应地；因此",
+        "example": "Prices changed and we adjusted the budget accordingly.",
+        "emoji": "📐",
+        "cefr": "B2"
+      },
+      {
+        "word": "subsequently",
+        "ipa": "/ˈsʌbsɪkwəntli/",
+        "pos": "adv.",
+        "zh": "随后",
+        "example": "He resigned and subsequently left the country.",
+        "emoji": "⏭️",
+        "cefr": "B2"
+      }
+    ]
+  },
+  {
+    "id": "l5c_abstract_nouns",
+    "title": "抽象名词",
+    "emoji": "💠",
+    "words": [
+      {
+        "word": "tendency",
+        "ipa": "/ˈtendənsi/",
+        "pos": "n.",
+        "zh": "趋势；倾向",
+        "example": "There is a tendency to overestimate risk.",
+        "emoji": "📈",
+        "cefr": "B2"
+      },
+      {
+        "word": "constraint",
+        "ipa": "/kənˈstreɪnt/",
+        "pos": "n.",
+        "zh": "限制；约束",
+        "example": "Time is the main constraint on this project.",
+        "emoji": "🔒",
+        "cefr": "B2"
+      },
+      {
+        "word": "notion",
+        "ipa": "/ˈnəʊʃn/",
+        "pos": "n.",
+        "zh": "观念；概念",
+        "example": "The notion of privacy has changed a lot.",
+        "emoji": "💭",
+        "cefr": "B2"
+      },
+      {
+        "word": "framework",
+        "ipa": "/ˈfreɪmwɜːk/",
+        "pos": "n.",
+        "zh": "框架",
+        "example": "The paper offers a framework for analysis.",
+        "emoji": "🏗️",
+        "cefr": "B2"
+      },
+      {
+        "word": "phenomenon",
+        "ipa": "/fəˈnɒmɪnən/",
+        "pos": "n.",
+        "zh": "现象",
+        "example": "Migration is a global phenomenon.",
+        "emoji": "🌐",
+        "cefr": "B2"
+      },
+      {
+        "word": "perspective",
+        "ipa": "/pəˈspektɪv/",
+        "pos": "n.",
+        "zh": "视角；观点",
+        "example": "Try to see the problem from another perspective.",
+        "emoji": "🔭",
+        "cefr": "B2"
+      },
+      {
+        "word": "implication",
+        "ipa": "/ˌɪmplɪˈkeɪʃn/",
+        "pos": "n.",
+        "zh": "含义；影响",
+        "example": "The findings have serious implications for schools.",
+        "emoji": "🌊",
+        "cefr": "B2"
+      },
+      {
+        "word": "assumption",
+        "ipa": "/əˈsʌmpʃn/",
+        "pos": "n.",
+        "zh": "假设",
+        "example": "The argument rests on a weak assumption.",
+        "emoji": "🧩",
+        "cefr": "B2"
+      },
+      {
+        "word": "criterion",
+        "ipa": "/kraɪˈtɪəriən/",
+        "pos": "n.",
+        "zh": "标准",
+        "example": "Cost is not the only criterion.",
+        "emoji": "📏",
+        "cefr": "B2"
+      },
+      {
+        "word": "dimension",
+        "ipa": "/daɪˈmenʃn/",
+        "pos": "n.",
+        "zh": "维度；方面",
+        "example": "Culture adds another dimension to the debate.",
+        "emoji": "🧊",
+        "cefr": "B2"
+      },
+      {
+        "word": "factor",
+        "ipa": "/ˈfæktə(r)/",
+        "pos": "n.",
+        "zh": "因素",
+        "example": "Price is a key factor in the decision.",
+        "emoji": "🔢",
+        "cefr": "B2"
+      },
+      {
+        "word": "outcome",
+        "ipa": "/ˈaʊtkʌm/",
+        "pos": "n.",
+        "zh": "结果",
+        "example": "No one could predict the outcome.",
+        "emoji": "🏁",
+        "cefr": "B2"
+      }
+    ]
+  },
+  {
+    "id": "l5c_reasoning",
+    "title": "论证表达",
+    "emoji": "🧩",
+    "words": [
+      {
+        "word": "argument",
+        "ipa": "/ˈɑːɡjumənt/",
+        "pos": "n.",
+        "zh": "论点；论证",
+        "example": "Her argument is clear and well supported.",
+        "emoji": "💬",
+        "cefr": "B2"
+      },
+      {
+        "word": "evidence",
+        "ipa": "/ˈevɪdəns/",
+        "pos": "n.",
+        "zh": "证据",
+        "example": "There is little evidence for this claim.",
+        "emoji": "🔍",
+        "cefr": "B2"
+      },
+      {
+        "word": "hypothesis",
+        "ipa": "/haɪˈpɒθəsɪs/",
+        "pos": "n.",
+        "zh": "假说",
+        "example": "The experiment tested a simple hypothesis.",
+        "emoji": "🧪",
+        "cefr": "B2"
+      },
+      {
+        "word": "conclusion",
+        "ipa": "/kənˈkluːʒn/",
+        "pos": "n.",
+        "zh": "结论",
+        "example": "The conclusion follows from the data.",
+        "emoji": "🏁",
+        "cefr": "B2"
+      },
+      {
+        "word": "premise",
+        "ipa": "/ˈpremɪs/",
+        "pos": "n.",
+        "zh": "前提",
+        "example": "The whole plan rests on a false premise.",
+        "emoji": "🧱",
+        "cefr": "B2"
+      },
+      {
+        "word": "inference",
+        "ipa": "/ˈɪnfərəns/",
+        "pos": "n.",
+        "zh": "推论",
+        "example": "That inference is too strong for the evidence.",
+        "emoji": "💡",
+        "cefr": "B2"
+      },
+      {
+        "word": "contradiction",
+        "ipa": "/ˌkɒntrəˈdɪkʃn/",
+        "pos": "n.",
+        "zh": "矛盾",
+        "example": "There is a contradiction between the two reports.",
+        "emoji": "⚡",
+        "cefr": "B2"
+      },
+      {
+        "word": "justification",
+        "ipa": "/ˌdʒʌstɪfɪˈkeɪʃn/",
+        "pos": "n.",
+        "zh": "正当理由",
+        "example": "There is no justification for such a fee.",
+        "emoji": "⚖️",
+        "cefr": "B2"
+      },
+      {
+        "word": "counterargument",
+        "ipa": "/ˈkaʊntərɑːɡjumənt/",
+        "pos": "n.",
+        "zh": "反论点",
+        "example": "The essay answers the main counterargument.",
+        "emoji": "🔁",
+        "cefr": "B2"
+      },
+      {
+        "word": "reasoning",
+        "ipa": "/ˈriːzənɪŋ/",
+        "pos": "n.",
+        "zh": "推理；论证过程",
+        "example": "The reasoning behind the decision is unclear.",
+        "emoji": "🧠",
+        "cefr": "B2"
+      },
+      {
+        "word": "claim",
+        "ipa": "/kleɪm/",
+        "pos": "n.",
+        "zh": "主张；声称",
+        "example": "The claim is interesting but unproven.",
+        "emoji": "📢",
+        "cefr": "B2"
+      },
+      {
+        "word": "objection",
+        "ipa": "/əbˈdʒekʃn/",
+        "pos": "n.",
+        "zh": "反对意见",
+        "example": "She raised an objection to the plan.",
+        "emoji": "✋",
+        "cefr": "B2"
+      }
+    ]
+  },
+  {
+    "id": "l5c_cause_effect",
+    "title": "因果表达",
+    "emoji": "⛓️",
+    "words": [
+      {
+        "word": "cause",
+        "ipa": "/kɔːz/",
+        "pos": "v.",
+        "zh": "引起；导致",
+        "example": "Heavy rain caused the flood.",
+        "emoji": "💥",
+        "cefr": "B2"
+      },
+      {
+        "word": "contribute",
+        "ipa": "/kənˈtrɪbjuːt/",
+        "pos": "v.",
+        "zh": "促成；贡献",
+        "example": "Poor diet contributes to heart disease.",
+        "emoji": "➕",
+        "cefr": "B2"
+      },
+      {
+        "word": "generate",
+        "ipa": "/ˈdʒenəreɪt/",
+        "pos": "v.",
+        "zh": "产生",
+        "example": "The plant generates electricity for the town.",
+        "emoji": "⚡",
+        "cefr": "B2"
+      },
+      {
+        "word": "trigger",
+        "ipa": "/ˈtrɪɡə(r)/",
+        "pos": "v.",
+        "zh": "引发",
+        "example": "The news triggered a wave of protests.",
+        "emoji": "🔥",
+        "cefr": "B2"
+      },
+      {
+        "word": "affect",
+        "ipa": "/əˈfekt/",
+        "pos": "v.",
+        "zh": "影响",
+        "example": "Noise affects how well children learn.",
+        "emoji": "🌊",
+        "cefr": "B2"
+      },
+      {
+        "word": "influence",
+        "ipa": "/ˈɪnfluəns/",
+        "pos": "v.",
+        "zh": "影响",
+        "example": "Parents strongly influence their children's habits.",
+        "emoji": "🧲",
+        "cefr": "B2"
+      },
+      {
+        "word": "consequence",
+        "ipa": "/ˈkɒnsɪkwəns/",
+        "pos": "n.",
+        "zh": "后果",
+        "example": "The decision had unexpected consequences.",
+        "emoji": "📉",
+        "cefr": "B2"
+      },
+      {
+        "word": "impact",
+        "ipa": "/ˈɪmpækt/",
+        "pos": "n.",
+        "zh": "冲击；影响",
+        "example": "The policy had a huge impact on farmers.",
+        "emoji": "💢",
+        "cefr": "B2"
+      },
+      {
+        "word": "stem",
+        "ipa": "/stem/",
+        "pos": "v.",
+        "zh": "起源于",
+        "example": "The problem stems from a lack of training.",
+        "emoji": "🌱",
+        "cefr": "B2"
+      },
+      {
+        "word": "attribute",
+        "ipa": "/əˈtrɪbjuːt/",
+        "pos": "v.",
+        "zh": "把…归因于",
+        "example": "They attribute the success to teamwork.",
+        "emoji": "🔗",
+        "cefr": "B2"
+      },
+      {
+        "word": "underlie",
+        "ipa": "/ˌʌndəˈlaɪ/",
+        "pos": "v.",
+        "zh": "构成…的基础",
+        "example": "Economic fears underlie the protest.",
+        "emoji": "🧱",
+        "cefr": "B2"
+      },
+      {
+        "word": "inevitable",
+        "ipa": "/ɪnˈevɪtəbl/",
+        "pos": "adj.",
+        "zh": "不可避免的",
+        "example": "Some conflict is inevitable in any team.",
+        "emoji": "⏳",
+        "cefr": "B2"
+      }
+    ]
+  },
+  {
+    "id": "l5c_hedging",
+    "title": "委婉表达",
+    "emoji": "🎚️",
+    "words": [
+      {
+        "word": "perhaps",
+        "ipa": "/pəˈhæps/",
+        "pos": "adv.",
+        "zh": "也许",
+        "example": "Perhaps the data are simply incomplete.",
+        "emoji": "❓",
+        "cefr": "B2"
+      },
+      {
+        "word": "presumably",
+        "ipa": "/prɪˈzjuːməbli/",
+        "pos": "adv.",
+        "zh": "推测起来",
+        "example": "Presumably, the delay was caused by weather.",
+        "emoji": "🤔",
+        "cefr": "B2"
+      },
+      {
+        "word": "relatively",
+        "ipa": "/ˈrelətɪvli/",
+        "pos": "adv.",
+        "zh": "相对地",
+        "example": "The test was relatively easy this year.",
+        "emoji": "⚖️",
+        "cefr": "B2"
+      },
+      {
+        "word": "somewhat",
+        "ipa": "/ˈsʌmwɒt/",
+        "pos": "adv.",
+        "zh": "有点；稍微",
+        "example": "The results were somewhat surprising.",
+        "emoji": "〰️",
+        "cefr": "B2"
+      },
+      {
+        "word": "arguably",
+        "ipa": "/ˈɑːɡjuəbli/",
+        "pos": "adv.",
+        "zh": "可以说",
+        "example": "This is arguably the best solution.",
+        "emoji": "💬",
+        "cefr": "B2"
+      },
+      {
+        "word": "largely",
+        "ipa": "/ˈlɑːdʒli/",
+        "pos": "adv.",
+        "zh": "大体上",
+        "example": "The gap is largely due to income.",
+        "emoji": "🟰",
+        "cefr": "B2"
+      },
+      {
+        "word": "partly",
+        "ipa": "/ˈpɑːtli/",
+        "pos": "adv.",
+        "zh": "部分地",
+        "example": "The failure was partly my fault.",
+        "emoji": "◐",
+        "cefr": "B2"
+      },
+      {
+        "word": "generally",
+        "ipa": "/ˈdʒenərəli/",
+        "pos": "adv.",
+        "zh": "一般地；总体上",
+        "example": "Students generally prefer shorter lessons.",
+        "emoji": "📊",
+        "cefr": "B2"
+      },
+      {
+        "word": "essentially",
+        "ipa": "/ɪˈsenʃəli/",
+        "pos": "adv.",
+        "zh": "本质上",
+        "example": "The two plans are essentially the same.",
+        "emoji": "💠",
+        "cefr": "B2"
+      },
+      {
+        "word": "approximately",
+        "ipa": "/əˈprɒksɪmətli/",
+        "pos": "adv.",
+        "zh": "大约",
+        "example": "Approximately forty people attended.",
+        "emoji": "≈",
+        "cefr": "B2"
+      },
+      {
+        "word": "virtually",
+        "ipa": "/ˈvɜːtʃuəli/",
+        "pos": "adv.",
+        "zh": "几乎",
+        "example": "Virtually all students own a phone.",
+        "emoji": "🔘",
+        "cefr": "B2"
+      },
+      {
+        "word": "ostensibly",
+        "ipa": "/ɒˈstensəbli/",
+        "pos": "adv.",
+        "zh": "表面上",
+        "example": "The trip was ostensibly for research.",
+        "emoji": "🎭",
+        "cefr": "B2"
+      }
+    ]
+  },
+  {
+    "id": "l5c_formal_verbs",
+    "title": "正式动词",
+    "emoji": "📜",
+    "words": [
+      {
+        "word": "conduct",
+        "ipa": "/kənˈdʌkt/",
+        "pos": "v.",
+        "zh": "进行；实施",
+        "example": "They conducted the survey in six cities.",
+        "emoji": "📋",
+        "cefr": "B2"
+      },
+      {
+        "word": "undertake",
+        "ipa": "/ˌʌndəˈteɪk/",
+        "pos": "v.",
+        "zh": "承担；从事",
+        "example": "The team undertook a two-year study.",
+        "emoji": "🧗",
+        "cefr": "B2"
+      },
+      {
+        "word": "implement",
+        "ipa": "/ˈɪmplɪment/",
+        "pos": "v.",
+        "zh": "实施",
+        "example": "The new rules were implemented in May.",
+        "emoji": "⚙️",
+        "cefr": "B2"
+      },
+      {
+        "word": "facilitate",
+        "ipa": "/fəˈsɪlɪteɪt/",
+        "pos": "v.",
+        "zh": "促进；使便利",
+        "example": "The app facilitates communication between teams.",
+        "emoji": "🤝",
+        "cefr": "B2"
+      },
+      {
+        "word": "allocate",
+        "ipa": "/ˈæləkeɪt/",
+        "pos": "v.",
+        "zh": "分配",
+        "example": "More funds were allocated to schools.",
+        "emoji": "📊",
+        "cefr": "B2"
+      },
+      {
+        "word": "integrate",
+        "ipa": "/ˈɪntɪɡreɪt/",
+        "pos": "v.",
+        "zh": "整合；融入",
+        "example": "The system integrates data from many sources.",
+        "emoji": "🧩",
+        "cefr": "B2"
+      },
+      {
+        "word": "modify",
+        "ipa": "/ˈmɒdɪfaɪ/",
+        "pos": "v.",
+        "zh": "修改；调整",
+        "example": "We modified the plan after the feedback.",
+        "emoji": "🔧",
+        "cefr": "B2"
+      },
+      {
+        "word": "obtain",
+        "ipa": "/əbˈteɪn/",
+        "pos": "v.",
+        "zh": "获得",
+        "example": "You must obtain permission first.",
+        "emoji": "🎁",
+        "cefr": "B2"
+      },
+      {
+        "word": "require",
+        "ipa": "/rɪˈkwaɪə(r)/",
+        "pos": "v.",
+        "zh": "需要；要求",
+        "example": "The job requires strong writing skills.",
+        "emoji": "📌",
+        "cefr": "B2"
+      },
+      {
+        "word": "ensure",
+        "ipa": "/ɪnˈʃʊə(r)/",
+        "pos": "v.",
+        "zh": "确保",
+        "example": "Please ensure the door is locked.",
+        "emoji": "🔐",
+        "cefr": "B2"
+      },
+      {
+        "word": "enhance",
+        "ipa": "/ɪnˈhɑːns/",
+        "pos": "v.",
+        "zh": "提升；增强",
+        "example": "Regular practice enhances fluency.",
+        "emoji": "📈",
+        "cefr": "B2"
+      },
+      {
+        "word": "comprise",
+        "ipa": "/kəmˈpraɪz/",
+        "pos": "v.",
+        "zh": "包含；由…组成",
+        "example": "The course comprises ten units.",
+        "emoji": "🧱",
+        "cefr": "B2"
+      }
+    ]
+  }
+]

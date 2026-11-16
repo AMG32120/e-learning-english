@@ -28,9 +28,21 @@ export default defineConfig({
         ]
       },
       workbox: {
-        /* json：预缓存 public/data 词库 JSON，离线也可学习 */
-        globPatterns: ['**/*.{js,css,html,svg,png,woff2,json}'],
-        navigateFallback: 'index.html'
+        /* 词库 JSON 不进预缓存（体积随词表增长，会拖慢首次安装），
+           改用下方 runtimeCaching 在首次请求后写入 CacheFirst 缓存，
+           离线时同样可用。 */
+        globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
+        navigateFallback: 'index.html',
+        runtimeCaching: [
+          {
+            urlPattern: /\/data\/.*\.json$/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'word-data',
+              expiration: { maxEntries: 40, maxAgeSeconds: 60 * 60 * 24 * 30 }
+            }
+          }
+        ]
       }
     })
   ],

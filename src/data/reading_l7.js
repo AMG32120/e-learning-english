@@ -304,6 +304,506 @@ export const ARTICLES_L7 = [
         explain: '与现在事实相反的虚拟语气：If I were you, I would exercise more. 用 were 与 would。'
       }
     ]
+  },
+  {
+    id: 'a7_07',
+    title: 'The Power of Small Habits',
+    emoji: '🌱',
+    level: 7,
+    grammarUnitId: 'l7_clause',
+    text: [
+      'Many people believe that big changes require big effort. They set difficult goals, work hard for a few days, and then give up when the excitement fades. Research on behaviour suggests a different approach: start with something so small that it feels almost too easy.',
+      'A student who wants to read more might begin with just one page a day. A runner might start with a five-minute walk around the block. These actions seem tiny, but they do something important: they remove the fear of starting. Once a small habit becomes automatic, it grows naturally without pressure.',
+      'The real power of small habits lies in time. Ten minutes of practice a day becomes sixty hours a year. Nobody can master a language or a skill in a week, but almost anyone can show up for ten minutes. Success, in the end, belongs not to the most talented people, but to those who simply refuse to stop.'
+    ],
+    questions: [
+      {
+        q: 'What is the main idea of the passage?',
+        options: ['Big goals are useless', 'Small daily habits lead to lasting change', 'Excitement guarantees success', 'Reading is better than running'],
+        answer: 1,
+        explain: '全文围绕“从小习惯开始并坚持”展开，首段点题、末段总结时间累积的力量。'
+      },
+      {
+        q: 'Why do people often give up on big goals?',
+        options: ['The goals are too expensive', 'The initial excitement fades', 'They lack talent', 'Nobody supports them'],
+        answer: 1,
+        explain: '第一段：work hard for a few days, and then give up when the excitement fades。'
+      },
+      {
+        q: 'The word "automatic" in paragraph 2 is closest in meaning to ______.',
+        options: ['difficult to do', 'done without thinking', 'unusual', 'tiring'],
+        answer: 1,
+        explain: 'automatic 意为“自动的”，指习惯形成后无需刻意坚持。'
+      },
+      {
+        q: 'How many hours of practice does ten minutes a day add up to in a year?',
+        options: ['About thirty hours', 'About sixty hours', 'About a hundred hours', 'About three hundred hours'],
+        answer: 1,
+        explain: '10 分钟 × 365 天 ≈ 60.8 小时，第二段明确写了 sixty hours a year。'
+      },
+      {
+        q: 'According to the writer, who finally succeeds?',
+        options: ['The most talented people', 'Those who never fail', 'Those who keep showing up', 'Those with more free time'],
+        answer: 2,
+        explain: '末段：Success belongs not to the most talented people, but to those who simply refuse to stop。'
+      },
+      {
+        q: '仿写：请选出正确的虚拟语气 —— “如果昨天有足够的时间，我就开始练习了。”',
+        options: ['If I had had enough time yesterday, I would have started practising.', 'If I have enough time yesterday, I will start practising.', 'If I had enough time yesterday, I would start practising.', 'If I had had enough time yesterday, I will start practising.'],
+        answer: 0,
+        explain: '与过去事实相反的虚拟语气：If + had done, would have done。'
+      }
+    ]
+  },
+  {
+    id: 'a7_08',
+    title: 'Learning a Second Language',
+    emoji: '🗣️',
+    level: 7,
+    grammarUnitId: 'l7_clause',
+    text: [
+      'Adults often say that children learn languages faster. It is true that young learners pick up pronunciation easily, but adults have advantages that are often ignored. They can already read, they understand grammar in an abstract way, and they know how to study on their own.',
+      'The biggest mistake adult learners make is waiting until they are "ready" before they speak. Language is a skill, not a pile of facts: it grows through use, not through silent preparation. Learners who speak from the first day, even with many mistakes, build fluency far faster than those who only listen and read.',
+      'Mistakes deserve a better reputation, too. A wrong sentence is useful information — it shows exactly where a learner needs to improve. Teachers who correct gently, and learners who laugh at their own errors instead of hiding them, turn every conversation into free practice. In language learning, the courage to be imperfect is worth more than a perfect memory.'
+    ],
+    questions: [
+      {
+        q: 'What advantage do adult learners have?',
+        options: ['They hear sounds better', 'They can study independently', 'They learn grammar faster than children', 'They have more free time'],
+        answer: 1,
+        explain: '第一段列出 adults 的优势：能阅读、理解抽象语法、know how to study on their own。'
+      },
+      {
+        q: 'What is "the biggest mistake" adult learners make?',
+        options: ['Studying grammar too hard', 'Waiting to be ready before speaking', 'Reading too slowly', 'Choosing easy courses'],
+        answer: 1,
+        explain: '第二段首句：waiting until they are "ready" before they speak。'
+      },
+      {
+        q: 'The writer compares language to ______.',
+        options: ['a pile of facts', 'a skill that grows through use', 'a memory test', 'a musical instrument'],
+        answer: 1,
+        explain: '第二段：Language is a skill, not a pile of facts: it grows through use。'
+      },
+      {
+        q: 'Why are mistakes described as "useful information"?',
+        options: ['They make classes fun', 'They show what needs improvement', 'They prove the learner is clever', 'They reduce the cost of study'],
+        answer: 1,
+        explain: '第三段：it shows exactly where a learner needs to improve。'
+      },
+      {
+        q: 'Which attitude does the writer recommend?',
+        options: ['Avoid speaking until perfect', 'Copy native speakers exactly', 'Accept imperfection bravely', 'Memorise everything first'],
+        answer: 2,
+        explain: '末段：the courage to be imperfect is worth more than a perfect memory。'
+      },
+      {
+        q: '仿写：请选出正确的虚拟语气 —— “要是我们早些开口说，现在就更流利了。”',
+        options: ['If we had spoken earlier, we would be more fluent now.', 'If we spoke earlier, we would be more fluent now.', 'If we had spoken earlier, we will be more fluent now.', 'If we speak earlier, we were more fluent now.'],
+        answer: 0,
+        explain: '错综时间虚拟句：过去条件（had spoken）+ 现在结果（would be）。'
+      }
+    ]
+  },
+  {
+    id: 'a7_09',
+    title: 'Why Cities Need Trees',
+    emoji: '🌳',
+    level: 7,
+    grammarUnitId: 'l7_clause',
+    text: [
+      'Walk down a street with old trees on both sides, and the air feels several degrees cooler. This is not imagination. Leaves catch sunlight before it reaches the ground, and water released from the leaves cools the air around them. In a warming world, this natural air conditioning is becoming a matter of public health.',
+      'Trees also work quietly beneath the surface. Their roots hold soil that would otherwise wash into drains after every storm, reducing the risk of flooding in crowded districts. A single mature tree can absorb thousands of litres of water in a heavy rain — work that no pipe network can perform so cheaply.',
+      'The benefits are not only physical. Studies in several countries have found that people recover from stress faster when they can see green from a window, and patients in hospital rooms facing trees often need less medicine. Planting a tree today is one of the cheapest investments a city can make, and the return grows taller every year.'
+    ],
+    questions: [
+      {
+        q: 'What is the main purpose of the passage?',
+        options: ['To describe how trees grow', 'To explain the benefits of urban trees', 'To compare cities and villages', 'To introduce garden design'],
+        answer: 1,
+        explain: '全文从降温、防涝、身心健康三方面说明城市树木的价值。'
+      },
+      {
+        q: 'How do trees cool the street?',
+        options: ['By blocking the wind', 'By catching sunlight and releasing water', 'By absorbing carbon dioxide only', 'By making the air humid at night'],
+        answer: 1,
+        explain: '第一段：Leaves catch sunlight before it reaches the ground, and water released from the leaves cools the air。'
+      },
+      {
+        q: 'The phrase "a matter of public health" suggests that street trees ______.',
+        options: ['cost too much money', 'affect citizens\' wellbeing', 'are hard to plant', 'belong to parks only'],
+        answer: 1,
+        explain: '在变暖的世界里，树荫降温已经关系公众健康。'
+      },
+      {
+        q: 'What do tree roots do during storms?',
+        options: ['They drink all the rain', 'They hold soil and reduce flood risk', 'They block the drains', 'They attract birds'],
+        answer: 1,
+        explain: '第二段：Their roots hold soil... reducing the risk of flooding。'
+      },
+      {
+        q: 'What did hospital studies find?',
+        options: ['Patients with a green view needed less medicine', 'Trees in hospitals spread disease', 'Patients refused to open windows', 'Nurses preferred rooms without trees'],
+        answer: 0,
+        explain: '第三段：patients in hospital rooms facing trees often need less medicine。'
+      },
+      {
+        q: '仿写：请选出正确的定语从句 —— “长在街边的树让城市更凉爽。”',
+        options: ['Trees which grow along streets make cities cooler.', 'Trees what grow along streets make cities cooler.', 'Trees grow along streets make cities cooler.', 'Trees which grow along streets makes cities cooler.'],
+        answer: 0,
+        explain: '定语从句用 which/that 引导且主语 Trees 是复数，动词用 make。'
+      }
+    ]
+  },
+  {
+    id: 'a7_10',
+    title: 'A Short History of Money',
+    emoji: '💰',
+    level: 7,
+    grammarUnitId: 'l7_clause',
+    text: [
+      'Before money existed, people traded goods directly: a bag of rice for a sheep, a basket of fruit for a tool. Such bartering worked in small villages, but it had an obvious problem — you might not want what your neighbour has, and your neighbour might not want yours.',
+      'Coins solved this by giving everything a common value. Early coins were made of metals that people already trusted, such as gold and silver. Later, paper money appeared, backed by a promise rather than by metal. Today, most money is simply numbers moving between computers, faster than any coin could travel.',
+      'Yet the purpose of money has never changed: it is a tool for trading, saving and planning. Money becomes dangerous only when people forget that it is a tool and treat it as the goal itself. Every generation has to learn the same lesson — earn money honestly, spend it wisely, and remember what it was invented for.'
+    ],
+    questions: [
+      {
+        q: 'What was the main problem with bartering?',
+        options: ['Goods were too heavy to carry', 'People might not want each other\'s goods', 'Prices changed every hour', 'There were not enough goods'],
+        answer: 1,
+        explain: '第一段末句：you might not want what your neighbour has, and vice versa。'
+      },
+      {
+        q: 'What were early coins made of?',
+        options: ['Paper and cloth', 'Trusted metals like gold and silver', 'Common stones', 'Wood'],
+        answer: 1,
+        explain: '第二段：Early coins were made of metals that people already trusted。'
+      },
+      {
+        q: 'The word "backed" in paragraph 2 is closest in meaning to ______.',
+        options: ['hidden', 'supported', 'printed', 'banned'],
+        answer: 1,
+        explain: 'paper money appeared, backed by a promise —— backed 意为“由…支撑/担保”。'
+      },
+      {
+        q: 'How is most money moved today?',
+        options: ['By gold coins', 'By paper notes', 'By numbers between computers', 'By barter again'],
+        answer: 2,
+        explain: '第二段末句：most money is simply numbers moving between computers。'
+      },
+      {
+        q: 'According to the writer, when does money become dangerous?',
+        options: ['When it is printed too fast', 'When people treat it as the goal itself', 'When banks close early', 'When coins disappear'],
+        answer: 1,
+        explain: '第三段：Money becomes dangerous only when people forget it is a tool and treat it as the goal。'
+      },
+      {
+        q: '仿写：请选出正确的宾语从句 —— “他解释了货币是如何被发明的。”',
+        options: ['He explained how money was invented.', 'He explained how was money invented.', 'He explained how money invented.', 'He explained what money was invented.'],
+        answer: 0,
+        explain: '宾语从句用陈述语序 how money was invented。'
+      }
+    ]
+  },
+  {
+    id: 'a7_11',
+    title: 'Working from Home',
+    emoji: '🏠',
+    level: 7,
+    grammarUnitId: 'l7_clause',
+    text: [
+      'For millions of workers, the daily journey to an office has been replaced by a ten-second walk to a desk at home. Remote work saves commuting time, allows quieter concentration, and gives people the freedom to live where housing is affordable rather than where the office happens to be.',
+      'However, working from home is not perfect for everyone. Some people find it hard to separate work from rest when both happen in the same room. Others miss the informal conversations in a corridor — the quick questions and small jokes that make teams feel like teams. Managers report that new employees, who have never met their colleagues in person, sometimes struggle to ask for help.',
+      'The most successful arrangements are usually mixed ones. A few days at the office provide contact and cooperation, while the rest of the week at home protects deep, focused work. The future of work may not be "remote versus office" at all; it may be about designing each week so that the right activities happen in the right place.'
+    ],
+    questions: [
+      {
+        q: 'What is one advantage of remote work mentioned in the passage?',
+        options: ['Higher salary', 'No commuting and quieter concentration', 'More meetings', 'Better food'],
+        answer: 1,
+        explain: '第一段：saves commuting time, allows quieter concentration。'
+      },
+      {
+        q: 'Why do some people struggle when working from home?',
+        options: ['Their homes are too small', 'Work and rest mix in one room', 'They dislike computers', 'The internet is slow'],
+        answer: 1,
+        explain: '第二段：hard to separate work from rest when both happen in the same room。'
+      },
+      {
+        q: 'Which group is reported to have more difficulty asking for help?',
+        options: ['Managers', 'Experienced staff', 'New employees who have never met colleagues in person', 'Freelancers'],
+        answer: 2,
+        explain: '第二段末句：new employees... sometimes struggle to ask for help。'
+      },
+      {
+        q: 'The word "mixed" in paragraph 3 refers to ______.',
+        options: ['a confused team', 'partly office and partly home work', 'difficult colleagues', 'part-time jobs'],
+        answer: 1,
+        explain: '后文解释：a few days at the office... the rest of the week at home。'
+      },
+      {
+        q: 'What does the writer think about the future of work?',
+        options: ['Everyone will work from home', 'Offices will disappear', 'Each week should place the right activity in the right place', 'Remote work is just a fashion'],
+        answer: 2,
+        explain: '末段：designing each week so that the right activities happen in the right place。'
+      },
+      {
+        q: '仿写：请选出正确的定语从句 —— “这是他从来没用过的办公桌。”',
+        options: ['This is the desk that he has never used.', 'This is the desk what he has never used.', 'This is the desk he has never used it.', 'This is the desk which he has never used it.'],
+        answer: 0,
+        explain: 'that/which 作从句宾语可省略，但不能再保留 it。'
+      }
+    ]
+  },
+  {
+    id: 'a7_12',
+    title: 'Food and Culture',
+    emoji: '🍜',
+    level: 7,
+    grammarUnitId: 'l7_clause',
+    text: [
+      'Ask people what they miss most when they move abroad, and many will not mention their family first — they will mention food. Meals carry memory. The smell of a familiar dish can transport a person back to a childhood kitchen in a single second, faster than any photograph.',
+      'Food is also a quiet form of history. Spices that once travelled thousands of kilometres along trade roads changed national cuisines forever: chillies arrived in China from the Americas, tea moved from Asia to Europe, and noodles took countless local forms along the way. What we eat today is the result of centuries of exchange.',
+      'Sharing food remains one of the simplest ways to build trust between strangers. Inviting someone to a meal says, without words, that we are willing to spend time together. Perhaps this is why, in almost every culture, important agreements are sealed not in offices but around tables — with something delicious in front of everyone.'
+    ],
+    questions: [
+      {
+        q: 'What do many people miss most when moving abroad, according to the passage?',
+        options: ['Their jobs', 'Their pets', 'Food from home', 'The local weather'],
+        answer: 2,
+        explain: '第一段：many will not mention family first — they will mention food。'
+      },
+      {
+        q: 'Why can the smell of a familiar dish be powerful?',
+        options: ['It reminds people of childhood quickly', 'It helps people sleep', 'It makes photos look real', 'It cures homesickness'],
+        answer: 0,
+        explain: '第一段：can transport a person back to a childhood kitchen in a single second。'
+      },
+      {
+        q: 'Where did chillies originally come from?',
+        options: ['China', 'Europe', 'The Americas', 'Africa'],
+        answer: 2,
+        explain: '第二段：chillies arrived in China from the Americas。'
+      },
+      {
+        q: 'What does the passage say food is, besides memory?',
+        options: ['A form of history', 'A kind of medicine', 'A sign of wealth', 'A simple habit'],
+        answer: 0,
+        explain: '第二段首句：Food is also a quiet form of history。'
+      },
+      {
+        q: 'Why are important agreements often made around tables?',
+        options: ['Tables are more comfortable', 'Sharing food builds trust between strangers', 'Offices are too noisy', 'Food makes meetings shorter'],
+        answer: 1,
+        explain: '第三段：Sharing food remains one of the simplest ways to build trust。'
+      },
+      {
+        q: '仿写：请选出正确的被动语态 —— “这道菜是由祖母做的。”',
+        options: ['The dish was made by my grandmother.', 'The dish was made from my grandmother.', 'The dish is made by my grandmother yesterday.', 'The dish made by my grandmother was.'],
+        answer: 0,
+        explain: '过去时被动：was made by + 施动者。'
+      }
+    ]
+  },
+  {
+    id: 'a7_13',
+    title: 'The Ocean in Danger',
+    emoji: '🌊',
+    level: 7,
+    grammarUnitId: 'l7_clause',
+    text: [
+      'The ocean covers more than seventy per cent of our planet, yet we know the surface of the moon better than we know the deep sea. Millions of species live there, from the largest animal that has ever existed — the blue whale — to creatures too small to see without a microscope.',
+      'Today the ocean is under pressure from many directions. Plastic waste floats in enormous patches; rising temperatures push fish towards colder waters; and overfishing removes species faster than they can reproduce. Coral reefs, which support about a quarter of all marine life, are turning white in warming seas, a sign that the ecosystem inside them is dying.',
+      'The situation is serious but not hopeless. Marine protected areas have proven that fish populations can recover within a few years when fishing is limited. Reducing single-use plastic, choosing seafood from sustainable sources, and supporting such protected areas are ordinary actions that together add up. The ocean has survived for billions of years; what happens next depends on us.'
+    ],
+    questions: [
+      {
+        q: 'What comparison does the writer make in paragraph 1?',
+        options: ['The ocean is larger than the moon', 'We know the moon better than the deep sea', 'The moon has more species', 'The ocean is easier to study'],
+        answer: 1,
+        explain: '第一段：we know the surface of the moon better than we know the deep sea。'
+      },
+      {
+        q: 'Which is the largest animal that has ever existed?',
+        options: ['The elephant', 'The blue whale', 'The giant squid', 'The coral reef'],
+        answer: 1,
+        explain: '第一段：the largest animal that has ever existed — the blue whale。'
+      },
+      {
+        q: 'What do coral reefs turning white indicate?',
+        options: ['They are growing fast', 'The ecosystem inside them is dying', 'They are attracting more fish', 'They are being cleaned'],
+        answer: 1,
+        explain: '第二段末句：a sign that the ecosystem inside them is dying。'
+      },
+      {
+        q: 'The word "sustainable" in paragraph 3 is closest in meaning to ______.',
+        options: ['expensive', 'able to continue without harm', 'freshly caught', 'deep-frozen'],
+        answer: 1,
+        explain: 'sustainable 意为“可持续的”，即不破坏资源。'
+      },
+      {
+        q: 'What have marine protected areas proven?',
+        options: ['Fishing bans are too costly', 'Fish populations can recover when fishing is limited', 'Corals recover faster than fish', 'Plastic disappears in protected areas'],
+        answer: 1,
+        explain: '第三段：fish populations can recover within a few years when fishing is limited。'
+      },
+      {
+        q: '仿写：请选出正确的状语从句 —— “只要我们采取行动，海洋就能恢复。”',
+        options: ['As long as we act, the ocean can recover.', 'As long we act, the ocean can recover.', 'As long as we will act, the ocean can recover.', 'As long as we act, the ocean could recover yesterday.'],
+        answer: 0,
+        explain: 'as long as 引导条件从句，主句用 can 表示一般可能。'
+      }
+    ]
+  },
+  {
+    id: 'a7_14',
+    title: 'Sleep and Screens',
+    emoji: '😴',
+    level: 7,
+    grammarUnitId: 'l7_clause',
+    text: [
+      'Sleep experts recommend that teenagers get eight to ten hours of sleep a night, yet surveys in many countries show that most fall short of this goal. One obvious suspect is the smartphone glowing beside the pillow, but the picture is more complex than it first appears.',
+      'Screens affect sleep in two main ways. First, they steal time: every hour spent watching videos after midnight is an hour not spent sleeping. Second, the bright light of a screen delays the release of melatonin, the hormone that tells the body it is time to rest. Scrolling through short, exciting clips keeps the brain alert exactly when it should be winding down.',
+      'The solution does not have to be extreme. Researchers suggest keeping screens out of the bedroom, stopping stimulating content an hour before bed, and replacing late scrolling with reading or gentle music. Students who made only these small changes reported falling asleep faster — proof that better sleep often begins with better habits, not stronger willpower.'
+    ],
+    questions: [
+      {
+        q: 'How much sleep do experts recommend for teenagers?',
+        options: ['Six to eight hours', 'Eight to ten hours', 'Ten to twelve hours', 'Seven hours'],
+        answer: 1,
+        explain: '第一段首句：eight to ten hours of sleep a night。'
+      },
+      {
+        q: 'The writer says the picture is "more complex" because ______.',
+        options: ['phones are not the only cause', 'students dislike sleeping', 'experts disagree completely', 'melatonin is unknown'],
+        answer: 0,
+        explain: '第二段列出屏幕影响睡眠的两条路径，说明不只是"手机在枕边"这么简单。'
+      },
+      {
+        q: 'What does melatonin do?',
+        options: ['It wakes the body up', 'It tells the body it is time to rest', 'It makes people hungry', 'It improves eyesight'],
+        answer: 1,
+        explain: '第二段：the hormone that tells the body it is time to rest。'
+      },
+      {
+        q: 'The phrase "winding down" in paragraph 2 is closest in meaning to ______.',
+        options: ['becoming excited', 'relaxing toward sleep', 'climbing upstairs', 'turning off lights'],
+        answer: 1,
+        explain: 'wind down 意为“逐渐放松/平静下来”。'
+      },
+      {
+        q: 'What did students report after making small changes?',
+        options: ['They fell asleep faster', 'They needed less food', 'Their grades dropped', 'They used phones more'],
+        answer: 0,
+        explain: '第三段：Students who made only these small changes reported falling asleep faster。'
+      },
+      {
+        q: '仿写：请选出正确的建议句型 —— “专家建议睡前一小时停止使用手机。”',
+        options: ['Experts suggest stopping phone use an hour before bed.', 'Experts suggest to stop phone use an hour before bed.', 'Experts suggest that stopping phone use an hour before bed.', 'Experts suggest stop phone use an hour before bed.'],
+        answer: 0,
+        explain: 'suggest 后接动名词（suggest doing），不接不定式。'
+      }
+    ]
+  },
+  {
+    id: 'a7_15',
+    title: 'The Joy of Volunteering',
+    emoji: '🤝',
+    level: 7,
+    grammarUnitId: 'l7_clause',
+    text: [
+      'Every summer, thousands of students give up part of their holiday to work without pay — cleaning beaches, teaching children, or visiting elderly people who live alone. Asked why, few of them mention their résumés. Most say the same thing in different words: it simply feels meaningful.',
+      'Science offers some support for that feeling. Studies have found that people who regularly help others report lower stress and a stronger sense of purpose. Helping also builds skills that classrooms rarely teach: how to talk to a stranger, how to organise a team in a hurry, how to stay patient when plans fall apart.',
+      'Volunteering does not require heroism. An hour a week at a local library, or a monthly visit to a nursing home, already matters to the people who receive it. What matters even more, perhaps, is what changes in the volunteer: someone who has served food to those who need it looks at ordinary life — and ordinary work — with new gratitude.'
+    ],
+    questions: [
+      {
+        q: 'Why do most student volunteers say they do it?',
+        options: ['To improve their résumés', 'Because it feels meaningful', 'To earn pocket money', 'Because schools force them'],
+        answer: 1,
+        explain: '第一段末句：Most say the same thing... it simply feels meaningful。'
+      },
+      {
+        q: 'What have studies found about people who help others regularly?',
+        options: ['They earn more money', 'They report lower stress and stronger purpose', 'They sleep less', 'They travel more'],
+        answer: 1,
+        explain: '第二段：report lower stress and a stronger sense of purpose。'
+      },
+      {
+        q: 'Which skill does the passage say classrooms rarely teach?',
+        options: ['Doing maths quickly', 'Talking to strangers and organising teams', 'Reading old books', 'Using computers'],
+        answer: 1,
+        explain: '第二段：builds skills that classrooms rarely teach。'
+      },
+      {
+        q: 'The word "heroism" in paragraph 3 is closest in meaning to ______.',
+        options: ['great brave action', 'long study', 'hard exercise', 'deep sleep'],
+        answer: 0,
+        explain: 'heroism 意为“英雄行为”，此处指志愿活动不需要惊天动地。'
+      },
+      {
+        q: 'What changes most in a volunteer, according to the writer?',
+        options: ['Their bank account', 'Their view of ordinary life', 'Their timetable', 'Their circle of friends'],
+        answer: 1,
+        explain: '末段：looks at ordinary life — and ordinary work — with new gratitude。'
+      },
+      {
+        q: '仿写：请选出正确的动名词用法 —— “他每周花一小时在图书馆做志愿者。”',
+        options: ['He spends an hour a week volunteering at the library.', 'He spends an hour a week to volunteer at the library.', 'He takes an hour a week volunteering at the library.', 'He spends an hour a week volunteer at the library.'],
+        answer: 0,
+        explain: 'spend + 时间 + doing sth 为固定搭配。'
+      }
+    ]
+  },
+  {
+    id: 'a7_16',
+    title: 'Travel Teaches What Books Cannot',
+    emoji: '✈️',
+    level: 7,
+    grammarUnitId: 'l7_clause',
+    text: [
+      'We can read a hundred pages about desert life, but standing in a desert at noon teaches something no page can: the dry heat pressing on the skin, the endless silence, the shock of seeing life survive in sand. Travel turns abstract knowledge into physical memory.',
+      'Travel also corrects prejudice more effectively than any lecture. Meeting people from a place we had only imagined often reveals that our picture was wrong — the "dangerous" city turns out friendly, the "boring" town hides a proud history. When we eat local food, learn a few words of the language and get lost in unfamiliar streets, respect grows naturally where stereotypes once stood.',
+      'This does not mean distant travel is the only teacher. Curiosity can turn a nearby village into a foreign land if we look carefully enough: ask the baker how the recipe arrived here, trace where the river really flows, count how many languages you hear in one market hour. The real journey, as the saying goes, is not measured in kilometres but in the questions we learn to ask.'
+    ],
+    questions: [
+      {
+        q: 'What does standing in a desert give a person that reading cannot?',
+        options: ['A cheaper holiday', 'Physical memory of abstract knowledge', 'Better photographs', 'Faster reading speed'],
+        answer: 1,
+        explain: '第一段末句：Travel turns abstract knowledge into physical memory。'
+      },
+      {
+        q: 'According to the passage, what corrects prejudice most effectively?',
+        options: ['Reading lectures', 'Meeting real people from the place', 'Watching news reports', 'Avoiding strangers'],
+        answer: 1,
+        explain: '第二段首句：Travel also corrects prejudice more effectively than any lecture。'
+      },
+      {
+        q: 'The word "stereotypes" in paragraph 2 is closest in meaning to ______.',
+        options: ['simple fixed ideas about a group', 'local dishes', 'travel maps', 'dangerous animals'],
+        answer: 0,
+        explain: 'stereotype 意为“刻板印象”。'
+      },
+      {
+        q: 'What example of local curiosity is given for a nearby village?',
+        options: ['Asking the baker about the recipe\'s origin', 'Buying more bread', 'Learning to bake', 'Opening a shop'],
+        answer: 0,
+        explain: '第三段：ask the baker how the recipe arrived here。'
+      },
+      {
+        q: 'How does the writer say the real journey is measured?',
+        options: ['In kilometres', 'In the questions we learn to ask', 'In photos taken', 'In money spent'],
+        answer: 1,
+        explain: '末段：not measured in kilometres but in the questions we learn to ask。'
+      },
+      {
+        q: '仿写：请选出正确的比较结构 —— “读一百页不如亲眼见一次。”',
+        options: ['Reading a hundred pages is not as good as seeing it once yourself.', 'Reading a hundred pages is not so good than seeing it once yourself.', 'Reading a hundred pages are not as good as seeing it once yourself.', 'Read a hundred pages is not as good as seeing it once yourself.'],
+        answer: 0,
+        explain: 'not as...as 比较结构；动名词短语作主语谓语用单数 is。'
+      }
+    ]
   }
 ]
 

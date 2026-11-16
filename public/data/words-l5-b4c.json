@@ -1,0 +1,1152 @@
+[
+ {
+  "id": "l5d_government",
+  "title": "政府机构",
+  "emoji": "🏛️",
+  "words": [
+   {
+    "word": "lawmaker",
+    "ipa": "/ˈlɔːmeɪkə/",
+    "pos": "n.",
+    "zh": "立法者；议员",
+    "example": "Lawmakers debated the bill until midnight.",
+    "emoji": "🧑‍💼",
+    "cefr": "C1"
+   },
+   {
+    "word": "parliament",
+    "ipa": "/ˈpɑːləmənt/",
+    "pos": "n.",
+    "zh": "议会",
+    "example": "The bill cleared parliament by 40 votes.",
+    "emoji": "🏛️",
+    "cefr": "B2"
+   },
+   {
+    "word": "constitution",
+    "ipa": "/ˌkɒnstɪˈtjuːʃn/",
+    "pos": "n.",
+    "zh": "宪法",
+    "example": "Free speech is protected by the constitution.",
+    "emoji": "📕",
+    "cefr": "B2"
+   },
+   {
+    "word": "amendment",
+    "ipa": "/əˈmendmənt/",
+    "pos": "n.",
+    "zh": "修正案",
+    "example": "The first amendment guarantees press freedom.",
+    "emoji": "✏️",
+    "cefr": "C1"
+   },
+   {
+    "word": "referendum",
+    "ipa": "/ˌrefəˈrendəm/",
+    "pos": "n.",
+    "zh": "全民公投",
+    "example": "Voters rejected the proposal in a referendum.",
+    "emoji": "🗳️",
+    "cefr": "C1"
+   },
+   {
+    "word": "jurisdiction",
+    "ipa": "/ˌdʒʊərɪsˈdɪkʃn/",
+    "pos": "n.",
+    "zh": "司法权；管辖范围",
+    "example": "The case falls outside this court's jurisdiction.",
+    "emoji": "🗺️",
+    "cefr": "C1"
+   },
+   {
+    "word": "governor",
+    "ipa": "/ˈɡʌvənə/",
+    "pos": "n.",
+    "zh": "州长；省长；主管",
+    "example": "The governor declared a state of emergency.",
+    "emoji": "🎖️",
+    "cefr": "B2"
+   },
+   {
+    "word": "administration",
+    "ipa": "/ədˌmɪnɪˈstreɪʃn/",
+    "pos": "n.",
+    "zh": "政府；行政管理",
+    "example": "The new administration doubled the education budget.",
+    "emoji": "🏢",
+    "cefr": "B2"
+   },
+   {
+    "word": "bureaucracy",
+    "ipa": "/bjʊəˈrɒkrəsi/",
+    "pos": "n.",
+    "zh": "官僚体系；繁文缛节",
+    "example": "Startup founders complain endlessly about bureaucracy.",
+    "emoji": "🗂️",
+    "cefr": "C1"
+   },
+   {
+    "word": "veto",
+    "ipa": "/ˈviːtəʊ/",
+    "pos": "v./n.",
+    "zh": "否决",
+    "example": "The president vetoed the spending bill.",
+    "emoji": "🚫",
+    "cefr": "C1"
+   },
+   {
+    "word": "ratify",
+    "ipa": "/ˈrætɪfaɪ/",
+    "pos": "v.",
+    "zh": "正式批准",
+    "example": "Thirty countries must ratify the treaty first.",
+    "emoji": "✅",
+    "cefr": "C1"
+   },
+   {
+    "word": "decree",
+    "ipa": "/dɪˈkriː/",
+    "pos": "n.",
+    "zh": "法令；政令",
+    "example": "A royal decree established the national park.",
+    "emoji": "📣",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l5d_law_legal",
+  "title": "法律程序",
+  "emoji": "⚖️",
+  "words": [
+   {
+    "word": "plaintiff",
+    "ipa": "/ˈpleɪntɪf/",
+    "pos": "n.",
+    "zh": "原告",
+    "example": "The plaintiff demanded 200,000 in damages.",
+    "emoji": "🧍",
+    "cefr": "C1"
+   },
+   {
+    "word": "defendant",
+    "ipa": "/dɪˈfendənt/",
+    "pos": "n.",
+    "zh": "被告",
+    "example": "The defendant pleaded not guilty.",
+    "emoji": "💺",
+    "cefr": "C1"
+   },
+   {
+    "word": "lawsuit",
+    "ipa": "/ˈlɔːsuːt/",
+    "pos": "n.",
+    "zh": "诉讼",
+    "example": "Users filed a class-action lawsuit against the app.",
+    "emoji": "📄",
+    "cefr": "B2"
+   },
+   {
+    "word": "acquittal",
+    "ipa": "/əˈkwɪtl/",
+    "pos": "n.",
+    "zh": "无罪判决",
+    "example": "The acquittal stunned the courtroom.",
+    "emoji": "🕊️",
+    "cefr": "C1"
+   },
+   {
+    "word": "repeal",
+    "ipa": "/rɪˈpiːl/",
+    "pos": "v./n.",
+    "zh": "废止；撤销",
+    "example": "Parliament voted to repeal the outdated law.",
+    "emoji": "🗑️",
+    "cefr": "C1"
+   },
+   {
+    "word": "deposition",
+    "ipa": "/ˌdepəˈzɪʃn/",
+    "pos": "n.",
+    "zh": "（庭外）证词",
+    "example": "Her deposition lasted four hours.",
+    "emoji": "📝",
+    "cefr": "C1"
+   },
+   {
+    "word": "litigation",
+    "ipa": "/ˌlɪtɪˈɡeɪʃn/",
+    "pos": "n.",
+    "zh": "打官司；诉讼",
+    "example": "Settling early avoids years of litigation.",
+    "emoji": "⚔️",
+    "cefr": "C1"
+   },
+   {
+    "word": "arbitration",
+    "ipa": "/ˌɑːbɪˈtreɪʃn/",
+    "pos": "n.",
+    "zh": "仲裁",
+    "example": "The dispute went to arbitration instead of court.",
+    "emoji": "🤝",
+    "cefr": "C1"
+   },
+   {
+    "word": "injunction",
+    "ipa": "/ɪnˈdʒʌŋkʃn/",
+    "pos": "n.",
+    "zh": "禁令；强制令",
+    "example": "A court injunction halted the demolition.",
+    "emoji": "⛔",
+    "cefr": "C1"
+   },
+   {
+    "word": "compliance",
+    "ipa": "/kəmˈplaɪəns/",
+    "pos": "n.",
+    "zh": "合规；遵守",
+    "example": "Annual audits confirm compliance with safety rules.",
+    "emoji": "📋",
+    "cefr": "C1"
+   },
+   {
+    "word": "prosecute",
+    "ipa": "/ˈprɒsɪkjuːt/",
+    "pos": "v.",
+    "zh": "起诉",
+    "example": "The state chose to prosecute the factory owner.",
+    "emoji": "💼",
+    "cefr": "C1"
+   },
+   {
+    "word": "statute",
+    "ipa": "/ˈstætʃuːt/",
+    "pos": "n.",
+    "zh": "成文法；法令",
+    "example": "The statute of limitations expired last year.",
+    "emoji": "📖",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l5d_international_relations",
+  "title": "国际关系",
+  "emoji": "🌐",
+  "words": [
+   {
+    "word": "diplomacy",
+    "ipa": "/dɪˈpləʊməsi/",
+    "pos": "n.",
+    "zh": "外交",
+    "example": "Quiet diplomacy prevented a trade war.",
+    "emoji": "🤝",
+    "cefr": "B2"
+   },
+   {
+    "word": "armistice",
+    "ipa": "/ˈɑːmɪstɪs/",
+    "pos": "n.",
+    "zh": "停战协定",
+    "example": "The armistice took effect at eleven a.m.",
+    "emoji": "⏸️",
+    "cefr": "C1"
+   },
+   {
+    "word": "consulate",
+    "ipa": "/ˈkɒnsjələt/",
+    "pos": "n.",
+    "zh": "领事馆",
+    "example": "Renew the passport at the consulate downtown.",
+    "emoji": "🏛️",
+    "cefr": "C1"
+   },
+   {
+    "word": "autonomy",
+    "ipa": "/ɔːˈtɒnəmi/",
+    "pos": "n.",
+    "zh": "自治；自主权",
+    "example": "The region won fiscal autonomy last year.",
+    "emoji": "🧭",
+    "cefr": "C1"
+   },
+   {
+    "word": "blockade",
+    "ipa": "/blɒˈkeɪd/",
+    "pos": "n./v.",
+    "zh": "封锁",
+    "example": "A naval blockade choked off supplies.",
+    "emoji": "🚧",
+    "cefr": "C1"
+   },
+   {
+    "word": "pact",
+    "ipa": "/pækt/",
+    "pos": "n.",
+    "zh": "协定；条约",
+    "example": "Both countries signed a trade pact in June.",
+    "emoji": "✍️",
+    "cefr": "C1"
+   },
+   {
+    "word": "ceasefire",
+    "ipa": "/ˈsiːsfaɪə/",
+    "pos": "n.",
+    "zh": "停火",
+    "example": "Observers verified the ceasefire on the ground.",
+    "emoji": "🕊️",
+    "cefr": "C1"
+   },
+   {
+    "word": "conference",
+    "ipa": "/ˈkɒnfrəns/",
+    "pos": "n.",
+    "zh": "会议；会谈",
+    "example": "A peace conference opens in Geneva next week.",
+    "emoji": "🗣️",
+    "cefr": "B2"
+   },
+   {
+    "word": "mediator",
+    "ipa": "/ˈmiːdieɪtə/",
+    "pos": "n.",
+    "zh": "调解人",
+    "example": "A neutral mediator helped close the deal.",
+    "emoji": "🧑‍⚖️",
+    "cefr": "C1"
+   },
+   {
+    "word": "extradition",
+    "ipa": "/ˌekstrəˈdɪʃn/",
+    "pos": "n.",
+    "zh": "引渡",
+    "example": "The court blocked extradition on human-rights grounds.",
+    "emoji": "✈️",
+    "cefr": "C1"
+   },
+   {
+    "word": "embargo",
+    "ipa": "/ɪmˈbɑːɡəʊ/",
+    "pos": "n.",
+    "zh": "禁运",
+    "example": "The oil embargo pushed prices sharply higher.",
+    "emoji": "🛑",
+    "cefr": "C1"
+   },
+   {
+    "word": "unilateral",
+    "ipa": "/ˌjuːnɪˈlætərəl/",
+    "pos": "adj.",
+    "zh": "单方面的",
+    "example": "The unilateral ban angered trading partners.",
+    "emoji": "1️⃣",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l5d_human_rights",
+  "title": "人权与自由",
+  "emoji": "🗽",
+  "words": [
+   {
+    "word": "franchise",
+    "ipa": "/ˈfræntʃaɪz/",
+    "pos": "n.",
+    "zh": "选举权；特许经营权",
+    "example": "The franchise extended to all men over 21.",
+    "emoji": "🎟️",
+    "cefr": "C1"
+   },
+   {
+    "word": "repatriation",
+    "ipa": "/ˌriːˌpætriˈeɪʃn/",
+    "pos": "n.",
+    "zh": "遣返；回国",
+    "example": "Voluntary repatriation began once peace held.",
+    "emoji": "↩️",
+    "cefr": "C1"
+   },
+   {
+    "word": "deportation",
+    "ipa": "/ˌdiːpɔːˈteɪʃn/",
+    "pos": "n.",
+    "zh": "驱逐出境",
+    "example": "The family faces deportation next month.",
+    "emoji": "✈️",
+    "cefr": "C1"
+   },
+   {
+    "word": "monitoring",
+    "ipa": "/ˈmɒnɪtərɪŋ/",
+    "pos": "n.",
+    "zh": "监测",
+    "example": "Constant monitoring of staff morale helps managers.",
+    "emoji": "📡",
+    "cefr": "C1"
+   },
+   {
+    "word": "petition",
+    "ipa": "/pəˈtɪʃn/",
+    "pos": "n./v.",
+    "zh": "请愿（书）",
+    "example": "A million people signed the online petition.",
+    "emoji": "✍️",
+    "cefr": "B2"
+   },
+   {
+    "word": "detainee",
+    "ipa": "/ˌdiːteɪˈniː/",
+    "pos": "n.",
+    "zh": "被拘留者",
+    "example": "Lawyers visited every detainee within 48 hours.",
+    "emoji": "🔒",
+    "cefr": "C1"
+   },
+   {
+    "word": "amnesty",
+    "ipa": "/ˈæmnəsti/",
+    "pos": "n.",
+    "zh": "大赦；赦免",
+    "example": "An amnesty allowed draft evaders to return.",
+    "emoji": "🕊️",
+    "cefr": "C1"
+   },
+   {
+    "word": "suffrage",
+    "ipa": "/ˈsʌfrɪdʒ/",
+    "pos": "n.",
+    "zh": "选举权",
+    "example": "Women won suffrage here in 1918.",
+    "emoji": "🗳️",
+    "cefr": "C1"
+   },
+   {
+    "word": "whistleblower",
+    "ipa": "/ˈwɪslbləʊə/",
+    "pos": "n.",
+    "zh": "揭发者；吹哨人",
+    "example": "A whistleblower leaked the safety records.",
+    "emoji": "📢",
+    "cefr": "C1"
+   },
+   {
+    "word": "policing",
+    "ipa": "/pəˈliːsɪŋ/",
+    "pos": "n.",
+    "zh": "治安维持；警务",
+    "example": "Community policing rebuilt trust in the district.",
+    "emoji": "🚓",
+    "cefr": "C1"
+   },
+   {
+    "word": "immunity",
+    "ipa": "/ɪˈmjuːnəti/",
+    "pos": "n.",
+    "zh": "豁免权；免疫力",
+    "example": "Diplomats claim immunity from local prosecution.",
+    "emoji": "🛡️",
+    "cefr": "C1"
+   },
+   {
+    "word": "liberty",
+    "ipa": "/ˈlɪbəti/",
+    "pos": "n.",
+    "zh": "自由",
+    "example": "Curfews restrict personal liberty sharply.",
+    "emoji": "🗽",
+    "cefr": "B2"
+   }
+  ]
+ },
+ {
+  "id": "l5d_election_politics",
+  "title": "选举政治",
+  "emoji": "🗳️",
+  "words": [
+   {
+    "word": "ballot",
+    "ipa": "/ˈbælət/",
+    "pos": "n.",
+    "zh": "选票；投票",
+    "example": "Voters marked the ballot in private booths.",
+    "emoji": "🗳️",
+    "cefr": "B2"
+   },
+   {
+    "word": "electorate",
+    "ipa": "/ɪˈlektərət/",
+    "pos": "n.",
+    "zh": "全体选民",
+    "example": "The electorate has grown younger this cycle.",
+    "emoji": "🧑‍🤝‍🧑",
+    "cefr": "C1"
+   },
+   {
+    "word": "incumbent",
+    "ipa": "/ɪnˈkʌmbənt/",
+    "pos": "n./adj.",
+    "zh": "现任者",
+    "example": "The incumbent mayor seeks a third term.",
+    "emoji": "🪑",
+    "cefr": "C1"
+   },
+   {
+    "word": "manifesto",
+    "ipa": "/ˌmænɪˈfestəʊ/",
+    "pos": "n.",
+    "zh": "竞选纲领；宣言",
+    "example": "Their manifesto promises free childcare.",
+    "emoji": "📣",
+    "cefr": "C1"
+   },
+   {
+    "word": "abstain",
+    "ipa": "/əbˈsteɪn/",
+    "pos": "v.",
+    "zh": "弃权；戒除",
+    "example": "Twelve senators abstained from the vote.",
+    "emoji": "🚫",
+    "cefr": "C1"
+   },
+   {
+    "word": "canvass",
+    "ipa": "/ˈkænvəs/",
+    "pos": "v.",
+    "zh": "游说拉票；调查",
+    "example": "Volunteers canvassed every street this weekend.",
+    "emoji": "🚪",
+    "cefr": "C1"
+   },
+   {
+    "word": "mandate",
+    "ipa": "/ˈmændeɪt/",
+    "pos": "n.",
+    "zh": "授权；委任",
+    "example": "The landslide gave her a clear mandate for reform.",
+    "emoji": "📜",
+    "cefr": "C1"
+   },
+   {
+    "word": "coalition",
+    "ipa": "/ˌkəʊəˈlɪʃn/",
+    "pos": "n.",
+    "zh": "联合政府；联盟",
+    "example": "Three parties formed a fragile coalition.",
+    "emoji": "🧩",
+    "cefr": "C1"
+   },
+   {
+    "word": "opposition",
+    "ipa": "/ˌɒpəˈzɪʃn/",
+    "pos": "n.",
+    "zh": "反对党；反对",
+    "example": "The opposition blocked the tax bill.",
+    "emoji": "⚔️",
+    "cefr": "B2"
+   },
+   {
+    "word": "turnout",
+    "ipa": "/ˈtɜːnaʊt/",
+    "pos": "n.",
+    "zh": "投票率；出席人数",
+    "example": "Voter turnout hit 78%, a twenty-year high.",
+    "emoji": "📊",
+    "cefr": "C1"
+   },
+   {
+    "word": "polling",
+    "ipa": "/ˈpəʊlɪŋ/",
+    "pos": "n.",
+    "zh": "民调；投票",
+    "example": "Polling errors cost the analysts credibility.",
+    "emoji": "📈",
+    "cefr": "C1"
+   },
+   {
+    "word": "candidate",
+    "ipa": "/ˈkændɪdət/",
+    "pos": "n.",
+    "zh": "候选人",
+    "example": "Each candidate gets five minutes to speak.",
+    "emoji": "🎤",
+    "cefr": "B2"
+   }
+  ]
+ },
+ {
+  "id": "l5d_crime_investigation",
+  "title": "犯罪调查",
+  "emoji": "🕵️",
+  "words": [
+   {
+    "word": "forensic",
+    "ipa": "/fəˈrensɪk/",
+    "pos": "adj.",
+    "zh": "法医的；法庭的",
+    "example": "Forensic teams combed the scene overnight.",
+    "emoji": "🔍",
+    "cefr": "C1"
+   },
+   {
+    "word": "alibi",
+    "ipa": "/ˈælɪbaɪ/",
+    "pos": "n.",
+    "zh": "不在场证明",
+    "example": "His alibi collapsed under phone records.",
+    "emoji": "🕐",
+    "cefr": "C1"
+   },
+   {
+    "word": "culprit",
+    "ipa": "/ˈkʌlprɪt/",
+    "pos": "n.",
+    "zh": "肇事者；罪魁祸首",
+    "example": "Police caught the culprit within days.",
+    "emoji": "🎯",
+    "cefr": "C1"
+   },
+   {
+    "word": "interrogate",
+    "ipa": "/ɪnˈterəɡeɪt/",
+    "pos": "v.",
+    "zh": "审问；质询",
+    "example": "Detectives interrogated the suspect for six hours.",
+    "emoji": "❓",
+    "cefr": "C1"
+   },
+   {
+    "word": "accomplice",
+    "ipa": "/əˈkʌmplɪs/",
+    "pos": "n.",
+    "zh": "同谋；帮凶",
+    "example": "An accomplice drove the getaway car.",
+    "emoji": "🚗",
+    "cefr": "C1"
+   },
+   {
+    "word": "perpetrator",
+    "ipa": "/ˈpɜːpətreɪtə/",
+    "pos": "n.",
+    "zh": "作案者",
+    "example": "The perpetrator left fingerprints on the safe.",
+    "emoji": "🥷",
+    "cefr": "C1"
+   },
+   {
+    "word": "motive",
+    "ipa": "/ˈməʊtɪv/",
+    "pos": "n.",
+    "zh": "动机",
+    "example": "Prosecutors must prove motive and opportunity.",
+    "emoji": "🧨",
+    "cefr": "B2"
+   },
+   {
+    "word": "raid",
+    "ipa": "/reɪd/",
+    "pos": "n./v.",
+    "zh": "突击搜查；突袭",
+    "example": "Officers raided three warehouses at dawn.",
+    "emoji": "🚪",
+    "cefr": "B2"
+   },
+   {
+    "word": "arson",
+    "ipa": "/ˈɑːsn/",
+    "pos": "n.",
+    "zh": "纵火",
+    "example": "The fire was ruled arson, not accident.",
+    "emoji": "🔥",
+    "cefr": "C1"
+   },
+   {
+    "word": "embezzlement",
+    "ipa": "/ɪmˈbezlmənt/",
+    "pos": "n.",
+    "zh": "挪用公款",
+    "example": "The accountant was arrested for embezzlement.",
+    "emoji": "🧾",
+    "cefr": "C1"
+   },
+   {
+    "word": "bribery",
+    "ipa": "/ˈbraɪbəri/",
+    "pos": "n.",
+    "zh": "行贿；受贿",
+    "example": "Bribery scandals damage trust in referees.",
+    "emoji": "💰",
+    "cefr": "B2"
+   },
+   {
+    "word": "fingerprint",
+    "ipa": "/ˈfɪŋɡəprɪnt/",
+    "pos": "n.",
+    "zh": "指纹",
+    "example": "A partial fingerprint cracked the cold case.",
+    "emoji": "👆",
+    "cefr": "B2"
+   }
+  ]
+ },
+ {
+  "id": "l5d_punishment_prison",
+  "title": "刑罚与监狱",
+  "emoji": "⛓️",
+  "words": [
+   {
+    "word": "inmate",
+    "ipa": "/ˈɪnmeɪt/",
+    "pos": "n.",
+    "zh": "（监狱）在押人员",
+    "example": "Inmates can earn diplomas inside prison.",
+    "emoji": "🧑",
+    "cefr": "C1"
+   },
+   {
+    "word": "parole",
+    "ipa": "/pəˈrəʊl/",
+    "pos": "n.",
+    "zh": "假释",
+    "example": "He violated parole within three months.",
+    "emoji": "🔑",
+    "cefr": "C1"
+   },
+   {
+    "word": "remand",
+    "ipa": "/rɪˈmɑːnd/",
+    "pos": "n./v.",
+    "zh": "还押候审",
+    "example": "The judge remanded him for further questioning.",
+    "emoji": "🛏️",
+    "cefr": "C1"
+   },
+   {
+    "word": "convict",
+    "ipa": "/kənˈvɪkt/",
+    "pos": "v./n.",
+    "zh": "定罪；囚犯",
+    "example": "The jury convicted him on all counts.",
+    "emoji": "⛓️",
+    "cefr": "C1"
+   },
+   {
+    "word": "rehabilitation",
+    "ipa": "/ˌriːəˌbɪlɪˈteɪʃn/",
+    "pos": "n.",
+    "zh": "改造；康复",
+    "example": "Prison should aim at rehabilitation, not revenge.",
+    "emoji": "🦾",
+    "cefr": "C1"
+   },
+   {
+    "word": "execution",
+    "ipa": "/ˌeksɪˈkjuːʃn/",
+    "pos": "n.",
+    "zh": "处决；执行",
+    "example": "The execution was postponed for review.",
+    "emoji": "⚖️",
+    "cefr": "C1"
+   },
+   {
+    "word": "acquit",
+    "ipa": "/əˈkwɪt/",
+    "pos": "v.",
+    "zh": "宣判无罪",
+    "example": "The court acquitted her for lack of proof.",
+    "emoji": "🕊️",
+    "cefr": "C1"
+   },
+   {
+    "word": "bail",
+    "ipa": "/beɪl/",
+    "pos": "n.",
+    "zh": "保释",
+    "example": "Judge granted bail set at 50,000.",
+    "emoji": "💰",
+    "cefr": "C1"
+   },
+   {
+    "word": "detention",
+    "ipa": "/dɪˈtenʃn/",
+    "pos": "n.",
+    "zh": "拘留；滞留",
+    "example": "He spent two nights in police detention.",
+    "emoji": "🚨",
+    "cefr": "B2"
+   },
+   {
+    "word": "deterrent",
+    "ipa": "/dɪˈterənt/",
+    "pos": "n.",
+    "zh": "威慑因素",
+    "example": "Heavy fines are an effective deterrent.",
+    "emoji": "🚧",
+    "cefr": "C1"
+   },
+   {
+    "word": "juvenile",
+    "ipa": "/ˈdʒuːvənaɪl/",
+    "pos": "adj.",
+    "zh": "少年的；幼稚的",
+    "example": "Juvenile courts focus on education over punishment.",
+    "emoji": "🧒",
+    "cefr": "C1"
+   },
+   {
+    "word": "sentencing",
+    "ipa": "/ˈsentənsɪŋ/",
+    "pos": "n.",
+    "zh": "量刑；宣判",
+    "example": "Sentencing guidelines cap the fine at 10%.",
+    "emoji": "🔨",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l5d_public_policy",
+  "title": "公共政策",
+  "emoji": "🏗️",
+  "words": [
+   {
+    "word": "entitlement",
+    "ipa": "/ɪnˈtaɪtlmənt/",
+    "pos": "n.",
+    "zh": "应得权益；津贴",
+    "example": "Benefit entitlements shrank after the reform.",
+    "emoji": "🧾",
+    "cefr": "C1"
+   },
+   {
+    "word": "grant",
+    "ipa": "/ɡrɑːnt/",
+    "pos": "n.",
+    "zh": "拨款；补助金",
+    "example": "A research grant covered the lab equipment.",
+    "emoji": "🎁",
+    "cefr": "B2"
+   },
+   {
+    "word": "utilities",
+    "ipa": "/juːˈtɪlətiz/",
+    "pos": "n.",
+    "zh": "公用事业",
+    "example": "Utilities include water, gas and electricity.",
+    "emoji": "🚰",
+    "cefr": "C1"
+   },
+   {
+    "word": "overhaul",
+    "ipa": "/ˈəʊvəhɔːl/",
+    "pos": "n./v.",
+    "zh": "彻底检修；全面改革",
+    "example": "The tax system needs a complete overhaul.",
+    "emoji": "🔧",
+    "cefr": "C1"
+   },
+   {
+    "word": "disburse",
+    "ipa": "/dɪsˈbɜːs/",
+    "pos": "v.",
+    "zh": "支付；拨付",
+    "example": "The treasury disbursed relief funds within days.",
+    "emoji": "💸",
+    "cefr": "C1"
+   },
+   {
+    "word": "expenditure",
+    "ipa": "/ɪkˈspendɪtʃə/",
+    "pos": "n.",
+    "zh": "支出；花费",
+    "example": "Military expenditure dominates the national budget.",
+    "emoji": "📉",
+    "cefr": "C1"
+   },
+   {
+    "word": "austerity",
+    "ipa": "/ɒˈsterəti/",
+    "pos": "n.",
+    "zh": "紧缩（政策）",
+    "example": "Austerity measures triggered street protests.",
+    "emoji": "✂️",
+    "cefr": "C1"
+   },
+   {
+    "word": "excise",
+    "ipa": "/ˈeksaɪz/",
+    "pos": "n.",
+    "zh": "消费税",
+    "example": "An excise duty applies to tobacco and alcohol.",
+    "emoji": "🛢️",
+    "cefr": "C1"
+   },
+   {
+    "word": "deregulation",
+    "ipa": "/ˌdiːˌreɡjuˈleɪʃn/",
+    "pos": "n.",
+    "zh": "放松管制",
+    "example": "Deregulation opened airlines to low-cost rivals.",
+    "emoji": "🔓",
+    "cefr": "C1"
+   },
+   {
+    "word": "oversight",
+    "ipa": "/ˈəʊvəsaɪt/",
+    "pos": "n.",
+    "zh": "监督；疏忽",
+    "example": "An independent body provides oversight of police.",
+    "emoji": "👁️",
+    "cefr": "C1"
+   },
+   {
+    "word": "perk",
+    "ipa": "/pɜːk/",
+    "pos": "n.",
+    "zh": "额外补贴；好处",
+    "example": "Free lunches are the office’s most loved perk.",
+    "emoji": "🍱",
+    "cefr": "C1"
+   },
+   {
+    "word": "stakeholder",
+    "ipa": "/ˈsteɪkhəʊldə/",
+    "pos": "n.",
+    "zh": "利益相关方",
+    "example": "Every stakeholder signed the roadmap.",
+    "emoji": "🧑‍🤝‍🧑",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l5d_migration",
+  "title": "移民与社会",
+  "emoji": "🧳",
+  "words": [
+   {
+    "word": "immigrant",
+    "ipa": "/ˈɪmɪɡrənt/",
+    "pos": "n.",
+    "zh": "（外来）移民",
+    "example": "Immigrants fill half the nursing vacancies.",
+    "emoji": "🧳",
+    "cefr": "B2"
+   },
+   {
+    "word": "relocate",
+    "ipa": "/ˌriːləʊˈkeɪt/",
+    "pos": "v.",
+    "zh": "搬迁；迁往",
+    "example": "The firm relocated its factory closer to the port.",
+    "emoji": "📦",
+    "cefr": "B2"
+   },
+   {
+    "word": "incorporate",
+    "ipa": "/ɪnˈkɔːpəreɪt/",
+    "pos": "v.",
+    "zh": "纳入；合并",
+    "example": "New immigrants incorporate local customs gradually.",
+    "emoji": "🧩",
+    "cefr": "C1"
+   },
+   {
+    "word": "assimilation",
+    "ipa": "/əˌsɪməˈleɪʃn/",
+    "pos": "n.",
+    "zh": "同化",
+    "example": "Assimilation pressure can erase minority languages.",
+    "emoji": "🫠",
+    "cefr": "C1"
+   },
+   {
+    "word": "residency",
+    "ipa": "/ˈrezɪdənsi/",
+    "pos": "n.",
+    "zh": "（长期）居留",
+    "example": "She applied for permanent residency last spring.",
+    "emoji": "🏠",
+    "cefr": "C1"
+   },
+   {
+    "word": "diaspora",
+    "ipa": "/daɪˈæspərə/",
+    "pos": "n.",
+    "zh": "（族群）离散",
+    "example": "The diaspora sends billions home every year.",
+    "emoji": "🌍",
+    "cefr": "C1"
+   },
+   {
+    "word": "xenophobia",
+    "ipa": "/ˌzenəˈfəʊbiə/",
+    "pos": "n.",
+    "zh": "排外情绪",
+    "example": "Tabloids fuelled xenophobia during the downturn.",
+    "emoji": "😤",
+    "cefr": "C1"
+   },
+   {
+    "word": "naturalisation",
+    "ipa": "/ˌnætʃrəlaɪˈzeɪʃn/",
+    "pos": "n.",
+    "zh": "入籍",
+    "example": "Naturalisation requires a language test here.",
+    "emoji": "📜",
+    "cefr": "C1"
+   },
+   {
+    "word": "cosmopolitan",
+    "ipa": "/ˌkɒzməˈpɒlɪtən/",
+    "pos": "adj.",
+    "zh": "国际化的",
+    "example": "Singapore is famously cosmopolitan.",
+    "emoji": "🌆",
+    "cefr": "C1"
+   },
+   {
+    "word": "influx",
+    "ipa": "/ˈɪnflʌks/",
+    "pos": "n.",
+    "zh": "涌入",
+    "example": "A sudden influx of tourists strained the sewers.",
+    "emoji": "🌊",
+    "cefr": "C1"
+   },
+   {
+    "word": "remittance",
+    "ipa": "/rɪˈmɪtəns/",
+    "pos": "n.",
+    "zh": "侨汇",
+    "example": "Remittances exceed foreign aid in many economies.",
+    "emoji": "💸",
+    "cefr": "C1"
+   },
+   {
+    "word": "underwrite",
+    "ipa": "/ˌʌndəˈraɪt/",
+    "pos": "v.",
+    "zh": "承保；出资支持",
+    "example": "The bank agreed to underwrite the festival.",
+    "emoji": "🖊️",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l5d_activism",
+  "title": "社会运动",
+  "emoji": "✊",
+  "words": [
+   {
+    "word": "activism",
+    "ipa": "/ˈæktɪvɪzəm/",
+    "pos": "n.",
+    "zh": "行动主义；社会活动",
+    "example": "Student activism reshaped the university policy.",
+    "emoji": "✊",
+    "cefr": "B2"
+   },
+   {
+    "word": "boycott",
+    "ipa": "/ˈbɔɪkɒt/",
+    "pos": "v./n.",
+    "zh": "抵制",
+    "example": "Consumers boycotted the brand over labour abuses.",
+    "emoji": "🚷",
+    "cefr": "C1"
+   },
+   {
+    "word": "rally",
+    "ipa": "/ˈræli/",
+    "pos": "n./v.",
+    "zh": "集会；团结起来",
+    "example": "Thousands attended the climate rally downtown.",
+    "emoji": "📣",
+    "cefr": "B2"
+   },
+   {
+    "word": "strike",
+    "ipa": "/straɪk/",
+    "pos": "n./v.",
+    "zh": "罢工",
+    "example": "Nurses voted to strike over staffing levels.",
+    "emoji": "🛑",
+    "cefr": "B2"
+   },
+   {
+    "word": "grassroots",
+    "ipa": "/ˈɡrɑːsruːts/",
+    "pos": "adj.",
+    "zh": "基层的",
+    "example": "A grassroots campaign saved the local library.",
+    "emoji": "🌱",
+    "cefr": "C1"
+   },
+   {
+    "word": "advocacy",
+    "ipa": "/ˈædvəkəsi/",
+    "pos": "n.",
+    "zh": "倡导；拥护",
+    "example": "She works in advocacy for disability rights.",
+    "emoji": "📢",
+    "cefr": "C1"
+   },
+   {
+    "word": "placard",
+    "ipa": "/ˈplækɑːd/",
+    "pos": "n.",
+    "zh": "标语牌",
+    "example": "Marchers carried placards with sharp slogans.",
+    "emoji": "🪧",
+    "cefr": "C1"
+   },
+   {
+    "word": "solidarity",
+    "ipa": "/ˌsɒlɪˈdærəti/",
+    "pos": "n.",
+    "zh": "团结",
+    "example": "Unions sent messages of solidarity worldwide.",
+    "emoji": "🤝",
+    "cefr": "C1"
+   },
+   {
+    "word": "dissent",
+    "ipa": "/dɪˈsent/",
+    "pos": "n./v.",
+    "zh": "异议",
+    "example": "Healthy organisations welcome internal dissent.",
+    "emoji": "🗣️",
+    "cefr": "C1"
+   },
+   {
+    "word": "dissident",
+    "ipa": "/ˈdɪsɪdənt/",
+    "pos": "n.",
+    "zh": "持不同政见者",
+    "example": "Dissident writers published their work abroad.",
+    "emoji": "✍️",
+    "cefr": "C1"
+   },
+   {
+    "word": "watchdog",
+    "ipa": "/ˈwɒtʃdɒɡ/",
+    "pos": "n.",
+    "zh": "监督机构",
+    "example": "A consumer watchdog fined the airline.",
+    "emoji": "🐕",
+    "cefr": "C1"
+   },
+   {
+    "word": "activist",
+    "ipa": "/ˈæktɪvɪst/",
+    "pos": "n.",
+    "zh": "活动人士",
+    "example": "The young activist spoke at the UN summit.",
+    "emoji": "🙋",
+    "cefr": "B2"
+   }
+  ]
+ }
+]
