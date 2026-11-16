@@ -40,11 +40,19 @@
 
       <!-- 输入区 -->
       <div class="chat-input-bar">
+        <button
+          v-if="asrSupported"
+          class="chat-mic-btn"
+          :class="{ listening }"
+          :disabled="loading"
+          :title="listening ? '停止语音输入' : '语音输入'"
+          @click="toggleMic"
+        >{{ listening ? '⏹' : '🎤' }}</button>
         <input
           v-model="input"
           class="form-input chat-input"
           type="text"
-          :placeholder="loading ? '请等待回复…' : '用英语或中文输入…'"
+          :placeholder="listening ? '正在听你说…（说英文）' : loading ? '请等待回复…' : '用英语或中文输入…'"
           :disabled="loading"
           @keyup.enter="send"
         />
@@ -52,17 +60,19 @@
           {{ loading ? '…' : '发送' }}
         </button>
       </div>
-      <p v-if="errorMsg" class="chat-error">{{ errorMsg }}</p>
+      <p v-if="asrError" class="chat-error">{{ asrError }}</p>
+      <p v-else-if="errorMsg" class="chat-error">{{ errorMsg }}</p>
     </main>
     <BottomTab />
   </div>
 </template>
 
 <script setup>
-import { ref, nextTick } from 'vue'
+import { ref, nextTick, onBeforeUnmount } from 'vue'
 import BottomTab from '../components/BottomTab.vue'
 import { SCENARIOS, chatWithAI } from '../services/ai'
 import { speak, stopSpeak } from '../services/tts'
+import { isSpeechRecognitionSupported, createRecognizer, asrErrorText } from '../services/asr'
 
 const scenario = ref('free')
 const messages = ref([])
@@ -70,6 +80,59 @@ const input = ref('')
 const loading = ref(false)
 const errorMsg = ref('')
 const msgBox = ref(null)
+
+/* ---------- 语音输入 ---------- */
+const asrSupported = isSpeechRecognitionSupported()
+const listening = ref(false)
+const asrError = ref('')
+let recognizer = null
+
+function toggleMic() {
+  if (listening.value) {
+    stopListening()
+    return
+  }
+  if (loading.value) return
+  asrError.value = ''
+  input.value = ''
+  recognizer = createRecognizer({
+    onInterim: (t) => {
+      input.value = t
+    },
+    onFinal: (t) => {
+      input.value = t
+      stopListening()
+    },
+    onError: (code) => {
+      asrError.value = asrErrorText(code)
+      listening.value = false
+    },
+    onEnd: () => {
+      listening.value = false
+    }
+  })
+  if (!recognizer) {
+    asrError.value = '当前浏览器不支持语音识别。'
+    return
+  }
+  try {
+    recognizer.start()
+    listening.value = true
+  } catch {
+    asrError.value = '语音识别启动失败，请重试。'
+    listening.value = false
+  }
+}
+
+function stopListening() {
+  if (recognizer) {
+    try {
+      recognizer.stop()
+    } catch { /* ignore */ }
+    recognizer = null
+  }
+  listening.value = false
+}
 
 let controller = null
 
@@ -137,6 +200,11 @@ function replay(text) {
 function scrollBottom() {
   if (msgBox.value) msgBox.value.scrollTop = msgBox.value.scrollHeight
 }
+
+onBeforeUnmount(() => {
+  stopListening()
+  stopSpeak()
+})
 
 switchScenario('free')
 </script>
@@ -263,6 +331,30 @@ switchScenario('free')
   display: flex;
   gap: var(--space-sm);
   margin-top: var(--space-md);
+  align-items: center;
+}
+
+.chat-mic-btn {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--c-border);
+  background: var(--c-bg-soft);
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+
+.chat-mic-btn.listening {
+  background: var(--c-danger, #ef4444);
+  border-color: var(--c-danger, #ef4444);
+  animation: mic-pulse 1.2s infinite;
+}
+
+@keyframes mic-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.08); }
 }
 
 .chat-input {

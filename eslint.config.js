@@ -31,6 +31,10 @@ export default [
         MediaRecorder: 'readonly',
         Audio: 'readonly',
         AudioContext: 'readonly',
+        webkitAudioContext: 'readonly',
+        Worker: 'readonly',
+        SpeechRecognition: 'readonly',
+        webkitSpeechRecognition: 'readonly',
         alert: 'readonly',
         require: 'readonly',
         process: 'readonly',
@@ -49,6 +53,14 @@ export default [
     languageOptions: {
       globals: {
         Buffer: 'readonly'
+      }
+    }
+  },
+  {
+    files: ['src/workers/**'],
+    languageOptions: {
+      globals: {
+        self: 'readonly'
       }
     }
   },

@@ -8,7 +8,7 @@
       <section v-if="phase === 'setup'" class="card">
         <div class="setup-info">
           <p class="setup-title">🎙️ 跟读训练</p>
-          <p class="setup-desc">选择一个单词或句子，先听标准发音，再录下自己的声音回放对比。浏览器只能对比不能打分，请相信自己的耳朵。</p>
+          <p class="setup-desc">选择一个单词或句子，先听标准发音，再录下自己的声音：回放对比 + 本地声学评分 + AI 转写比对（可选）。</p>
           <p class="setup-pool">练习内容：{{ poolLabel }}</p>
           <button class="btn btn-primary btn-block" :disabled="!pool.length" @click="start">
             开始跟读（{{ Math.min(10, pool.length || 0) }} 条）
@@ -75,6 +75,39 @@
               <button class="btn btn-primary" @click="next">下一个</button>
             </div>
           </div>
+
+          <!-- 步骤 4：口语评分（本地声学分析） -->
+          <div v-if="scoring" class="sh-scoring">⏳ 正在本地分析录音…</div>
+          <div v-else-if="score" class="sh-step">
+            <div class="sh-step-label">第 4 步 · 口语评分（本地分析，仅供参考）</div>
+            <div class="sh-score">
+              <div class="sh-score-head">
+                <span class="sh-score-num" :class="score.overall >= 80 ? 'good' : score.overall >= 60 ? 'mid' : 'low'">{{ score.overall }}</span>
+                <span class="sh-score-title">综合评分</span>
+              </div>
+              <div class="sh-score-bars">
+                <div v-for="(label, key) in SCORE_ITEMS" :key="key" class="sh-score-row">
+                  <span class="sh-score-label">{{ label }}</span>
+                  <div class="sh-score-bar"><div class="sh-score-fill" :style="{ width: score.parts[key] + '%' }"></div></div>
+                  <span class="sh-score-val">{{ score.parts[key] }}</span>
+                </div>
+              </div>
+              <ul class="sh-tips">
+                <li v-for="(t, i) in score.tips" :key="i">{{ t }}</li>
+              </ul>
+              <div class="sh-ai-row">
+                <button class="btn btn-ghost" :disabled="asrBusy" @click="runAiScore">
+                  {{ asrState === 'loading' ? '⏳ 模型加载中…' : asrState === 'running' ? '⏳ AI 转写中…' : '🤖 AI 转写比对' }}
+                </button>
+                <span class="sh-ai-hint">首次使用需下载约 45MB 模型（浏览器内运行，录音不上传）</span>
+              </div>
+              <div v-if="asrState === 'done'" class="sh-asr-result">
+                <p>AI 听到的：<b>{{ asrText }}</b></p>
+                <p>与目标「{{ current.word }}」的词汇准确率：<b>{{ asrAccuracy }}%</b></p>
+              </div>
+              <p v-if="asrMsg" class="sh-ai-fail">{{ asrMsg }}</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -103,6 +136,9 @@ import BottomTab from '../components/BottomTab.vue'
 import { useProgressStore } from '../stores/progress'
 import { findWord } from '../services/dictionary'
 import { speak, stopSpeak } from '../services/tts'
+import { analyzeAcoustics, scoreSpeech, scoreTips, decodeToMono16k, wordAccuracy, preloadWhisper, transcribeWhisper } from '../services/speechScore'
+
+const SCORE_ITEMS = { voiced: '发声完整', rate: '时长语速', pitch: '音高自然', volume: '音量饱满' }
 
 const progress = useProgressStore()
 
@@ -115,12 +151,22 @@ const recordingUrl = ref('')
 const waveform = ref(null)
 const micError = ref('')
 
+/* 口语评分状态 */
+const score = ref(null)
+const scoring = ref(false)
+const asrState = ref('idle') // idle | loading | running | done | fail
+const asrText = ref('')
+const asrAccuracy = ref(null)
+const asrMsg = ref('')
+const asrBusy = computed(() => asrState.value === 'loading' || asrState.value === 'running')
+
 let mediaRecorder = null
 let mediaStream = null
 let chunks = []
 let audioCtx = null
 let stdAudio = null
 let mineAudio = null
+let lastBlob = null
 
 /* 词池：与训练场一致 */
 const pool = computed(() => {
@@ -163,6 +209,13 @@ function resetRecord() {
   waveform.value = null
   recording.value = false
   micError.value = ''
+  score.value = null
+  scoring.value = false
+  asrState.value = 'idle'
+  asrText.value = ''
+  asrAccuracy.value = null
+  asrMsg.value = ''
+  lastBlob = null
 }
 
 function shuffle(arr) {
@@ -212,10 +265,11 @@ async function startRecord() {
     if (ev.data && ev.data.size) chunks.push(ev.data)
   }
   mediaRecorder.onstop = () => {
-    const blob = new Blob(chunks, { type: mediaRecorder.mimeType || 'audio/webm' })
+    lastBlob = new Blob(chunks, { type: mediaRecorder.mimeType || 'audio/webm' })
     if (recordingUrl.value) URL.revokeObjectURL(recordingUrl.value)
-    recordingUrl.value = URL.createObjectURL(blob)
-    buildWaveform(blob)
+    recordingUrl.value = URL.createObjectURL(lastBlob)
+    buildWaveform(lastBlob)
+    analyzeScore(lastBlob)
     cleanupStream()
   }
   mediaRecorder.start()
@@ -268,6 +322,49 @@ async function buildWaveform(blob) {
     waveform.value = peaks
   } catch {
     waveform.value = null
+  }
+}
+
+/* ---------- 口语评分（本地声学分析） ---------- */
+
+async function analyzeScore(blob) {
+  scoring.value = true
+  score.value = null
+  try {
+    const { samples } = await decodeToMono16k(blob)
+    const a = analyzeAcoustics(samples)
+    const s = scoreSpeech(a)
+    score.value = { ...s, tips: scoreTips(s, a) }
+  } catch {
+    score.value = null /* 解码失败时静默，不影响回放对比 */
+  } finally {
+    scoring.value = false
+  }
+}
+
+/* AI 转写比对（浏览器内 Whisper，懒加载模型） */
+async function runAiScore() {
+  if (!lastBlob || asrBusy.value) return
+  asrMsg.value = ''
+  try {
+    if (asrState.value !== 'done') {
+      asrState.value = 'loading'
+      const ok = await preloadWhisper()
+      if (!ok) {
+        asrState.value = 'fail'
+        asrMsg.value = '模型加载失败：需联网下载约 45MB（走国内镜像），请检查网络后重试。'
+        return
+      }
+    }
+    asrState.value = 'running'
+    const { samples } = await decodeToMono16k(lastBlob)
+    const text = await transcribeWhisper(samples)
+    asrText.value = text.trim() || '（未识别到内容，请重录并靠近麦克风）'
+    asrAccuracy.value = wordAccuracy(text, current.value ? current.value.word : '')
+    asrState.value = 'done'
+  } catch {
+    asrState.value = 'fail'
+    asrMsg.value = 'AI 转写失败：可能是模型下载未完成或设备内存不足，可稍后重试。'
   }
 }
 
@@ -482,6 +579,124 @@ onBeforeUnmount(() => {
   gap: var(--space-sm);
   justify-content: center;
   margin-top: var(--space-sm);
+}
+
+/* ---------- 口语评分卡 ---------- */
+.sh-scoring {
+  font-size: 13px;
+  color: var(--c-text-muted);
+  text-align: center;
+  padding: 10px 0;
+}
+
+.sh-score {
+  background: var(--c-bg-soft);
+  border-radius: 14px;
+  padding: 14px;
+  text-align: left;
+}
+
+.sh-score-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.sh-score-num {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.sh-score-num.good { color: #16a34a; }
+.sh-score-num.mid { color: #d97706; }
+.sh-score-num.low { color: #ef4444; }
+
+.sh-score-title {
+  font-size: 13px;
+  color: var(--c-text-secondary);
+}
+
+.sh-score-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sh-score-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sh-score-label {
+  width: 60px;
+  font-size: 12px;
+  color: var(--c-text-secondary);
+  flex-shrink: 0;
+}
+
+.sh-score-bar {
+  flex: 1;
+  height: 8px;
+  background: var(--c-bg-card);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.sh-score-fill {
+  height: 100%;
+  background: var(--c-primary);
+  border-radius: 4px;
+  transition: width 0.3s;
+}
+
+.sh-score-val {
+  width: 28px;
+  text-align: right;
+  font-size: 12px;
+  color: var(--c-text-muted);
+  flex-shrink: 0;
+}
+
+.sh-tips {
+  margin: 10px 0 0;
+  padding-left: 18px;
+}
+
+.sh-tips li {
+  font-size: 12px;
+  color: var(--c-text-secondary);
+  line-height: 1.6;
+}
+
+.sh-ai-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.sh-ai-hint {
+  font-size: 11px;
+  color: var(--c-text-muted);
+}
+
+.sh-asr-result {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 1.7;
+  background: var(--c-bg-card);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.sh-ai-fail {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--c-danger, #ef4444);
 }
 
 .sh-error {
