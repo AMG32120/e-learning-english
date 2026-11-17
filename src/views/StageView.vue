@@ -94,6 +94,38 @@
             </div>
           </div>
 
+          <!-- 连词成句：乱序词块组句 -->
+          <div v-else-if="current.kind === 'word_order'" class="spell-wrap">
+            <div class="order-zh">💡 句意：{{ current.display && current.display.zh }}</div>
+            <div class="spell-slots">
+              <span v-for="(t, i) in sentencePicked" :key="'o' + i" class="spell-slot order-slot">{{ t }}</span>
+              <span
+                v-for="i in Math.max(0, (current.tokens || []).length - sentencePicked.length)"
+                :key="'e' + i"
+                class="spell-slot empty"
+              >_</span>
+            </div>
+            <div class="spell-letters">
+              <button
+                v-for="(tok, i) in current.tokens"
+                :key="i"
+                class="spell-key"
+                :class="{ used: sentencePickedIndexes.includes(i) }"
+                :disabled="revealed || sentencePickedIndexes.includes(i)"
+                @click="sentencePick(i)"
+              >{{ tok.t }}</button>
+            </div>
+            <div class="spell-actions">
+              <button class="btn btn-ghost" :disabled="revealed" @click="sentenceBack">退格</button>
+              <button class="btn btn-ghost" :disabled="revealed" @click="sentenceClear">重来</button>
+              <button
+                class="btn btn-primary"
+                :disabled="revealed || sentencePicked.length !== (current.tokens || []).length"
+                @click="sentenceConfirm"
+              >确定</button>
+            </div>
+          </div>
+
           <QuizBox
             v-else
             :options="current.options"
@@ -213,6 +245,7 @@ import { L6_LISTENING } from '../data/listening_l6'
 import { getGrammarUnitById } from '../data/grammar'
 import { ARTICLES_L7 } from '../data/reading_l7'
 import { getSimulationById, getAcademicWordsByTheme } from '../data/simulation_l8'
+import { SENTENCE_BANKS } from '../data/sentences'
 
 const route = useRoute()
 const router = useRouter()
@@ -233,6 +266,8 @@ const stars = ref(0)
 const rewarded = ref(false)
 const spellChars = ref([])
 const spellPickedIndexes = ref([])
+const sentencePicked = ref([])
+const sentencePickedIndexes = ref([])
 const sceneData = ref(null)
 const grammarUnit = ref(null)
 const readingData = ref(null)
@@ -356,6 +391,29 @@ function buildQuiz() {
       kind: 'grammar',
       seq: i + 1
     }))
+    mode.value = 'quiz'
+    return
+  }
+
+  if (s.type === 'word_order') {
+    const bank = SENTENCE_BANKS[s.content.bank] || []
+    questions.value = shuffle(bank)
+      .slice(0, s.content.count || 8)
+      .map((item) => {
+        let tokens = shuffle(item.en.split(' ').map((t, i) => ({ t, i })))
+        // 乱序后恰好等于原句则轮转一次，保证是真正的乱序
+        if (tokens.map((x) => x.t).join(' ') === item.en && tokens.length > 1) {
+          tokens = tokens.slice(1).concat(tokens.slice(0, 1))
+        }
+        return {
+          prompt: '把乱序词块排成正确的句子',
+          answer: item.en,
+          tokens,
+          display: { zh: item.zh },
+          correctLabel: item.en,
+          kind: 'word_order'
+        }
+      })
     mode.value = 'quiz'
     return
   }
@@ -542,7 +600,7 @@ function spellClear() {
 function reviewKeyOf(q) {
   // 词类题目用单词作为复习键，保证复习页可显示、可聚合易错词
   if (q && q.word) return q.pos ? `${q.word}|${q.pos}` : q.word
-  if (q && typeof q.kind === 'string' && q.kind.startsWith('word') && typeof q.answer === 'string') {
+  if (q && typeof q.kind === 'string' && q.kind.startsWith('word') && q.kind !== 'word_order' && typeof q.answer === 'string') {
     return q.answer.toLowerCase()
   }
   return `${stage.value.id}:${index.value}`
@@ -558,6 +616,42 @@ function spellConfirm() {
     correctCount.value += 1
   } else {
     progress.addToReviewPool([reviewKeyOf(current.value)])
+  }
+}
+
+/* ---------- 连词成句 ---------- */
+function normSentence(s) {
+  return String(s).toLowerCase().replace(/[.,?!]/g, '').replace(/\s+/g, ' ').trim()
+}
+
+function sentencePick(i) {
+  if (revealed.value) return
+  if (sentencePickedIndexes.value.includes(i)) return
+  if (sentencePickedIndexes.value.length >= (current.value.tokens || []).length) return
+  sentencePicked.value.push(current.value.tokens[i].t)
+  sentencePickedIndexes.value.push(i)
+}
+
+function sentenceBack() {
+  if (revealed.value) return
+  const i = sentencePickedIndexes.value.pop()
+  if (i !== undefined) sentencePicked.value.pop()
+}
+
+function sentenceClear() {
+  if (revealed.value) return
+  sentencePicked.value = []
+  sentencePickedIndexes.value = []
+}
+
+function sentenceConfirm() {
+  if (revealed.value) return
+  const guess = sentencePicked.value.join(' ')
+  selected.value = guess
+  revealed.value = true
+  answeredCount.value += 1
+  if (normSentence(guess) === normSentence(current.value.answer)) {
+    correctCount.value += 1
   }
 }
 
@@ -588,6 +682,8 @@ function next() {
     revealed.value = false
     spellChars.value = []
     spellPickedIndexes.value = []
+    sentencePicked.value = []
+    sentencePickedIndexes.value = []
   } else {
     finishQuiz()
   }
@@ -901,6 +997,18 @@ buildQuiz()
 .spell-actions {
   display: flex;
   gap: var(--space-sm);
+}
+
+.order-zh {
+  font-size: 13px;
+  color: var(--c-text-secondary);
+  margin-bottom: var(--space-sm);
+}
+
+.order-slot {
+  min-width: 40px;
+  padding: 0 10px;
+  font-size: 14px;
 }
 
 .read-demo {

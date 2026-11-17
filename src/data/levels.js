@@ -1,10 +1,14 @@
 ﻿/* ============================================================
-   src/data/levels.js —— 等级与关卡结构定义（L1~L8）
-   L1 关卡完整实现；L2 基础词汇已开放；L3~L8 逐步开放。
+   src/data/levels.js —— 等级与关卡结构定义（L1~L12）
+   12 级结构：词汇大关按主题量拆分为多级，关卡不再堆积。
+   词汇类关卡（L2/L3/L6~L9）由词库主题数据驱动自动生成，
+   新增主题只要往词库 JSON 加数据，关卡自动出现，无需改本文件。
    关卡模型：{ id, level, stage, title, type, desc, available, content }
    ============================================================ */
 import { LETTERS, IPA_VOWELS, IPA_CONSONANTS, PHONICS_WORDS } from './letters'
-import { getWordsL2, getAllL5Words, getL5Themes, getL8Words } from '../services/wordData'
+import { L6_LISTENING } from './listening_l6'
+import { ARTICLES_L7 } from './reading_l7'
+import { getWordsL2, getL5Themes, getL8Words } from '../services/wordData'
 
 export const LEVEL_UNLOCK_RATIO = 0.8
 
@@ -18,6 +22,7 @@ export const STAGE_TYPES = {
   word_choice: { name: '单词选择', component: 'word_choice' },
   word_match: { name: '看图识词', component: 'word_match' },
   word_spell: { name: '拼写挑战', component: 'word_spell' },
+  word_order: { name: '连词成句', component: 'word_order' },
   dialogue: { name: '场景对话', component: 'dialogue' },
   grammar_quiz: { name: '语法测验', component: 'grammar_quiz' },
   listening: { name: '听力理解', component: 'listening' },
@@ -83,10 +88,10 @@ const L1 = {
   ]
 }
 
-/* ---------- 词汇关卡生成器（L2 / L5） ----------
+/* ---------- 词汇关卡生成器（L2/L3 基础词汇、L6~L9 中级词汇） ----------
    词库按主题组织，每个主题 12 词拆成 2 关（每关 6 词）：
    第 1 关「认词」用选择/听音，第 2 关「巩固」用看图或拼写。
-   新增主题只要往词库 JSON 加数据，关卡自动出现，无需改本文件。 */
+   词库主题按难度顺序等分为多段，每段对应一个等级，避免关卡堆积。 */
 
 const L2_THEME_META = {
   numbers: { title: '数字', emoji: '🔢' },
@@ -175,33 +180,85 @@ const L2_THEME_META = {
 
 const WORD_STAGE_CACHE = new Map()
 
-function wordThemesFor(prefix) {
-  if (prefix === 'L2') {
-    const data = getWordsL2()
-    return Object.keys(data).map((key) => {
-      const meta = L2_THEME_META[key] || {}
-      return {
-        key,
-        pool: `l2_${key}`,
-        title: meta.title || key,
-        emoji: meta.emoji || '📘',
-        words: Array.isArray(data[key]) ? data[key] : []
-      }
-    })
-  }
-  return getL5Themes().map((t) => ({
-    key: t.id,
-    pool: t.id,
-    title: t.title || t.id,
-    emoji: t.emoji || '📗',
-    words: Array.isArray(t.words) ? t.words : []
-  }))
+/* L2 主题（对象结构 → 统一主题描述） */
+function l2Themes() {
+  const data = getWordsL2()
+  return Object.keys(data).map((key) => {
+    const meta = L2_THEME_META[key] || {}
+    return {
+      key,
+      pool: `l2_${key}`,
+      title: meta.title || key,
+      emoji: meta.emoji || '📘',
+      words: Array.isArray(data[key]) ? data[key] : []
+    }
+  })
 }
 
-function buildWordStages(prefix) {
-  const themes = wordThemesFor(prefix)
-  const signature = themes.map((t) => t.words.length).join(',')
-  const cached = WORD_STAGE_CACHE.get(prefix)
+/* L5 词主题 / 词组主题（词组包 id 形如 ph_*） */
+function l5WordThemes() {
+  return getL5Themes()
+    .filter((t) => !String(t.id).startsWith('ph_'))
+    .map((t) => ({
+      key: t.id,
+      pool: t.id,
+      title: t.title || t.id,
+      emoji: t.emoji || '📗',
+      words: Array.isArray(t.words) ? t.words : []
+    }))
+}
+
+function phraseThemes() {
+  return getL5Themes()
+    .filter((t) => String(t.id).startsWith('ph_'))
+    .map((t) => ({
+      key: t.id,
+      pool: t.id,
+      title: t.title || t.id,
+      emoji: t.emoji || '💬',
+      words: Array.isArray(t.words) ? t.words : []
+    }))
+}
+
+function chunk(arr, n) {
+  const per = Math.ceil(arr.length / n)
+  const out = []
+  for (let i = 0; i < n; i++) out.push(arr.slice(i * per, (i + 1) * per))
+  return out
+}
+
+/* 等级 → 主题序列：
+   L2/L3 基础词汇对半分；L6~L9 中级词汇四等分，词组包归入 L9 末尾 */
+const L2_LEVEL_THEMES = [null, null] // 惰性填充：[L2 主题段, L3 主题段]
+const L5_LEVEL_THEMES = [null, null, null, null] // 惰性填充：[L6~L9 主题段]
+
+function ensureThemeSegments() {
+  if (!L2_LEVEL_THEMES[0]) {
+    const all = l2Themes()
+    const mid = Math.ceil(all.length / 2)
+    L2_LEVEL_THEMES[0] = all.slice(0, mid)
+    L2_LEVEL_THEMES[1] = all.slice(mid)
+  }
+  if (!L5_LEVEL_THEMES[0]) {
+    const segs = chunk(l5WordThemes(), 4)
+    segs[3] = segs[3].concat(phraseThemes())
+    segs.forEach((seg, i) => {
+      L5_LEVEL_THEMES[i] = seg
+    })
+  }
+}
+
+function themesForWordLevel(levelNum) {
+  ensureThemeSegments()
+  if (levelNum === 2) return L2_LEVEL_THEMES[0]
+  if (levelNum === 3) return L2_LEVEL_THEMES[1]
+  return L5_LEVEL_THEMES[levelNum - 6]
+}
+
+function buildWordStages(levelNum, source) {
+  const themes = themesForWordLevel(levelNum)
+  const signature = `${levelNum}:` + themes.map((t) => t.words.length).join(',')
+  const cached = WORD_STAGE_CACHE.get(levelNum)
   // 词库未加载（签名全 0）时不读写缓存，避免启动早期锁死空关卡
   if (cached && cached.signature === signature && themes.some((t) => t.words.length)) {
     return cached.stages
@@ -230,7 +287,7 @@ function buildWordStages(prefix) {
           ? `理解「${t.title}」的 ${group.length} 个搭配`
           : `看中文，选出「${t.title}」的 ${group.length} 个搭配`
       } else if (!first) {
-        if (prefix === 'L2') {
+        if (source === 'l2') {
           type = 'word_match'
           desc = `看图巩固这 ${group.length} 个词`
         } else {
@@ -242,7 +299,7 @@ function buildWordStages(prefix) {
       }
 
       stages.push({
-        id: `${prefix}-U${ti + 1}-S${gi + 1}`,
+        id: `L${levelNum}-U${ti + 1}-S${gi + 1}`,
         stage: seq,
         unit: ti + 1,
         unitTitle: t.title,
@@ -264,30 +321,40 @@ function buildWordStages(prefix) {
   })
 
   const result = { signature, stages }
-  if (themes.some((t) => t.words.length)) WORD_STAGE_CACHE.set(prefix, result)
+  if (themes.some((t) => t.words.length)) WORD_STAGE_CACHE.set(levelNum, result)
   return stages
 }
 
-/* ---------- L2 基础词汇（主题驱动，22 主题 × 2 关） ---------- */
+/* ---------- L2 / L3 基础词汇（主题驱动） ---------- */
 const L2 = {
   level: 2,
-  name: '基础词汇',
-  desc: '主题基础词汇，每个主题 2 关：先认词，再巩固',
+  name: '基础词汇 · 上',
+  desc: '主题基础词汇（上半），每个主题 2 关：先认词，再巩固',
   available: true,
   get stages() {
-    return buildWordStages('L2')
+    return buildWordStages(2, 'l2')
   }
 }
 
-/* ---------- L3 日常对话（6 关：4 场景 + 2 听力） ---------- */
 const L3 = {
   level: 3,
+  name: '基础词汇 · 下',
+  desc: '主题基础词汇（下半），每个主题 2 关：先认词，再巩固',
+  available: true,
+  get stages() {
+    return buildWordStages(3, 'l2')
+  }
+}
+
+/* ---------- L4 日常对话（6 关：4 场景 + 2 听力） ---------- */
+const L4 = {
+  level: 4,
   name: '日常对话',
-  desc: '问候、点餐、购物、问路等生活场景对话（首期 4 场景 + 2 篇慢速听力）',
+  desc: '问候、点餐、购物、问路等生活场景对话（4 场景 + 2 篇慢速听力）',
   available: true,
   stages: [
     {
-      id: 'L3-1',
+      id: 'L4-1',
       stage: 1,
       title: '问候与自我介绍',
       type: 'dialogue',
@@ -296,7 +363,7 @@ const L3 = {
       content: { scene: 'greeting' }
     },
     {
-      id: 'L3-2',
+      id: 'L4-2',
       stage: 2,
       title: '餐厅点餐',
       type: 'dialogue',
@@ -305,7 +372,7 @@ const L3 = {
       content: { scene: 'ordering' }
     },
     {
-      id: 'L3-3',
+      id: 'L4-3',
       stage: 3,
       title: '购物',
       type: 'dialogue',
@@ -314,7 +381,7 @@ const L3 = {
       content: { scene: 'shopping' }
     },
     {
-      id: 'L3-4',
+      id: 'L4-4',
       stage: 4,
       title: '问路',
       type: 'dialogue',
@@ -323,7 +390,7 @@ const L3 = {
       content: { scene: 'directions' }
     },
     {
-      id: 'L3-5',
+      id: 'L4-5',
       stage: 5,
       title: '场景听力（一）',
       type: 'listening',
@@ -332,7 +399,7 @@ const L3 = {
       content: { script: 'l3-listening-1' }
     },
     {
-      id: 'L3-6',
+      id: 'L4-6',
       stage: 6,
       title: '场景听力（二）',
       type: 'listening',
@@ -343,15 +410,15 @@ const L3 = {
   ]
 }
 
-/* ---------- L4 初级语法（6 关） ---------- */
-const L4 = {
-  level: 4,
+/* ---------- L5 初级语法（6 语法单元 + 2 连词成句） ---------- */
+const L5 = {
+  level: 5,
   name: '初级语法',
-  desc: 'be 动词、一般现在时、名词复数等基础语法（6 个语法单元）',
+  desc: 'be 动词、一般现在时等基础语法 + 连词成句训练',
   available: true,
   stages: [
     {
-      id: 'L4-1',
+      id: 'L5-1',
       stage: 1,
       title: 'be 动词',
       type: 'grammar_quiz',
@@ -360,7 +427,7 @@ const L4 = {
       content: { unit: 'be_verbs' }
     },
     {
-      id: 'L4-2',
+      id: 'L5-2',
       stage: 2,
       title: '一般现在时',
       type: 'grammar_quiz',
@@ -369,7 +436,7 @@ const L4 = {
       content: { unit: 'present_simple' }
     },
     {
-      id: 'L4-3',
+      id: 'L5-3',
       stage: 3,
       title: '名词复数',
       type: 'grammar_quiz',
@@ -378,7 +445,7 @@ const L4 = {
       content: { unit: 'plural_nouns' }
     },
     {
-      id: 'L4-4',
+      id: 'L5-4',
       stage: 4,
       title: '代词',
       type: 'grammar_quiz',
@@ -387,7 +454,7 @@ const L4 = {
       content: { unit: 'pronouns' }
     },
     {
-      id: 'L4-5',
+      id: 'L5-5',
       stage: 5,
       title: 'there be 句型',
       type: 'grammar_quiz',
@@ -396,143 +463,111 @@ const L4 = {
       content: { unit: 'there_be' }
     },
     {
-      id: 'L4-6',
+      id: 'L5-6',
       stage: 6,
       title: '简单句型',
       type: 'grammar_quiz',
       desc: '掌握基本句型结构与祈使句',
       available: true,
       content: { unit: 'simple_sentences' }
+    },
+    {
+      id: 'L5-7',
+      stage: 7,
+      title: '连词成句 · 基础',
+      type: 'word_order',
+      desc: '把乱序单词排成通顺的句子（陈述句语序）',
+      available: true,
+      content: { bank: 'basic', count: 8 }
+    },
+    {
+      id: 'L5-8',
+      stage: 8,
+      title: '连词成句 · 挑战',
+      type: 'word_order',
+      desc: '更长的句子与疑问句、否定句语序',
+      available: true,
+      content: { bank: 'adv', count: 6 }
     }
   ]
 }
 
-/* ---------- L5 中级词汇（主题驱动，每主题 2 关） ---------- */
-const L5 = {
-  level: 5,
-  name: '中级词汇',
-  desc: 'B1 话题词汇，每个主题 2 关：先认词，再巩固',
-  available: true,
-  get stages() {
-    return buildWordStages('L5')
+/* ---------- L6~L9 中级词汇（主题驱动，四等分） ---------- */
+function wordLevelConfig(levelNum, name, sub) {
+  return {
+    level: levelNum,
+    name,
+    desc: `B1–C1 话题词汇（${sub}），每个主题 2 关：先认词，再巩固`,
+    available: true,
+    get stages() {
+      return buildWordStages(levelNum, 'l5')
+    }
   }
 }
 
-/* ---------- L6 听说进阶（8 关：每关 1 篇听力） ---------- */
-const L6 = {
-  level: 6,
+const L6 = wordLevelConfig(6, '中级词汇 · 起步', '起步篇')
+const L7 = wordLevelConfig(7, '中级词汇 · 进阶', '进阶篇')
+const L8 = wordLevelConfig(8, '中级词汇 · 提高', '提高篇')
+const L9 = wordLevelConfig(9, '中级词汇 · 精通', '精通篇（含词组搭配）')
+
+/* ---------- L10 听说进阶（16 关：每关 1 篇听力） ---------- */
+const L10 = {
+  level: 10,
   name: '听说进阶',
-  desc: '8 篇中速听力课文 + 听力理解题（AudioPlayer 播放）',
+  desc: '16 篇中速听力课文 + 听力理解题（AudioPlayer 播放）',
   available: true,
-  stages: [
-    {
-      id: 'L6-1',
-      stage: 1,
-      title: '我的自我介绍',
+  get stages() {
+    return L6_LISTENING.map((m, i) => ({
+      id: `L10-${i + 1}`,
+      stage: i + 1,
+      title: m.title,
       type: 'listening',
-      desc: '听自我介绍课文，回答理解题',
+      desc: `听「${m.title}」课文，回答理解题`,
       available: true,
-      content: { script: 'l6_01' }
-    },
-    {
-      id: 'L6-2',
-      stage: 2,
-      title: '我的家庭',
-      type: 'listening',
-      desc: '听家庭介绍课文，回答理解题',
-      available: true,
-      content: { script: 'l6_02' }
-    },
-    {
-      id: 'L6-3',
-      stage: 3,
-      title: '一日三餐',
-      type: 'listening',
-      desc: '听饮食话题课文，回答理解题',
-      available: true,
-      content: { script: 'l6_03' }
-    },
-    {
-      id: 'L6-4',
-      stage: 4,
-      title: '学校生活',
-      type: 'listening',
-      desc: '听校园生活课文，回答理解题',
-      available: true,
-      content: { script: 'l6_04' }
-    },
-    {
-      id: 'L6-5',
-      stage: 5,
-      title: '周末计划',
-      type: 'listening',
-      desc: '听周末计划课文，回答理解题',
-      available: true,
-      content: { script: 'l6_05' }
-    },
-    {
-      id: 'L6-6',
-      stage: 6,
-      title: '一次购物经历',
-      type: 'listening',
-      desc: '听购物经历课文，回答理解题',
-      available: true,
-      content: { script: 'l6_06' }
-    },
-    {
-      id: 'L6-7',
-      stage: 7,
-      title: '天气与旅行',
-      type: 'listening',
-      desc: '听天气旅行课文，回答理解题',
-      available: true,
-      content: { script: 'l6_07' }
-    },
-    {
-      id: 'L6-8',
-      stage: 8,
-      title: '我的梦想',
-      type: 'listening',
-      desc: '听梦想话题课文，回答理解题',
-      available: true,
-      content: { script: 'l6_08' }
-    }
-  ]
+      content: { script: m.id }
+    }))
+  }
 }
 
-const L7 = {
-  level: 7,
+/* ---------- L11 高级阅读写作（16 关：每关 1 篇长文阅读） ---------- */
+const L11_GRAMMAR_CYCLE = ['l7_clause', 'l7_adverbial', 'l7_passive', 'l7_clause', 'l7_passive', 'l7_subjunctive']
+const L11 = {
+  level: 11,
   name: '高级阅读写作',
-  desc: '长文章阅读、复杂语法（从句 / 虚拟语气）与写作仿写基础',
+  desc: '16 篇长文章阅读、复杂语法（从句 / 虚拟语气）与写作仿写基础',
   available: true,
-  stages: [
-    { id: 'L7-1', stage: 1, title: '我的家乡', type: 'reading', desc: '短文阅读：主旨 / 细节题 + 定语从句', available: true, content: { article: 'a7_01', grammarUnitId: 'l7_clause' } },
-    { id: 'L7-2', stage: 2, title: '学生的一天', type: 'reading', desc: '短文阅读：细节题 + 状语从句', available: true, content: { article: 'a7_02', grammarUnitId: 'l7_adverbial' } },
-    { id: 'L7-3', stage: 3, title: '健康与运动', type: 'reading', desc: '短文阅读：词汇题 + 被动语态', available: true, content: { article: 'a7_03', grammarUnitId: 'l7_passive' } },
-    { id: 'L7-4', stage: 4, title: '科技生活', type: 'reading', desc: '短文阅读：推断题 + 定语从句', available: true, content: { article: 'a7_04', grammarUnitId: 'l7_clause' } },
-    { id: 'L7-5', stage: 5, title: '城堡的故事', type: 'reading', desc: '短文阅读：被动语态综合', available: true, content: { article: 'a7_05', grammarUnitId: 'l7_passive' } },
-    { id: 'L7-6', stage: 6, title: '保护环境', type: 'reading', desc: '短文阅读：观点题 + 虚拟语气', available: true, content: { article: 'a7_06', grammarUnitId: 'l7_subjunctive' } }
-  ]
+  get stages() {
+    return ARTICLES_L7.map((a, i) => ({
+      id: `L11-${i + 1}`,
+      stage: i + 1,
+      title: a.title,
+      type: 'reading',
+      desc: `短文阅读「${a.title}」：主旨 / 细节 / 词汇题 + 语法要点`,
+      available: true,
+      content: { article: a.id, grammarUnitId: L11_GRAMMAR_CYCLE[i % L11_GRAMMAR_CYCLE.length] }
+    }))
+  }
 }
 
-const L8 = {
-  level: 8,
+/* ---------- L12 托福雅思冲刺 ---------- */
+const L12 = {
+  level: 12,
   name: '托福雅思冲刺',
   desc: '学术词汇与托福 / 雅思仿真题题型训练（阅读 / 听力 / 写作 / 口语分题型）',
   available: true,
   stages: [
-    { id: 'L8-1', stage: 1, title: '学术生活 · 阅读仿真', type: 'simulation', desc: '仿真题题型训练：学术生活主题阅读', available: true, content: { simulation: 's8_01' } },
-    { id: 'L8-2', stage: 2, title: '社会新闻 · 听力仿真', type: 'simulation', desc: '仿真题题型训练：社会新闻主题听力', available: true, content: { simulation: 's8_02' } },
-    { id: 'L8-3', stage: 3, title: '健康科学 · 阅读仿真', type: 'simulation', desc: '仿真题题型训练：健康科学主题阅读', available: true, content: { simulation: 's8_03' } },
-    { id: 'L8-4', stage: 4, title: '科技网络 · 听力仿真', type: 'simulation', desc: '仿真题题型训练：科技网络主题听力', available: true, content: { simulation: 's8_04' } },
-    { id: 'L8-5', stage: 5, title: '环境自然 · 阅读仿真', type: 'simulation', desc: '仿真题题型训练：环境自然主题阅读', available: true, content: { simulation: 's8_05' } },
-    { id: 'L8-6', stage: 6, title: '工作职业 · 听力仿真', type: 'simulation', desc: '仿真题题型训练：工作职业主题听力', available: true, content: { simulation: 's8_06' } },
-    { id: 'L8-7', stage: 7, title: '旅行文化 · 阅读仿真', type: 'simulation', desc: '仿真题题型训练：旅行文化主题阅读', available: true, content: { simulation: 's8_07' } },
-    { id: 'L8-8', stage: 8, title: '家庭情感 · 听力仿真', type: 'simulation', desc: '仿真题题型训练：家庭情感主题听力', available: true, content: { simulation: 's8_08' } }
+    { id: 'L12-1', stage: 1, title: '学术生活 · 阅读仿真', type: 'simulation', desc: '仿真题题型训练：学术生活主题阅读', available: true, content: { simulation: 's8_01' } },
+    { id: 'L12-2', stage: 2, title: '社会新闻 · 听力仿真', type: 'simulation', desc: '仿真题题型训练：社会新闻主题听力', available: true, content: { simulation: 's8_02' } },
+    { id: 'L12-3', stage: 3, title: '健康科学 · 阅读仿真', type: 'simulation', desc: '仿真题题型训练：健康科学主题阅读', available: true, content: { simulation: 's8_03' } },
+    { id: 'L12-4', stage: 4, title: '科技网络 · 听力仿真', type: 'simulation', desc: '仿真题题型训练：科技网络主题听力', available: true, content: { simulation: 's8_04' } },
+    { id: 'L12-5', stage: 5, title: '环境自然 · 阅读仿真', type: 'simulation', desc: '仿真题题型训练：环境自然主题阅读', available: true, content: { simulation: 's8_05' } },
+    { id: 'L12-6', stage: 6, title: '工作职业 · 听力仿真', type: 'simulation', desc: '仿真题题型训练：工作职业主题听力', available: true, content: { simulation: 's8_06' } },
+    { id: 'L12-7', stage: 7, title: '旅行文化 · 阅读仿真', type: 'simulation', desc: '仿真题题型训练：旅行文化主题阅读', available: true, content: { simulation: 's8_07' } },
+    { id: 'L12-8', stage: 8, title: '家庭情感 · 听力仿真', type: 'simulation', desc: '仿真题题型训练：家庭情感主题听力', available: true, content: { simulation: 's8_08' } }
   ]
 }
 
-export const LEVELS = [L1, L2, L3, L4, L5, L6, L7, L8]
+export const LEVELS = [L1, L2, L3, L4, L5, L6, L7, L8, L9, L10, L11, L12]
 
 /* ---------- 查询辅助 ---------- */
 export function getLevel(level) {
@@ -547,7 +582,7 @@ export function getStageById(stageId) {
   return null
 }
 
-/* 关卡词条收集：单词类关卡取 pool 词条，L8 仿真关取对应主题学术词，
+/* 关卡词条收集：单词类关卡取 pool 词条，L12 仿真关取对应主题学术词，
    其余类型（对话/语法/听力/阅读）无独立词条返回 []。
    词条唯一键 = word|pos（与词库去重规则一致）。 */
 export function getStageWords(stageId) {
@@ -580,7 +615,7 @@ export function getStageWords(stageId) {
 
 /* 内容池映射：关卡 content.pool → 数据源 */
 function wordsByTheme(theme) {
-  return getAllL5Words().filter((w) => w.theme === theme)
+  return getL5Themes().flatMap((t) => (t.id === theme ? t.words.map((w) => ({ ...w, theme: t.id })) : []))
 }
 
 export function getPoolData(pool) {
@@ -610,7 +645,7 @@ export function getPoolData(pool) {
       return getWordsL2().weather
     case 'l2_transport_daily':
       return [...getWordsL2().transport, ...getWordsL2().daily]
-    /* L5 中级词汇 */
+    /* L5 中级词汇（旧主题 ID，兼容保留） */
     case 'l5_family_feelings':
       return wordsByTheme('l5_family_feelings')
     case 'l5_education':
@@ -634,10 +669,10 @@ export function getPoolData(pool) {
     default:
       break
   }
-  /* 通用规则：l2_ 开头取单主题词表；l5*（l5_/l5b_/l5c_）与 ph_ 开头取主题包 */
+  /* 通用规则：l2_ 开头取单主题词表；l5/l5b/l6 等数字前缀与 ph_ 开头取主题包 */
   if (typeof pool === 'string') {
     if (pool.startsWith('l2_')) return getWordsL2()[pool.slice(3)] || []
-    if (pool.startsWith('l5') || pool.startsWith('ph_')) return wordsByTheme(pool)
+    if (/^l\d/.test(pool) || pool.startsWith('ph_')) return wordsByTheme(pool)
   }
   return []
 }

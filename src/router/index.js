@@ -123,6 +123,12 @@ const routes = [
     meta: { title: 'AI 写作批改' }
   },
   {
+    path: '/sentence',
+    name: 'sentence',
+    component: () => import('../views/SentenceOrderView.vue'),
+    meta: { title: '连词成句' }
+  },
+  {
     path: '/report',
     name: 'report',
     component: () => import('../views/ReportView.vue'),

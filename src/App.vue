@@ -6,6 +6,9 @@
     </main>
     <BottomTab v-if="auth.isLoggedIn && isMobile" />
 
+    <!-- 学习时长休息提醒 -->
+    <RestReminder />
+
     <!-- localStorage 存储超限提示（每次会话最多出现一次） -->
     <transition name="toast-fade">
       <div v-if="quotaToast" class="quota-toast" role="alert">
@@ -21,6 +24,7 @@
 import { onMounted, onBeforeUnmount, ref } from 'vue'
 import TopNav from './components/TopNav.vue'
 import BottomTab from './components/BottomTab.vue'
+import RestReminder from './components/RestReminder.vue'
 import { useAuthStore } from './stores/auth'
 import { useThemeStore } from './stores/theme'
 import { useProgressStore } from './stores/progress'

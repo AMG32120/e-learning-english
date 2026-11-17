@@ -8,6 +8,7 @@ import { getGrammarUnitById } from '../src/data/grammar'
 import { getL6ListeningById } from '../src/data/listening_l6'
 import { getArticleById } from '../src/data/reading_l7'
 import { getSimulationById } from '../src/data/simulation_l8'
+import { SENTENCE_BANKS } from '../src/data/sentences'
 import { DAILY_SENTENCES } from '../src/data/daily'
 import { collectLevelQuestions, collectUnlockedQuestions } from '../src/services/quizBank'
 import { getAccounts, saveAccounts, getSession, setSession, getUserData, saveUserData } from '../src/services/storage'
@@ -21,7 +22,7 @@ function readJson(file) {
   return JSON.parse(fs.readFileSync(`public/data/${file}`, 'utf8'))
 }
 const L2_FILES = ['words-l2.json', 'words-l2-extra.json', 'words-l2-b2a.json', 'words-l2-b2b.json', 'words-l2-b2c.json', 'words-l2-b2d.json', 'words-l2-b2e.json', 'words-l2-b3a.json']
-const L5_FILES = ['words-l5.json', 'words-l5-extra.json', 'words-l5-b2a.json', 'words-l5-b2b.json', 'words-l5-b2c.json', 'words-l5-b2d.json', 'words-l5-b2e.json', 'words-l5-b3a.json', 'words-l5-b3b.json', 'phrases-1.json', 'phrases-2.json', 'phrases-3.json', 'phrases-4.json', 'phrases-5.json']
+const L5_FILES = ['words-l5.json', 'words-l5-extra.json', 'words-l5-b2a.json', 'words-l5-b2b.json', 'words-l5-b2c.json', 'words-l5-b2d.json', 'words-l5-b2e.json', 'words-l5-b3a.json', 'words-l5-b3b.json', 'words-l5-b4a.json', 'words-l5-b4b.json', 'words-l5-b4c.json', 'words-l5-b4d.json', 'words-l5-b4e.json', 'words-l5-b5a.json', 'words-l5-b5b.json', 'words-l5-b6a.json', 'words-l5-b6b.json', 'words-l5-b6c.json', 'words-l5-b6d.json', 'phrases-1.json', 'phrases-2.json', 'phrases-3.json', 'phrases-4.json', 'phrases-5.json']
 const l2Merged = {}
 L2_FILES.forEach((f) => Object.assign(l2Merged, readJson(f)))
 const l5Merged = []
@@ -56,8 +57,8 @@ function ok(v, msg) { if (!v) throw new Error(msg) }
 
 /* ---------- 数据完整性 ---------- */
 const totalStages = LEVELS.reduce((s, l) => s + l.stages.length, 0)
-t('总关卡数 ≥ 250（词库扩至 1500 后）', () => ok(totalStages >= 250, 'stages=' + totalStages))
-t('8 个等级', () => eq(LEVELS.length, 8, 'levels'))
+t('总关卡数 ≥ 550（12 级结构）', () => ok(totalStages >= 550, 'stages=' + totalStages))
+t('12 个等级', () => eq(LEVELS.length, 12, 'levels'))
 t('解锁比例 0.8', () => eq(LEVEL_UNLOCK_RATIO, 0.8, 'ratio'))
 t('26 字母', () => eq(LETTERS.length, 26, 'letters'))
 t('48 音标', () => eq(IPA_VOWELS.length + IPA_CONSONANTS.length, 48, 'ipa'))
@@ -75,8 +76,8 @@ t('词组搭配 ≥ 250 条且无跨包重复', () => {
   eq(new Set(words).size, words.length, '词组重复数')
   ok(words.every((w) => /\s/.test(w)), '存在不含空格的词组')
 })
-t('词组关卡只用选择题且带 mode', () => {
-  const level = getLevel(5)
+t('词组关卡只用选择题且带 mode（L9）', () => {
+  const level = getLevel(9)
   const phraseStages = level.stages.filter((st) => String(st.content.pool).startsWith('ph_'))
   ok(phraseStages.length >= 40, 'phrase stages=' + phraseStages.length)
   for (const st of phraseStages) {
@@ -84,10 +85,23 @@ t('词组关卡只用选择题且带 mode', () => {
     ok(['en2zh', 'zh2en'].includes(st.content.mode), `${st.id} mode=${st.content.mode}`)
   }
 })
-t('L8 学术词 96', () => eq(getL8Words().length, 96, 'l8 words'))
+t('L12 学术词 96', () => eq(getL8Words().length, 96, 'l8 words'))
+t('连词成句句库与题型', () => {
+  ok(SENTENCE_BANKS.basic.length >= 20, 'basic=' + SENTENCE_BANKS.basic.length)
+  ok(SENTENCE_BANKS.adv.length >= 12, 'adv=' + SENTENCE_BANKS.adv.length)
+  const wo = getLevel(5).stages.filter((st) => st.type === 'word_order')
+  eq(wo.length, 2, 'word_order stages')
+  for (const st of wo) {
+    ok(['basic', 'adv'].includes(st.content.bank), `${st.id} bank`)
+  }
+  // 主题分布：L2/L3/L6~L9 关卡都存在且 L9 含词组包
+  for (const lv of [2, 3, 6, 7, 8, 9]) {
+    ok(getLevel(lv).stages.length >= 40, `L${lv} stages=${getLevel(lv).stages.length}`)
+  }
+})
 t('每日一句 60', () => eq(DAILY_SENTENCES.length, 60, 'daily'))
 t('词汇关卡每关 3-6 词且词池可解析', () => {
-  for (const lv of [2, 5]) {
+  for (const lv of [2, 3, 6, 7, 8, 9]) {
     const level = getLevel(lv)
     for (const st of level.stages) {
       const n = (st.content.focus || []).length
@@ -118,11 +132,10 @@ t('各关 getStageWords 非空且≤12', () => {
 t('stage 引用数据完整', () => {
   for (const lv of LEVELS) {
     for (const st of lv.stages) {
-      const stageLevel = lv.level
       const c = st.content || {}
       if (c.theme) ok(getL5Themes().some(x => x.id === c.theme), `${st.id} theme ${c.theme} 缺失`)
       if (c.script) {
-        if (lv.level === 3) ok(L3_LISTENING.some(x => x.id === c.script), `${st.id} script ${c.script} 缺失`)
+        if (lv.level === 4) ok(L3_LISTENING.some(x => x.id === c.script), `${st.id} script ${c.script} 缺失`)
         else ok(getL6ListeningById(c.script), `${st.id} script ${c.script} 缺失`)
       }
       if (c.article) ok(getArticleById(c.article), `${st.id} article ${c.article} 缺失`)

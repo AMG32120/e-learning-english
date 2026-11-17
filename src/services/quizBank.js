@@ -6,7 +6,7 @@ import { getLevel, getPoolData } from '../data/levels'
 import { LETTERS } from '../data/letters'
 import { DIALOGUES_L3 } from '../data/dialogues'
 import { getGrammarUnitById } from '../data/grammar'
-import { getL5Themes, getL8Words } from './wordData'
+import { getL8Words } from './wordData'
 import { getL6ListeningById } from '../data/listening_l6'
 import { getArticleById } from '../data/reading_l7'
 import { getSimulationById } from '../data/simulation_l8'
@@ -60,14 +60,17 @@ function makeCloze(word, wordPool) {
   }
 }
 
-/* 收集某个等级内所有已解锁关卡的题目（内容可见性过滤器）*/
+/* 收集某个等级内所有已解锁关卡的题目（内容可见性过滤器）
+   按题型分发，与等级数量解耦（12 级结构下同样适用）。 */
 export function collectLevelQuestions(progress, level) {
   const lv = getLevel(level)
   if (!lv) return []
   const qs = []
-  lv.stages.forEach((st, idx) => {
-    if (!progress.isStageUnlocked(`L${lv.level}-${idx + 1}`)) return
-    if (level === 1) {
+  lv.stages.forEach((st) => {
+    if (!progress.isStageUnlocked(st.id)) return
+    const c = st.content || {}
+    if (st.type === 'letter_recognize' || st.type === 'letter_match' || st.type === 'phonics') {
+      // 字母类：由 LETTERS 词池生成选择题
       LETTERS.forEach((letter) => {
         const opts = shuffle([
           letter.lower,
@@ -82,17 +85,8 @@ export function collectLevelQuestions(progress, level) {
           explain: `${letter.upper} 读作 ${letter.letterIpa}，例：${letter.example}`
         })
       })
-    } else if (level === 2) {
-      // stage.content.pool 为 l2_* 前缀键，须经 getPoolData 映射到 WORDS_L2 实际词池
-      const words = getPoolData(st.content.pool) || []
-      const zhPool = words.map((w) => w.zh)
-      words.forEach((w) => {
-        qs.push(makeWordChoice(w, zhPool))
-        const cloze = makeCloze(w, getPoolData(st.content.pool) || [])
-        if (cloze) qs.push(cloze)
-      })
-    } else if (level === 3) {
-      const d = DIALOGUES_L3.find((x) => x.id === st.content.scene)
+    } else if (st.type === 'dialogue') {
+      const d = DIALOGUES_L3.find((x) => x.id === c.scene)
       if (!d) return
       const zhPool = d.lines.map((l) => l.zh)
       d.lines.forEach((line) => {
@@ -105,40 +99,42 @@ export function collectLevelQuestions(progress, level) {
           explain: line.note || ''
         })
       })
-    } else if (level === 4) {
-      const g = getGrammarUnitById(st.content.unit)
+    } else if (st.type === 'grammar_quiz') {
+      const g = getGrammarUnitById(c.unit)
       if (!g) return
       g.questions.forEach((q) =>
         qs.push({ q: q.prompt, options: q.options, answer: q.answer, explain: q.explain })
       )
-    } else if (level === 5) {
-      const theme = getL5Themes().find((t) => t.id === st.content.pool)
-      if (!theme) return
-      const zhPool = theme.words.map((w) => w.zh)
-      theme.words.forEach((w) => {
+    } else if (st.type === 'word_choice' || st.type === 'word_match' || st.type === 'word_spell') {
+      // 词汇类（L2/L3 基础词汇、L6~L9 中级词汇、L9 词组）：统一由词池生成
+      const words = getPoolData(c.pool) || []
+      if (!words.length) return
+      const zhPool = words.map((w) => w.zh)
+      words.forEach((w) => {
         qs.push(makeWordChoice(w, zhPool))
-        const cloze = makeCloze(w, theme.words)
+        const cloze = makeCloze(w, words)
         if (cloze) qs.push(cloze)
       })
-    } else if (level === 6) {
-      const m = getL6ListeningById(st.content.script)
+    } else if (st.type === 'listening') {
+      const m = getL6ListeningById(c.script)
       if (!m) return
       m.questions.forEach((q) => qs.push({ q: q.q, options: q.options, answer: q.answer, explain: '根据听力材料作答' }))
-    } else if (level === 7) {
-      const a = getArticleById(st.content.article)
+    } else if (st.type === 'reading') {
+      const a = getArticleById(c.article)
       if (!a) return
       a.questions.forEach((q) => qs.push({ q: q.q, options: q.options, answer: q.answer, explain: '根据阅读文章作答' }))
-    } else if (level === 8) {
-      const sim = getSimulationById(st.content.simulation)
+    } else if (st.type === 'simulation') {
+      const sim = getSimulationById(c.simulation)
       if (!sim) return
       sim.questions.forEach((q) => qs.push({ q: q.q, options: q.options, answer: q.answer, explain: '仿真题题型训练' }))
-      // 学术词汇例句填空（L8 学术词带例句）
+      // 学术词汇例句填空（L12 学术词带例句）
       const l8Words = getL8Words()
       l8Words.forEach((w) => {
         const cloze = makeCloze(w, l8Words)
         if (cloze) qs.push(cloze)
       })
     }
+    // word_order（连词成句）：交互题型，不进入选择题题库
   })
   return qs
 }
