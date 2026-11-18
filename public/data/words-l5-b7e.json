@@ -1,0 +1,1152 @@
+[
+ {
+  "id": "l9_soc_theory",
+  "title": "社会学理论",
+  "emoji": "🏙️",
+  "words": [
+   {
+    "word": "sociology",
+    "ipa": "/ˌsəʊsiˈɒlədʒi/",
+    "pos": "n.",
+    "zh": "社会学",
+    "example": "Sociology reads society like a text.",
+    "emoji": "🏙️",
+    "cefr": "C1"
+   },
+   {
+    "word": "decorum",
+    "ipa": "/dɪˈkɔːrəm/",
+    "pos": "n.",
+    "zh": "礼节；端庄",
+    "example": "Strict decorum rules the council chamber.",
+    "emoji": "🎩",
+    "cefr": "C2"
+   },
+   {
+    "word": "establishment",
+    "ipa": "/ɪˈstæblɪʃmənt/",
+    "pos": "n.",
+    "zh": "建制；当权集团",
+    "example": "The establishment rarely reforms itself first.",
+    "emoji": "🏛️",
+    "cefr": "C1"
+   },
+   {
+    "word": "stratification",
+    "ipa": "/ˌstrætɪfɪˈkeɪʃn/",
+    "pos": "n.",
+    "zh": "社会分层",
+    "example": "Stratification sorts people into layers.",
+    "emoji": "🪜",
+    "cefr": "C2"
+   },
+   {
+    "word": "flux",
+    "ipa": "/flʌks/",
+    "pos": "n.",
+    "zh": "流动；不断变动",
+    "example": "The neighbourhood lives in constant flux.",
+    "emoji": "🌊",
+    "cefr": "C2"
+   },
+   {
+    "word": "officialdom",
+    "ipa": "/əˈfɪʃldəm/",
+    "pos": "n.",
+    "zh": "官场；官僚阶层",
+    "example": "Officialdom answered in triplicate.",
+    "emoji": "🗂️",
+    "cefr": "C2"
+   },
+   {
+    "word": "anomie",
+    "ipa": "/ˈænəmi/",
+    "pos": "n.",
+    "zh": "失范；社会失序",
+    "example": "Rapid change breeds anomie.",
+    "emoji": "🌫️",
+    "cefr": "C2"
+   },
+   {
+    "word": "comradeship",
+    "ipa": "/ˈkɒmreɪdʃɪp/",
+    "pos": "n.",
+    "zh": "同志情谊",
+    "example": "Comradeship outlasts the strike.",
+    "emoji": "🫱",
+    "cefr": "C2"
+   },
+   {
+    "word": "standpoint",
+    "ipa": "/ˈstændpɔɪnt/",
+    "pos": "n.",
+    "zh": "立场；视角",
+    "example": "Each standpoint refracts the question.",
+    "emoji": "🔷",
+    "cefr": "C2"
+   },
+   {
+    "word": "macro",
+    "ipa": "/ˈmækrəʊ/",
+    "pos": "adj.",
+    "zh": "宏观的",
+    "example": "Macro trends dwarf individual choices.",
+    "emoji": "🔭",
+    "cefr": "C1"
+   },
+   {
+    "word": "micro",
+    "ipa": "/ˈmaɪkrəʊ/",
+    "pos": "adj.",
+    "zh": "微观的",
+    "example": "Micro interactions still carry rules.",
+    "emoji": "🔬",
+    "cefr": "C1"
+   },
+   {
+    "word": "agency",
+    "ipa": "/ˈeɪdʒənsi/",
+    "pos": "n.",
+    "zh": "能动性；代理机构",
+    "example": "Structure shapes us; agency lets us push back.",
+    "emoji": "💪",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l9_soc_class",
+  "title": "阶层与流动",
+  "emoji": "📊",
+  "words": [
+   {
+    "word": "elite",
+    "ipa": "/eɪˈliːt/",
+    "pos": "n./adj.",
+    "zh": "精英；精英的",
+    "example": "Boarding schools network the elite.",
+    "emoji": "🎩",
+    "cefr": "C1"
+   },
+   {
+    "word": "underclass",
+    "ipa": "/ˈʌndəklɑːs/",
+    "pos": "n.",
+    "zh": "底层阶层",
+    "example": "Policy rarely names the underclass aloud.",
+    "emoji": "🌫️",
+    "cefr": "C2"
+   },
+   {
+    "word": "regeneration",
+    "ipa": "/rɪˌdʒenəˈreɪʃn/",
+    "pos": "n.",
+    "zh": "（城区）再生改造",
+    "example": "Regeneration schemes promise jobs, displace renters.",
+    "emoji": "🏗️",
+    "cefr": "C1"
+   },
+   {
+    "word": "privilege",
+    "ipa": "/ˈprɪvəlɪdʒ/",
+    "pos": "n.",
+    "zh": "特权",
+    "example": "Privilege rides shotgun, unnoticed.",
+    "emoji": "🛋️",
+    "cefr": "C1"
+   },
+   {
+    "word": "deprived",
+    "ipa": "/dɪˈpraɪvd/",
+    "pos": "adj.",
+    "zh": "匮乏的；贫困的",
+    "example": "Deprived postcodes wait longer for GPs.",
+    "emoji": "🏚️",
+    "cefr": "C1"
+   },
+   {
+    "word": "affluent",
+    "ipa": "/ˈæfluənt/",
+    "pos": "adj.",
+    "zh": "富裕的",
+    "example": "Affluent suburbs vote differently.",
+    "emoji": "🏡",
+    "cefr": "C1"
+   },
+   {
+    "word": "meritocracy",
+    "ipa": "/ˌmerɪˈtɒkrəsi/",
+    "pos": "n.",
+    "zh": "精英管理体制",
+    "example": "Meritocracy flatters those already ahead.",
+    "emoji": "🏆",
+    "cefr": "C2"
+   },
+   {
+    "word": "pretension",
+    "ipa": "/prɪˈtenʃn/",
+    "pos": "n.",
+    "zh": "自负；虚饰抱负",
+    "example": "Marble foyers usually signal pretension.",
+    "emoji": "🪞",
+    "cefr": "C2"
+   },
+   {
+    "word": "bequest",
+    "ipa": "/bɪˈkwest/",
+    "pos": "n.",
+    "zh": "遗赠；遗产",
+    "example": "A generous bequest saved the library.",
+    "emoji": "📜",
+    "cefr": "C2"
+   },
+   {
+    "word": "poverty-trap",
+    "ipa": "/ˈpɒvəti træp/",
+    "pos": "n.",
+    "zh": "贫困陷阱",
+    "example": "Childcare costs spring the poverty-trap.",
+    "emoji": "🕸️",
+    "cefr": "C1"
+   },
+   {
+    "word": "ghetto",
+    "ipa": "/ˈgetəʊ/",
+    "pos": "n.",
+    "zh": "聚居区；（比喻）隔绝地带",
+    "example": "The arts became a ghetto of the rich.",
+    "emoji": "🏘️",
+    "cefr": "C2"
+   },
+   {
+    "word": "blue-collar",
+    "ipa": "/ˌbluː ˈkɒlə/",
+    "pos": "adj.",
+    "zh": "蓝领的",
+    "example": "Blue-collar wages stagnated for years.",
+    "emoji": "👷",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l9_soc_deviance",
+  "title": "越轨与社会控制",
+  "emoji": "🚨",
+  "words": [
+   {
+    "word": "deviance",
+    "ipa": "/ˈdiːviəns/",
+    "pos": "n.",
+    "zh": "越轨行为",
+    "example": "Societies define deviance by reaction.",
+    "emoji": "🔀",
+    "cefr": "C2"
+   },
+   {
+    "word": "stigmatisation",
+    "ipa": "/ˌstɪgmətaɪˈzeɪʃn/",
+    "pos": "n.",
+    "zh": "污名化",
+    "example": "Stigmatisation keeps users underground.",
+    "emoji": "🎭",
+    "cefr": "C2"
+   },
+   {
+    "word": "labelling",
+    "ipa": "/ˈleɪbəlɪŋ/",
+    "pos": "n.",
+    "zh": "贴标签（理论）",
+    "example": "Labelling theory blames the label, not the act.",
+    "emoji": "🏷️",
+    "cefr": "C2"
+   },
+   {
+    "word": "recidivism",
+    "ipa": "/rɪˈsɪdɪvɪzəm/",
+    "pos": "n.",
+    "zh": "再犯；累犯",
+    "example": "Prisons rarely cure recidivism.",
+    "emoji": "🔁",
+    "cefr": "C2"
+   },
+   {
+    "word": "incarcerate",
+    "ipa": "/ɪnˈkɑːsəreɪt/",
+    "pos": "v.",
+    "zh": "监禁",
+    "example": "The state incarcerates 700 per 100,000.",
+    "emoji": "🔒",
+    "cefr": "C2"
+   },
+   {
+    "word": "deterrence",
+    "ipa": "/dɪˈterəns/",
+    "pos": "n.",
+    "zh": "威慑",
+    "example": "Harsher sentences promise deterrence, rarely deliver it.",
+    "emoji": "🚧",
+    "cefr": "C1"
+   },
+   {
+    "word": "warden",
+    "ipa": "/ˈwɔːdn/",
+    "pos": "n.",
+    "zh": "管理员；看守人",
+    "example": "Two wardens cover the whole estate.",
+    "emoji": "🦺",
+    "cefr": "C1"
+   },
+   {
+    "word": "eavesdrop",
+    "ipa": "/ˈiːvzdrɒp/",
+    "pos": "v.",
+    "zh": "偷听",
+    "example": "Eavesdrop long enough and patterns emerge.",
+    "emoji": "👂",
+    "cefr": "C2"
+   },
+   {
+    "word": "curfew",
+    "ipa": "/ˈkɜːfjuː/",
+    "pos": "n.",
+    "zh": "宵禁",
+    "example": "The curfew emptied the square by nine.",
+    "emoji": "🌙",
+    "cefr": "C1"
+   },
+   {
+    "word": "blacklist",
+    "ipa": "/ˈblæklɪst/",
+    "pos": "n./v.",
+    "zh": "黑名单",
+    "example": "The industry blacklist ruined careers quietly.",
+    "emoji": "📄",
+    "cefr": "C1"
+   },
+   {
+    "word": "vigilante",
+    "ipa": "/ˌvɪdʒɪˈlænti/",
+    "pos": "n.",
+    "zh": "治安维持会成员；义警",
+    "example": "Vigilante groups fill policing gaps.",
+    "emoji": "🔦",
+    "cefr": "C2"
+   },
+   {
+    "word": "rehabilitate",
+    "ipa": "/ˌriːəˈbɪlɪteɪt/",
+    "pos": "v.",
+    "zh": "使康复；使重返社会",
+    "example": "Programmes that rehabilitate cost less than cells.",
+    "emoji": "🌱",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l9_soc_urban",
+  "title": "城市社会学",
+  "emoji": "🌆",
+  "words": [
+   {
+    "word": "metropolis",
+    "ipa": "/məˈtrɒpəlɪs/",
+    "pos": "n.",
+    "zh": "大都会",
+    "example": "The metropolis never fully sleeps.",
+    "emoji": "🌆",
+    "cefr": "C1"
+   },
+   {
+    "word": "outskirt",
+    "ipa": "/ˈaʊtskɜːt/",
+    "pos": "n.",
+    "zh": "市郊",
+    "example": "Warehouses cluster on the outskirt.",
+    "emoji": "🚏",
+    "cefr": "C1"
+   },
+   {
+    "word": "rush-hour",
+    "ipa": "/ˈrʌʃ ˌaʊə/",
+    "pos": "n.",
+    "zh": "高峰时段",
+    "example": "Rush-hour lasts three hours here.",
+    "emoji": "⏰",
+    "cefr": "C1"
+   },
+   {
+    "word": "brownfield",
+    "ipa": "/ˈbraʊnfiːld/",
+    "pos": "n./adj.",
+    "zh": "棕地（再开发用地）",
+    "example": "Brownfield lots prefer flats to car parks.",
+    "emoji": "🟫",
+    "cefr": "C2"
+   },
+   {
+    "word": "permit",
+    "ipa": "/ˈpɜːmɪt/",
+    "pos": "n.",
+    "zh": "许可证",
+    "example": "No permit, no scaffolding.",
+    "emoji": "🪪",
+    "cefr": "B2"
+   },
+   {
+    "word": "shantytown",
+    "ipa": "/ˈʃæntitaʊn/",
+    "pos": "n.",
+    "zh": "棚户区",
+    "example": "The shantytown grew overnight.",
+    "emoji": "⛺",
+    "cefr": "C2"
+   },
+   {
+    "word": "tenement",
+    "ipa": "/ˈtenəmənt/",
+    "pos": "n.",
+    "zh": "廉价公寓楼",
+    "example": "Tenement stairwells echoed with accordions.",
+    "emoji": "🏢",
+    "cefr": "C2"
+   },
+   {
+    "word": "sewer",
+    "ipa": "/ˈsjuːə/",
+    "pos": "n.",
+    "zh": "下水道",
+    "example": "Victorian sewers still carry the city.",
+    "emoji": "🕳️",
+    "cefr": "C2"
+   },
+   {
+    "word": "public-space",
+    "ipa": "/ˈpʌblɪk speɪs/",
+    "pos": "n.",
+    "zh": "公共空间",
+    "example": "Benches define a public-space policy.",
+    "emoji": "🪑",
+    "cefr": "C1"
+   },
+   {
+    "word": "locality",
+    "ipa": "/ləʊˈkæləti/",
+    "pos": "n.",
+    "zh": "地区；所在社区",
+    "example": "The factory employs the whole locality.",
+    "emoji": "📍",
+    "cefr": "C1"
+   },
+   {
+    "word": "conurbation",
+    "ipa": "/ˌkɒnɜːˈbeɪʃn/",
+    "pos": "n.",
+    "zh": "城市群；连绵都市带",
+    "example": "Five towns fused into one conurbation.",
+    "emoji": "🌐",
+    "cefr": "C2"
+   },
+   {
+    "word": "pedestrianise",
+    "ipa": "/pəˈdestriənaɪz/",
+    "pos": "v.",
+    "zh": "使步行化",
+    "example": "The council pedestrianised two streets.",
+    "emoji": "🚸",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l9_anthro_theory",
+  "title": "人类学理论",
+  "emoji": "🗿",
+  "words": [
+   {
+    "word": "anthropology",
+    "ipa": "/ˌænθrəˈpɒlədʒi/",
+    "pos": "n.",
+    "zh": "人类学",
+    "example": "Anthropology studies humans as whole animals.",
+    "emoji": "🗿",
+    "cefr": "C1"
+   },
+   {
+    "word": "ethnocentrism",
+    "ipa": "/ˌeθnəʊˈsentrɪzəm/",
+    "pos": "n.",
+    "zh": "民族中心主义",
+    "example": "Ethnocentrism grades other cultures like exams.",
+    "emoji": "📏",
+    "cefr": "C2"
+   },
+   {
+    "word": "relativism",
+    "ipa": "/ˈrelətɪvɪzəm/",
+    "pos": "n.",
+    "zh": "相对主义",
+    "example": "Relativism suspends judgment abroad.",
+    "emoji": "⚖️",
+    "cefr": "C2"
+   },
+   {
+    "word": "mentality",
+    "ipa": "/menˈtæləti/",
+    "pos": "n.",
+    "zh": "心态；思维方式",
+    "example": "A siege mentality set in.",
+    "emoji": "🧠",
+    "cefr": "C1"
+   },
+   {
+    "word": "emblem",
+    "ipa": "/ˈembləm/",
+    "pos": "n.",
+    "zh": "象征；徽记",
+    "example": "The maple leaf is a national emblem.",
+    "emoji": "🍁",
+    "cefr": "C1"
+   },
+   {
+    "word": "totem",
+    "ipa": "/ˈtəʊtəm/",
+    "pos": "n.",
+    "zh": "图腾",
+    "example": "The crane serves as their totem.",
+    "emoji": "🕊️",
+    "cefr": "C2"
+   },
+   {
+    "word": "ethnography",
+    "ipa": "/eθˈnɒgrəfi/",
+    "pos": "n.",
+    "zh": "民族志；田野记述",
+    "example": "Her ethnography ran three hundred pages.",
+    "emoji": "📓",
+    "cefr": "C2"
+   },
+   {
+    "word": "fieldworker",
+    "ipa": "/ˈfiːldˌwɜːkə/",
+    "pos": "n.",
+    "zh": "田野工作者",
+    "example": "Fieldworkers note what brochures omit.",
+    "emoji": "🗒️",
+    "cefr": "C2"
+   },
+   {
+    "word": "informant",
+    "ipa": "/ˌɪnfɔːˈmænt/",
+    "pos": "n.",
+    "zh": "（研究）报道人；信息提供者",
+    "example": "The informant taught her forty kinship terms.",
+    "emoji": "🗣️",
+    "cefr": "C2"
+   },
+   {
+    "word": "rite",
+    "ipa": "/raɪt/",
+    "pos": "n.",
+    "zh": "仪式；礼俗",
+    "example": "Rites mark every crossing of status.",
+    "emoji": "🕯️",
+    "cefr": "C2"
+   },
+   {
+    "word": "mythic",
+    "ipa": "/ˈmɪθɪk/",
+    "pos": "adj.",
+    "zh": "神话的；传说的",
+    "example": "The mountain holds mythic status.",
+    "emoji": "⛰️",
+    "cefr": "C2"
+   },
+   {
+    "word": "hallow",
+    "ipa": "/ˈhæləʊ/",
+    "pos": "v.",
+    "zh": "使神圣；尊为神圣",
+    "example": "Elders hallow the spring each May.",
+    "emoji": "💧",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l9_anthro_kinship",
+  "title": "亲属与婚姻",
+  "emoji": "👨‍👩‍👧",
+  "words": [
+   {
+    "word": "bloodline",
+    "ipa": "/ˈblʌdlaɪn/",
+    "pos": "n.",
+    "zh": "血统",
+    "example": "The bloodline skips two generations.",
+    "emoji": "🧬",
+    "cefr": "C2"
+   },
+   {
+    "word": "forebear",
+    "ipa": "/ˈfɔːbeə/",
+    "pos": "n.",
+    "zh": "祖先；前辈",
+    "example": "One forebear traded salt for silk.",
+    "emoji": "🧓",
+    "cefr": "C2"
+   },
+   {
+    "word": "clan",
+    "ipa": "/klæn/",
+    "pos": "n.",
+    "zh": "氏族；宗族",
+    "example": "The clan gathers each autumn.",
+    "emoji": "🏞️",
+    "cefr": "C1"
+   },
+   {
+    "word": "maternal",
+    "ipa": "/məˈtɜːnl/",
+    "pos": "adj.",
+    "zh": "母系的；母亲的",
+    "example": "Maternal uncles matter more here.",
+    "emoji": "🤱",
+    "cefr": "C1"
+   },
+   {
+    "word": "paternal",
+    "ipa": "/pəˈtɜːnl/",
+    "pos": "adj.",
+    "zh": "父系的；父亲的",
+    "example": "Paternal land passes to the eldest.",
+    "emoji": "🧔",
+    "cefr": "C1"
+   },
+   {
+    "word": "dowry",
+    "ipa": "/ˈdaʊri/",
+    "pos": "n.",
+    "zh": "嫁妆",
+    "example": "Dowry debates split the village.",
+    "emoji": "🎁",
+    "cefr": "C2"
+   },
+   {
+    "word": "bride-price",
+    "ipa": "/ˈbraɪd praɪs/",
+    "pos": "n.",
+    "zh": "聘礼",
+    "example": "Bride-price negotiations involve three elders.",
+    "emoji": "🐄",
+    "cefr": "C2"
+   },
+   {
+    "word": "monogamy",
+    "ipa": "/məˈnɒgəmi/",
+    "pos": "n.",
+    "zh": "一夫一妻制",
+    "example": "Monogamy is one option, not the default.",
+    "emoji": "💞",
+    "cefr": "C2"
+   },
+   {
+    "word": "polygamy",
+    "ipa": "/pəˈlɪgəmi/",
+    "pos": "n.",
+    "zh": "多配偶制",
+    "example": "Polygamy persists where land is plentiful.",
+    "emoji": "💒",
+    "cefr": "C2"
+   },
+   {
+    "word": "adolescence",
+    "ipa": "/ˌædəˈlesns/",
+    "pos": "n.",
+    "zh": "青春期",
+    "example": "Adolescence stretches longer every century.",
+    "emoji": "🌱",
+    "cefr": "C1"
+   },
+   {
+    "word": "elder",
+    "ipa": "/ˈeldə/",
+    "pos": "n.",
+    "zh": "长者",
+    "example": "Elders arbitrate the border dispute.",
+    "emoji": "👴",
+    "cefr": "B2"
+   },
+   {
+    "word": "nuclear-family",
+    "ipa": "/ˈnjuːkliə ˈfæməli/",
+    "pos": "n.",
+    "zh": "核心家庭",
+    "example": "The nuclear-family ideal arrived with factories.",
+    "emoji": "🏘️",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l9_anthro_belief",
+  "title": "信仰与仪式",
+  "emoji": "🕯️",
+  "words": [
+   {
+    "word": "liturgy",
+    "ipa": "/ˈlɪtədʒi/",
+    "pos": "n.",
+    "zh": "礼拜仪式",
+    "example": "The liturgy repeats every dawn.",
+    "emoji": "📖",
+    "cefr": "C2"
+   },
+   {
+    "word": "jubilation",
+    "ipa": "/ˌdʒuːbɪˈleɪʃn/",
+    "pos": "n.",
+    "zh": "欢腾；庆祝",
+    "example": "Jubilation spilled into the streets.",
+    "emoji": "🎊",
+    "cefr": "C2"
+   },
+   {
+    "word": "shaman",
+    "ipa": "/ˈʃɑːmən/",
+    "pos": "n.",
+    "zh": "萨满；巫师",
+    "example": "The shaman sings the fever away.",
+    "emoji": "🥁",
+    "cefr": "C2"
+   },
+   {
+    "word": "proscription",
+    "ipa": "/prəˈskrɪpʃn/",
+    "pos": "n.",
+    "zh": "禁止；谴责",
+    "example": "Proscription keeps the grove empty.",
+    "emoji": "⛔",
+    "cefr": "C2"
+   },
+   {
+    "word": "sacred",
+    "ipa": "/ˈseɪkrɪd/",
+    "pos": "adj.",
+    "zh": "神圣的",
+    "example": "The grove stays sacred to three villages.",
+    "emoji": "🌳",
+    "cefr": "C1"
+   },
+   {
+    "word": "profane",
+    "ipa": "/prəˈfeɪn/",
+    "pos": "adj./v.",
+    "zh": "世俗的；亵渎",
+    "example": "Profane jokes stop at the doorway.",
+    "emoji": "🗯️",
+    "cefr": "C2"
+   },
+   {
+    "word": "pilgrimage",
+    "ipa": "/ˈpɪlgrɪmɪdʒ/",
+    "pos": "n.",
+    "zh": "朝圣",
+    "example": "The pilgrimage takes forty days on foot.",
+    "emoji": "🥾",
+    "cefr": "C1"
+   },
+   {
+    "word": "ancestor",
+    "ipa": "/ˈænsestə/",
+    "pos": "n.",
+    "zh": "祖先",
+    "example": "Ancestors attend every harvest.",
+    "emoji": "📜",
+    "cefr": "B2"
+   },
+   {
+    "word": "venerate",
+    "ipa": "/ˈvenəreɪt/",
+    "pos": "v.",
+    "zh": "崇敬；敬奉",
+    "example": "Villagers venerate the founding pair.",
+    "emoji": "🙇",
+    "cefr": "C2"
+   },
+   {
+    "word": "proselytise",
+    "ipa": "/ˈprɒsəlɪtaɪz/",
+    "pos": "v.",
+    "zh": "使改宗；劝诱信奉",
+    "example": "They proselytise politely, door to door.",
+    "emoji": "🚪",
+    "cefr": "C2"
+   },
+   {
+    "word": "syncretism",
+    "ipa": "/ˈsɪŋkrɪtɪzəm/",
+    "pos": "n.",
+    "zh": "融合（宗教混合）",
+    "example": "The festival shows pure syncretism.",
+    "emoji": "🫂",
+    "cefr": "C2"
+   },
+   {
+    "word": "pilgrim",
+    "ipa": "/ˈpɪlgrɪm/",
+    "pos": "n.",
+    "zh": "朝圣者",
+    "example": "Pilgrims queue from four in the morning.",
+    "emoji": "🧎",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l9_demo_pop",
+  "title": "人口研究",
+  "emoji": "📈",
+  "words": [
+   {
+    "word": "demography",
+    "ipa": "/dɪˈmɒgrəfi/",
+    "pos": "n.",
+    "zh": "人口学",
+    "example": "Demography is destiny, economists quip.",
+    "emoji": "📈",
+    "cefr": "C1"
+   },
+   {
+    "word": "fertility",
+    "ipa": "/fəˈtɪləti/",
+    "pos": "n.",
+    "zh": "生育率；肥沃",
+    "example": "Fertility fell below replacement in 1998.",
+    "emoji": "👶",
+    "cefr": "C1"
+   },
+   {
+    "word": "mortality-rate",
+    "ipa": "/mɔːˈtæləti reɪt/",
+    "pos": "n.",
+    "zh": "死亡率",
+    "example": "Infant mortality-rate fell by two-thirds.",
+    "emoji": "📉",
+    "cefr": "C1"
+   },
+   {
+    "word": "life-expectancy",
+    "ipa": "/ˈlaɪf ɪkˈspektənsi/",
+    "pos": "n.",
+    "zh": "预期寿命",
+    "example": "Life-expectancy rose four years in a decade.",
+    "emoji": "⏳",
+    "cefr": "C1"
+   },
+   {
+    "word": "dispossess",
+    "ipa": "/ˌdɪspəˈzes/",
+    "pos": "v.",
+    "zh": "剥夺；使失去（财产/土地）",
+    "example": "Waves of enclosure dispossessed smallholders.",
+    "emoji": "🔗",
+    "cefr": "C2"
+   },
+   {
+    "word": "exodus",
+    "ipa": "/ˈeksədəs/",
+    "pos": "n.",
+    "zh": "大批离去",
+    "example": "The exodus emptied two villages.",
+    "emoji": "🛫",
+    "cefr": "C2"
+   },
+   {
+    "word": "immigrate",
+    "ipa": "/ˈɪmɪgreɪt/",
+    "pos": "v.",
+    "zh": "移入；移民进入",
+    "example": "He immigrated with two suitcases.",
+    "emoji": "🛬",
+    "cefr": "C1"
+   },
+   {
+    "word": "registry",
+    "ipa": "/ˈredʒɪstri/",
+    "pos": "n.",
+    "zh": "登记簿；注册处",
+    "example": "The civil registry dates to 1871.",
+    "emoji": "📇",
+    "cefr": "C2"
+   },
+   {
+    "word": "megacity",
+    "ipa": "/ˈmegəsɪti/",
+    "pos": "n.",
+    "zh": "特大城市",
+    "example": "Each megacity grows a second downtown.",
+    "emoji": "🌆",
+    "cefr": "C1"
+   },
+   {
+    "word": "overpopulation",
+    "ipa": "/ˌəʊvəˌpɒpjuˈleɪʃn/",
+    "pos": "n.",
+    "zh": "人口过剩",
+    "example": "Overpopulation worries belong to older textbooks.",
+    "emoji": "🌍",
+    "cefr": "C1"
+   },
+   {
+    "word": "ageing",
+    "ipa": "/ˈeɪdʒɪŋ/",
+    "pos": "n./adj.",
+    "zh": "老龄化",
+    "example": "An ageing society needs fewer schools, more lifts.",
+    "emoji": "🧓",
+    "cefr": "C1"
+   },
+   {
+    "word": "expatriate",
+    "ipa": "/ˌeksˈpætriət/",
+    "pos": "n.",
+    "zh": "侨民；旅居者",
+    "example": "Expatriates formed a Saturday cricket league.",
+    "emoji": "🏏",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l9_soc_change",
+  "title": "社会变迁与运动",
+  "emoji": "✊",
+  "words": [
+   {
+    "word": "revamp",
+    "ipa": "/ˌriːˈvæmp/",
+    "pos": "n./v.",
+    "zh": "翻新；改进",
+    "example": "The curriculum got a quiet revamp.",
+    "emoji": "🛠️",
+    "cefr": "C1"
+   },
+   {
+    "word": "insurrection",
+    "ipa": "/ˌɪnsəˈrekʃn/",
+    "pos": "n.",
+    "zh": "起义；叛乱",
+    "example": "The insurrection lasted nine days.",
+    "emoji": "🔥",
+    "cefr": "C2"
+   },
+   {
+    "word": "rebellion",
+    "ipa": "/rɪˈbeljən/",
+    "pos": "n.",
+    "zh": "叛乱；反抗",
+    "example": "The rebellion started over bread prices.",
+    "emoji": "🗡️",
+    "cefr": "C1"
+   },
+   {
+    "word": "upheaval",
+    "ipa": "/ʌpˈhiːvl/",
+    "pos": "n.",
+    "zh": "剧变；动荡",
+    "example": "War brought upheaval to every ledger.",
+    "emoji": "🌪️",
+    "cefr": "C1"
+   },
+   {
+    "word": "bottom-up",
+    "ipa": "/ˌbɒtəm ˈʌp/",
+    "pos": "adj.",
+    "zh": "自下而上的",
+    "example": "Bottom-up budgets started in Porto Alegre.",
+    "emoji": "🪜",
+    "cefr": "C1"
+   },
+   {
+    "word": "collective",
+    "ipa": "/kəˈlektɪv/",
+    "pos": "adj./n.",
+    "zh": "集体的；集体组织",
+    "example": "The buying collective halved seed prices.",
+    "emoji": "🫂",
+    "cefr": "C1"
+   },
+   {
+    "word": "mobilise",
+    "ipa": "/ˈməʊbəlaɪz/",
+    "pos": "v.",
+    "zh": "动员",
+    "example": "Social media mobilised ten thousand marchers.",
+    "emoji": "📣",
+    "cefr": "C1"
+   },
+   {
+    "word": "sit-in",
+    "ipa": "/ˈsɪt ɪn/",
+    "pos": "n.",
+    "zh": "静坐抗议",
+    "example": "The sit-in closed the canteen.",
+    "emoji": "🪑",
+    "cefr": "C2"
+   },
+   {
+    "word": "electoral",
+    "ipa": "/ɪˈlektərəl/",
+    "pos": "adj.",
+    "zh": "选举的",
+    "example": "Electoral maps redraw themselves quietly.",
+    "emoji": "🗳️",
+    "cefr": "C1"
+   },
+   {
+    "word": "emancipation",
+    "ipa": "/ɪˌmænsɪˈpeɪʃn/",
+    "pos": "n.",
+    "zh": "解放",
+    "example": "Emancipation arrived in uneven instalments.",
+    "emoji": "🕊️",
+    "cefr": "C2"
+   },
+   {
+    "word": "suffragette",
+    "ipa": "/ˌsʌfrəˈdʒet/",
+    "pos": "n.",
+    "zh": "妇女参政论者",
+    "example": "Suffragettes chained themselves to railings.",
+    "emoji": "⛓️",
+    "cefr": "C2"
+   },
+   {
+    "word": "backlash",
+    "ipa": "/ˈbæklæʃ/",
+    "pos": "n.",
+    "zh": "强烈反对；反冲",
+    "example": "Every reform meets a backlash.",
+    "emoji": "🌊",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l9_soc_leisure",
+  "title": "休闲与亚文化",
+  "emoji": "🎪",
+  "words": [
+   {
+    "word": "downtime",
+    "ipa": "/ˈdaʊntaɪm/",
+    "pos": "n.",
+    "zh": "休息时间；停工期",
+    "example": "Downtime is scheduled, not found.",
+    "emoji": "🛋️",
+    "cefr": "C1"
+   },
+   {
+    "word": "merriment",
+    "ipa": "/ˈmerɪmənt/",
+    "pos": "n.",
+    "zh": "欢乐；嬉闹",
+    "example": "Merriment carried past midnight.",
+    "emoji": "😄",
+    "cefr": "C2"
+   },
+   {
+    "word": "avocation",
+    "ipa": "/ˌævəˈkeɪʃn/",
+    "pos": "n.",
+    "zh": "副业；业余爱好",
+    "example": "Letterpress is her avocation, dentistry the vocation.",
+    "emoji": "🅰️",
+    "cefr": "C2"
+   },
+   {
+    "word": "onlooker",
+    "ipa": "/ˈɒnlʊkə/",
+    "pos": "n.",
+    "zh": "旁观者",
+    "example": "Onlookers crowded both pavements.",
+    "emoji": "👀",
+    "cefr": "C1"
+   },
+   {
+    "word": "fandom",
+    "ipa": "/ˈfændəm/",
+    "pos": "n.",
+    "zh": "粉丝群体",
+    "example": "The fandom translated the finale overnight.",
+    "emoji": "⭐",
+    "cefr": "C2"
+   },
+   {
+    "word": "subculture",
+    "ipa": "/ˈsʌbkʌltʃə/",
+    "pos": "n.",
+    "zh": "亚文化",
+    "example": "Skate subculture rewrote youth fashion.",
+    "emoji": "🛹",
+    "cefr": "C1"
+   },
+   {
+    "word": "masquerade",
+    "ipa": "/ˌmɑːskəˈreɪd/",
+    "pos": "n.",
+    "zh": "化装舞会；伪装",
+    "example": "The masquerade hides more than faces.",
+    "emoji": "🎭",
+    "cefr": "C2"
+   },
+   {
+    "word": "revelry",
+    "ipa": "/ˈrevəlri/",
+    "pos": "n.",
+    "zh": "狂欢；作乐",
+    "example": "Revelry echoed till dawn.",
+    "emoji": "🥳",
+    "cefr": "C2"
+   },
+   {
+    "word": "brass-band",
+    "ipa": "/brɑːs bænd/",
+    "pos": "n.",
+    "zh": "铜管乐队",
+    "example": "A brass-band opens the fair.",
+    "emoji": "🎺",
+    "cefr": "C2"
+   },
+   {
+    "word": "artisans",
+    "ipa": "/ˈɑːtɪzənz/",
+    "pos": "n.",
+    "zh": "工匠（复数）",
+    "example": "Artisans rebuilt the clock twice.",
+    "emoji": "🔧",
+    "cefr": "C1"
+   },
+   {
+    "word": "aficionado",
+    "ipa": "/əˌfɪsiəˈnɑːdəʊ/",
+    "pos": "n.",
+    "zh": "狂热爱好者",
+    "example": "Every aficionado argues about beans.",
+    "emoji": "☕",
+    "cefr": "C2"
+   },
+   {
+    "word": "getaway",
+    "ipa": "/ˈgetəweɪ/",
+    "pos": "n.",
+    "zh": "短假；逃离",
+    "example": "A lakeside getaway resets the week.",
+    "emoji": "🏖️",
+    "cefr": "C1"
+   }
+  ]
+ }
+]

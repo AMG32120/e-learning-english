@@ -1,6 +1,6 @@
 # 启程英语 · 功能清单
 
-> 版本：v0.5.0 ｜ 整理日期：2026-11-17 ｜ 线上地址：https://qicheng.worldorigin.dpdns.org
+> 版本：v0.6.0 ｜ 整理日期：2026-11-18 ｜ 线上地址：https://qicheng.worldorigin.dpdns.org
 > 形态：Vue 3 + Vite 纯前端单页应用（PWA），无后端依赖，全部数据存于浏览器 localStorage
 
 ---
@@ -165,9 +165,9 @@
 | 资源 | 数量 | 位置 |
 |---|---|---|
 | 等级与关卡 | 12 级 / 616 关（词汇主题驱动自动生成） | `src/data/levels.js` |
-| **词库总规模** | **去重后 3515 词**（L2 781 + L5 2757 + L8 96，跨主题/跨等级去重） | `public/data/*.json` |
-| L2 主题词库 | 81 主题 / 781 词 | `public/data/words-l2*.json`（8 个分批文件） |
-| L5 词主题库 | 247 主题包 / 2457 词 + 词组 25 包 300 条 | `public/data/words-l5*.json` + `phrases-1~5.json`（25 个分批文件） |
+| **词库总规模** | **去重后 4653 词**（L2 849 + L5 3763 + L8 新增 41，跨主题/跨等级存在部分重复） | `public/data/*.json` |
+| L2 主题词库 | 81 主题 / 984 词 | `public/data/words-l2*.json`（8 个分批文件） |
+| L5 词主题库 | 330 主题包 / 3973 词 + 词组 25 包 300 条 | `public/data/words-l5*.json` + `phrases-1~5.json`（34 个分批文件） |
 | L8 学术词库 | 8 主题 / 96 词 | `public/data/words-l8.json` |
 | 听力材料 | 16 篇（L10） | `src/data/listening_l6.js` |
 | 阅读材料 | 16 篇（L11） | `src/data/reading_l7.js` |

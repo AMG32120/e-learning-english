@@ -1,0 +1,1143 @@
+[
+ {
+  "id": "l7_med_clinical",
+  "title": "临床诊疗",
+  "emoji": "🩺",
+  "words": [
+   {
+    "word": "misdiagnosis",
+    "ipa": "/ˌmɪsdaɪəgˈnəʊsɪs/",
+    "pos": "n.",
+    "zh": "误诊",
+    "example": "One misdiagnosis cost the patient a year.",
+    "emoji": "❌",
+    "cefr": "C1"
+   },
+   {
+    "word": "asymptomatic",
+    "ipa": "/əˌsɪmptəˈmætɪk/",
+    "pos": "adj.",
+    "zh": "无症状的",
+    "example": "Asymptomatic spread caught the ward off guard.",
+    "emoji": "🫥",
+    "cefr": "C1"
+   },
+   {
+    "word": "debilitating",
+    "ipa": "/dɪˈbɪlɪteɪtɪŋ/",
+    "pos": "adj.",
+    "zh": "使人虚弱的",
+    "example": "A debilitating fatigue outlasted the fever.",
+    "emoji": "🥀",
+    "cefr": "C2"
+   },
+   {
+    "word": "remission",
+    "ipa": "/rɪˈmɪʃn/",
+    "pos": "n.",
+    "zh": "缓解期；（病）好转",
+    "example": "Six months in remission felt like a second life.",
+    "emoji": "🌅",
+    "cefr": "C1"
+   },
+   {
+    "word": "stretcher",
+    "ipa": "/ˈstretʃə/",
+    "pos": "n.",
+    "zh": "担架",
+    "example": "Two medics carried the stretcher down.",
+    "emoji": "🚼",
+    "cefr": "C1"
+   },
+   {
+    "word": "bedside",
+    "ipa": "/ˈbedsaɪd/",
+    "pos": "n./adj.",
+    "zh": "床边；床旁的",
+    "example": "Bedside manner heals almost as much as medicine.",
+    "emoji": "🛏️",
+    "cefr": "C1"
+   },
+   {
+    "word": "convalescence",
+    "ipa": "/ˌkɒnvəˈlesns/",
+    "pos": "n.",
+    "zh": "康复期；休养",
+    "example": "Convalescence takes longer than surgery.",
+    "emoji": "🌿",
+    "cefr": "C2"
+   },
+   {
+    "word": "inpatient",
+    "ipa": "/ˈɪnpeɪʃnt/",
+    "pos": "n./adj.",
+    "zh": "住院病人",
+    "example": "Inpatient beds freed up by Thursday.",
+    "emoji": "🏥",
+    "cefr": "C1"
+   },
+   {
+    "word": "referral",
+    "ipa": "/rɪˈfɜːrəl/",
+    "pos": "n.",
+    "zh": "转诊；转介",
+    "example": "A referral to the specialist took three weeks.",
+    "emoji": "📮",
+    "cefr": "C1"
+   },
+   {
+    "word": "follow-up",
+    "ipa": "/ˈfɒləʊ ʌp/",
+    "pos": "n./adj.",
+    "zh": "随访；后续的",
+    "example": "The follow-up appointment confirmed recovery.",
+    "emoji": "📅",
+    "cefr": "C1"
+   },
+   {
+    "word": "checkup",
+    "ipa": "/ˈtʃekʌp/",
+    "pos": "n.",
+    "zh": "体检；复查",
+    "example": "An annual checkup caught it early.",
+    "emoji": "🧾",
+    "cefr": "B1"
+   },
+   {
+    "word": "ailment",
+    "ipa": "/ˈeɪlmənt/",
+    "pos": "n.",
+    "zh": "小病；不适",
+    "example": "Grandma catalogues every minor ailment at breakfast.",
+    "emoji": "🤢",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l7_med_pharm",
+  "title": "药理学",
+  "emoji": "💊",
+  "words": [
+   {
+    "word": "pharmacology",
+    "ipa": "/ˌfɑːməˈkɒlədʒi/",
+    "pos": "n.",
+    "zh": "药理学",
+    "example": "Pharmacology explains why the dose matters.",
+    "emoji": "💊",
+    "cefr": "C1"
+   },
+   {
+    "word": "syrup",
+    "ipa": "/ˈsɪrəp/",
+    "pos": "n.",
+    "zh": "糖浆",
+    "example": "Cough syrup tastes like childhood.",
+    "emoji": "🍯",
+    "cefr": "B2"
+   },
+   {
+    "word": "dispensary",
+    "ipa": "/dɪˈspensəri/",
+    "pos": "n.",
+    "zh": "药房；配药处",
+    "example": "The dispensary queues before eight.",
+    "emoji": "🏪",
+    "cefr": "C2"
+   },
+   {
+    "word": "antiviral",
+    "ipa": "/ˌæntiˈvaɪrəl/",
+    "pos": "adj./n.",
+    "zh": "抗病毒的；抗病毒药",
+    "example": "Antiviral pills work best within two days.",
+    "emoji": "🛡️",
+    "cefr": "C1"
+   },
+   {
+    "word": "milligram",
+    "ipa": "/ˈmɪligræm/",
+    "pos": "n.",
+    "zh": "毫克",
+    "example": "Five milligrams changed his mornings.",
+    "emoji": "⚖️",
+    "cefr": "C1"
+   },
+   {
+    "word": "dependency",
+    "ipa": "/dɪˈpendənsi/",
+    "pos": "n.",
+    "zh": "药物依赖",
+    "example": "Dependency creeps in after months of use.",
+    "emoji": "⛓️",
+    "cefr": "C1"
+   },
+   {
+    "word": "weaning",
+    "ipa": "/ˈwiːnɪŋ/",
+    "pos": "n.",
+    "zh": "逐渐停药；断奶",
+    "example": "Slow weaning beats cold-turkey quitting.",
+    "emoji": "📉",
+    "cefr": "C2"
+   },
+   {
+    "word": "side-effect",
+    "ipa": "/ˈsaɪd ɪfekt/",
+    "pos": "n.",
+    "zh": "副作用",
+    "example": "Drowsiness is the commonest side-effect.",
+    "emoji": "😵",
+    "cefr": "C1"
+   },
+   {
+    "word": "overdose",
+    "ipa": "/ˈəʊvədəʊs/",
+    "pos": "n./v.",
+    "zh": "用药过量",
+    "example": "Store pills away to prevent accidental overdose.",
+    "emoji": "🆘",
+    "cefr": "C1"
+   },
+   {
+    "word": "jab",
+    "ipa": "/dʒæb/",
+    "pos": "n.",
+    "zh": "注射；针剂",
+    "example": "The flu jab takes ten seconds.",
+    "emoji": "💉",
+    "cefr": "C1"
+   },
+   {
+    "word": "antidote",
+    "ipa": "/ˈæntidəʊt/",
+    "pos": "n.",
+    "zh": "解毒剂",
+    "example": "The pharmacy stocks an antidote for each toxin.",
+    "emoji": "🧪",
+    "cefr": "C1"
+   },
+   {
+    "word": "formulary",
+    "ipa": "/ˈfɔːmjʊləri/",
+    "pos": "n.",
+    "zh": "处方集",
+    "example": "The formulary lists approved drugs only.",
+    "emoji": "📒",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l7_med_surgery",
+  "title": "外科",
+  "emoji": "🔪",
+  "words": [
+   {
+    "word": "anaesthesia",
+    "ipa": "/ˌænɪsˈθiːziə/",
+    "pos": "n.",
+    "zh": "麻醉",
+    "example": "Anaesthesia wore off two hours later.",
+    "emoji": "💤",
+    "cefr": "C1"
+   },
+   {
+    "word": "incision",
+    "ipa": "/ɪnˈsɪʒn/",
+    "pos": "n.",
+    "zh": "切口",
+    "example": "The incision measured just four centimetres.",
+    "emoji": "✂️",
+    "cefr": "C1"
+   },
+   {
+    "word": "suture",
+    "ipa": "/ˈsuːtʃə/",
+    "pos": "n./v.",
+    "zh": "缝线；缝合",
+    "example": "Twelve sutures closed the wound neatly.",
+    "emoji": "🧵",
+    "cefr": "C1"
+   },
+   {
+    "word": "transplant",
+    "ipa": "/ˈtrænsplɑːnt/",
+    "pos": "n./v.",
+    "zh": "移植",
+    "example": "The heart transplant queue moves slowly.",
+    "emoji": "❤️",
+    "cefr": "C1"
+   },
+   {
+    "word": "graft",
+    "ipa": "/grɑːft/",
+    "pos": "n./v.",
+    "zh": "移植片；嫁接",
+    "example": "A skin graft covered the burn by week two.",
+    "emoji": "🌱",
+    "cefr": "C1"
+   },
+   {
+    "word": "prosthesis",
+    "ipa": "/prɒsˈθiːsɪs/",
+    "pos": "n.",
+    "zh": "假体；义肢",
+    "example": "The new prosthesis bends at the ankle.",
+    "emoji": "🦿",
+    "cefr": "C1"
+   },
+   {
+    "word": "resection",
+    "ipa": "/rɪˈsekʃn/",
+    "pos": "n.",
+    "zh": "切除术",
+    "example": "A bowel resection needs three surgeons.",
+    "emoji": "🩹",
+    "cefr": "C2"
+   },
+   {
+    "word": "scalpel",
+    "ipa": "/ˈskælpəl/",
+    "pos": "n.",
+    "zh": "手术刀",
+    "example": "The scalpel paused; the room held its breath.",
+    "emoji": "🔪",
+    "cefr": "C1"
+   },
+   {
+    "word": "scrubs",
+    "ipa": "/skrʌbz/",
+    "pos": "n.",
+    "zh": "手术服",
+    "example": "Green scrubs, blue cap, no jewellery.",
+    "emoji": "👕",
+    "cefr": "C2"
+   },
+   {
+    "word": "sterile",
+    "ipa": "/ˈsteraɪl/",
+    "pos": "adj.",
+    "zh": "无菌的",
+    "example": "Everything in theatre stays sterile.",
+    "emoji": "🧼",
+    "cefr": "C1"
+   },
+   {
+    "word": "laparoscopy",
+    "ipa": "/ˌlæpəˈrɒskəpi/",
+    "pos": "n.",
+    "zh": "腹腔镜检查；微创手术",
+    "example": "Laparoscopy replaced open surgery for many cases.",
+    "emoji": "🔭",
+    "cefr": "C2"
+   },
+   {
+    "word": "postoperative",
+    "ipa": "/ˌpəʊstˈɒpərətɪv/",
+    "pos": "adj.",
+    "zh": "术后的",
+    "example": "Postoperative checks run every four hours.",
+    "emoji": "📋",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l7_med_imaging",
+  "title": "影像与检验",
+  "emoji": "🔬",
+  "words": [
+   {
+    "word": "radiography",
+    "ipa": "/ˌreɪdiˈɒgrəfi/",
+    "pos": "n.",
+    "zh": "放射摄影；X光检查",
+    "example": "Radiography revealed the hairline fracture.",
+    "emoji": "📷",
+    "cefr": "C1"
+   },
+   {
+    "word": "ultrasound",
+    "ipa": "/ˈʌltrəsaʊnd/",
+    "pos": "n.",
+    "zh": "超声波检查",
+    "example": "The ultrasound dated the pregnancy precisely.",
+    "emoji": "🔊",
+    "cefr": "C1"
+   },
+   {
+    "word": "scan",
+    "ipa": "/skæn/",
+    "pos": "n./v.",
+    "zh": "扫描",
+    "example": "The scan found nothing sinister.",
+    "emoji": "📺",
+    "cefr": "B1"
+   },
+   {
+    "word": "tomography",
+    "ipa": "/təˈmɒgrəfi/",
+    "pos": "n.",
+    "zh": "断层扫描",
+    "example": "Computed tomography slices the body finely.",
+    "emoji": "🖥️",
+    "cefr": "C2"
+   },
+   {
+    "word": "mammogram",
+    "ipa": "/ˈmæməgræm/",
+    "pos": "n.",
+    "zh": "乳腺X光检查",
+    "example": "A ten-minute mammogram buys years of safety.",
+    "emoji": "🎗️",
+    "cefr": "C1"
+   },
+   {
+    "word": "vial",
+    "ipa": "/ˈvaɪəl/",
+    "pos": "n.",
+    "zh": "小药瓶；试管",
+    "example": "Each vial carries a barcode, not a name.",
+    "emoji": "🧪",
+    "cefr": "C2"
+   },
+   {
+    "word": "assay",
+    "ipa": "/əˈseɪ/",
+    "pos": "n./v.",
+    "zh": "化验；分析",
+    "example": "The blood assay came back within a day.",
+    "emoji": "🧫",
+    "cefr": "C2"
+   },
+   {
+    "word": "centrifuge",
+    "ipa": "/ˈsentrɪfjuːdʒ/",
+    "pos": "n./v.",
+    "zh": "离心机；离心分离",
+    "example": "The centrifuge spins the vials at 4,000 rpm.",
+    "emoji": "🌪️",
+    "cefr": "C2"
+   },
+   {
+    "word": "false-positive",
+    "ipa": "/ˌfɔːls ˈpɒzətɪv/",
+    "pos": "n.",
+    "zh": "假阳性",
+    "example": "Screening always trades false-positives for safety.",
+    "emoji": "🚫",
+    "cefr": "C1"
+   },
+   {
+    "word": "pathology",
+    "ipa": "/pəˈθɒlədʒi/",
+    "pos": "n.",
+    "zh": "病理学",
+    "example": "Pathology examined the removed tissue.",
+    "emoji": "🔬",
+    "cefr": "C1"
+   },
+   {
+    "word": "electrocardiogram",
+    "ipa": "/ɪˌlektrəʊˈkɑːdiəgræm/",
+    "pos": "n.",
+    "zh": "心电图",
+    "example": "The electrocardiogram traced every heartbeat.",
+    "emoji": "💓",
+    "cefr": "C1"
+   },
+   {
+    "word": "radiologist",
+    "ipa": "/ˌreɪdiˈɒlədʒɪst/",
+    "pos": "n.",
+    "zh": "放射科医生",
+    "example": "The radiologist rang within the hour.",
+    "emoji": "👩‍⚕️",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l7_med_oncology",
+  "title": "肿瘤与重症",
+  "emoji": "🎗️",
+  "words": [
+   {
+    "word": "malignant",
+    "ipa": "/məˈlɪgnənt/",
+    "pos": "adj.",
+    "zh": "恶性的",
+    "example": "The biopsy showed a malignant growth.",
+    "emoji": "🎗️",
+    "cefr": "C1"
+   },
+   {
+    "word": "benign",
+    "ipa": "/bɪˈnaɪn/",
+    "pos": "adj.",
+    "zh": "良性的",
+    "example": "To everyone's relief, the lump was benign.",
+    "emoji": "😌",
+    "cefr": "C1"
+   },
+   {
+    "word": "metastasis",
+    "ipa": "/məˈtæstəsɪs/",
+    "pos": "n.",
+    "zh": "转移（病灶）",
+    "example": "Scans found no metastasis.",
+    "emoji": "🛡️",
+    "cefr": "C2"
+   },
+   {
+    "word": "chemotherapy",
+    "ipa": "/ˌkiːməʊˈθerəpi/",
+    "pos": "n.",
+    "zh": "化疗",
+    "example": "Chemotherapy runs in six cycles.",
+    "emoji": "💉",
+    "cefr": "C1"
+   },
+   {
+    "word": "radiotherapy",
+    "ipa": "/ˌreɪdiəʊˈθerəpi/",
+    "pos": "n.",
+    "zh": "放疗",
+    "example": "Radiotherapy targets the tumour precisely.",
+    "emoji": "☢️",
+    "cefr": "C1"
+   },
+   {
+    "word": "intensive",
+    "ipa": "/ɪnˈtensɪv/",
+    "pos": "adj.",
+    "zh": "加强的；密集的",
+    "example": "Intensive care kept him alive for a week.",
+    "emoji": "🚨",
+    "cefr": "B2"
+   },
+   {
+    "word": "ventilator",
+    "ipa": "/ˈventɪleɪtə/",
+    "pos": "n.",
+    "zh": "呼吸机",
+    "example": "The ventilator breathed for her until dawn.",
+    "emoji": "🫁",
+    "cefr": "C1"
+   },
+   {
+    "word": "oncologist",
+    "ipa": "/ɒŋˈkɒlədʒɪst/",
+    "pos": "n.",
+    "zh": "肿瘤科医生",
+    "example": "The oncologist explained every option slowly.",
+    "emoji": "👩‍⚕️",
+    "cefr": "C1"
+   },
+   {
+    "word": "palliative",
+    "ipa": "/ˈpæliətɪv/",
+    "pos": "adj.",
+    "zh": "缓和的；姑息的",
+    "example": "Palliative care centres on comfort and dignity.",
+    "emoji": "🕊️",
+    "cefr": "C1"
+   },
+   {
+    "word": "compatibility",
+    "ipa": "/kəmˌpætəˈbɪləti/",
+    "pos": "n.",
+    "zh": "配型相容性",
+    "example": "Compatibility testing precedes every transplant.",
+    "emoji": "🧩",
+    "cefr": "C2"
+   },
+   {
+    "word": "recipient",
+    "ipa": "/rɪˈsɪpiənt/",
+    "pos": "n.",
+    "zh": "受者；接受者",
+    "example": "The recipient wrote to the family.",
+    "emoji": "💌",
+    "cefr": "C1"
+   },
+   {
+    "word": "endoscopy",
+    "ipa": "/enˈdɒskəpi/",
+    "pos": "n.",
+    "zh": "内镜检查",
+    "example": "Endoscopy peeks where scans cannot.",
+    "emoji": "🔭",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l7_med_cardio",
+  "title": "心血管与呼吸",
+  "emoji": "🫀",
+  "words": [
+   {
+    "word": "aorta",
+    "ipa": "/eɪˈɔːtə/",
+    "pos": "n.",
+    "zh": "主动脉",
+    "example": "The aorta pipes blood to everything.",
+    "emoji": "🫀",
+    "cefr": "C2"
+   },
+   {
+    "word": "platelet",
+    "ipa": "/ˈpleɪtlət/",
+    "pos": "n.",
+    "zh": "血小板",
+    "example": "Platelets rush to every leak.",
+    "emoji": "🩸",
+    "cefr": "C2"
+   },
+   {
+    "word": "pulse",
+    "ipa": "/pʌls/",
+    "pos": "n.",
+    "zh": "脉搏",
+    "example": "Her pulse steadied after ten minutes.",
+    "emoji": "💓",
+    "cefr": "B2"
+   },
+   {
+    "word": "hypertension",
+    "ipa": "/ˌhaɪpəˈtenʃn/",
+    "pos": "n.",
+    "zh": "高血压",
+    "example": "Hypertension hides behind no symptoms at all.",
+    "emoji": "📢",
+    "cefr": "C1"
+   },
+   {
+    "word": "infarction",
+    "ipa": "/ɪnˈfɑːkʃn/",
+    "pos": "n.",
+    "zh": "梗死",
+    "example": "A blocked artery caused the infarction.",
+    "emoji": "⛔",
+    "cefr": "C2"
+   },
+   {
+    "word": "stent",
+    "ipa": "/stent/",
+    "pos": "n.",
+    "zh": "支架",
+    "example": "The stent opened the artery in minutes.",
+    "emoji": "🛠️",
+    "cefr": "C2"
+   },
+   {
+    "word": "lipid",
+    "ipa": "/ˈlɪpɪd/",
+    "pos": "n.",
+    "zh": "脂质",
+    "example": "Blood panels grade four lipid numbers.",
+    "emoji": "🧈",
+    "cefr": "C2"
+   },
+   {
+    "word": "asthma",
+    "ipa": "/ˈæsmə/",
+    "pos": "n.",
+    "zh": "哮喘",
+    "example": "Cold air triggers his asthma instantly.",
+    "emoji": "💨",
+    "cefr": "C1"
+   },
+   {
+    "word": "inhaler",
+    "ipa": "/ɪnˈheɪlə/",
+    "pos": "n.",
+    "zh": "吸入器",
+    "example": "The inhaler lives in her schoolbag.",
+    "emoji": "🌀",
+    "cefr": "C1"
+   },
+   {
+    "word": "obstructive",
+    "ipa": "/əbˈstrʌktɪv/",
+    "pos": "adj.",
+    "zh": "阻塞的",
+    "example": "Obstructive sleep apnoea stops breath mid-night.",
+    "emoji": "🌙",
+    "cefr": "C2"
+   },
+   {
+    "word": "bloodstream",
+    "ipa": "/ˈblʌdstriːm/",
+    "pos": "n.",
+    "zh": "血流；血液循环",
+    "example": "Caffeine reaches the bloodstream in minutes.",
+    "emoji": "☕",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l7_med_neuro",
+  "title": "神经与精神",
+  "emoji": "🧠",
+  "words": [
+   {
+    "word": "neurology",
+    "ipa": "/njʊəˈrɒlədʒi/",
+    "pos": "n.",
+    "zh": "神经病学",
+    "example": "Neurology maps the body's wiring faults.",
+    "emoji": "🧠",
+    "cefr": "C1"
+   },
+   {
+    "word": "seizure",
+    "ipa": "/ˈsiːʒə/",
+    "pos": "n.",
+    "zh": "癫痫发作",
+    "example": "The seizure lasted ninety seconds.",
+    "emoji": "⚡",
+    "cefr": "C1"
+   },
+   {
+    "word": "migraine",
+    "ipa": "/ˈmiːgreɪn/",
+    "pos": "n.",
+    "zh": "偏头痛",
+    "example": "Light becomes the enemy during a migraine.",
+    "emoji": "🕶️",
+    "cefr": "C1"
+   },
+   {
+    "word": "paralyse",
+    "ipa": "/ˈpærəlaɪz/",
+    "pos": "v.",
+    "zh": "使瘫痪；使麻痹",
+    "example": "Fear can paralyse as surely as injury.",
+    "emoji": "🥶",
+    "cefr": "C1"
+   },
+   {
+    "word": "haemorrhage",
+    "ipa": "/ˈhemərɪdʒ/",
+    "pos": "n.",
+    "zh": "出血；大出血",
+    "example": "A brain haemorrhage allows no delay.",
+    "emoji": "🚑",
+    "cefr": "C2"
+   },
+   {
+    "word": "dementia",
+    "ipa": "/dɪˈmenʃə/",
+    "pos": "n.",
+    "zh": "痴呆",
+    "example": "Dementia steals memories in reverse order.",
+    "emoji": "🌫️",
+    "cefr": "C1"
+   },
+   {
+    "word": "psychiatry",
+    "ipa": "/saɪˈkaɪətri/",
+    "pos": "n.",
+    "zh": "精神病学",
+    "example": "Psychiatry treats what therapy talks through.",
+    "emoji": "🛋️",
+    "cefr": "C2"
+   },
+   {
+    "word": "psychiatric",
+    "ipa": "/ˌsaɪkiˈætrɪk/",
+    "pos": "adj.",
+    "zh": "精神病的",
+    "example": "Psychiatric nurses carry a rare patience.",
+    "emoji": "🧑‍⚕️",
+    "cefr": "C1"
+   },
+   {
+    "word": "setback",
+    "ipa": "/ˈsetbæk/",
+    "pos": "n.",
+    "zh": "反复；挫折",
+    "example": "One setback did not stop the rehab.",
+    "emoji": "↘️",
+    "cefr": "C1"
+   },
+   {
+    "word": "sedative",
+    "ipa": "/ˈsedətɪv/",
+    "pos": "n./adj.",
+    "zh": "镇静剂；镇静的",
+    "example": "A mild sedative eased the panic attack.",
+    "emoji": "🌜",
+    "cefr": "C1"
+   },
+   {
+    "word": "compulsion",
+    "ipa": "/kəmˈpʌlʃn/",
+    "pos": "n.",
+    "zh": "强迫行为；冲动",
+    "example": "He washed his hands by compulsion, forty times.",
+    "emoji": "🔁",
+    "cefr": "C1"
+   },
+   {
+    "word": "ostracise",
+    "ipa": "/ˈɒstrəsaɪz/",
+    "pos": "v.",
+    "zh": "排斥；孤立",
+    "example": "Villages once ostracised the mentally ill.",
+    "emoji": "🚷",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l7_metabolic",
+  "title": "内分泌与代谢",
+  "emoji": "⚗️",
+  "words": [
+   {
+    "word": "endocrine",
+    "ipa": "/ˈendəʊkrɪn/",
+    "pos": "adj.",
+    "zh": "内分泌的",
+    "example": "The endocrine system whispers in chemicals.",
+    "emoji": "🧪",
+    "cefr": "C2"
+   },
+   {
+    "word": "diabetes",
+    "ipa": "/ˌdaɪəˈbiːtiːz/",
+    "pos": "n.",
+    "zh": "糖尿病",
+    "example": "Diabetes demands a strict daily rhythm.",
+    "emoji": "💉",
+    "cefr": "C1"
+   },
+   {
+    "word": "insulin",
+    "ipa": "/ˈɪnsəlɪn/",
+    "pos": "n.",
+    "zh": "胰岛素",
+    "example": "Insulin pens fit a jacket pocket.",
+    "emoji": "🖊️",
+    "cefr": "C1"
+   },
+   {
+    "word": "thyroid",
+    "ipa": "/ˈθaɪrɔɪd/",
+    "pos": "n.",
+    "zh": "甲状腺",
+    "example": "An underactive thyroid slows everything.",
+    "emoji": "🦋",
+    "cefr": "C1"
+   },
+   {
+    "word": "obesity",
+    "ipa": "/əʊˈbiːsəti/",
+    "pos": "n.",
+    "zh": "肥胖症",
+    "example": "Obesity clinics blend diet with psychology.",
+    "emoji": "⚖️",
+    "cefr": "C1"
+   },
+   {
+    "word": "pancreas",
+    "ipa": "/ˈpæŋkriəs/",
+    "pos": "n.",
+    "zh": "胰腺",
+    "example": "The pancreas juggles sugar all day.",
+    "emoji": "🍬",
+    "cefr": "C2"
+   },
+   {
+    "word": "glucose",
+    "ipa": "/ˈgluːkəʊs/",
+    "pos": "n.",
+    "zh": "葡萄糖",
+    "example": "Glucose spikes crash an hour later.",
+    "emoji": "🍯",
+    "cefr": "C1"
+   },
+   {
+    "word": "starch",
+    "ipa": "/stɑːtʃ/",
+    "pos": "n.",
+    "zh": "淀粉",
+    "example": "Rice stacks the plate with starch.",
+    "emoji": "🍚",
+    "cefr": "C1"
+   },
+   {
+    "word": "deficiency",
+    "ipa": "/dɪˈfɪʃnsi/",
+    "pos": "n.",
+    "zh": "缺乏；不足",
+    "example": "Vitamin D deficiency sneaks through winters.",
+    "emoji": "☁️",
+    "cefr": "C1"
+   },
+   {
+    "word": "supplement",
+    "ipa": "/ˈsʌplɪmənt/",
+    "pos": "n./v.",
+    "zh": "补充剂；补充",
+    "example": "A supplement bridged the dietary gap.",
+    "emoji": "💊",
+    "cefr": "C1"
+   },
+   {
+    "word": "histamine",
+    "ipa": "/ˈhɪstəmiːn/",
+    "pos": "n.",
+    "zh": "组胺",
+    "example": "Antihistamines block the histamine storm.",
+    "emoji": "🌪️",
+    "cefr": "C2"
+   },
+   {
+    "word": "intolerance",
+    "ipa": "/ɪnˈtɒlərəns/",
+    "pos": "n.",
+    "zh": "不耐受",
+    "example": "Lactose intolerance explains the stomach drama.",
+    "emoji": "🥛",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l7_med_recovery",
+  "title": "康复与护理",
+  "emoji": "🦽",
+  "words": [
+   {
+    "word": "physiotherapist",
+    "ipa": "/ˌfɪziəʊˈθerəpɪst/",
+    "pos": "n.",
+    "zh": "理疗师",
+    "example": "The physiotherapist counts every squat.",
+    "emoji": "🧑‍⚕️",
+    "cefr": "C1"
+   },
+   {
+    "word": "gait",
+    "ipa": "/geɪt/",
+    "pos": "n.",
+    "zh": "步态",
+    "example": "Her gait steadied by the third session.",
+    "emoji": "🚶",
+    "cefr": "C2"
+   },
+   {
+    "word": "crutches",
+    "ipa": "/ˈkrʌtʃɪz/",
+    "pos": "n.",
+    "zh": "拐杖",
+    "example": "Crutches clicked through the corridor.",
+    "emoji": "🩼",
+    "cefr": "B2"
+   },
+   {
+    "word": "wheelchair",
+    "ipa": "/ˈwiːltʃeə/",
+    "pos": "n.",
+    "zh": "轮椅",
+    "example": "Ramps matter more to a wheelchair than willpower.",
+    "emoji": "♿",
+    "cefr": "B2"
+   },
+   {
+    "word": "carer",
+    "ipa": "/ˈkeərə/",
+    "pos": "n.",
+    "zh": "护理者；照护人员",
+    "example": "The carer arrived at seven sharp.",
+    "emoji": "🤲",
+    "cefr": "C1"
+   },
+   {
+    "word": "gauze",
+    "ipa": "/gɔːz/",
+    "pos": "n.",
+    "zh": "纱布",
+    "example": "Fresh gauze goes on every morning.",
+    "emoji": "🧻",
+    "cefr": "C2"
+   },
+   {
+    "word": "ointment",
+    "ipa": "/ˈɔɪntmənt/",
+    "pos": "n.",
+    "zh": "药膏",
+    "example": "The ointment stung, then soothed.",
+    "emoji": "🧴",
+    "cefr": "C1"
+   },
+   {
+    "word": "drip",
+    "ipa": "/drɪp/",
+    "pos": "n.",
+    "zh": "输液；滴注",
+    "example": "The drip kept her hydrated overnight.",
+    "emoji": "💧",
+    "cefr": "B2"
+   },
+   {
+    "word": "sanitary",
+    "ipa": "/ˈsænɪtri/",
+    "pos": "adj.",
+    "zh": "卫生的；清洁的",
+    "example": "Sanitary wipes sit by every till now.",
+    "emoji": "🚿",
+    "cefr": "B2"
+   },
+   {
+    "word": "aftercare",
+    "ipa": "/ˈɑːftəkeə/",
+    "pos": "n.",
+    "zh": "术后护理",
+    "example": "Good aftercare halves the readmission rate.",
+    "emoji": "📋",
+    "cefr": "C1"
+   },
+   {
+    "word": "mobility-aid",
+    "ipa": "/ˈməʊbɪləti eɪd/",
+    "pos": "n.",
+    "zh": "助行器具",
+    "example": "A walking frame is a gentle mobility-aid.",
+    "emoji": "🦯",
+    "cefr": "C2"
+   },
+   {
+    "word": "recuperate",
+    "ipa": "/rɪˈkuːpəreɪt/",
+    "pos": "v.",
+    "zh": "休养；恢复",
+    "example": "He recuperated at his sisters by the sea.",
+    "emoji": "🛌",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l7_med_public",
+  "title": "公共卫生",
+  "emoji": "🌐",
+  "words": [
+   {
+    "word": "incidence",
+    "ipa": "/ˈɪnsɪdəns/",
+    "pos": "n.",
+    "zh": "发生率",
+    "example": "Smoking bans cut lung cancer incidence fast.",
+    "emoji": "📉",
+    "cefr": "C1"
+   },
+   {
+    "word": "incubation",
+    "ipa": "/ˌɪŋkjʊˈbeɪʃn/",
+    "pos": "n.",
+    "zh": "潜伏期",
+    "example": "Incubation hides the first five days.",
+    "emoji": "⏳",
+    "cefr": "C2"
+   },
+   {
+    "word": "lockdown",
+    "ipa": "/ˈlɒkdaʊn/",
+    "pos": "n.",
+    "zh": "封锁",
+    "example": "The lockdown emptied the streets overnight.",
+    "emoji": "🔒",
+    "cefr": "C1"
+   },
+   {
+    "word": "disinfect",
+    "ipa": "/ˌdɪsɪnˈfekt/",
+    "pos": "v.",
+    "zh": "消毒",
+    "example": "Disinfect the handles twice daily.",
+    "emoji": "🧼",
+    "cefr": "C1"
+   },
+   {
+    "word": "culvert",
+    "ipa": "/ˈkʌlvət/",
+    "pos": "n.",
+    "zh": "涵洞",
+    "example": "A blocked culvert floods the lane.",
+    "emoji": "🌉",
+    "cefr": "C2"
+   },
+   {
+    "word": "immunise",
+    "ipa": "/ˈɪmjənaɪz/",
+    "pos": "v.",
+    "zh": "使免疫；接种疫苗",
+    "example": "The campaign immunised 90% of toddlers.",
+    "emoji": "💉",
+    "cefr": "C1"
+   },
+   {
+    "word": "fomite",
+    "ipa": "/ˈfəʊmaɪt/",
+    "pos": "n.",
+    "zh": "污染物（传病媒介）",
+    "example": "Doorknobs are classic fomites.",
+    "emoji": "🚪",
+    "cefr": "C2"
+   },
+   {
+    "word": "mortality",
+    "ipa": "/mɔːˈtæləti/",
+    "pos": "n.",
+    "zh": "死亡率",
+    "example": "Childhood mortality halved in one generation.",
+    "emoji": "🕯️",
+    "cefr": "C1"
+   },
+   {
+    "word": "morbidity",
+    "ipa": "/mɔːˈbɪdəti/",
+    "pos": "n.",
+    "zh": "发病率；病态",
+    "example": "Morbidity data guided the lockdown lines.",
+    "emoji": "🧾",
+    "cefr": "C2"
+   },
+   {
+    "word": "clinic",
+    "ipa": "/ˈklɪnɪk/",
+    "pos": "n.",
+    "zh": "诊所；门诊部",
+    "example": "The mobile clinic reaches three villages weekly.",
+    "emoji": "🏥",
+    "cefr": "B1"
+   },
+   {
+    "word": "sanitiser",
+    "ipa": "/ˈsænɪtaɪzə/",
+    "pos": "n.",
+    "zh": "消毒液",
+    "example": "Sanitiser bottles sprouted at every doorway.",
+    "emoji": "🧴",
+    "cefr": "C1"
+   },
+   {
+    "word": "eradication",
+    "ipa": "/ɪˌrædɪˈkeɪʃn/",
+    "pos": "n.",
+    "zh": "根除",
+    "example": "Smallpox reached eradication in 1980.",
+    "emoji": "🏆",
+    "cefr": "C2"
+   }
+  ]
+ }
+]

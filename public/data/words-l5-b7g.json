@@ -1,0 +1,1037 @@
+[
+ {
+  "id": "l9_ind_mfg",
+  "title": "制造工艺",
+  "emoji": "🏭",
+  "words": [
+   {
+    "word": "shop-floor",
+    "ipa": "/ˈʃɒp flɔː/",
+    "pos": "n.",
+    "zh": "车间；生产区",
+    "example": "Shop-floor ideas reach the board monthly.",
+    "emoji": "🔧",
+    "cefr": "C1"
+   },
+   {
+    "word": "workpiece",
+    "ipa": "/ˈwɜːkpiːs/",
+    "pos": "n.",
+    "zh": "工件",
+    "example": "Clamp the workpiece before cutting.",
+    "emoji": "🔩",
+    "cefr": "C2"
+   },
+   {
+    "word": "lathe",
+    "ipa": "/leɪð/",
+    "pos": "n.",
+    "zh": "车床",
+    "example": "The lathe spins brass into knobs.",
+    "emoji": "🛠️",
+    "cefr": "C2"
+   },
+   {
+    "word": "mould",
+    "ipa": "/məʊld/",
+    "pos": "n./v.",
+    "zh": "模具；铸造",
+    "example": "Plastic pours into the mould at 200 degrees.",
+    "emoji": "🫙",
+    "cefr": "C1"
+   },
+   {
+    "word": "extrusion",
+    "ipa": "/ɪkˈstruːʒn/",
+    "pos": "n.",
+    "zh": "挤压成型",
+    "example": "Extrusion produces the window frames.",
+    "emoji": "➡️",
+    "cefr": "C2"
+   },
+   {
+    "word": "foundry",
+    "ipa": "/ˈfaʊndri/",
+    "pos": "n.",
+    "zh": "铸造厂",
+    "example": "The foundry pours iron twice daily.",
+    "emoji": "🏭",
+    "cefr": "C2"
+   },
+   {
+    "word": "tolerances",
+    "ipa": "/ˈtɒlərənsɪz/",
+    "pos": "n.",
+    "zh": "公差",
+    "example": "Aerospace tolerances measure microns.",
+    "emoji": "📏",
+    "cefr": "C2"
+   },
+   {
+    "word": "chute",
+    "ipa": "/ʃuːt/",
+    "pos": "n.",
+    "zh": "滑槽；溜槽",
+    "example": "Rejects tumble down the chute.",
+    "emoji": "🛝",
+    "cefr": "C2"
+   },
+   {
+    "word": "solder",
+    "ipa": "/ˈsəʊldə/",
+    "pos": "v./n.",
+    "zh": "锡焊；焊料",
+    "example": "Solder the joint before it cools.",
+    "emoji": "🔥",
+    "cefr": "C1"
+   },
+   {
+    "word": "grinding",
+    "ipa": "/ˈgraɪndɪŋ/",
+    "pos": "n.",
+    "zh": "磨削；打磨",
+    "example": "Grinding sparks light the night shift.",
+    "emoji": "✨",
+    "cefr": "C1"
+   },
+   {
+    "word": "calipers",
+    "ipa": "/ˈkælɪpəz/",
+    "pos": "n.",
+    "zh": "卡钳；测径器",
+    "example": "Calipers confirm the shaft diameter.",
+    "emoji": "🧰",
+    "cefr": "C2"
+   },
+   {
+    "word": "mock-up",
+    "ipa": "/ˈmɒk ʌp/",
+    "pos": "n.",
+    "zh": "实体模型；样件",
+    "example": "A cardboard mock-up settled the argument.",
+    "emoji": "📦",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l9_ind_metallurgy",
+  "title": "冶金与材料",
+  "emoji": "🔗",
+  "words": [
+   {
+    "word": "metallurgy",
+    "ipa": "/ˌmetəˈlɜːdʒi/",
+    "pos": "n.",
+    "zh": "冶金学",
+    "example": "Metallurgy turned ore into empires.",
+    "emoji": "🔗",
+    "cefr": "C2"
+   },
+   {
+    "word": "ore",
+    "ipa": "/ɔː/",
+    "pos": "n.",
+    "zh": "矿石",
+    "example": "The ore grades sixty percent metal.",
+    "emoji": "🪨",
+    "cefr": "C1"
+   },
+   {
+    "word": "smelt",
+    "ipa": "/smelt/",
+    "pos": "v.",
+    "zh": "熔炼",
+    "example": "Furnaces smelt ore around the clock.",
+    "emoji": "🔥",
+    "cefr": "C2"
+   },
+   {
+    "word": "slag",
+    "ipa": "/slæg/",
+    "pos": "n.",
+    "zh": "炉渣",
+    "example": "Slag heaps became climbing walls.",
+    "emoji": "🌫️",
+    "cefr": "C2"
+   },
+   {
+    "word": "ingot",
+    "ipa": "/ˈɪŋgət/",
+    "pos": "n.",
+    "zh": "锭；铸块",
+    "example": "Gold ingots stack in the vault.",
+    "emoji": "🧱",
+    "cefr": "C2"
+   },
+   {
+    "word": "forgeable",
+    "ipa": "/ˈfɔːdʒəbl/",
+    "pos": "adj.",
+    "zh": "可锻造的",
+    "example": "Wrought iron is forgeable at orange heat.",
+    "emoji": "🔨",
+    "cefr": "C2"
+   },
+   {
+    "word": "brittle",
+    "ipa": "/ˈbrɪtl/",
+    "pos": "adj.",
+    "zh": "脆的",
+    "example": "Cast iron is strong but brittle.",
+    "emoji": "🍪",
+    "cefr": "C1"
+   },
+   {
+    "word": "corrosion",
+    "ipa": "/kəˈrəʊʒn/",
+    "pos": "n.",
+    "zh": "腐蚀",
+    "example": "Corrosion ate the pier piles.",
+    "emoji": "🧪",
+    "cefr": "C1"
+   },
+   {
+    "word": "galvanise",
+    "ipa": "/ˈgælvənaɪz/",
+    "pos": "v.",
+    "zh": "镀锌；激励",
+    "example": "Galvanise the beams before winter.",
+    "emoji": "⚡",
+    "cefr": "C2"
+   },
+   {
+    "word": "quench",
+    "ipa": "/kwentʃ/",
+    "pos": "v.",
+    "zh": "淬火；抑制",
+    "example": "Quench the blade in oil, not water.",
+    "emoji": "🛢️",
+    "cefr": "C2"
+   },
+   {
+    "word": "tensile",
+    "ipa": "/ˈtensaɪl/",
+    "pos": "adj.",
+    "zh": "抗张的",
+    "example": "Tensile strength decides the cable size.",
+    "emoji": "💪",
+    "cefr": "C2"
+   },
+   {
+    "word": "anneal",
+    "ipa": "/əˈniːl/",
+    "pos": "v.",
+    "zh": "退火（金属热处理）",
+    "example": "Anneal the glass slowly to avoid cracks.",
+    "emoji": "🌡️",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l9_civ_engineering",
+  "title": "土木工程",
+  "emoji": "🏗️",
+  "words": [
+   {
+    "word": "footing",
+    "ipa": "/ˈfʊtɪŋ/",
+    "pos": "n.",
+    "zh": "基脚；立足处",
+    "example": "Concrete footings cure for a week.",
+    "emoji": "🦶",
+    "cefr": "C2"
+   },
+   {
+    "word": "joist",
+    "ipa": "/dʒɔɪst/",
+    "pos": "n.",
+    "zh": "托梁；搁栅",
+    "example": "Joists carry the upstairs floor.",
+    "emoji": "📏",
+    "cefr": "C2"
+   },
+   {
+    "word": "truss",
+    "ipa": "/trʌs/",
+    "pos": "n.",
+    "zh": "桁架；屋架",
+    "example": "Steel trusses span the hall roof.",
+    "emoji": "🔺",
+    "cefr": "C2"
+   },
+   {
+    "word": "underpinning",
+    "ipa": "/ˈʌndəˌpɪnɪŋ/",
+    "pos": "n.",
+    "zh": "基础加固",
+    "example": "Underpinning saved the leaning wall.",
+    "emoji": "⛓️",
+    "cefr": "C2"
+   },
+   {
+    "word": "scaffolding",
+    "ipa": "/ˈskæfəʊldɪŋ/",
+    "pos": "n.",
+    "zh": "脚手架",
+    "example": "Scaffolding wrapped the tower for a year.",
+    "emoji": "🧱",
+    "cefr": "C1"
+   },
+   {
+    "word": "hoist",
+    "ipa": "/hɔɪst/",
+    "pos": "n./v.",
+    "zh": "起重葫芦；吊起",
+    "example": "The hoist lifts half a tonne.",
+    "emoji": "🪝",
+    "cefr": "C1"
+   },
+   {
+    "word": "flange",
+    "ipa": "/flændʒ/",
+    "pos": "n.",
+    "zh": "法兰；凸缘",
+    "example": "Flanges bolt the pipes together.",
+    "emoji": "⚙️",
+    "cefr": "C2"
+   },
+   {
+    "word": "liquefaction",
+    "ipa": "/ˌlɪkwɪˈfækʃn/",
+    "pos": "n.",
+    "zh": "液化（土壤）",
+    "example": "Liquefaction toppled whole blocks in 2011.",
+    "emoji": "💧",
+    "cefr": "C2"
+   },
+   {
+    "word": "theodolite",
+    "ipa": "/θiˈɒdəlaɪt/",
+    "pos": "n.",
+    "zh": "经纬仪",
+    "example": "The theodolite measures angles to seconds.",
+    "emoji": "📐",
+    "cefr": "C2"
+   },
+   {
+    "word": "schematic",
+    "ipa": "/skɪˈmætɪk/",
+    "pos": "n./adj.",
+    "zh": "原理图；概略的",
+    "example": "The schematic fits on one page.",
+    "emoji": "📄",
+    "cefr": "C2"
+   },
+   {
+    "word": "load-bearing",
+    "ipa": "/ˈləʊd ˌbeərɪŋ/",
+    "pos": "adj.",
+    "zh": "承重的",
+    "example": "Never drill a load-bearing wall.",
+    "emoji": "🏋️",
+    "cefr": "C1"
+   },
+   {
+    "word": "aqueduct",
+    "ipa": "/ˈækwɪdʌkt/",
+    "pos": "n.",
+    "zh": "渡槽；高架水渠",
+    "example": "Roman aqueducts still carry water here.",
+    "emoji": "🌉",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l9_arch_design",
+  "title": "建筑与设计",
+  "emoji": "🏛️",
+  "words": [
+   {
+    "word": "cladding",
+    "ipa": "/ˈklædɪŋ/",
+    "pos": "n.",
+    "zh": "外墙包层",
+    "example": "Timber cladding warmed the concrete box.",
+    "emoji": "🪵",
+    "cefr": "C2"
+   },
+   {
+    "word": "foyer",
+    "ipa": "/ˈfwɑːeɪ/",
+    "pos": "n.",
+    "zh": "门厅；前厅",
+    "example": "The foyer doubles as a gallery.",
+    "emoji": "🚪",
+    "cefr": "C2"
+   },
+   {
+    "word": "cantilever",
+    "ipa": "/ˈkæntɪliːvə/",
+    "pos": "n./v.",
+    "zh": "悬臂",
+    "example": "The cantilever floats above the street.",
+    "emoji": "🪃",
+    "cefr": "C2"
+   },
+   {
+    "word": "mezzanine",
+    "ipa": "/ˈmezəniːn/",
+    "pos": "n.",
+    "zh": "夹层",
+    "example": "The mezzanine overlooks the studio floor.",
+    "emoji": "🪜",
+    "cefr": "C2"
+   },
+   {
+    "word": "restoration",
+    "ipa": "/ˌrestəˈreɪʃn/",
+    "pos": "n.",
+    "zh": "修复",
+    "example": "Restoration revealed medieval wall paint.",
+    "emoji": "🖌️",
+    "cefr": "C1"
+   },
+   {
+    "word": "bulldozer",
+    "ipa": "/ˈbʊldəʊzə/",
+    "pos": "n.",
+    "zh": "推土机",
+    "example": "Bulldozers waited for the permits.",
+    "emoji": "🚜",
+    "cefr": "C1"
+   },
+   {
+    "word": "plinth",
+    "ipa": "/plɪnθ/",
+    "pos": "n.",
+    "zh": "基座",
+    "example": "The statue waits on its plinth.",
+    "emoji": "🗄️",
+    "cefr": "C2"
+   },
+   {
+    "word": "spire",
+    "ipa": "/spaɪə/",
+    "pos": "n.",
+    "zh": "尖顶；塔尖",
+    "example": "The spire leans, famously.",
+    "emoji": "⛪",
+    "cefr": "C2"
+   },
+   {
+    "word": "vaulted",
+    "ipa": "/ˈvɔːltɪd/",
+    "pos": "adj.",
+    "zh": "拱顶的",
+    "example": "Vaulted ceilings cool the hall naturally.",
+    "emoji": "🏛️",
+    "cefr": "C2"
+   },
+   {
+    "word": "mortar",
+    "ipa": "/ˈmɔːtə/",
+    "pos": "n.",
+    "zh": "灰浆；砂浆",
+    "example": "Lime mortar lets old walls breathe.",
+    "emoji": "🪣",
+    "cefr": "C2"
+   },
+   {
+    "word": "aesthetic",
+    "ipa": "/iːsˈθetɪk/",
+    "pos": "adj./n.",
+    "zh": "美学的；美感",
+    "example": "Brutalist aesthetics divide every tour group.",
+    "emoji": "🎨",
+    "cefr": "C1"
+   },
+   {
+    "word": "prefab",
+    "ipa": "/ˈpriːfæb/",
+    "pos": "n./adj.",
+    "zh": "预制组装的；活动房屋",
+    "example": "Prefab classrooms arrived on two lorries.",
+    "emoji": "🏠",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l9_urban_plan",
+  "title": "城市规划",
+  "emoji": "🗺️",
+  "words": [
+   {
+    "word": "masterplan",
+    "ipa": "/ˈmɑːstəplæn/",
+    "pos": "n.",
+    "zh": "总体规划",
+    "example": "The masterplan reserves land for schools.",
+    "emoji": "🗺️",
+    "cefr": "C1"
+   },
+   {
+    "word": "density",
+    "ipa": "/ˈdensəti/",
+    "pos": "n.",
+    "zh": "密度",
+    "example": "Density doubled near the station.",
+    "emoji": "🏢",
+    "cefr": "C1"
+   },
+   {
+    "word": "mixed-use",
+    "ipa": "/ˌmɪkst ˈjuːs/",
+    "pos": "adj.",
+    "zh": "混合用途的",
+    "example": "Mixed-use blocks keep streets alive at night.",
+    "emoji": "🏬",
+    "cefr": "C1"
+   },
+   {
+    "word": "greenbelt",
+    "ipa": "/ˈgriːnbelt/",
+    "pos": "n.",
+    "zh": "绿化带",
+    "example": "The greenbelt stops the sprawl cold.",
+    "emoji": "🌳",
+    "cefr": "C1"
+   },
+   {
+    "word": "walkability",
+    "ipa": "/ˌwɔːkəˈbɪləti/",
+    "pos": "n.",
+    "zh": "步行适宜性",
+    "example": "Walkability scores drive house prices now.",
+    "emoji": "🚶",
+    "cefr": "C2"
+   },
+   {
+    "word": "cable-car",
+    "ipa": "/ˈkeɪbl kɑː/",
+    "pos": "n.",
+    "zh": "缆车",
+    "example": "The cable-car climbs in nine minutes.",
+    "emoji": "🚡",
+    "cefr": "C1"
+   },
+   {
+    "word": "greenfield",
+    "ipa": "/ˈgriːnfiːld/",
+    "pos": "adj./n.",
+    "zh": "（未开发）绿地的",
+    "example": "Greenfield building always tempts councils.",
+    "emoji": "🌱",
+    "cefr": "C2"
+   },
+   {
+    "word": "redevelopment",
+    "ipa": "/ˌriːdɪˈveləpmənt/",
+    "pos": "n.",
+    "zh": "再开发",
+    "example": "Redevelopment stalled over parking.",
+    "emoji": "🚧",
+    "cefr": "C1"
+   },
+   {
+    "word": "livability",
+    "ipa": "/ˌlɪvəˈbɪləti/",
+    "pos": "n.",
+    "zh": "宜居性",
+    "example": "Livability rankings reshape tourism.",
+    "emoji": "🏡",
+    "cefr": "C2"
+   },
+   {
+    "word": "public-realm",
+    "ipa": "/ˈpʌblɪk riːm/",
+    "pos": "n.",
+    "zh": "公共领域（空间）",
+    "example": "Planters narrowed the public-realm debates.",
+    "emoji": "🪴",
+    "cefr": "C2"
+   },
+   {
+    "word": "infill",
+    "ipa": "/ˈɪnfɪl/",
+    "pos": "n.",
+    "zh": "填充式开发；填实",
+    "example": "Infill housing fills the awkward gaps.",
+    "emoji": "🧩",
+    "cefr": "C2"
+   },
+   {
+    "word": "consultation",
+    "ipa": "/ˌkɒnslˈteɪʃn/",
+    "pos": "n.",
+    "zh": "征询意见；磋商",
+    "example": "Public consultation runs until June.",
+    "emoji": "🗣️",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l9_mining",
+  "title": "采矿与钻探",
+  "emoji": "⛏️",
+  "words": [
+   {
+    "word": "dredge",
+    "ipa": "/dredʒ/",
+    "pos": "v./n.",
+    "zh": "挖泥；疏浚",
+    "example": "Dredges deepen the channel yearly.",
+    "emoji": "🚢",
+    "cefr": "C2"
+   },
+   {
+    "word": "shaft",
+    "ipa": "/ʃɑːft/",
+    "pos": "n.",
+    "zh": "矿井；竖井",
+    "example": "The shaft drops four hundred metres.",
+    "emoji": "🕳️",
+    "cefr": "C1"
+   },
+   {
+    "word": "pit",
+    "ipa": "/pɪt/",
+    "pos": "n.",
+    "zh": "矿坑；坑",
+    "example": "The pit swallowed two farms.",
+    "emoji": "🦴",
+    "cefr": "B2"
+   },
+   {
+    "word": "borehole",
+    "ipa": "/ˈbɔːhəʊl/",
+    "pos": "n.",
+    "zh": "钻孔",
+    "example": "The borehole found water at sixty metres.",
+    "emoji": "💧",
+    "cefr": "C2"
+   },
+   {
+    "word": "tailings",
+    "ipa": "/ˈteɪlɪŋz/",
+    "pos": "n.",
+    "zh": "尾矿",
+    "example": "Tailings ponds puzzle engineers.",
+    "emoji": "🌫️",
+    "cefr": "C2"
+   },
+   {
+    "word": "lode",
+    "ipa": "/ləʊd/",
+    "pos": "n.",
+    "zh": "矿脉；矿床",
+    "example": "A rich lode hid under the ferns.",
+    "emoji": "🌿",
+    "cefr": "C2"
+   },
+   {
+    "word": "opencast",
+    "ipa": "/ˈəʊpənkɑːst/",
+    "pos": "adj.",
+    "zh": "露天开采的",
+    "example": "Opencast mining reshaped the valley.",
+    "emoji": "🪨",
+    "cefr": "C2"
+   },
+   {
+    "word": "prospector",
+    "ipa": "/prəˈspektə/",
+    "pos": "n.",
+    "zh": "勘探者",
+    "example": "Prospectors still dream in the hills.",
+    "emoji": "🧭",
+    "cefr": "C2"
+   },
+   {
+    "word": "asphyxiate",
+    "ipa": "/əsˈfɪksieɪt/",
+    "pos": "v.",
+    "zh": "使窒息",
+    "example": "Blackdamp can asphyxiate in minutes.",
+    "emoji": "😵",
+    "cefr": "C2"
+   },
+   {
+    "word": "drilling",
+    "ipa": "/ˈdrɪlɪŋ/",
+    "pos": "n.",
+    "zh": "钻探",
+    "example": "Drilling paused during whale season.",
+    "emoji": "🛢️",
+    "cefr": "C1"
+   },
+   {
+    "word": "ventilation",
+    "ipa": "/ˌventɪˈleɪʃn/",
+    "pos": "n.",
+    "zh": "通风",
+    "example": "Ventilation fans run all night underground.",
+    "emoji": "🌀",
+    "cefr": "C1"
+   },
+   {
+    "word": "collapse",
+    "ipa": "/kəˈlæps/",
+    "pos": "v./n.",
+    "zh": "坍塌；崩溃",
+    "example": "Tunnels collapse without lining.",
+    "emoji": "💥",
+    "cefr": "B2"
+   }
+  ]
+ },
+ {
+  "id": "l9_maritime",
+  "title": "海事与港口",
+  "emoji": "⚓",
+  "words": [
+   {
+    "word": "pontoon",
+    "ipa": "/pɒnˈtuːn/",
+    "pos": "n.",
+    "zh": "浮桥；浮筒码头",
+    "example": "The pontoon rocks with every wake.",
+    "emoji": "🛟",
+    "cefr": "C2"
+   },
+   {
+    "word": "berth",
+    "ipa": "/bɜːθ/",
+    "pos": "n./v.",
+    "zh": "泊位；停泊",
+    "example": "Container ships berth for six hours only.",
+    "emoji": "🛳️",
+    "cefr": "C1"
+   },
+   {
+    "word": "tonnage",
+    "ipa": "/ˈtʌnɪdʒ/",
+    "pos": "n.",
+    "zh": "吨位",
+    "example": "Tonnage dues fund the dredging.",
+    "emoji": "⚖️",
+    "cefr": "C2"
+   },
+   {
+    "word": "derrick",
+    "ipa": "/ˈderɪk/",
+    "pos": "n.",
+    "zh": "井架；吊塔",
+    "example": "The derrick lifts containers four at once.",
+    "emoji": "🏗️",
+    "cefr": "C2"
+   },
+   {
+    "word": "freighter",
+    "ipa": "/ˈfreɪtə/",
+    "pos": "n.",
+    "zh": "货船",
+    "example": "The freighter rides low, fully loaded.",
+    "emoji": "🚢",
+    "cefr": "C2"
+   },
+   {
+    "word": "siren",
+    "ipa": "/ˈsaɪrən/",
+    "pos": "n.",
+    "zh": "汽笛；警报器",
+    "example": "Fog sirens moaned all night.",
+    "emoji": "📢",
+    "cefr": "C2"
+   },
+   {
+    "word": "mooring",
+    "ipa": "/ˈmɔːrɪŋ/",
+    "pos": "n.",
+    "zh": "系泊（处）",
+    "example": "Winter moorings cost half price.",
+    "emoji": "⛓️",
+    "cefr": "C2"
+   },
+   {
+    "word": "skipper",
+    "ipa": "/ˈskɪpə/",
+    "pos": "n.",
+    "zh": "船长；队长",
+    "example": "The skipper reads the tide like prose.",
+    "emoji": "🧑‍✈️",
+    "cefr": "C2"
+   },
+   {
+    "word": "wharf",
+    "ipa": "/wɔːf/",
+    "pos": "n.",
+    "zh": "码头；码头区",
+    "example": "The wharf hosts a fish market at dawn.",
+    "emoji": "🐟",
+    "cefr": "C1"
+   },
+   {
+    "word": "tugboat",
+    "ipa": "/ˈtʌgbəʊt/",
+    "pos": "n.",
+    "zh": "拖船",
+    "example": "Tugboats nudge tankers into place.",
+    "emoji": "🛥️",
+    "cefr": "C2"
+   },
+   {
+    "word": "waterway",
+    "ipa": "/ˈwɔːtəweɪ/",
+    "pos": "n.",
+    "zh": "水路；航道",
+    "example": "Inland waterways move gravel cheaply.",
+    "emoji": "🛶",
+    "cefr": "C1"
+   },
+   {
+    "word": "semaphore",
+    "ipa": "/ˈseməfɔː/",
+    "pos": "n.",
+    "zh": "旗语；信号灯",
+    "example": "Semaphore flags still link the coves.",
+    "emoji": "🚩",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l9_textile",
+  "title": "纺织与服装工业",
+  "emoji": "🧵",
+  "words": [
+   {
+    "word": "weave",
+    "ipa": "/wiːv/",
+    "pos": "v./n.",
+    "zh": "编织；织法",
+    "example": "Looms weave four metres an hour.",
+    "emoji": "🧵",
+    "cefr": "B2"
+   },
+   {
+    "word": "yarn",
+    "ipa": "/jɑːn/",
+    "pos": "n.",
+    "zh": "纱线；故事",
+    "example": "Merino yarn sells by the kilo.",
+    "emoji": "🧶",
+    "cefr": "C1"
+   },
+   {
+    "word": "loom",
+    "ipa": "/luːm/",
+    "pos": "n.",
+    "zh": "织布机",
+    "example": "Power looms ended home weaving.",
+    "emoji": "🏭",
+    "cefr": "C2"
+   },
+   {
+    "word": "spindle",
+    "ipa": "/ˈspɪndl/",
+    "pos": "n.",
+    "zh": "纺锤；轴",
+    "example": "Ten thousand spindles hum in the mill.",
+    "emoji": "🪡",
+    "cefr": "C2"
+   },
+   {
+    "word": "dye",
+    "ipa": "/daɪ/",
+    "pos": "v./n.",
+    "zh": "染色；染料",
+    "example": "Indigo dye stains everything nearby.",
+    "emoji": "🎨",
+    "cefr": "C1"
+   },
+   {
+    "word": "fabric",
+    "ipa": "/ˈfæbrɪk/",
+    "pos": "n.",
+    "zh": "织物；结构",
+    "example": "Technical fabric sheds rain instantly.",
+    "emoji": "🧥",
+    "cefr": "B2"
+   },
+   {
+    "word": "seam",
+    "ipa": "/siːm/",
+    "pos": "n.",
+    "zh": "接缝；矿层",
+    "example": "Flat seams stop chafing.",
+    "emoji": "📏",
+    "cefr": "C1"
+   },
+   {
+    "word": "garment",
+    "ipa": "/ˈgɑːmənt/",
+    "pos": "n.",
+    "zh": "服装（件）",
+    "example": "Garment exports employ two million here.",
+    "emoji": "👕",
+    "cefr": "C1"
+   },
+   {
+    "word": "pattern-cutting",
+    "ipa": "/ˈpɑːtn ˌkʌtɪŋ/",
+    "pos": "n.",
+    "zh": "打版（裁剪制版）",
+    "example": "Pattern-cutting turns sketches into sizes.",
+    "emoji": "✂️",
+    "cefr": "C2"
+   },
+   {
+    "word": "cotton-mill",
+    "ipa": "/ˈkɒtn mɪl/",
+    "pos": "n.",
+    "zh": "棉纺厂",
+    "example": "The cotton-mill chimneys still stand.",
+    "emoji": "🏚️",
+    "cefr": "C2"
+   },
+   {
+    "word": "fast-fashion",
+    "ipa": "/ˌfɑːst ˈfæʃn/",
+    "pos": "n.",
+    "zh": "快时尚",
+    "example": "Fast-fashion waste fills deserts.",
+    "emoji": "🛍️",
+    "cefr": "C1"
+   },
+   {
+    "word": "sewing-machine",
+    "ipa": "/ˈsəʊɪŋ məˌʃiːn/",
+    "pos": "n.",
+    "zh": "缝纫机",
+    "example": "The sewing-machine pedals never stop.",
+    "emoji": "🧷",
+    "cefr": "B2"
+   }
+  ]
+ },
+ {
+  "id": "l9_utilities_energy",
+  "title": "市政设施",
+  "emoji": "🔌",
+  "words": [
+   {
+    "word": "catchment",
+    "ipa": "/ˈkætʃmənt/",
+    "pos": "n.",
+    "zh": "集水区",
+    "example": "The catchment feeds three towns.",
+    "emoji": "🗺️",
+    "cefr": "C2"
+   },
+   {
+    "word": "pipeline",
+    "ipa": "/ˈpaɪplaɪn/",
+    "pos": "n.",
+    "zh": "管道；管线",
+    "example": "Pipelines cross three provinces here.",
+    "emoji": "🛢️",
+    "cefr": "C1"
+   },
+   {
+    "word": "substation",
+    "ipa": "/ˈsʌbsteɪʃn/",
+    "pos": "n.",
+    "zh": "变电站",
+    "example": "The substation hums behind the fence.",
+    "emoji": "⚡",
+    "cefr": "C1"
+   },
+   {
+    "word": "transformer",
+    "ipa": "/trænsˈfɔːmə/",
+    "pos": "n.",
+    "zh": "变压器；变形金刚",
+    "example": "The transformer hums at fifty hertz.",
+    "emoji": "🔁",
+    "cefr": "C1"
+   },
+   {
+    "word": "wastewater",
+    "ipa": "/ˈweɪstwɔːtə/",
+    "pos": "n.",
+    "zh": "废水",
+    "example": "Wastewater plants now harvest heat.",
+    "emoji": "🚰",
+    "cefr": "C1"
+   },
+   {
+    "word": "incinerator",
+    "ipa": "/ɪnˈsɪnəreɪtə/",
+    "pos": "n.",
+    "zh": "焚化炉",
+    "example": "The incinerator heats a swimming pool.",
+    "emoji": "🔥",
+    "cefr": "C2"
+   },
+   {
+    "word": "blackout",
+    "ipa": "/ˈblækaʊt/",
+    "pos": "n.",
+    "zh": "停电；封锁消息",
+    "example": "The blackout lasted nine hours.",
+    "emoji": "🌑",
+    "cefr": "C1"
+   },
+   {
+    "word": "meter",
+    "ipa": "/ˈmiːtə/",
+    "pos": "n.",
+    "zh": "计量表；米",
+    "example": "Smart meters phone home hourly.",
+    "emoji": "🔢",
+    "cefr": "B1"
+   },
+   {
+    "word": "sewage? ",
+    "ipa": "",
+    "pos": "",
+    "zh": "",
+    "example": "",
+    "emoji": "",
+    "cefr": ""
+   },
+   {
+    "word": "dynamo",
+    "ipa": "/ˈdaɪnəməʊ/",
+    "pos": "n.",
+    "zh": "发电机；精力充沛者",
+    "example": "A pedal dynamo lights the shed.",
+    "emoji": "🔋",
+    "cefr": "C2"
+   },
+   {
+    "word": "hydropower",
+    "ipa": "/ˈhaɪdrəʊpaʊə/",
+    "pos": "n.",
+    "zh": "水电",
+    "example": "Hydropower supplies half the region.",
+    "emoji": "🌊",
+    "cefr": "C1"
+   },
+   {
+    "word": "recycling",
+    "ipa": "/ˌriːˈsaɪklɪŋ/",
+    "pos": "n.",
+    "zh": "回收利用",
+    "example": "Recycling rates stalled at forty-four percent.",
+    "emoji": "♻️",
+    "cefr": "B1"
+   }
+  ]
+ }
+]

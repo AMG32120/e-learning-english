@@ -1,0 +1,1152 @@
+[
+ {
+  "id": "l7_philo_knowledge",
+  "title": "认识论",
+  "emoji": "🧠",
+  "words": [
+   {
+    "word": "solipsism",
+    "ipa": "/ˈsɒlɪpsɪzəm/",
+    "pos": "n.",
+    "zh": "唯我论",
+    "example": "Solipsism doubts every mind but your own.",
+    "emoji": "🕳️",
+    "cefr": "C2"
+   },
+   {
+    "word": "credence",
+    "ipa": "/ˈkriːdns/",
+    "pos": "n.",
+    "zh": "可信度；相信",
+    "example": "Later finds lent credence to her theory.",
+    "emoji": "🪙",
+    "cefr": "C2"
+   },
+   {
+    "word": "deduce",
+    "ipa": "/dɪˈdjuːs/",
+    "pos": "v.",
+    "zh": "推演；推断出",
+    "example": "From the footprints, she deduced the thief limped.",
+    "emoji": "🧩",
+    "cefr": "C1"
+   },
+   {
+    "word": "creed",
+    "ipa": "/kriːd/",
+    "pos": "n.",
+    "zh": "信条；教义",
+    "example": "The team creed hangs by the door.",
+    "emoji": "📕",
+    "cefr": "C1"
+   },
+   {
+    "word": "surmise",
+    "ipa": "/səˈmaɪz/",
+    "pos": "v./n.",
+    "zh": "臆测；猜测",
+    "example": "We can only surmise why the colony vanished.",
+    "emoji": "🌫️",
+    "cefr": "C2"
+   },
+   {
+    "word": "gainsay",
+    "ipa": "/ˈgeɪnseɪ/",
+    "pos": "v.",
+    "zh": "否认；反驳",
+    "example": "Few historians gainsay the manuscript date.",
+    "emoji": "🙅",
+    "cefr": "C2"
+   },
+   {
+    "word": "aporia",
+    "ipa": "/əˈpɔːriə/",
+    "pos": "n.",
+    "zh": "两难困境；疑难",
+    "example": "Zeno left a famous aporia about motion.",
+    "emoji": "🌀",
+    "cefr": "C2"
+   },
+   {
+    "word": "plausibility",
+    "ipa": "/ˌplɔːzəˈbɪləti/",
+    "pos": "n.",
+    "zh": "可信度；言之成理",
+    "example": "The alibi lost plausibility under cross-examination.",
+    "emoji": "⚖️",
+    "cefr": "C2"
+   },
+   {
+    "word": "sophistry",
+    "ipa": "/ˈsɒfɪstri/",
+    "pos": "n.",
+    "zh": "诡辩",
+    "example": "The clause hides sophistry behind legalese.",
+    "emoji": "🃏",
+    "cefr": "C2"
+   },
+   {
+    "word": "skepticism",
+    "ipa": "/ˈskeptɪsɪzəm/",
+    "pos": "n.",
+    "zh": "怀疑态度",
+    "example": "Healthy skepticism keeps science honest.",
+    "emoji": "🤨",
+    "cefr": "C1"
+   },
+   {
+    "word": "empiricism",
+    "ipa": "/emˈpɪrɪsɪzəm/",
+    "pos": "n.",
+    "zh": "经验主义",
+    "example": "Empiricism trusts measurement over intuition.",
+    "emoji": "🧪",
+    "cefr": "C2"
+   },
+   {
+    "word": "rationalism",
+    "ipa": "/ˈræʃnəlɪzəm/",
+    "pos": "n.",
+    "zh": "理性主义",
+    "example": "Rationalism holds reason above the senses.",
+    "emoji": "🏛️",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l7_philo_ethics",
+  "title": "伦理学派",
+  "emoji": "🧭",
+  "words": [
+   {
+    "word": "consequentialism",
+    "ipa": "/ˌkɒnsɪˈkwenʃəlɪzəm/",
+    "pos": "n.",
+    "zh": "结果主义",
+    "example": "Consequentialism judges acts by outcomes alone.",
+    "emoji": "🎯",
+    "cefr": "C2"
+   },
+   {
+    "word": "deontology",
+    "ipa": "/ˌdiːɒnˈtɒlədʒi/",
+    "pos": "n.",
+    "zh": "义务论",
+    "example": "Deontology binds us to duties whatever the result.",
+    "emoji": "📜",
+    "cefr": "C2"
+   },
+   {
+    "word": "hedonism",
+    "ipa": "/ˈhiːdənɪzəm/",
+    "pos": "n.",
+    "zh": "享乐主义",
+    "example": "The resort sells hedonism by the poolside.",
+    "emoji": "🍹",
+    "cefr": "C2"
+   },
+   {
+    "word": "asceticism",
+    "ipa": "/əˈsetɪsɪzəm/",
+    "pos": "n.",
+    "zh": "苦行主义",
+    "example": "His asceticism surprised his wine-loving friends.",
+    "emoji": "🧘",
+    "cefr": "C2"
+   },
+   {
+    "word": "absurdism",
+    "ipa": "/əbˈsɜːdɪzəm/",
+    "pos": "n.",
+    "zh": "荒诞主义",
+    "example": "Absurdism laughs at a universe without answers.",
+    "emoji": "🎭",
+    "cefr": "C2"
+   },
+   {
+    "word": "egoism",
+    "ipa": "/ˈiːgəʊɪzəm/",
+    "pos": "n.",
+    "zh": "利己主义",
+    "example": "Ethical egoism still owes strangers honesty.",
+    "emoji": "🪞",
+    "cefr": "C2"
+   },
+   {
+    "word": "candour",
+    "ipa": "/ˈkændə/",
+    "pos": "n.",
+    "zh": "坦诚；直率",
+    "example": "Her candour stung, but it cleared the air.",
+    "emoji": "💬",
+    "cefr": "C2"
+   },
+   {
+    "word": "rectitude",
+    "ipa": "/ˈrektɪtjuːd/",
+    "pos": "n.",
+    "zh": "正直；公正",
+    "example": "The judge showed rectitude and calm.",
+    "emoji": "⚖️",
+    "cefr": "C2"
+   },
+   {
+    "word": "temperance",
+    "ipa": "/ˈtempərəns/",
+    "pos": "n.",
+    "zh": "节制；戒酒",
+    "example": "Temperance societies once filled this hall.",
+    "emoji": "🚱",
+    "cefr": "C2"
+   },
+   {
+    "word": "benevolence",
+    "ipa": "/bəˈnevələns/",
+    "pos": "n.",
+    "zh": "仁慈；善心",
+    "example": "The library was built from pure benevolence.",
+    "emoji": "💗",
+    "cefr": "C2"
+   },
+   {
+    "word": "contrition",
+    "ipa": "/kənˈtrɪʃn/",
+    "pos": "n.",
+    "zh": "悔罪；懊悔",
+    "example": "His letter read less like contrition than excuse.",
+    "emoji": "🙇",
+    "cefr": "C2"
+   },
+   {
+    "word": "probity",
+    "ipa": "/ˈprəʊbəti/",
+    "pos": "n.",
+    "zh": "正直；廉洁",
+    "example": "Auditors prize probity above cleverness.",
+    "emoji": "🛡️",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l7_logic_reasoning",
+  "title": "形式逻辑",
+  "emoji": "➗",
+  "words": [
+   {
+    "word": "contrapositive",
+    "ipa": "/ˌkɒntrəˈpɒzɪtɪv/",
+    "pos": "n.",
+    "zh": "逆否命题",
+    "example": "Flip and negate to get the contrapositive.",
+    "emoji": "🔄",
+    "cefr": "C2"
+   },
+   {
+    "word": "tautology",
+    "ipa": "/tɔːˈtɒlədʒi/",
+    "pos": "n.",
+    "zh": "同义反复；重言式",
+    "example": "Free gift is a marketing tautology.",
+    "emoji": "🔁",
+    "cefr": "C2"
+   },
+   {
+    "word": "entailment",
+    "ipa": "/ɪnˈteɪlmənt/",
+    "pos": "n.",
+    "zh": "蕴含关系",
+    "example": "Killing entails dying, but not the reverse.",
+    "emoji": "⇒",
+    "cefr": "C2"
+   },
+   {
+    "word": "modality",
+    "ipa": "/məʊˈdæləti/",
+    "pos": "n.",
+    "zh": "情态；模态",
+    "example": "Must and may express different modality.",
+    "emoji": "🎚️",
+    "cefr": "C2"
+   },
+   {
+    "word": "quantifier",
+    "ipa": "/ˈkwɒntɪfaɪə/",
+    "pos": "n.",
+    "zh": "量词",
+    "example": "Every and some are basic quantifiers.",
+    "emoji": "🔢",
+    "cefr": "C2"
+   },
+   {
+    "word": "predicate",
+    "ipa": "/ˈpredɪkət/",
+    "pos": "n.",
+    "zh": "谓词；谓语",
+    "example": "The predicate carries the verb and its objects.",
+    "emoji": "🧾",
+    "cefr": "C1"
+   },
+   {
+    "word": "validity",
+    "ipa": "/vəˈlɪdəti/",
+    "pos": "n.",
+    "zh": "有效性",
+    "example": "A valid argument can still have false premises.",
+    "emoji": "✅",
+    "cefr": "C1"
+   },
+   {
+    "word": "soundness",
+    "ipa": "/ˈsaʊndnəs/",
+    "pos": "n.",
+    "zh": "可靠性；健全",
+    "example": "Soundness requires validity plus true premises.",
+    "emoji": "🔔",
+    "cefr": "C2"
+   },
+   {
+    "word": "equivalence",
+    "ipa": "/ɪˈkwɪvələns/",
+    "pos": "n.",
+    "zh": "等价",
+    "example": "The two proofs establish logical equivalence.",
+    "emoji": "🟰",
+    "cefr": "C1"
+   },
+   {
+    "word": "biconditional",
+    "ipa": "/ˌbaɪkənˈdɪʃənl/",
+    "pos": "n.",
+    "zh": "双条件",
+    "example": "If and only if marks a biconditional.",
+    "emoji": "↔️",
+    "cefr": "C2"
+   },
+   {
+    "word": "fallacious",
+    "ipa": "/fəˈleɪʃəs/",
+    "pos": "adj.",
+    "zh": "谬误的",
+    "example": "The advert's logic is frankly fallacious.",
+    "emoji": "🚫",
+    "cefr": "C2"
+   },
+   {
+    "word": "cogency",
+    "ipa": "/ˈkəʊdʒənsi/",
+    "pos": "n.",
+    "zh": "说服力；中肯",
+    "example": "Her memo argued with rare cogency.",
+    "emoji": "📣",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l7_philo_metaphysics",
+  "title": "形而上学",
+  "emoji": "🌌",
+  "words": [
+   {
+    "word": "cosmogony",
+    "ipa": "/kɒzˈmɒgəni/",
+    "pos": "n.",
+    "zh": "宇宙起源论",
+    "example": "Every myth begins with a cosmogony.",
+    "emoji": "🌑",
+    "cefr": "C2"
+   },
+   {
+    "word": "ontology",
+    "ipa": "/ɒnˈtɒlədʒi/",
+    "pos": "n.",
+    "zh": "本体论",
+    "example": "The ontology of numbers still divides philosophers.",
+    "emoji": "🗂️",
+    "cefr": "C2"
+   },
+   {
+    "word": "fatalism",
+    "ipa": "/ˈfeɪtəlɪzəm/",
+    "pos": "n.",
+    "zh": "宿命论",
+    "example": "Fatalism shrugs where responsibility should stand.",
+    "emoji": "🎲",
+    "cefr": "C2"
+   },
+   {
+    "word": "dualism",
+    "ipa": "/ˈdjuːəlɪzəm/",
+    "pos": "n.",
+    "zh": "二元论",
+    "example": "Mind-body dualism shaped early psychology.",
+    "emoji": "🌓",
+    "cefr": "C2"
+   },
+   {
+    "word": "materialism",
+    "ipa": "/məˈtɪəriəlɪzəm/",
+    "pos": "n.",
+    "zh": "唯物主义；物质主义",
+    "example": "Philosophical materialism denies immaterial minds.",
+    "emoji": "🧱",
+    "cefr": "C2"
+   },
+   {
+    "word": "idealism",
+    "ipa": "/aɪˈdiəlɪzəm/",
+    "pos": "n.",
+    "zh": "唯心主义；理想主义",
+    "example": "German idealism dominated the seminar's reading list.",
+    "emoji": "🕊️",
+    "cefr": "C2"
+   },
+   {
+    "word": "essentialism",
+    "ipa": "/ɪˈsenʃəlɪzəm/",
+    "pos": "n.",
+    "zh": "本质主义",
+    "example": "Essentialism assumes fixed natures; biology disagrees.",
+    "emoji": "🧷",
+    "cefr": "C2"
+   },
+   {
+    "word": "phenomenology",
+    "ipa": "/fɪˌnɒmɪˈnɒlədʒi/",
+    "pos": "n.",
+    "zh": "现象学",
+    "example": "Phenomenology studies experience from the inside.",
+    "emoji": "👁️",
+    "cefr": "C2"
+   },
+   {
+    "word": "noumenon",
+    "ipa": "/ˈnuːmɪnɒn/",
+    "pos": "n.",
+    "zh": "本体；物自体",
+    "example": "Kant placed the noumenon beyond experience.",
+    "emoji": "🌫️",
+    "cefr": "C2"
+   },
+   {
+    "word": "temporality",
+    "ipa": "/ˌtempəˈræləti/",
+    "pos": "n.",
+    "zh": "时间性",
+    "example": "Music makes temporality something you can hear.",
+    "emoji": "⏳",
+    "cefr": "C2"
+   },
+   {
+    "word": "finitude",
+    "ipa": "/ˈfaɪnɪtjuːd/",
+    "pos": "n.",
+    "zh": "有限性",
+    "example": "Mortality reminds us of our finitude.",
+    "emoji": "🕯️",
+    "cefr": "C2"
+   },
+   {
+    "word": "immanence",
+    "ipa": "/ˈɪmənəns/",
+    "pos": "n.",
+    "zh": "内在性",
+    "example": "Spinoza located God in the immanence of nature.",
+    "emoji": "🌿",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l7_philo_political",
+  "title": "政治哲学",
+  "emoji": "🗳️",
+  "words": [
+   {
+    "word": "legitimacy",
+    "ipa": "/lɪˈdʒɪtɪməsi/",
+    "pos": "n.",
+    "zh": "合法性；正当性",
+    "example": "Elections alone do not guarantee legitimacy.",
+    "emoji": "🏛️",
+    "cefr": "C1"
+   },
+   {
+    "word": "hegemony",
+    "ipa": "/hɪˈdʒeməni/",
+    "pos": "n.",
+    "zh": "霸权；支配地位",
+    "example": "Cultural hegemony works without armies.",
+    "emoji": "👑",
+    "cefr": "C2"
+   },
+   {
+    "word": "totalitarian",
+    "ipa": "/təʊˌtælɪˈteəriən/",
+    "pos": "adj.",
+    "zh": "极权主义的",
+    "example": "Totalitarian regimes fear even comedians.",
+    "emoji": "🔒",
+    "cefr": "C1"
+   },
+   {
+    "word": "libertarian",
+    "ipa": "/ˌlɪbəˈteəriən/",
+    "pos": "n./adj.",
+    "zh": "自由意志论者",
+    "example": "The libertarian wants minimal state, maximum choice.",
+    "emoji": "🗽",
+    "cefr": "C2"
+   },
+   {
+    "word": "egalitarian",
+    "ipa": "/ɪˌgælɪˈteəriən/",
+    "pos": "adj.",
+    "zh": "平等主义的",
+    "example": "The startup kept an egalitarian pay band.",
+    "emoji": "⚖️",
+    "cefr": "C2"
+   },
+   {
+    "word": "oligarchy",
+    "ipa": "/ˈɒlɪgɑːki/",
+    "pos": "n.",
+    "zh": "寡头政治",
+    "example": "Critics called the city an oligarchy of landlords.",
+    "emoji": "🎭",
+    "cefr": "C2"
+   },
+   {
+    "word": "theocracy",
+    "ipa": "/θiˈɒkrəsi/",
+    "pos": "n.",
+    "zh": "神权政治",
+    "example": "In a theocracy, clergy write the statutes.",
+    "emoji": "⛪",
+    "cefr": "C2"
+   },
+   {
+    "word": "enfranchise",
+    "ipa": "/ɪnˈfræntʃaɪz/",
+    "pos": "v.",
+    "zh": "给予权力；赋予选举权",
+    "example": "The reform enfranchised millions of women.",
+    "emoji": "✋",
+    "cefr": "C2"
+   },
+   {
+    "word": "usurp",
+    "ipa": "/juːˈzɜːp/",
+    "pos": "v.",
+    "zh": "篡夺；僭越",
+    "example": "The general usurped powers the constitution reserved.",
+    "emoji": "🗡️",
+    "cefr": "C2"
+   },
+   {
+    "word": "patriarchy",
+    "ipa": "/ˈpeɪtriɑːki/",
+    "pos": "n.",
+    "zh": "父权制",
+    "example": "The essay traces patriarchy through inheritance law.",
+    "emoji": "👨‍👧",
+    "cefr": "C1"
+   },
+   {
+    "word": "federalism",
+    "ipa": "/ˈfedərəlɪzəm/",
+    "pos": "n.",
+    "zh": "联邦制",
+    "example": "Federalism splits power between centre and states.",
+    "emoji": "🗺️",
+    "cefr": "C1"
+   },
+   {
+    "word": "cosmopolitanism",
+    "ipa": "/ˌkɒzməˈpɒlɪtənɪzəm/",
+    "pos": "n.",
+    "zh": "世界主义",
+    "example": "Cosmopolitanism treats borders as administrative detail.",
+    "emoji": "🌍",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l7_ling_phonetics",
+  "title": "语音学与音系学",
+  "emoji": "🗣️",
+  "words": [
+   {
+    "word": "intonation",
+    "ipa": "/ˌɪntəˈneɪʃn/",
+    "pos": "n.",
+    "zh": "语调",
+    "example": "Rising intonation turns statements into questions.",
+    "emoji": "📈",
+    "cefr": "C1"
+   },
+   {
+    "word": "phonemic",
+    "ipa": "/fəˈniːmɪk/",
+    "pos": "adj.",
+    "zh": "音位的",
+    "example": "A phonemic chart trains listening precision.",
+    "emoji": "🎧",
+    "cefr": "C2"
+   },
+   {
+    "word": "phoneme",
+    "ipa": "/ˈfəʊniːm/",
+    "pos": "n.",
+    "zh": "音位",
+    "example": "Swapping one phoneme turns ship into sheep.",
+    "emoji": "🔤",
+    "cefr": "C1"
+   },
+   {
+    "word": "syllable",
+    "ipa": "/ˈsɪləbl/",
+    "pos": "n.",
+    "zh": "音节",
+    "example": "Banana has three syllables and one stress.",
+    "emoji": "🎵",
+    "cefr": "B2"
+   },
+   {
+    "word": "consonant",
+    "ipa": "/ˈkɒnsənənt/",
+    "pos": "n.",
+    "zh": "辅音",
+    "example": "Final consonant clusters trip many learners.",
+    "emoji": "🧱",
+    "cefr": "B2"
+   },
+   {
+    "word": "diphthong",
+    "ipa": "/ˈdɪfθɒŋ/",
+    "pos": "n.",
+    "zh": "双元音",
+    "example": "The diphthong in coin glides from o to i.",
+    "emoji": "🌉",
+    "cefr": "C2"
+   },
+   {
+    "word": "plosive",
+    "ipa": "/ˈpləʊsɪv/",
+    "pos": "n.",
+    "zh": "爆破音",
+    "example": "P and b are plosives made with a burst of air.",
+    "emoji": "💥",
+    "cefr": "C2"
+   },
+   {
+    "word": "fricative",
+    "ipa": "/ˈfrɪkətɪv/",
+    "pos": "n.",
+    "zh": "摩擦音",
+    "example": "The fricative in ship hisses like air escaping.",
+    "emoji": "🌬️",
+    "cefr": "C2"
+   },
+   {
+    "word": "nasal",
+    "ipa": "/ˈneɪzl/",
+    "pos": "adj./n.",
+    "zh": "鼻音的；鼻音",
+    "example": "A blocked nose turns every nasal nasal.",
+    "emoji": "👃",
+    "cefr": "C1"
+   },
+   {
+    "word": "liaison",
+    "ipa": "/liˈeɪzn/",
+    "pos": "n.",
+    "zh": "连音；（法）联络",
+    "example": "French liaison links words like a bridge.",
+    "emoji": "🪢",
+    "cefr": "C2"
+   },
+   {
+    "word": "elision",
+    "ipa": "/ɪˈlɪʃn/",
+    "pos": "n.",
+    "zh": "省音",
+    "example": "Camra for camera shows casual elision.",
+    "emoji": "✂️",
+    "cefr": "C2"
+   },
+   {
+    "word": "prosody",
+    "ipa": "/ˈprɒsədi/",
+    "pos": "n.",
+    "zh": "韵律；节奏",
+    "example": "Good readers use prosody, not robot speech.",
+    "emoji": "🎼",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l7_ling_syntax",
+  "title": "句法学与形态学",
+  "emoji": "🌳",
+  "words": [
+   {
+    "word": "generative",
+    "ipa": "/ˈdʒenərətɪv/",
+    "pos": "adj.",
+    "zh": "生成的（语法）",
+    "example": "Generative grammar models what speakers can build.",
+    "emoji": "🏗️",
+    "cefr": "C2"
+   },
+   {
+    "word": "derivation",
+    "ipa": "/ˌderɪˈveɪʃn/",
+    "pos": "n.",
+    "zh": "派生；推导",
+    "example": "Derivation adds -ness to make nouns.",
+    "emoji": "🌱",
+    "cefr": "C2"
+   },
+   {
+    "word": "morpheme",
+    "ipa": "/ˈmɔːfiːm/",
+    "pos": "n.",
+    "zh": "词素",
+    "example": "Cats holds two morphemes: cat and plural s.",
+    "emoji": "🧩",
+    "cefr": "C2"
+   },
+   {
+    "word": "affix",
+    "ipa": "/ˈæfɪks/",
+    "pos": "n.",
+    "zh": "词缀",
+    "example": "Attach the affix un- and meaning flips.",
+    "emoji": "🔗",
+    "cefr": "C1"
+   },
+   {
+    "word": "parse",
+    "ipa": "/pɑːz/",
+    "pos": "v.",
+    "zh": "解析；作语法分析",
+    "example": "The parser parses the sentence in milliseconds.",
+    "emoji": "🔎",
+    "cefr": "C2"
+   },
+   {
+    "word": "conjugation",
+    "ipa": "/ˌkɒndʒuˈgeɪʃn/",
+    "pos": "n.",
+    "zh": "动词变位",
+    "example": "French conjugation tables fill the notebook.",
+    "emoji": "📋",
+    "cefr": "C2"
+   },
+   {
+    "word": "lexical",
+    "ipa": "/ˈleksɪkl/",
+    "pos": "adj.",
+    "zh": "词汇的",
+    "example": "Lexical choice signals formality instantly.",
+    "emoji": "🃏",
+    "cefr": "C1"
+   },
+   {
+    "word": "declension",
+    "ipa": "/dɪˈklenʃn/",
+    "pos": "n.",
+    "zh": "词形变化；格变化",
+    "example": "Latin declension keeps learners humble.",
+    "emoji": "🪜",
+    "cefr": "C2"
+   },
+   {
+    "word": "recursion",
+    "ipa": "/rɪˈkɜːʃn/",
+    "pos": "n.",
+    "zh": "递归",
+    "example": "Recursion lets sentences nest inside sentences.",
+    "emoji": "🪆",
+    "cefr": "C2"
+   },
+   {
+    "word": "constituent",
+    "ipa": "/kənˈstɪtjuənt/",
+    "pos": "n.",
+    "zh": "成分；构成部分",
+    "example": "A moved constituent leaves a trace behind.",
+    "emoji": "🧱",
+    "cefr": "C1"
+   },
+   {
+    "word": "concord",
+    "ipa": "/ˈkɒŋkɔːd/",
+    "pos": "n.",
+    "zh": "一致（关系）；和睦",
+    "example": "Number concord fails with collective nouns.",
+    "emoji": "🤝",
+    "cefr": "C2"
+   },
+   {
+    "word": "well-formed",
+    "ipa": "/ˌwel ˈfɔːmd/",
+    "pos": "adj.",
+    "zh": "合语法的",
+    "example": "Colourless green ideas is odd yet well-formed.",
+    "emoji": "✔️",
+    "cefr": "C2"
+   }
+  ]
+ },
+ {
+  "id": "l7_ling_semantics",
+  "title": "语义与语用",
+  "emoji": "💬",
+  "words": [
+   {
+    "word": "semiotics",
+    "ipa": "/ˌsemiˈɒtɪks/",
+    "pos": "n.",
+    "zh": "符号学",
+    "example": "Semiotics reads logos as cultural signals.",
+    "emoji": "🚦",
+    "cefr": "C2"
+   },
+   {
+    "word": "implicature",
+    "ipa": "/ˈɪmplɪkətʃə/",
+    "pos": "n.",
+    "zh": "含义；言外之义",
+    "example": "Some are tall implicates not all: classic implicature.",
+    "emoji": "💡",
+    "cefr": "C2"
+   },
+   {
+    "word": "denotation",
+    "ipa": "/ˌdiːnəʊˈteɪʃn/",
+    "pos": "n.",
+    "zh": "本义；指称",
+    "example": "Snake denotes a reptile; connotations add dread.",
+    "emoji": "🐍",
+    "cefr": "C2"
+   },
+   {
+    "word": "undertone",
+    "ipa": "/ˈʌndətəʊn/",
+    "pos": "n.",
+    "zh": "潜含意味；低音",
+    "example": "The invitation carried an icy undertone.",
+    "emoji": "🫧",
+    "cefr": "C1"
+   },
+   {
+    "word": "polysemy",
+    "ipa": "/pəˈlɪsiːmi/",
+    "pos": "n.",
+    "zh": "一词多义",
+    "example": "Head shows polysemy: body part, leader, beer foam.",
+    "emoji": "🎰",
+    "cefr": "C2"
+   },
+   {
+    "word": "homonym",
+    "ipa": "/ˈhɒmənɪm/",
+    "pos": "n.",
+    "zh": "同形同音异义词",
+    "example": "Bank the riverbank and bank the vault are homonyms.",
+    "emoji": "🏦",
+    "cefr": "C1"
+   },
+   {
+    "word": "metonymy",
+    "ipa": "/məˈtɒnəmi/",
+    "pos": "n.",
+    "zh": "转喻",
+    "example": "The Crown stands for the state: classic metonymy.",
+    "emoji": "👑",
+    "cefr": "C2"
+   },
+   {
+    "word": "oxymoron",
+    "ipa": "/ˌɒksiˈmɔːrɒn/",
+    "pos": "n.",
+    "zh": "矛盾修辞",
+    "example": "Deafening silence is a famous oxymoron.",
+    "emoji": "🙃",
+    "cefr": "C2"
+   },
+   {
+    "word": "euphemism",
+    "ipa": "/ˈjuːfəmɪzəm/",
+    "pos": "n.",
+    "zh": "委婉语",
+    "example": "Downsizing is corporate euphemism for layoffs.",
+    "emoji": "🫥",
+    "cefr": "C1"
+   },
+   {
+    "word": "deixis",
+    "ipa": "/ˈdaɪksɪs/",
+    "pos": "n.",
+    "zh": "指示语",
+    "example": "Here and now shift with the speaker: deixis in action.",
+    "emoji": "👉",
+    "cefr": "C2"
+   },
+   {
+    "word": "referent",
+    "ipa": "/ˈrefərənt/",
+    "pos": "n.",
+    "zh": "所指对象",
+    "example": "The pronoun she needs a clear referent.",
+    "emoji": "🎯",
+    "cefr": "C2"
+   },
+   {
+    "word": "utterance",
+    "ipa": "/ˈʌtərəns/",
+    "pos": "n.",
+    "zh": "话语；言语表达",
+    "example": "One mumbled utterance ended the negotiation.",
+    "emoji": "🗣️",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l7_ling_socio",
+  "title": "社会语言学",
+  "emoji": "🌐",
+  "words": [
+   {
+    "word": "sociolinguistics",
+    "ipa": "/ˌsəʊsiəʊlɪŋˈgwɪstɪks/",
+    "pos": "n.",
+    "zh": "社会语言学",
+    "example": "Sociolinguistics links language to class and identity.",
+    "emoji": "🌐",
+    "cefr": "C2"
+   },
+   {
+    "word": "patois",
+    "ipa": "/ˈpætwɑː/",
+    "pos": "n.",
+    "zh": "方言土语",
+    "example": "Village patois puzzles even nearby towns.",
+    "emoji": "🏞️",
+    "cefr": "C2"
+   },
+   {
+    "word": "sociolect",
+    "ipa": "/ˈsəʊsiəʊlekt/",
+    "pos": "n.",
+    "zh": "社会方言",
+    "example": "Teen sociolect reinvents cool every decade.",
+    "emoji": "🧢",
+    "cefr": "C2"
+   },
+   {
+    "word": "idiolect",
+    "ipa": "/ˈɪdiəʊlekt/",
+    "pos": "n.",
+    "zh": "个人语言风格",
+    "example": "Forensic linguists identify writers by idiolect.",
+    "emoji": "✍️",
+    "cefr": "C2"
+   },
+   {
+    "word": "diglossia",
+    "ipa": "/daɪˈglɒsiə/",
+    "pos": "n.",
+    "zh": "双语双语体现象",
+    "example": "Arabic diglossia separates formal and everyday speech.",
+    "emoji": "🎚️",
+    "cefr": "C2"
+   },
+   {
+    "word": "pidgin",
+    "ipa": "/ˈpɪdʒɪn/",
+    "pos": "n.",
+    "zh": "皮钦语；混杂语",
+    "example": "Trade pidgins stitch grammar from scraps.",
+    "emoji": "🧵",
+    "cefr": "C2"
+   },
+   {
+    "word": "creole",
+    "ipa": "/ˈkriːəʊl/",
+    "pos": "n.",
+    "zh": "克里奥尔语",
+    "example": "A creole arises when children native-ize a pidgin.",
+    "emoji": "🌺",
+    "cefr": "C2"
+   },
+   {
+    "word": "loanword",
+    "ipa": "/ˈləʊnwɜːd/",
+    "pos": "n.",
+    "zh": "外来词",
+    "example": "Coffee travelled the world as a loanword.",
+    "emoji": "☕",
+    "cefr": "C2"
+   },
+   {
+    "word": "calque",
+    "ipa": "/kælk/",
+    "pos": "n.",
+    "zh": "仿译词",
+    "example": "Flea market is a calque from French marche aux puces.",
+    "emoji": "🦟",
+    "cefr": "C2"
+   },
+   {
+    "word": "colloquial",
+    "ipa": "/kəˈləʊkwiəl/",
+    "pos": "adj.",
+    "zh": "口语的；通俗的",
+    "example": "Colloquial English bends grammar happily.",
+    "emoji": "💬",
+    "cefr": "C1"
+   },
+   {
+    "word": "prestige",
+    "ipa": "/preˈstiːʒ/",
+    "pos": "n.",
+    "zh": "威望；声望",
+    "example": "The capital accent carries unearned prestige.",
+    "emoji": "💎",
+    "cefr": "C1"
+   },
+   {
+    "word": "multilingual",
+    "ipa": "/ˌmʌltiˈlɪŋgwəl/",
+    "pos": "adj.",
+    "zh": "多语的",
+    "example": "The multilingual workforce switches codes mid-meeting.",
+    "emoji": "🈯",
+    "cefr": "C1"
+   }
+  ]
+ },
+ {
+  "id": "l7_ling_change",
+  "title": "语言演变与文字",
+  "emoji": "📜",
+  "words": [
+   {
+    "word": "lexicology",
+    "ipa": "/ˌleksɪˈkɒlədʒi/",
+    "pos": "n.",
+    "zh": "词汇学",
+    "example": "Lexicology studies how words live and die.",
+    "emoji": "🌿",
+    "cefr": "C2"
+   },
+   {
+    "word": "cognate",
+    "ipa": "/ˈkɒgneɪt/",
+    "pos": "n./adj.",
+    "zh": "同源词",
+    "example": "Night and Nacht are obvious cognates.",
+    "emoji": "👨‍👩‍👧",
+    "cefr": "C2"
+   },
+   {
+    "word": "lexicography",
+    "ipa": "/ˌleksɪˈkɒgrəfi/",
+    "pos": "n.",
+    "zh": "词典编纂学",
+    "example": "Lexicography turned his word hobby into a career.",
+    "emoji": "📖",
+    "cefr": "C2"
+   },
+   {
+    "word": "palaeography",
+    "ipa": "/ˌpæliˈɒgrəfi/",
+    "pos": "n.",
+    "zh": "古文字学",
+    "example": "Palaeography deciphers medieval handwriting.",
+    "emoji": "🖋️",
+    "cefr": "C2"
+   },
+   {
+    "word": "philology",
+    "ipa": "/fɪˈlɒlədʒi/",
+    "pos": "n.",
+    "zh": "语文学",
+    "example": "Nineteenth-century philology rebuilt the family tree of languages.",
+    "emoji": "🌳",
+    "cefr": "C2"
+   },
+   {
+    "word": "neologism",
+    "ipa": "/niˈɒlədʒɪzəm/",
+    "pos": "n.",
+    "zh": "新词",
+    "example": "Selfie was a neologism; now it's universal.",
+    "emoji": "🆕",
+    "cefr": "C2"
+   },
+   {
+    "word": "archaism",
+    "ipa": "/ˈɑːkiɪzəm/",
+    "pos": "n.",
+    "zh": "古语；拟古用词",
+    "example": "Thou and thee survive as legal archaism.",
+    "emoji": "🏺",
+    "cefr": "C2"
+   },
+   {
+    "word": "grapheme",
+    "ipa": "/ˈgræfiːm/",
+    "pos": "n.",
+    "zh": "字素",
+    "example": "Ph maps to one sound: a split grapheme.",
+    "emoji": "✉️",
+    "cefr": "C2"
+   },
+   {
+    "word": "transliteration",
+    "ipa": "/ˌtrænzˌlɪtəˈreɪʃn/",
+    "pos": "n.",
+    "zh": "音译",
+    "example": "Tsar reached English by transliteration from Russian.",
+    "emoji": "🔄",
+    "cefr": "C2"
+   },
+   {
+    "word": "romanisation",
+    "ipa": "/ˌrəʊmənaɪˈzeɪʃn/",
+    "pos": "n.",
+    "zh": "罗马字转写",
+    "example": "Pinyin is the standard romanisation of Mandarin.",
+    "emoji": "🅰️",
+    "cefr": "C2"
+   },
+   {
+    "word": "digraph",
+    "ipa": "/ˈdaɪgrɑːf/",
+    "pos": "n.",
+    "zh": "双字母组合",
+    "example": "In ship, sh is a single-sound digraph.",
+    "emoji": "🚢",
+    "cefr": "C2"
+   },
+   {
+    "word": "bilingualism",
+    "ipa": "/ˌbaɪˈlɪŋgwəlɪzəm/",
+    "pos": "n.",
+    "zh": "双语现象",
+    "example": "Bilingualism delays nothing and enriches much.",
+    "emoji": "🫱‍🫲",
+    "cefr": "C1"
+   }
+  ]
+ }
+]
