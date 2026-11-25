@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node scripts/prune-dist.cjs",
     "preview": "vite preview",
     "test": "esbuild tests/smoke.entry.js --bundle --platform=node --format=cjs --outfile=tests/smoke.bundle.cjs --log-level=error && node tests/smoke.bundle.cjs",
     "test:e2e": "node tests/e2e.cjs",

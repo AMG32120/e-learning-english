@@ -79,6 +79,18 @@ export default defineConfig({
               cacheName: 'word-data',
               expiration: { maxEntries: 40, maxAgeSeconds: 60 * 60 * 24 * 30 }
             }
+          },
+          {
+            /* ONNX 运行时 wasm/胶水 mjs：transformers.js 默认从
+               jsdelivr CDN 加载（dist 内不打包该文件，见
+               scripts/prune-dist.cjs）。CacheFirst 保证首次联网加载后
+               离线可用（Kokoro / Whisper 依赖）。 */
+            urlPattern: /^https:\/\/cdn\.jsdelivr\.net\//,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'ort-runtime',
+              expiration: { maxEntries: 10, maxAgeSeconds: 60 * 60 * 24 * 90 }
+            }
           }
         ]
       }
