@@ -64,7 +64,8 @@ export default [
     files: ['scripts/**'],
     languageOptions: {
       globals: {
-        Buffer: 'readonly'
+        Buffer: 'readonly',
+        __dirname: 'readonly'
       }
     }
   },
