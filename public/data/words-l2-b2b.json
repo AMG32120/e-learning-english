@@ -1,142 +1,1651 @@
 {
   "insects": [
-    { "word": "bee", "ipa": "/biː/", "pos": "n.", "zh": "蜜蜂", "example": "A bee is on the flower.", "emoji": "🐝", "cefr": "A1" },
-    { "word": "ant", "ipa": "/ænt/", "pos": "n.", "zh": "蚂蚁", "example": "The ant carries a piece of bread.", "emoji": "🐜", "cefr": "A1" },
-    { "word": "butterfly", "ipa": "/ˈbʌtəflaɪ/", "pos": "n.", "zh": "蝴蝶", "example": "The butterfly is yellow.", "emoji": "🦋", "cefr": "A1" },
-    { "word": "mosquito", "ipa": "/məˈskiːtəʊ/", "pos": "n.", "zh": "蚊子", "example": "A mosquito bit my arm.", "emoji": "🦟", "cefr": "A2" },
-    { "word": "spider", "ipa": "/ˈspaɪdə(r)/", "pos": "n.", "zh": "蜘蛛", "example": "The spider makes a web.", "emoji": "🕷️", "cefr": "A2" },
-    { "word": "ladybug", "ipa": "/ˈleɪdibʌɡ/", "pos": "n.", "zh": "瓢虫", "example": "A ladybug landed on my hand.", "emoji": "🐞", "cefr": "A2" },
-    { "word": "dragonfly", "ipa": "/ˈdræɡənflaɪ/", "pos": "n.", "zh": "蜻蜓", "example": "The dragonfly flies over the water.", "emoji": "🪰", "cefr": "A2" },
-    { "word": "worm", "ipa": "/wɜːm/", "pos": "n.", "zh": "虫子；蚯蚓", "example": "The bird eats a worm.", "emoji": "🪱", "cefr": "A2" },
-    { "word": "snail", "ipa": "/sneɪl/", "pos": "n.", "zh": "蜗牛", "example": "The snail moves very slowly.", "emoji": "🐌", "cefr": "A2" },
-    { "word": "beetle", "ipa": "/ˈbiːtl/", "pos": "n.", "zh": "甲虫", "example": "A black beetle is under the stone.", "emoji": "🪲", "cefr": "A2" },
-    { "word": "cricket", "ipa": "/ˈkrɪkɪt/", "pos": "n.", "zh": "蟋蟀", "example": "A cricket sings at night.", "emoji": "🦗", "cefr": "A2" },
-    { "word": "cockroach", "ipa": "/ˈkɒkrəʊtʃ/", "pos": "n.", "zh": "蟑螂", "example": "There is a cockroach in the kitchen.", "emoji": "🪳", "cefr": "A2" }
+    {
+      "word": "bee",
+      "ipa": "/biː/",
+      "pos": "n.",
+      "zh": "蜜蜂",
+      "example": "A bee is on the flower.",
+      "emoji": "🐝",
+      "cefr": "A1"
+    },
+    {
+      "word": "ant",
+      "ipa": "/ænt/",
+      "pos": "n.",
+      "zh": "蚂蚁",
+      "example": "The ant carries a piece of bread.",
+      "emoji": "🐜",
+      "cefr": "A1"
+    },
+    {
+      "word": "butterfly",
+      "ipa": "/ˈbʌtəflaɪ/",
+      "pos": "n.",
+      "zh": "蝴蝶",
+      "example": "The butterfly is yellow.",
+      "emoji": "🦋",
+      "cefr": "A1"
+    },
+    {
+      "word": "mosquito",
+      "ipa": "/məˈskiːtəʊ/",
+      "pos": "n.",
+      "zh": "蚊子",
+      "example": "A mosquito bit my arm.",
+      "emoji": "🦟",
+      "cefr": "A2"
+    },
+    {
+      "word": "spider",
+      "ipa": "/ˈspaɪdə(r)/",
+      "pos": "n.",
+      "zh": "蜘蛛",
+      "example": "The spider makes a web.",
+      "emoji": "🕷️",
+      "cefr": "A2"
+    },
+    {
+      "word": "ladybug",
+      "ipa": "/ˈleɪdibʌɡ/",
+      "pos": "n.",
+      "zh": "瓢虫",
+      "example": "A ladybug landed on my hand.",
+      "emoji": "🐞",
+      "cefr": "A2"
+    },
+    {
+      "word": "dragonfly",
+      "ipa": "/ˈdræɡənflaɪ/",
+      "pos": "n.",
+      "zh": "蜻蜓",
+      "example": "The dragonfly flies over the water.",
+      "emoji": "🪰",
+      "cefr": "A2"
+    },
+    {
+      "word": "worm",
+      "ipa": "/wɜːm/",
+      "pos": "n.",
+      "zh": "虫子；蚯蚓",
+      "example": "The bird eats a worm.",
+      "emoji": "🪱",
+      "cefr": "A2"
+    },
+    {
+      "word": "snail",
+      "ipa": "/sneɪl/",
+      "pos": "n.",
+      "zh": "蜗牛",
+      "example": "The snail moves very slowly.",
+      "emoji": "🐌",
+      "cefr": "A2"
+    },
+    {
+      "word": "beetle",
+      "ipa": "/ˈbiːtl/",
+      "pos": "n.",
+      "zh": "甲虫",
+      "example": "A black beetle is under the stone.",
+      "emoji": "🪲",
+      "cefr": "A2"
+    },
+    {
+      "word": "cricket",
+      "ipa": "/ˈkrɪkɪt/",
+      "pos": "n.",
+      "zh": "蟋蟀",
+      "example": "A cricket sings at night.",
+      "emoji": "🦗",
+      "cefr": "A2"
+    },
+    {
+      "word": "cockroach",
+      "ipa": "/ˈkɒkrəʊtʃ/",
+      "pos": "n.",
+      "zh": "蟑螂",
+      "example": "There is a cockroach in the kitchen.",
+      "emoji": "🪳",
+      "cefr": "A2"
+    },
+    {
+      "word": "centipede",
+      "ipa": "/ˈsentɪpiːd/",
+      "pos": "n",
+      "zh": "蜈蚣",
+      "example": "A centipede has many legs.",
+      "emoji": "🐛",
+      "cefr": "A2"
+    },
+    {
+      "word": "firefly",
+      "ipa": "/ˈfaɪəflaɪ/",
+      "pos": "n",
+      "zh": "萤火虫",
+      "example": "Fireflies glow at night.",
+      "emoji": "✨",
+      "cefr": "A2"
+    },
+    {
+      "word": "moth",
+      "ipa": "/mɒθ/",
+      "pos": "n.",
+      "zh": "飞蛾",
+      "example": "A moth flew into the light.",
+      "emoji": "🦋",
+      "cefr": "A2"
+    },
+    {
+      "word": "caterpillar",
+      "ipa": "/ˈkætəpɪlə(r)/",
+      "pos": "n.",
+      "zh": "毛毛虫",
+      "example": "The caterpillar turned into a butterfly.",
+      "emoji": "🐛",
+      "cefr": "A2"
+    }
   ],
   "plants": [
-    { "word": "flower", "ipa": "/ˈflaʊə(r)/", "pos": "n.", "zh": "花", "example": "This flower smells wonderful.", "emoji": "🌸", "cefr": "A1" },
-    { "word": "rose", "ipa": "/rəʊz/", "pos": "n.", "zh": "玫瑰", "example": "He gave her a red rose.", "emoji": "🌹", "cefr": "A1" },
-    { "word": "tulip", "ipa": "/ˈtjuːlɪp/", "pos": "n.", "zh": "郁金香", "example": "Tulips open in spring.", "emoji": "🌷", "cefr": "A2" },
-    { "word": "sunflower", "ipa": "/ˈsʌnflaʊə(r)/", "pos": "n.", "zh": "向日葵", "example": "The sunflower is taller than me.", "emoji": "🌻", "cefr": "A2" },
-    { "word": "grass", "ipa": "/ɡrɑːs/", "pos": "n.", "zh": "草", "example": "The children sit on the grass.", "emoji": "🌱", "cefr": "A1" },
-    { "word": "leaf", "ipa": "/liːf/", "pos": "n.", "zh": "叶子", "example": "A green leaf fell from the tree.", "emoji": "🍃", "cefr": "A1" },
-    { "word": "daisy", "ipa": "/ˈdeɪzi/", "pos": "n.", "zh": "雏菊", "example": "She picked a white daisy.", "emoji": "🌼", "cefr": "A2" },
-    { "word": "lotus", "ipa": "/ˈləʊtəs/", "pos": "n.", "zh": "荷花", "example": "The lotus grows in the pond.", "emoji": "🪷", "cefr": "A2" },
-    { "word": "cactus", "ipa": "/ˈkæktəs/", "pos": "n.", "zh": "仙人掌", "example": "A cactus needs little water.", "emoji": "🌵", "cefr": "A2" },
-    { "word": "garden", "ipa": "/ˈɡɑːdn/", "pos": "n.", "zh": "花园", "example": "Our garden is full of flowers.", "emoji": "🪴", "cefr": "A1" },
-    { "word": "herb", "ipa": "/hɜːb/", "pos": "n.", "zh": "香草", "example": "She adds herbs to the soup.", "emoji": "🍀", "cefr": "A2" },
-    { "word": "seed", "ipa": "/siːd/", "pos": "n.", "zh": "种子", "example": "Plant the seed in the soil.", "emoji": "🌰", "cefr": "A2" }
+    {
+      "word": "flower",
+      "ipa": "/ˈflaʊə(r)/",
+      "pos": "n.",
+      "zh": "花",
+      "example": "This flower smells wonderful.",
+      "emoji": "🌸",
+      "cefr": "A1"
+    },
+    {
+      "word": "rose",
+      "ipa": "/rəʊz/",
+      "pos": "n.",
+      "zh": "玫瑰",
+      "example": "He gave her a red rose.",
+      "emoji": "🌹",
+      "cefr": "A1"
+    },
+    {
+      "word": "tulip",
+      "ipa": "/ˈtjuːlɪp/",
+      "pos": "n.",
+      "zh": "郁金香",
+      "example": "Tulips open in spring.",
+      "emoji": "🌷",
+      "cefr": "A2"
+    },
+    {
+      "word": "sunflower",
+      "ipa": "/ˈsʌnflaʊə(r)/",
+      "pos": "n.",
+      "zh": "向日葵",
+      "example": "The sunflower is taller than me.",
+      "emoji": "🌻",
+      "cefr": "A2"
+    },
+    {
+      "word": "grass",
+      "ipa": "/ɡrɑːs/",
+      "pos": "n.",
+      "zh": "草",
+      "example": "The children sit on the grass.",
+      "emoji": "🌱",
+      "cefr": "A1"
+    },
+    {
+      "word": "leaf",
+      "ipa": "/liːf/",
+      "pos": "n.",
+      "zh": "叶子",
+      "example": "A green leaf fell from the tree.",
+      "emoji": "🍃",
+      "cefr": "A1"
+    },
+    {
+      "word": "daisy",
+      "ipa": "/ˈdeɪzi/",
+      "pos": "n.",
+      "zh": "雏菊",
+      "example": "She picked a white daisy.",
+      "emoji": "🌼",
+      "cefr": "A2"
+    },
+    {
+      "word": "lotus",
+      "ipa": "/ˈləʊtəs/",
+      "pos": "n.",
+      "zh": "荷花",
+      "example": "The lotus grows in the pond.",
+      "emoji": "🪷",
+      "cefr": "A2"
+    },
+    {
+      "word": "cactus",
+      "ipa": "/ˈkæktəs/",
+      "pos": "n.",
+      "zh": "仙人掌",
+      "example": "A cactus needs little water.",
+      "emoji": "🌵",
+      "cefr": "A2"
+    },
+    {
+      "word": "garden",
+      "ipa": "/ˈɡɑːdn/",
+      "pos": "n.",
+      "zh": "花园",
+      "example": "Our garden is full of flowers.",
+      "emoji": "🪴",
+      "cefr": "A1"
+    },
+    {
+      "word": "herb",
+      "ipa": "/hɜːb/",
+      "pos": "n.",
+      "zh": "香草",
+      "example": "She adds herbs to the soup.",
+      "emoji": "🍀",
+      "cefr": "A2"
+    },
+    {
+      "word": "seed",
+      "ipa": "/siːd/",
+      "pos": "n.",
+      "zh": "种子",
+      "example": "Plant the seed in the soil.",
+      "emoji": "🌰",
+      "cefr": "A2"
+    },
+    {
+      "word": "fern",
+      "ipa": "/fɜːn/",
+      "pos": "n",
+      "zh": "蕨类植物",
+      "example": "A fern grows in the shade.",
+      "emoji": "🌿",
+      "cefr": "A2"
+    },
+    {
+      "word": "sprout",
+      "ipa": "/spraʊt/",
+      "pos": "n",
+      "zh": "幼苗",
+      "example": "A sprout comes out of the seed.",
+      "emoji": "🌱",
+      "cefr": "A2"
+    },
+    {
+      "word": "ivy",
+      "ipa": "/ˈaɪvi/",
+      "pos": "n.",
+      "zh": "常春藤",
+      "example": "Ivy climbs up the old wall.",
+      "emoji": "🌿",
+      "cefr": "A2"
+    },
+    {
+      "word": "lily",
+      "ipa": "/ˈlɪli/",
+      "pos": "n.",
+      "zh": "百合",
+      "example": "She put lilies in the vase.",
+      "emoji": "⚜️",
+      "cefr": "A2"
+    },
+    {
+      "word": "stem",
+      "ipa": "/stem/",
+      "pos": "n.",
+      "zh": "茎",
+      "example": "The rose stem has thorns.",
+      "emoji": "🌹",
+      "cefr": "B1"
+    },
+    {
+      "word": "dandelion",
+      "ipa": "/ˈdændɪlaɪən/",
+      "pos": "n.",
+      "zh": "蒲公英",
+      "example": "The dandelion seeds blew away in the wind.",
+      "emoji": "🌼",
+      "cefr": "A2"
+    }
   ],
   "trees": [
-    { "word": "tree", "ipa": "/triː/", "pos": "n.", "zh": "树", "example": "A big tree stands in the yard.", "emoji": "🌳", "cefr": "A1" },
-    { "word": "pine", "ipa": "/paɪn/", "pos": "n.", "zh": "松树", "example": "The pine stays green all year.", "emoji": "🌲", "cefr": "A2" },
-    { "word": "palm", "ipa": "/pɑːm/", "pos": "n.", "zh": "棕榈", "example": "Palm trees grow by the sea.", "emoji": "🌴", "cefr": "A2" },
-    { "word": "branch", "ipa": "/brɑːntʃ/", "pos": "n.", "zh": "树枝", "example": "A bird sits on the branch.", "emoji": "🌿", "cefr": "A2" },
-    { "word": "forest", "ipa": "/ˈfɒrɪst/", "pos": "n.", "zh": "森林", "example": "The forest is dark and quiet.", "emoji": "🏞️", "cefr": "A2" },
-    { "word": "log", "ipa": "/lɒɡ/", "pos": "n.", "zh": "原木", "example": "He put a log on the fire.", "emoji": "🪵", "cefr": "A2" },
-    { "word": "maple", "ipa": "/ˈmeɪpl/", "pos": "n.", "zh": "枫树", "example": "The maple leaves turn red.", "emoji": "🍁", "cefr": "A2" },
-    { "word": "bamboo", "ipa": "/bæmˈbuː/", "pos": "n.", "zh": "竹子", "example": "Pandas eat bamboo.", "emoji": "🎋", "cefr": "A2" },
-    { "word": "trunk", "ipa": "/trʌŋk/", "pos": "n.", "zh": "树干", "example": "The trunk is very thick.", "emoji": "🪑", "cefr": "A2" },
-    { "word": "root", "ipa": "/ruːt/", "pos": "n.", "zh": "根", "example": "The roots go deep into the soil.", "emoji": "🌱", "cefr": "A2" },
-    { "word": "moss", "ipa": "/mɒs/", "pos": "n.", "zh": "苔藓", "example": "Green moss covers the stone.", "emoji": "🍃", "cefr": "A2" },
-    { "word": "jungle", "ipa": "/ˈdʒʌŋɡl/", "pos": "n.", "zh": "丛林", "example": "Many animals live in the jungle.", "emoji": "🏝️", "cefr": "A2" }
+    {
+      "word": "tree",
+      "ipa": "/triː/",
+      "pos": "n.",
+      "zh": "树",
+      "example": "A big tree stands in the yard.",
+      "emoji": "🌳",
+      "cefr": "A1"
+    },
+    {
+      "word": "pine",
+      "ipa": "/paɪn/",
+      "pos": "n.",
+      "zh": "松树",
+      "example": "The pine stays green all year.",
+      "emoji": "🌲",
+      "cefr": "A2"
+    },
+    {
+      "word": "palm",
+      "ipa": "/pɑːm/",
+      "pos": "n.",
+      "zh": "棕榈",
+      "example": "Palm trees grow by the sea.",
+      "emoji": "🌴",
+      "cefr": "A2"
+    },
+    {
+      "word": "branch",
+      "ipa": "/brɑːntʃ/",
+      "pos": "n.",
+      "zh": "树枝",
+      "example": "A bird sits on the branch.",
+      "emoji": "🌿",
+      "cefr": "A2"
+    },
+    {
+      "word": "forest",
+      "ipa": "/ˈfɒrɪst/",
+      "pos": "n.",
+      "zh": "森林",
+      "example": "The forest is dark and quiet.",
+      "emoji": "🏞️",
+      "cefr": "A2"
+    },
+    {
+      "word": "log",
+      "ipa": "/lɒɡ/",
+      "pos": "n.",
+      "zh": "原木",
+      "example": "He put a log on the fire.",
+      "emoji": "🪵",
+      "cefr": "A2"
+    },
+    {
+      "word": "maple",
+      "ipa": "/ˈmeɪpl/",
+      "pos": "n.",
+      "zh": "枫树",
+      "example": "The maple leaves turn red.",
+      "emoji": "🍁",
+      "cefr": "A2"
+    },
+    {
+      "word": "bamboo",
+      "ipa": "/bæmˈbuː/",
+      "pos": "n.",
+      "zh": "竹子",
+      "example": "Pandas eat bamboo.",
+      "emoji": "🎋",
+      "cefr": "A2"
+    },
+    {
+      "word": "trunk",
+      "ipa": "/trʌŋk/",
+      "pos": "n.",
+      "zh": "树干",
+      "example": "The trunk is very thick.",
+      "emoji": "🪑",
+      "cefr": "A2"
+    },
+    {
+      "word": "root",
+      "ipa": "/ruːt/",
+      "pos": "n.",
+      "zh": "根",
+      "example": "The roots go deep into the soil.",
+      "emoji": "🌱",
+      "cefr": "A2"
+    },
+    {
+      "word": "moss",
+      "ipa": "/mɒs/",
+      "pos": "n.",
+      "zh": "苔藓",
+      "example": "Green moss covers the stone.",
+      "emoji": "🍃",
+      "cefr": "A2"
+    },
+    {
+      "word": "jungle",
+      "ipa": "/ˈdʒʌŋɡl/",
+      "pos": "n.",
+      "zh": "丛林",
+      "example": "Many animals live in the jungle.",
+      "emoji": "🏝️",
+      "cefr": "A2"
+    },
+    {
+      "word": "willow",
+      "ipa": "/ˈwɪləʊ/",
+      "pos": "n",
+      "zh": "柳树",
+      "example": "A willow stands by the river.",
+      "emoji": "🌳",
+      "cefr": "A2"
+    },
+    {
+      "word": "oak",
+      "ipa": "/əʊk/",
+      "pos": "n",
+      "zh": "橡树",
+      "example": "The oak tree is very tall.",
+      "emoji": "🌳",
+      "cefr": "A2"
+    },
+    {
+      "word": "birch",
+      "ipa": "/bɜːtʃ/",
+      "pos": "n.",
+      "zh": "白桦树",
+      "example": "Birch trees turn golden in autumn.",
+      "emoji": "🌳",
+      "cefr": "A2"
+    },
+    {
+      "word": "spruce",
+      "ipa": "/spruːs/",
+      "pos": "n.",
+      "zh": "云杉",
+      "example": "The spruce is a common Christmas tree.",
+      "emoji": "🌲",
+      "cefr": "A2"
+    },
+    {
+      "word": "beech",
+      "ipa": "/biːtʃ/",
+      "pos": "n.",
+      "zh": "山毛榉",
+      "example": "The beech has smooth grey bark.",
+      "emoji": "🌳",
+      "cefr": "A2"
+    }
   ],
   "space": [
-    { "word": "sun", "ipa": "/sʌn/", "pos": "n.", "zh": "太阳", "example": "The sun rises in the east.", "emoji": "☀️", "cefr": "A1" },
-    { "word": "moon", "ipa": "/muːn/", "pos": "n.", "zh": "月亮", "example": "The moon is bright tonight.", "emoji": "🌙", "cefr": "A1" },
-    { "word": "star", "ipa": "/stɑː(r)/", "pos": "n.", "zh": "星星", "example": "I can see many stars.", "emoji": "⭐", "cefr": "A1" },
-    { "word": "planet", "ipa": "/ˈplænɪt/", "pos": "n.", "zh": "行星", "example": "Mars is a red planet.", "emoji": "🪐", "cefr": "A2" },
-    { "word": "earth", "ipa": "/ɜːθ/", "pos": "n.", "zh": "地球", "example": "The earth goes around the sun.", "emoji": "🌍", "cefr": "A2" },
-    { "word": "rocket", "ipa": "/ˈrɒkɪt/", "pos": "n.", "zh": "火箭", "example": "The rocket flew into space.", "emoji": "🚀", "cefr": "A2" },
-    { "word": "astronaut", "ipa": "/ˈæstrənɔːt/", "pos": "n.", "zh": "宇航员", "example": "The astronaut walked on the moon.", "emoji": "🧑‍🚀", "cefr": "A2" },
-    { "word": "space", "ipa": "/speɪs/", "pos": "n.", "zh": "太空", "example": "There is no air in space.", "emoji": "🌌", "cefr": "A2" },
-    { "word": "telescope", "ipa": "/ˈtelɪskəʊp/", "pos": "n.", "zh": "望远镜", "example": "We watch the stars with a telescope.", "emoji": "🔭", "cefr": "A2" },
-    { "word": "comet", "ipa": "/ˈkɒmɪt/", "pos": "n.", "zh": "彗星", "example": "The comet appears every ten years.", "emoji": "☄️", "cefr": "A2" },
-    { "word": "galaxy", "ipa": "/ˈɡæləksi/", "pos": "n.", "zh": "星系", "example": "Our galaxy has many stars.", "emoji": "🌠", "cefr": "B1" },
-    { "word": "satellite", "ipa": "/ˈsætəlaɪt/", "pos": "n.", "zh": "卫星", "example": "The satellite sends us pictures.", "emoji": "📡", "cefr": "B1" }
+    {
+      "word": "sun",
+      "ipa": "/sʌn/",
+      "pos": "n.",
+      "zh": "太阳",
+      "example": "The sun rises in the east.",
+      "emoji": "☀️",
+      "cefr": "A1"
+    },
+    {
+      "word": "moon",
+      "ipa": "/muːn/",
+      "pos": "n.",
+      "zh": "月亮",
+      "example": "The moon is bright tonight.",
+      "emoji": "🌙",
+      "cefr": "A1"
+    },
+    {
+      "word": "star",
+      "ipa": "/stɑː(r)/",
+      "pos": "n.",
+      "zh": "星星",
+      "example": "I can see many stars.",
+      "emoji": "⭐",
+      "cefr": "A1"
+    },
+    {
+      "word": "planet",
+      "ipa": "/ˈplænɪt/",
+      "pos": "n.",
+      "zh": "行星",
+      "example": "Mars is a red planet.",
+      "emoji": "🪐",
+      "cefr": "A2"
+    },
+    {
+      "word": "earth",
+      "ipa": "/ɜːθ/",
+      "pos": "n.",
+      "zh": "地球",
+      "example": "The earth goes around the sun.",
+      "emoji": "🌍",
+      "cefr": "A2"
+    },
+    {
+      "word": "rocket",
+      "ipa": "/ˈrɒkɪt/",
+      "pos": "n.",
+      "zh": "火箭",
+      "example": "The rocket flew into space.",
+      "emoji": "🚀",
+      "cefr": "A2"
+    },
+    {
+      "word": "astronaut",
+      "ipa": "/ˈæstrənɔːt/",
+      "pos": "n.",
+      "zh": "宇航员",
+      "example": "The astronaut walked on the moon.",
+      "emoji": "🧑‍🚀",
+      "cefr": "A2"
+    },
+    {
+      "word": "space",
+      "ipa": "/speɪs/",
+      "pos": "n.",
+      "zh": "太空",
+      "example": "There is no air in space.",
+      "emoji": "🌌",
+      "cefr": "A2"
+    },
+    {
+      "word": "telescope",
+      "ipa": "/ˈtelɪskəʊp/",
+      "pos": "n.",
+      "zh": "望远镜",
+      "example": "We watch the stars with a telescope.",
+      "emoji": "🔭",
+      "cefr": "A2"
+    },
+    {
+      "word": "comet",
+      "ipa": "/ˈkɒmɪt/",
+      "pos": "n.",
+      "zh": "彗星",
+      "example": "The comet appears every ten years.",
+      "emoji": "☄️",
+      "cefr": "A2"
+    },
+    {
+      "word": "orbit",
+      "ipa": "/ˈɔːbɪt/",
+      "pos": "n",
+      "zh": "轨道",
+      "example": "The satellite is in orbit.",
+      "emoji": "🛰️",
+      "cefr": "A2"
+    },
+    {
+      "word": "asteroid",
+      "ipa": "/ˈæstərɔɪd/",
+      "pos": "n",
+      "zh": "小行星",
+      "example": "An asteroid flies past Earth.",
+      "emoji": "☄️",
+      "cefr": "A2"
+    },
+    {
+      "word": "meteor",
+      "ipa": "/ˈmiːtiə(r)/",
+      "pos": "n.",
+      "zh": "流星",
+      "example": "A meteor lit up the night sky.",
+      "emoji": "☄️",
+      "cefr": "B1"
+    },
+    {
+      "word": "constellation",
+      "ipa": "/ˌkɒnstəˈleɪʃn/",
+      "pos": "n.",
+      "zh": "星座",
+      "example": "Orion is a famous constellation.",
+      "emoji": "✨",
+      "cefr": "B1"
+    },
+    {
+      "word": "universe",
+      "ipa": "/ˈjuːnɪvɜːs/",
+      "pos": "n.",
+      "zh": "宇宙",
+      "example": "The universe is full of stars.",
+      "emoji": "🌌",
+      "cefr": "A2"
+    },
+    {
+      "word": "gravity",
+      "ipa": "/ˈɡrævəti/",
+      "pos": "n.",
+      "zh": "引力",
+      "example": "Gravity pulls objects to the ground.",
+      "emoji": "🌍",
+      "cefr": "B1"
+    },
+    {
+      "word": "launch",
+      "ipa": "/lɔːntʃ/",
+      "pos": "v.",
+      "zh": "发射",
+      "example": "The rocket launched into space.",
+      "emoji": "🚀",
+      "cefr": "B1"
+    },
+    {
+      "word": "spacecraft",
+      "ipa": "/ˈspeɪskrɑːft/",
+      "pos": "n.",
+      "zh": "航天器",
+      "example": "The spacecraft returned safely.",
+      "emoji": "🛸",
+      "cefr": "B1"
+    }
   ],
   "sea": [
-    { "word": "sea", "ipa": "/siː/", "pos": "n.", "zh": "海", "example": "The sea is calm today.", "emoji": "🌊", "cefr": "A1" },
-    { "word": "wave", "ipa": "/weɪv/", "pos": "n.", "zh": "浪", "example": "A big wave hit the boat.", "emoji": "🏄", "cefr": "A2" },
-    { "word": "beach", "ipa": "/biːtʃ/", "pos": "n.", "zh": "海滩", "example": "We walk on the beach at night.", "emoji": "🏖️", "cefr": "A1" },
-    { "word": "island", "ipa": "/ˈaɪlənd/", "pos": "n.", "zh": "岛屿", "example": "A small island is in the sea.", "emoji": "🏝️", "cefr": "A2" },
-    { "word": "whale", "ipa": "/weɪl/", "pos": "n.", "zh": "鲸", "example": "The whale is the largest animal.", "emoji": "🐋", "cefr": "A2" },
-    { "word": "dolphin", "ipa": "/ˈdɒlfɪn/", "pos": "n.", "zh": "海豚", "example": "A dolphin jumped out of the water.", "emoji": "🐬", "cefr": "A2" },
-    { "word": "shark", "ipa": "/ʃɑːk/", "pos": "n.", "zh": "鲨鱼", "example": "The shark swims very fast.", "emoji": "🦈", "cefr": "A2" },
-    { "word": "crab", "ipa": "/kræb/", "pos": "n.", "zh": "螃蟹", "example": "A crab walks on the sand.", "emoji": "🦀", "cefr": "A2" },
-    { "word": "shell", "ipa": "/ʃel/", "pos": "n.", "zh": "贝壳", "example": "She found a pink shell.", "emoji": "🐚", "cefr": "A2" },
-    { "word": "boat", "ipa": "/bəʊt/", "pos": "n.", "zh": "小船", "example": "The boat is near the shore.", "emoji": "⛵", "cefr": "A1" },
-    { "word": "sand", "ipa": "/sænd/", "pos": "n.", "zh": "沙子", "example": "The sand is warm under my feet.", "emoji": "🏜️", "cefr": "A1" },
-    { "word": "coral", "ipa": "/ˈkɒrəl/", "pos": "n.", "zh": "珊瑚", "example": "The coral is bright red.", "emoji": "🪸", "cefr": "A2" }
+    {
+      "word": "sea",
+      "ipa": "/siː/",
+      "pos": "n.",
+      "zh": "海",
+      "example": "The sea is calm today.",
+      "emoji": "🌊",
+      "cefr": "A1"
+    },
+    {
+      "word": "wave",
+      "ipa": "/weɪv/",
+      "pos": "n.",
+      "zh": "浪",
+      "example": "A big wave hit the boat.",
+      "emoji": "🏄",
+      "cefr": "A2"
+    },
+    {
+      "word": "beach",
+      "ipa": "/biːtʃ/",
+      "pos": "n.",
+      "zh": "海滩",
+      "example": "We walk on the beach at night.",
+      "emoji": "🏖️",
+      "cefr": "A1"
+    },
+    {
+      "word": "island",
+      "ipa": "/ˈaɪlənd/",
+      "pos": "n.",
+      "zh": "岛屿",
+      "example": "A small island is in the sea.",
+      "emoji": "🏝️",
+      "cefr": "A2"
+    },
+    {
+      "word": "whale",
+      "ipa": "/weɪl/",
+      "pos": "n.",
+      "zh": "鲸",
+      "example": "The whale is the largest animal.",
+      "emoji": "🐋",
+      "cefr": "A2"
+    },
+    {
+      "word": "dolphin",
+      "ipa": "/ˈdɒlfɪn/",
+      "pos": "n.",
+      "zh": "海豚",
+      "example": "A dolphin jumped out of the water.",
+      "emoji": "🐬",
+      "cefr": "A2"
+    },
+    {
+      "word": "shark",
+      "ipa": "/ʃɑːk/",
+      "pos": "n.",
+      "zh": "鲨鱼",
+      "example": "The shark swims very fast.",
+      "emoji": "🦈",
+      "cefr": "A2"
+    },
+    {
+      "word": "crab",
+      "ipa": "/kræb/",
+      "pos": "n.",
+      "zh": "螃蟹",
+      "example": "A crab walks on the sand.",
+      "emoji": "🦀",
+      "cefr": "A2"
+    },
+    {
+      "word": "shell",
+      "ipa": "/ʃel/",
+      "pos": "n.",
+      "zh": "贝壳",
+      "example": "She found a pink shell.",
+      "emoji": "🐚",
+      "cefr": "A2"
+    },
+    {
+      "word": "boat",
+      "ipa": "/bəʊt/",
+      "pos": "n.",
+      "zh": "小船",
+      "example": "The boat is near the shore.",
+      "emoji": "⛵",
+      "cefr": "A1"
+    },
+    {
+      "word": "sand",
+      "ipa": "/sænd/",
+      "pos": "n.",
+      "zh": "沙子",
+      "example": "The sand is warm under my feet.",
+      "emoji": "🏜️",
+      "cefr": "A1"
+    },
+    {
+      "word": "coral",
+      "ipa": "/ˈkɒrəl/",
+      "pos": "n.",
+      "zh": "珊瑚",
+      "example": "The coral is bright red.",
+      "emoji": "🪸",
+      "cefr": "A2"
+    },
+    {
+      "word": "tide",
+      "ipa": "/taɪd/",
+      "pos": "n",
+      "zh": "潮汐",
+      "example": "The tide comes in at noon.",
+      "emoji": "🌊",
+      "cefr": "A2"
+    },
+    {
+      "word": "reef",
+      "ipa": "/riːf/",
+      "pos": "n",
+      "zh": "礁石",
+      "example": "Fish live around the reef.",
+      "emoji": "🪸",
+      "cefr": "A2"
+    },
+    {
+      "word": "pearl",
+      "ipa": "/pɜːl/",
+      "pos": "n.",
+      "zh": "珍珠",
+      "example": "She found a pearl in the oyster.",
+      "emoji": "🦪",
+      "cefr": "A2"
+    },
+    {
+      "word": "sail",
+      "ipa": "/seɪl/",
+      "pos": "v.",
+      "zh": "航行",
+      "example": "We sailed to the island.",
+      "emoji": "⛵",
+      "cefr": "A2"
+    },
+    {
+      "word": "surf",
+      "ipa": "/sɜːf/",
+      "pos": "v.",
+      "zh": "冲浪",
+      "example": "He loves to surf big waves.",
+      "emoji": "🏄",
+      "cefr": "A2"
+    },
+    {
+      "word": "dive",
+      "ipa": "/daɪv/",
+      "pos": "v.",
+      "zh": "潜水",
+      "example": "They dived to see the fish.",
+      "emoji": "🤿",
+      "cefr": "A2"
+    },
+    {
+      "word": "jellyfish",
+      "ipa": "/ˈdʒelifɪʃ/",
+      "pos": "n.",
+      "zh": "水母",
+      "example": "A jellyfish floated in the water.",
+      "emoji": "🎐",
+      "cefr": "A2"
+    },
+    {
+      "word": "starfish",
+      "ipa": "/ˈstɑːfɪʃ/",
+      "pos": "n.",
+      "zh": "海星",
+      "example": "The starfish has five arms.",
+      "emoji": "⭐",
+      "cefr": "A2"
+    },
+    {
+      "word": "bay",
+      "ipa": "/beɪ/",
+      "pos": "n.",
+      "zh": "海湾",
+      "example": "The boats are safe in the bay.",
+      "emoji": "🏖️",
+      "cefr": "A2"
+    }
   ],
   "landforms": [
-    { "word": "mountain", "ipa": "/ˈmaʊntən/", "pos": "n.", "zh": "山", "example": "The mountain is covered with snow.", "emoji": "⛰️", "cefr": "A1" },
-    { "word": "hill", "ipa": "/hɪl/", "pos": "n.", "zh": "小山", "example": "There is a house on the hill.", "emoji": "🌄", "cefr": "A2" },
-    { "word": "river", "ipa": "/ˈrɪvə(r)/", "pos": "n.", "zh": "河流", "example": "The river runs through the city.", "emoji": "🌊", "cefr": "A1" },
-    { "word": "lake", "ipa": "/leɪk/", "pos": "n.", "zh": "湖", "example": "We swim in the lake in summer.", "emoji": "🏞️", "cefr": "A1" },
-    { "word": "valley", "ipa": "/ˈvæli/", "pos": "n.", "zh": "山谷", "example": "A small village lies in the valley.", "emoji": "🏔️", "cefr": "A2" },
-    { "word": "cliff", "ipa": "/klɪf/", "pos": "n.", "zh": "悬崖", "example": "Do not stand near the cliff.", "emoji": "🪨", "cefr": "A2" },
-    { "word": "cave", "ipa": "/keɪv/", "pos": "n.", "zh": "洞穴", "example": "The cave is cool and dark.", "emoji": "🕳️", "cefr": "A2" },
-    { "word": "desert", "ipa": "/ˈdezət/", "pos": "n.", "zh": "沙漠", "example": "The desert is hot and dry.", "emoji": "🏜️", "cefr": "A2" },
-    { "word": "volcano", "ipa": "/vɒlˈkeɪnəʊ/", "pos": "n.", "zh": "火山", "example": "The volcano is still active.", "emoji": "🌋", "cefr": "A2" },
-    { "word": "waterfall", "ipa": "/ˈwɔːtəfɔːl/", "pos": "n.", "zh": "瀑布", "example": "The waterfall is thirty metres high.", "emoji": "💧", "cefr": "A2" },
-    { "word": "plain", "ipa": "/pleɪn/", "pos": "n.", "zh": "平原", "example": "Crops grow well on the plain.", "emoji": "🌾", "cefr": "A2" },
-    { "word": "coast", "ipa": "/kəʊst/", "pos": "n.", "zh": "海岸", "example": "We drove along the coast.", "emoji": "🏖️", "cefr": "B1" }
+    {
+      "word": "mountain",
+      "ipa": "/ˈmaʊntən/",
+      "pos": "n.",
+      "zh": "山",
+      "example": "The mountain is covered with snow.",
+      "emoji": "⛰️",
+      "cefr": "A1"
+    },
+    {
+      "word": "hill",
+      "ipa": "/hɪl/",
+      "pos": "n.",
+      "zh": "小山",
+      "example": "There is a house on the hill.",
+      "emoji": "🌄",
+      "cefr": "A2"
+    },
+    {
+      "word": "river",
+      "ipa": "/ˈrɪvə(r)/",
+      "pos": "n.",
+      "zh": "河流",
+      "example": "The river runs through the city.",
+      "emoji": "🌊",
+      "cefr": "A1"
+    },
+    {
+      "word": "lake",
+      "ipa": "/leɪk/",
+      "pos": "n.",
+      "zh": "湖",
+      "example": "We swim in the lake in summer.",
+      "emoji": "🏞️",
+      "cefr": "A1"
+    },
+    {
+      "word": "valley",
+      "ipa": "/ˈvæli/",
+      "pos": "n.",
+      "zh": "山谷",
+      "example": "A small village lies in the valley.",
+      "emoji": "🏔️",
+      "cefr": "A2"
+    },
+    {
+      "word": "cliff",
+      "ipa": "/klɪf/",
+      "pos": "n.",
+      "zh": "悬崖",
+      "example": "Do not stand near the cliff.",
+      "emoji": "🪨",
+      "cefr": "A2"
+    },
+    {
+      "word": "cave",
+      "ipa": "/keɪv/",
+      "pos": "n.",
+      "zh": "洞穴",
+      "example": "The cave is cool and dark.",
+      "emoji": "🕳️",
+      "cefr": "A2"
+    },
+    {
+      "word": "desert",
+      "ipa": "/ˈdezət/",
+      "pos": "n.",
+      "zh": "沙漠",
+      "example": "The desert is hot and dry.",
+      "emoji": "🏜️",
+      "cefr": "A2"
+    },
+    {
+      "word": "volcano",
+      "ipa": "/vɒlˈkeɪnəʊ/",
+      "pos": "n.",
+      "zh": "火山",
+      "example": "The volcano is still active.",
+      "emoji": "🌋",
+      "cefr": "A2"
+    },
+    {
+      "word": "waterfall",
+      "ipa": "/ˈwɔːtəfɔːl/",
+      "pos": "n.",
+      "zh": "瀑布",
+      "example": "The waterfall is thirty metres high.",
+      "emoji": "💧",
+      "cefr": "A2"
+    },
+    {
+      "word": "plain",
+      "ipa": "/pleɪn/",
+      "pos": "n.",
+      "zh": "平原",
+      "example": "Crops grow well on the plain.",
+      "emoji": "🌾",
+      "cefr": "A2"
+    },
+    {
+      "word": "peninsula",
+      "ipa": "/pəˈnɪnsjələ/",
+      "pos": "n",
+      "zh": "半岛",
+      "example": "The peninsula is surrounded by sea.",
+      "emoji": "🗺️",
+      "cefr": "A2"
+    },
+    {
+      "word": "canyon",
+      "ipa": "/ˈkænjən/",
+      "pos": "n",
+      "zh": "峡谷",
+      "example": "The canyon is very deep.",
+      "emoji": "🏞️",
+      "cefr": "A2"
+    },
+    {
+      "word": "plateau",
+      "ipa": "/ˈplætəʊ/",
+      "pos": "n.",
+      "zh": "高原",
+      "example": "The plateau is high and flat.",
+      "emoji": "🏜️",
+      "cefr": "B1"
+    },
+    {
+      "word": "delta",
+      "ipa": "/ˈdeltə/",
+      "pos": "n.",
+      "zh": "三角洲",
+      "example": "The river forms a delta at the sea.",
+      "emoji": "🗺️",
+      "cefr": "B1"
+    },
+    {
+      "word": "glacier",
+      "ipa": "/ˈɡlæsiə(r)/",
+      "pos": "n.",
+      "zh": "冰川",
+      "example": "The glacier is melting fast.",
+      "emoji": "🏔️",
+      "cefr": "B1"
+    },
+    {
+      "word": "gorge",
+      "ipa": "/ɡɔːdʒ/",
+      "pos": "n.",
+      "zh": "峡谷",
+      "example": "The gorge is deep and narrow.",
+      "emoji": "⛰️",
+      "cefr": "B1"
+    }
   ],
   "materials": [
-    { "word": "wood", "ipa": "/wʊd/", "pos": "n.", "zh": "木头", "example": "The table is made of wood.", "emoji": "🪵", "cefr": "A2" },
-    { "word": "metal", "ipa": "/ˈmetl/", "pos": "n.", "zh": "金属", "example": "The box is made of metal.", "emoji": "⚙️", "cefr": "A2" },
-    { "word": "glass", "ipa": "/ɡlɑːs/", "pos": "n.", "zh": "玻璃", "example": "Be careful, the glass is broken.", "emoji": "🥃", "cefr": "A1" },
-    { "word": "plastic", "ipa": "/ˈplæstɪk/", "pos": "n.", "zh": "塑料", "example": "Plastic bags hurt the sea.", "emoji": "🛍️", "cefr": "A2" },
-    { "word": "paper", "ipa": "/ˈpeɪpə(r)/", "pos": "n.", "zh": "纸", "example": "Write your name on the paper.", "emoji": "📄", "cefr": "A1" },
-    { "word": "cloth", "ipa": "/klɒθ/", "pos": "n.", "zh": "布料", "example": "The bag is made of cloth.", "emoji": "🧵", "cefr": "A2" },
-    { "word": "stone", "ipa": "/stəʊn/", "pos": "n.", "zh": "石头", "example": "He threw a stone into the river.", "emoji": "🪨", "cefr": "A1" },
-    { "word": "rubber", "ipa": "/ˈrʌbə(r)/", "pos": "n.", "zh": "橡胶", "example": "The tyre is made of rubber.", "emoji": "🎾", "cefr": "A2" },
-    { "word": "gold", "ipa": "/ɡəʊld/", "pos": "n.", "zh": "黄金", "example": "The ring is made of gold.", "emoji": "🥇", "cefr": "A2" },
-    { "word": "silver", "ipa": "/ˈsɪlvə(r)/", "pos": "n.", "zh": "银", "example": "She wears a silver necklace.", "emoji": "🥈", "cefr": "A2" },
-    { "word": "iron", "ipa": "/ˈaɪən/", "pos": "n.", "zh": "铁", "example": "The gate is made of iron.", "emoji": "🔩", "cefr": "A2" },
-    { "word": "cotton", "ipa": "/ˈkɒtn/", "pos": "n.", "zh": "棉花", "example": "This shirt is pure cotton.", "emoji": "☁️", "cefr": "A2" }
+    {
+      "word": "wood",
+      "ipa": "/wʊd/",
+      "pos": "n.",
+      "zh": "木头",
+      "example": "The table is made of wood.",
+      "emoji": "🪵",
+      "cefr": "A2"
+    },
+    {
+      "word": "metal",
+      "ipa": "/ˈmetl/",
+      "pos": "n.",
+      "zh": "金属",
+      "example": "The box is made of metal.",
+      "emoji": "⚙️",
+      "cefr": "A2"
+    },
+    {
+      "word": "glass",
+      "ipa": "/ɡlɑːs/",
+      "pos": "n.",
+      "zh": "玻璃",
+      "example": "Be careful, the glass is broken.",
+      "emoji": "🥃",
+      "cefr": "A1"
+    },
+    {
+      "word": "plastic",
+      "ipa": "/ˈplæstɪk/",
+      "pos": "n.",
+      "zh": "塑料",
+      "example": "Plastic bags hurt the sea.",
+      "emoji": "🛍️",
+      "cefr": "A2"
+    },
+    {
+      "word": "paper",
+      "ipa": "/ˈpeɪpə(r)/",
+      "pos": "n.",
+      "zh": "纸",
+      "example": "Write your name on the paper.",
+      "emoji": "📄",
+      "cefr": "A1"
+    },
+    {
+      "word": "cloth",
+      "ipa": "/klɒθ/",
+      "pos": "n.",
+      "zh": "布料",
+      "example": "The bag is made of cloth.",
+      "emoji": "🧵",
+      "cefr": "A2"
+    },
+    {
+      "word": "stone",
+      "ipa": "/stəʊn/",
+      "pos": "n.",
+      "zh": "石头",
+      "example": "He threw a stone into the river.",
+      "emoji": "🪨",
+      "cefr": "A1"
+    },
+    {
+      "word": "rubber",
+      "ipa": "/ˈrʌbə(r)/",
+      "pos": "n.",
+      "zh": "橡胶",
+      "example": "The tyre is made of rubber.",
+      "emoji": "🎾",
+      "cefr": "A2"
+    },
+    {
+      "word": "gold",
+      "ipa": "/ɡəʊld/",
+      "pos": "n.",
+      "zh": "黄金",
+      "example": "The ring is made of gold.",
+      "emoji": "🥇",
+      "cefr": "A2"
+    },
+    {
+      "word": "silver",
+      "ipa": "/ˈsɪlvə(r)/",
+      "pos": "n.",
+      "zh": "银",
+      "example": "She wears a silver necklace.",
+      "emoji": "🥈",
+      "cefr": "A2"
+    },
+    {
+      "word": "iron",
+      "ipa": "/ˈaɪən/",
+      "pos": "n.",
+      "zh": "铁",
+      "example": "The gate is made of iron.",
+      "emoji": "🔩",
+      "cefr": "A2"
+    },
+    {
+      "word": "cotton",
+      "ipa": "/ˈkɒtn/",
+      "pos": "n.",
+      "zh": "棉花",
+      "example": "This shirt is pure cotton.",
+      "emoji": "☁️",
+      "cefr": "A2"
+    },
+    {
+      "word": "leather",
+      "ipa": "/ˈleðə(r)/",
+      "pos": "n",
+      "zh": "皮革",
+      "example": "The bag is made of leather.",
+      "emoji": "👜",
+      "cefr": "A2"
+    },
+    {
+      "word": "concrete",
+      "ipa": "/ˈkɒŋkriːt/",
+      "pos": "n",
+      "zh": "混凝土",
+      "example": "The bridge is built of concrete.",
+      "emoji": "🏗️",
+      "cefr": "A2"
+    },
+    {
+      "word": "steel",
+      "ipa": "/stiːl/",
+      "pos": "n.",
+      "zh": "钢",
+      "example": "The bridge is built of steel.",
+      "emoji": "🌉",
+      "cefr": "A2"
+    },
+    {
+      "word": "clay",
+      "ipa": "/kleɪ/",
+      "pos": "n.",
+      "zh": "黏土",
+      "example": "The pot is made of clay.",
+      "emoji": "🏺",
+      "cefr": "A2"
+    },
+    {
+      "word": "silk",
+      "ipa": "/sɪlk/",
+      "pos": "n.",
+      "zh": "丝绸",
+      "example": "The dress is made of silk.",
+      "emoji": "🎀",
+      "cefr": "A2"
+    },
+    {
+      "word": "wool",
+      "ipa": "/wʊl/",
+      "pos": "n.",
+      "zh": "羊毛",
+      "example": "The sweater is made of wool.",
+      "emoji": "🧶",
+      "cefr": "A2"
+    },
+    {
+      "word": "ceramic",
+      "ipa": "/səˈræmɪk/",
+      "pos": "n.",
+      "zh": "陶瓷",
+      "example": "The cup is fine ceramic.",
+      "emoji": "🏺",
+      "cefr": "B1"
+    },
+    {
+      "word": "alloy",
+      "ipa": "/ˈælɔɪ/",
+      "pos": "n.",
+      "zh": "合金",
+      "example": "The frame is made of a light alloy.",
+      "emoji": "⚙️",
+      "cefr": "B1"
+    },
+    {
+      "word": "cork",
+      "ipa": "/kɔːk/",
+      "pos": "n.",
+      "zh": "软木",
+      "example": "The bottle has a cork in the top.",
+      "emoji": "🟤",
+      "cefr": "A2"
+    }
   ],
   "shapes": [
-    { "word": "circle", "ipa": "/ˈsɜːkl/", "pos": "n.", "zh": "圆形", "example": "Draw a circle on the board.", "emoji": "⭕", "cefr": "A1" },
-    { "word": "square", "ipa": "/skweə(r)/", "pos": "n.", "zh": "正方形", "example": "The window is a square.", "emoji": "⬜", "cefr": "A1" },
-    { "word": "triangle", "ipa": "/ˈtraɪæŋɡl/", "pos": "n.", "zh": "三角形", "example": "A triangle has three sides.", "emoji": "🔺", "cefr": "A1" },
-    { "word": "rectangle", "ipa": "/ˈrektæŋɡl/", "pos": "n.", "zh": "长方形", "example": "The door is a rectangle.", "emoji": "▬", "cefr": "A2" },
-    { "word": "heart", "ipa": "/hɑːt/", "pos": "n.", "zh": "心形", "example": "She drew a heart on the card.", "emoji": "❤️", "cefr": "A1" },
-    { "word": "diamond", "ipa": "/ˈdaɪəmənd/", "pos": "n.", "zh": "菱形；钻石", "example": "The ring has a diamond in it.", "emoji": "💎", "cefr": "A2" },
-    { "word": "oval", "ipa": "/ˈəʊvl/", "pos": "n.", "zh": "椭圆形", "example": "The mirror is oval.", "emoji": "⬭", "cefr": "A2" },
-    { "word": "cube", "ipa": "/kjuːb/", "pos": "n.", "zh": "立方体", "example": "The ice is a small cube.", "emoji": "🧊", "cefr": "A2" },
-    { "word": "line", "ipa": "/laɪn/", "pos": "n.", "zh": "线", "example": "Draw a straight line here.", "emoji": "➖", "cefr": "A1" },
-    { "word": "cross", "ipa": "/krɒs/", "pos": "n.", "zh": "十字", "example": "Mark the answer with a cross.", "emoji": "❌", "cefr": "A2" },
-    { "word": "spot", "ipa": "/spɒt/", "pos": "n.", "zh": "圆点", "example": "The dress has red spots.", "emoji": "🔴", "cefr": "A2" },
-    { "word": "shape", "ipa": "/ʃeɪp/", "pos": "n.", "zh": "形状", "example": "What shape is the cloud?", "emoji": "🔷", "cefr": "A1" }
+    {
+      "word": "circle",
+      "ipa": "/ˈsɜːkl/",
+      "pos": "n.",
+      "zh": "圆形",
+      "example": "Draw a circle on the board.",
+      "emoji": "⭕",
+      "cefr": "A1"
+    },
+    {
+      "word": "square",
+      "ipa": "/skweə(r)/",
+      "pos": "n.",
+      "zh": "正方形",
+      "example": "The window is a square.",
+      "emoji": "⬜",
+      "cefr": "A1"
+    },
+    {
+      "word": "triangle",
+      "ipa": "/ˈtraɪæŋɡl/",
+      "pos": "n.",
+      "zh": "三角形",
+      "example": "A triangle has three sides.",
+      "emoji": "🔺",
+      "cefr": "A1"
+    },
+    {
+      "word": "rectangle",
+      "ipa": "/ˈrektæŋɡl/",
+      "pos": "n.",
+      "zh": "长方形",
+      "example": "The door is a rectangle.",
+      "emoji": "▬",
+      "cefr": "A2"
+    },
+    {
+      "word": "heart",
+      "ipa": "/hɑːt/",
+      "pos": "n.",
+      "zh": "心形",
+      "example": "She drew a heart on the card.",
+      "emoji": "❤️",
+      "cefr": "A1"
+    },
+    {
+      "word": "diamond",
+      "ipa": "/ˈdaɪəmənd/",
+      "pos": "n.",
+      "zh": "菱形；钻石",
+      "example": "The ring has a diamond in it.",
+      "emoji": "💎",
+      "cefr": "A2"
+    },
+    {
+      "word": "oval",
+      "ipa": "/ˈəʊvl/",
+      "pos": "n.",
+      "zh": "椭圆形",
+      "example": "The mirror is oval.",
+      "emoji": "⬭",
+      "cefr": "A2"
+    },
+    {
+      "word": "cube",
+      "ipa": "/kjuːb/",
+      "pos": "n.",
+      "zh": "立方体",
+      "example": "The ice is a small cube.",
+      "emoji": "🧊",
+      "cefr": "A2"
+    },
+    {
+      "word": "line",
+      "ipa": "/laɪn/",
+      "pos": "n.",
+      "zh": "线",
+      "example": "Draw a straight line here.",
+      "emoji": "➖",
+      "cefr": "A1"
+    },
+    {
+      "word": "cross",
+      "ipa": "/krɒs/",
+      "pos": "n.",
+      "zh": "十字",
+      "example": "Mark the answer with a cross.",
+      "emoji": "❌",
+      "cefr": "A2"
+    },
+    {
+      "word": "spot",
+      "ipa": "/spɒt/",
+      "pos": "n.",
+      "zh": "圆点",
+      "example": "The dress has red spots.",
+      "emoji": "🔴",
+      "cefr": "A2"
+    },
+    {
+      "word": "shape",
+      "ipa": "/ʃeɪp/",
+      "pos": "n.",
+      "zh": "形状",
+      "example": "What shape is the cloud?",
+      "emoji": "🔷",
+      "cefr": "A1"
+    },
+    {
+      "word": "crescent",
+      "ipa": "/ˈkresnt/",
+      "pos": "n",
+      "zh": "月牙形",
+      "example": "The moon is a crescent tonight.",
+      "emoji": "🌙",
+      "cefr": "A2"
+    },
+    {
+      "word": "cylinder",
+      "ipa": "/ˈsɪlɪndə(r)/",
+      "pos": "n",
+      "zh": "圆柱体",
+      "example": "A can is a cylinder.",
+      "emoji": "🥫",
+      "cefr": "A2"
+    },
+    {
+      "word": "pyramid",
+      "ipa": "/ˈpɪrəmɪd/",
+      "pos": "n.",
+      "zh": "金字塔",
+      "example": "The pyramid has four sides.",
+      "emoji": "🔺",
+      "cefr": "A2"
+    },
+    {
+      "word": "arc",
+      "ipa": "/ɑːk/",
+      "pos": "n.",
+      "zh": "弧",
+      "example": "The rainbow forms an arc.",
+      "emoji": "🌈",
+      "cefr": "B1"
+    }
   ],
   "sizes": [
-    { "word": "big", "ipa": "/bɪɡ/", "pos": "adj.", "zh": "大的", "example": "They live in a big house.", "emoji": "🐘", "cefr": "A1" },
-    { "word": "small", "ipa": "/smɔːl/", "pos": "adj.", "zh": "小的", "example": "The room is small but clean.", "emoji": "🐁", "cefr": "A1" },
-    { "word": "long", "ipa": "/lɒŋ/", "pos": "adj.", "zh": "长的", "example": "She has long black hair.", "emoji": "↔️", "cefr": "A1" },
-    { "word": "short", "ipa": "/ʃɔːt/", "pos": "adj.", "zh": "短的；矮的", "example": "The film is quite short.", "emoji": "↕️", "cefr": "A1" },
-    { "word": "tall", "ipa": "/tɔːl/", "pos": "adj.", "zh": "高的", "example": "My brother is very tall.", "emoji": "🦒", "cefr": "A1" },
-    { "word": "wide", "ipa": "/waɪd/", "pos": "adj.", "zh": "宽的", "example": "The road is wide enough.", "emoji": "🔲", "cefr": "A2" },
-    { "word": "narrow", "ipa": "/ˈnærəʊ/", "pos": "adj.", "zh": "窄的", "example": "The street is very narrow.", "emoji": "🔳", "cefr": "A2" },
-    { "word": "heavy", "ipa": "/ˈhevi/", "pos": "adj.", "zh": "重的", "example": "This box is too heavy.", "emoji": "🏋️", "cefr": "A1" },
-    { "word": "light", "ipa": "/laɪt/", "pos": "adj.", "zh": "轻的", "example": "The bag is light and easy to carry.", "emoji": "🪶", "cefr": "A1" },
-    { "word": "deep", "ipa": "/diːp/", "pos": "adj.", "zh": "深的", "example": "The lake is very deep.", "emoji": "🕳️", "cefr": "A2" },
-    { "word": "thick", "ipa": "/θɪk/", "pos": "adj.", "zh": "厚的", "example": "He wears a thick coat.", "emoji": "▮", "cefr": "A2" },
-    { "word": "thin", "ipa": "/θɪn/", "pos": "adj.", "zh": "薄的；瘦的", "example": "The ice is too thin to walk on.", "emoji": "▯", "cefr": "A1" }
+    {
+      "word": "big",
+      "ipa": "/bɪɡ/",
+      "pos": "adj.",
+      "zh": "大的",
+      "example": "They live in a big house.",
+      "emoji": "🐘",
+      "cefr": "A1"
+    },
+    {
+      "word": "small",
+      "ipa": "/smɔːl/",
+      "pos": "adj.",
+      "zh": "小的",
+      "example": "The room is small but clean.",
+      "emoji": "🐁",
+      "cefr": "A1"
+    },
+    {
+      "word": "long",
+      "ipa": "/lɒŋ/",
+      "pos": "adj.",
+      "zh": "长的",
+      "example": "She has long black hair.",
+      "emoji": "↔️",
+      "cefr": "A1"
+    },
+    {
+      "word": "short",
+      "ipa": "/ʃɔːt/",
+      "pos": "adj.",
+      "zh": "短的；矮的",
+      "example": "The film is quite short.",
+      "emoji": "↕️",
+      "cefr": "A1"
+    },
+    {
+      "word": "tall",
+      "ipa": "/tɔːl/",
+      "pos": "adj.",
+      "zh": "高的",
+      "example": "My brother is very tall.",
+      "emoji": "🦒",
+      "cefr": "A1"
+    },
+    {
+      "word": "wide",
+      "ipa": "/waɪd/",
+      "pos": "adj.",
+      "zh": "宽的",
+      "example": "The road is wide enough.",
+      "emoji": "🔲",
+      "cefr": "A2"
+    },
+    {
+      "word": "narrow",
+      "ipa": "/ˈnærəʊ/",
+      "pos": "adj.",
+      "zh": "窄的",
+      "example": "The street is very narrow.",
+      "emoji": "🔳",
+      "cefr": "A2"
+    },
+    {
+      "word": "heavy",
+      "ipa": "/ˈhevi/",
+      "pos": "adj.",
+      "zh": "重的",
+      "example": "This box is too heavy.",
+      "emoji": "🏋️",
+      "cefr": "A1"
+    },
+    {
+      "word": "light",
+      "ipa": "/laɪt/",
+      "pos": "adj.",
+      "zh": "轻的",
+      "example": "The bag is light and easy to carry.",
+      "emoji": "🪶",
+      "cefr": "A1"
+    },
+    {
+      "word": "deep",
+      "ipa": "/diːp/",
+      "pos": "adj.",
+      "zh": "深的",
+      "example": "The lake is very deep.",
+      "emoji": "🕳️",
+      "cefr": "A2"
+    },
+    {
+      "word": "thick",
+      "ipa": "/θɪk/",
+      "pos": "adj.",
+      "zh": "厚的",
+      "example": "He wears a thick coat.",
+      "emoji": "▮",
+      "cefr": "A2"
+    },
+    {
+      "word": "thin",
+      "ipa": "/θɪn/",
+      "pos": "adj.",
+      "zh": "薄的；瘦的",
+      "example": "The ice is too thin to walk on.",
+      "emoji": "▯",
+      "cefr": "A1"
+    },
+    {
+      "word": "tiny",
+      "ipa": "/ˈtaɪni/",
+      "pos": "adj",
+      "zh": "极小的",
+      "example": "A tiny ant carries a leaf.",
+      "emoji": "🐜",
+      "cefr": "A1"
+    },
+    {
+      "word": "huge",
+      "ipa": "/hjuːdʒ/",
+      "pos": "adj",
+      "zh": "巨大的",
+      "example": "The elephant is huge.",
+      "emoji": "🐘",
+      "cefr": "A1"
+    },
+    {
+      "word": "broad",
+      "ipa": "/brɔːd/",
+      "pos": "adj.",
+      "zh": "宽阔的",
+      "example": "The river is broad here.",
+      "emoji": "🌊",
+      "cefr": "A2"
+    },
+    {
+      "word": "medium",
+      "ipa": "/ˈmiːdiəm/",
+      "pos": "adj.",
+      "zh": "中等的",
+      "example": "I wear a medium size.",
+      "emoji": "📏",
+      "cefr": "A2"
+    },
+    {
+      "word": "average",
+      "ipa": "/ˈævərɪdʒ/",
+      "pos": "adj.",
+      "zh": "平均的",
+      "example": "The average height is one meter seven.",
+      "emoji": "📏",
+      "cefr": "B1"
+    },
+    {
+      "word": "giant",
+      "ipa": "/ˈdʒaɪənt/",
+      "pos": "adj.",
+      "zh": "巨大的",
+      "example": "A giant tree stands in the middle of the park.",
+      "emoji": "🌳",
+      "cefr": "A2"
+    }
   ],
   "positions": [
-    { "word": "in", "ipa": "/ɪn/", "pos": "prep.", "zh": "在……里面", "example": "The cat is in the box.", "emoji": "📥", "cefr": "A1" },
-    { "word": "on", "ipa": "/ɒn/", "pos": "prep.", "zh": "在……上面", "example": "The book is on the desk.", "emoji": "🔝", "cefr": "A1" },
-    { "word": "under", "ipa": "/ˈʌndə(r)/", "pos": "prep.", "zh": "在……下面", "example": "The dog sleeps under the table.", "emoji": "🔽", "cefr": "A1" },
-    { "word": "behind", "ipa": "/bɪˈhaɪnd/", "pos": "prep.", "zh": "在……后面", "example": "The car is behind the house.", "emoji": "🔙", "cefr": "A1" },
-    { "word": "front", "ipa": "/frʌnt/", "pos": "n.", "zh": "前面", "example": "Sit in the front of the bus.", "emoji": "⏩", "cefr": "A1" },
-    { "word": "between", "ipa": "/bɪˈtwiːn/", "pos": "prep.", "zh": "在……之间", "example": "The bank is between two shops.", "emoji": "⏸️", "cefr": "A1" },
-    { "word": "near", "ipa": "/nɪə(r)/", "pos": "prep.", "zh": "靠近", "example": "My school is near the park.", "emoji": "📍", "cefr": "A1" },
-    { "word": "far", "ipa": "/fɑː(r)/", "pos": "adj.", "zh": "远的", "example": "The station is not far from here.", "emoji": "🛣️", "cefr": "A1" },
-    { "word": "above", "ipa": "/əˈbʌv/", "pos": "prep.", "zh": "在……上方", "example": "A lamp hangs above the table.", "emoji": "⬆️", "cefr": "A2" },
-    { "word": "inside", "ipa": "/ˌɪnˈsaɪd/", "pos": "prep.", "zh": "在里面", "example": "It is warm inside the house.", "emoji": "📦", "cefr": "A2" },
-    { "word": "outside", "ipa": "/ˌaʊtˈsaɪd/", "pos": "prep.", "zh": "在外面", "example": "The children play outside.", "emoji": "🚪", "cefr": "A2" },
-    { "word": "beside", "ipa": "/bɪˈsaɪd/", "pos": "prep.", "zh": "在旁边", "example": "She sits beside me.", "emoji": "👥", "cefr": "A2" }
+    {
+      "word": "in",
+      "ipa": "/ɪn/",
+      "pos": "prep.",
+      "zh": "在……里面",
+      "example": "The cat is in the box.",
+      "emoji": "📥",
+      "cefr": "A1"
+    },
+    {
+      "word": "on",
+      "ipa": "/ɒn/",
+      "pos": "prep.",
+      "zh": "在……上面",
+      "example": "The book is on the desk.",
+      "emoji": "🔝",
+      "cefr": "A1"
+    },
+    {
+      "word": "under",
+      "ipa": "/ˈʌndə(r)/",
+      "pos": "prep.",
+      "zh": "在……下面",
+      "example": "The dog sleeps under the table.",
+      "emoji": "🔽",
+      "cefr": "A1"
+    },
+    {
+      "word": "behind",
+      "ipa": "/bɪˈhaɪnd/",
+      "pos": "prep.",
+      "zh": "在……后面",
+      "example": "The car is behind the house.",
+      "emoji": "🔙",
+      "cefr": "A1"
+    },
+    {
+      "word": "front",
+      "ipa": "/frʌnt/",
+      "pos": "n.",
+      "zh": "前面",
+      "example": "Sit in the front of the bus.",
+      "emoji": "⏩",
+      "cefr": "A1"
+    },
+    {
+      "word": "between",
+      "ipa": "/bɪˈtwiːn/",
+      "pos": "prep.",
+      "zh": "在……之间",
+      "example": "The bank is between two shops.",
+      "emoji": "⏸️",
+      "cefr": "A1"
+    },
+    {
+      "word": "near",
+      "ipa": "/nɪə(r)/",
+      "pos": "prep.",
+      "zh": "靠近",
+      "example": "My school is near the park.",
+      "emoji": "📍",
+      "cefr": "A1"
+    },
+    {
+      "word": "far",
+      "ipa": "/fɑː(r)/",
+      "pos": "adj.",
+      "zh": "远的",
+      "example": "The station is not far from here.",
+      "emoji": "🛣️",
+      "cefr": "A1"
+    },
+    {
+      "word": "above",
+      "ipa": "/əˈbʌv/",
+      "pos": "prep.",
+      "zh": "在……上方",
+      "example": "A lamp hangs above the table.",
+      "emoji": "⬆️",
+      "cefr": "A2"
+    },
+    {
+      "word": "inside",
+      "ipa": "/ˌɪnˈsaɪd/",
+      "pos": "prep.",
+      "zh": "在里面",
+      "example": "It is warm inside the house.",
+      "emoji": "📦",
+      "cefr": "A2"
+    },
+    {
+      "word": "outside",
+      "ipa": "/ˌaʊtˈsaɪd/",
+      "pos": "prep.",
+      "zh": "在外面",
+      "example": "The children play outside.",
+      "emoji": "🚪",
+      "cefr": "A2"
+    },
+    {
+      "word": "beside",
+      "ipa": "/bɪˈsaɪd/",
+      "pos": "prep.",
+      "zh": "在旁边",
+      "example": "She sits beside me.",
+      "emoji": "👥",
+      "cefr": "A2"
+    },
+    {
+      "word": "among",
+      "ipa": "/əˈmʌŋ/",
+      "pos": "prep",
+      "zh": "在…之中",
+      "example": "A duck swims among the reeds.",
+      "emoji": "🦆",
+      "cefr": "A2"
+    },
+    {
+      "word": "opposite",
+      "ipa": "/ˈɒpəzɪt/",
+      "pos": "prep",
+      "zh": "在…对面",
+      "example": "The bank is opposite the station.",
+      "emoji": "🏦",
+      "cefr": "A2"
+    },
+    {
+      "word": "below",
+      "ipa": "/bɪˈləʊ/",
+      "pos": "prep.",
+      "zh": "在下方",
+      "example": "The cat hid below the table.",
+      "emoji": "🐱",
+      "cefr": "A2"
+    },
+    {
+      "word": "around",
+      "ipa": "/əˈraʊnd/",
+      "pos": "prep.",
+      "zh": "在…周围",
+      "example": "The children sat around the table.",
+      "emoji": "🔄",
+      "cefr": "A1"
+    },
+    {
+      "word": "through",
+      "ipa": "/θruː/",
+      "pos": "prep.",
+      "zh": "穿过",
+      "example": "We walked through the park.",
+      "emoji": "🌳",
+      "cefr": "A1"
+    },
+    {
+      "word": "towards",
+      "ipa": "/təˈwɔːdz/",
+      "pos": "prep.",
+      "zh": "朝向",
+      "example": "She walked towards the door.",
+      "emoji": "➡️",
+      "cefr": "A2"
+    },
+    {
+      "word": "against",
+      "ipa": "/əˈɡenst/",
+      "pos": "prep.",
+      "zh": "靠着",
+      "example": "He leaned against the wall.",
+      "emoji": "🧍",
+      "cefr": "A2"
+    }
   ]
 }

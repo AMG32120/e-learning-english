@@ -111,8 +111,36 @@
         "example": "That statistic surprised many readers.",
         "emoji": "📊",
         "cefr": "B2"
+      },
+      {
+        "word": "cross-sectional",
+        "ipa": "/ˌkrɒs ˈsekʃənl/",
+        "pos": "adj.",
+        "zh": "横断面的",
+        "example": "A cross-sectional survey captures one point in time.",
+        "emoji": "📊",
+        "cefr": "C2"
+      },
+      {
+        "word": "meta-analysis",
+        "ipa": "/ˌmetə əˈnæləsɪs/",
+        "pos": "n.",
+        "zh": "元分析",
+        "example": "The meta-analysis pooled 40 trials.",
+        "emoji": "🔬",
+        "cefr": "C2"
+      },
+      {
+        "word": "garnish",
+        "ipa": "/ˈɡɑːnɪʃ/",
+        "pos": "n./v.",
+        "zh": "装饰菜",
+        "example": "The chef garnished the plate with herbs.",
+        "emoji": "🌿",
+        "cefr": "C1"
       }
-    ]
+    ],
+    "extends_from": "l2_verbs"
   },
   {
     "id": "l5c_quantitative",
@@ -226,8 +254,37 @@
         "example": "Prices fluctuated all summer.",
         "emoji": "〰️",
         "cefr": "B2"
+      },
+      {
+        "word": "quartile",
+        "ipa": "/ˈkwɔːtaɪl/",
+        "pos": "n.",
+        "zh": "四分位数",
+        "example": "The top quartile earns the most.",
+        "emoji": "📊",
+        "cefr": "C2"
+      },
+      {
+        "word": "statistical",
+        "ipa": "/stəˈtɪstɪkl/",
+        "pos": "adj.",
+        "zh": "统计的",
+        "example": "Statistical tests confirm the trend.",
+        "emoji": "🧮",
+        "cefr": "C2",
+        "level": "C1"
+      },
+      {
+        "word": "palate",
+        "ipa": "/ˈpælət/",
+        "pos": "n.",
+        "zh": "味觉，口味",
+        "example": "The spicy dish suits my palate.",
+        "emoji": "😋",
+        "cefr": "C1"
       }
-    ]
+    ],
+    "extends_from": "l2_adjectives"
   },
   {
     "id": "l5c_comparison",
@@ -341,8 +398,36 @@
         "example": "The income disparity keeps widening.",
         "emoji": "📏",
         "cefr": "B2"
+      },
+      {
+        "word": "juxtapose",
+        "ipa": "/ˌdʒʌkstəˈpəʊz/",
+        "pos": "v.",
+        "zh": "并置对比",
+        "example": "The chart juxtaposes two economies.",
+        "emoji": "⚖️",
+        "cefr": "C1"
+      },
+      {
+        "word": "analogous",
+        "ipa": "/əˈnæləɡəs/",
+        "pos": "adj.",
+        "zh": "类似的",
+        "example": "The brain is analogous to a computer.",
+        "emoji": "🧠",
+        "cefr": "C1"
+      },
+      {
+        "word": "haggle",
+        "ipa": "/ˈhæɡl/",
+        "pos": "v.",
+        "zh": "讨价还价",
+        "example": "Tourists often haggle at the market.",
+        "emoji": "💱",
+        "cefr": "C1"
       }
-    ]
+    ],
+    "extends_from": "l2_adjectives"
   },
   {
     "id": "l5c_academic_adj",
@@ -456,8 +541,37 @@
         "example": "We must address the underlying cause.",
         "emoji": "🪨",
         "cefr": "B2"
+      },
+      {
+        "word": "discursive",
+        "ipa": "/dɪsˈkɜːsɪv/",
+        "pos": "adj.",
+        "zh": "推论的，散漫的",
+        "example": "The essay is richly discursive.",
+        "emoji": "📝",
+        "cefr": "C2"
+      },
+      {
+        "word": "holistic",
+        "ipa": "/həˈlɪstɪk/",
+        "pos": "adj.",
+        "zh": "整体性的",
+        "example": "Holistic care treats the whole person.",
+        "emoji": "🌿",
+        "cefr": "C2",
+        "level": "C1"
+      },
+      {
+        "word": "journalistic",
+        "ipa": "/ˌdʒɜːnəˈlɪstɪk/",
+        "pos": "adj.",
+        "zh": "新闻业的",
+        "example": "He follows strict journalistic standards.",
+        "emoji": "📰",
+        "cefr": "C1"
       }
-    ]
+    ],
+    "extends_from": "l2_adjectives"
   },
   {
     "id": "l5c_education_theory",
@@ -571,8 +685,36 @@
         "example": "Peer feedback helps students improve.",
         "emoji": "👥",
         "cefr": "B2"
+      },
+      {
+        "word": "constructivism",
+        "ipa": "/kənˈstrʌktɪvɪzəm/",
+        "pos": "n.",
+        "zh": "建构主义",
+        "example": "Constructivism sees learners build knowledge.",
+        "emoji": "🧱",
+        "cefr": "C2"
+      },
+      {
+        "word": "andragogy",
+        "ipa": "/ˈændrəɡɒdʒi/",
+        "pos": "n.",
+        "zh": "成人教育学",
+        "example": "Andragogy shapes adult learning design.",
+        "emoji": "👨‍🏫",
+        "cefr": "C2"
+      },
+      {
+        "word": "op-ed",
+        "ipa": "/ˌɒp ˈed/",
+        "pos": "n.",
+        "zh": "专栏评论版",
+        "example": "She wrote an op-ed about education.",
+        "emoji": "🗞️",
+        "cefr": "C1"
       }
-    ]
+    ],
+    "extends_from": "l2_school"
   },
   {
     "id": "l5c_workplace",
@@ -686,8 +828,27 @@
         "example": "She worked overtime all week.",
         "emoji": "🌙",
         "cefr": "B2"
+      },
+      {
+        "word": "outsource",
+        "ipa": "/ˈaʊtsɔːs/",
+        "pos": "v.",
+        "zh": "外包",
+        "example": "The firm outsources its payroll.",
+        "emoji": "🏢",
+        "cefr": "C1"
+      },
+      {
+        "word": "truancy",
+        "ipa": "/ˈtruːənsi/",
+        "pos": "n.",
+        "zh": "旷课",
+        "example": "Truancy often leads to poor grades.",
+        "emoji": "🏫",
+        "cefr": "C1"
       }
-    ]
+    ],
+    "extends_from": "l2_jobs"
   },
   {
     "id": "l5c_finance_tools",
@@ -873,8 +1034,18 @@
         "example": "High leverage increases risk.",
         "emoji": "⚖️",
         "cefr": "B2"
+      },
+      {
+        "word": "interdisciplinary",
+        "ipa": "/ˌɪntədɪsəˈplɪnəri/",
+        "pos": "adj.",
+        "zh": "跨学科的",
+        "example": "The course takes an interdisciplinary approach.",
+        "emoji": "🔀",
+        "cefr": "C1"
       }
-    ]
+    ],
+    "extends_from": "l2_money"
   },
   {
     "id": "l5c_society_issue",
@@ -1051,8 +1222,18 @@
         "example": "Older people are more vulnerable to heat.",
         "emoji": "🩹",
         "cefr": "B2"
+      },
+      {
+        "word": "alumnus",
+        "ipa": "/əˈlʌmnəs/",
+        "pos": "n.",
+        "zh": "男校友",
+        "example": "He is an alumnus of Oxford.",
+        "emoji": "🎓",
+        "cefr": "C1"
       }
-    ]
+    ],
+    "extends_from": "l2_city"
   },
   {
     "id": "l5c_environment_policy",
@@ -1166,8 +1347,36 @@
         "example": "Trees help mitigate urban heat.",
         "emoji": "🌳",
         "cefr": "B2"
+      },
+      {
+        "word": "sequestration",
+        "ipa": "/ˌsiːkwəˈstreɪʃn/",
+        "pos": "n.",
+        "zh": "封存",
+        "example": "Carbon sequestration removes CO2 from the air.",
+        "emoji": "🌲",
+        "cefr": "C2"
+      },
+      {
+        "word": "carbon-neutral",
+        "ipa": "/ˌkɑːbən ˈnjuːtrəl/",
+        "pos": "adj.",
+        "zh": "碳中和的",
+        "example": "The city aims to be carbon-neutral by 2040.",
+        "emoji": "🌍",
+        "cefr": "C1"
+      },
+      {
+        "word": "shortlist",
+        "ipa": "/ˈʃɔːtlɪst/",
+        "pos": "n.",
+        "zh": "入围名单",
+        "example": "Three candidates made the shortlist.",
+        "emoji": "📋",
+        "cefr": "C1"
       }
-    ]
+    ],
+    "extends_from": "l2_weather2"
   },
   {
     "id": "l5c_media_literacy",
@@ -1281,7 +1490,35 @@
         "example": "Readers demand greater transparency.",
         "emoji": "🔍",
         "cefr": "B2"
+      },
+      {
+        "word": "fact-checking",
+        "ipa": "/ˈfækt tʃekɪŋ/",
+        "pos": "n.",
+        "zh": "事实核查",
+        "example": "Fact-checking caught the false claim.",
+        "emoji": "✅",
+        "cefr": "C1"
+      },
+      {
+        "word": "filter bubble",
+        "ipa": "/ˈfɪltə(r) bʌbl/",
+        "pos": "n.",
+        "zh": "信息茧房",
+        "example": "Algorithms create a filter bubble around users.",
+        "emoji": "🫧",
+        "cefr": "C2"
+      },
+      {
+        "word": "timesheet",
+        "ipa": "/ˈtaɪmʃiːt/",
+        "pos": "n.",
+        "zh": "工时表",
+        "example": "Fill in your timesheet every Friday.",
+        "emoji": "🗓️",
+        "cefr": "C1"
       }
-    ]
+    ],
+    "extends_from": "l2_media"
   }
 ]

@@ -111,8 +111,18 @@
         "example": "The area is under surveillance.",
         "emoji": "📹",
         "cefr": "B1"
+      },
+      {
+        "word": "handcuffs",
+        "ipa": "/ˈhændkʌfs/",
+        "pos": "n.",
+        "zh": "手铐",
+        "example": "The officer put handcuffs on the thief.",
+        "emoji": "⛓️",
+        "cefr": "B2"
       }
-    ]
+    ],
+    "extends_from": "l2_safety"
   },
   {
     "id": "l5b_military",
@@ -227,7 +237,8 @@
         "emoji": "📣",
         "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_safety"
   },
   {
     "id": "l5b_diplomacy",
@@ -341,8 +352,79 @@
         "example": "Protocol requires a formal reply.",
         "emoji": "📋",
         "cefr": "B1"
+      },
+      {
+        "word": "council",
+        "ipa": "/ˈkaʊnsl/",
+        "pos": "n.",
+        "zh": "委员会",
+        "example": "The city council met on Friday.",
+        "emoji": "🗂️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "election",
+        "ipa": "/ɪˈlekʃn/",
+        "pos": "n.",
+        "zh": "选举",
+        "example": "The election is in May.",
+        "emoji": "📮",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "mayor",
+        "ipa": "/meə/",
+        "pos": "n.",
+        "zh": "市长",
+        "example": "The mayor opened the new road.",
+        "emoji": "🎗️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "protest",
+        "ipa": "/ˈprəʊtest/",
+        "pos": "n.",
+        "zh": "抗议",
+        "example": "The protest stayed peaceful.",
+        "emoji": "✊",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "reform",
+        "ipa": "/rɪˈfɔːm/",
+        "pos": "n.",
+        "zh": "改革",
+        "example": "The reform improved schools.",
+        "emoji": "🔄",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "resident",
+        "ipa": "/ˈrezɪdənt/",
+        "pos": "n.",
+        "zh": "居民",
+        "example": "Residents asked for a bus line.",
+        "emoji": "🏠",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "vote",
+        "ipa": "/vəʊt/",
+        "pos": "v.",
+        "zh": "投票",
+        "example": "Many young people vote early.",
+        "emoji": "🗳️",
+        "cefr": "B1",
+        "level": "l5"
       }
-    ]
+    ],
+    "extends_from": "l2_city"
   },
   {
     "id": "l5b_climate",
@@ -456,8 +538,117 @@
         "example": "The rainy season starts in June.",
         "emoji": "🍂",
         "cefr": "B1"
+      },
+      {
+        "word": "elm",
+        "ipa": "/elm/",
+        "pos": "n.",
+        "zh": "榆树",
+        "example": "The old elm shades the yard.",
+        "emoji": "🌿",
+        "cefr": "B1"
+      },
+      {
+        "word": "ash",
+        "ipa": "/æʃ/",
+        "pos": "n.",
+        "zh": "白蜡树",
+        "example": "Ash wood is strong and straight.",
+        "emoji": "🌳",
+        "cefr": "B1"
+      },
+      {
+        "word": "galaxy",
+        "ipa": "/ˈɡæləksi/",
+        "pos": "n.",
+        "zh": "星系",
+        "example": "Our galaxy has many stars.",
+        "emoji": "🌠",
+        "cefr": "B1"
+      },
+      {
+        "word": "satellite",
+        "ipa": "/ˈsætəlaɪt/",
+        "pos": "n.",
+        "zh": "卫星",
+        "example": "The satellite sends us pictures.",
+        "emoji": "📡",
+        "cefr": "B1"
+      },
+      {
+        "word": "alien",
+        "ipa": "/ˈeɪliən/",
+        "pos": "n.",
+        "zh": "外星人",
+        "example": "The film shows an alien visitor.",
+        "emoji": "👽",
+        "cefr": "B1"
+      },
+      {
+        "word": "snorkel",
+        "ipa": "/ˈsnɔːkl/",
+        "pos": "v.",
+        "zh": "浮潜",
+        "example": "We snorkeled near the coral reef.",
+        "emoji": "👓",
+        "cefr": "B1"
+      },
+      {
+        "word": "coast",
+        "ipa": "/kəʊst/",
+        "pos": "n.",
+        "zh": "海岸",
+        "example": "We drove along the coast.",
+        "emoji": "🏖️",
+        "cefr": "B1"
+      },
+      {
+        "word": "swamp",
+        "ipa": "/swɒmp/",
+        "pos": "n.",
+        "zh": "沼泽",
+        "example": "The swamp is full of frogs.",
+        "emoji": "🐸",
+        "cefr": "B1"
+      },
+      {
+        "word": "meadow",
+        "ipa": "/ˈmedəʊ/",
+        "pos": "n.",
+        "zh": "草地",
+        "example": "Cows grazed in the meadow.",
+        "emoji": "🌼",
+        "cefr": "B1"
+      },
+      {
+        "word": "magpie",
+        "ipa": "/ˈmæɡpaɪ/",
+        "pos": "n.",
+        "zh": "喜鹊",
+        "example": "A magpie sat on the fence.",
+        "emoji": "🐦",
+        "cefr": "B1"
+      },
+      {
+        "word": "stork",
+        "ipa": "/stɔːk/",
+        "pos": "n.",
+        "zh": "鹳",
+        "example": "The stork built a nest on the roof.",
+        "emoji": "🐥",
+        "cefr": "B1"
+      },
+      {
+        "word": "swallow",
+        "ipa": "/ˈswɒləʊ/",
+        "pos": "n.",
+        "zh": "燕子",
+        "example": "Swallows return in spring.",
+        "emoji": "🐦‍⬛",
+        "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_weather2"
   },
   {
     "id": "l5b_energy",
@@ -571,8 +762,27 @@
         "example": "We improved energy efficiency.",
         "emoji": "📈",
         "cefr": "B1"
+      },
+      {
+        "word": "meter",
+        "ipa": "/ˈmiːtə/",
+        "pos": "n.",
+        "zh": "计量表；米",
+        "example": "Smart meters phone home hourly.",
+        "emoji": "🔢",
+        "cefr": "B1"
+      },
+      {
+        "word": "recycling",
+        "ipa": "/ˌriːˈsaɪklɪŋ/",
+        "pos": "n.",
+        "zh": "回收利用",
+        "example": "Recycling rates stalled at forty-four percent.",
+        "emoji": "♻️",
+        "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_tech"
   },
   {
     "id": "l5b_pollution",
@@ -686,8 +896,117 @@
         "example": "Plants help purify the water.",
         "emoji": "💧",
         "cefr": "B1"
+      },
+      {
+        "word": "pelican",
+        "ipa": "/ˈpelɪkən/",
+        "pos": "n.",
+        "zh": "鹈鹕",
+        "example": "The pelican has a large beak.",
+        "emoji": "🦢",
+        "cefr": "B1"
+      },
+      {
+        "word": "hyena",
+        "ipa": "/haɪˈiːnə/",
+        "pos": "n.",
+        "zh": "鬣狗",
+        "example": "Hyenas hunt in groups.",
+        "emoji": "🐺",
+        "cefr": "B1"
+      },
+      {
+        "word": "moose",
+        "ipa": "/muːs/",
+        "pos": "n.",
+        "zh": "驼鹿",
+        "example": "A moose crossed the lake.",
+        "emoji": "🫎",
+        "cefr": "B1"
+      },
+      {
+        "word": "reindeer",
+        "ipa": "/ˈreɪndɪə(r)/",
+        "pos": "n.",
+        "zh": "驯鹿",
+        "example": "Reindeer live in the north.",
+        "emoji": "🦌",
+        "cefr": "B1"
+      },
+      {
+        "word": "bison",
+        "ipa": "/ˈbaɪsn/",
+        "pos": "n.",
+        "zh": "野牛",
+        "example": "Bison once roamed the plains.",
+        "emoji": "🐃",
+        "cefr": "B1"
+      },
+      {
+        "word": "chimpanzee",
+        "ipa": "/ˌtʃɪmpænˈziː/",
+        "pos": "n.",
+        "zh": "黑猩猩",
+        "example": "A chimpanzee learns by watching.",
+        "emoji": "🐒",
+        "cefr": "B1"
+      },
+      {
+        "word": "hurricane",
+        "ipa": "/ˈhʌrɪkən/",
+        "pos": "n.",
+        "zh": "飓风",
+        "example": "The hurricane destroyed many houses.",
+        "emoji": "🌀",
+        "cefr": "B1"
+      },
+      {
+        "word": "hail",
+        "ipa": "/heɪl/",
+        "pos": "n.",
+        "zh": "冰雹",
+        "example": "Hail damaged the young plants.",
+        "emoji": "🧊",
+        "cefr": "B1"
+      },
+      {
+        "word": "typhoon",
+        "ipa": "/taɪˈfuːn/",
+        "pos": "n.",
+        "zh": "台风",
+        "example": "The typhoon hit the coast on Sunday.",
+        "emoji": "🌪️",
+        "cefr": "B1"
+      },
+      {
+        "word": "avalanche",
+        "ipa": "/ˈævəlɑːnʃ/",
+        "pos": "n.",
+        "zh": "雪崩",
+        "example": "An avalanche blocked the mountain road.",
+        "emoji": "🏔️",
+        "cefr": "B1"
+      },
+      {
+        "word": "tsunami",
+        "ipa": "/tsuːˈnɑːmi/",
+        "pos": "n.",
+        "zh": "海啸",
+        "example": "The tsunami warning came early enough.",
+        "emoji": "🆘",
+        "cefr": "B1"
+      },
+      {
+        "word": "evacuate",
+        "ipa": "/ɪˈvækjueɪt/",
+        "pos": "v.",
+        "zh": "疏散",
+        "example": "The town was evacuated before the storm.",
+        "emoji": "🚨",
+        "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_nature"
   },
   {
     "id": "l5b_recycle",
@@ -801,8 +1120,45 @@
         "example": "Plastic takes years to decompose.",
         "emoji": "🦠",
         "cefr": "B1"
+      },
+      {
+        "word": "survivor",
+        "ipa": "/səˈvaɪvə(r)/",
+        "pos": "n.",
+        "zh": "幸存者",
+        "example": "The survivors waited for help.",
+        "emoji": "🙏",
+        "cefr": "B1"
+      },
+      {
+        "word": "eruption",
+        "ipa": "/ɪˈrʌpʃn/",
+        "pos": "n.",
+        "zh": "火山喷发",
+        "example": "The eruption covered the town in ash.",
+        "emoji": "🌋",
+        "cefr": "B1"
+      },
+      {
+        "word": "pebble",
+        "ipa": "/ˈpebl/",
+        "pos": "n.",
+        "zh": "鹅卵石",
+        "example": "She skipped a pebble across the water.",
+        "emoji": "🪨",
+        "cefr": "B1"
+      },
+      {
+        "word": "petal",
+        "ipa": "/ˈpetl/",
+        "pos": "n.",
+        "zh": "花瓣",
+        "example": "The wind blew the petals away.",
+        "emoji": "🌺",
+        "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_nature"
   },
   {
     "id": "l5b_agriculture",
@@ -916,8 +1272,19 @@
         "example": "The yield doubled in five years.",
         "emoji": "📊",
         "cefr": "B1"
+      },
+      {
+        "word": "fertile",
+        "ipa": "/ˈfɜːtaɪl/",
+        "pos": "adj.",
+        "zh": "肥沃的",
+        "example": "Fertile soil grows heavy crops.",
+        "emoji": "🌱",
+        "cefr": "B2",
+        "level": "C1"
       }
-    ]
+    ],
+    "extends_from": "l2_farm"
   },
   {
     "id": "l5b_industry",
@@ -1032,7 +1399,8 @@
         "emoji": "🚢",
         "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_buildings"
   },
   {
     "id": "l5b_construction",
@@ -1147,6 +1515,7 @@
         "emoji": "🔨",
         "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_buildings"
   }
 ]

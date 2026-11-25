@@ -13,9 +13,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-512-maskable.png'],
       manifest: {
-        name: '启程英语 · From A to World',
+        name: '启程英语',
         short_name: '启程英语',
-        description: '零基础闯关式英语学习，L1 字母启蒙到 L8 托福雅思冲刺。',
+        description: '零基础闯关式英语学习，16 级 1020 关，从 L1 字母启蒙直达托福雅思冲刺。',
         lang: 'zh-CN',
         theme_color: '#2F7CF6',
         background_color: '#ffffff',

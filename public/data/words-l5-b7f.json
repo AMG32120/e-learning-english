@@ -1,1037 +1,1195 @@
 [
- {
-  "id": "l9_edu_pedagogy",
-  "title": "教学法",
-  "emoji": "👩‍🏫",
-  "words": [
-   {
-    "word": "didactic",
-    "ipa": "/dɪˈdæktɪk/",
-    "pos": "adj.",
-    "zh": "教学的；说教的",
-    "example": "Didactic posters clutter less than lectures.",
-    "emoji": "📖",
-    "cefr": "C2"
-   },
-   {
-    "word": "nudge",
-    "ipa": "/nʌdʒ/",
-    "pos": "v./n.",
-    "zh": "轻推；温和提示",
-    "example": "A small nudge restarts stuck writers.",
-    "emoji": "👉",
-    "cefr": "C1"
-   },
-   {
-    "word": "differentiate",
-    "ipa": "/ˌdɪfəˈrenʃieɪt/",
-    "pos": "v.",
-    "zh": "差异化教学；区分",
-    "example": "Teachers differentiate tasks by readiness.",
-    "emoji": "🔀",
-    "cefr": "C1"
-   },
-   {
-    "word": "coax",
-    "ipa": "/kəʊks/",
-    "pos": "v.",
-    "zh": "哄劝；耐心引导",
-    "example": "Coax the shy pupil with two choices.",
-    "emoji": "🫱",
-    "cefr": "C2"
-   },
-   {
-    "word": "modelling",
-    "ipa": "/ˈmɒdəlɪŋ/",
-    "pos": "n.",
-    "zh": "示范教学",
-    "example": "Modelling beats explaining for handwriting.",
-    "emoji": "✍️",
-    "cefr": "C1"
-   },
-   {
-    "word": "questioning",
-    "ipa": "/ˈkwestʃənɪŋ/",
-    "pos": "n.",
-    "zh": "提问技巧",
-    "example": "Cold-call questioning keeps everyone alert.",
-    "emoji": "❓",
-    "cefr": "C1"
-   },
-   {
-    "word": "critique",
-    "ipa": "/krɪˈtiːk/",
-    "pos": "n./v.",
-    "zh": "评析；批评",
-    "example": "Structured critique spares feelings, not truth.",
-    "emoji": "🗒️",
-    "cefr": "C1"
-   },
-   {
-    "word": "metacognition",
-    "ipa": "/ˌmetəkɒgˈnɪʃn/",
-    "pos": "n.",
-    "zh": "元认知",
-    "example": "Metacognition turns effort into progress.",
-    "emoji": "🪞",
-    "cefr": "C2"
-   },
-   {
-    "word": "retrieval",
-    "ipa": "/rɪˈtriːvl/",
-    "pos": "n.",
-    "zh": "提取（记忆）",
-    "example": "Daily retrieval quizzes beat re-reading.",
-    "emoji": "🗃️",
-    "cefr": "C2"
-   },
-   {
-    "word": "mastery",
-    "ipa": "/ˈmɑːstəri/",
-    "pos": "n.",
-    "zh": "精通；掌握",
-    "example": "Mastery needs spaced returns, not cramming.",
-    "emoji": "🏅",
-    "cefr": "C1"
-   },
-   {
-    "word": "absorption",
-    "ipa": "/əbˈsɔːpʃn/",
-    "pos": "n.",
-    "zh": "专注投入；吸收",
-    "example": "Absorption shows in silent forgetting of time.",
-    "emoji": "🫧",
-    "cefr": "C2"
-   },
-   {
-    "word": "explicit",
-    "ipa": "/ɪkˈsplɪsɪt/",
-    "pos": "adj.",
-    "zh": "明晰的；直白的",
-    "example": "Explicit instruction helps novices most.",
-    "emoji": "📢",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l9_edu_curriculum",
-  "title": "课程与测评",
-  "emoji": "📚",
-  "words": [
-   {
-    "word": "practicum",
-    "ipa": "/ˈpræktɪkəm/",
-    "pos": "n.",
-    "zh": "实习课；实践科目",
-    "example": "The practicum places you in a real ward.",
-    "emoji": "🏥",
-    "cefr": "C2"
-   },
-   {
-    "word": "prospectus",
-    "ipa": "/prəˈspektəs/",
-    "pos": "n.",
-    "zh": "招生简章；计划书",
-    "example": "The prospectus promises studio space.",
-    "emoji": "📗",
-    "cefr": "C2"
-   },
-   {
-    "word": "grading",
-    "ipa": "/ˈgreɪdɪŋ/",
-    "pos": "n.",
-    "zh": "评分；分等级",
-    "example": "Anonymous grading calms bias.",
-    "emoji": "✒️",
-    "cefr": "C1"
-   },
-   {
-    "word": "formative",
-    "ipa": "/ˈfɔːmətɪv/",
-    "pos": "adj.",
-    "zh": "形成性的；塑造期",
-    "example": "Formative quizzes steer the next lesson.",
-    "emoji": "🌱",
-    "cefr": "C2"
-   },
-   {
-    "word": "summative",
-    "ipa": "/ˈsʌmətɪv/",
-    "pos": "adj.",
-    "zh": "终结性的",
-    "example": "Summative exams arrive in June.",
-    "emoji": "🏁",
-    "cefr": "C2"
-   },
-   {
-    "word": "rubric",
-    "ipa": "/ˈruːbrɪk/",
-    "pos": "n.",
-    "zh": "评分标准；说明",
-    "example": "The rubric names four criteria.",
-    "emoji": "📋",
-    "cefr": "C1"
-   },
-   {
-    "word": "standardisation",
-    "ipa": "/ˌstændədaɪˈzeɪʃn/",
-    "pos": "n.",
-    "zh": "标准化",
-    "example": "Standardisation spreads best practice.",
-    "emoji": "📏",
-    "cefr": "C2"
-   },
-   {
-    "word": "attainment",
-    "ipa": "/əˈteɪnmənt/",
-    "pos": "n.",
-    "zh": "学业成就",
-    "example": "Attainment gaps narrow with tutoring.",
-    "emoji": "📊",
-    "cefr": "C1"
-   },
-   {
-    "word": "comprehension",
-    "ipa": "/ˌkɒmprɪˈhenʃn/",
-    "pos": "n.",
-    "zh": "理解（力）",
-    "example": "Comprehension grows on rereading.",
-    "emoji": "🧠",
-    "cefr": "B2"
-   },
-   {
-    "word": "numeracy",
-    "ipa": "/ˈnjuːmərəsi/",
-    "pos": "n.",
-    "zh": "计算能力",
-    "example": "Numeracy hides inside cooking and sport.",
-    "emoji": "🔢",
-    "cefr": "C1"
-   },
-   {
-    "word": "attrition",
-    "ipa": "/əˈtrɪʃn/",
-    "pos": "n.",
-    "zh": "（人数）流失；消耗",
-    "example": "Attrition thins the cohort by spring.",
-    "emoji": "🍂",
-    "cefr": "C2"
-   },
-   {
-    "word": "matriculation",
-    "ipa": "/məˌtrɪkjuˈleɪʃn/",
-    "pos": "n.",
-    "zh": "注册入学",
-    "example": "Matriculation closed a week early.",
-    "emoji": "🖊️",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_edu_higher",
-  "title": "高等教育",
-  "emoji": "🎓",
-  "words": [
-   {
-    "word": "undergraduate",
-    "ipa": "/ˌʌndəˈgrædʒuət/",
-    "pos": "n.",
-    "zh": "本科生",
-    "example": "Undergraduates run the astronomy club.",
-    "emoji": "🧑‍🎓",
-    "cefr": "C1"
-   },
-   {
-    "word": "postgraduate",
-    "ipa": "/ˌpəʊstˈgrædʒuət/",
-    "pos": "n./adj.",
-    "zh": "研究生",
-    "example": "Postgraduate seminars meet fortnightly.",
-    "emoji": "📗",
-    "cefr": "C1"
-   },
-   {
-    "word": "faculty",
-    "ipa": "/ˈfæklti/",
-    "pos": "n.",
-    "zh": "全体教员；院系",
-    "example": "The faculty voted to keep finals.",
-    "emoji": "🏫",
-    "cefr": "C1"
-   },
-   {
-    "word": "professorship",
-    "ipa": "/prəˈfesəʃɪp/",
-    "pos": "n.",
-    "zh": "教授职位",
-    "example": "The professorship endowed in 1908.",
-    "emoji": "🎓",
-    "cefr": "C2"
-   },
-   {
-    "word": "contention",
-    "ipa": "/kənˈtenʃn/",
-    "pos": "n.",
-    "zh": "论点；争执",
-    "example": "The opening paragraph states the contention.",
-    "emoji": "📌",
-    "cefr": "C2"
-   },
-   {
-    "word": "monograph",
-    "ipa": "/ˈmɒnəgrɑːf/",
-    "pos": "n.",
-    "zh": "专著",
-    "example": "Her monograph reprints the maps.",
-    "emoji": "📕",
-    "cefr": "C2"
-   },
-   {
-    "word": "glossing",
-    "ipa": "/ˈglɒsɪŋ/",
-    "pos": "n.",
-    "zh": "注释；评注",
-    "example": "Glossing every third word helps beginners.",
-    "emoji": "📎",
-    "cefr": "C2"
-   },
-   {
-    "word": "peer-review",
-    "ipa": "/ˈpɪə rɪˌvjuː/",
-    "pos": "n.",
-    "zh": "同行评审",
-    "example": "Peer-review delays most breakthroughs.",
-    "emoji": "👥",
-    "cefr": "C1"
-   },
-   {
-    "word": "studentship",
-    "ipa": "/ˈstjuːdntʃɪp/",
-    "pos": "n.",
-    "zh": "研究生奖学金",
-    "example": "The studentship covers three years.",
-    "emoji": "📘",
-    "cefr": "C2"
-   },
-   {
-    "word": "matriculate",
-    "ipa": "/məˈtrɪkjuleɪt/",
-    "pos": "v.",
-    "zh": "注册入学",
-    "example": "He matriculated in September 2019.",
-    "emoji": "🖊️",
-    "cefr": "C2"
-   },
-   {
-    "word": "hall-of-residence",
-    "ipa": "/hɔːl ɒv ˈrezɪdəns/",
-    "pos": "n.",
-    "zh": "学生宿舍楼",
-    "example": "The hall-of-residence fills by August.",
-    "emoji": "🏨",
-    "cefr": "C2"
-   },
-   {
-    "word": "secondment",
-    "ipa": "/sɪˈkɒndmənt/",
-    "pos": "n.",
-    "zh": "借调；外派",
-    "example": "A two-year secondment broadened her network.",
-    "emoji": "📤",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_edu_media",
-  "title": "媒介研究",
-  "emoji": "📺",
-  "words": [
-   {
-    "word": "transmission",
-    "ipa": "/trænsˈmɪʃn/",
-    "pos": "n.",
-    "zh": "播送；传送",
-    "example": "The transmission wobbled during the storm.",
-    "emoji": "📡",
-    "cefr": "C1"
-   },
-   {
-    "word": "newsroom",
-    "ipa": "/ˈnjuːzruːm/",
-    "pos": "n.",
-    "zh": "新闻编辑室",
-    "example": "The newsroom fell silent at four.",
-    "emoji": "🗞️",
-    "cefr": "C1"
-   },
-   {
-    "word": "wire",
-    "ipa": "/ˈwaɪə/",
-    "pos": "n.",
-    "zh": "通讯社稿电",
-    "example": "The wire carried the armistice first.",
-    "emoji": "🪢",
-    "cefr": "C2"
-   },
-   {
-    "word": "correspondent",
-    "ipa": "/ˌkɒrɪˈspɒndənt/",
-    "pos": "n.",
-    "zh": "驻外记者；通信者",
-    "example": "Our correspondent filed at midnight.",
-    "emoji": "✈️",
-    "cefr": "C1"
-   },
-   {
-    "word": "caption",
-    "ipa": "/ˈkæpʃn/",
-    "pos": "n.",
-    "zh": "说明文字；字幕",
-    "example": "Captions correct what pictures omit.",
-    "emoji": "🖼️",
-    "cefr": "C1"
-   },
-   {
-    "word": "exclusive",
-    "ipa": "/ɪkˈskluːsɪv/",
-    "pos": "n./adj.",
-    "zh": "独家报道；独有的",
-    "example": "The exclusive ran across four pages.",
-    "emoji": "🚪",
-    "cefr": "C1"
-   },
-   {
-    "word": "timeframe",
-    "ipa": "/ˈtaɪmfreɪm/",
-    "pos": "n.",
-    "zh": "时间范围；期限",
-    "example": "The timeframe shrank from six weeks to nine days.",
-    "emoji": "⏱️",
-    "cefr": "C1"
-   },
-   {
-    "word": "byline",
-    "ipa": "/ˈbaɪlaɪn/",
-    "pos": "n.",
-    "zh": "（文章）署名行",
-    "example": "Her byline travelled abroad for the first time.",
-    "emoji": "✒️",
-    "cefr": "C2"
-   },
-   {
-    "word": "fact-check",
-    "ipa": "/ˈfækt tʃek/",
-    "pos": "v.",
-    "zh": "事实核查",
-    "example": "Fact-check every claim twice.",
-    "emoji": "☑️",
-    "cefr": "C1"
-   },
-   {
-    "word": "slant",
-    "ipa": "/slɑːnt/",
-    "pos": "n.",
-    "zh": "倾向；歪斜",
-    "example": "Every retelling carries a slant.",
-    "emoji": "📐",
-    "cefr": "C2"
-   },
-   {
-    "word": "tabloid",
-    "ipa": "/ˈtæblɔɪd/",
-    "pos": "n./adj.",
-    "zh": "小报；小报风格的",
-    "example": "Tabloid headlines shout in short words.",
-    "emoji": "📰",
-    "cefr": "C1"
-   },
-   {
-    "word": "spin-doctor",
-    "ipa": "/ˈspɪn ˌdɒktə/",
-    "pos": "n.",
-    "zh": "舆论操盘手",
-    "example": "The spin-doctor phoned before dinner.",
-    "emoji": "🎯",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_com_theory",
-  "title": "传播理论",
-  "emoji": "📡",
-  "words": [
-   {
-    "word": "conduit",
-    "ipa": "/ˈkɒndjuɪt/",
-    "pos": "n.",
-    "zh": "管道；渠道",
-    "example": "Rumours need a conduit, not a reason.",
-    "emoji": "🔧",
-    "cefr": "C2"
-   },
-   {
-    "word": "feedback-loop",
-    "ipa": "/ˈfiːdbæk luːp/",
-    "pos": "n.",
-    "zh": "反馈回路",
-    "example": "Audience reaction closes the feedback-loop.",
-    "emoji": "🔄",
-    "cefr": "C1"
-   },
-   {
-    "word": "encoding",
-    "ipa": "/ɪnˈkəʊdɪŋ/",
-    "pos": "n.",
-    "zh": "编码",
-    "example": "Encoding bends the message to the maker.",
-    "emoji": "🔏",
-    "cefr": "C2"
-   },
-   {
-    "word": "decoding",
-    "ipa": "/ˌdiːˈkəʊdɪŋ/",
-    "pos": "n.",
-    "zh": "解码",
-    "example": "Decoding varies with every audience.",
-    "emoji": "🔓",
-    "cefr": "C2"
-   },
-   {
-    "word": "agenda-setting",
-    "ipa": "/əˈdʒendə ˌsetɪŋ/",
-    "pos": "n.",
-    "zh": "议程设置",
-    "example": "Agenda-setting decides what counts as news.",
-    "emoji": "📅",
-    "cefr": "C2"
-   },
-   {
-    "word": "vantage",
-    "ipa": "/ˈvɑːntɪdʒ/",
-    "pos": "n.",
-    "zh": "有利位置；视角",
-    "example": "From that vantage, the strike looks personal.",
-    "emoji": "🔭",
-    "cefr": "C2"
-   },
-   {
-    "word": "gatekeeper",
-    "ipa": "/ˈgeɪtˌkiːpə/",
-    "pos": "n.",
-    "zh": "把关人",
-    "example": "Editors remain the main gatekeepers.",
-    "emoji": "🚪",
-    "cefr": "C2"
-   },
-   {
-    "word": "two-step-flow",
-    "ipa": "/ˌtuː step ˈfləʊ/",
-    "pos": "n.",
-    "zh": "两级传播",
-    "example": "Opinion leaders drive the two-step-flow.",
-    "emoji": "➡️",
-    "cefr": "C2"
-   },
-   {
-    "word": "purge",
-    "ipa": "/pɜːdʒ/",
-    "pos": "n./v.",
-    "zh": "宣泄；清洗",
-    "example": "Tragedy purges pity and fear.",
-    "emoji": "💧",
-    "cefr": "C2"
-   },
-   {
-    "word": "uses-and-gratifications",
-    "ipa": "/ˌjuːsɪz ənd ˌgrætɪfɪˈkeɪʃnz/",
-    "pos": "n.",
-    "zh": "使用与满足理论",
-    "example": "Uses-and-gratifications asks why we watch.",
-    "emoji": "🎁",
-    "cefr": "C2"
-   },
-   {
-    "word": "conditioning",
-    "ipa": "/kənˈdɪʃənɪŋ/",
-    "pos": "n.",
-    "zh": "条件作用；熏陶",
-    "example": "Decades of conditioning link crime to night.",
-    "emoji": "🎛️",
-    "cefr": "C1"
-   },
-   {
-    "word": "semiotic",
-    "ipa": "/ˌsemiˈɒtɪk/",
-    "pos": "adj.",
-    "zh": "符号学的",
-    "example": "A semiotic reading finds myth in adverts.",
-    "emoji": "🔍",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_com_rhetoric",
-  "title": "修辞学",
-  "emoji": "🗣️",
-  "words": [
-   {
-    "word": "oratory",
-    "ipa": "/ˈɒrətri/",
-    "pos": "n.",
-    "zh": "演讲术；雄辩",
-    "example": "Cicero taught oratory by example.",
-    "emoji": "🏛️",
-    "cefr": "C2"
-   },
-   {
-    "word": "ethos",
-    "ipa": "/ˈiːθɒs/",
-    "pos": "n.",
-    "zh": "气质；信誉诉求",
-    "example": "Ethos persuades through character.",
-    "emoji": "🧑‍⚖️",
-    "cefr": "C2"
-   },
-   {
-    "word": "pathos",
-    "ipa": "/ˈpeɪθɒs/",
-    "pos": "n.",
-    "zh": "悲怆；情感诉求",
-    "example": "Pathos carries charity adverts.",
-    "emoji": "💧",
-    "cefr": "C2"
-   },
-   {
-    "word": "logos",
-    "ipa": "/ˈlɒgɒs/",
-    "pos": "n.",
-    "zh": "逻辑诉求；理性",
-    "example": "Logos demands numbers, not tears.",
-    "emoji": "📊",
-    "cefr": "C2"
-   },
-   {
-    "word": "kairos",
-    "ipa": "/ˈkaɪrɒs/",
-    "pos": "n.",
-    "zh": "时机（修辞）",
-    "example": "Kairos made the apology land.",
-    "emoji": "⏰",
-    "cefr": "C2"
-   },
-   {
-    "word": "oration",
-    "ipa": "/ɔːˈreɪʃn/",
-    "pos": "n.",
-    "zh": "演说",
-    "example": "The oration ran twenty minutes.",
-    "emoji": "🎙️",
-    "cefr": "C2"
-   },
-   {
-    "word": "anaphora",
-    "ipa": "/əˈnæfərə/",
-    "pos": "n.",
-    "zh": "首语重复法",
-    "example": "Anaphora built the dream speech.",
-    "emoji": "🔁",
-    "cefr": "C2"
-   },
-   {
-    "word": "antithesis",
-    "ipa": "/ænˈtɪθəsɪs/",
-    "pos": "n.",
-    "zh": "对偶；对立面",
-    "example": "Antithesis sets ask against give.",
-    "emoji": "⚖️",
-    "cefr": "C2"
-   },
-   {
-    "word": "hyperbole",
-    "ipa": "/haɪˈpɜːbəli/",
-    "pos": "n.",
-    "zh": "夸张",
-    "example": "Hyperbole sells cereal and elections.",
-    "emoji": "📣",
-    "cefr": "C1"
-   },
-   {
-    "word": "understatement",
-    "ipa": "/ˈʌndəˌsteɪtmənt/",
-    "pos": "n.",
-    "zh": "轻描淡写",
-    "example": "British understatement hides pride.",
-    "emoji": "🇬🇧",
-    "cefr": "C1"
-   },
-   {
-    "word": "repartee",
-    "ipa": "/ˌrepəˈtiː/",
-    "pos": "n.",
-    "zh": "机敏应答；妙语",
-    "example": "Their repartee kept the panel lively.",
-    "emoji": "⚡",
-    "cefr": "C2"
-   },
-   {
-    "word": "eloquence",
-    "ipa": "/ˈeləkwəns/",
-    "pos": "n.",
-    "zh": "雄辩；口才",
-    "example": "Eloquence, unplugged, still moves rooms.",
-    "emoji": "🎤",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l9_com_publish",
-  "title": "出版与编辑",
-  "emoji": "🖨️",
-  "words": [
-   {
-    "word": "folio",
-    "ipa": "/ˈfəʊliəʊ/",
-    "pos": "n.",
-    "zh": "对开本；页码",
-    "example": "Folio forty-one carries the signature.",
-    "emoji": "📜",
-    "cefr": "C2"
-   },
-   {
-    "word": "proofread",
-    "ipa": "/ˈpruːfriːd/",
-    "pos": "v.",
-    "zh": "校对",
-    "example": "Proofread backwards to catch typos.",
-    "emoji": "🔍",
-    "cefr": "C1"
-   },
-   {
-    "word": "typography",
-    "ipa": "/taɪˈpɒgrəfi/",
-    "pos": "n.",
-    "zh": "排版；字体设计",
-    "example": "Typography whispers before words speak.",
-    "emoji": "🔤",
-    "cefr": "C1"
-   },
-   {
-    "word": "typeset",
-    "ipa": "/ˈtaɪpset/",
-    "pos": "v.",
-    "zh": "排版",
-    "example": "Typeset the poem with room to breathe.",
-    "emoji": "📐",
-    "cefr": "C2"
-   },
-   {
-    "word": "galley",
-    "ipa": "/ˈgæli/",
-    "pos": "n.",
-    "zh": "（印）校样",
-    "example": "Galleys went out to six reviewers.",
-    "emoji": "🚢",
-    "cefr": "C2"
-   },
-   {
-    "word": "masthead",
-    "ipa": "/ˈmɑːsthed/",
-    "pos": "n.",
-    "zh": "报头；刊头",
-    "example": "The masthead lists forty names.",
-    "emoji": "📰",
-    "cefr": "C2"
-   },
-   {
-    "word": "print-run",
-    "ipa": "/ˈprɪnt rʌn/",
-    "pos": "n.",
-    "zh": "印量；印次",
-    "example": "The first print-run sold out in days.",
-    "emoji": "🖨️",
-    "cefr": "C2"
-   },
-   {
-    "word": "bestseller",
-    "ipa": "/ˌbestˈselə/",
-    "pos": "n.",
-    "zh": "畅销书",
-    "example": "The bestseller began as a blog.",
-    "emoji": "🏆",
-    "cefr": "C1"
-   },
-   {
-    "word": "omnibus",
-    "ipa": "/ˈɒmnɪbəs/",
-    "pos": "n.",
-    "zh": "合集本；公交车",
-    "example": "The omnibus collects all four novels.",
+  {
+    "id": "l9_edu_pedagogy",
+    "title": "教学法",
+    "emoji": "👩‍🏫",
+    "words": [
+      {
+        "word": "didactic",
+        "ipa": "/dɪˈdæktɪk/",
+        "pos": "adj.",
+        "zh": "教学的；说教的",
+        "example": "Didactic posters clutter less than lectures.",
+        "emoji": "📖",
+        "cefr": "C2"
+      },
+      {
+        "word": "nudge",
+        "ipa": "/nʌdʒ/",
+        "pos": "v./n.",
+        "zh": "轻推；温和提示",
+        "example": "A small nudge restarts stuck writers.",
+        "emoji": "👉",
+        "cefr": "C1"
+      },
+      {
+        "word": "differentiate",
+        "ipa": "/ˌdɪfəˈrenʃieɪt/",
+        "pos": "v.",
+        "zh": "差异化教学；区分",
+        "example": "Teachers differentiate tasks by readiness.",
+        "emoji": "🔀",
+        "cefr": "C1"
+      },
+      {
+        "word": "coax",
+        "ipa": "/kəʊks/",
+        "pos": "v.",
+        "zh": "哄劝；耐心引导",
+        "example": "Coax the shy pupil with two choices.",
+        "emoji": "🫱",
+        "cefr": "C2"
+      },
+      {
+        "word": "modelling",
+        "ipa": "/ˈmɒdəlɪŋ/",
+        "pos": "n.",
+        "zh": "示范教学",
+        "example": "Modelling beats explaining for handwriting.",
+        "emoji": "✍️",
+        "cefr": "C1"
+      },
+      {
+        "word": "questioning",
+        "ipa": "/ˈkwestʃənɪŋ/",
+        "pos": "n.",
+        "zh": "提问技巧",
+        "example": "Cold-call questioning keeps everyone alert.",
+        "emoji": "❓",
+        "cefr": "C1"
+      },
+      {
+        "word": "critique",
+        "ipa": "/krɪˈtiːk/",
+        "pos": "n./v.",
+        "zh": "评析；批评",
+        "example": "Structured critique spares feelings, not truth.",
+        "emoji": "🗒️",
+        "cefr": "C1"
+      },
+      {
+        "word": "metacognition",
+        "ipa": "/ˌmetəkɒgˈnɪʃn/",
+        "pos": "n.",
+        "zh": "元认知",
+        "example": "Metacognition turns effort into progress.",
+        "emoji": "🪞",
+        "cefr": "C2"
+      },
+      {
+        "word": "retrieval",
+        "ipa": "/rɪˈtriːvl/",
+        "pos": "n.",
+        "zh": "提取（记忆）",
+        "example": "Daily retrieval quizzes beat re-reading.",
+        "emoji": "🗃️",
+        "cefr": "C2"
+      },
+      {
+        "word": "mastery",
+        "ipa": "/ˈmɑːstəri/",
+        "pos": "n.",
+        "zh": "精通；掌握",
+        "example": "Mastery needs spaced returns, not cramming.",
+        "emoji": "🏅",
+        "cefr": "C1"
+      },
+      {
+        "word": "absorption",
+        "ipa": "/əbˈsɔːpʃn/",
+        "pos": "n.",
+        "zh": "专注投入；吸收",
+        "example": "Absorption shows in silent forgetting of time.",
+        "emoji": "🫧",
+        "cefr": "C2"
+      },
+      {
+        "word": "explicit",
+        "ipa": "/ɪkˈsplɪsɪt/",
+        "pos": "adj.",
+        "zh": "明晰的；直白的",
+        "example": "Explicit instruction helps novices most.",
+        "emoji": "📢",
+        "cefr": "C1"
+      },
+      {
+        "word": "flipped classroom",
+        "ipa": "/ˌflɪpt ˈklɑːsruːm/",
+        "pos": "n.",
+        "zh": "翻转课堂",
+        "example": "A flipped classroom moves lectures online.",
+        "emoji": "🔁",
+        "cefr": "C2"
+      },
+      {
+        "word": "instruction",
+        "ipa": "/ɪnˈstrʌkʃn/",
+        "pos": "n.",
+        "zh": "教学",
+        "example": "Instruction adapts to each learner.",
+        "emoji": "📚",
+        "cefr": "C2",
+        "level": "C1"
+      }
+    ],
+    "extends_from": "l2_school"
+  },
+  {
+    "id": "l9_edu_curriculum",
+    "title": "课程与测评",
     "emoji": "📚",
-    "cefr": "C2"
-   },
-   {
-    "word": "abridge",
-    "ipa": "/əˈbrɪdʒ/",
-    "pos": "v.",
-    "zh": "节略；删节",
-    "example": "Childrens editions abridge freely.",
-    "emoji": "✂️",
-    "cefr": "C2"
-   },
-   {
-    "word": "blurbage",
-    "ipa": "",
-    "pos": "",
-    "zh": "",
-    "example": "",
-    "emoji": "",
-    "cefr": ""
-   },
-   {
-    "word": "foreword",
-    "ipa": "/ˈfɔːwɜːd/",
-    "pos": "n.",
-    "zh": "序言",
-    "example": "Her foreword praises the translator.",
-    "emoji": "📖",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_com_info",
-  "title": "信息素养",
-  "emoji": "🧠",
-  "words": [
-   {
-    "word": "vault",
-    "ipa": "/vɔːlt/",
-    "pos": "n.",
-    "zh": "（档案）库；金库",
-    "example": "The newspaper vault keeps every edition.",
-    "emoji": "🏦",
-    "cefr": "C2"
-   },
-   {
-    "word": "catalogue",
-    "ipa": "/ˈkætəlɒg/",
-    "pos": "n./v.",
-    "zh": "目录；编目",
-    "example": "The catalogue spans three centuries.",
-    "emoji": "🗂️",
-    "cefr": "B2"
-   },
-   {
-    "word": "register",
-    "ipa": "/ˈredʒɪstə/",
-    "pos": "n.",
-    "zh": "登记簿；语域",
-    "example": "The register lists every borrower.",
-    "emoji": "📒",
-    "cefr": "C1"
-   },
-   {
-    "word": "metadata",
-    "ipa": "/ˈmetədeɪtə/",
-    "pos": "n.",
-    "zh": "元数据",
-    "example": "Metadata betrays the photo location.",
-    "emoji": "🏷️",
-    "cefr": "C1"
-   },
-   {
-    "word": "directory",
-    "ipa": "/dəˈrektəri/",
-    "pos": "n.",
-    "zh": "名录；目录",
-    "example": "A trade directory mapped the whole street.",
-    "emoji": "📇",
-    "cefr": "C1"
-   },
-   {
-    "word": "search-engine",
-    "ipa": "/ˈsɜːtʃ en(d)ʒɪn/",
-    "pos": "n.",
-    "zh": "搜索引擎",
-    "example": "Search-engine habits shape curiosity.",
-    "emoji": "🔎",
-    "cefr": "B2"
-   },
-   {
-    "word": "keyword",
-    "ipa": "/ˈkiːwɜːd/",
-    "pos": "n.",
-    "zh": "关键词",
-    "example": "Two keywords beat ten vague ones.",
-    "emoji": "🔑",
-    "cefr": "B1"
-   },
-   {
-    "word": "provenance",
-    "ipa": "/ˈprɒvənəns/",
-    "pos": "n.",
-    "zh": "出处；来历",
-    "example": "Provenance decides whether the letter counts.",
-    "emoji": "🧾",
-    "cefr": "C2"
-   },
-   {
-    "word": "verification",
-    "ipa": "/ˌverɪfɪˈkeɪʃn/",
-    "pos": "n.",
-    "zh": "核实；验证",
-    "example": "Verification takes minutes and saves careers.",
-    "emoji": "✅",
-    "cefr": "C1"
-   },
-   {
-    "word": "hoax",
-    "ipa": "/həʊks/",
-    "pos": "n.",
-    "zh": "骗局；恶作剧",
-    "example": "The hoax fooled three ministries.",
-    "emoji": "🃏",
-    "cefr": "C1"
-   },
-   {
-    "word": "chatbot",
-    "ipa": "/ˈtʃɒtbɒt/",
-    "pos": "n.",
-    "zh": "聊天机器人",
-    "example": "The chatbot filed the complaint politely.",
-    "emoji": "🤖",
-    "cefr": "C1"
-   },
-   {
-    "word": "cite",
-    "ipa": "/saɪt/",
-    "pos": "v.",
-    "zh": "引用；引证",
-    "example": "Cite the page, not the memory.",
-    "emoji": "🔖",
-    "cefr": "B2"
-   }
-  ]
- },
- {
-  "id": "l9_com_global",
-  "title": "全球传播与本地化",
-  "emoji": "🌐",
-  "words": [
-   {
-    "word": "localisation",
-    "ipa": "/ˌləʊkəlaɪˈzeɪʃn/",
-    "pos": "n.",
-    "zh": "本地化",
-    "example": "Localisation rewrote every joke for Tokyo.",
-    "emoji": "🌐",
-    "cefr": "C1"
-   },
-   {
-    "word": "interpreter",
-    "ipa": "/ɪnˈtɜːprɪtə/",
-    "pos": "n.",
-    "zh": "口译员",
-    "example": "The interpreter kept pace for two hours.",
-    "emoji": "🎧",
-    "cefr": "C1"
-   },
-   {
-    "word": "captioning",
-    "ipa": "/ˈkæpʃənɪŋ/",
-    "pos": "n.",
-    "zh": "字幕制作",
-    "example": "Live captioning improved accessibility hugely.",
-    "emoji": "💬",
-    "cefr": "C2"
-   },
-   {
-    "word": "lip-sync",
-    "ipa": "/ˈlɪp sɪŋk/",
-    "pos": "n.",
-    "zh": "对口型；假唱",
-    "example": "Lip-sync contests close the festival.",
-    "emoji": "👄",
-    "cefr": "C2"
-   },
-   {
-    "word": "voiceover",
-    "ipa": "/ˈvɔɪsˌəʊvə/",
-    "pos": "n.",
-    "zh": "旁白；画外音",
-    "example": "The voiceover whispers over rain.",
-    "emoji": "🔊",
-    "cefr": "C2"
-   },
-   {
-    "word": "Esperanto",
-    "ipa": "/ˌespəˈrɒntəʊ/",
-    "pos": "n.",
-    "zh": "世界语",
-    "example": "Esperanto promised peace through grammar.",
-    "emoji": "🕊️",
-    "cefr": "C2"
-   },
-   {
-    "word": "teleprompter",
-    "ipa": "/ˈtelɪˌprɒmptə/",
-    "pos": "n.",
-    "zh": "提词器",
-    "example": "The teleprompter scrolled too fast.",
+    "words": [
+      {
+        "word": "practicum",
+        "ipa": "/ˈpræktɪkəm/",
+        "pos": "n.",
+        "zh": "实习课；实践科目",
+        "example": "The practicum places you in a real ward.",
+        "emoji": "🏥",
+        "cefr": "C2"
+      },
+      {
+        "word": "prospectus",
+        "ipa": "/prəˈspektəs/",
+        "pos": "n.",
+        "zh": "招生简章；计划书",
+        "example": "The prospectus promises studio space.",
+        "emoji": "📗",
+        "cefr": "C2"
+      },
+      {
+        "word": "grading",
+        "ipa": "/ˈgreɪdɪŋ/",
+        "pos": "n.",
+        "zh": "评分；分等级",
+        "example": "Anonymous grading calms bias.",
+        "emoji": "✒️",
+        "cefr": "C1"
+      },
+      {
+        "word": "formative",
+        "ipa": "/ˈfɔːmətɪv/",
+        "pos": "adj.",
+        "zh": "形成性的；塑造期",
+        "example": "Formative quizzes steer the next lesson.",
+        "emoji": "🌱",
+        "cefr": "C2"
+      },
+      {
+        "word": "summative",
+        "ipa": "/ˈsʌmətɪv/",
+        "pos": "adj.",
+        "zh": "终结性的",
+        "example": "Summative exams arrive in June.",
+        "emoji": "🏁",
+        "cefr": "C2"
+      },
+      {
+        "word": "rubric",
+        "ipa": "/ˈruːbrɪk/",
+        "pos": "n.",
+        "zh": "评分标准；说明",
+        "example": "The rubric names four criteria.",
+        "emoji": "📋",
+        "cefr": "C1"
+      },
+      {
+        "word": "standardisation",
+        "ipa": "/ˌstændədaɪˈzeɪʃn/",
+        "pos": "n.",
+        "zh": "标准化",
+        "example": "Standardisation spreads best practice.",
+        "emoji": "📏",
+        "cefr": "C2"
+      },
+      {
+        "word": "attainment",
+        "ipa": "/əˈteɪnmənt/",
+        "pos": "n.",
+        "zh": "学业成就",
+        "example": "Attainment gaps narrow with tutoring.",
+        "emoji": "📊",
+        "cefr": "C1"
+      },
+      {
+        "word": "comprehension",
+        "ipa": "/ˌkɒmprɪˈhenʃn/",
+        "pos": "n.",
+        "zh": "理解（力）",
+        "example": "Comprehension grows on rereading.",
+        "emoji": "🧠",
+        "cefr": "B2"
+      },
+      {
+        "word": "numeracy",
+        "ipa": "/ˈnjuːmərəsi/",
+        "pos": "n.",
+        "zh": "计算能力",
+        "example": "Numeracy hides inside cooking and sport.",
+        "emoji": "🔢",
+        "cefr": "C1"
+      },
+      {
+        "word": "attrition",
+        "ipa": "/əˈtrɪʃn/",
+        "pos": "n.",
+        "zh": "（人数）流失；消耗",
+        "example": "Attrition thins the cohort by spring.",
+        "emoji": "🍂",
+        "cefr": "C2"
+      },
+      {
+        "word": "matriculation",
+        "ipa": "/məˌtrɪkjuˈleɪʃn/",
+        "pos": "n.",
+        "zh": "注册入学",
+        "example": "Matriculation closed a week early.",
+        "emoji": "🖊️",
+        "cefr": "C2"
+      },
+      {
+        "word": "elective",
+        "ipa": "/ɪˈlektɪv/",
+        "pos": "n.",
+        "zh": "选修课",
+        "example": "She chose photography as an elective.",
+        "emoji": "📷",
+        "cefr": "C1"
+      },
+      {
+        "word": "timetable",
+        "ipa": "/ˈtaɪmteɪbl/",
+        "pos": "n.",
+        "zh": "课程表",
+        "example": "The timetable balances subjects all week.",
+        "emoji": "🗓️",
+        "cefr": "B2"
+      }
+    ],
+    "extends_from": "l2_school"
+  },
+  {
+    "id": "l9_edu_higher",
+    "title": "高等教育",
+    "emoji": "🎓",
+    "words": [
+      {
+        "word": "undergraduate",
+        "ipa": "/ˌʌndəˈgrædʒuət/",
+        "pos": "n.",
+        "zh": "本科生",
+        "example": "Undergraduates run the astronomy club.",
+        "emoji": "🧑‍🎓",
+        "cefr": "C1"
+      },
+      {
+        "word": "postgraduate",
+        "ipa": "/ˌpəʊstˈgrædʒuət/",
+        "pos": "n./adj.",
+        "zh": "研究生",
+        "example": "Postgraduate seminars meet fortnightly.",
+        "emoji": "📗",
+        "cefr": "C1"
+      },
+      {
+        "word": "faculty",
+        "ipa": "/ˈfæklti/",
+        "pos": "n.",
+        "zh": "全体教员；院系",
+        "example": "The faculty voted to keep finals.",
+        "emoji": "🏫",
+        "cefr": "C1"
+      },
+      {
+        "word": "professorship",
+        "ipa": "/prəˈfesəʃɪp/",
+        "pos": "n.",
+        "zh": "教授职位",
+        "example": "The professorship endowed in 1908.",
+        "emoji": "🎓",
+        "cefr": "C2"
+      },
+      {
+        "word": "contention",
+        "ipa": "/kənˈtenʃn/",
+        "pos": "n.",
+        "zh": "论点；争执",
+        "example": "The opening paragraph states the contention.",
+        "emoji": "📌",
+        "cefr": "C2"
+      },
+      {
+        "word": "monograph",
+        "ipa": "/ˈmɒnəgrɑːf/",
+        "pos": "n.",
+        "zh": "专著",
+        "example": "Her monograph reprints the maps.",
+        "emoji": "📕",
+        "cefr": "C2"
+      },
+      {
+        "word": "glossing",
+        "ipa": "/ˈglɒsɪŋ/",
+        "pos": "n.",
+        "zh": "注释；评注",
+        "example": "Glossing every third word helps beginners.",
+        "emoji": "📎",
+        "cefr": "C2"
+      },
+      {
+        "word": "peer-review",
+        "ipa": "/ˈpɪə rɪˌvjuː/",
+        "pos": "n.",
+        "zh": "同行评审",
+        "example": "Peer-review delays most breakthroughs.",
+        "emoji": "👥",
+        "cefr": "C1"
+      },
+      {
+        "word": "studentship",
+        "ipa": "/ˈstjuːdntʃɪp/",
+        "pos": "n.",
+        "zh": "研究生奖学金",
+        "example": "The studentship covers three years.",
+        "emoji": "📘",
+        "cefr": "C2"
+      },
+      {
+        "word": "matriculate",
+        "ipa": "/məˈtrɪkjuleɪt/",
+        "pos": "v.",
+        "zh": "注册入学",
+        "example": "He matriculated in September 2019.",
+        "emoji": "🖊️",
+        "cefr": "C2"
+      },
+      {
+        "word": "hall-of-residence",
+        "ipa": "/hɔːl ɒv ˈrezɪdəns/",
+        "pos": "n.",
+        "zh": "学生宿舍楼",
+        "example": "The hall-of-residence fills by August.",
+        "emoji": "🏨",
+        "cefr": "C2"
+      },
+      {
+        "word": "secondment",
+        "ipa": "/sɪˈkɒndmənt/",
+        "pos": "n.",
+        "zh": "借调；外派",
+        "example": "A two-year secondment broadened her network.",
+        "emoji": "📤",
+        "cefr": "C2"
+      },
+      {
+        "word": "dean",
+        "ipa": "/diːn/",
+        "pos": "n.",
+        "zh": "院长",
+        "example": "The dean welcomed the freshmen.",
+        "emoji": "🎓",
+        "cefr": "C2",
+        "level": "C1"
+      },
+      {
+        "word": "academia",
+        "ipa": "/ˌækəˈdiːmiə/",
+        "pos": "n.",
+        "zh": "学术界",
+        "example": "He spent his career in academia.",
+        "emoji": "🎓",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_school"
+  },
+  {
+    "id": "l9_edu_media",
+    "title": "媒介研究",
     "emoji": "📺",
-    "cefr": "C2"
-   },
-   {
-    "word": "live-stream",
-    "ipa": "/ˈlaɪv striːm/",
-    "pos": "n./v.",
-    "zh": "直播",
-    "example": "The live-stream peaked at nine million.",
-    "emoji": "🔴",
-    "cefr": "B2"
-   },
-   {
-    "word": "broadcasting",
-    "ipa": "/ˈbrɔːdkɑːstɪŋ/",
-    "pos": "n.",
-    "zh": "广播业；播送",
-    "example": "Community broadcasting survives on volunteers.",
-    "emoji": "📶",
-    "cefr": "C1"
-   },
-   {
-    "word": "vlog",
-    "ipa": "/vlɒg/",
-    "pos": "n.",
-    "zh": "视频博客",
-    "example": "Her vlog tours abandoned stations.",
-    "emoji": "📹",
-    "cefr": "B2"
-   },
-   {
-    "word": "webinar",
-    "ipa": "/ˈwebɪnɑː/",
-    "pos": "n.",
-    "zh": "网络研讨会",
-    "example": "The webinar runs Thursdays at noon.",
-    "emoji": "💻",
-    "cefr": "C1"
-   },
-   {
-    "word": "green-screen",
-    "ipa": "/ˈgriːn skriːn/",
-    "pos": "n.",
-    "zh": "绿幕",
-    "example": "Green-screen magic filled the sky.",
-    "emoji": "🟩",
-    "cefr": "C2"
-   }
-  ]
- }
+    "words": [
+      {
+        "word": "transmission",
+        "ipa": "/trænsˈmɪʃn/",
+        "pos": "n.",
+        "zh": "播送；传送",
+        "example": "The transmission wobbled during the storm.",
+        "emoji": "📡",
+        "cefr": "C1"
+      },
+      {
+        "word": "newsroom",
+        "ipa": "/ˈnjuːzruːm/",
+        "pos": "n.",
+        "zh": "新闻编辑室",
+        "example": "The newsroom fell silent at four.",
+        "emoji": "🗞️",
+        "cefr": "C1"
+      },
+      {
+        "word": "wire",
+        "ipa": "/ˈwaɪə/",
+        "pos": "n.",
+        "zh": "通讯社稿电",
+        "example": "The wire carried the armistice first.",
+        "emoji": "🪢",
+        "cefr": "C2"
+      },
+      {
+        "word": "correspondent",
+        "ipa": "/ˌkɒrɪˈspɒndənt/",
+        "pos": "n.",
+        "zh": "驻外记者；通信者",
+        "example": "Our correspondent filed at midnight.",
+        "emoji": "✈️",
+        "cefr": "C1"
+      },
+      {
+        "word": "caption",
+        "ipa": "/ˈkæpʃn/",
+        "pos": "n.",
+        "zh": "说明文字；字幕",
+        "example": "Captions correct what pictures omit.",
+        "emoji": "🖼️",
+        "cefr": "C1"
+      },
+      {
+        "word": "exclusive",
+        "ipa": "/ɪkˈskluːsɪv/",
+        "pos": "n./adj.",
+        "zh": "独家报道；独有的",
+        "example": "The exclusive ran across four pages.",
+        "emoji": "🚪",
+        "cefr": "C1"
+      },
+      {
+        "word": "timeframe",
+        "ipa": "/ˈtaɪmfreɪm/",
+        "pos": "n.",
+        "zh": "时间范围；期限",
+        "example": "The timeframe shrank from six weeks to nine days.",
+        "emoji": "⏱️",
+        "cefr": "C1"
+      },
+      {
+        "word": "byline",
+        "ipa": "/ˈbaɪlaɪn/",
+        "pos": "n.",
+        "zh": "（文章）署名行",
+        "example": "Her byline travelled abroad for the first time.",
+        "emoji": "✒️",
+        "cefr": "C2"
+      },
+      {
+        "word": "fact-check",
+        "ipa": "/ˈfækt tʃek/",
+        "pos": "v.",
+        "zh": "事实核查",
+        "example": "Fact-check every claim twice.",
+        "emoji": "☑️",
+        "cefr": "C1"
+      },
+      {
+        "word": "slant",
+        "ipa": "/slɑːnt/",
+        "pos": "n.",
+        "zh": "倾向；歪斜",
+        "example": "Every retelling carries a slant.",
+        "emoji": "📐",
+        "cefr": "C2"
+      },
+      {
+        "word": "tabloid",
+        "ipa": "/ˈtæblɔɪd/",
+        "pos": "n./adj.",
+        "zh": "小报；小报风格的",
+        "example": "Tabloid headlines shout in short words.",
+        "emoji": "📰",
+        "cefr": "C1"
+      },
+      {
+        "word": "spin-doctor",
+        "ipa": "/ˈspɪn ˌdɒktə/",
+        "pos": "n.",
+        "zh": "舆论操盘手",
+        "example": "The spin-doctor phoned before dinner.",
+        "emoji": "🎯",
+        "cefr": "C2"
+      },
+      {
+        "word": "multimedia",
+        "ipa": "/ˌmʌltiˈmiːdiə/",
+        "pos": "n.",
+        "zh": "多媒体",
+        "example": "Multimedia blends text, sound and video.",
+        "emoji": "🎞️",
+        "cefr": "C2",
+        "level": "C1"
+      },
+      {
+        "word": "e-learning",
+        "ipa": "/ˈiː lɜːnɪŋ/",
+        "pos": "n.",
+        "zh": "在线学习",
+        "example": "E-learning reaches remote classes.",
+        "emoji": "💻",
+        "cefr": "C2",
+        "level": "C1"
+      }
+    ],
+    "extends_from": "l2_tech"
+  },
+  {
+    "id": "l9_com_theory",
+    "title": "传播理论",
+    "emoji": "📡",
+    "words": [
+      {
+        "word": "conduit",
+        "ipa": "/ˈkɒndjuɪt/",
+        "pos": "n.",
+        "zh": "管道；渠道",
+        "example": "Rumours need a conduit, not a reason.",
+        "emoji": "🔧",
+        "cefr": "C2"
+      },
+      {
+        "word": "feedback-loop",
+        "ipa": "/ˈfiːdbæk luːp/",
+        "pos": "n.",
+        "zh": "反馈回路",
+        "example": "Audience reaction closes the feedback-loop.",
+        "emoji": "🔄",
+        "cefr": "C1"
+      },
+      {
+        "word": "encoding",
+        "ipa": "/ɪnˈkəʊdɪŋ/",
+        "pos": "n.",
+        "zh": "编码",
+        "example": "Encoding bends the message to the maker.",
+        "emoji": "🔏",
+        "cefr": "C2"
+      },
+      {
+        "word": "decoding",
+        "ipa": "/ˌdiːˈkəʊdɪŋ/",
+        "pos": "n.",
+        "zh": "解码",
+        "example": "Decoding varies with every audience.",
+        "emoji": "🔓",
+        "cefr": "C2"
+      },
+      {
+        "word": "agenda-setting",
+        "ipa": "/əˈdʒendə ˌsetɪŋ/",
+        "pos": "n.",
+        "zh": "议程设置",
+        "example": "Agenda-setting decides what counts as news.",
+        "emoji": "📅",
+        "cefr": "C2"
+      },
+      {
+        "word": "vantage",
+        "ipa": "/ˈvɑːntɪdʒ/",
+        "pos": "n.",
+        "zh": "有利位置；视角",
+        "example": "From that vantage, the strike looks personal.",
+        "emoji": "🔭",
+        "cefr": "C2"
+      },
+      {
+        "word": "gatekeeper",
+        "ipa": "/ˈgeɪtˌkiːpə/",
+        "pos": "n.",
+        "zh": "把关人",
+        "example": "Editors remain the main gatekeepers.",
+        "emoji": "🚪",
+        "cefr": "C2"
+      },
+      {
+        "word": "two-step-flow",
+        "ipa": "/ˌtuː step ˈfləʊ/",
+        "pos": "n.",
+        "zh": "两级传播",
+        "example": "Opinion leaders drive the two-step-flow.",
+        "emoji": "➡️",
+        "cefr": "C2"
+      },
+      {
+        "word": "purge",
+        "ipa": "/pɜːdʒ/",
+        "pos": "n./v.",
+        "zh": "宣泄；清洗",
+        "example": "Tragedy purges pity and fear.",
+        "emoji": "💧",
+        "cefr": "C2"
+      },
+      {
+        "word": "uses-and-gratifications",
+        "ipa": "/ˌjuːsɪz ənd ˌgrætɪfɪˈkeɪʃnz/",
+        "pos": "n.",
+        "zh": "使用与满足理论",
+        "example": "Uses-and-gratifications asks why we watch.",
+        "emoji": "🎁",
+        "cefr": "C2"
+      },
+      {
+        "word": "conditioning",
+        "ipa": "/kənˈdɪʃənɪŋ/",
+        "pos": "n.",
+        "zh": "条件作用；熏陶",
+        "example": "Decades of conditioning link crime to night.",
+        "emoji": "🎛️",
+        "cefr": "C1"
+      },
+      {
+        "word": "semiotic",
+        "ipa": "/ˌsemiˈɒtɪk/",
+        "pos": "adj.",
+        "zh": "符号学的",
+        "example": "A semiotic reading finds myth in adverts.",
+        "emoji": "🔍",
+        "cefr": "C2"
+      },
+      {
+        "word": "medium",
+        "ipa": "/ˈmiːdiəm/",
+        "pos": "n.",
+        "zh": "媒介",
+        "example": "Each medium shapes its message.",
+        "emoji": "📺",
+        "cefr": "C1"
+      },
+      {
+        "word": "decode",
+        "ipa": "/ˌdiːˈkəʊd/",
+        "pos": "v.",
+        "zh": "解码",
+        "example": "Readers decode the message from cues.",
+        "emoji": "🔓",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_phone"
+  },
+  {
+    "id": "l9_com_rhetoric",
+    "title": "修辞学",
+    "emoji": "🗣️",
+    "words": [
+      {
+        "word": "oratory",
+        "ipa": "/ˈɒrətri/",
+        "pos": "n.",
+        "zh": "演讲术；雄辩",
+        "example": "Cicero taught oratory by example.",
+        "emoji": "🏛️",
+        "cefr": "C2"
+      },
+      {
+        "word": "ethos",
+        "ipa": "/ˈiːθɒs/",
+        "pos": "n.",
+        "zh": "气质；信誉诉求",
+        "example": "Ethos persuades through character.",
+        "emoji": "🧑‍⚖️",
+        "cefr": "C2"
+      },
+      {
+        "word": "pathos",
+        "ipa": "/ˈpeɪθɒs/",
+        "pos": "n.",
+        "zh": "悲怆；情感诉求",
+        "example": "Pathos carries charity adverts.",
+        "emoji": "💧",
+        "cefr": "C2"
+      },
+      {
+        "word": "logos",
+        "ipa": "/ˈlɒgɒs/",
+        "pos": "n.",
+        "zh": "逻辑诉求；理性",
+        "example": "Logos demands numbers, not tears.",
+        "emoji": "📊",
+        "cefr": "C2"
+      },
+      {
+        "word": "kairos",
+        "ipa": "/ˈkaɪrɒs/",
+        "pos": "n.",
+        "zh": "时机（修辞）",
+        "example": "Kairos made the apology land.",
+        "emoji": "⏰",
+        "cefr": "C2"
+      },
+      {
+        "word": "oration",
+        "ipa": "/ɔːˈreɪʃn/",
+        "pos": "n.",
+        "zh": "演说",
+        "example": "The oration ran twenty minutes.",
+        "emoji": "🎙️",
+        "cefr": "C2"
+      },
+      {
+        "word": "anaphora",
+        "ipa": "/əˈnæfərə/",
+        "pos": "n.",
+        "zh": "首语重复法",
+        "example": "Anaphora built the dream speech.",
+        "emoji": "🔁",
+        "cefr": "C2"
+      },
+      {
+        "word": "antithesis",
+        "ipa": "/ænˈtɪθəsɪs/",
+        "pos": "n.",
+        "zh": "对偶；对立面",
+        "example": "Antithesis sets ask against give.",
+        "emoji": "⚖️",
+        "cefr": "C2"
+      },
+      {
+        "word": "hyperbole",
+        "ipa": "/haɪˈpɜːbəli/",
+        "pos": "n.",
+        "zh": "夸张",
+        "example": "Hyperbole sells cereal and elections.",
+        "emoji": "📣",
+        "cefr": "C1"
+      },
+      {
+        "word": "understatement",
+        "ipa": "/ˈʌndəˌsteɪtmənt/",
+        "pos": "n.",
+        "zh": "轻描淡写",
+        "example": "British understatement hides pride.",
+        "emoji": "🇬🇧",
+        "cefr": "C1"
+      },
+      {
+        "word": "repartee",
+        "ipa": "/ˌrepəˈtiː/",
+        "pos": "n.",
+        "zh": "机敏应答；妙语",
+        "example": "Their repartee kept the panel lively.",
+        "emoji": "⚡",
+        "cefr": "C2"
+      },
+      {
+        "word": "eloquence",
+        "ipa": "/ˈeləkwəns/",
+        "pos": "n.",
+        "zh": "雄辩；口才",
+        "example": "Eloquence, unplugged, still moves rooms.",
+        "emoji": "🎤",
+        "cefr": "C1"
+      },
+      {
+        "word": "anecdote",
+        "ipa": "/ˈænɪkdəʊt/",
+        "pos": "n.",
+        "zh": "轶事",
+        "example": "A vivid anecdote opened the speech.",
+        "emoji": "📖",
+        "cefr": "C1"
+      },
+      {
+        "word": "persuasion",
+        "ipa": "/pəˈsweɪʒn/",
+        "pos": "n.",
+        "zh": "说服",
+        "example": "Persuasion relies on sound reasons.",
+        "emoji": "🗣️",
+        "cefr": "C2",
+        "level": "C1"
+      }
+    ],
+    "extends_from": "l2_writing"
+  },
+  {
+    "id": "l9_com_publish",
+    "title": "出版与编辑",
+    "emoji": "🖨️",
+    "words": [
+      {
+        "word": "folio",
+        "ipa": "/ˈfəʊliəʊ/",
+        "pos": "n.",
+        "zh": "对开本；页码",
+        "example": "Folio forty-one carries the signature.",
+        "emoji": "📜",
+        "cefr": "C2"
+      },
+      {
+        "word": "proofread",
+        "ipa": "/ˈpruːfriːd/",
+        "pos": "v.",
+        "zh": "校对",
+        "example": "Proofread backwards to catch typos.",
+        "emoji": "🔍",
+        "cefr": "C1"
+      },
+      {
+        "word": "typography",
+        "ipa": "/taɪˈpɒgrəfi/",
+        "pos": "n.",
+        "zh": "排版；字体设计",
+        "example": "Typography whispers before words speak.",
+        "emoji": "🔤",
+        "cefr": "C1"
+      },
+      {
+        "word": "typeset",
+        "ipa": "/ˈtaɪpset/",
+        "pos": "v.",
+        "zh": "排版",
+        "example": "Typeset the poem with room to breathe.",
+        "emoji": "📐",
+        "cefr": "C2"
+      },
+      {
+        "word": "galley",
+        "ipa": "/ˈgæli/",
+        "pos": "n.",
+        "zh": "（印）校样",
+        "example": "Galleys went out to six reviewers.",
+        "emoji": "🚢",
+        "cefr": "C2"
+      },
+      {
+        "word": "masthead",
+        "ipa": "/ˈmɑːsthed/",
+        "pos": "n.",
+        "zh": "报头；刊头",
+        "example": "The masthead lists forty names.",
+        "emoji": "📰",
+        "cefr": "C2"
+      },
+      {
+        "word": "print-run",
+        "ipa": "/ˈprɪnt rʌn/",
+        "pos": "n.",
+        "zh": "印量；印次",
+        "example": "The first print-run sold out in days.",
+        "emoji": "🖨️",
+        "cefr": "C2"
+      },
+      {
+        "word": "bestseller",
+        "ipa": "/ˌbestˈselə/",
+        "pos": "n.",
+        "zh": "畅销书",
+        "example": "The bestseller began as a blog.",
+        "emoji": "🏆",
+        "cefr": "C1"
+      },
+      {
+        "word": "omnibus",
+        "ipa": "/ˈɒmnɪbəs/",
+        "pos": "n.",
+        "zh": "合集本；公交车",
+        "example": "The omnibus collects all four novels.",
+        "emoji": "📚",
+        "cefr": "C2"
+      },
+      {
+        "word": "abridge",
+        "ipa": "/əˈbrɪdʒ/",
+        "pos": "v.",
+        "zh": "节略；删节",
+        "example": "Childrens editions abridge freely.",
+        "emoji": "✂️",
+        "cefr": "C2"
+      },
+      {
+        "word": "blurbage",
+        "ipa": "",
+        "pos": "",
+        "zh": "",
+        "example": "",
+        "emoji": "",
+        "cefr": ""
+      },
+      {
+        "word": "foreword",
+        "ipa": "/ˈfɔːwɜːd/",
+        "pos": "n.",
+        "zh": "序言",
+        "example": "Her foreword praises the translator.",
+        "emoji": "📖",
+        "cefr": "C2"
+      },
+      {
+        "word": "imprint",
+        "ipa": "/ˈɪmprɪnt/",
+        "pos": "n.",
+        "zh": "出版品牌",
+        "example": "The novel launched under a new imprint.",
+        "emoji": "🏷️",
+        "cefr": "C2"
+      },
+      {
+        "word": "colophon",
+        "ipa": "/ˈkɒləfən/",
+        "pos": "n.",
+        "zh": "版权页标记",
+        "example": "The colophon names the printer and date.",
+        "emoji": "📜",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_reading"
+  },
+  {
+    "id": "l9_com_info",
+    "title": "信息素养",
+    "emoji": "🧠",
+    "words": [
+      {
+        "word": "vault",
+        "ipa": "/vɔːlt/",
+        "pos": "n.",
+        "zh": "（档案）库；金库",
+        "example": "The newspaper vault keeps every edition.",
+        "emoji": "🏦",
+        "cefr": "C2"
+      },
+      {
+        "word": "catalogue",
+        "ipa": "/ˈkætəlɒg/",
+        "pos": "n./v.",
+        "zh": "目录；编目",
+        "example": "The catalogue spans three centuries.",
+        "emoji": "🗂️",
+        "cefr": "B2"
+      },
+      {
+        "word": "register",
+        "ipa": "/ˈredʒɪstə/",
+        "pos": "n.",
+        "zh": "登记簿；语域",
+        "example": "The register lists every borrower.",
+        "emoji": "📒",
+        "cefr": "C1"
+      },
+      {
+        "word": "metadata",
+        "ipa": "/ˈmetədeɪtə/",
+        "pos": "n.",
+        "zh": "元数据",
+        "example": "Metadata betrays the photo location.",
+        "emoji": "🏷️",
+        "cefr": "C1"
+      },
+      {
+        "word": "directory",
+        "ipa": "/dəˈrektəri/",
+        "pos": "n.",
+        "zh": "名录；目录",
+        "example": "A trade directory mapped the whole street.",
+        "emoji": "📇",
+        "cefr": "C1"
+      },
+      {
+        "word": "search-engine",
+        "ipa": "/ˈsɜːtʃ en(d)ʒɪn/",
+        "pos": "n.",
+        "zh": "搜索引擎",
+        "example": "Search-engine habits shape curiosity.",
+        "emoji": "🔎",
+        "cefr": "B2"
+      },
+      {
+        "word": "provenance",
+        "ipa": "/ˈprɒvənəns/",
+        "pos": "n.",
+        "zh": "出处；来历",
+        "example": "Provenance decides whether the letter counts.",
+        "emoji": "🧾",
+        "cefr": "C2"
+      },
+      {
+        "word": "verification",
+        "ipa": "/ˌverɪfɪˈkeɪʃn/",
+        "pos": "n.",
+        "zh": "核实；验证",
+        "example": "Verification takes minutes and saves careers.",
+        "emoji": "✅",
+        "cefr": "C1"
+      },
+      {
+        "word": "hoax",
+        "ipa": "/həʊks/",
+        "pos": "n.",
+        "zh": "骗局；恶作剧",
+        "example": "The hoax fooled three ministries.",
+        "emoji": "🃏",
+        "cefr": "C1"
+      },
+      {
+        "word": "chatbot",
+        "ipa": "/ˈtʃɒtbɒt/",
+        "pos": "n.",
+        "zh": "聊天机器人",
+        "example": "The chatbot filed the complaint politely.",
+        "emoji": "🤖",
+        "cefr": "C1"
+      },
+      {
+        "word": "cite",
+        "ipa": "/saɪt/",
+        "pos": "v.",
+        "zh": "引用；引证",
+        "example": "Cite the page, not the memory.",
+        "emoji": "🔖",
+        "cefr": "B2"
+      },
+      {
+        "word": "lateral reading",
+        "ipa": "/ˌlætərəl ˈriːdɪŋ/",
+        "pos": "n.",
+        "zh": "横向查证",
+        "example": "Lateral reading checks sources in new tabs.",
+        "emoji": "🔗",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_network"
+  },
+  {
+    "id": "l9_com_global",
+    "title": "全球传播与本地化",
+    "emoji": "🌐",
+    "words": [
+      {
+        "word": "localisation",
+        "ipa": "/ˌləʊkəlaɪˈzeɪʃn/",
+        "pos": "n.",
+        "zh": "本地化",
+        "example": "Localisation rewrote every joke for Tokyo.",
+        "emoji": "🌐",
+        "cefr": "C1"
+      },
+      {
+        "word": "interpreter",
+        "ipa": "/ɪnˈtɜːprɪtə/",
+        "pos": "n.",
+        "zh": "口译员",
+        "example": "The interpreter kept pace for two hours.",
+        "emoji": "🎧",
+        "cefr": "C1"
+      },
+      {
+        "word": "captioning",
+        "ipa": "/ˈkæpʃənɪŋ/",
+        "pos": "n.",
+        "zh": "字幕制作",
+        "example": "Live captioning improved accessibility hugely.",
+        "emoji": "💬",
+        "cefr": "C2"
+      },
+      {
+        "word": "lip-sync",
+        "ipa": "/ˈlɪp sɪŋk/",
+        "pos": "n.",
+        "zh": "对口型；假唱",
+        "example": "Lip-sync contests close the festival.",
+        "emoji": "👄",
+        "cefr": "C2"
+      },
+      {
+        "word": "voiceover",
+        "ipa": "/ˈvɔɪsˌəʊvə/",
+        "pos": "n.",
+        "zh": "旁白；画外音",
+        "example": "The voiceover whispers over rain.",
+        "emoji": "🔊",
+        "cefr": "C2"
+      },
+      {
+        "word": "Esperanto",
+        "ipa": "/ˌespəˈrɒntəʊ/",
+        "pos": "n.",
+        "zh": "世界语",
+        "example": "Esperanto promised peace through grammar.",
+        "emoji": "🕊️",
+        "cefr": "C2"
+      },
+      {
+        "word": "teleprompter",
+        "ipa": "/ˈtelɪˌprɒmptə/",
+        "pos": "n.",
+        "zh": "提词器",
+        "example": "The teleprompter scrolled too fast.",
+        "emoji": "📺",
+        "cefr": "C2"
+      },
+      {
+        "word": "live-stream",
+        "ipa": "/ˈlaɪv striːm/",
+        "pos": "n./v.",
+        "zh": "直播",
+        "example": "The live-stream peaked at nine million.",
+        "emoji": "🔴",
+        "cefr": "B2"
+      },
+      {
+        "word": "broadcasting",
+        "ipa": "/ˈbrɔːdkɑːstɪŋ/",
+        "pos": "n.",
+        "zh": "广播业；播送",
+        "example": "Community broadcasting survives on volunteers.",
+        "emoji": "📶",
+        "cefr": "C1"
+      },
+      {
+        "word": "vlog",
+        "ipa": "/vlɒg/",
+        "pos": "n.",
+        "zh": "视频博客",
+        "example": "Her vlog tours abandoned stations.",
+        "emoji": "📹",
+        "cefr": "B2"
+      },
+      {
+        "word": "webinar",
+        "ipa": "/ˈwebɪnɑː/",
+        "pos": "n.",
+        "zh": "网络研讨会",
+        "example": "The webinar runs Thursdays at noon.",
+        "emoji": "💻",
+        "cefr": "C1"
+      },
+      {
+        "word": "green-screen",
+        "ipa": "/ˈgriːn skriːn/",
+        "pos": "n.",
+        "zh": "绿幕",
+        "example": "Green-screen magic filled the sky.",
+        "emoji": "🟩",
+        "cefr": "C2"
+      },
+      {
+        "word": "glocalisation",
+        "ipa": "/ˌɡləʊkəlaɪˈzeɪʃn/",
+        "pos": "n.",
+        "zh": "全球本土化",
+        "example": "Glocalisation adapts brands to local taste.",
+        "emoji": "🌏",
+        "cefr": "C2"
+      },
+      {
+        "word": "transcreation",
+        "ipa": "/ˌtrænzkriˈeɪʃn/",
+        "pos": "n.",
+        "zh": "创意改译",
+        "example": "Transcreation rewrites ads for new cultures.",
+        "emoji": "🎨",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_network"
+  }
 ]

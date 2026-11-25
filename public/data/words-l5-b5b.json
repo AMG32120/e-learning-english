@@ -1,1727 +1,1996 @@
 [
- {
-  "id": "l5e_education_policy",
-  "title": "教育政策",
-  "emoji": "🏫",
-  "words": [
-   {
-    "word": "bursary",
-    "ipa": "/ˈbɜːsəri/",
-    "pos": "n.",
-    "zh": "助学金",
-    "example": "A bursary covered her final year.",
-    "emoji": "💰",
-    "cefr": "C1"
-   },
-   {
-    "word": "vocational",
-    "ipa": "/vəʊˈkeɪʃənl/",
-    "pos": "adj.",
-    "zh": "职业（教育）的",
-    "example": "Vocational courses lead straight to jobs.",
-    "emoji": "🔧",
-    "cefr": "C1"
-   },
-   {
-    "word": "accreditation",
-    "ipa": "/əˌkredɪˈteɪʃn/",
-    "pos": "n.",
-    "zh": "（学历/机构）认证",
-    "example": "Accreditation took the college two years.",
-    "emoji": "📜",
-    "cefr": "C1"
-   },
-   {
-    "word": "mandatory",
-    "ipa": "/ˈmændətəri/",
-    "pos": "adj.",
-    "zh": "强制性的",
-    "example": "Attendance is mandatory for labs.",
-    "emoji": "🛑",
-    "cefr": "C1"
-   },
-   {
-    "word": "examination",
-    "ipa": "/ɪɡˌzæmɪˈneɪʃn/",
-    "pos": "n.",
-    "zh": "考试；检查",
-    "example": "The final examination lasts three hours.",
-    "emoji": "📝",
-    "cefr": "B2"
-   },
-   {
-    "word": "dropout",
-    "ipa": "/ˈdrɒpaʊt/",
-    "pos": "n.",
-    "zh": "辍学者；流失率",
-    "example": "Dropout rates halved with free meals.",
-    "emoji": "🚪",
-    "cefr": "C1"
-   },
-   {
-    "word": "privatisation",
-    "ipa": "/ˌpraɪvətaɪˈzeɪʃn/",
-    "pos": "n.",
-    "zh": "私有化",
-    "example": "Privatisation of schools remains contested.",
-    "emoji": "🏢",
-    "cefr": "C1"
-   },
-   {
-    "word": "cohort",
-    "ipa": "/ˈkəʊhɔːt/",
-    "pos": "n.",
-    "zh": "同届群体",
-    "example": "This cohort studies entirely online.",
-    "emoji": "🧑‍🤝‍🧑",
-    "cefr": "C1"
-   },
-   {
-    "word": "mentorship",
-    "ipa": "/ˈmentɔːʃɪp/",
-    "pos": "n.",
-    "zh": "导师制",
-    "example": "Mentorship pairs juniors with veterans.",
-    "emoji": "🧭",
-    "cefr": "C1"
-   },
-   {
-    "word": "extracurricular",
-    "ipa": "/ˌekstrəkəˈrɪkjələ/",
-    "pos": "adj.",
-    "zh": "课外的",
-    "example": "Extracurricular clubs build soft skills.",
-    "emoji": "🎻",
-    "cefr": "C1"
-   },
-   {
-    "word": "inclusivity",
-    "ipa": "/ˌɪnkluːˈsɪvəti/",
-    "pos": "n.",
-    "zh": "包容性",
-    "example": "Ramps improved campus inclusivity.",
-    "emoji": "♿",
-    "cefr": "C1"
-   },
-   {
-    "word": "tutoring",
-    "ipa": "/ˈtjuːtərɪŋ/",
-    "pos": "n.",
-    "zh": "辅导；家教",
-    "example": "Peer tutoring lifted pass rates 15%.",
-    "emoji": "📚",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_journalism",
-  "title": "新闻行业",
-  "emoji": "📰",
-  "words": [
-   {
-    "word": "scoop",
-    "ipa": "/skuːp/",
-    "pos": "n.",
-    "zh": "独家新闻",
-    "example": "The scoop forced a minister to resign.",
+  {
+    "id": "l5e_education_policy",
+    "title": "教育政策",
+    "emoji": "🏫",
+    "words": [
+      {
+        "word": "bursary",
+        "ipa": "/ˈbɜːsəri/",
+        "pos": "n.",
+        "zh": "助学金",
+        "example": "A bursary covered her final year.",
+        "emoji": "💰",
+        "cefr": "C1"
+      },
+      {
+        "word": "vocational",
+        "ipa": "/vəʊˈkeɪʃənl/",
+        "pos": "adj.",
+        "zh": "职业（教育）的",
+        "example": "Vocational courses lead straight to jobs.",
+        "emoji": "🔧",
+        "cefr": "C1"
+      },
+      {
+        "word": "accreditation",
+        "ipa": "/əˌkredɪˈteɪʃn/",
+        "pos": "n.",
+        "zh": "（学历/机构）认证",
+        "example": "Accreditation took the college two years.",
+        "emoji": "📜",
+        "cefr": "C1"
+      },
+      {
+        "word": "mandatory",
+        "ipa": "/ˈmændətəri/",
+        "pos": "adj.",
+        "zh": "强制性的",
+        "example": "Attendance is mandatory for labs.",
+        "emoji": "🛑",
+        "cefr": "C1"
+      },
+      {
+        "word": "examination",
+        "ipa": "/ɪɡˌzæmɪˈneɪʃn/",
+        "pos": "n.",
+        "zh": "考试；检查",
+        "example": "The final examination lasts three hours.",
+        "emoji": "📝",
+        "cefr": "B2"
+      },
+      {
+        "word": "dropout",
+        "ipa": "/ˈdrɒpaʊt/",
+        "pos": "n.",
+        "zh": "辍学者；流失率",
+        "example": "Dropout rates halved with free meals.",
+        "emoji": "🚪",
+        "cefr": "C1"
+      },
+      {
+        "word": "privatisation",
+        "ipa": "/ˌpraɪvətaɪˈzeɪʃn/",
+        "pos": "n.",
+        "zh": "私有化",
+        "example": "Privatisation of schools remains contested.",
+        "emoji": "🏢",
+        "cefr": "C1"
+      },
+      {
+        "word": "cohort",
+        "ipa": "/ˈkəʊhɔːt/",
+        "pos": "n.",
+        "zh": "同届群体",
+        "example": "This cohort studies entirely online.",
+        "emoji": "🧑‍🤝‍🧑",
+        "cefr": "C1"
+      },
+      {
+        "word": "mentorship",
+        "ipa": "/ˈmentɔːʃɪp/",
+        "pos": "n.",
+        "zh": "导师制",
+        "example": "Mentorship pairs juniors with veterans.",
+        "emoji": "🧭",
+        "cefr": "C1"
+      },
+      {
+        "word": "extracurricular",
+        "ipa": "/ˌekstrəkəˈrɪkjələ/",
+        "pos": "adj.",
+        "zh": "课外的",
+        "example": "Extracurricular clubs build soft skills.",
+        "emoji": "🎻",
+        "cefr": "C1"
+      },
+      {
+        "word": "inclusivity",
+        "ipa": "/ˌɪnkluːˈsɪvəti/",
+        "pos": "n.",
+        "zh": "包容性",
+        "example": "Ramps improved campus inclusivity.",
+        "emoji": "♿",
+        "cefr": "C1"
+      },
+      {
+        "word": "tutoring",
+        "ipa": "/ˈtjuːtərɪŋ/",
+        "pos": "n.",
+        "zh": "辅导；家教",
+        "example": "Peer tutoring lifted pass rates 15%.",
+        "emoji": "📚",
+        "cefr": "C1"
+      },
+      {
+        "word": "attendance",
+        "ipa": "/əˈtendəns/",
+        "pos": "n.",
+        "zh": "出勤",
+        "example": "Attendance is recorded every lesson.",
+        "emoji": "📋",
+        "cefr": "B2"
+      }
+    ],
+    "extends_from": "l2_school"
+  },
+  {
+    "id": "l5e_journalism",
+    "title": "新闻行业",
     "emoji": "📰",
-    "cefr": "C1"
-   },
-   {
-    "word": "spin",
-    "ipa": "/spɪn/",
-    "pos": "n./v.",
-    "zh": "（政治）包装话术；旋转",
-    "example": "Spin cannot hide falling numbers.",
-    "emoji": "🌀",
-    "cefr": "C1"
-   },
-   {
-    "word": "disinformation",
-    "ipa": "/ˌdɪsˌɪnfəˈmeɪʃn/",
-    "pos": "n.",
-    "zh": "虚假信息（蓄意）",
-    "example": "Disinformation campaigns peak before elections.",
-    "emoji": "🤥",
-    "cefr": "C1"
-   },
-   {
-    "word": "fabrication",
-    "ipa": "/ˌfæbrɪˈkeɪʃn/",
-    "pos": "n.",
-    "zh": "捏造； fabrication",
-    "example": "The interview was a pure fabrication.",
-    "emoji": "🃏",
-    "cefr": "C1"
-   },
-   {
-    "word": "eyewitness",
-    "ipa": "/ˈaɪwɪtnəs/",
-    "pos": "n.",
-    "zh": "目击者",
-    "example": "Eyewitness accounts clashed sharply.",
-    "emoji": "👁️",
-    "cefr": "B2"
-   },
-   {
-    "word": "reporting",
-    "ipa": "/rɪˈpɔːtɪŋ/",
-    "pos": "n.",
-    "zh": "报道；新闻工作",
-    "example": "Investigative reporting takes months.",
-    "emoji": "🖊️",
-    "cefr": "B2"
-   },
-   {
-    "word": "columnist",
-    "ipa": "/ˈkɒləmnɪst/",
-    "pos": "n.",
-    "zh": "专栏作家",
-    "example": "The columnist skewered both parties weekly.",
-    "emoji": "✍️",
-    "cefr": "C1"
-   },
-   {
-    "word": "airtime",
-    "ipa": "/ˈeətaɪm/",
-    "pos": "n.",
-    "zh": "（广播）播出时间",
-    "example": "Minor parties rarely get airtime.",
-    "emoji": "📻",
-    "cefr": "C1"
-   },
-   {
-    "word": "archive",
-    "ipa": "/ˈɑːkaɪv/",
-    "pos": "n./v.",
-    "zh": "档案；存档",
-    "example": "The newspaper archive dates to 1903.",
-    "emoji": "🗄️",
-    "cefr": "B2"
-   },
-   {
-    "word": "readership",
-    "ipa": "/ˈriːdəʃɪp/",
-    "pos": "n.",
-    "zh": "读者群",
-    "example": "Online readership tripled in two years.",
-    "emoji": "📖",
-    "cefr": "C1"
-   },
-   {
-    "word": "quotation",
-    "ipa": "/kwəʊˈteɪʃn/",
-    "pos": "n.",
-    "zh": "引语；报价",
-    "example": "Check every quotation against the tape.",
-    "emoji": "❝",
-    "cefr": "C1"
-   },
-   {
-    "word": "attribution",
-    "ipa": "/ˌætrɪˈbjuːʃn/",
-    "pos": "n.",
-    "zh": "出处标注；归因",
-    "example": "Clear attribution protects journalists legally.",
-    "emoji": "🔗",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_epidemiology",
-  "title": "流行病学",
-  "emoji": "🦠",
-  "words": [
-   {
-    "word": "epidemiology",
-    "ipa": "/ˌepɪˌdiːmiˈɒlədʒi/",
-    "pos": "n.",
-    "zh": "流行病学",
-    "example": "Epidemiology traces how diseases spread.",
+    "words": [
+      {
+        "word": "scoop",
+        "ipa": "/skuːp/",
+        "pos": "n.",
+        "zh": "独家新闻",
+        "example": "The scoop forced a minister to resign.",
+        "emoji": "📰",
+        "cefr": "C1"
+      },
+      {
+        "word": "spin",
+        "ipa": "/spɪn/",
+        "pos": "n./v.",
+        "zh": "（政治）包装话术；旋转",
+        "example": "Spin cannot hide falling numbers.",
+        "emoji": "🌀",
+        "cefr": "C1"
+      },
+      {
+        "word": "disinformation",
+        "ipa": "/ˌdɪsˌɪnfəˈmeɪʃn/",
+        "pos": "n.",
+        "zh": "虚假信息（蓄意）",
+        "example": "Disinformation campaigns peak before elections.",
+        "emoji": "🤥",
+        "cefr": "C1"
+      },
+      {
+        "word": "fabrication",
+        "ipa": "/ˌfæbrɪˈkeɪʃn/",
+        "pos": "n.",
+        "zh": "捏造； fabrication",
+        "example": "The interview was a pure fabrication.",
+        "emoji": "🃏",
+        "cefr": "C1"
+      },
+      {
+        "word": "eyewitness",
+        "ipa": "/ˈaɪwɪtnəs/",
+        "pos": "n.",
+        "zh": "目击者",
+        "example": "Eyewitness accounts clashed sharply.",
+        "emoji": "👁️",
+        "cefr": "B2"
+      },
+      {
+        "word": "reporting",
+        "ipa": "/rɪˈpɔːtɪŋ/",
+        "pos": "n.",
+        "zh": "报道；新闻工作",
+        "example": "Investigative reporting takes months.",
+        "emoji": "🖊️",
+        "cefr": "B2"
+      },
+      {
+        "word": "columnist",
+        "ipa": "/ˈkɒləmnɪst/",
+        "pos": "n.",
+        "zh": "专栏作家",
+        "example": "The columnist skewered both parties weekly.",
+        "emoji": "✍️",
+        "cefr": "C1"
+      },
+      {
+        "word": "airtime",
+        "ipa": "/ˈeətaɪm/",
+        "pos": "n.",
+        "zh": "（广播）播出时间",
+        "example": "Minor parties rarely get airtime.",
+        "emoji": "📻",
+        "cefr": "C1"
+      },
+      {
+        "word": "archive",
+        "ipa": "/ˈɑːkaɪv/",
+        "pos": "n./v.",
+        "zh": "档案；存档",
+        "example": "The newspaper archive dates to 1903.",
+        "emoji": "🗄️",
+        "cefr": "B2"
+      },
+      {
+        "word": "readership",
+        "ipa": "/ˈriːdəʃɪp/",
+        "pos": "n.",
+        "zh": "读者群",
+        "example": "Online readership tripled in two years.",
+        "emoji": "📖",
+        "cefr": "C1"
+      },
+      {
+        "word": "quotation",
+        "ipa": "/kwəʊˈteɪʃn/",
+        "pos": "n.",
+        "zh": "引语；报价",
+        "example": "Check every quotation against the tape.",
+        "emoji": "❝",
+        "cefr": "C1"
+      },
+      {
+        "word": "attribution",
+        "ipa": "/ˌætrɪˈbjuːʃn/",
+        "pos": "n.",
+        "zh": "出处标注；归因",
+        "example": "Clear attribution protects journalists legally.",
+        "emoji": "🔗",
+        "cefr": "C1"
+      },
+      {
+        "word": "gazette",
+        "ipa": "/ɡəˈzet/",
+        "pos": "n.",
+        "zh": "公报",
+        "example": "The official gazette published the ruling.",
+        "emoji": "📰",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_media"
+  },
+  {
+    "id": "l5e_epidemiology",
+    "title": "流行病学",
     "emoji": "🦠",
-    "cefr": "C1"
-   },
-   {
-    "word": "outbreak",
-    "ipa": "/ˈaʊtbreɪk/",
-    "pos": "n.",
-    "zh": "爆发",
-    "example": "The cholera outbreak faded by autumn.",
-    "emoji": "🚨",
-    "cefr": "B2"
-   },
-   {
-    "word": "contagion",
-    "ipa": "/kənˈteɪdʒən/",
-    "pos": "n.",
-    "zh": "接触传染；（情绪）蔓延",
-    "example": "Fear spread faster than the contagion itself.",
-    "emoji": "🌡️",
-    "cefr": "C1"
-   },
-   {
-    "word": "quarantine",
-    "ipa": "/ˈkwɒrəntiːn/",
-    "pos": "n./v.",
-    "zh": "隔离",
-    "example": "Ships quarantined for fourteen days.",
-    "emoji": "🚢",
-    "cefr": "B2"
-   },
-   {
-    "word": "immunisation",
-    "ipa": "/ˌɪmjuːnaɪˈzeɪʃn/",
-    "pos": "n.",
-    "zh": "免疫接种",
-    "example": "Childhood immunisation rates rebounded.",
-    "emoji": "💉",
-    "cefr": "C1"
-   },
-   {
-    "word": "sterilise",
-    "ipa": "/ˈsterɪlaɪz/",
-    "pos": "v.",
-    "zh": "消毒；灭菌",
-    "example": "Sterilise instruments after each use.",
-    "emoji": "🧼",
-    "cefr": "C1"
-   },
-   {
-    "word": "chronic",
-    "ipa": "/ˈkrɒnɪk/",
-    "pos": "adj.",
-    "zh": "慢性的；长期的",
-    "example": "Chronic back pain affects desk workers.",
-    "emoji": "🩺",
-    "cefr": "B2"
-   },
-   {
-    "word": "acute",
-    "ipa": "/əˈkjuːt/",
-    "pos": "adj.",
-    "zh": "急性的；剧烈的",
-    "example": "Acute shortages hit rural clinics first.",
-    "emoji": "🔺",
-    "cefr": "C1"
-   },
-   {
-    "word": "remedy",
-    "ipa": "/ˈremədi/",
-    "pos": "n./v.",
-    "zh": "疗法；补救",
-    "example": "Honey is a classic sore-throat remedy.",
-    "emoji": "🍯",
-    "cefr": "B2"
-   },
-   {
-    "word": "pharmaceutical",
-    "ipa": "/ˌfɑːməˈsjuːtɪkl/",
-    "pos": "adj.",
-    "zh": "制药的",
-    "example": "Pharmaceutical firms fund most trials.",
-    "emoji": "💊",
-    "cefr": "C1"
-   },
-   {
-    "word": "surgery",
-    "ipa": "/ˈsɜːdʒəri/",
-    "pos": "n.",
-    "zh": "外科手术；诊所",
-    "example": "Keyhole surgery shortens recovery weeks.",
-    "emoji": "🏥",
-    "cefr": "B2"
-   },
-   {
-    "word": "symptomatic",
-    "ipa": "/ˌsɪmptəˈmætɪk/",
-    "pos": "adj.",
-    "zh": "有症状的；作为征兆的",
-    "example": "Most cases were asymptomatic, a few symptomatic.",
-    "emoji": "🤒",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_conservation",
-  "title": "生态保护",
-  "emoji": "🐼",
-  "words": [
-   {
-    "word": "preservation",
-    "ipa": "/ˌprezəˈveɪʃn/",
-    "pos": "n.",
-    "zh": "保护；保存",
-    "example": "Food preservation shaped whole cuisines.",
-    "emoji": "🫙",
-    "cefr": "C1"
-   },
-   {
-    "word": "sanctuary",
-    "ipa": "/ˈsæŋktʃuəri/",
-    "pos": "n.",
-    "zh": "保护区；避难所",
-    "example": "The bird sanctuary opens at dawn.",
-    "emoji": "🐦",
-    "cefr": "C1"
-   },
-   {
-    "word": "territory",
-    "ipa": "/ˈterətri/",
-    "pos": "n.",
-    "zh": "领地；领土",
-    "example": "Leopards patrol huge territories alone.",
-    "emoji": "🗺️",
-    "cefr": "B2"
-   },
-   {
-    "word": "endangered",
-    "ipa": "/ɪnˈdeɪndʒəd/",
-    "pos": "adj.",
-    "zh": "濒危的",
-    "example": "Endangered cranes winter in the wetlands.",
-    "emoji": "🦢",
-    "cefr": "B2"
-   },
-   {
-    "word": "poaching",
-    "ipa": "/ˈpəʊtʃɪŋ/",
-    "pos": "n.",
-    "zh": "偷猎",
-    "example": "Poaching nearly wiped out the rhinos.",
-    "emoji": "🔫",
-    "cefr": "C1"
-   },
-   {
-    "word": "rewilding",
-    "ipa": "/ˌriːˈwaɪldɪŋ/",
-    "pos": "n.",
-    "zh": "再野化",
-    "example": "Rewilding brought wolves back within a decade.",
-    "emoji": "🐺",
-    "cefr": "C1"
-   },
-   {
-    "word": "species",
-    "ipa": "/ˈspiːʃiːz/",
-    "pos": "n.",
-    "zh": "物种",
-    "example": "A third of reef species remain undescribed.",
-    "emoji": "🐠",
-    "cefr": "B2"
-   },
-   {
-    "word": "ecological",
-    "ipa": "/ˌiːkəˈlɒdʒɪkl/",
-    "pos": "adj.",
-    "zh": "生态的",
-    "example": "Ecological balance shifts quietly at first.",
-    "emoji": "🌿",
-    "cefr": "B2"
-   },
-   {
-    "word": "wetland",
-    "ipa": "/ˈwetlənd/",
-    "pos": "n.",
-    "zh": "湿地",
-    "example": "Wetlands filter water naturally.",
-    "emoji": "🦆",
-    "cefr": "C1"
-   },
-   {
-    "word": "migration",
-    "ipa": "/maɪˈɡreɪʃn/",
-    "pos": "n.",
-    "zh": "迁徙；（动物/数据）迁移",
-    "example": "The crane migration peaks in November.",
-    "emoji": "🪽",
-    "cefr": "B2"
-   },
-   {
-    "word": "lagoon",
-    "ipa": "/ləˈɡuːn/",
-    "pos": "n.",
-    "zh": "潟湖",
-    "example": "Flamingos crowd the shallow lagoon.",
-    "emoji": "🌊",
-    "cefr": "C1"
-   },
-   {
-    "word": "canopy",
-    "ipa": "/ˈkænəpi/",
-    "pos": "n.",
-    "zh": "林冠；顶篷",
-    "example": "Sunlight barely reaches the canopy floor.",
-    "emoji": "🌳",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_transport_future",
-  "title": "未来交通",
-  "emoji": "🚄",
-  "words": [
-   {
-    "word": "autonomous",
-    "ipa": "/ɔːˈtɒnəməs/",
-    "pos": "adj.",
-    "zh": "自动的；自主的",
-    "example": "Autonomous shuttles loop the campus.",
-    "emoji": "🚐",
-    "cefr": "C1"
-   },
-   {
-    "word": "carpool",
-    "ipa": "/ˈkɑːpuːl/",
-    "pos": "n./v.",
-    "zh": "拼车",
-    "example": "Carpool lanes move twice as fast.",
-    "emoji": "🚗",
-    "cefr": "C1"
-   },
-   {
-    "word": "navigation",
-    "ipa": "/ˌnævɪˈɡeɪʃn/",
-    "pos": "n.",
-    "zh": "导航",
-    "example": "Indoor navigation still frustrates visitors.",
-    "emoji": "🧭",
-    "cefr": "B2"
-   },
-   {
-    "word": "gridlock",
-    "ipa": "/ˈɡrɪdlɒk/",
-    "pos": "n.",
-    "zh": "交通大堵塞",
-    "example": "Festival weekend means total gridlock.",
-    "emoji": "🚕",
-    "cefr": "C1"
-   },
-   {
-    "word": "charging",
-    "ipa": "/ˈtʃɑːdʒɪŋ/",
-    "pos": "n.",
-    "zh": "充电",
-    "example": "Charging networks now cover every highway.",
-    "emoji": "🔌",
-    "cefr": "B2"
-   },
-   {
-    "word": "range",
-    "ipa": "/reɪndʒ/",
-    "pos": "n.",
-    "zh": "续航；范围；山脉",
-    "example": "Winter halves the advertised range.",
-    "emoji": "🔋",
-    "cefr": "B2"
-   },
-   {
-    "word": "commuter",
-    "ipa": "/kəˈmjuːtə/",
-    "pos": "n.",
-    "zh": "通勤者",
-    "example": "Commuter trains run every six minutes.",
-    "emoji": "🚆",
-    "cefr": "C1"
-   },
-   {
-    "word": "cyclist",
-    "ipa": "/ˈsaɪklɪst/",
-    "pos": "n.",
-    "zh": "骑行者",
-    "example": "Protected lanes protect every cyclist.",
-    "emoji": "🚴",
-    "cefr": "B2"
-   },
-   {
-    "word": "junction",
-    "ipa": "/ˈdʒʌŋkʃn/",
-    "pos": "n.",
-    "zh": "交叉口",
-    "example": "Accidents cluster at the third junction.",
-    "emoji": "🛣️",
-    "cefr": "C1"
-   },
-   {
-    "word": "flyover",
-    "ipa": "/ˈflaɪəʊvə/",
-    "pos": "n.",
-    "zh": "立交桥",
-    "example": "The new flyover cut travel time 20%.",
-    "emoji": "🌉",
-    "cefr": "C1"
-   },
-   {
-    "word": "tram",
-    "ipa": "/træm/",
-    "pos": "n.",
-    "zh": "有轨电车",
-    "example": "The tram glides past the old mill.",
-    "emoji": "🚋",
-    "cefr": "B2"
-   },
-   {
-    "word": "underground",
-    "ipa": "/ˈʌndəɡraʊnd/",
-    "pos": "adj./n.",
-    "zh": "地下的；地铁",
-    "example": "The underground runs until midnight.",
-    "emoji": "🚇",
-    "cefr": "B2"
-   }
-  ]
- },
- {
-  "id": "l5e_global_issues",
-  "title": "全球议题",
-  "emoji": "🌐",
-  "words": [
-   {
-    "word": "displacement",
-    "ipa": "/dɪsˈpleɪsmənt/",
-    "pos": "n.",
-    "zh": "流离失所；位移",
-    "example": "Flooding caused mass displacement inland.",
-    "emoji": "🏠",
-    "cefr": "C1"
-   },
-   {
-    "word": "malnutrition",
-    "ipa": "/ˌmælnjuˈtrɪʃn/",
-    "pos": "n.",
-    "zh": "营养不良",
-    "example": "Malnutrition stunts one in four children here.",
-    "emoji": "🥣",
-    "cefr": "C1"
-   },
-   {
-    "word": "trafficking",
-    "ipa": "/ˈtræfɪkɪŋ/",
-    "pos": "n.",
-    "zh": "非法贩卖",
-    "example": "Anti-trafficking units raided three flats.",
-    "emoji": "⛓️",
-    "cefr": "C1"
-   },
-   {
-    "word": "sweatshop",
-    "ipa": "/ˈswetʃɒp/",
-    "pos": "n.",
-    "zh": "血汗工厂",
-    "example": "Brands audited suppliers to end sweatshop labour.",
-    "emoji": "🏭",
-    "cefr": "C1"
-   },
-   {
-    "word": "humanitarian",
-    "ipa": "/hjuːˌmænɪˈteəriən/",
-    "pos": "adj.",
-    "zh": "人道主义的",
-    "example": "Humanitarian convoys crossed at dawn.",
-    "emoji": "🤲",
-    "cefr": "C1"
-   },
-   {
-    "word": "nonprofit",
-    "ipa": "/ˌnɒnˈprɒfɪt/",
-    "pos": "adj./n.",
-    "zh": "非营利的；非营利机构",
-    "example": "A nonprofit runs the city's food banks.",
-    "emoji": "🎗️",
-    "cefr": "C1"
-   },
-   {
-    "word": "governance",
-    "ipa": "/ˈɡʌvənəns/",
-    "pos": "n.",
-    "zh": "治理",
-    "example": "Strong governance attracts long-term investors.",
-    "emoji": "🏛️",
-    "cefr": "C1"
-   },
-   {
-    "word": "corruption",
-    "ipa": "/kəˈrʌpʃn/",
-    "pos": "n.",
-    "zh": "腐败",
-    "example": "Corruption drained a fifth of road funds.",
-    "emoji": "🕳️",
-    "cefr": "B2"
-   },
-   {
-    "word": "scrutiny",
-    "ipa": "/ˈskruːtəni/",
-    "pos": "n.",
-    "zh": "仔细审查",
-    "example": "Spending now faces public scrutiny.",
-    "emoji": "🔍",
-    "cefr": "C1"
-   },
-   {
-    "word": "consortium",
-    "ipa": "/kənˈsɔːtiəm/",
-    "pos": "n.",
-    "zh": "财团；联合体",
-    "example": "A three-university consortium won the grant.",
-    "emoji": "🤝",
-    "cefr": "C1"
-   },
-   {
-    "word": "federation",
-    "ipa": "/ˌfedəˈreɪʃn/",
-    "pos": "n.",
-    "zh": "联邦；联盟",
-    "example": "Six provinces formed a trade federation.",
-    "emoji": "🧩",
-    "cefr": "C1"
-   },
-   {
-    "word": "summitry",
-    "ipa": "/ˈsʌmɪtri/",
-    "pos": "n.",
-    "zh": "峰会外交",
-    "example": "Summitry alone rarely closes deals.",
-    "emoji": "🫱",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_work_trends",
-  "title": "职场新趋势",
-  "emoji": "💼",
-  "words": [
-   {
-    "word": "freelance",
-    "ipa": "/ˈfriːlɑːns/",
-    "pos": "adj./v.",
-    "zh": "自由职业（的）",
-    "example": "She went freelance after her second child.",
+    "words": [
+      {
+        "word": "epidemiology",
+        "ipa": "/ˌepɪˌdiːmiˈɒlədʒi/",
+        "pos": "n.",
+        "zh": "流行病学",
+        "example": "Epidemiology traces how diseases spread.",
+        "emoji": "🦠",
+        "cefr": "C1"
+      },
+      {
+        "word": "outbreak",
+        "ipa": "/ˈaʊtbreɪk/",
+        "pos": "n.",
+        "zh": "爆发",
+        "example": "The cholera outbreak faded by autumn.",
+        "emoji": "🚨",
+        "cefr": "B2"
+      },
+      {
+        "word": "contagion",
+        "ipa": "/kənˈteɪdʒən/",
+        "pos": "n.",
+        "zh": "接触传染；（情绪）蔓延",
+        "example": "Fear spread faster than the contagion itself.",
+        "emoji": "🌡️",
+        "cefr": "C1"
+      },
+      {
+        "word": "quarantine",
+        "ipa": "/ˈkwɒrəntiːn/",
+        "pos": "n./v.",
+        "zh": "隔离",
+        "example": "Ships quarantined for fourteen days.",
+        "emoji": "🚢",
+        "cefr": "B2"
+      },
+      {
+        "word": "immunisation",
+        "ipa": "/ˌɪmjuːnaɪˈzeɪʃn/",
+        "pos": "n.",
+        "zh": "免疫接种",
+        "example": "Childhood immunisation rates rebounded.",
+        "emoji": "💉",
+        "cefr": "C1"
+      },
+      {
+        "word": "sterilise",
+        "ipa": "/ˈsterɪlaɪz/",
+        "pos": "v.",
+        "zh": "消毒；灭菌",
+        "example": "Sterilise instruments after each use.",
+        "emoji": "🧼",
+        "cefr": "C1"
+      },
+      {
+        "word": "chronic",
+        "ipa": "/ˈkrɒnɪk/",
+        "pos": "adj.",
+        "zh": "慢性的；长期的",
+        "example": "Chronic back pain affects desk workers.",
+        "emoji": "🩺",
+        "cefr": "B2"
+      },
+      {
+        "word": "acute",
+        "ipa": "/əˈkjuːt/",
+        "pos": "adj.",
+        "zh": "急性的；剧烈的",
+        "example": "Acute shortages hit rural clinics first.",
+        "emoji": "🔺",
+        "cefr": "C1"
+      },
+      {
+        "word": "remedy",
+        "ipa": "/ˈremədi/",
+        "pos": "n./v.",
+        "zh": "疗法；补救",
+        "example": "Honey is a classic sore-throat remedy.",
+        "emoji": "🍯",
+        "cefr": "B2"
+      },
+      {
+        "word": "pharmaceutical",
+        "ipa": "/ˌfɑːməˈsjuːtɪkl/",
+        "pos": "adj.",
+        "zh": "制药的",
+        "example": "Pharmaceutical firms fund most trials.",
+        "emoji": "💊",
+        "cefr": "C1"
+      },
+      {
+        "word": "surgery",
+        "ipa": "/ˈsɜːdʒəri/",
+        "pos": "n.",
+        "zh": "外科手术；诊所",
+        "example": "Keyhole surgery shortens recovery weeks.",
+        "emoji": "🏥",
+        "cefr": "B2"
+      },
+      {
+        "word": "symptomatic",
+        "ipa": "/ˌsɪmptəˈmætɪk/",
+        "pos": "adj.",
+        "zh": "有症状的；作为征兆的",
+        "example": "Most cases were asymptomatic, a few symptomatic.",
+        "emoji": "🤒",
+        "cefr": "C1"
+      },
+      {
+        "word": "vector",
+        "ipa": "/ˈvektə(r)/",
+        "pos": "n.",
+        "zh": "传播媒介",
+        "example": "Mosquitoes are the main disease vector.",
+        "emoji": "🦟",
+        "cefr": "C2"
+      },
+      {
+        "word": "prevalence",
+        "ipa": "/ˈprevələns/",
+        "pos": "n.",
+        "zh": "患病率，流行率",
+        "example": "Prevalence dropped after vaccination.",
+        "emoji": "📉",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_health"
+  },
+  {
+    "id": "l5e_conservation",
+    "title": "生态保护",
+    "emoji": "🐼",
+    "words": [
+      {
+        "word": "preservation",
+        "ipa": "/ˌprezəˈveɪʃn/",
+        "pos": "n.",
+        "zh": "保护；保存",
+        "example": "Food preservation shaped whole cuisines.",
+        "emoji": "🫙",
+        "cefr": "C1"
+      },
+      {
+        "word": "sanctuary",
+        "ipa": "/ˈsæŋktʃuəri/",
+        "pos": "n.",
+        "zh": "保护区；避难所",
+        "example": "The bird sanctuary opens at dawn.",
+        "emoji": "🐦",
+        "cefr": "C1"
+      },
+      {
+        "word": "territory",
+        "ipa": "/ˈterətri/",
+        "pos": "n.",
+        "zh": "领地；领土",
+        "example": "Leopards patrol huge territories alone.",
+        "emoji": "🗺️",
+        "cefr": "B2"
+      },
+      {
+        "word": "endangered",
+        "ipa": "/ɪnˈdeɪndʒəd/",
+        "pos": "adj.",
+        "zh": "濒危的",
+        "example": "Endangered cranes winter in the wetlands.",
+        "emoji": "🦢",
+        "cefr": "B2"
+      },
+      {
+        "word": "poaching",
+        "ipa": "/ˈpəʊtʃɪŋ/",
+        "pos": "n.",
+        "zh": "偷猎",
+        "example": "Poaching nearly wiped out the rhinos.",
+        "emoji": "🔫",
+        "cefr": "C1"
+      },
+      {
+        "word": "rewilding",
+        "ipa": "/ˌriːˈwaɪldɪŋ/",
+        "pos": "n.",
+        "zh": "再野化",
+        "example": "Rewilding brought wolves back within a decade.",
+        "emoji": "🐺",
+        "cefr": "C1"
+      },
+      {
+        "word": "species",
+        "ipa": "/ˈspiːʃiːz/",
+        "pos": "n.",
+        "zh": "物种",
+        "example": "A third of reef species remain undescribed.",
+        "emoji": "🐠",
+        "cefr": "B2"
+      },
+      {
+        "word": "ecological",
+        "ipa": "/ˌiːkəˈlɒdʒɪkl/",
+        "pos": "adj.",
+        "zh": "生态的",
+        "example": "Ecological balance shifts quietly at first.",
+        "emoji": "🌿",
+        "cefr": "B2"
+      },
+      {
+        "word": "wetland",
+        "ipa": "/ˈwetlənd/",
+        "pos": "n.",
+        "zh": "湿地",
+        "example": "Wetlands filter water naturally.",
+        "emoji": "🦆",
+        "cefr": "C1"
+      },
+      {
+        "word": "migration",
+        "ipa": "/maɪˈɡreɪʃn/",
+        "pos": "n.",
+        "zh": "迁徙；（动物/数据）迁移",
+        "example": "The crane migration peaks in November.",
+        "emoji": "🪽",
+        "cefr": "B2"
+      },
+      {
+        "word": "lagoon",
+        "ipa": "/ləˈɡuːn/",
+        "pos": "n.",
+        "zh": "潟湖",
+        "example": "Flamingos crowd the shallow lagoon.",
+        "emoji": "🌊",
+        "cefr": "C1"
+      },
+      {
+        "word": "canopy",
+        "ipa": "/ˈkænəpi/",
+        "pos": "n.",
+        "zh": "林冠；顶篷",
+        "example": "Sunlight barely reaches the canopy floor.",
+        "emoji": "🌳",
+        "cefr": "C1"
+      },
+      {
+        "word": "endemic",
+        "ipa": "/enˈdemɪk/",
+        "pos": "adj.",
+        "zh": "地方特有的",
+        "example": "The orchid is endemic to this island.",
+        "emoji": "🌺",
+        "cefr": "C2"
+      },
+      {
+        "word": "biome",
+        "ipa": "/ˈbaɪəʊm/",
+        "pos": "n.",
+        "zh": "生物群系",
+        "example": "The desert biome is very dry.",
+        "emoji": "🏜️",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_nature"
+  },
+  {
+    "id": "l5e_transport_future",
+    "title": "未来交通",
+    "emoji": "🚄",
+    "words": [
+      {
+        "word": "autonomous",
+        "ipa": "/ɔːˈtɒnəməs/",
+        "pos": "adj.",
+        "zh": "自动的；自主的",
+        "example": "Autonomous shuttles loop the campus.",
+        "emoji": "🚐",
+        "cefr": "C1"
+      },
+      {
+        "word": "carpool",
+        "ipa": "/ˈkɑːpuːl/",
+        "pos": "n./v.",
+        "zh": "拼车",
+        "example": "Carpool lanes move twice as fast.",
+        "emoji": "🚗",
+        "cefr": "C1"
+      },
+      {
+        "word": "navigation",
+        "ipa": "/ˌnævɪˈɡeɪʃn/",
+        "pos": "n.",
+        "zh": "导航",
+        "example": "Indoor navigation still frustrates visitors.",
+        "emoji": "🧭",
+        "cefr": "B2"
+      },
+      {
+        "word": "gridlock",
+        "ipa": "/ˈɡrɪdlɒk/",
+        "pos": "n.",
+        "zh": "交通大堵塞",
+        "example": "Festival weekend means total gridlock.",
+        "emoji": "🚕",
+        "cefr": "C1"
+      },
+      {
+        "word": "charging",
+        "ipa": "/ˈtʃɑːdʒɪŋ/",
+        "pos": "n.",
+        "zh": "充电",
+        "example": "Charging networks now cover every highway.",
+        "emoji": "🔌",
+        "cefr": "B2"
+      },
+      {
+        "word": "range",
+        "ipa": "/reɪndʒ/",
+        "pos": "n.",
+        "zh": "续航；范围；山脉",
+        "example": "Winter halves the advertised range.",
+        "emoji": "🔋",
+        "cefr": "B2"
+      },
+      {
+        "word": "commuter",
+        "ipa": "/kəˈmjuːtə/",
+        "pos": "n.",
+        "zh": "通勤者",
+        "example": "Commuter trains run every six minutes.",
+        "emoji": "🚆",
+        "cefr": "C1"
+      },
+      {
+        "word": "cyclist",
+        "ipa": "/ˈsaɪklɪst/",
+        "pos": "n.",
+        "zh": "骑行者",
+        "example": "Protected lanes protect every cyclist.",
+        "emoji": "🚴",
+        "cefr": "B2"
+      },
+      {
+        "word": "junction",
+        "ipa": "/ˈdʒʌŋkʃn/",
+        "pos": "n.",
+        "zh": "交叉口",
+        "example": "Accidents cluster at the third junction.",
+        "emoji": "🛣️",
+        "cefr": "C1"
+      },
+      {
+        "word": "flyover",
+        "ipa": "/ˈflaɪəʊvə/",
+        "pos": "n.",
+        "zh": "立交桥",
+        "example": "The new flyover cut travel time 20%.",
+        "emoji": "🌉",
+        "cefr": "C1"
+      },
+      {
+        "word": "tram",
+        "ipa": "/træm/",
+        "pos": "n.",
+        "zh": "有轨电车",
+        "example": "The tram glides past the old mill.",
+        "emoji": "🚋",
+        "cefr": "B2"
+      },
+      {
+        "word": "underground",
+        "ipa": "/ˈʌndəɡraʊnd/",
+        "pos": "adj./n.",
+        "zh": "地下的；地铁",
+        "example": "The underground runs until midnight.",
+        "emoji": "🚇",
+        "cefr": "B2"
+      },
+      {
+        "word": "electrification",
+        "ipa": "/ɪˌlektrɪfɪˈkeɪʃn/",
+        "pos": "n.",
+        "zh": "电气化",
+        "example": "Electrification is reshaping city buses.",
+        "emoji": "🔌",
+        "cefr": "C1"
+      },
+      {
+        "word": "micro-mobility",
+        "ipa": "/ˌmaɪkrəʊ məʊˈbɪləti/",
+        "pos": "n.",
+        "zh": "微出行",
+        "example": "Micro-mobility eases last-mile travel.",
+        "emoji": "🛴",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_transport_daily"
+  },
+  {
+    "id": "l5e_global_issues",
+    "title": "全球议题",
+    "emoji": "🌐",
+    "words": [
+      {
+        "word": "displacement",
+        "ipa": "/dɪsˈpleɪsmənt/",
+        "pos": "n.",
+        "zh": "流离失所；位移",
+        "example": "Flooding caused mass displacement inland.",
+        "emoji": "🏠",
+        "cefr": "C1"
+      },
+      {
+        "word": "malnutrition",
+        "ipa": "/ˌmælnjuˈtrɪʃn/",
+        "pos": "n.",
+        "zh": "营养不良",
+        "example": "Malnutrition stunts one in four children here.",
+        "emoji": "🥣",
+        "cefr": "C1"
+      },
+      {
+        "word": "trafficking",
+        "ipa": "/ˈtræfɪkɪŋ/",
+        "pos": "n.",
+        "zh": "非法贩卖",
+        "example": "Anti-trafficking units raided three flats.",
+        "emoji": "⛓️",
+        "cefr": "C1"
+      },
+      {
+        "word": "sweatshop",
+        "ipa": "/ˈswetʃɒp/",
+        "pos": "n.",
+        "zh": "血汗工厂",
+        "example": "Brands audited suppliers to end sweatshop labour.",
+        "emoji": "🏭",
+        "cefr": "C1"
+      },
+      {
+        "word": "humanitarian",
+        "ipa": "/hjuːˌmænɪˈteəriən/",
+        "pos": "adj.",
+        "zh": "人道主义的",
+        "example": "Humanitarian convoys crossed at dawn.",
+        "emoji": "🤲",
+        "cefr": "C1"
+      },
+      {
+        "word": "nonprofit",
+        "ipa": "/ˌnɒnˈprɒfɪt/",
+        "pos": "adj./n.",
+        "zh": "非营利的；非营利机构",
+        "example": "A nonprofit runs the city's food banks.",
+        "emoji": "🎗️",
+        "cefr": "C1"
+      },
+      {
+        "word": "governance",
+        "ipa": "/ˈɡʌvənəns/",
+        "pos": "n.",
+        "zh": "治理",
+        "example": "Strong governance attracts long-term investors.",
+        "emoji": "🏛️",
+        "cefr": "C1"
+      },
+      {
+        "word": "corruption",
+        "ipa": "/kəˈrʌpʃn/",
+        "pos": "n.",
+        "zh": "腐败",
+        "example": "Corruption drained a fifth of road funds.",
+        "emoji": "🕳️",
+        "cefr": "B2"
+      },
+      {
+        "word": "scrutiny",
+        "ipa": "/ˈskruːtəni/",
+        "pos": "n.",
+        "zh": "仔细审查",
+        "example": "Spending now faces public scrutiny.",
+        "emoji": "🔍",
+        "cefr": "C1"
+      },
+      {
+        "word": "consortium",
+        "ipa": "/kənˈsɔːtiəm/",
+        "pos": "n.",
+        "zh": "财团；联合体",
+        "example": "A three-university consortium won the grant.",
+        "emoji": "🤝",
+        "cefr": "C1"
+      },
+      {
+        "word": "federation",
+        "ipa": "/ˌfedəˈreɪʃn/",
+        "pos": "n.",
+        "zh": "联邦；联盟",
+        "example": "Six provinces formed a trade federation.",
+        "emoji": "🧩",
+        "cefr": "C1"
+      },
+      {
+        "word": "summitry",
+        "ipa": "/ˈsʌmɪtri/",
+        "pos": "n.",
+        "zh": "峰会外交",
+        "example": "Summitry alone rarely closes deals.",
+        "emoji": "🫱",
+        "cefr": "C1"
+      },
+      {
+        "word": "populism",
+        "ipa": "/ˈpɒpjəlɪzəm/",
+        "pos": "n.",
+        "zh": "民粹主义",
+        "example": "Populism rose during the recession.",
+        "emoji": "📣",
+        "cefr": "C2"
+      },
+      {
+        "word": "polarization",
+        "ipa": "/ˌpəʊləraɪˈzeɪʃn/",
+        "pos": "n.",
+        "zh": "极化",
+        "example": "Political polarization split the electorate.",
+        "emoji": "🧲",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_city"
+  },
+  {
+    "id": "l5e_work_trends",
+    "title": "职场新趋势",
     "emoji": "💼",
-    "cefr": "B2"
-   },
-   {
-    "word": "upskilling",
-    "ipa": "/ˈʌpˌskɪlɪŋ/",
-    "pos": "n.",
-    "zh": "技能提升",
-    "example": "Upskilling beats rehiring for small teams.",
-    "emoji": "📈",
-    "cefr": "C1"
-   },
-   {
-    "word": "resignation",
-    "ipa": "/ˌrezɪɡˈneɪʃn/",
-    "pos": "n.",
-    "zh": "辞职",
-    "example": "Three resignations followed the audit.",
-    "emoji": "📧",
-    "cefr": "C1"
-   },
-   {
-    "word": "advancement",
-    "ipa": "/ədˈvɑːnsmənt/",
-    "pos": "n.",
-    "zh": "晋升；进步",
-    "example": "Clear advancement ladders keep talent.",
-    "emoji": "🪜",
-    "cefr": "C1"
-   },
-   {
-    "word": "coworker",
-    "ipa": "/ˈkəʊwɜːkə/",
-    "pos": "n.",
-    "zh": "同事",
-    "example": "A coworker covered her weekend shift.",
-    "emoji": "🧑‍💼",
-    "cefr": "B2"
-   },
-   {
-    "word": "dysfunctional",
-    "ipa": "/dɪsˈfʌŋkʃənl/",
-    "pos": "adj.",
-    "zh": "功能失调的",
-    "example": "The dysfunctional meeting culture drained hours.",
-    "emoji": "🌀",
-    "cefr": "C1"
-   },
-   {
-    "word": "engagement",
-    "ipa": "/ɪnˈɡeɪdʒmənt/",
-    "pos": "n.",
-    "zh": "投入度；参与度；订婚",
-    "example": "Staff engagement rose after flexible hours.",
-    "emoji": "❤️",
-    "cefr": "C1"
-   },
-   {
-    "word": "tenure",
-    "ipa": "/ˈtenjə/",
-    "pos": "n.",
-    "zh": "任期；（大学）终身职位",
-    "example": "Her tenure spans three recessions.",
-    "emoji": "📅",
-    "cefr": "C1"
-   },
-   {
-    "word": "intern",
-    "ipa": "/ˈɪntɜːn/",
-    "pos": "n.",
-    "zh": "实习生",
-    "example": "The intern rebuilt the whole dashboard.",
-    "emoji": "🎒",
-    "cefr": "B2"
-   },
-   {
-    "word": "remote",
-    "ipa": "/rɪˈməʊt/",
-    "pos": "adj.",
-    "zh": "远程的；偏远的",
-    "example": "Remote hiring widened our talent pool.",
-    "emoji": "💻",
-    "cefr": "B2"
-   },
-   {
-    "word": "flexitime",
-    "ipa": "/ˈfleksɪtaɪm/",
-    "pos": "n.",
-    "zh": "弹性工作时间",
-    "example": "Flexitime lifted morale overnight.",
-    "emoji": "🕐",
-    "cefr": "C1"
-   },
-   {
-    "word": "induction",
-    "ipa": "/ɪnˈdʌkʃn/",
-    "pos": "n.",
-    "zh": "入职培训；电磁感应",
-    "example": "Induction week covers tools and norms.",
-    "emoji": "🧑‍🏫",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_urban_rural",
-  "title": "城市与乡村",
-  "emoji": "🏙️",
-  "words": [
-   {
-    "word": "metropolitan",
-    "ipa": "/ˌmetrəˈpɒlɪtən/",
-    "pos": "adj.",
-    "zh": "大都市的",
-    "example": "Metropolitan rents outpace wages yearly.",
-    "emoji": "🌆",
-    "cefr": "C1"
-   },
-   {
-    "word": "suburban",
-    "ipa": "/səˈbɜːbən/",
-    "pos": "adj.",
-    "zh": "郊区的",
-    "example": "Suburban schools grew twice as fast.",
-    "emoji": "🏡",
-    "cefr": "C1"
-   },
-   {
-    "word": "rustic",
-    "ipa": "/ˈrʌstɪk/",
-    "pos": "adj.",
-    "zh": "乡村的；质朴的",
-    "example": "The rustic inn has no wifi, deliberately.",
-    "emoji": "🪵",
-    "cefr": "C1"
-   },
-   {
-    "word": "municipal",
-    "ipa": "/mjuːˈnɪsɪpl/",
-    "pos": "adj.",
-    "zh": "市政的",
-    "example": "Municipal parks open at five.",
-    "emoji": "🏛️",
-    "cefr": "C1"
-   },
-   {
-    "word": "gentrification",
-    "ipa": "/ˌdʒentrɪfɪˈkeɪʃn/",
-    "pos": "n.",
-    "zh": "士绅化",
-    "example": "Gentrification pushed artists to the docks.",
-    "emoji": "🏗️",
-    "cefr": "C1"
-   },
-   {
-    "word": "slum",
-    "ipa": "/slʌm/",
-    "pos": "n.",
-    "zh": "贫民窟",
-    "example": "Upgrading slums needs water first.",
-    "emoji": "🏚️",
-    "cefr": "C1"
-   },
-   {
-    "word": "high-rise",
-    "ipa": "/ˌhaɪˈraɪz/",
-    "pos": "adj./n.",
-    "zh": "高层的；高楼",
-    "example": "High-rise living suits some, not all.",
-    "emoji": "🏢",
-    "cefr": "B2"
-   },
-   {
-    "word": "sprawl",
-    "ipa": "/sprɔːl/",
-    "pos": "n./v.",
-    "zh": "无序扩张；蔓延",
-    "example": "Suburban sprawl ate the orchards.",
-    "emoji": "🗺️",
-    "cefr": "C1"
-   },
-   {
-    "word": "pavement",
-    "ipa": "/ˈpeɪvmənt/",
-    "pos": "n.",
-    "zh": "人行道",
-    "example": "Cafes spill onto the pavement in May.",
-    "emoji": "🚶",
-    "cefr": "B2"
-   },
-   {
-    "word": "drainage",
-    "ipa": "/ˈdreɪnɪdʒ/",
-    "pos": "n.",
-    "zh": "排水系统",
-    "example": "Better drainage ended the street floods.",
-    "emoji": "🌊",
-    "cefr": "C1"
-   },
-   {
-    "word": "overcrowded",
-    "ipa": "/ˌəʊvəˈkraʊdɪd/",
-    "pos": "adj.",
-    "zh": "过度拥挤的",
-    "example": "Overcrowded trains spark daily complaints.",
-    "emoji": "🚃",
-    "cefr": "B2"
-   },
-   {
-    "word": "amenities",
-    "ipa": "/əˈmiːnətiz/",
-    "pos": "n.",
-    "zh": "便利设施",
-    "example": "Riverside amenities drew young renters.",
-    "emoji": "⛲",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_wellbeing",
-  "title": "休闲与幸福",
-  "emoji": "🧘",
-  "words": [
-   {
-    "word": "leisure",
-    "ipa": "/ˈleʒə/",
-    "pos": "n.",
-    "zh": "休闲",
-    "example": "Leisure time shrank as commutes grew.",
-    "emoji": "🏖️",
-    "cefr": "B2"
-   },
-   {
-    "word": "wellbeing",
-    "ipa": "/ˌwelˈbiːɪŋ/",
-    "pos": "n.",
-    "zh": "身心健康",
-    "example": "Wellbeing surveys guide our schedule.",
-    "emoji": "💚",
-    "cefr": "B2"
-   },
-   {
-    "word": "recreation",
-    "ipa": "/ˌrekriˈeɪʃn/",
-    "pos": "n.",
-    "zh": "娱乐；消遣",
-    "example": "The lake offers summer recreation.",
-    "emoji": "🛶",
-    "cefr": "C1"
-   },
-   {
-    "word": "pastime",
-    "ipa": "/ˈpɑːstaɪm/",
-    "pos": "n.",
-    "zh": "消遣",
-    "example": "Birdwatching became his main pastime.",
-    "emoji": "🔭",
-    "cefr": "C1"
-   },
-   {
-    "word": "spectator",
-    "ipa": "/spekˈteɪtə/",
-    "pos": "n.",
-    "zh": "观众",
-    "example": "Spectators lined the final kilometre.",
-    "emoji": "👏",
-    "cefr": "C1"
-   },
-   {
-    "word": "amateur",
-    "ipa": "/ˈæmətə/",
-    "pos": "adj./n.",
-    "zh": "业余的；业余爱好者",
-    "example": "Amateur runners fill half the field.",
-    "emoji": "🎽",
-    "cefr": "B2"
-   },
-   {
-    "word": "stretching",
-    "ipa": "/ˈstretʃɪŋ/",
-    "pos": "n.",
-    "zh": "拉伸",
-    "example": "Five minutes of stretching prevents cramps.",
-    "emoji": "🤸",
-    "cefr": "B2"
-   },
-   {
-    "word": "detox",
-    "ipa": "/ˈdiːtɒks/",
-    "pos": "n./v.",
-    "zh": "排毒；戒断",
-    "example": "A weekend digital detox helps focus.",
-    "emoji": "🥒",
-    "cefr": "C1"
-   },
-   {
-    "word": "sabbatical",
-    "ipa": "/səˈbætɪkl/",
-    "pos": "n.",
-    "zh": "学术休假；间隔假",
-    "example": "She took a six-month sabbatical to write.",
-    "emoji": "🏝️",
-    "cefr": "C1"
-   },
-   {
-    "word": "escapism",
-    "ipa": "/ɪˈskeɪpɪzəm/",
-    "pos": "n.",
-    "zh": "逃避现实",
-    "example": "Fantasy novels offer gentle escapism.",
-    "emoji": "🐉",
-    "cefr": "C1"
-   },
-   {
-    "word": "serenity",
-    "ipa": "/səˈrenəti/",
-    "pos": "n.",
-    "zh": "宁静",
-    "example": "Dawn rows bring pure serenity.",
-    "emoji": "🌅",
-    "cefr": "C1"
-   },
-   {
-    "word": "bliss",
-    "ipa": "/blɪs/",
-    "pos": "n.",
-    "zh": "极乐；极乐时刻",
-    "example": "Ignorance is bliss, sometimes.",
-    "emoji": "😇",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_disputes",
-  "title": "纠纷与解决",
-  "emoji": "🤺",
-  "words": [
-   {
-    "word": "mediation",
-    "ipa": "/ˌmiːdiˈeɪʃn/",
-    "pos": "n.",
-    "zh": "调解",
-    "example": "Mediation settled it without court fees.",
-    "emoji": "🤝",
-    "cefr": "C1"
-   },
-   {
-    "word": "adjudicate",
-    "ipa": "/əˈdʒuːdɪkeɪt/",
-    "pos": "v.",
-    "zh": "裁决",
-    "example": "An independent panel adjudicated the claims.",
-    "emoji": "⚖️",
-    "cefr": "C1"
-   },
-   {
-    "word": "settlement",
-    "ipa": "/ˈsetlmənt/",
-    "pos": "n.",
-    "zh": "和解；定居点",
-    "example": "The settlement paid each family 8,000.",
-    "emoji": "🪙",
-    "cefr": "C1"
-   },
-   {
-    "word": "litigant",
-    "ipa": "/ˈlɪtɪɡənt/",
-    "pos": "n.",
-    "zh": "诉讼当事人",
-    "example": "Each litigant bears own costs here.",
-    "emoji": "🧍",
-    "cefr": "C1"
-   },
-   {
-    "word": "damages",
-    "ipa": "/ˈdæmɪdʒɪz/",
-    "pos": "n.",
-    "zh": "损害赔偿金",
-    "example": "Courts awarded 50,000 in damages.",
-    "emoji": "💵",
-    "cefr": "C1"
-   },
-   {
-    "word": "restitution",
-    "ipa": "/ˌrestɪˈtjuːʃn/",
-    "pos": "n.",
-    "zh": "归还；赔偿",
-    "example": "Restitution ordered the artefacts returned.",
-    "emoji": "🏺",
-    "cefr": "C1"
-   },
-   {
-    "word": "indemnity",
-    "ipa": "/ˈɪndemnəti/",
-    "pos": "n.",
-    "zh": "赔偿保证；免责",
-    "example": "The clause grants full indemnity to staff.",
-    "emoji": "🛡️",
-    "cefr": "C1"
-   },
-   {
-    "word": "juror",
-    "ipa": "/ˈdʒʊərə/",
-    "pos": "n.",
-    "zh": "陪审员",
-    "example": "Each juror swears an oath daily.",
-    "emoji": "🧑‍⚖️",
-    "cefr": "C1"
-   },
-   {
-    "word": "oath",
-    "ipa": "/əʊθ/",
-    "pos": "n.",
-    "zh": "誓言",
-    "example": "Witnesses take an oath before testifying.",
-    "emoji": "✋",
-    "cefr": "C1"
-   },
-   {
-    "word": "affidavit",
-    "ipa": "/ˌæfəˈdeɪvɪt/",
-    "pos": "n.",
-    "zh": "宣誓书",
-    "example": "Her affidavit contradicted the first statement.",
-    "emoji": "📜",
-    "cefr": "C1"
-   },
-   {
-    "word": "paralegal",
-    "ipa": "/ˌpærəˈliːɡl/",
-    "pos": "n.",
-    "zh": "律师助理",
-    "example": "Paralegals drafted the standard contracts.",
-    "emoji": "📋",
-    "cefr": "C1"
-   },
-   {
-    "word": "defamation",
-    "ipa": "/ˌdefəˈmeɪʃn/",
-    "pos": "n.",
-    "zh": "诽谤",
-    "example": "The defamation claim cost the tabloid dearly.",
-    "emoji": "🗣️",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_experiment",
-  "title": "实验与观察",
-  "emoji": "🧪",
-  "words": [
-   {
-    "word": "conjecture",
-    "ipa": "/kənˈdʒektʃə/",
-    "pos": "n./v.",
-    "zh": "推测",
-    "example": "Interesting conjecture, weak evidence.",
-    "emoji": "💭",
-    "cefr": "C1"
-   },
-   {
-    "word": "parameter",
-    "ipa": "/pəˈræmɪtə/",
-    "pos": "n.",
-    "zh": "参数",
-    "example": "Tune one parameter at a time.",
-    "emoji": "🎚️",
-    "cefr": "C1"
-   },
-   {
-    "word": "calibration",
-    "ipa": "/ˌkælɪˈbreɪʃn/",
-    "pos": "n.",
-    "zh": "校准",
-    "example": "Sensor calibration runs every morning.",
-    "emoji": "🎯",
-    "cefr": "C1"
-   },
-   {
-    "word": "apparatus",
-    "ipa": "/ˌæpəˈrætəs/",
-    "pos": "n.",
-    "zh": "设备；装置",
-    "example": "The apparatus fills half the bench.",
-    "emoji": "⚙️",
-    "cefr": "C1"
-   },
-   {
-    "word": "trials",
-    "ipa": "/ˈtraɪəlz/",
-    "pos": "n.",
-    "zh": "试验（复数）",
-    "example": "Drug trials ran across nine hospitals.",
-    "emoji": "🧫",
-    "cefr": "B2"
-   },
-   {
-    "word": "placebo",
-    "ipa": "/pləˈsiːbəʊ/",
-    "pos": "n.",
-    "zh": "安慰剂",
-    "example": "Half the group received a placebo.",
-    "emoji": "🍬",
-    "cefr": "C1"
-   },
-   {
-    "word": "longitudinal",
-    "ipa": "/ˌlɒndʒɪˈtjuːdɪnl/",
-    "pos": "adj.",
-    "zh": "纵向的（研究）",
-    "example": "A longitudinal study followed 3,000 babies.",
-    "emoji": "📏",
-    "cefr": "C1"
-   },
-   {
-    "word": "citation",
-    "ipa": "/saɪˈteɪʃn/",
-    "pos": "n.",
-    "zh": "引用",
-    "example": "Citation counts reward flashy work.",
-    "emoji": "🔖",
-    "cefr": "C1"
-   },
-   {
-    "word": "plagiarism",
-    "ipa": "/ˈpleɪdʒərɪzəm/",
-    "pos": "n.",
-    "zh": "剽窃",
-    "example": "Plagiarism ends academic careers here.",
-    "emoji": "🚫",
-    "cefr": "C1"
-   },
-   {
-    "word": "falsifiable",
-    "ipa": "/ˈfɔːlsɪfaɪəbl/",
-    "pos": "adj.",
-    "zh": "可证伪的",
-    "example": "A good theory is falsifiable in principle.",
-    "emoji": "❌",
-    "cefr": "C1"
-   },
-   {
-    "word": "technique",
-    "ipa": "/tekˈniːk/",
-    "pos": "n.",
-    "zh": "技术；手法",
-    "example": "His technique improved with every sketch.",
-    "emoji": "🛠️",
-    "cefr": "B2"
-   },
-   {
-    "word": "validation",
-    "ipa": "/ˌvælɪˈdeɪʃn/",
-    "pos": "n.",
-    "zh": "验证；确认",
-    "example": "Independent validation quieted the skeptics.",
-    "emoji": "✅",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_risk_uncertainty",
-  "title": "风险与不确定",
-  "emoji": "🎲",
-  "words": [
-   {
-    "word": "peril",
-    "ipa": "/ˈperəl/",
-    "pos": "n.",
-    "zh": "危险",
-    "example": "Ice poses the main peril to climbers.",
-    "emoji": "⚠️",
-    "cefr": "C1"
-   },
-   {
-    "word": "uncertainty",
-    "ipa": "/ʌnˈsɜːtnti/",
-    "pos": "n.",
-    "zh": "不确定性",
-    "example": "Markets hate uncertainty more than bad news.",
-    "emoji": "🌫️",
-    "cefr": "B2"
-   },
-   {
-    "word": "probability",
-    "ipa": "/ˌprɒbəˈbɪləti/",
-    "pos": "n.",
-    "zh": "概率",
-    "example": "Rain probability sits at 70% tonight.",
+    "words": [
+      {
+        "word": "freelance",
+        "ipa": "/ˈfriːlɑːns/",
+        "pos": "adj./v.",
+        "zh": "自由职业（的）",
+        "example": "She went freelance after her second child.",
+        "emoji": "💼",
+        "cefr": "B2"
+      },
+      {
+        "word": "upskilling",
+        "ipa": "/ˈʌpˌskɪlɪŋ/",
+        "pos": "n.",
+        "zh": "技能提升",
+        "example": "Upskilling beats rehiring for small teams.",
+        "emoji": "📈",
+        "cefr": "C1"
+      },
+      {
+        "word": "resignation",
+        "ipa": "/ˌrezɪɡˈneɪʃn/",
+        "pos": "n.",
+        "zh": "辞职",
+        "example": "Three resignations followed the audit.",
+        "emoji": "📧",
+        "cefr": "C1"
+      },
+      {
+        "word": "advancement",
+        "ipa": "/ədˈvɑːnsmənt/",
+        "pos": "n.",
+        "zh": "晋升；进步",
+        "example": "Clear advancement ladders keep talent.",
+        "emoji": "🪜",
+        "cefr": "C1"
+      },
+      {
+        "word": "coworker",
+        "ipa": "/ˈkəʊwɜːkə/",
+        "pos": "n.",
+        "zh": "同事",
+        "example": "A coworker covered her weekend shift.",
+        "emoji": "🧑‍💼",
+        "cefr": "B2"
+      },
+      {
+        "word": "dysfunctional",
+        "ipa": "/dɪsˈfʌŋkʃənl/",
+        "pos": "adj.",
+        "zh": "功能失调的",
+        "example": "The dysfunctional meeting culture drained hours.",
+        "emoji": "🌀",
+        "cefr": "C1"
+      },
+      {
+        "word": "engagement",
+        "ipa": "/ɪnˈɡeɪdʒmənt/",
+        "pos": "n.",
+        "zh": "投入度；参与度；订婚",
+        "example": "Staff engagement rose after flexible hours.",
+        "emoji": "❤️",
+        "cefr": "C1"
+      },
+      {
+        "word": "tenure",
+        "ipa": "/ˈtenjə/",
+        "pos": "n.",
+        "zh": "任期；（大学）终身职位",
+        "example": "Her tenure spans three recessions.",
+        "emoji": "📅",
+        "cefr": "C1"
+      },
+      {
+        "word": "intern",
+        "ipa": "/ˈɪntɜːn/",
+        "pos": "n.",
+        "zh": "实习生",
+        "example": "The intern rebuilt the whole dashboard.",
+        "emoji": "🎒",
+        "cefr": "B2"
+      },
+      {
+        "word": "remote",
+        "ipa": "/rɪˈməʊt/",
+        "pos": "adj.",
+        "zh": "远程的；偏远的",
+        "example": "Remote hiring widened our talent pool.",
+        "emoji": "💻",
+        "cefr": "B2"
+      },
+      {
+        "word": "flexitime",
+        "ipa": "/ˈfleksɪtaɪm/",
+        "pos": "n.",
+        "zh": "弹性工作时间",
+        "example": "Flexitime lifted morale overnight.",
+        "emoji": "🕐",
+        "cefr": "C1"
+      },
+      {
+        "word": "induction",
+        "ipa": "/ɪnˈdʌkʃn/",
+        "pos": "n.",
+        "zh": "入职培训；电磁感应",
+        "example": "Induction week covers tools and norms.",
+        "emoji": "🧑‍🏫",
+        "cefr": "C1"
+      },
+      {
+        "word": "telecommuting",
+        "ipa": "/ˌtelikəˈmjuːtɪŋ/",
+        "pos": "n.",
+        "zh": "远程办公",
+        "example": "Telecommuting saved hours of commuting.",
+        "emoji": "🏠",
+        "cefr": "C1"
+      },
+      {
+        "word": "gig",
+        "ipa": "/ɡɪɡ/",
+        "pos": "n.",
+        "zh": "零工",
+        "example": "Gig workers lack fixed contracts.",
+        "emoji": "💼",
+        "cefr": "C2",
+        "level": "C1"
+      }
+    ],
+    "extends_from": "l2_jobs"
+  },
+  {
+    "id": "l5e_urban_rural",
+    "title": "城市与乡村",
+    "emoji": "🏙️",
+    "words": [
+      {
+        "word": "metropolitan",
+        "ipa": "/ˌmetrəˈpɒlɪtən/",
+        "pos": "adj.",
+        "zh": "大都市的",
+        "example": "Metropolitan rents outpace wages yearly.",
+        "emoji": "🌆",
+        "cefr": "C1"
+      },
+      {
+        "word": "suburban",
+        "ipa": "/səˈbɜːbən/",
+        "pos": "adj.",
+        "zh": "郊区的",
+        "example": "Suburban schools grew twice as fast.",
+        "emoji": "🏡",
+        "cefr": "C1"
+      },
+      {
+        "word": "rustic",
+        "ipa": "/ˈrʌstɪk/",
+        "pos": "adj.",
+        "zh": "乡村的；质朴的",
+        "example": "The rustic inn has no wifi, deliberately.",
+        "emoji": "🪵",
+        "cefr": "C1"
+      },
+      {
+        "word": "municipal",
+        "ipa": "/mjuːˈnɪsɪpl/",
+        "pos": "adj.",
+        "zh": "市政的",
+        "example": "Municipal parks open at five.",
+        "emoji": "🏛️",
+        "cefr": "C1"
+      },
+      {
+        "word": "gentrification",
+        "ipa": "/ˌdʒentrɪfɪˈkeɪʃn/",
+        "pos": "n.",
+        "zh": "士绅化",
+        "example": "Gentrification pushed artists to the docks.",
+        "emoji": "🏗️",
+        "cefr": "C1"
+      },
+      {
+        "word": "slum",
+        "ipa": "/slʌm/",
+        "pos": "n.",
+        "zh": "贫民窟",
+        "example": "Upgrading slums needs water first.",
+        "emoji": "🏚️",
+        "cefr": "C1"
+      },
+      {
+        "word": "high-rise",
+        "ipa": "/ˌhaɪˈraɪz/",
+        "pos": "adj./n.",
+        "zh": "高层的；高楼",
+        "example": "High-rise living suits some, not all.",
+        "emoji": "🏢",
+        "cefr": "B2"
+      },
+      {
+        "word": "sprawl",
+        "ipa": "/sprɔːl/",
+        "pos": "n./v.",
+        "zh": "无序扩张；蔓延",
+        "example": "Suburban sprawl ate the orchards.",
+        "emoji": "🗺️",
+        "cefr": "C1"
+      },
+      {
+        "word": "pavement",
+        "ipa": "/ˈpeɪvmənt/",
+        "pos": "n.",
+        "zh": "人行道",
+        "example": "Cafes spill onto the pavement in May.",
+        "emoji": "🚶",
+        "cefr": "B2"
+      },
+      {
+        "word": "drainage",
+        "ipa": "/ˈdreɪnɪdʒ/",
+        "pos": "n.",
+        "zh": "排水系统",
+        "example": "Better drainage ended the street floods.",
+        "emoji": "🌊",
+        "cefr": "C1"
+      },
+      {
+        "word": "overcrowded",
+        "ipa": "/ˌəʊvəˈkraʊdɪd/",
+        "pos": "adj.",
+        "zh": "过度拥挤的",
+        "example": "Overcrowded trains spark daily complaints.",
+        "emoji": "🚃",
+        "cefr": "B2"
+      },
+      {
+        "word": "amenities",
+        "ipa": "/əˈmiːnətiz/",
+        "pos": "n.",
+        "zh": "便利设施",
+        "example": "Riverside amenities drew young renters.",
+        "emoji": "⛲",
+        "cefr": "C1"
+      },
+      {
+        "word": "depopulation",
+        "ipa": "/ˌdiːpɒpjuˈleɪʃn/",
+        "pos": "n.",
+        "zh": "人口减少",
+        "example": "Rural depopulation closed the school.",
+        "emoji": "🏚️",
+        "cefr": "C1"
+      },
+      {
+        "word": "urban sprawl",
+        "ipa": "/ˌɜːbən ˈsprɔːl/",
+        "pos": "n.",
+        "zh": "城市蔓延",
+        "example": "Urban sprawl devours farmland.",
+        "emoji": "🧱",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_city"
+  },
+  {
+    "id": "l5e_wellbeing",
+    "title": "休闲与幸福",
+    "emoji": "🧘",
+    "words": [
+      {
+        "word": "leisure",
+        "ipa": "/ˈleʒə/",
+        "pos": "n.",
+        "zh": "休闲",
+        "example": "Leisure time shrank as commutes grew.",
+        "emoji": "🏖️",
+        "cefr": "B2"
+      },
+      {
+        "word": "wellbeing",
+        "ipa": "/ˌwelˈbiːɪŋ/",
+        "pos": "n.",
+        "zh": "身心健康",
+        "example": "Wellbeing surveys guide our schedule.",
+        "emoji": "💚",
+        "cefr": "B2"
+      },
+      {
+        "word": "recreation",
+        "ipa": "/ˌrekriˈeɪʃn/",
+        "pos": "n.",
+        "zh": "娱乐；消遣",
+        "example": "The lake offers summer recreation.",
+        "emoji": "🛶",
+        "cefr": "C1"
+      },
+      {
+        "word": "pastime",
+        "ipa": "/ˈpɑːstaɪm/",
+        "pos": "n.",
+        "zh": "消遣",
+        "example": "Birdwatching became his main pastime.",
+        "emoji": "🔭",
+        "cefr": "C1"
+      },
+      {
+        "word": "spectator",
+        "ipa": "/spekˈteɪtə/",
+        "pos": "n.",
+        "zh": "观众",
+        "example": "Spectators lined the final kilometre.",
+        "emoji": "👏",
+        "cefr": "C1"
+      },
+      {
+        "word": "amateur",
+        "ipa": "/ˈæmətə/",
+        "pos": "adj./n.",
+        "zh": "业余的；业余爱好者",
+        "example": "Amateur runners fill half the field.",
+        "emoji": "🎽",
+        "cefr": "B2"
+      },
+      {
+        "word": "stretching",
+        "ipa": "/ˈstretʃɪŋ/",
+        "pos": "n.",
+        "zh": "拉伸",
+        "example": "Five minutes of stretching prevents cramps.",
+        "emoji": "🤸",
+        "cefr": "B2"
+      },
+      {
+        "word": "detox",
+        "ipa": "/ˈdiːtɒks/",
+        "pos": "n./v.",
+        "zh": "排毒；戒断",
+        "example": "A weekend digital detox helps focus.",
+        "emoji": "🥒",
+        "cefr": "C1"
+      },
+      {
+        "word": "sabbatical",
+        "ipa": "/səˈbætɪkl/",
+        "pos": "n.",
+        "zh": "学术休假；间隔假",
+        "example": "She took a six-month sabbatical to write.",
+        "emoji": "🏝️",
+        "cefr": "C1"
+      },
+      {
+        "word": "escapism",
+        "ipa": "/ɪˈskeɪpɪzəm/",
+        "pos": "n.",
+        "zh": "逃避现实",
+        "example": "Fantasy novels offer gentle escapism.",
+        "emoji": "🐉",
+        "cefr": "C1"
+      },
+      {
+        "word": "serenity",
+        "ipa": "/səˈrenəti/",
+        "pos": "n.",
+        "zh": "宁静",
+        "example": "Dawn rows bring pure serenity.",
+        "emoji": "🌅",
+        "cefr": "C1"
+      },
+      {
+        "word": "bliss",
+        "ipa": "/blɪs/",
+        "pos": "n.",
+        "zh": "极乐；极乐时刻",
+        "example": "Ignorance is bliss, sometimes.",
+        "emoji": "😇",
+        "cefr": "C1"
+      },
+      {
+        "word": "vitality",
+        "ipa": "/vaɪˈtæləti/",
+        "pos": "n.",
+        "zh": "活力",
+        "example": "Sleep restores mental vitality.",
+        "emoji": "⚡",
+        "cefr": "C1"
+      },
+      {
+        "word": "wellness",
+        "ipa": "/ˈwelnes/",
+        "pos": "n.",
+        "zh": "健康状态",
+        "example": "Wellness programs cut sick leave.",
+        "emoji": "🌿",
+        "cefr": "C2",
+        "level": "C1"
+      }
+    ],
+    "extends_from": "l2_health"
+  },
+  {
+    "id": "l5e_disputes",
+    "title": "纠纷与解决",
+    "emoji": "🤺",
+    "words": [
+      {
+        "word": "mediation",
+        "ipa": "/ˌmiːdiˈeɪʃn/",
+        "pos": "n.",
+        "zh": "调解",
+        "example": "Mediation settled it without court fees.",
+        "emoji": "🤝",
+        "cefr": "C1"
+      },
+      {
+        "word": "adjudicate",
+        "ipa": "/əˈdʒuːdɪkeɪt/",
+        "pos": "v.",
+        "zh": "裁决",
+        "example": "An independent panel adjudicated the claims.",
+        "emoji": "⚖️",
+        "cefr": "C1"
+      },
+      {
+        "word": "settlement",
+        "ipa": "/ˈsetlmənt/",
+        "pos": "n.",
+        "zh": "和解；定居点",
+        "example": "The settlement paid each family 8,000.",
+        "emoji": "🪙",
+        "cefr": "C1"
+      },
+      {
+        "word": "litigant",
+        "ipa": "/ˈlɪtɪɡənt/",
+        "pos": "n.",
+        "zh": "诉讼当事人",
+        "example": "Each litigant bears own costs here.",
+        "emoji": "🧍",
+        "cefr": "C1"
+      },
+      {
+        "word": "damages",
+        "ipa": "/ˈdæmɪdʒɪz/",
+        "pos": "n.",
+        "zh": "损害赔偿金",
+        "example": "Courts awarded 50,000 in damages.",
+        "emoji": "💵",
+        "cefr": "C1"
+      },
+      {
+        "word": "restitution",
+        "ipa": "/ˌrestɪˈtjuːʃn/",
+        "pos": "n.",
+        "zh": "归还；赔偿",
+        "example": "Restitution ordered the artefacts returned.",
+        "emoji": "🏺",
+        "cefr": "C1"
+      },
+      {
+        "word": "indemnity",
+        "ipa": "/ˈɪndemnəti/",
+        "pos": "n.",
+        "zh": "赔偿保证；免责",
+        "example": "The clause grants full indemnity to staff.",
+        "emoji": "🛡️",
+        "cefr": "C1"
+      },
+      {
+        "word": "juror",
+        "ipa": "/ˈdʒʊərə/",
+        "pos": "n.",
+        "zh": "陪审员",
+        "example": "Each juror swears an oath daily.",
+        "emoji": "🧑‍⚖️",
+        "cefr": "C1"
+      },
+      {
+        "word": "oath",
+        "ipa": "/əʊθ/",
+        "pos": "n.",
+        "zh": "誓言",
+        "example": "Witnesses take an oath before testifying.",
+        "emoji": "✋",
+        "cefr": "C1"
+      },
+      {
+        "word": "affidavit",
+        "ipa": "/ˌæfəˈdeɪvɪt/",
+        "pos": "n.",
+        "zh": "宣誓书",
+        "example": "Her affidavit contradicted the first statement.",
+        "emoji": "📜",
+        "cefr": "C1"
+      },
+      {
+        "word": "paralegal",
+        "ipa": "/ˌpærəˈliːɡl/",
+        "pos": "n.",
+        "zh": "律师助理",
+        "example": "Paralegals drafted the standard contracts.",
+        "emoji": "📋",
+        "cefr": "C1"
+      },
+      {
+        "word": "defamation",
+        "ipa": "/ˌdefəˈmeɪʃn/",
+        "pos": "n.",
+        "zh": "诽谤",
+        "example": "The defamation claim cost the tabloid dearly.",
+        "emoji": "🗣️",
+        "cefr": "C1"
+      },
+      {
+        "word": "stalemate",
+        "ipa": "/ˈsteɪlmeɪt/",
+        "pos": "n.",
+        "zh": "僵局",
+        "example": "Talks hit a stalemate over wages.",
+        "emoji": "♟️",
+        "cefr": "C1"
+      },
+      {
+        "word": "adversarial",
+        "ipa": "/ˌædvəˈseəriəl/",
+        "pos": "adj.",
+        "zh": "对抗性的",
+        "example": "An adversarial tone blocked compromise.",
+        "emoji": "🥊",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_safety"
+  },
+  {
+    "id": "l5e_experiment",
+    "title": "实验与观察",
+    "emoji": "🧪",
+    "words": [
+      {
+        "word": "conjecture",
+        "ipa": "/kənˈdʒektʃə/",
+        "pos": "n./v.",
+        "zh": "推测",
+        "example": "Interesting conjecture, weak evidence.",
+        "emoji": "💭",
+        "cefr": "C1"
+      },
+      {
+        "word": "parameter",
+        "ipa": "/pəˈræmɪtə/",
+        "pos": "n.",
+        "zh": "参数",
+        "example": "Tune one parameter at a time.",
+        "emoji": "🎚️",
+        "cefr": "C1"
+      },
+      {
+        "word": "calibration",
+        "ipa": "/ˌkælɪˈbreɪʃn/",
+        "pos": "n.",
+        "zh": "校准",
+        "example": "Sensor calibration runs every morning.",
+        "emoji": "🎯",
+        "cefr": "C1"
+      },
+      {
+        "word": "apparatus",
+        "ipa": "/ˌæpəˈrætəs/",
+        "pos": "n.",
+        "zh": "设备；装置",
+        "example": "The apparatus fills half the bench.",
+        "emoji": "⚙️",
+        "cefr": "C1"
+      },
+      {
+        "word": "trials",
+        "ipa": "/ˈtraɪəlz/",
+        "pos": "n.",
+        "zh": "试验（复数）",
+        "example": "Drug trials ran across nine hospitals.",
+        "emoji": "🧫",
+        "cefr": "B2"
+      },
+      {
+        "word": "placebo",
+        "ipa": "/pləˈsiːbəʊ/",
+        "pos": "n.",
+        "zh": "安慰剂",
+        "example": "Half the group received a placebo.",
+        "emoji": "🍬",
+        "cefr": "C1"
+      },
+      {
+        "word": "longitudinal",
+        "ipa": "/ˌlɒndʒɪˈtjuːdɪnl/",
+        "pos": "adj.",
+        "zh": "纵向的（研究）",
+        "example": "A longitudinal study followed 3,000 babies.",
+        "emoji": "📏",
+        "cefr": "C1"
+      },
+      {
+        "word": "citation",
+        "ipa": "/saɪˈteɪʃn/",
+        "pos": "n.",
+        "zh": "引用",
+        "example": "Citation counts reward flashy work.",
+        "emoji": "🔖",
+        "cefr": "C1"
+      },
+      {
+        "word": "plagiarism",
+        "ipa": "/ˈpleɪdʒərɪzəm/",
+        "pos": "n.",
+        "zh": "剽窃",
+        "example": "Plagiarism ends academic careers here.",
+        "emoji": "🚫",
+        "cefr": "C1"
+      },
+      {
+        "word": "falsifiable",
+        "ipa": "/ˈfɔːlsɪfaɪəbl/",
+        "pos": "adj.",
+        "zh": "可证伪的",
+        "example": "A good theory is falsifiable in principle.",
+        "emoji": "❌",
+        "cefr": "C1"
+      },
+      {
+        "word": "technique",
+        "ipa": "/tekˈniːk/",
+        "pos": "n.",
+        "zh": "技术；手法",
+        "example": "His technique improved with every sketch.",
+        "emoji": "🛠️",
+        "cefr": "B2"
+      },
+      {
+        "word": "validation",
+        "ipa": "/ˌvælɪˈdeɪʃn/",
+        "pos": "n.",
+        "zh": "验证；确认",
+        "example": "Independent validation quieted the skeptics.",
+        "emoji": "✅",
+        "cefr": "C1"
+      },
+      {
+        "word": "randomization",
+        "ipa": "/ˌrændəmaɪˈzeɪʃn/",
+        "pos": "n.",
+        "zh": "随机化",
+        "example": "Randomization removes selection bias.",
+        "emoji": "🎲",
+        "cefr": "C2"
+      },
+      {
+        "word": "blinding",
+        "ipa": "/ˈblaɪndɪŋ/",
+        "pos": "n.",
+        "zh": "盲法",
+        "example": "Blinding keeps expectations neutral.",
+        "emoji": "🙈",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_school"
+  },
+  {
+    "id": "l5e_risk_uncertainty",
+    "title": "风险与不确定",
     "emoji": "🎲",
-    "cefr": "B2"
-   },
-   {
-    "word": "likelihood",
-    "ipa": "/ˈlaɪklihʊd/",
-    "pos": "n.",
-    "zh": "可能性",
-    "example": "Assess the likelihood before the impact.",
-    "emoji": "📈",
-    "cefr": "C1"
-   },
-   {
-    "word": "exposure",
-    "ipa": "/ɪkˈspəʊʒə/",
-    "pos": "n.",
-    "zh": "暴露（风险）；曝光",
-    "example": "Limit your exposure to any single client.",
-    "emoji": "☂️",
-    "cefr": "C1"
-   },
-   {
-    "word": "buffer",
-    "ipa": "/ˈbʌfə/",
-    "pos": "n.",
-    "zh": "缓冲；缓冲区",
-    "example": "Keep a cash buffer of three months.",
-    "emoji": "🛡️",
-    "cefr": "C1"
-   },
-   {
-    "word": "scenario",
-    "ipa": "/səˈnɑːriəʊ/",
-    "pos": "n.",
-    "zh": "情景；设想",
-    "example": "Plan for the worst scenario quietly.",
-    "emoji": "🎬",
-    "cefr": "C1"
-   },
-   {
-    "word": "foreseeable",
-    "ipa": "/fɔːˈsiːəbl/",
-    "pos": "adj.",
-    "zh": "可预见的",
-    "example": "Demand stays stable for the foreseeable future.",
-    "emoji": "🔮",
-    "cefr": "C1"
-   },
-   {
-    "word": "precautionary",
-    "ipa": "/prɪˈkɔːʃənəri/",
-    "pos": "adj.",
-    "zh": "预防性的",
-    "example": "Flights stopped as a precautionary measure.",
-    "emoji": "🛑",
-    "cefr": "C1"
-   },
-   {
-    "word": "resilient",
-    "ipa": "/rɪˈzɪliənt/",
-    "pos": "adj.",
-    "zh": "有韧性的；适应力强的",
-    "example": "Coral resilient to heat exists in the Red Sea.",
-    "emoji": "🪸",
-    "cefr": "C1"
-   },
-   {
-    "word": "volatile",
-    "ipa": "/ˈvɒlətaɪl/",
-    "pos": "adj.",
-    "zh": "动荡的；易挥发的",
-    "example": "Volatile prices make contracts risky.",
-    "emoji": "🎢",
-    "cefr": "C1"
-   },
-   {
-    "word": "tradeoff",
-    "ipa": "/ˈtreɪdɒf/",
-    "pos": "n.",
-    "zh": "权衡取舍",
-    "example": "Every cache setting is a tradeoff.",
-    "emoji": "⚖️",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_competition_collab",
-  "title": "竞争与协作",
-  "emoji": "🏁",
-  "words": [
-   {
-    "word": "collaboration",
-    "ipa": "/kəˌlæbəˈreɪʃn/",
-    "pos": "n.",
-    "zh": "合作",
-    "example": "Cross-team collaboration shipped the beta.",
-    "emoji": "🤝",
-    "cefr": "B2"
-   },
-   {
-    "word": "rivalry",
-    "ipa": "/ˈraɪvlri/",
-    "pos": "n.",
-    "zh": "竞争；对抗",
-    "example": "A friendly rivalry pushed both gyms.",
-    "emoji": "⚔️",
-    "cefr": "C1"
-   },
-   {
-    "word": "dominance",
-    "ipa": "/ˈdɒmɪnəns/",
-    "pos": "n.",
-    "zh": "支配地位",
-    "example": "One player's dominance invited antitrust review.",
-    "emoji": "👑",
-    "cefr": "C1"
-   },
-   {
-    "word": "alignment",
-    "ipa": "/əˈlaɪnmənt/",
-    "pos": "n.",
-    "zh": "一致；对齐",
-    "example": "Goal alignment prevents duplicated work.",
-    "emoji": "🎯",
-    "cefr": "C1"
-   },
-   {
-    "word": "synergy",
-    "ipa": "/ˈsɪnədʒi/",
-    "pos": "n.",
-    "zh": "协同效应",
-    "example": "The merger promised synergy, delivered chaos.",
-    "emoji": "➕",
-    "cefr": "C1"
-   },
-   {
-    "word": "delegation",
-    "ipa": "/ˌdelɪˈɡeɪʃn/",
-    "pos": "n.",
-    "zh": "授权；代表团",
-    "example": "Delegation freed her afternoons.",
-    "emoji": "📨",
-    "cefr": "C1"
-   },
-   {
-    "word": "oligopoly",
-    "ipa": "/ˌɒlɪˈɡɒpəli/",
-    "pos": "n.",
-    "zh": "寡头垄断",
-    "example": "Four firms form a quiet oligopoly.",
-    "emoji": "🏪",
-    "cefr": "C1"
-   },
-   {
-    "word": "entrant",
-    "ipa": "/ˈentrənt/",
-    "pos": "n.",
-    "zh": "新进入者",
-    "example": "The new entrant undercut every rival.",
-    "emoji": "🚪",
-    "cefr": "C1"
-   },
-   {
-    "word": "aggressive",
-    "ipa": "/əˈɡresɪv/",
-    "pos": "adj.",
-    "zh": "激进的；好斗的",
-    "example": "Aggressive pricing burned cash fast.",
-    "emoji": "🔥",
-    "cefr": "B2"
-   },
-   {
-    "word": "passive",
-    "ipa": "/ˈpæsɪv/",
-    "pos": "adj.",
-    "zh": "被动的",
-    "example": "Passive reading rarely builds fluency.",
-    "emoji": "🛋️",
-    "cefr": "B2"
-   },
-   {
-    "word": "contender",
-    "ipa": "/kənˈtendə/",
-    "pos": "n.",
-    "zh": "竞争者；角逐者",
-    "example": "A serious contender emerged in June.",
-    "emoji": "🥊",
-    "cefr": "C1"
-   },
-   {
-    "word": "underdog",
-    "ipa": "/ˈʌndədɒɡ/",
-    "pos": "n.",
-    "zh": "弱者；不被看好者",
-    "example": "Everyone loves an underdog story.",
-    "emoji": "🐕",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_writing_style",
-  "title": "写作风格",
-  "emoji": "✍️",
-  "words": [
-   {
-    "word": "coherent",
-    "ipa": "/kəʊˈhɪərənt/",
-    "pos": "adj.",
-    "zh": "连贯的",
-    "example": "A coherent argument needs one spine.",
-    "emoji": "🧵",
-    "cefr": "C1"
-   },
-   {
-    "word": "concise",
-    "ipa": "/kənˈsaɪs/",
-    "pos": "adj.",
-    "zh": "简洁的",
-    "example": "Concise emails get replies.",
-    "emoji": "✂️",
-    "cefr": "C1"
-   },
-   {
-    "word": "eloquent",
-    "ipa": "/ˈeləkwənt/",
-    "pos": "adj.",
-    "zh": "雄辩的；动人的",
-    "example": "An eloquent eulogy moved the hall.",
-    "emoji": "🎤",
-    "cefr": "C1"
-   },
-   {
-    "word": "parenthesis",
-    "ipa": "/pəˈrenθəsɪs/",
-    "pos": "n.",
-    "zh": "括号；插入语",
-    "example": "One parenthesis per sentence, ideally.",
-    "emoji": "( )",
-    "cefr": "C1"
-   },
-   {
-    "word": "paragraph",
-    "ipa": "/ˈpærəɡrɑːf/",
-    "pos": "n.",
-    "zh": "段落",
-    "example": "Each paragraph carries one idea.",
-    "emoji": "📄",
-    "cefr": "B2"
-   },
-   {
-    "word": "punctuation",
-    "ipa": "/ˌpʌŋktʃuˈeɪʃn/",
-    "pos": "n.",
-    "zh": "标点",
-    "example": "Missing punctuation changes meaning entirely.",
-    "emoji": "❕",
-    "cefr": "B2"
-   },
-   {
-    "word": "draft",
-    "ipa": "/drɑːft/",
-    "pos": "n./v.",
-    "zh": "草稿；起草",
-    "example": "Share the draft early and often.",
-    "emoji": "📝",
-    "cefr": "B2"
-   },
-   {
-    "word": "paraphrase",
-    "ipa": "/ˈpærəfreɪz/",
-    "pos": "v./n.",
-    "zh": "意译；改述",
-    "example": "Paraphrase the source, then cite it.",
-    "emoji": "🔄",
-    "cefr": "C1"
-   },
-   {
-    "word": "rhetoric",
-    "ipa": "/ˈretərɪk/",
-    "pos": "n.",
-    "zh": "修辞；雄辩术",
-    "example": "Empty rhetoric rarely wins referendums.",
-    "emoji": "🗣️",
-    "cefr": "C1"
-   },
-   {
-    "word": "cliché",
-    "ipa": "/ˈkliːʃeɪ/",
-    "pos": "n.",
-    "zh": "陈词滥调",
-    "example": "Cut every cliché in the first draft.",
-    "emoji": "🗜️",
-    "cefr": "C1"
-   },
-   {
-    "word": "verbatim",
-    "ipa": "/vɜːˈbeɪtɪm/",
-    "pos": "adj./adv.",
-    "zh": "逐字的；逐字地",
-    "example": "Quote the witness verbatim in the minutes.",
-    "emoji": "🔤",
-    "cefr": "C1"
-   },
-   {
-    "word": "synopsis",
-    "ipa": "/sɪˈnɒpsɪs/",
-    "pos": "n.",
-    "zh": "概要",
-    "example": "The synopsis fits on one page.",
-    "emoji": "📑",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_personal_growth",
-  "title": "个人成长",
-  "emoji": "🌱",
-  "words": [
-   {
-    "word": "self-esteem",
-    "ipa": "/ˌself ɪˈstiːm/",
-    "pos": "n.",
-    "zh": "自尊",
-    "example": "Small wins rebuild self-esteem fastest.",
-    "emoji": "🧍",
-    "cefr": "C1"
-   },
-   {
-    "word": "self-awareness",
-    "ipa": "/ˌself əˈweənəs/",
-    "pos": "n.",
-    "zh": "自我认知",
-    "example": "Self-awareness precedes every change.",
-    "emoji": "🔍",
-    "cefr": "C1"
-   },
-   {
-    "word": "self-discipline",
-    "ipa": "/ˌself ˈdɪsəplɪn/",
-    "pos": "n.",
-    "zh": "自律",
-    "example": "Self-discipline carries you past motivation.",
-    "emoji": "🧗",
-    "cefr": "C1"
-   },
-   {
-    "word": "breakthrough",
-    "ipa": "/ˈbreɪkθruː/",
-    "pos": "n.",
-    "zh": "突破",
-    "example": "The breakthrough came at 3 a.m.",
-    "emoji": "💡",
-    "cefr": "C1"
-   },
-   {
-    "word": "ownership",
-    "ipa": "/ˈəʊnəʃɪp/",
-    "pos": "n.",
-    "zh": "主人翁意识；所有权",
-    "example": "Ownership of outcomes changes behaviour.",
-    "emoji": "🔑",
-    "cefr": "C1"
-   },
-   {
-    "word": "introspection",
-    "ipa": "/ˌɪntrəˈspekʃn/",
-    "pos": "n.",
-    "zh": "内省",
-    "example": "Weekly introspection spots bad patterns.",
-    "emoji": "🪞",
-    "cefr": "C1"
-   },
-   {
-    "word": "resolve",
-    "ipa": "/rɪˈzɒlv/",
-    "pos": "n./v.",
-    "zh": "决心；决心做",
-    "example": "New Year resolve fades by January 9th.",
-    "emoji": "🧲",
-    "cefr": "C1"
-   },
-   {
-    "word": "empower",
-    "ipa": "/ɪmˈpaʊə/",
-    "pos": "v.",
-    "zh": "赋能；使有能力",
-    "example": "Mentors empower rather than instruct.",
-    "emoji": "💪",
-    "cefr": "C1"
-   },
-   {
-    "word": "mindful",
-    "ipa": "/ˈmaɪndfəl/",
-    "pos": "adj.",
-    "zh": "留心的；正念的",
-    "example": "Mindful eating slows every meal pleasantly.",
-    "emoji": "🍵",
-    "cefr": "B2"
-   },
-   {
-    "word": "habit",
-    "ipa": "/ˈhæbɪt/",
-    "pos": "n.",
-    "zh": "习惯",
-    "example": "Stack the new habit onto an old one.",
-    "emoji": "🔁",
-    "cefr": "B2"
-   },
-   {
-    "word": "streak",
-    "ipa": "/striːk/",
-    "pos": "n.",
-    "zh": "连胜；连续记录",
-    "example": "A 30-day learning streak builds identity.",
-    "emoji": "🔥",
-    "cefr": "C1"
-   },
-   {
-    "word": "fulfilment",
-    "ipa": "/fʊlˈfɪlmənt/",
-    "pos": "n.",
-    "zh": "满足感；成就感",
-    "example": "Craft brings fulfilment salaries cannot.",
-    "emoji": "🌟",
-    "cefr": "C1"
-   }
-  ]
- }
+    "words": [
+      {
+        "word": "peril",
+        "ipa": "/ˈperəl/",
+        "pos": "n.",
+        "zh": "危险",
+        "example": "Ice poses the main peril to climbers.",
+        "emoji": "⚠️",
+        "cefr": "C1"
+      },
+      {
+        "word": "uncertainty",
+        "ipa": "/ʌnˈsɜːtnti/",
+        "pos": "n.",
+        "zh": "不确定性",
+        "example": "Markets hate uncertainty more than bad news.",
+        "emoji": "🌫️",
+        "cefr": "B2"
+      },
+      {
+        "word": "probability",
+        "ipa": "/ˌprɒbəˈbɪləti/",
+        "pos": "n.",
+        "zh": "概率",
+        "example": "Rain probability sits at 70% tonight.",
+        "emoji": "🎲",
+        "cefr": "B2"
+      },
+      {
+        "word": "likelihood",
+        "ipa": "/ˈlaɪklihʊd/",
+        "pos": "n.",
+        "zh": "可能性",
+        "example": "Assess the likelihood before the impact.",
+        "emoji": "📈",
+        "cefr": "C1"
+      },
+      {
+        "word": "exposure",
+        "ipa": "/ɪkˈspəʊʒə/",
+        "pos": "n.",
+        "zh": "暴露（风险）；曝光",
+        "example": "Limit your exposure to any single client.",
+        "emoji": "☂️",
+        "cefr": "C1"
+      },
+      {
+        "word": "buffer",
+        "ipa": "/ˈbʌfə/",
+        "pos": "n.",
+        "zh": "缓冲；缓冲区",
+        "example": "Keep a cash buffer of three months.",
+        "emoji": "🛡️",
+        "cefr": "C1"
+      },
+      {
+        "word": "scenario",
+        "ipa": "/səˈnɑːriəʊ/",
+        "pos": "n.",
+        "zh": "情景；设想",
+        "example": "Plan for the worst scenario quietly.",
+        "emoji": "🎬",
+        "cefr": "C1"
+      },
+      {
+        "word": "foreseeable",
+        "ipa": "/fɔːˈsiːəbl/",
+        "pos": "adj.",
+        "zh": "可预见的",
+        "example": "Demand stays stable for the foreseeable future.",
+        "emoji": "🔮",
+        "cefr": "C1"
+      },
+      {
+        "word": "precautionary",
+        "ipa": "/prɪˈkɔːʃənəri/",
+        "pos": "adj.",
+        "zh": "预防性的",
+        "example": "Flights stopped as a precautionary measure.",
+        "emoji": "🛑",
+        "cefr": "C1"
+      },
+      {
+        "word": "resilient",
+        "ipa": "/rɪˈzɪliənt/",
+        "pos": "adj.",
+        "zh": "有韧性的；适应力强的",
+        "example": "Coral resilient to heat exists in the Red Sea.",
+        "emoji": "🪸",
+        "cefr": "C1"
+      },
+      {
+        "word": "volatile",
+        "ipa": "/ˈvɒlətaɪl/",
+        "pos": "adj.",
+        "zh": "动荡的；易挥发的",
+        "example": "Volatile prices make contracts risky.",
+        "emoji": "🎢",
+        "cefr": "C1"
+      },
+      {
+        "word": "tradeoff",
+        "ipa": "/ˈtreɪdɒf/",
+        "pos": "n.",
+        "zh": "权衡取舍",
+        "example": "Every cache setting is a tradeoff.",
+        "emoji": "⚖️",
+        "cefr": "C1"
+      },
+      {
+        "word": "downside",
+        "ipa": "/ˈdaʊnsaɪd/",
+        "pos": "n.",
+        "zh": "下行风险",
+        "example": "The downside of the bet is small.",
+        "emoji": "⬇️",
+        "cefr": "C1"
+      },
+      {
+        "word": "probabilistic",
+        "ipa": "/ˌprɒbəbəˈlɪstɪk/",
+        "pos": "adj.",
+        "zh": "概率性的",
+        "example": "The forecast is probabilistic, not certain.",
+        "emoji": "📊",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_money"
+  },
+  {
+    "id": "l5e_competition_collab",
+    "title": "竞争与协作",
+    "emoji": "🏁",
+    "words": [
+      {
+        "word": "collaboration",
+        "ipa": "/kəˌlæbəˈreɪʃn/",
+        "pos": "n.",
+        "zh": "合作",
+        "example": "Cross-team collaboration shipped the beta.",
+        "emoji": "🤝",
+        "cefr": "B2"
+      },
+      {
+        "word": "rivalry",
+        "ipa": "/ˈraɪvlri/",
+        "pos": "n.",
+        "zh": "竞争；对抗",
+        "example": "A friendly rivalry pushed both gyms.",
+        "emoji": "⚔️",
+        "cefr": "C1"
+      },
+      {
+        "word": "dominance",
+        "ipa": "/ˈdɒmɪnəns/",
+        "pos": "n.",
+        "zh": "支配地位",
+        "example": "One player's dominance invited antitrust review.",
+        "emoji": "👑",
+        "cefr": "C1"
+      },
+      {
+        "word": "alignment",
+        "ipa": "/əˈlaɪnmənt/",
+        "pos": "n.",
+        "zh": "一致；对齐",
+        "example": "Goal alignment prevents duplicated work.",
+        "emoji": "🎯",
+        "cefr": "C1"
+      },
+      {
+        "word": "synergy",
+        "ipa": "/ˈsɪnədʒi/",
+        "pos": "n.",
+        "zh": "协同效应",
+        "example": "The merger promised synergy, delivered chaos.",
+        "emoji": "➕",
+        "cefr": "C1"
+      },
+      {
+        "word": "delegation",
+        "ipa": "/ˌdelɪˈɡeɪʃn/",
+        "pos": "n.",
+        "zh": "授权；代表团",
+        "example": "Delegation freed her afternoons.",
+        "emoji": "📨",
+        "cefr": "C1"
+      },
+      {
+        "word": "oligopoly",
+        "ipa": "/ˌɒlɪˈɡɒpəli/",
+        "pos": "n.",
+        "zh": "寡头垄断",
+        "example": "Four firms form a quiet oligopoly.",
+        "emoji": "🏪",
+        "cefr": "C1"
+      },
+      {
+        "word": "entrant",
+        "ipa": "/ˈentrənt/",
+        "pos": "n.",
+        "zh": "新进入者",
+        "example": "The new entrant undercut every rival.",
+        "emoji": "🚪",
+        "cefr": "C1"
+      },
+      {
+        "word": "aggressive",
+        "ipa": "/əˈɡresɪv/",
+        "pos": "adj.",
+        "zh": "激进的；好斗的",
+        "example": "Aggressive pricing burned cash fast.",
+        "emoji": "🔥",
+        "cefr": "B2"
+      },
+      {
+        "word": "passive",
+        "ipa": "/ˈpæsɪv/",
+        "pos": "adj.",
+        "zh": "被动的",
+        "example": "Passive reading rarely builds fluency.",
+        "emoji": "🛋️",
+        "cefr": "B2"
+      },
+      {
+        "word": "contender",
+        "ipa": "/kənˈtendə/",
+        "pos": "n.",
+        "zh": "竞争者；角逐者",
+        "example": "A serious contender emerged in June.",
+        "emoji": "🥊",
+        "cefr": "C1"
+      },
+      {
+        "word": "underdog",
+        "ipa": "/ˈʌndədɒɡ/",
+        "pos": "n.",
+        "zh": "弱者；不被看好者",
+        "example": "Everyone loves an underdog story.",
+        "emoji": "🐕",
+        "cefr": "C1"
+      },
+      {
+        "word": "co-opetition",
+        "ipa": "/kəʊˌɒpəˈtɪʃn/",
+        "pos": "n.",
+        "zh": "竞合",
+        "example": "Co-opetition lets rivals share platforms.",
+        "emoji": "🤝",
+        "cefr": "C2"
+      },
+      {
+        "word": "benchmarking",
+        "ipa": "/ˈbentʃmɑːkɪŋ/",
+        "pos": "n.",
+        "zh": "标杆管理",
+        "example": "Benchmarking compares us to leaders.",
+        "emoji": "📊",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_sports"
+  },
+  {
+    "id": "l5e_writing_style",
+    "title": "写作风格",
+    "emoji": "✍️",
+    "words": [
+      {
+        "word": "coherent",
+        "ipa": "/kəʊˈhɪərənt/",
+        "pos": "adj.",
+        "zh": "连贯的",
+        "example": "A coherent argument needs one spine.",
+        "emoji": "🧵",
+        "cefr": "C1"
+      },
+      {
+        "word": "concise",
+        "ipa": "/kənˈsaɪs/",
+        "pos": "adj.",
+        "zh": "简洁的",
+        "example": "Concise emails get replies.",
+        "emoji": "✂️",
+        "cefr": "C1"
+      },
+      {
+        "word": "eloquent",
+        "ipa": "/ˈeləkwənt/",
+        "pos": "adj.",
+        "zh": "雄辩的；动人的",
+        "example": "An eloquent eulogy moved the hall.",
+        "emoji": "🎤",
+        "cefr": "C1"
+      },
+      {
+        "word": "parenthesis",
+        "ipa": "/pəˈrenθəsɪs/",
+        "pos": "n.",
+        "zh": "括号；插入语",
+        "example": "One parenthesis per sentence, ideally.",
+        "emoji": "( )",
+        "cefr": "C1"
+      },
+      {
+        "word": "paragraph",
+        "ipa": "/ˈpærəɡrɑːf/",
+        "pos": "n.",
+        "zh": "段落",
+        "example": "Each paragraph carries one idea.",
+        "emoji": "📄",
+        "cefr": "B2"
+      },
+      {
+        "word": "punctuation",
+        "ipa": "/ˌpʌŋktʃuˈeɪʃn/",
+        "pos": "n.",
+        "zh": "标点",
+        "example": "Missing punctuation changes meaning entirely.",
+        "emoji": "❕",
+        "cefr": "B2"
+      },
+      {
+        "word": "draft",
+        "ipa": "/drɑːft/",
+        "pos": "n./v.",
+        "zh": "草稿；起草",
+        "example": "Share the draft early and often.",
+        "emoji": "📝",
+        "cefr": "B2"
+      },
+      {
+        "word": "paraphrase",
+        "ipa": "/ˈpærəfreɪz/",
+        "pos": "v./n.",
+        "zh": "意译；改述",
+        "example": "Paraphrase the source, then cite it.",
+        "emoji": "🔄",
+        "cefr": "C1"
+      },
+      {
+        "word": "rhetoric",
+        "ipa": "/ˈretərɪk/",
+        "pos": "n.",
+        "zh": "修辞；雄辩术",
+        "example": "Empty rhetoric rarely wins referendums.",
+        "emoji": "🗣️",
+        "cefr": "C1"
+      },
+      {
+        "word": "cliché",
+        "ipa": "/ˈkliːʃeɪ/",
+        "pos": "n.",
+        "zh": "陈词滥调",
+        "example": "Cut every cliché in the first draft.",
+        "emoji": "🗜️",
+        "cefr": "C1"
+      },
+      {
+        "word": "verbatim",
+        "ipa": "/vɜːˈbeɪtɪm/",
+        "pos": "adj./adv.",
+        "zh": "逐字的；逐字地",
+        "example": "Quote the witness verbatim in the minutes.",
+        "emoji": "🔤",
+        "cefr": "C1"
+      },
+      {
+        "word": "synopsis",
+        "ipa": "/sɪˈnɒpsɪs/",
+        "pos": "n.",
+        "zh": "概要",
+        "example": "The synopsis fits on one page.",
+        "emoji": "📑",
+        "cefr": "C1"
+      },
+      {
+        "word": "terse",
+        "ipa": "/tɜːs/",
+        "pos": "adj.",
+        "zh": "简短的",
+        "example": "His terse reply ended the debate.",
+        "emoji": "✂️",
+        "cefr": "C2"
+      },
+      {
+        "word": "flowery",
+        "ipa": "/ˈflaʊəri/",
+        "pos": "adj.",
+        "zh": "辞藻华丽的",
+        "example": "Flowery prose can hide weak logic.",
+        "emoji": "🌸",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_reading"
+  },
+  {
+    "id": "l5e_personal_growth",
+    "title": "个人成长",
+    "emoji": "🌱",
+    "words": [
+      {
+        "word": "self-esteem",
+        "ipa": "/ˌself ɪˈstiːm/",
+        "pos": "n.",
+        "zh": "自尊",
+        "example": "Small wins rebuild self-esteem fastest.",
+        "emoji": "🧍",
+        "cefr": "C1"
+      },
+      {
+        "word": "self-awareness",
+        "ipa": "/ˌself əˈweənəs/",
+        "pos": "n.",
+        "zh": "自我认知",
+        "example": "Self-awareness precedes every change.",
+        "emoji": "🔍",
+        "cefr": "C1"
+      },
+      {
+        "word": "self-discipline",
+        "ipa": "/ˌself ˈdɪsəplɪn/",
+        "pos": "n.",
+        "zh": "自律",
+        "example": "Self-discipline carries you past motivation.",
+        "emoji": "🧗",
+        "cefr": "C1"
+      },
+      {
+        "word": "breakthrough",
+        "ipa": "/ˈbreɪkθruː/",
+        "pos": "n.",
+        "zh": "突破",
+        "example": "The breakthrough came at 3 a.m.",
+        "emoji": "💡",
+        "cefr": "C1"
+      },
+      {
+        "word": "ownership",
+        "ipa": "/ˈəʊnəʃɪp/",
+        "pos": "n.",
+        "zh": "主人翁意识；所有权",
+        "example": "Ownership of outcomes changes behaviour.",
+        "emoji": "🔑",
+        "cefr": "C1"
+      },
+      {
+        "word": "introspection",
+        "ipa": "/ˌɪntrəˈspekʃn/",
+        "pos": "n.",
+        "zh": "内省",
+        "example": "Weekly introspection spots bad patterns.",
+        "emoji": "🪞",
+        "cefr": "C1"
+      },
+      {
+        "word": "resolve",
+        "ipa": "/rɪˈzɒlv/",
+        "pos": "n./v.",
+        "zh": "决心；决心做",
+        "example": "New Year resolve fades by January 9th.",
+        "emoji": "🧲",
+        "cefr": "C1"
+      },
+      {
+        "word": "empower",
+        "ipa": "/ɪmˈpaʊə/",
+        "pos": "v.",
+        "zh": "赋能；使有能力",
+        "example": "Mentors empower rather than instruct.",
+        "emoji": "💪",
+        "cefr": "C1"
+      },
+      {
+        "word": "mindful",
+        "ipa": "/ˈmaɪndfəl/",
+        "pos": "adj.",
+        "zh": "留心的；正念的",
+        "example": "Mindful eating slows every meal pleasantly.",
+        "emoji": "🍵",
+        "cefr": "B2"
+      },
+      {
+        "word": "habit",
+        "ipa": "/ˈhæbɪt/",
+        "pos": "n.",
+        "zh": "习惯",
+        "example": "Stack the new habit onto an old one.",
+        "emoji": "🔁",
+        "cefr": "B2"
+      },
+      {
+        "word": "streak",
+        "ipa": "/striːk/",
+        "pos": "n.",
+        "zh": "连胜；连续记录",
+        "example": "A 30-day learning streak builds identity.",
+        "emoji": "🔥",
+        "cefr": "C1"
+      },
+      {
+        "word": "fulfilment",
+        "ipa": "/fʊlˈfɪlmənt/",
+        "pos": "n.",
+        "zh": "满足感；成就感",
+        "example": "Craft brings fulfilment salaries cannot.",
+        "emoji": "🌟",
+        "cefr": "C1"
+      },
+      {
+        "word": "self-actualization",
+        "ipa": "/ˌself æktʃuəlaɪˈzeɪʃn/",
+        "pos": "n.",
+        "zh": "自我实现",
+        "example": "Self-actualization crowns the needs pyramid.",
+        "emoji": "🏔️",
+        "cefr": "C2"
+      },
+      {
+        "word": "grit",
+        "ipa": "/ɡrɪt/",
+        "pos": "n.",
+        "zh": "毅力",
+        "example": "Grit predicts finishing tough goals.",
+        "emoji": "🪨",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_school"
+  }
 ]

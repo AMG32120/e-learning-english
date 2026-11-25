@@ -9,6 +9,7 @@
 import { defineStore } from 'pinia'
 import { LEVELS, getStageById, getStageWords, getLevel, LEVEL_UNLOCK_RATIO } from '../data/levels'
 import { getUserData, saveUserData } from '../services/storage'
+import { getWordsL2, getL5Themes } from '../services/wordData'
 import { findWord } from '../services/dictionary'
 import { useAuthStore } from './auth'
 
@@ -41,12 +42,12 @@ export const BADGES = [
   { id: 'vocab_newbie', name: '词汇新手', icon: 'book', desc: '累计掌握 100 个单词' },
   { id: 'vocab_elite', name: '词汇达人', icon: 'books', desc: '累计掌握 500 个单词' },
   { id: 'vocab_master', name: '词汇大师', icon: 'crown', desc: '累计掌握 2000+ 个单词' },
-  { id: 'dialogue_star', name: '对话之星', icon: 'chat', desc: '完成 L3 全部场景关卡' },
-  { id: 'grammar_scholar', name: '语法学者', icon: 'pen', desc: '通关 L4 等级综合测验' },
-  { id: 'listening_pro', name: '听力达人', icon: 'headphone', desc: '完成 L6 全部听力材料' },
-  { id: 'reading_pioneer', name: '阅读先锋', icon: 'bookopen', desc: '完成 L7 全部阅读文章' },
-  { id: 'exam_sprint', name: '应试冲刺', icon: 'target', desc: '通关 L8 全部仿真题关卡' },
-  { id: 'all_graduate', name: '全站毕业', icon: 'trophy', desc: '通关全部 8 个等级' },
+  { id: 'dialogue_star', name: '对话之星', icon: 'chat', desc: '完成 L6 全部场景关卡' },
+  { id: 'grammar_scholar', name: '语法学者', icon: 'pen', desc: '通关 L7 等级综合测验' },
+  { id: 'listening_pro', name: '听力达人', icon: 'headphone', desc: '完成 L13 全部听力材料' },
+  { id: 'reading_pioneer', name: '阅读先锋', icon: 'bookopen', desc: '完成 L14 全部阅读文章' },
+  { id: 'exam_sprint', name: '应试冲刺', icon: 'target', desc: '通关 L16 全部仿真题关卡' },
+  { id: 'all_graduate', name: '全站毕业', icon: 'trophy', desc: '通关全部 16 个等级' },
   { id: 'streak_3', name: '连续打卡 3 天', icon: 'fire', desc: '打卡连续 3 天' },
   { id: 'streak_7', name: '连续打卡 7 天', icon: 'shine', desc: '打卡连续 7 天' },
   { id: 'streak_30', name: '连续打卡 30 天', icon: 'clock', desc: '打卡连续 30 天' },
@@ -58,10 +59,137 @@ export function badgeInfo(id) {
   return BADGES.find((b) => b.id === id) || { id, name: id, icon: 'star', desc: '' }
 }
 
-/* 等级综合测验毕业徽章映射（PLAN §3.4.4 / §3.5） */
+/* 等级综合测验毕业徽章映射（PLAN §3.4.4 / §3.5；等级细分后 1=字母、7=语法） */
 export const LEVEL_EXAM_BADGES = {
   1: 'letter_graduate',
-  4: 'grammar_scholar'
+  7: 'grammar_scholar'
+}
+
+/* ============================================================
+   进度兼容迁移：旧关卡 ID（12 级结构）→ 新关卡 ID（16 级结构）
+   迁移规则（近似迁移，不丢进度）：
+   1. 非词汇关固定平移：L4 对话→L6、L5 语法→L7、L10 听说→L13、
+      L11 阅读→L14、L12 仿真→L16（各自序号不变；L1 字母不变）；
+   2. 词汇关按「主题池 + 分组」近似映射：用旧分段算法（L2/L3 对半分、
+      L6~L9 四等分且词组归 L9）基于当前词库重建旧关卡主题分配，
+      再在新结构中查找同 pool 且同分组（S1 认词 / S2 巩固）的关卡。
+      因等级细分改变了主题切段位置，个别旧关可能映射到不同等级的
+      同主题关卡，属合理的近似迁移；
+   3. 无法匹配的旧键保留原值（新结构下自然失效，不覆盖其他进度）；
+   4. 等级综合测验 levelExams 按近似表迁移（4→6、5→7、6→8、7→9、
+      8→10、9→12、10→13、11→14、12→16，2/3 保留）；
+   5. recommendedStage 同步映射。
+   函数为幂等：重复调用时旧键已不存在，不产生二次变更。
+   ============================================================ */
+const LEGACY_FIXED_MAP = { 4: 6, 5: 7, 10: 13, 11: 14, 12: 16 }
+const LEGACY_FIXED_COUNTS = { 4: 6, 5: 8, 10: 16, 11: 16, 12: 8 }
+const LEGACY_EXAM_MAP = { 4: 6, 5: 7, 6: 8, 7: 9, 8: 10, 9: 12, 10: 13, 11: 14, 12: 16 }
+
+/* 按旧分段算法重建旧词汇关的「pool + 分组」归属 */
+function rebuildLegacyStageMap() {
+  const map = new Map()
+  const pushLevel = (lv, themes) => {
+    themes.forEach((t, ti) => {
+      const words = t.words || []
+      if (!words.length) return
+      const half = Math.ceil(words.length / 2)
+      const groups = [words.slice(0, half), words.slice(half)]
+      groups.forEach((g, gi) => {
+        if (!g.length) return
+        map.set(`L${lv}-U${ti + 1}-S${gi + 1}`, { pool: t.pool, group: gi === 0 ? 'first' : 'second' })
+      })
+    })
+  }
+  const l2 = getWordsL2() || {}
+  const l2Keys = Object.keys(l2)
+  const mid = Math.ceil(l2Keys.length / 2)
+  pushLevel(2, l2Keys.slice(0, mid).map((k) => ({ pool: `l2_${k}`, words: l2[k] || [] })))
+  pushLevel(3, l2Keys.slice(mid).map((k) => ({ pool: `l2_${k}`, words: l2[k] || [] })))
+  const all = getL5Themes() || []
+  const wordPacks = all.filter((t) => !String(t.id).startsWith('ph_'))
+  const phrasePacks = all.filter((t) => String(t.id).startsWith('ph_'))
+  const per = Math.ceil(wordPacks.length / 4)
+  const segs = [0, 1, 2, 3].map((i) => wordPacks.slice(i * per, (i + 1) * per))
+  segs[3] = segs[3].concat(phrasePacks)
+  segs.forEach((seg, idx) => {
+    pushLevel(6 + idx, seg.map((t) => ({ pool: t.id, words: t.words || [] })))
+  })
+  return map
+}
+
+/* 新结构词汇关的「pool + 分组」→ 新关卡 ID 索引 */
+function buildNewStageIndex() {
+  const idx = new Map()
+  for (const lv of LEVELS) {
+    for (const st of lv.stages) {
+      if (!['word_choice', 'word_match', 'word_spell'].includes(st.type)) continue
+      const pool = st.content && st.content.pool
+      if (!pool) continue
+      const group = /-S1$/.test(st.id) ? 'first' : 'second'
+      const key = `${pool}|${group}`
+      if (!idx.has(key)) idx.set(key, st.id)
+    }
+  }
+  return idx
+}
+
+/* 执行迁移：有变更返回 true */
+export function migrateProgress(data) {
+  if (!data || !data.progress || !data.progress.stages) return false
+  const stages = data.progress.stages
+  let changed = false
+
+  const fixed = {}
+  for (const [oldLv, newLv] of Object.entries(LEGACY_FIXED_MAP)) {
+    for (let n = 1; n <= LEGACY_FIXED_COUNTS[oldLv]; n++) fixed[`L${oldLv}-${n}`] = `L${newLv}-${n}`
+  }
+  const legacy = rebuildLegacyStageMap()
+  const newIdx = buildNewStageIndex()
+
+  const next = {}
+  for (const [key, rec] of Object.entries(stages)) {
+    let target = fixed[key]
+    if (!target && legacy.has(key)) {
+      const info = legacy.get(key)
+      target = newIdx.get(`${info.pool}|${info.group}`)
+    }
+    if (target && target !== key) {
+      // 冲突时保留原键，避免覆盖其他进度
+      if (!next[target]) {
+        next[target] = rec
+        changed = true
+        continue
+      }
+    }
+    next[key] = rec
+  }
+  data.progress.stages = next
+
+  // recommendedStage 同步映射
+  const rec = data.progress.recommendedStage
+  if (rec) {
+    let target = fixed[rec]
+    if (!target && legacy.has(rec)) {
+      const info = legacy.get(rec)
+      target = newIdx.get(`${info.pool}|${info.group}`)
+    }
+    if (target && target !== rec) {
+      data.progress.recommendedStage = target
+      changed = true
+    }
+  }
+
+  // 等级综合测验迁移（仅补缺失键）
+  if (data.levelExams) {
+    for (const [oldLv, newLv] of Object.entries(LEGACY_EXAM_MAP)) {
+      if (data.levelExams[`L${oldLv}`] && !data.levelExams[`L${newLv}`]) {
+        data.levelExams[`L${newLv}`] = data.levelExams[`L${oldLv}`]
+        changed = true
+      }
+    }
+  }
+
+  return changed
 }
 
 export const useProgressStore = defineStore('progress', {
@@ -302,6 +430,8 @@ export const useProgressStore = defineStore('progress', {
       const auth = useAuthStore()
       if (auth.isLoggedIn) {
         this.data = getUserData(auth.username)
+        // 等级细分后的进度兼容迁移（幂等；有变更即持久化）
+        if (migrateProgress(this.data)) this._persist()
         this._normalizeReviewPool()
       } else {
         this.data = null
@@ -506,12 +636,12 @@ export const useProgressStore = defineStore('progress', {
         const level = getLevel(lv)
         return !!level && level.stages.length > 0 && level.stages.every((st) => d.progress.stages[st.id] && d.progress.stages[st.id].completed)
       }
-      if (completedAll(3)) this._grantBadge('dialogue_star')
-      if (completedAll(6)) this._grantBadge('listening_pro')
-      if (completedAll(7)) this._grantBadge('reading_pioneer')
-      if (completedAll(8)) this._grantBadge('exam_sprint')
+      if (completedAll(6)) this._grantBadge('dialogue_star')
+      if (completedAll(13)) this._grantBadge('listening_pro')
+      if (completedAll(14)) this._grantBadge('reading_pioneer')
+      if (completedAll(16)) this._grantBadge('exam_sprint')
 
-      // 全站毕业：L1~L8 全部关卡完成
+      // 全站毕业：L1~L16 全部关卡完成
       const allDone = LEVELS.every((lv) => lv.stages.length > 0 && lv.stages.every((st) => d.progress.stages[st.id] && d.progress.stages[st.id].completed))
       if (allDone) this._grantBadge('all_graduate')
 

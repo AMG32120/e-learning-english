@@ -6,6 +6,7 @@
    本批实现框架函数，阶段 5+ 的实际出题调用方接入。
    ============================================================ */
 import { LEVELS, getLevel } from '../data/levels'
+import { getCorpusWords } from './wordData'
 
 /* 关卡是否已解锁（与 progress store 相同口径） */
 export function isStageUnlockedByData(progressData, stageId) {
@@ -55,6 +56,22 @@ export function getVisibleStages(progressData) {
       if (isStageUnlockedByData(progressData, st.id)) {
         result.push({ stage: st, level: lv })
       }
+    }
+  }
+  return result
+}
+
+/**
+ * 获取当前已解锁等级对应的语料生词池（L6/L13/L14 固定内容等级）。
+ * 等级解锁（上一级完成 ≥80%）后即视为已解锁内容池，复习/巩固测验可从中选题，
+ * 与 getReviewableStages 的"不超前"口径一致：仅返回已解锁等级的词，不返回超前等级内容。
+ * @returns {Array<object>} 词条对象（word/ipa/pos/zh/example/cefr/level/source）
+ */
+export function getUnlockedCorpusWords(progressData) {
+  const result = []
+  for (const lv of [6, 13, 14]) {
+    if (isLevelUnlockedByData(progressData, lv)) {
+      result.push(...getCorpusWords(`l${lv}`))
     }
   }
   return result

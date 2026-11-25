@@ -4,18 +4,169 @@
     "title": "思考判断",
     "emoji": "🤔",
     "words": [
-      { "word": "think over", "pos": "phr.", "zh": "仔细考虑", "example": "Let me think over your offer.", "emoji": "💭" },
-      { "word": "think through", "pos": "phr.", "zh": "想透；全盘考虑", "example": "Think it through before you decide.", "emoji": "🧩" },
-      { "word": "make up for", "pos": "phr.", "zh": "弥补", "example": "He worked hard to make up for lost time.", "emoji": "⚖️" },
-      { "word": "weigh up", "pos": "phr.", "zh": "权衡", "example": "We weighed up the pros and cons.", "emoji": "🎚️" },
-      { "word": "rule out", "pos": "phr.", "zh": "排除", "example": "The doctor ruled out a broken bone.", "emoji": "🚫" },
-      { "word": "narrow down", "pos": "phr.", "zh": "缩小范围", "example": "We narrowed down the list to three.", "emoji": "🔎" },
-      { "word": "come up with", "pos": "phr.", "zh": "想出", "example": "She came up with a clever idea.", "emoji": "💡" },
-      { "word": "reason out", "pos": "phr.", "zh": "推理出", "example": "He reasoned out the answer step by step.", "emoji": "🧠" },
-      { "word": "make sense", "pos": "phr.", "zh": "有道理；讲得通", "example": "That explanation makes sense to me.", "emoji": "✔️" },
-      { "word": "bear in mind", "pos": "phr.", "zh": "记住；考虑到", "example": "Bear in mind that the test is timed.", "emoji": "🧾" },
-      { "word": "take into account", "pos": "phr.", "zh": "把…考虑进去", "example": "Take the weather into account when planning.", "emoji": "📋" },
-      { "word": "look at", "pos": "phr.", "zh": "看待；审视", "example": "Try to look at it from her side.", "emoji": "👁️" }
+      {
+        "word": "think over",
+        "pos": "phr.",
+        "zh": "仔细考虑",
+        "example": "Let me think over your offer.",
+        "emoji": "💭",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "think through",
+        "pos": "phr.",
+        "zh": "想透；全盘考虑",
+        "example": "Think it through before you decide.",
+        "emoji": "🧩",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "make up for",
+        "pos": "phr.",
+        "zh": "弥补",
+        "example": "He worked hard to make up for lost time.",
+        "emoji": "⚖️",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "weigh up",
+        "pos": "phr.",
+        "zh": "权衡",
+        "example": "We weighed up the pros and cons.",
+        "emoji": "🎚️",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "rule out",
+        "pos": "phr.",
+        "zh": "排除",
+        "example": "The doctor ruled out a broken bone.",
+        "emoji": "🚫",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "narrow down",
+        "pos": "phr.",
+        "zh": "缩小范围",
+        "example": "We narrowed down the list to three.",
+        "emoji": "🔎",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "come up with",
+        "pos": "phr.",
+        "zh": "想出",
+        "example": "She came up with a clever idea.",
+        "emoji": "💡",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "reason out",
+        "pos": "phr.",
+        "zh": "推理出",
+        "example": "He reasoned out the answer step by step.",
+        "emoji": "🧠",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "make sense",
+        "pos": "phr.",
+        "zh": "有道理；讲得通",
+        "example": "That explanation makes sense to me.",
+        "emoji": "✔️",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "bear in mind",
+        "pos": "phr.",
+        "zh": "记住；考虑到",
+        "example": "Bear in mind that the test is timed.",
+        "emoji": "🧾",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "take into account",
+        "pos": "phr.",
+        "zh": "把…考虑进去",
+        "example": "Take the weather into account when planning.",
+        "emoji": "📋",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "look at",
+        "pos": "phr.",
+        "zh": "看待；审视",
+        "example": "Try to look at it from her side.",
+        "emoji": "👁️",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "mull over",
+        "ipa": "/mʌl ˈəʊvə(r)/",
+        "pos": "phr.",
+        "zh": "仔细琢磨",
+        "example": "I need time to mull over the offer.",
+        "emoji": "🤔",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "boil down to",
+        "pos": "phr.",
+        "zh": "归结为",
+        "example": "It all boils down to money.",
+        "emoji": "🥘",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "zero in on",
+        "pos": "phr.",
+        "zh": "聚焦于",
+        "example": "The report zeroes in on climate risks.",
+        "emoji": "🎯",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "sleep on it",
+        "pos": "phr.",
+        "zh": "再想想",
+        "example": "Let me sleep on it before deciding.",
+        "emoji": "😴",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "cross one's mind",
+        "pos": "phr.",
+        "zh": "闪过脑海",
+        "example": "It crossed my mind that I forgot the keys.",
+        "emoji": "💭",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "wrap one's head around",
+        "pos": "phr.",
+        "zh": "弄懂；想通",
+        "example": "I can't wrap my head around this math problem.",
+        "emoji": "🤯",
+        "cefr": "C1",
+        "level": "C1"
+      }
     ]
   },
   {
@@ -23,18 +174,169 @@
     "title": "内心感受",
     "emoji": "🫧",
     "words": [
-      { "word": "cheer on", "pos": "phr.", "zh": "为…加油", "example": "The crowd cheered on the runners.", "emoji": "📣" },
-      { "word": "tear up", "pos": "phr.", "zh": "眼泪涌出", "example": "She teared up at the wedding.", "emoji": "💧" },
-      { "word": "well up", "pos": "phr.", "zh": "（情绪）涌上", "example": "Tears welled up in his eyes.", "emoji": "🌊" },
-      { "word": "feel up to", "pos": "phr.", "zh": "有精力做", "example": "I do not feel up to going out tonight.", "emoji": "🔋" },
-      { "word": "push through", "pos": "phr.", "zh": "硬挺过去", "example": "She pushed through the last few weeks.", "emoji": "🚪" },
-      { "word": "hold together", "pos": "phr.", "zh": "保持镇定", "example": "He held together until the meeting ended.", "emoji": "🧱" },
-      { "word": "open up to", "pos": "phr.", "zh": "向…倾诉", "example": "She opened up to her closest friend.", "emoji": "🫂" },
-      { "word": "let out", "pos": "phr.", "zh": "发泄；放出", "example": "He let out a long sigh.", "emoji": "😤" },
-      { "word": "come round", "pos": "phr.", "zh": "改变主意；恢复", "example": "She came round to our point of view.", "emoji": "🔄" },
-      { "word": "look up to", "pos": "phr.", "zh": "敬重", "example": "Young players look up to him.", "emoji": "🌟" },
-      { "word": "choke up", "pos": "phr.", "zh": "哽咽", "example": "He choked up while saying goodbye.", "emoji": "😶" },
-      { "word": "be proud of", "pos": "phr.", "zh": "为…骄傲", "example": "I am proud of what you have done.", "emoji": "🏅" }
+      {
+        "word": "cheer on",
+        "pos": "phr.",
+        "zh": "为…加油",
+        "example": "The crowd cheered on the runners.",
+        "emoji": "📣",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "tear up",
+        "pos": "phr.",
+        "zh": "眼泪涌出",
+        "example": "She teared up at the wedding.",
+        "emoji": "💧",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "well up",
+        "pos": "phr.",
+        "zh": "（情绪）涌上",
+        "example": "Tears welled up in his eyes.",
+        "emoji": "🌊",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "feel up to",
+        "pos": "phr.",
+        "zh": "有精力做",
+        "example": "I do not feel up to going out tonight.",
+        "emoji": "🔋",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "push through",
+        "pos": "phr.",
+        "zh": "硬挺过去",
+        "example": "She pushed through the last few weeks.",
+        "emoji": "🚪",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "hold together",
+        "pos": "phr.",
+        "zh": "保持镇定",
+        "example": "He held together until the meeting ended.",
+        "emoji": "🧱",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "open up to",
+        "pos": "phr.",
+        "zh": "向…倾诉",
+        "example": "She opened up to her closest friend.",
+        "emoji": "🫂",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "let out",
+        "pos": "phr.",
+        "zh": "发泄；放出",
+        "example": "He let out a long sigh.",
+        "emoji": "😤",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "come round",
+        "pos": "phr.",
+        "zh": "改变主意；恢复",
+        "example": "She came round to our point of view.",
+        "emoji": "🔄",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "look up to",
+        "pos": "phr.",
+        "zh": "敬重",
+        "example": "Young players look up to him.",
+        "emoji": "🌟",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "choke up",
+        "pos": "phr.",
+        "zh": "哽咽",
+        "example": "He choked up while saying goodbye.",
+        "emoji": "😶",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "be proud of",
+        "pos": "phr.",
+        "zh": "为…骄傲",
+        "example": "I am proud of what you have done.",
+        "emoji": "🏅",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "long for",
+        "pos": "phr.",
+        "zh": "渴望",
+        "example": "She longs for peace.",
+        "emoji": "🌙",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "fall for",
+        "ipa": "/fɔːl fɔː(r)/",
+        "pos": "phr.",
+        "zh": "爱上",
+        "example": "She fell for his charm.",
+        "emoji": "💘",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "light up",
+        "pos": "phr.",
+        "zh": "容光焕发",
+        "example": "Her face lit up with joy.",
+        "emoji": "✨",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "warm to",
+        "pos": "phr.",
+        "zh": "对…产生好感",
+        "example": "I warmed to her immediately.",
+        "emoji": "❤️",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "be on cloud nine",
+        "pos": "phr.",
+        "zh": "非常高兴；欣喜若狂",
+        "example": "She was on cloud nine after the good news.",
+        "emoji": "☁️",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "take pride in",
+        "pos": "phr.",
+        "zh": "以…为荣",
+        "example": "She takes pride in her work.",
+        "emoji": "🌟",
+        "cefr": "B2",
+        "level": "B2"
+      }
     ]
   },
   {
@@ -42,18 +344,179 @@
     "title": "社交聚会",
     "emoji": "🎉",
     "words": [
-      { "word": "show up", "pos": "phr.", "zh": "到场；露面", "example": "Only ten people showed up.", "emoji": "🙋" },
-      { "word": "pop in", "pos": "phr.", "zh": "顺便来访", "example": "Pop in for a coffee if you are free.", "emoji": "👤" },
-      { "word": "drop by", "pos": "phr.", "zh": "顺道拜访", "example": "He dropped by to say hello.", "emoji": "🚪" },
-      { "word": "come along", "pos": "phr.", "zh": "一起来", "example": "Why not come along with us?", "emoji": "🚶" },
-      { "word": "join in", "pos": "phr.", "zh": "加入（活动）", "example": "Everyone joined in the game.", "emoji": "🙌" },
-      { "word": "take place", "pos": "phr.", "zh": "举行；发生", "example": "The concert takes place on Sunday.", "emoji": "📍" },
-      { "word": "dress up", "pos": "phr.", "zh": "盛装打扮", "example": "They dressed up for the party.", "emoji": "👔" },
-      { "word": "hand out", "pos": "phr.", "zh": "分发", "example": "Volunteers handed out free water.", "emoji": "🎁" },
-      { "word": "break the ice", "pos": "phr.", "zh": "打破僵局", "example": "A joke helped break the ice.", "emoji": "🧊" },
-      { "word": "catch up with", "pos": "phr.", "zh": "与…叙旧", "example": "Let us catch up with each other soon.", "emoji": "☕" },
-      { "word": "call on", "pos": "phr.", "zh": "拜访；号召", "example": "We called on our neighbours yesterday.", "emoji": "🏠" },
-      { "word": "pack up", "pos": "phr.", "zh": "收拾（行李）", "example": "Pack up your things before noon.", "emoji": "🎒" }
+      {
+        "word": "show up",
+        "pos": "phr.",
+        "zh": "到场；露面",
+        "example": "Only ten people showed up.",
+        "emoji": "🙋",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "pop in",
+        "pos": "phr.",
+        "zh": "顺便来访",
+        "example": "Pop in for a coffee if you are free.",
+        "emoji": "👤",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "drop by",
+        "pos": "phr.",
+        "zh": "顺道拜访",
+        "example": "He dropped by to say hello.",
+        "emoji": "🚪",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "come along",
+        "pos": "phr.",
+        "zh": "一起来",
+        "example": "Why not come along with us?",
+        "emoji": "🚶",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "join in",
+        "pos": "phr.",
+        "zh": "加入（活动）",
+        "example": "Everyone joined in the game.",
+        "emoji": "🙌",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "take place",
+        "pos": "phr.",
+        "zh": "举行；发生",
+        "example": "The concert takes place on Sunday.",
+        "emoji": "📍",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "dress up",
+        "pos": "phr.",
+        "zh": "盛装打扮",
+        "example": "They dressed up for the party.",
+        "emoji": "👔",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "strike up",
+        "ipa": "/straɪk ʌp/",
+        "pos": "phr.",
+        "zh": "攀谈",
+        "example": "He struck up a chat with a stranger.",
+        "emoji": "💬",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "break the ice",
+        "pos": "phr.",
+        "zh": "打破僵局",
+        "example": "A joke helped break the ice.",
+        "emoji": "🧊",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "catch up with",
+        "pos": "phr.",
+        "zh": "与…叙旧",
+        "example": "Let us catch up with each other soon.",
+        "emoji": "☕",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "call on",
+        "pos": "phr.",
+        "zh": "拜访；号召",
+        "example": "We called on our neighbours yesterday.",
+        "emoji": "🏠",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "pack up",
+        "pos": "phr.",
+        "zh": "收拾（行李）",
+        "example": "Pack up your things before noon.",
+        "emoji": "🎒",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "meet up",
+        "pos": "phr.",
+        "zh": "碰面",
+        "example": "Let's meet up on Sunday.",
+        "emoji": "👋",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "keep in touch",
+        "ipa": "/kiːp ɪn tʌtʃ/",
+        "pos": "phr.",
+        "zh": "保持联系",
+        "example": "Let's keep in touch after college.",
+        "emoji": "📱",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "hang around",
+        "pos": "phr.",
+        "zh": "闲逛",
+        "example": "They hung around after class.",
+        "emoji": "🚶",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "mingle with",
+        "pos": "phr.",
+        "zh": "与人交往",
+        "example": "Mingle with the guests at the party.",
+        "emoji": "🥂",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "bump into",
+        "pos": "phr.",
+        "zh": "偶遇",
+        "example": "I bumped into an old friend.",
+        "emoji": "🤼",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "rub shoulders with",
+        "pos": "phr.",
+        "zh": "与…交往；接触",
+        "example": "He rubbed shoulders with famous writers.",
+        "emoji": "🤗",
+        "cefr": "C1",
+        "level": "C1"
+      },
+      {
+        "word": "toast to",
+        "pos": "phr.",
+        "zh": "为…干杯",
+        "example": "Let's toast to the newlyweds.",
+        "emoji": "🥂",
+        "cefr": "B1",
+        "level": "B1"
+      }
     ]
   },
   {
@@ -61,18 +524,179 @@
     "title": "决定行动",
     "emoji": "🎯",
     "words": [
-      { "word": "go for it", "pos": "phr.", "zh": "放手一搏", "example": "You have prepared well, go for it.", "emoji": "🔥" },
-      { "word": "take action", "pos": "phr.", "zh": "采取行动", "example": "The city took action to cut traffic.", "emoji": "⚡" },
-      { "word": "opt for", "pos": "phr.", "zh": "选择", "example": "Most students opted for the online course.", "emoji": "🅰️" },
-      { "word": "settle for", "pos": "phr.", "zh": "勉强接受", "example": "Do not settle for second best.", "emoji": "🤷" },
-      { "word": "stick to", "pos": "phr.", "zh": "坚持；遵守", "example": "Stick to your plan for a month.", "emoji": "📌" },
-      { "word": "give it a try", "pos": "phr.", "zh": "试一试", "example": "The recipe looks easy, give it a try.", "emoji": "🎲" },
-      { "word": "take the lead", "pos": "phr.", "zh": "领先；带头", "example": "Our team took the lead in the second half.", "emoji": "🥇" },
-      { "word": "step back", "pos": "phr.", "zh": "退一步；抽身", "example": "Step back and look at the whole picture.", "emoji": "🔙" },
-      { "word": "move on", "pos": "phr.", "zh": "继续前行", "example": "It is time to move on to the next topic.", "emoji": "➡️" },
-      { "word": "look out", "pos": "phr.", "zh": "当心", "example": "Look out, the floor is wet.", "emoji": "⚠️" },
-      { "word": "back off", "pos": "phr.", "zh": "退让；别插手", "example": "He backed off when he saw her anger.", "emoji": "🚧" },
-      { "word": "carry through", "pos": "phr.", "zh": "贯彻到底", "example": "She carried the plan through to the end.", "emoji": "🏁" }
+      {
+        "word": "go for it",
+        "pos": "phr.",
+        "zh": "放手一搏",
+        "example": "You have prepared well, go for it.",
+        "emoji": "🔥",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "take action",
+        "pos": "phr.",
+        "zh": "采取行动",
+        "example": "The city took action to cut traffic.",
+        "emoji": "⚡",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "opt for",
+        "pos": "phr.",
+        "zh": "选择",
+        "example": "Most students opted for the online course.",
+        "emoji": "🅰️",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "settle for",
+        "pos": "phr.",
+        "zh": "勉强接受",
+        "example": "Do not settle for second best.",
+        "emoji": "🤷",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "stick to",
+        "pos": "phr.",
+        "zh": "坚持；遵守",
+        "example": "Stick to your plan for a month.",
+        "emoji": "📌",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "give it a try",
+        "pos": "phr.",
+        "zh": "试一试",
+        "example": "The recipe looks easy, give it a try.",
+        "emoji": "🎲",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "take the lead",
+        "pos": "phr.",
+        "zh": "领先；带头",
+        "example": "Our team took the lead in the second half.",
+        "emoji": "🥇",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "step back",
+        "pos": "phr.",
+        "zh": "退一步；抽身",
+        "example": "Step back and look at the whole picture.",
+        "emoji": "🔙",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "move on",
+        "pos": "phr.",
+        "zh": "继续前行",
+        "example": "It is time to move on to the next topic.",
+        "emoji": "➡️",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "look out",
+        "pos": "phr.",
+        "zh": "当心",
+        "example": "Look out, the floor is wet.",
+        "emoji": "⚠️",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "back off",
+        "pos": "phr.",
+        "zh": "退让；别插手",
+        "example": "He backed off when he saw her anger.",
+        "emoji": "🚧",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "carry through",
+        "pos": "phr.",
+        "zh": "贯彻到底",
+        "example": "She carried the plan through to the end.",
+        "emoji": "🏁",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "see it through",
+        "ipa": "/siː ɪt θruː/",
+        "pos": "phr.",
+        "zh": "坚持到底",
+        "example": "We will see it through to the end.",
+        "emoji": "🏁",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "press on",
+        "ipa": "/pres ɒn/",
+        "pos": "phr.",
+        "zh": "继续前进",
+        "example": "We pressed on despite the rain.",
+        "emoji": "➡️",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "press ahead",
+        "pos": "phr.",
+        "zh": "继续推进",
+        "example": "They pressed ahead despite the delay.",
+        "emoji": "➡️",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "give way to",
+        "pos": "phr.",
+        "zh": "让步于，让位于",
+        "example": "His anger gave way to sadness.",
+        "emoji": "🛑",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "pluck up courage",
+        "pos": "phr.",
+        "zh": "鼓起勇气",
+        "example": "She plucked up courage to speak.",
+        "emoji": "🦁",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "take the plunge",
+        "pos": "phr.",
+        "zh": "冒险一试；果断行动",
+        "example": "She took the plunge and started her own business.",
+        "emoji": "🏊",
+        "cefr": "C1",
+        "level": "C1"
+      },
+      {
+        "word": "bite the bullet",
+        "pos": "phr.",
+        "zh": "硬着头皮面对",
+        "example": "I had to bite the bullet and apologize.",
+        "emoji": "🔩",
+        "cefr": "C1",
+        "level": "C1"
+      }
     ]
   },
   {
@@ -80,18 +704,169 @@
     "title": "数量程度",
     "emoji": "📊",
     "words": [
-      { "word": "a couple of", "pos": "phr.", "zh": "几个；两三个", "example": "I need a couple of days to finish.", "emoji": "🔸" },
-      { "word": "plenty of", "pos": "phr.", "zh": "大量；充足", "example": "There is plenty of time left.", "emoji": "🔹" },
-      { "word": "a number of", "pos": "phr.", "zh": "若干", "example": "A number of students asked questions.", "emoji": "🔶" },
-      { "word": "a great deal of", "pos": "phr.", "zh": "大量（不可数）", "example": "It took a great deal of effort.", "emoji": "💠" },
-      { "word": "more or less", "pos": "phr.", "zh": "大约；差不多", "example": "The work is more or less done.", "emoji": "≈" },
-      { "word": "in total", "pos": "phr.", "zh": "总共", "example": "There were thirty people in total.", "emoji": "∑" },
-      { "word": "on average", "pos": "phr.", "zh": "平均", "example": "On average, I read ten pages a day.", "emoji": "⌀" },
-      { "word": "at least", "pos": "phr.", "zh": "至少", "example": "Practise at least twenty minutes daily.", "emoji": "⬇️" },
-      { "word": "at most", "pos": "phr.", "zh": "至多", "example": "The trip takes two hours at most.", "emoji": "⬆️" },
-      { "word": "too much", "pos": "phr.", "zh": "太多", "example": "You are spending too much on coffee.", "emoji": "📛" },
-      { "word": "not enough", "pos": "phr.", "zh": "不够", "example": "There is not enough room for everyone.", "emoji": "🚫" },
-      { "word": "as well as", "pos": "phr.", "zh": "以及；也", "example": "She speaks French as well as English.", "emoji": "➕" }
+      {
+        "word": "a couple of",
+        "pos": "phr.",
+        "zh": "几个；两三个",
+        "example": "I need a couple of days to finish.",
+        "emoji": "🔸",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "plenty of",
+        "pos": "phr.",
+        "zh": "大量；充足",
+        "example": "There is plenty of time left.",
+        "emoji": "🔹",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "a number of",
+        "pos": "phr.",
+        "zh": "若干",
+        "example": "A number of students asked questions.",
+        "emoji": "🔶",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "a great deal of",
+        "pos": "phr.",
+        "zh": "大量（不可数）",
+        "example": "It took a great deal of effort.",
+        "emoji": "💠",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "more or less",
+        "pos": "phr.",
+        "zh": "大约；差不多",
+        "example": "The work is more or less done.",
+        "emoji": "≈",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "in total",
+        "pos": "phr.",
+        "zh": "总共",
+        "example": "There were thirty people in total.",
+        "emoji": "∑",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "on average",
+        "pos": "phr.",
+        "zh": "平均",
+        "example": "On average, I read ten pages a day.",
+        "emoji": "⌀",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "at least",
+        "pos": "phr.",
+        "zh": "至少",
+        "example": "Practise at least twenty minutes daily.",
+        "emoji": "⬇️",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "at most",
+        "pos": "phr.",
+        "zh": "至多",
+        "example": "The trip takes two hours at most.",
+        "emoji": "⬆️",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "too much",
+        "pos": "phr.",
+        "zh": "太多",
+        "example": "You are spending too much on coffee.",
+        "emoji": "📛",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "not enough",
+        "pos": "phr.",
+        "zh": "不够",
+        "example": "There is not enough room for everyone.",
+        "emoji": "🚫",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "as well as",
+        "pos": "phr.",
+        "zh": "以及；也",
+        "example": "She speaks French as well as English.",
+        "emoji": "➕",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "a handful of",
+        "ipa": "/ə ˈhændfʊl əv/",
+        "pos": "phr.",
+        "zh": "少数",
+        "example": "A handful of guests arrived late.",
+        "emoji": "✋",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "a bit of",
+        "pos": "phr.",
+        "zh": "一点",
+        "example": "I need a bit of rest.",
+        "emoji": "🧂",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "a lot of",
+        "pos": "phr.",
+        "zh": "许多",
+        "example": "There was a lot of traffic.",
+        "emoji": "📦",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "plenty more",
+        "pos": "phr.",
+        "zh": "还有很多",
+        "example": "Don't worry, there's plenty more.",
+        "emoji": "🔄",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "a ton of",
+        "pos": "phr.",
+        "zh": "大量的",
+        "example": "We have a ton of work to do.",
+        "emoji": "⛰️",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "next to nothing",
+        "pos": "phr.",
+        "zh": "几乎没有；几乎不花钱",
+        "example": "He bought the old bike for next to nothing.",
+        "emoji": "🪙",
+        "cefr": "B2",
+        "level": "B2"
+      }
     ]
   }
 ]

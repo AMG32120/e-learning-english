@@ -112,7 +112,8 @@
         "emoji": "🏁",
         "cefr": "B2"
       }
-    ]
+    ],
+    "extends_from": "l2_adjectives"
   },
   {
     "id": "l5c_analysis_verbs",
@@ -227,7 +228,8 @@
         "emoji": "📝",
         "cefr": "B2"
       }
-    ]
+    ],
+    "extends_from": "l2_adjectives"
   },
   {
     "id": "l5c_abstract_adj",
@@ -342,7 +344,8 @@
         "emoji": "🌱",
         "cefr": "B2"
       }
-    ]
+    ],
+    "extends_from": "l2_adjectives"
   },
   {
     "id": "l5c_evaluation_adj",
@@ -457,7 +460,8 @@
         "emoji": "📐",
         "cefr": "B2"
       }
-    ]
+    ],
+    "extends_from": "l2_adjectives"
   },
   {
     "id": "l5c_linkers",
@@ -571,8 +575,18 @@
         "example": "He resigned and subsequently left the country.",
         "emoji": "⏭️",
         "cefr": "B2"
+      },
+      {
+        "word": "firstly",
+        "ipa": "/ˈfɜːstli/",
+        "pos": "adv.",
+        "zh": "首先",
+        "example": "Firstly, let me thank everyone.",
+        "emoji": "1️⃣",
+        "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_verbs"
   },
   {
     "id": "l5c_abstract_nouns",
@@ -687,7 +701,8 @@
         "emoji": "🏁",
         "cefr": "B2"
       }
-    ]
+    ],
+    "extends_from": "l2_nature"
   },
   {
     "id": "l5c_reasoning",
@@ -801,8 +816,109 @@
         "example": "She raised an objection to the plan.",
         "emoji": "✋",
         "cefr": "B2"
+      },
+      {
+        "word": "decade",
+        "ipa": "/ˈdekeɪd/",
+        "pos": "n.",
+        "zh": "十年",
+        "example": "Prices rose over the decade.",
+        "emoji": "📅",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "gradual",
+        "ipa": "/ˈɡrædʒuəl/",
+        "pos": "adj.",
+        "zh": "逐渐的",
+        "example": "Recovery was slow and gradual.",
+        "emoji": "📈",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "immediate",
+        "ipa": "/ɪˈmiːdiət/",
+        "pos": "adj.",
+        "zh": "立即的",
+        "example": "The change had an immediate effect.",
+        "emoji": "⚡",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "permanent",
+        "ipa": "/ˈpɜːmənənt/",
+        "pos": "adj.",
+        "zh": "永久的",
+        "example": "She found a permanent job.",
+        "emoji": "📌",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "previous",
+        "ipa": "/ˈpriːviəs/",
+        "pos": "adj.",
+        "zh": "以前的",
+        "example": "The previous owner kept the keys.",
+        "emoji": "⏮️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "recent",
+        "ipa": "/ˈriːsnt/",
+        "pos": "adj.",
+        "zh": "最近的",
+        "example": "Recent studies support this idea.",
+        "emoji": "🕐",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "sudden",
+        "ipa": "/ˈsʌdn/",
+        "pos": "adj.",
+        "zh": "突然的",
+        "example": "There was a sudden noise.",
+        "emoji": "💥",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "temporary",
+        "ipa": "/ˈtemprəri/",
+        "pos": "adj.",
+        "zh": "临时的",
+        "example": "He took a temporary job.",
+        "emoji": "⏱️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "throughout",
+        "ipa": "/θruːˈaʊt/",
+        "pos": "prep.",
+        "zh": "贯穿",
+        "example": "It rained throughout the night.",
+        "emoji": "🌧️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "update",
+        "ipa": "/ˌʌpˈdeɪt/",
+        "pos": "v.",
+        "zh": "更新",
+        "example": "Please update your address.",
+        "emoji": "🔄",
+        "cefr": "B1",
+        "level": "l5"
       }
-    ]
+    ],
+    "extends_from": "l2_verbs"
   },
   {
     "id": "l5c_cause_effect",
@@ -916,8 +1032,37 @@
         "example": "Some conflict is inevitable in any team.",
         "emoji": "⏳",
         "cefr": "B2"
+      },
+      {
+        "word": "impetus",
+        "ipa": "/ˈɪmpɪtəs/",
+        "pos": "n.",
+        "zh": "推动力",
+        "example": "The grant gave new impetus to research.",
+        "emoji": "🚀",
+        "cefr": "C1"
+      },
+      {
+        "word": "ripple",
+        "ipa": "/ˈrɪpl/",
+        "pos": "n.",
+        "zh": "连锁反应",
+        "example": "The price cut sent ripples through trade.",
+        "emoji": "🌊",
+        "cefr": "C2",
+        "level": "C1"
+      },
+      {
+        "word": "genealogy",
+        "ipa": "/ˌdʒiːniˈælədʒi/",
+        "pos": "n.",
+        "zh": "家谱学，族谱",
+        "example": "She traced her family through genealogy.",
+        "emoji": "🧬",
+        "cefr": "C1"
       }
-    ]
+    ],
+    "extends_from": "l2_verbs"
   },
   {
     "id": "l5c_hedging",
@@ -1031,8 +1176,36 @@
         "example": "The trip was ostensibly for research.",
         "emoji": "🎭",
         "cefr": "B2"
+      },
+      {
+        "word": "purportedly",
+        "ipa": "/pəˈpɔːtɪdli/",
+        "pos": "adv.",
+        "zh": "据称",
+        "example": "The letter purportedly came from the CEO.",
+        "emoji": "📨",
+        "cefr": "C2"
+      },
+      {
+        "word": "tentatively",
+        "ipa": "/ˈtentətɪvli/",
+        "pos": "adv.",
+        "zh": "试探性地",
+        "example": "She tentatively agreed to the plan.",
+        "emoji": "🤔",
+        "cefr": "C1"
+      },
+      {
+        "word": "rote",
+        "ipa": "/rəʊt/",
+        "pos": "n.",
+        "zh": "死记硬背",
+        "example": "Rote learning alone cannot build deep understanding.",
+        "emoji": "🔁",
+        "cefr": "C1"
       }
-    ]
+    ],
+    "extends_from": "l2_adjectives"
   },
   {
     "id": "l5c_formal_verbs",
@@ -1146,7 +1319,35 @@
         "example": "The course comprises ten units.",
         "emoji": "🧱",
         "cefr": "B2"
+      },
+      {
+        "word": "proscribe",
+        "ipa": "/prəˈskraɪb/",
+        "pos": "v.",
+        "zh": "禁止",
+        "example": "The law proscribes such practices.",
+        "emoji": "🚫",
+        "cefr": "C2"
+      },
+      {
+        "word": "bequeath",
+        "ipa": "/bɪˈkwiːð/",
+        "pos": "v.",
+        "zh": "遗赠",
+        "example": "She bequeathed her books to the library.",
+        "emoji": "📚",
+        "cefr": "C1"
+      },
+      {
+        "word": "odyssey",
+        "ipa": "/ˈɒdəsi/",
+        "pos": "n.",
+        "zh": "漫长旅程",
+        "example": "Their odyssey across Asia took two years.",
+        "emoji": "🧳",
+        "cefr": "C1"
       }
-    ]
+    ],
+    "extends_from": "l2_verbs"
   }
 ]

@@ -112,7 +112,8 @@
         "emoji": "📤",
         "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_transport"
   },
   {
     "id": "l5b_tourism",
@@ -226,8 +227,18 @@
         "example": "They took a cruise in the summer.",
         "emoji": "🛳️",
         "cefr": "B1"
+      },
+      {
+        "word": "backpacker",
+        "ipa": "/ˈbækpækə(r)/",
+        "pos": "n.",
+        "zh": "背包客",
+        "example": "Backpackers favor cheap hostels.",
+        "emoji": "🎒",
+        "cefr": "B2"
       }
-    ]
+    ],
+    "extends_from": "l2_transport"
   },
   {
     "id": "l5b_food_culture",
@@ -341,8 +352,169 @@
         "example": "A banquet was held for the guests.",
         "emoji": "🥂",
         "cefr": "B1"
+      },
+      {
+        "word": "gourmet",
+        "ipa": "/ˈɡʊəmeɪ/",
+        "pos": "adj./n.",
+        "zh": "美食的",
+        "example": "The shop sells gourmet coffee.",
+        "emoji": "🍴",
+        "cefr": "B2"
+      },
+      {
+        "word": "artwork",
+        "ipa": "/ˈɑːtwɜːk/",
+        "pos": "n.",
+        "zh": "艺术品",
+        "example": "The artwork hangs in the hall.",
+        "emoji": "🖌️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "ceremony",
+        "ipa": "/ˈserəməni/",
+        "pos": "n.",
+        "zh": "仪式",
+        "example": "The ceremony lasted an hour.",
+        "emoji": "🎊",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "costume",
+        "ipa": "/ˈkɒstjuːm/",
+        "pos": "n.",
+        "zh": "服装；戏服",
+        "example": "Dancers wore bright costumes.",
+        "emoji": "👘",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "exhibit",
+        "ipa": "/ɪɡˈzɪbɪt/",
+        "pos": "n.",
+        "zh": "展品",
+        "example": "The exhibit opens on Monday.",
+        "emoji": "🧑‍🎨",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "festival",
+        "ipa": "/ˈfestɪvl/",
+        "pos": "n.",
+        "zh": "节日",
+        "example": "The festival lasts three days.",
+        "emoji": "🎉",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "gallery",
+        "ipa": "/ˈɡæləri/",
+        "pos": "n.",
+        "zh": "画廊",
+        "example": "We visited a small gallery.",
+        "emoji": "🖼️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "sculpture",
+        "ipa": "/ˈskʌlptʃə/",
+        "pos": "n.",
+        "zh": "雕塑",
+        "example": "The sculpture stands in the park.",
+        "emoji": "🗿",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "ladle",
+        "ipa": "/ˈleɪdl/",
+        "pos": "n.",
+        "zh": "汤勺",
+        "example": "He served the soup with a ladle.",
+        "emoji": "🥣",
+        "cefr": "B1"
+      },
+      {
+        "word": "specialty",
+        "ipa": "/ˈspeʃəlti/",
+        "pos": "n.",
+        "zh": "特色菜",
+        "example": "The pasta is the chef's specialty.",
+        "emoji": "🍝",
+        "cefr": "B1"
+      },
+      {
+        "word": "starter",
+        "ipa": "/ˈstɑːtə(r)/",
+        "pos": "n.",
+        "zh": "前菜",
+        "example": "We ordered soup as a starter.",
+        "emoji": "🥣",
+        "cefr": "B1"
+      },
+      {
+        "word": "service charge",
+        "ipa": "/ˈsɜːvɪs tʃɑːdʒ/",
+        "pos": "n.",
+        "zh": "服务费",
+        "example": "The service charge is ten percent.",
+        "emoji": "🧾",
+        "cefr": "B1"
+      },
+      {
+        "word": "persimmon",
+        "ipa": "/pəˈsɪmən/",
+        "pos": "n.",
+        "zh": "柿子",
+        "example": "Persimmons turn orange in autumn.",
+        "emoji": "🍅",
+        "cefr": "B1"
+      },
+      {
+        "word": "pomegranate",
+        "ipa": "/ˈpɒmɪɡrænɪt/",
+        "pos": "n.",
+        "zh": "石榴",
+        "example": "The pomegranate is full of red seeds.",
+        "emoji": "🍎",
+        "cefr": "B1"
+      },
+      {
+        "word": "lychee",
+        "ipa": "/ˌlaɪˈtʃiː/",
+        "pos": "n.",
+        "zh": "荔枝",
+        "example": "Lychees are sweet and juicy.",
+        "emoji": "🍒",
+        "cefr": "B1"
+      },
+      {
+        "word": "scallop",
+        "ipa": "/ˈskɒləp/",
+        "pos": "n.",
+        "zh": "扇贝",
+        "example": "We grilled the scallops.",
+        "emoji": "🐚",
+        "cefr": "B1"
+      },
+      {
+        "word": "abalone",
+        "ipa": "/ˌæbəˈləʊni/",
+        "pos": "n.",
+        "zh": "鲍鱼",
+        "example": "Abalone is a delicacy.",
+        "emoji": "🫧",
+        "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_meals"
   },
   {
     "id": "l5b_fitness",
@@ -456,8 +628,36 @@
         "example": "The coach changed the training plan.",
         "emoji": "📣",
         "cefr": "B1"
+      },
+      {
+        "word": "aerobics",
+        "ipa": "/eəˈrəʊbɪks/",
+        "pos": "n.",
+        "zh": "有氧操",
+        "example": "Aerobics improves heart health.",
+        "emoji": "💃",
+        "cefr": "B2"
+      },
+      {
+        "word": "junior",
+        "ipa": "/ˈdʒuːniə/",
+        "pos": "adj./n.",
+        "zh": "少年的；年少者",
+        "example": "Junior squads train twice weekly.",
+        "emoji": "🧒",
+        "cefr": "B1"
+      },
+      {
+        "word": "PE",
+        "ipa": "/ˌpiː ˈiː/",
+        "pos": "n.",
+        "zh": "体育课（physical education）",
+        "example": "PE moved indoors during the storm.",
+        "emoji": "🤾",
+        "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_sports"
   },
   {
     "id": "l5b_mental",
@@ -571,8 +771,109 @@
         "example": "Find a balance between work and rest.",
         "emoji": "⚖️",
         "cefr": "B1"
+      },
+      {
+        "word": "ambitious",
+        "ipa": "/æmˈbɪʃəs/",
+        "pos": "adj.",
+        "zh": "有雄心的",
+        "example": "She is ambitious and hard-working.",
+        "emoji": "🚀",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "anxious",
+        "ipa": "/ˈæŋkʃəs/",
+        "pos": "adj.",
+        "zh": "焦虑的",
+        "example": "He felt anxious before the exam.",
+        "emoji": "😰",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "confident",
+        "ipa": "/ˈkɒnfɪdənt/",
+        "pos": "adj.",
+        "zh": "自信的",
+        "example": "She is confident in her English.",
+        "emoji": "😎",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "curious",
+        "ipa": "/ˈkjʊəriəs/",
+        "pos": "adj.",
+        "zh": "好奇的",
+        "example": "Children are curious about everything.",
+        "emoji": "🧐",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "generous",
+        "ipa": "/ˈdʒenərəs/",
+        "pos": "adj.",
+        "zh": "慷慨的",
+        "example": "He is generous with his time.",
+        "emoji": "🎁",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "honest",
+        "ipa": "/ˈɒnɪst/",
+        "pos": "adj.",
+        "zh": "诚实的",
+        "example": "To be honest, I disagree.",
+        "emoji": "🤝",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "impatient",
+        "ipa": "/ɪmˈpeɪʃnt/",
+        "pos": "adj.",
+        "zh": "不耐烦的",
+        "example": "Drivers grow impatient in traffic.",
+        "emoji": "😤",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "mood",
+        "ipa": "/muːd/",
+        "pos": "n.",
+        "zh": "心情",
+        "example": "Music improves my mood.",
+        "emoji": "🌤️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "sensitive",
+        "ipa": "/ˈsensətɪv/",
+        "pos": "adj.",
+        "zh": "敏感的",
+        "example": "She is sensitive to criticism.",
+        "emoji": "🎐",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "temper",
+        "ipa": "/ˈtempə/",
+        "pos": "n.",
+        "zh": "脾气",
+        "example": "He lost his temper quickly.",
+        "emoji": "🌋",
+        "cefr": "B1",
+        "level": "l5"
       }
-    ]
+    ],
+    "extends_from": "l2_feelings"
   },
   {
     "id": "l5b_psychology",
@@ -687,7 +988,8 @@
         "emoji": "🎯",
         "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_feelings"
   },
   {
     "id": "l5b_history",
@@ -802,7 +1104,8 @@
         "emoji": "🎗️",
         "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_reading"
   },
   {
     "id": "l5b_geography",
@@ -916,8 +1219,18 @@
         "example": "Summer comes in December here.",
         "emoji": "🌐",
         "cefr": "B1"
+      },
+      {
+        "word": "plateau",
+        "ipa": "/ˈplætəʊ/",
+        "pos": "n.",
+        "zh": "高原",
+        "example": "Tibet is the highest plateau on Earth.",
+        "emoji": "🏔️",
+        "cefr": "B2"
       }
-    ]
+    ],
+    "extends_from": "l2_landforms"
   },
   {
     "id": "l5b_literature",
@@ -1032,7 +1345,8 @@
         "emoji": "🖨️",
         "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_reading"
   },
   {
     "id": "l5b_philosophy",
@@ -1147,6 +1461,7 @@
         "emoji": "🧠",
         "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_adjectives"
   }
 ]

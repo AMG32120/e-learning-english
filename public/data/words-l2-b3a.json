@@ -55,58 +55,31 @@
       "cefr": "A2"
     },
     {
-      "word": "saxophone",
-      "ipa": "/ˈsæksəfəʊn/",
-      "pos": "n.",
-      "zh": "萨克斯管",
-      "example": "The saxophone solo was beautiful.",
-      "emoji": "🎷",
-      "cefr": "B1"
+      "word": "accordion",
+      "ipa": "/əˈkɔːdiən/",
+      "pos": "n",
+      "zh": "手风琴",
+      "example": "He plays the accordion.",
+      "emoji": "🪗",
+      "cefr": "A2"
     },
     {
-      "word": "cello",
-      "ipa": "/ˈtʃeləʊ/",
-      "pos": "n.",
-      "zh": "大提琴",
-      "example": "A cello is larger than a violin.",
-      "emoji": "🪕",
-      "cefr": "B1"
+      "word": "trombone",
+      "ipa": "/trɒmˈbəʊn/",
+      "pos": "n",
+      "zh": "长号",
+      "example": "The trombone is loud.",
+      "emoji": "🎺",
+      "cefr": "A2"
     },
     {
-      "word": "harp",
-      "ipa": "/hɑːp/",
+      "word": "recorder",
+      "ipa": "/rɪˈkɔːdə(r)/",
       "pos": "n.",
-      "zh": "竖琴",
-      "example": "She learned to play the harp at ten.",
-      "emoji": "🎼",
-      "cefr": "B1"
-    },
-    {
-      "word": "xylophone",
-      "ipa": "/ˈzaɪləfəʊn/",
-      "pos": "n.",
-      "zh": "木琴",
-      "example": "The child hit the xylophone with a stick.",
-      "emoji": "🎵",
-      "cefr": "B1"
-    },
-    {
-      "word": "choir",
-      "ipa": "/ˈkwaɪə(r)/",
-      "pos": "n.",
-      "zh": "合唱团",
-      "example": "She sings in the church choir.",
-      "emoji": "🎤",
-      "cefr": "B1"
-    },
-    {
-      "word": "orchestra",
-      "ipa": "/ˈɔːkɪstrə/",
-      "pos": "n.",
-      "zh": "管弦乐团",
-      "example": "The orchestra played for two hours.",
-      "emoji": "🎪",
-      "cefr": "B1"
+      "zh": "竖笛",
+      "example": "The students learn the recorder at school.",
+      "emoji": "🪈",
+      "cefr": "A2"
     }
   ],
   "furniture": [
@@ -217,6 +190,33 @@
       "example": "Turn on the lamp, it is dark.",
       "emoji": "💡",
       "cefr": "A1"
+    },
+    {
+      "word": "hammock",
+      "ipa": "/ˈhæmək/",
+      "pos": "n",
+      "zh": "吊床",
+      "example": "She relaxes in a hammock.",
+      "emoji": "🛏️",
+      "cefr": "A2"
+    },
+    {
+      "word": "sideboard",
+      "ipa": "/ˈsaɪdbɔːd/",
+      "pos": "n",
+      "zh": "餐具柜",
+      "example": "Put the plates in the sideboard.",
+      "emoji": "🚪",
+      "cefr": "A2"
+    },
+    {
+      "word": "shelf",
+      "ipa": "/ʃelf/",
+      "pos": "n.",
+      "zh": "架子",
+      "example": "Put the books on the shelf.",
+      "emoji": "📚",
+      "cefr": "A2"
     }
   ],
   "accessories": [
@@ -320,13 +320,85 @@
       "cefr": "A2"
     },
     {
-      "word": "bracelet",
-      "ipa": "/ˈbreɪslət/",
+      "word": "brooch",
+      "ipa": "/brəʊtʃ/",
+      "pos": "n",
+      "zh": "胸针",
+      "example": "She wears a gold brooch.",
+      "emoji": "💎",
+      "cefr": "A2"
+    },
+    {
+      "word": "handbag",
+      "ipa": "/ˈhændbæɡ/",
+      "pos": "n",
+      "zh": "手提包",
+      "example": "Her handbag is red.",
+      "emoji": "👜",
+      "cefr": "A1"
+    },
+    {
+      "word": "cap",
+      "ipa": "/kæp/",
       "pos": "n.",
-      "zh": "手链",
-      "example": "He bought her a silver bracelet.",
-      "emoji": "⛓️",
-      "cefr": "B1"
+      "zh": "帽子",
+      "example": "He wears a baseball cap.",
+      "emoji": "🧢",
+      "cefr": "A2"
+    },
+    {
+      "word": "apron",
+      "ipa": "/ˈeɪprən/",
+      "pos": "n.",
+      "zh": "围裙",
+      "example": "She put on her apron to cook.",
+      "emoji": "👗",
+      "cefr": "A2"
+    },
+    {
+      "word": "slippers",
+      "ipa": "/ˈslɪpəz/",
+      "pos": "n.",
+      "zh": "拖鞋",
+      "example": "I like to wear slippers at home.",
+      "emoji": "🩴",
+      "cefr": "A2"
+    },
+    {
+      "word": "sunglasses",
+      "ipa": "/ˈsʌnɡlɑːsɪz/",
+      "pos": "n.",
+      "zh": "太阳镜",
+      "example": "He put on his sunglasses in summer.",
+      "emoji": "🕶️",
+      "cefr": "A2"
+    },
+    {
+      "word": "pin",
+      "ipa": "/pɪn/",
+      "pos": "n.",
+      "zh": "别针",
+      "example": "She fixed her dress with a pin.",
+      "emoji": "📌",
+      "cefr": "A2"
+    },
+    {
+      "word": "earrings",
+      "ipa": "/ˈɪərɪŋz/",
+      "pos": "n.",
+      "zh": "耳环",
+      "example": "Those earrings match your dress.",
+      "emoji": "💍",
+      "cefr": "A1"
+    },
+    {
+      "word": "hairpin",
+      "ipa": "/ˈheəpɪn/",
+      "pos": "n.",
+      "zh": "发夹",
+      "example": "She used a hairpin to fix her hair.",
+      "emoji": "📌",
+      "cefr": "A1"
     }
   ],
   "vehicles": [
@@ -412,24 +484,6 @@
       "cefr": "A2"
     },
     {
-      "word": "yacht",
-      "ipa": "/jɒt/",
-      "pos": "n.",
-      "zh": "游艇",
-      "example": "A white yacht sat in the harbour.",
-      "emoji": "🛥️",
-      "cefr": "B1"
-    },
-    {
-      "word": "shuttle",
-      "ipa": "/ˈʃʌtl/",
-      "pos": "n.",
-      "zh": "班车",
-      "example": "The airport shuttle leaves every hour.",
-      "emoji": "🚌",
-      "cefr": "B1"
-    },
-    {
       "word": "carriage",
       "ipa": "/ˈkærɪdʒ/",
       "pos": "n.",
@@ -437,6 +491,60 @@
       "example": "The train has eight carriages.",
       "emoji": "🐴",
       "cefr": "B1"
+    },
+    {
+      "word": "bulldozer",
+      "ipa": "/ˈbʊldəʊzə(r)/",
+      "pos": "n",
+      "zh": "推土机",
+      "example": "The bulldozer clears the land.",
+      "emoji": "🚜",
+      "cefr": "A2"
+    },
+    {
+      "word": "tram",
+      "ipa": "/træm/",
+      "pos": "n",
+      "zh": "有轨电车",
+      "example": "The tram runs through the city.",
+      "emoji": "🚋",
+      "cefr": "A2"
+    },
+    {
+      "word": "pickup",
+      "ipa": "/ˈpɪkʌp/",
+      "pos": "n.",
+      "zh": "皮卡车",
+      "example": "He drives a pickup truck.",
+      "emoji": "🛻",
+      "cefr": "B1"
+    },
+    {
+      "word": "convertible",
+      "ipa": "/kənˈvɜːtəbl/",
+      "pos": "n.",
+      "zh": "敞篷车",
+      "example": "He drove a red convertible.",
+      "emoji": "🏎️",
+      "cefr": "B1"
+    },
+    {
+      "word": "caravan",
+      "ipa": "/ˈkærəvæn/",
+      "pos": "n.",
+      "zh": "房车",
+      "example": "They traveled across the country in a caravan.",
+      "emoji": "🚐",
+      "cefr": "B1"
+    },
+    {
+      "word": "jeep",
+      "ipa": "/dʒiːp/",
+      "pos": "n.",
+      "zh": "吉普车",
+      "example": "They drove a jeep across the desert.",
+      "emoji": "🚙",
+      "cefr": "A2"
     }
   ],
   "occupations": [
@@ -522,31 +630,58 @@
       "cefr": "B1"
     },
     {
-      "word": "plumber",
-      "ipa": "/ˈplʌmə(r)/",
+      "word": "pharmacist",
+      "ipa": "/ˈfɑːməsɪst/",
+      "pos": "n",
+      "zh": "药剂师",
+      "example": "The pharmacist gives me medicine.",
+      "emoji": "💊",
+      "cefr": "A2"
+    },
+    {
+      "word": "veterinarian",
+      "ipa": "/ˌvetərɪˈneəriən/",
+      "pos": "n",
+      "zh": "兽医",
+      "example": "The veterinarian treats my dog.",
+      "emoji": "🐾",
+      "cefr": "A2"
+    },
+    {
+      "word": "scientist",
+      "ipa": "/ˈsaɪəntɪst/",
       "pos": "n.",
-      "zh": "水暖工",
-      "example": "We called a plumber to fix the pipe.",
-      "emoji": "🔧",
+      "zh": "科学家",
+      "example": "The scientist studies the stars.",
+      "emoji": "🔬",
+      "cefr": "A2"
+    },
+    {
+      "word": "professor",
+      "ipa": "/prəˈfesə(r)/",
+      "pos": "n.",
+      "zh": "教授",
+      "example": "The professor teaches history.",
+      "emoji": "👨‍🏫",
       "cefr": "B1"
     },
     {
-      "word": "mechanic",
-      "ipa": "/məˈkænɪk/",
+      "word": "librarian",
+      "ipa": "/laɪˈbreəriən/",
       "pos": "n.",
-      "zh": "机械师",
-      "example": "The mechanic checked the engine.",
-      "emoji": "⚙️",
-      "cefr": "B1"
+      "zh": "图书管理员",
+      "example": "The librarian helped me find the book.",
+      "emoji": "📚",
+      "cefr": "A2"
     },
     {
-      "word": "translator",
-      "ipa": "/trænzˈleɪtə(r)/",
+      "word": "photographer",
+      "ipa": "/fəˈtɒɡrəfə/",
       "pos": "n.",
-      "zh": "译员",
-      "example": "She works as a translator.",
-      "emoji": "🗣️",
-      "cefr": "B1"
+      "zh": "摄影师",
+      "example": "The photographer took photos of the wedding.",
+      "emoji": "📷",
+      "cefr": "A2"
     }
   ],
   "wild_animals": [
@@ -656,6 +791,60 @@
       "zh": "鲸鱼",
       "example": "The blue whale is the largest animal.",
       "emoji": "🐳",
+      "cefr": "A2"
+    },
+    {
+      "word": "rhino",
+      "ipa": "/ˈraɪnəʊ/",
+      "pos": "n",
+      "zh": "犀牛",
+      "example": "A rhino has thick skin.",
+      "emoji": "🦏",
+      "cefr": "A2"
+    },
+    {
+      "word": "leopard",
+      "ipa": "/ˈlepəd/",
+      "pos": "n",
+      "zh": "豹",
+      "example": "The leopard climbs a tree.",
+      "emoji": "🐆",
+      "cefr": "A2"
+    },
+    {
+      "word": "lion",
+      "ipa": "/ˈlaɪən/",
+      "pos": "n.",
+      "zh": "狮子",
+      "example": "The lion roars in the zoo.",
+      "emoji": "🦁",
+      "cefr": "A2"
+    },
+    {
+      "word": "cheetah",
+      "ipa": "/ˈtʃiːtə/",
+      "pos": "n.",
+      "zh": "猎豹",
+      "example": "The cheetah is the fastest animal.",
+      "emoji": "🐆",
+      "cefr": "A2"
+    },
+    {
+      "word": "gorilla",
+      "ipa": "/ɡəˈrɪlə/",
+      "pos": "n.",
+      "zh": "大猩猩",
+      "example": "The gorilla is very strong.",
+      "emoji": "🦍",
+      "cefr": "A2"
+    },
+    {
+      "word": "otter",
+      "ipa": "/ˈɒtə/",
+      "pos": "n.",
+      "zh": "水獭",
+      "example": "The otter swims quickly in the river.",
+      "emoji": "🦦",
       "cefr": "A2"
     }
   ],
@@ -767,6 +956,24 @@
       "example": "She touched his forehead to check the fever.",
       "emoji": "🤦",
       "cefr": "A2"
+    },
+    {
+      "word": "jaw",
+      "ipa": "/dʒɔː/",
+      "pos": "n",
+      "zh": "下巴，颌",
+      "example": "The boxer hurt his jaw.",
+      "emoji": "🦴",
+      "cefr": "A2"
+    },
+    {
+      "word": "palm",
+      "ipa": "/pɑːm/",
+      "pos": "n",
+      "zh": "手掌",
+      "example": "Read the lines on your palm.",
+      "emoji": "✋",
+      "cefr": "A2"
     }
   ],
   "buildings": [
@@ -796,15 +1003,6 @@
       "example": "The museum opens at nine.",
       "emoji": "🏛️",
       "cefr": "A2"
-    },
-    {
-      "word": "stadium",
-      "ipa": "/ˈsteɪdiəm/",
-      "pos": "n.",
-      "zh": "体育场",
-      "example": "The stadium was full of fans.",
-      "emoji": "🏟️",
-      "cefr": "B1"
     },
     {
       "word": "library",
@@ -877,6 +1075,69 @@
       "example": "The lighthouse guides ships at night.",
       "emoji": "🔦",
       "cefr": "B1"
+    },
+    {
+      "word": "observatory",
+      "ipa": "/əbˈzɜːvətri/",
+      "pos": "n",
+      "zh": "天文台",
+      "example": "The observatory opens at night.",
+      "emoji": "🔭",
+      "cefr": "A2"
+    },
+    {
+      "word": "aquarium",
+      "ipa": "/əˈkweəriəm/",
+      "pos": "n",
+      "zh": "水族馆",
+      "example": "We saw sharks at the aquarium.",
+      "emoji": "🐠",
+      "cefr": "A2"
+    },
+    {
+      "word": "cabin",
+      "ipa": "/ˈkæbɪn/",
+      "pos": "n.",
+      "zh": "小木屋",
+      "example": "They slept in a log cabin.",
+      "emoji": "🛖",
+      "cefr": "A2"
+    },
+    {
+      "word": "palace",
+      "ipa": "/ˈpælɪs/",
+      "pos": "n.",
+      "zh": "宫殿",
+      "example": "The king lived in a grand palace.",
+      "emoji": "🏰",
+      "cefr": "A2"
+    },
+    {
+      "word": "villa",
+      "ipa": "/ˈvɪlə/",
+      "pos": "n.",
+      "zh": "别墅",
+      "example": "They rented a villa by the sea.",
+      "emoji": "🏖️",
+      "cefr": "B1"
+    },
+    {
+      "word": "theatre",
+      "ipa": "/ˈθɪətə(r)/",
+      "pos": "n.",
+      "zh": "剧院",
+      "example": "We watched a play at the theatre.",
+      "emoji": "🎭",
+      "cefr": "A2"
+    },
+    {
+      "word": "apartment",
+      "ipa": "/əˈpɑːtmənt/",
+      "pos": "n.",
+      "zh": "公寓",
+      "example": "They live in a small apartment downtown.",
+      "emoji": "🏢",
+      "cefr": "A1"
     }
   ],
   "disaster": [
@@ -906,15 +1167,6 @@
       "example": "Lightning hit the tree.",
       "emoji": "⚡",
       "cefr": "A2"
-    },
-    {
-      "word": "hurricane",
-      "ipa": "/ˈhʌrɪkən/",
-      "pos": "n.",
-      "zh": "飓风",
-      "example": "The hurricane destroyed many houses.",
-      "emoji": "🌀",
-      "cefr": "B1"
     },
     {
       "word": "drought",
@@ -953,15 +1205,6 @@
       "cefr": "B1"
     },
     {
-      "word": "hail",
-      "ipa": "/heɪl/",
-      "pos": "n.",
-      "zh": "冰雹",
-      "example": "Hail damaged the young plants.",
-      "emoji": "🧊",
-      "cefr": "B1"
-    },
-    {
       "word": "frost",
       "ipa": "/frɒst/",
       "pos": "n.",
@@ -989,30 +1232,75 @@
       "cefr": "A2"
     },
     {
-      "word": "typhoon",
-      "ipa": "/taɪˈfuːn/",
+      "word": "landslide",
+      "ipa": "/ˈlændslaɪd/",
+      "pos": "n",
+      "zh": "山体滑坡",
+      "example": "Heavy rain caused a landslide.",
+      "emoji": "⛰️",
+      "cefr": "A2"
+    },
+    {
+      "word": "heatwave",
+      "ipa": "/ˈhiːtweɪv/",
+      "pos": "n",
+      "zh": "热浪",
+      "example": "The heatwave lasted two weeks.",
+      "emoji": "🥵",
+      "cefr": "A2"
+    },
+    {
+      "word": "casualty",
+      "ipa": "/ˈkæʒuəlti/",
       "pos": "n.",
-      "zh": "台风",
-      "example": "The typhoon hit the coast on Sunday.",
-      "emoji": "🌪️",
+      "zh": "伤亡人员",
+      "example": "There were no casualties in the fire.",
+      "emoji": "🏥",
       "cefr": "B1"
     },
     {
-      "word": "avalanche",
-      "ipa": "/ˈævəlɑːnʃ/",
+      "word": "debris",
+      "ipa": "/ˈdebriː/",
       "pos": "n.",
-      "zh": "雪崩",
-      "example": "An avalanche blocked the mountain road.",
-      "emoji": "🏔️",
+      "zh": "残骸",
+      "example": "The street was full of debris.",
+      "emoji": "🧱",
       "cefr": "B1"
     },
     {
-      "word": "tsunami",
-      "ipa": "/tsuːˈnɑːmi/",
+      "word": "relief",
+      "ipa": "/rɪˈliːf/",
       "pos": "n.",
-      "zh": "海啸",
-      "example": "The tsunami warning came early enough.",
-      "emoji": "🆘",
+      "zh": "救济",
+      "example": "The army sent relief to the area.",
+      "emoji": "🤝",
+      "cefr": "B1"
+    },
+    {
+      "word": "rescue",
+      "ipa": "/ˈreskjuː/",
+      "pos": "v.",
+      "zh": "营救",
+      "example": "The firefighter rescued the child.",
+      "emoji": "🚒",
+      "cefr": "B1"
+    },
+    {
+      "word": "aftershock",
+      "ipa": "/ˈɑːftəʃɒk/",
+      "pos": "n.",
+      "zh": "余震",
+      "example": "Aftershocks continued for days.",
+      "emoji": "📳",
+      "cefr": "B1"
+    },
+    {
+      "word": "shelter",
+      "ipa": "/ˈʃeltə(r)/",
+      "pos": "n.",
+      "zh": "避难所",
+      "example": "People found shelter in the school.",
+      "emoji": "🏕️",
       "cefr": "B1"
     }
   ],
@@ -1081,49 +1369,40 @@
       "cefr": "B1"
     },
     {
+      "word": "magenta",
+      "ipa": "/məˈdʒentə/",
+      "pos": "n",
+      "zh": "品红色",
+      "example": "Magenta is between red and purple.",
+      "emoji": "🟣",
+      "cefr": "A2"
+    },
+    {
+      "word": "lilac",
+      "ipa": "/ˈlaɪlək/",
+      "pos": "n",
+      "zh": "淡紫色",
+      "example": "She painted the wall lilac.",
+      "emoji": "🟪",
+      "cefr": "A2"
+    },
+    {
       "word": "beige",
       "ipa": "/beɪʒ/",
-      "pos": "adj.",
-      "zh": "米色的",
-      "example": "The curtains are light beige.",
-      "emoji": "🧋",
-      "cefr": "B1"
+      "pos": "n.",
+      "zh": "米色",
+      "example": "She bought a beige coat for winter.",
+      "emoji": "🎨",
+      "cefr": "A1"
     },
     {
       "word": "turquoise",
       "ipa": "/ˈtɜːkwɔɪz/",
-      "pos": "adj.",
-      "zh": "青绿色的",
-      "example": "The sea looked turquoise in the sun.",
-      "emoji": "🦚",
-      "cefr": "B1"
-    },
-    {
-      "word": "violet",
-      "ipa": "/ˈvaɪələt/",
-      "pos": "adj.",
-      "zh": "紫罗兰色的",
-      "example": "Violet is a shade between blue and red.",
-      "emoji": "🪻",
-      "cefr": "B1"
-    },
-    {
-      "word": "crimson",
-      "ipa": "/ˈkrɪmzn/",
-      "pos": "adj.",
-      "zh": "深红色的",
-      "example": "She wore a crimson dress.",
-      "emoji": "🍷",
-      "cefr": "B1"
-    },
-    {
-      "word": "ivory",
-      "ipa": "/ˈaɪvəri/",
-      "pos": "adj.",
-      "zh": "象牙色的",
-      "example": "The piano has ivory keys.",
-      "emoji": "🦷",
-      "cefr": "B1"
+      "pos": "n.",
+      "zh": "青绿色",
+      "example": "The sea looks turquoise in the sunlight.",
+      "emoji": "🎨",
+      "cefr": "A1"
     }
   ],
   "hand_actions": [
@@ -1146,15 +1425,6 @@
       "cefr": "A2"
     },
     {
-      "word": "pinch",
-      "ipa": "/pɪntʃ/",
-      "pos": "v.",
-      "zh": "捏；掐",
-      "example": "Do not pinch the baby's cheek.",
-      "emoji": "🤌",
-      "cefr": "B1"
-    },
-    {
       "word": "pat",
       "ipa": "/pæt/",
       "pos": "v.",
@@ -1162,15 +1432,6 @@
       "example": "She patted the dog gently.",
       "emoji": "👋",
       "cefr": "A2"
-    },
-    {
-      "word": "stroke",
-      "ipa": "/strəʊk/",
-      "pos": "v.",
-      "zh": "抚摸",
-      "example": "He stroked the cat's back.",
-      "emoji": "🖐️",
-      "cefr": "B1"
     },
     {
       "word": "tap",
@@ -1182,15 +1443,6 @@
       "cefr": "A2"
     },
     {
-      "word": "punch",
-      "ipa": "/pʌntʃ/",
-      "pos": "v.",
-      "zh": "用拳打",
-      "example": "He punched the bag hard.",
-      "emoji": "👊",
-      "cefr": "B1"
-    },
-    {
       "word": "scratch",
       "ipa": "/skrætʃ/",
       "pos": "v.",
@@ -1198,15 +1450,6 @@
       "example": "The cat scratched the sofa.",
       "emoji": "🐾",
       "cefr": "A2"
-    },
-    {
-      "word": "twist",
-      "ipa": "/twɪst/",
-      "pos": "v.",
-      "zh": "拧；扭",
-      "example": "Twist the lid to open the jar.",
-      "emoji": "🔀",
-      "cefr": "B1"
     },
     {
       "word": "shake",
@@ -1233,6 +1476,60 @@
       "zh": "拍手",
       "example": "The audience clapped for a long time.",
       "emoji": "👏",
+      "cefr": "A2"
+    },
+    {
+      "word": "knead",
+      "ipa": "/niːd/",
+      "pos": "v",
+      "zh": "揉捏",
+      "example": "Knead the dough for five minutes.",
+      "emoji": "🥖",
+      "cefr": "A2"
+    },
+    {
+      "word": "tickle",
+      "ipa": "/ˈtɪkl/",
+      "pos": "v",
+      "zh": "挠痒痒",
+      "example": "Tickle the baby's feet.",
+      "emoji": "🪶",
+      "cefr": "A2"
+    },
+    {
+      "word": "snap",
+      "ipa": "/snæp/",
+      "pos": "v.",
+      "zh": "打响指",
+      "example": "She snaps her fingers to the beat.",
+      "emoji": "🤏",
+      "cefr": "A2"
+    },
+    {
+      "word": "nudge",
+      "ipa": "/nʌdʒ/",
+      "pos": "v.",
+      "zh": "轻推",
+      "example": "She nudged me to wake me up.",
+      "emoji": "👉",
+      "cefr": "B1"
+    },
+    {
+      "word": "press",
+      "ipa": "/pres/",
+      "pos": "v.",
+      "zh": "按；压",
+      "example": "Press the button to open the door.",
+      "emoji": "🔘",
+      "cefr": "A2"
+    },
+    {
+      "word": "poke",
+      "ipa": "/pəʊk/",
+      "pos": "v.",
+      "zh": "戳；捅",
+      "example": "Don't poke the cake with your finger.",
+      "emoji": "👉",
       "cefr": "A2"
     }
   ],
@@ -1292,24 +1589,6 @@
       "cefr": "A2"
     },
     {
-      "word": "march",
-      "ipa": "/mɑːtʃ/",
-      "pos": "v.",
-      "zh": "行进",
-      "example": "The soldiers marched past the square.",
-      "emoji": "🥁",
-      "cefr": "B1"
-    },
-    {
-      "word": "wander",
-      "ipa": "/ˈwɒndə(r)/",
-      "pos": "v.",
-      "zh": "漫步；闲逛",
-      "example": "We wandered through the old streets.",
-      "emoji": "🧭",
-      "cefr": "B1"
-    },
-    {
       "word": "rush",
       "ipa": "/rʌʃ/",
       "pos": "v.",
@@ -1319,31 +1598,40 @@
       "cefr": "A2"
     },
     {
-      "word": "creep",
-      "ipa": "/kriːp/",
+      "word": "sprint",
+      "ipa": "/sprɪnt/",
+      "pos": "v",
+      "zh": "冲刺",
+      "example": "He sprints to the finish line.",
+      "emoji": "🏃",
+      "cefr": "A2"
+    },
+    {
+      "word": "glide",
+      "ipa": "/ɡlaɪd/",
+      "pos": "v",
+      "zh": "滑行",
+      "example": "The bird glides over the lake.",
+      "emoji": "🕊️",
+      "cefr": "A2"
+    },
+    {
+      "word": "leap",
+      "ipa": "/liːp/",
       "pos": "v.",
-      "zh": "悄悄移动",
-      "example": "He crept into the room quietly.",
-      "emoji": "🥷",
+      "zh": "跳跃",
+      "example": "The cat leaped onto the table.",
+      "emoji": "🐱",
       "cefr": "B1"
     },
     {
-      "word": "dash",
-      "ipa": "/dæʃ/",
+      "word": "waddle",
+      "ipa": "/ˈwɒdl/",
       "pos": "v.",
-      "zh": "猛冲",
-      "example": "He dashed across the road.",
-      "emoji": "⚡",
-      "cefr": "B1"
-    },
-    {
-      "word": "stroll",
-      "ipa": "/strəʊl/",
-      "pos": "v.",
-      "zh": "悠闲散步",
-      "example": "They strolled along the river.",
-      "emoji": "🌳",
-      "cefr": "B1"
+      "zh": "摇摇摆摆地走",
+      "example": "The duck waddled across the road.",
+      "emoji": "🦆",
+      "cefr": "A2"
     }
   ]
 }

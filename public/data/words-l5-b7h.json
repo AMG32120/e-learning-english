@@ -1,692 +1,808 @@
 [
- {
-  "id": "l9_rel_studies",
-  "title": "宗教学",
-  "emoji": "📖",
-  "words": [
-   {
-    "word": "theology",
-    "ipa": "/θiˈɒlədʒi/",
-    "pos": "n.",
-    "zh": "神学",
-    "example": "Theology argues about what cannot be seen.",
+  {
+    "id": "l9_rel_studies",
+    "title": "宗教学",
     "emoji": "📖",
-    "cefr": "C1"
-   },
-   {
-    "word": "denomination",
-    "ipa": "/dɪˌnɒmɪˈneɪʃn/",
-    "pos": "n.",
-    "zh": "教派；宗派",
-    "example": "Four denominations share the hall.",
-    "emoji": "⛪",
-    "cefr": "C1"
-   },
-   {
-    "word": "catechism",
-    "ipa": "/ˈkætəkɪzəm/",
-    "pos": "n.",
-    "zh": "教义问答",
-    "example": "Children memorised the catechism by rote.",
-    "emoji": "❓",
-    "cefr": "C2"
-   },
-   {
-    "word": "clergy",
-    "ipa": "/ˈklɜːdʒi/",
-    "pos": "n.",
-    "zh": "神职人员",
-    "example": "The clergy sat apart at feasts.",
-    "emoji": "🧑‍⚕️",
-    "cefr": "C1"
-   },
-   {
-    "word": "congregation",
-    "ipa": "/ˌkɒŋgrɪˈgeɪʃn/",
-    "pos": "n.",
-    "zh": "会众；集会",
-    "example": "The congregation overflows onto the steps.",
-    "emoji": "👥",
-    "cefr": "C1"
-   },
-   {
-    "word": "sermon",
-    "ipa": "/ˈsɜːmən/",
-    "pos": "n.",
-    "zh": "布道；说教",
-    "example": "Sunday sermons ran forty minutes.",
-    "emoji": "🗣️",
-    "cefr": "C1"
-   },
-   {
-    "word": "parish",
-    "ipa": "/ˈpærɪʃ/",
-    "pos": "n.",
-    "zh": "教区",
-    "example": "The parish rebuilt the tower twice.",
-    "emoji": "🏘️",
-    "cefr": "C1"
-   },
-   {
-    "word": "atheist",
-    "ipa": "/ˈeɪθiɪst/",
-    "pos": "n./adj.",
-    "zh": "无神论者；无神论的",
-    "example": "Atheists held their own quiet meetings.",
-    "emoji": "🌌",
-    "cefr": "C1"
-   },
-   {
-    "word": "agnostic",
-    "ipa": "/ægˈnɒstɪk/",
-    "pos": "n./adj.",
-    "zh": "不可知论者",
-    "example": "Agnostics suspend the question politely.",
-    "emoji": "🤷",
-    "cefr": "C1"
-   },
-   {
-    "word": "monotheism",
-    "ipa": "/ˈmɒnəʊθiɪzəm/",
-    "pos": "n.",
-    "zh": "一神论",
-    "example": "Monotheism reshaped three continents.",
-    "emoji": "1️⃣",
-    "cefr": "C2"
-   },
-   {
-    "word": "polytheism",
-    "ipa": "/ˈpɒliθiɪzəm/",
-    "pos": "n.",
-    "zh": "多神论",
-    "example": "Polytheism staffs many offices.",
-    "emoji": "🏛️",
-    "cefr": "C2"
-   },
-   {
-    "word": "secular",
-    "ipa": "/ˈsekjələ/",
-    "pos": "adj.",
-    "zh": "世俗的；非宗教的",
-    "example": "Secular law now governs the calendar.",
-    "emoji": "⚖️",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l9_rel_practice",
-  "title": "宗教实践",
-  "emoji": "🕯️",
-  "words": [
-   {
-    "word": "worship",
-    "ipa": "/ˈwɜːʃɪp/",
-    "pos": "n./v.",
-    "zh": "敬拜；崇拜",
-    "example": "Worship fills the cave every solstice.",
-    "emoji": "🙏",
-    "cefr": "B2"
-   },
-   {
-    "word": "prayer",
-    "ipa": "/preə/",
-    "pos": "n.",
-    "zh": "祈祷",
-    "example": "Prayers outlast the empires that banned them.",
-    "emoji": "🤲",
-    "cefr": "B2"
-   },
-   {
-    "word": "fasting",
-    "ipa": "/ˈfɑːstɪŋ/",
-    "pos": "n.",
-    "zh": "斋戒；禁食",
-    "example": "Fasting sharpens, or so they say.",
-    "emoji": "🍽️",
-    "cefr": "C1"
-   },
-   {
-    "word": "devotion",
-    "ipa": "/dɪˈvəʊʃn/",
-    "pos": "n.",
-    "zh": "虔诚；奉献",
-    "example": "Her devotion outlasted three priests.",
-    "emoji": "💗",
-    "cefr": "C1"
-   },
-   {
-    "word": "shrine",
-    "ipa": "/ʃraɪn/",
-    "pos": "n.",
-    "zh": "圣祠；神龛",
-    "example": "Coins glitter in the shrine.",
-    "emoji": "⛩️",
-    "cefr": "C1"
-   },
-   {
-    "word": "monastery",
-    "ipa": "/ˈmɒnəstri/",
-    "pos": "n.",
-    "zh": "修道院；寺院",
-    "example": "The monastery copied books for centuries.",
-    "emoji": "🏯",
-    "cefr": "C1"
-   },
-   {
-    "word": "monk",
-    "ipa": "/mʌŋk/",
-    "pos": "n.",
-    "zh": "僧侣；修士",
-    "example": "Monks brewed the first beer here.",
-    "emoji": "🧘",
-    "cefr": "B2"
-   },
-   {
-    "word": "nun",
-    "ipa": "/nʌn/",
-    "pos": "n.",
-    "zh": "修女；尼姑",
-    "example": "The nun ran the infirmary alone.",
-    "emoji": "🧕",
-    "cefr": "B2"
-   },
-   {
-    "word": "benediction",
-    "ipa": "/ˌbenəˈdɪkʃn/",
-    "pos": "n.",
-    "zh": "祝福；祝祷",
-    "example": "A brief benediction closed the vigil.",
-    "emoji": "🙌",
-    "cefr": "C2"
-   },
-   {
-    "word": "absolution",
-    "ipa": "/ˌæbsəˈluːʃn/",
-    "pos": "n.",
-    "zh": "赦免；宽恕",
-    "example": "Absolution required honest accounting.",
-    "emoji": "🕊️",
-    "cefr": "C2"
-   },
-   {
-    "word": "sacrament",
-    "ipa": "/ˈsækrəmənt/",
-    "pos": "n.",
-    "zh": "圣礼；圣事",
-    "example": "Seven sacraments structure the year.",
-    "emoji": "🤍",
-    "cefr": "C2"
-   },
-   {
-    "word": "contemplation",
-    "ipa": "/ˌkɒntəmˈpleɪʃn/",
-    "pos": "n.",
-    "zh": "沉思；静观",
-    "example": "Contemplation fills the empty hours.",
-    "emoji": "🌄",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l9_rel_text",
-  "title": "经典与传承",
-  "emoji": "📜",
-  "words": [
-   {
-    "word": "scripture",
-    "ipa": "/ˈskrɪptʃə/",
-    "pos": "n.",
-    "zh": "经文；圣典",
-    "example": "Scripture reading opens every council.",
+    "words": [
+      {
+        "word": "theology",
+        "ipa": "/θiˈɒlədʒi/",
+        "pos": "n.",
+        "zh": "神学",
+        "example": "Theology argues about what cannot be seen.",
+        "emoji": "📖",
+        "cefr": "C1"
+      },
+      {
+        "word": "denomination",
+        "ipa": "/dɪˌnɒmɪˈneɪʃn/",
+        "pos": "n.",
+        "zh": "教派；宗派",
+        "example": "Four denominations share the hall.",
+        "emoji": "⛪",
+        "cefr": "C1"
+      },
+      {
+        "word": "catechism",
+        "ipa": "/ˈkætəkɪzəm/",
+        "pos": "n.",
+        "zh": "教义问答",
+        "example": "Children memorised the catechism by rote.",
+        "emoji": "❓",
+        "cefr": "C2"
+      },
+      {
+        "word": "clergy",
+        "ipa": "/ˈklɜːdʒi/",
+        "pos": "n.",
+        "zh": "神职人员",
+        "example": "The clergy sat apart at feasts.",
+        "emoji": "🧑‍⚕️",
+        "cefr": "C1"
+      },
+      {
+        "word": "congregation",
+        "ipa": "/ˌkɒŋgrɪˈgeɪʃn/",
+        "pos": "n.",
+        "zh": "会众；集会",
+        "example": "The congregation overflows onto the steps.",
+        "emoji": "👥",
+        "cefr": "C1"
+      },
+      {
+        "word": "sermon",
+        "ipa": "/ˈsɜːmən/",
+        "pos": "n.",
+        "zh": "布道；说教",
+        "example": "Sunday sermons ran forty minutes.",
+        "emoji": "🗣️",
+        "cefr": "C1"
+      },
+      {
+        "word": "parish",
+        "ipa": "/ˈpærɪʃ/",
+        "pos": "n.",
+        "zh": "教区",
+        "example": "The parish rebuilt the tower twice.",
+        "emoji": "🏘️",
+        "cefr": "C1"
+      },
+      {
+        "word": "atheist",
+        "ipa": "/ˈeɪθiɪst/",
+        "pos": "n./adj.",
+        "zh": "无神论者；无神论的",
+        "example": "Atheists held their own quiet meetings.",
+        "emoji": "🌌",
+        "cefr": "C1"
+      },
+      {
+        "word": "agnostic",
+        "ipa": "/ægˈnɒstɪk/",
+        "pos": "n./adj.",
+        "zh": "不可知论者",
+        "example": "Agnostics suspend the question politely.",
+        "emoji": "🤷",
+        "cefr": "C1"
+      },
+      {
+        "word": "monotheism",
+        "ipa": "/ˈmɒnəʊθiɪzəm/",
+        "pos": "n.",
+        "zh": "一神论",
+        "example": "Monotheism reshaped three continents.",
+        "emoji": "1️⃣",
+        "cefr": "C2"
+      },
+      {
+        "word": "polytheism",
+        "ipa": "/ˈpɒliθiɪzəm/",
+        "pos": "n.",
+        "zh": "多神论",
+        "example": "Polytheism staffs many offices.",
+        "emoji": "🏛️",
+        "cefr": "C2"
+      },
+      {
+        "word": "secular",
+        "ipa": "/ˈsekjələ/",
+        "pos": "adj.",
+        "zh": "世俗的；非宗教的",
+        "example": "Secular law now governs the calendar.",
+        "emoji": "⚖️",
+        "cefr": "C1"
+      },
+      {
+        "word": "secularism",
+        "ipa": "/ˈsekjələrɪzəm/",
+        "pos": "n.",
+        "zh": "世俗主义",
+        "example": "Secularism separates state from faith.",
+        "emoji": "🏛️",
+        "cefr": "C2"
+      },
+      {
+        "word": "orthodoxy",
+        "ipa": "/ˈɔːθədɒksi/",
+        "pos": "n.",
+        "zh": "正统教义",
+        "example": "Orthodoxy guards the ancient creeds.",
+        "emoji": "📿",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_festival"
+  },
+  {
+    "id": "l9_rel_practice",
+    "title": "宗教实践",
+    "emoji": "🕯️",
+    "words": [
+      {
+        "word": "worship",
+        "ipa": "/ˈwɜːʃɪp/",
+        "pos": "n./v.",
+        "zh": "敬拜；崇拜",
+        "example": "Worship fills the cave every solstice.",
+        "emoji": "🙏",
+        "cefr": "B2"
+      },
+      {
+        "word": "prayer",
+        "ipa": "/preə/",
+        "pos": "n.",
+        "zh": "祈祷",
+        "example": "Prayers outlast the empires that banned them.",
+        "emoji": "🤲",
+        "cefr": "B2"
+      },
+      {
+        "word": "fasting",
+        "ipa": "/ˈfɑːstɪŋ/",
+        "pos": "n.",
+        "zh": "斋戒；禁食",
+        "example": "Fasting sharpens, or so they say.",
+        "emoji": "🍽️",
+        "cefr": "C1"
+      },
+      {
+        "word": "devotion",
+        "ipa": "/dɪˈvəʊʃn/",
+        "pos": "n.",
+        "zh": "虔诚；奉献",
+        "example": "Her devotion outlasted three priests.",
+        "emoji": "💗",
+        "cefr": "C1"
+      },
+      {
+        "word": "shrine",
+        "ipa": "/ʃraɪn/",
+        "pos": "n.",
+        "zh": "圣祠；神龛",
+        "example": "Coins glitter in the shrine.",
+        "emoji": "⛩️",
+        "cefr": "C1"
+      },
+      {
+        "word": "monastery",
+        "ipa": "/ˈmɒnəstri/",
+        "pos": "n.",
+        "zh": "修道院；寺院",
+        "example": "The monastery copied books for centuries.",
+        "emoji": "🏯",
+        "cefr": "C1"
+      },
+      {
+        "word": "monk",
+        "ipa": "/mʌŋk/",
+        "pos": "n.",
+        "zh": "僧侣；修士",
+        "example": "Monks brewed the first beer here.",
+        "emoji": "🧘",
+        "cefr": "B2"
+      },
+      {
+        "word": "nun",
+        "ipa": "/nʌn/",
+        "pos": "n.",
+        "zh": "修女；尼姑",
+        "example": "The nun ran the infirmary alone.",
+        "emoji": "🧕",
+        "cefr": "B2"
+      },
+      {
+        "word": "benediction",
+        "ipa": "/ˌbenəˈdɪkʃn/",
+        "pos": "n.",
+        "zh": "祝福；祝祷",
+        "example": "A brief benediction closed the vigil.",
+        "emoji": "🙌",
+        "cefr": "C2"
+      },
+      {
+        "word": "absolution",
+        "ipa": "/ˌæbsəˈluːʃn/",
+        "pos": "n.",
+        "zh": "赦免；宽恕",
+        "example": "Absolution required honest accounting.",
+        "emoji": "🕊️",
+        "cefr": "C2"
+      },
+      {
+        "word": "sacrament",
+        "ipa": "/ˈsækrəmənt/",
+        "pos": "n.",
+        "zh": "圣礼；圣事",
+        "example": "Seven sacraments structure the year.",
+        "emoji": "🤍",
+        "cefr": "C2"
+      },
+      {
+        "word": "contemplation",
+        "ipa": "/ˌkɒntəmˈpleɪʃn/",
+        "pos": "n.",
+        "zh": "沉思；静观",
+        "example": "Contemplation fills the empty hours.",
+        "emoji": "🌄",
+        "cefr": "C1"
+      },
+      {
+        "word": "offering",
+        "ipa": "/ˈɒfərɪŋ/",
+        "pos": "n.",
+        "zh": "供品",
+        "example": "Families leave offerings at the altar.",
+        "emoji": "🪔",
+        "cefr": "C1"
+      },
+      {
+        "word": "vestment",
+        "ipa": "/ˈvestmənt/",
+        "pos": "n.",
+        "zh": "法衣",
+        "example": "The priest wore embroidered vestments.",
+        "emoji": "👘",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_festival"
+  },
+  {
+    "id": "l9_rel_text",
+    "title": "经典与传承",
     "emoji": "📜",
-    "cefr": "C1"
-   },
-   {
-    "word": "gospel",
-    "ipa": "/ˈgɒspl/",
-    "pos": "n.",
-    "zh": "福音；真理",
-    "example": "Four gospels open differently.",
-    "emoji": "📖",
-    "cefr": "C1"
-   },
-   {
-    "word": "psalm",
-    "ipa": "/sɑːm/",
-    "pos": "n.",
-    "zh": "圣歌；诗篇",
-    "example": "Psalm 23 calms hospital corridors.",
-    "emoji": "🎵",
-    "cefr": "C2"
-   },
-   {
-    "word": "hymn",
-    "ipa": "/hɪm/",
-    "pos": "n.",
-    "zh": "赞美诗",
-    "example": "The hymn outlived its language.",
-    "emoji": "🎶",
-    "cefr": "C1"
-   },
-   {
-    "word": "canticle",
-    "ipa": "/ˈkæntɪkl/",
-    "pos": "n.",
-    "zh": "颂歌；圣歌",
-    "example": "Morning canticle echoes off stone.",
-    "emoji": "🌅",
-    "cefr": "C2"
-   },
-   {
-    "word": "canon",
-    "ipa": "/ˈkænən/",
-    "pos": "n.",
-    "zh": "正典；标准",
-    "example": "The canon closed in 397.",
-    "emoji": "📕",
-    "cefr": "C2"
-   },
-   {
-    "word": "apocrypha",
-    "ipa": "/əˈpɒkrɪfə/",
-    "pos": "n.",
-    "zh": "伪经；外典",
-    "example": "Apocrypha thrills footnote hunters.",
-    "emoji": "🗂️",
-    "cefr": "C2"
-   },
-   {
-    "word": "scribe",
-    "ipa": "/skraɪb/",
-    "pos": "n.",
-    "zh": "抄写员；文士",
-    "example": "Scribes earned by the column.",
-    "emoji": "✍️",
-    "cefr": "C1"
-   },
-   {
-    "word": "commentary",
-    "ipa": "/ˈkɒməntri/",
-    "pos": "n.",
-    "zh": "评注；解说",
-    "example": "Layer upon layer of commentary surrounds the text.",
-    "emoji": "🗒️",
-    "cefr": "C1"
-   },
-   {
-    "word": "interpretation",
-    "ipa": "/ɪnˌtɜːprɪˈteɪʃn/",
-    "pos": "n.",
-    "zh": "解释；诠释",
-    "example": "Interpretation divides the faithful.",
-    "emoji": "⚖️",
-    "cefr": "C1"
-   },
-   {
-    "word": "schism",
-    "ipa": "/ˈskɪzəm/",
-    "pos": "n.",
-    "zh": "分裂；教派分裂",
-    "example": "The schism split east from west.",
-    "emoji": "💔",
-    "cefr": "C2"
-   },
-   {
-    "word": "heresy",
-    "ipa": "/ˈherəsi/",
-    "pos": "n.",
-    "zh": "异端；邪说",
-    "example": "Heresy trials ate the paperwork.",
-    "emoji": "🔥",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_classic_greece",
-  "title": "古希腊",
-  "emoji": "🏛️",
-  "words": [
-   {
-    "word": "acropolis",
-    "ipa": "/əˈkrɒpəlɪs/",
-    "pos": "n.",
-    "zh": "卫城",
-    "example": "The Acropolis watches the whole city.",
+    "words": [
+      {
+        "word": "scripture",
+        "ipa": "/ˈskrɪptʃə/",
+        "pos": "n.",
+        "zh": "经文；圣典",
+        "example": "Scripture reading opens every council.",
+        "emoji": "📜",
+        "cefr": "C1"
+      },
+      {
+        "word": "gospel",
+        "ipa": "/ˈgɒspl/",
+        "pos": "n.",
+        "zh": "福音；真理",
+        "example": "Four gospels open differently.",
+        "emoji": "📖",
+        "cefr": "C1"
+      },
+      {
+        "word": "psalm",
+        "ipa": "/sɑːm/",
+        "pos": "n.",
+        "zh": "圣歌；诗篇",
+        "example": "Psalm 23 calms hospital corridors.",
+        "emoji": "🎵",
+        "cefr": "C2"
+      },
+      {
+        "word": "hymn",
+        "ipa": "/hɪm/",
+        "pos": "n.",
+        "zh": "赞美诗",
+        "example": "The hymn outlived its language.",
+        "emoji": "🎶",
+        "cefr": "C1"
+      },
+      {
+        "word": "canticle",
+        "ipa": "/ˈkæntɪkl/",
+        "pos": "n.",
+        "zh": "颂歌；圣歌",
+        "example": "Morning canticle echoes off stone.",
+        "emoji": "🌅",
+        "cefr": "C2"
+      },
+      {
+        "word": "canon",
+        "ipa": "/ˈkænən/",
+        "pos": "n.",
+        "zh": "正典；标准",
+        "example": "The canon closed in 397.",
+        "emoji": "📕",
+        "cefr": "C2"
+      },
+      {
+        "word": "apocrypha",
+        "ipa": "/əˈpɒkrɪfə/",
+        "pos": "n.",
+        "zh": "伪经；外典",
+        "example": "Apocrypha thrills footnote hunters.",
+        "emoji": "🗂️",
+        "cefr": "C2"
+      },
+      {
+        "word": "scribe",
+        "ipa": "/skraɪb/",
+        "pos": "n.",
+        "zh": "抄写员；文士",
+        "example": "Scribes earned by the column.",
+        "emoji": "✍️",
+        "cefr": "C1"
+      },
+      {
+        "word": "commentary",
+        "ipa": "/ˈkɒməntri/",
+        "pos": "n.",
+        "zh": "评注；解说",
+        "example": "Layer upon layer of commentary surrounds the text.",
+        "emoji": "🗒️",
+        "cefr": "C1"
+      },
+      {
+        "word": "interpretation",
+        "ipa": "/ɪnˌtɜːprɪˈteɪʃn/",
+        "pos": "n.",
+        "zh": "解释；诠释",
+        "example": "Interpretation divides the faithful.",
+        "emoji": "⚖️",
+        "cefr": "C1"
+      },
+      {
+        "word": "schism",
+        "ipa": "/ˈskɪzəm/",
+        "pos": "n.",
+        "zh": "分裂；教派分裂",
+        "example": "The schism split east from west.",
+        "emoji": "💔",
+        "cefr": "C2"
+      },
+      {
+        "word": "heresy",
+        "ipa": "/ˈherəsi/",
+        "pos": "n.",
+        "zh": "异端；邪说",
+        "example": "Heresy trials ate the paperwork.",
+        "emoji": "🔥",
+        "cefr": "C2"
+      },
+      {
+        "word": "exegesis",
+        "ipa": "/ˌeksɪˈdʒiːsɪs/",
+        "pos": "n.",
+        "zh": "经文注解",
+        "example": "Exegesis unpacks the ancient lines.",
+        "emoji": "📖",
+        "cefr": "C2"
+      },
+      {
+        "word": "parable",
+        "ipa": "/ˈpærəbl/",
+        "pos": "n.",
+        "zh": "寓言",
+        "example": "The parable teaches through a simple story.",
+        "emoji": "🌾",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_reading"
+  },
+  {
+    "id": "l9_classic_greece",
+    "title": "古希腊",
     "emoji": "🏛️",
-    "cefr": "C2"
-   },
-   {
-    "word": "agora",
-    "ipa": "/ˈægərə/",
-    "pos": "n.",
-    "zh": "集市；广场",
-    "example": "Philosophy strolled the agora.",
-    "emoji": "🏪",
-    "cefr": "C2"
-   },
-   {
-    "word": "polis",
-    "ipa": "/ˈpɒlɪs/",
-    "pos": "n.",
-    "zh": "城邦",
-    "example": "Each polis minted its own coins.",
-    "emoji": "🪙",
-    "cefr": "C2"
-   },
-   {
-    "word": "oracle",
-    "ipa": "/ˈɒrəkl/",
-    "pos": "n.",
-    "zh": "神谕；先知",
-    "example": "The oracle answered in riddles.",
-    "emoji": "🔮",
-    "cefr": "C1"
-   },
-   {
-    "word": "hoplite",
-    "ipa": "/ˈhɒplaɪt/",
-    "pos": "n.",
-    "zh": "（古希腊）重装步兵",
-    "example": "Hoplites fought shoulder to shoulder.",
-    "emoji": "🛡️",
-    "cefr": "C2"
-   },
-   {
-    "word": "ostracism",
-    "ipa": "/ˈɒstrəsɪzəm/",
-    "pos": "n.",
-    "zh": "陶片放逐法",
-    "example": "Ostracism exiled by popular vote.",
-    "emoji": "🐚",
-    "cefr": "C2"
-   },
-   {
-    "word": "symposium",
-    "ipa": "/sɪmˈpəʊziəm/",
-    "pos": "n.",
-    "zh": "会饮；研讨会",
-    "example": "Symposium wine flowed past midnight.",
-    "emoji": "🍷",
-    "cefr": "C2"
-   },
-   {
-    "word": "lyre",
-    "ipa": "/ˈlaɪə/",
-    "pos": "n.",
-    "zh": "里拉琴",
-    "example": "The lyre accompanied every epic.",
-    "emoji": "🎻",
-    "cefr": "C2"
-   },
-   {
-    "word": "tragedian",
-    "ipa": "/trəˈdʒiːdiən/",
-    "pos": "n.",
-    "zh": "悲剧作家",
-    "example": "Three tragedians defined the genre.",
-    "emoji": "🎭",
-    "cefr": "C2"
-   },
-   {
-    "word": "rhetorician",
-    "ipa": "/ˌretəˈrɪʃn/",
-    "pos": "n.",
-    "zh": "修辞学家",
-    "example": "Rhetoricians sold persuasion by the hour.",
-    "emoji": "🗣️",
-    "cefr": "C2"
-   },
-   {
-    "word": "mystery-cult",
-    "ipa": "/ˈmɪstəri kʌlt/",
-    "pos": "n.",
-    "zh": "秘仪教派",
-    "example": "Initiates swore silence to the mystery-cult.",
-    "emoji": "🌑",
-    "cefr": "C2"
-   },
-   {
-    "word": "hellenistic",
-    "ipa": "/ˌhelɪˈnɪstɪk/",
-    "pos": "adj.",
-    "zh": "希腊化时期的",
-    "example": "Hellenistic maths invented gears.",
-    "emoji": "⚙️",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_classic_rome",
-  "title": "古罗马",
-  "emoji": "⚔️",
-  "words": [
-   {
-    "word": "basilica",
-    "ipa": "/bəˈzɪlɪkə/",
-    "pos": "n.",
-    "zh": "巴西利卡；长方形大会堂",
-    "example": "The basilica hosted law courts.",
-    "emoji": "⛪",
-    "cefr": "C2"
-   },
-   {
-    "word": "senate",
-    "ipa": "/ˈsenət/",
-    "pos": "n.",
-    "zh": "元老院",
-    "example": "The senate argued past midnight.",
-    "emoji": "🏛️",
-    "cefr": "C1"
-   },
-   {
-    "word": "praetor",
-    "ipa": "/ˈpriːtə/",
-    "pos": "n.",
-    "zh": "（古罗马）裁判官",
-    "example": "The praetor heard commercial disputes.",
-    "emoji": "⚖️",
-    "cefr": "C2"
-   },
-   {
-    "word": "legion",
-    "ipa": "/ˈliːdʒən/",
-    "pos": "n.",
-    "zh": "军团",
-    "example": "A legion numbered five thousand.",
+    "words": [
+      {
+        "word": "acropolis",
+        "ipa": "/əˈkrɒpəlɪs/",
+        "pos": "n.",
+        "zh": "卫城",
+        "example": "The Acropolis watches the whole city.",
+        "emoji": "🏛️",
+        "cefr": "C2"
+      },
+      {
+        "word": "agora",
+        "ipa": "/ˈægərə/",
+        "pos": "n.",
+        "zh": "集市；广场",
+        "example": "Philosophy strolled the agora.",
+        "emoji": "🏪",
+        "cefr": "C2"
+      },
+      {
+        "word": "polis",
+        "ipa": "/ˈpɒlɪs/",
+        "pos": "n.",
+        "zh": "城邦",
+        "example": "Each polis minted its own coins.",
+        "emoji": "🪙",
+        "cefr": "C2"
+      },
+      {
+        "word": "oracle",
+        "ipa": "/ˈɒrəkl/",
+        "pos": "n.",
+        "zh": "神谕；先知",
+        "example": "The oracle answered in riddles.",
+        "emoji": "🔮",
+        "cefr": "C1"
+      },
+      {
+        "word": "hoplite",
+        "ipa": "/ˈhɒplaɪt/",
+        "pos": "n.",
+        "zh": "（古希腊）重装步兵",
+        "example": "Hoplites fought shoulder to shoulder.",
+        "emoji": "🛡️",
+        "cefr": "C2"
+      },
+      {
+        "word": "ostracism",
+        "ipa": "/ˈɒstrəsɪzəm/",
+        "pos": "n.",
+        "zh": "陶片放逐法",
+        "example": "Ostracism exiled by popular vote.",
+        "emoji": "🐚",
+        "cefr": "C2"
+      },
+      {
+        "word": "symposium",
+        "ipa": "/sɪmˈpəʊziəm/",
+        "pos": "n.",
+        "zh": "会饮；研讨会",
+        "example": "Symposium wine flowed past midnight.",
+        "emoji": "🍷",
+        "cefr": "C2"
+      },
+      {
+        "word": "lyre",
+        "ipa": "/ˈlaɪə/",
+        "pos": "n.",
+        "zh": "里拉琴",
+        "example": "The lyre accompanied every epic.",
+        "emoji": "🎻",
+        "cefr": "C2"
+      },
+      {
+        "word": "tragedian",
+        "ipa": "/trəˈdʒiːdiən/",
+        "pos": "n.",
+        "zh": "悲剧作家",
+        "example": "Three tragedians defined the genre.",
+        "emoji": "🎭",
+        "cefr": "C2"
+      },
+      {
+        "word": "rhetorician",
+        "ipa": "/ˌretəˈrɪʃn/",
+        "pos": "n.",
+        "zh": "修辞学家",
+        "example": "Rhetoricians sold persuasion by the hour.",
+        "emoji": "🗣️",
+        "cefr": "C2"
+      },
+      {
+        "word": "mystery-cult",
+        "ipa": "/ˈmɪstəri kʌlt/",
+        "pos": "n.",
+        "zh": "秘仪教派",
+        "example": "Initiates swore silence to the mystery-cult.",
+        "emoji": "🌑",
+        "cefr": "C2"
+      },
+      {
+        "word": "hellenistic",
+        "ipa": "/ˌhelɪˈnɪstɪk/",
+        "pos": "adj.",
+        "zh": "希腊化时期的",
+        "example": "Hellenistic maths invented gears.",
+        "emoji": "⚙️",
+        "cefr": "C2"
+      },
+      {
+        "word": "sophist",
+        "ipa": "/ˈsɒfɪst/",
+        "pos": "n.",
+        "zh": "智者派",
+        "example": "A sophist taught rhetoric for pay.",
+        "emoji": "🎓",
+        "cefr": "C2"
+      },
+      {
+        "word": "phalanx",
+        "ipa": "/ˈfælæŋks/",
+        "pos": "n.",
+        "zh": "方阵",
+        "example": "The phalanx locked shields against attack.",
+        "emoji": "🛡️",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_city"
+  },
+  {
+    "id": "l9_classic_rome",
+    "title": "古罗马",
     "emoji": "⚔️",
-    "cefr": "C1"
-   },
-   {
-    "word": "centurion",
-    "ipa": "/senˈtjʊəriən/",
-    "pos": "n.",
-    "zh": "百夫长",
-    "example": "The centurion counted everything twice.",
-    "emoji": "🪖",
-    "cefr": "C2"
-   },
-   {
-    "word": "triumvirate",
-    "ipa": "/traɪˈʌmvɪrət/",
-    "pos": "n.",
-    "zh": "三头政治",
-    "example": "The triumvirate divided the map three ways.",
-    "emoji": "✂️",
-    "cefr": "C2"
-   },
-   {
-    "word": "colosseum",
-    "ipa": "/ˌkɒləˈsiːəm/",
-    "pos": "n.",
-    "zh": "竞技场；圆形剧场",
-    "example": "The colosseum seated fifty thousand.",
-    "emoji": "🏟️",
-    "cefr": "C2"
-   },
-   {
-    "word": "patrician",
-    "ipa": "/pəˈtrɪʃn/",
-    "pos": "n./adj.",
-    "zh": "贵族；贵族的",
-    "example": "Patricians monopolised the priesthood.",
-    "emoji": "🎩",
-    "cefr": "C2"
-   },
-   {
-    "word": "plebeian",
-    "ipa": "/plɪˈbiːən/",
-    "pos": "n./adj.",
-    "zh": "平民；平民的",
-    "example": "Plebeian tribunes vetoed unfair debts.",
-    "emoji": "🧑‍🌾",
-    "cefr": "C2"
-   },
-   {
-    "word": "ovation",
-    "ipa": "/əʊˈveɪʃn/",
-    "pos": "n.",
-    "zh": "小凯旋式；热烈鼓掌",
-    "example": "The crowd gave a standing ovation.",
-    "emoji": "👏",
-    "cefr": "C2"
-   },
-   {
-    "word": "legionary",
-    "ipa": "/ˈliːdʒənəri/",
-    "pos": "n.",
-    "zh": "军团士兵",
-    "example": "Each legionary carried thirty kilos.",
-    "emoji": "🛡️",
-    "cefr": "C2"
-   },
-   {
-    "word": "villa",
-    "ipa": "/ˈvɪlə/",
-    "pos": "n.",
-    "zh": "别墅；庄园",
-    "example": "Villa mosaics survived the volcano.",
-    "emoji": "🏡",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l9_classic_legacy",
-  "title": "古典遗产",
-  "emoji": "🏺",
-  "words": [
-   {
-    "word": "epic",
-    "ipa": "/ˈepɪk/",
-    "pos": "n./adj.",
-    "zh": "史诗；宏大的",
-    "example": "Epic poems began with an argument.",
-    "emoji": "📜",
-    "cefr": "C1"
-   },
-   {
-    "word": "lyric",
-    "ipa": "/ˈlɪrɪk/",
-    "pos": "adj./n.",
-    "zh": "抒情的；歌词",
-    "example": "Lyric poets quarrelled famously.",
-    "emoji": "🎵",
-    "cefr": "C1"
-   },
-   {
-    "word": "parody",
-    "ipa": "/ˈpærədi/",
-    "pos": "n./v.",
-    "zh": "戏仿；滑稽模仿",
-    "example": "The parody outsold the original.",
-    "emoji": "🤡",
-    "cefr": "C1"
-   },
-   {
-    "word": "pediment",
-    "ipa": "/ˈpedɪmənt/",
-    "pos": "n.",
-    "zh": "山花；山墙",
-    "example": "Pediment sculptures lost their colour.",
-    "emoji": "🏛️",
-    "cefr": "C2"
-   },
-   {
-    "word": "frieze",
-    "ipa": "/friːz/",
-    "pos": "n.",
-    "zh": "饰带；横饰带",
-    "example": "The frieze rode the whole temple.",
-    "emoji": "🖼️",
-    "cefr": "C2"
-   },
-   {
-    "word": "basalt",
-    "ipa": "/ˈbæsɔːlt/",
-    "pos": "n.",
-    "zh": "玄武岩",
-    "example": "Basalt millstones ground the grain.",
-    "emoji": "⬛",
-    "cefr": "C2"
-   },
-   {
-    "word": "engraving",
-    "ipa": "/ɪnˈgreɪvɪŋ/",
-    "pos": "n.",
-    "zh": "雕刻；版画",
-    "example": "The engraving names every donor.",
-    "emoji": "🖋️",
-    "cefr": "C1"
-   },
-   {
-    "word": "stele",
-    "ipa": "/stiːl/",
-    "pos": "n.",
-    "zh": "石碑",
-    "example": "The stele lists grain prices.",
-    "emoji": "🗿",
-    "cefr": "C2"
-   },
-   {
-    "word": "amphora",
-    "ipa": "/ˈæmfərə/",
-    "pos": "n.",
-    "zh": "（双耳）陶罐",
-    "example": "Amphorae carried oil across the sea.",
+    "words": [
+      {
+        "word": "basilica",
+        "ipa": "/bəˈzɪlɪkə/",
+        "pos": "n.",
+        "zh": "巴西利卡；长方形大会堂",
+        "example": "The basilica hosted law courts.",
+        "emoji": "⛪",
+        "cefr": "C2"
+      },
+      {
+        "word": "senate",
+        "ipa": "/ˈsenət/",
+        "pos": "n.",
+        "zh": "元老院",
+        "example": "The senate argued past midnight.",
+        "emoji": "🏛️",
+        "cefr": "C1"
+      },
+      {
+        "word": "praetor",
+        "ipa": "/ˈpriːtə/",
+        "pos": "n.",
+        "zh": "（古罗马）裁判官",
+        "example": "The praetor heard commercial disputes.",
+        "emoji": "⚖️",
+        "cefr": "C2"
+      },
+      {
+        "word": "legion",
+        "ipa": "/ˈliːdʒən/",
+        "pos": "n.",
+        "zh": "军团",
+        "example": "A legion numbered five thousand.",
+        "emoji": "⚔️",
+        "cefr": "C1"
+      },
+      {
+        "word": "centurion",
+        "ipa": "/senˈtjʊəriən/",
+        "pos": "n.",
+        "zh": "百夫长",
+        "example": "The centurion counted everything twice.",
+        "emoji": "🪖",
+        "cefr": "C2"
+      },
+      {
+        "word": "triumvirate",
+        "ipa": "/traɪˈʌmvɪrət/",
+        "pos": "n.",
+        "zh": "三头政治",
+        "example": "The triumvirate divided the map three ways.",
+        "emoji": "✂️",
+        "cefr": "C2"
+      },
+      {
+        "word": "colosseum",
+        "ipa": "/ˌkɒləˈsiːəm/",
+        "pos": "n.",
+        "zh": "竞技场；圆形剧场",
+        "example": "The colosseum seated fifty thousand.",
+        "emoji": "🏟️",
+        "cefr": "C2"
+      },
+      {
+        "word": "patrician",
+        "ipa": "/pəˈtrɪʃn/",
+        "pos": "n./adj.",
+        "zh": "贵族；贵族的",
+        "example": "Patricians monopolised the priesthood.",
+        "emoji": "🎩",
+        "cefr": "C2"
+      },
+      {
+        "word": "plebeian",
+        "ipa": "/plɪˈbiːən/",
+        "pos": "n./adj.",
+        "zh": "平民；平民的",
+        "example": "Plebeian tribunes vetoed unfair debts.",
+        "emoji": "🧑‍🌾",
+        "cefr": "C2"
+      },
+      {
+        "word": "ovation",
+        "ipa": "/əʊˈveɪʃn/",
+        "pos": "n.",
+        "zh": "小凯旋式；热烈鼓掌",
+        "example": "The crowd gave a standing ovation.",
+        "emoji": "👏",
+        "cefr": "C2"
+      },
+      {
+        "word": "legionary",
+        "ipa": "/ˈliːdʒənəri/",
+        "pos": "n.",
+        "zh": "军团士兵",
+        "example": "Each legionary carried thirty kilos.",
+        "emoji": "🛡️",
+        "cefr": "C2"
+      },
+      {
+        "word": "villa",
+        "ipa": "/ˈvɪlə/",
+        "pos": "n.",
+        "zh": "别墅；庄园",
+        "example": "Villa mosaics survived the volcano.",
+        "emoji": "🏡",
+        "cefr": "C1"
+      },
+      {
+        "word": "republic",
+        "ipa": "/rɪˈpʌblɪk/",
+        "pos": "n.",
+        "zh": "共和政体",
+        "example": "Rome was once a republic.",
+        "emoji": "⚖️",
+        "cefr": "C2",
+        "level": "C1"
+      },
+      {
+        "word": "senator",
+        "ipa": "/ˈsenətə(r)/",
+        "pos": "n.",
+        "zh": "元老院议员",
+        "example": "The senator spoke for the people.",
+        "emoji": "🏛️",
+        "cefr": "C2",
+        "level": "C1"
+      }
+    ],
+    "extends_from": "l2_city"
+  },
+  {
+    "id": "l9_classic_legacy",
+    "title": "古典遗产",
     "emoji": "🏺",
-    "cefr": "C2"
-   },
-   {
-    "word": "gymnasium",
-    "ipa": "/dʒɪmˈneɪziəm/",
-    "pos": "n.",
-    "zh": "体育馆；（古希腊）学园",
-    "example": "The gymnasium trained minds and bodies.",
-    "emoji": "🏋️",
-    "cefr": "C1"
-   },
-   {
-    "word": "papyrus",
-    "ipa": "/pəˈpaɪrəs/",
-    "pos": "n.",
-    "zh": "莎草纸",
-    "example": "Papyrus scrolls crumble without care.",
-    "emoji": "📄",
-    "cefr": "C2"
-   },
-   {
-    "word": "humanities",
-    "ipa": "/hjuːˈmænɪtiz/",
-    "pos": "n.",
-    "zh": "人文学科",
-    "example": "The humanities ask what numbers cannot.",
-    "emoji": "🎓",
-    "cefr": "C1"
-   }
-  ]
- }
+    "words": [
+      {
+        "word": "epic",
+        "ipa": "/ˈepɪk/",
+        "pos": "n./adj.",
+        "zh": "史诗；宏大的",
+        "example": "Epic poems began with an argument.",
+        "emoji": "📜",
+        "cefr": "C1"
+      },
+      {
+        "word": "lyric",
+        "ipa": "/ˈlɪrɪk/",
+        "pos": "adj./n.",
+        "zh": "抒情的；歌词",
+        "example": "Lyric poets quarrelled famously.",
+        "emoji": "🎵",
+        "cefr": "C1"
+      },
+      {
+        "word": "parody",
+        "ipa": "/ˈpærədi/",
+        "pos": "n./v.",
+        "zh": "戏仿；滑稽模仿",
+        "example": "The parody outsold the original.",
+        "emoji": "🤡",
+        "cefr": "C1"
+      },
+      {
+        "word": "pediment",
+        "ipa": "/ˈpedɪmənt/",
+        "pos": "n.",
+        "zh": "山花；山墙",
+        "example": "Pediment sculptures lost their colour.",
+        "emoji": "🏛️",
+        "cefr": "C2"
+      },
+      {
+        "word": "frieze",
+        "ipa": "/friːz/",
+        "pos": "n.",
+        "zh": "饰带；横饰带",
+        "example": "The frieze rode the whole temple.",
+        "emoji": "🖼️",
+        "cefr": "C2"
+      },
+      {
+        "word": "basalt",
+        "ipa": "/ˈbæsɔːlt/",
+        "pos": "n.",
+        "zh": "玄武岩",
+        "example": "Basalt millstones ground the grain.",
+        "emoji": "⬛",
+        "cefr": "C2"
+      },
+      {
+        "word": "engraving",
+        "ipa": "/ɪnˈgreɪvɪŋ/",
+        "pos": "n.",
+        "zh": "雕刻；版画",
+        "example": "The engraving names every donor.",
+        "emoji": "🖋️",
+        "cefr": "C1"
+      },
+      {
+        "word": "stele",
+        "ipa": "/stiːl/",
+        "pos": "n.",
+        "zh": "石碑",
+        "example": "The stele lists grain prices.",
+        "emoji": "🗿",
+        "cefr": "C2"
+      },
+      {
+        "word": "amphora",
+        "ipa": "/ˈæmfərə/",
+        "pos": "n.",
+        "zh": "（双耳）陶罐",
+        "example": "Amphorae carried oil across the sea.",
+        "emoji": "🏺",
+        "cefr": "C2"
+      },
+      {
+        "word": "gymnasium",
+        "ipa": "/dʒɪmˈneɪziəm/",
+        "pos": "n.",
+        "zh": "体育馆；（古希腊）学园",
+        "example": "The gymnasium trained minds and bodies.",
+        "emoji": "🏋️",
+        "cefr": "C1"
+      },
+      {
+        "word": "papyrus",
+        "ipa": "/pəˈpaɪrəs/",
+        "pos": "n.",
+        "zh": "莎草纸",
+        "example": "Papyrus scrolls crumble without care.",
+        "emoji": "📄",
+        "cefr": "C2"
+      },
+      {
+        "word": "humanities",
+        "ipa": "/hjuːˈmænɪtiz/",
+        "pos": "n.",
+        "zh": "人文学科",
+        "example": "The humanities ask what numbers cannot.",
+        "emoji": "🎓",
+        "cefr": "C1"
+      },
+      {
+        "word": "socratic",
+        "ipa": "/səˈkrætɪk/",
+        "pos": "adj.",
+        "zh": "苏格拉底式的",
+        "example": "Socratic questioning draws out answers.",
+        "emoji": "💬",
+        "cefr": "C2"
+      },
+      {
+        "word": "humanism",
+        "ipa": "/ˈhjuːmənɪzəm/",
+        "pos": "n.",
+        "zh": "人文主义",
+        "example": "Humanism put people at the centre.",
+        "emoji": "🧑‍🎨",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_city"
+  }
 ]

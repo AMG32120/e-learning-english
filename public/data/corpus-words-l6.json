@@ -1,0 +1,102 @@
+[
+ {
+  "word": "name",
+  "ipa": "/neɪm/",
+  "pos": "n",
+  "zh": "名字",
+  "example": "Hi, I am Tom. What is your name?",
+  "cefr": "A1",
+  "level": "l6",
+  "source": "greeting"
+ },
+ {
+  "word": "later",
+  "ipa": "/ˈleɪtər/",
+  "pos": "adv",
+  "zh": "稍后",
+  "example": "Nice to meet you too. See you later!",
+  "cefr": "A1",
+  "level": "l6",
+  "source": "greeting"
+ },
+ {
+  "word": "something",
+  "ipa": "/ˈsʌmθɪŋ/",
+  "pos": "pron",
+  "zh": "某物",
+  "example": "Would you like something to drink?",
+  "cefr": "A1",
+  "level": "l6",
+  "source": "ordering"
+ },
+ {
+  "word": "enjoy",
+  "ipa": "/ɪnˈdʒɔɪ/",
+  "pos": "v",
+  "zh": "享受",
+  "example": "Here you are. Enjoy your meal!",
+  "cefr": "A1",
+  "level": "l6",
+  "source": "ordering"
+ },
+ {
+  "word": "need",
+  "ipa": "/niːd/",
+  "pos": "v",
+  "zh": "需要",
+  "example": "Do you need a bag?",
+  "cefr": "A1",
+  "level": "l6",
+  "source": "shopping"
+ },
+ {
+  "word": "bag",
+  "ipa": "/bæɡ/",
+  "pos": "n",
+  "zh": "包",
+  "example": "Do you need a bag?",
+  "cefr": "A1",
+  "level": "l6",
+  "source": "shopping"
+ },
+ {
+  "word": "next",
+  "ipa": "/nekst/",
+  "pos": "adj",
+  "zh": "紧接着的；旁边的",
+  "example": "It is next to the bank.",
+  "cefr": "A1",
+  "level": "l6",
+  "source": "directions"
+ },
+ {
+  "word": "welcome",
+  "ipa": "/ˈwelkəm/",
+  "pos": "adj",
+  "zh": "受欢迎的；不客气的",
+  "example": "You are welcome. Have a nice trip!",
+  "cefr": "A1",
+  "level": "l6",
+  "source": "directions"
+ },
+ {
+  "word": "meet",
+  "ipa": "/miːt/",
+  "pos": "v",
+  "zh": "遇见；结识",
+  "example": "Nice to meet you. See you later!",
+  "cefr": "A1",
+  "level": "l6",
+  "source": "l3-listening-1"
+ },
+ {
+  "word": "fifty",
+  "ipa": "/ˈfɪfti/",
+  "pos": "num",
+  "zh": "五十",
+  "example": "How much is this T-shirt? It is fifty yuan.",
+  "cefr": "A1",
+  "level": "l6",
+  "source": "l3-listening-2"
+ }
+]

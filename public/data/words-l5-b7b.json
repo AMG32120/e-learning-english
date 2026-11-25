@@ -1,1152 +1,1426 @@
 [
- {
-  "id": "l7_math_algebra",
-  "title": "代数与方程",
-  "emoji": "🧮",
-  "words": [
-   {
-    "word": "coefficient",
-    "ipa": "/ˌkəʊɪˈfɪʃnt/",
-    "pos": "n.",
-    "zh": "系数",
-    "example": "The coefficient of x determines the slope.",
-    "emoji": "🔢",
-    "cefr": "C1"
-   },
-   {
-    "word": "polynomial",
-    "ipa": "/ˌpɒliˈnəʊmiəl/",
-    "pos": "n.",
-    "zh": "多项式",
-    "example": "Cubic curves come from polynomial degrees of three.",
-    "emoji": "📈",
-    "cefr": "C1"
-   },
-   {
-    "word": "transpose",
-    "ipa": "/trænˈspəʊz/",
-    "pos": "v.",
-    "zh": "移项；转置",
-    "example": "Transpose the matrix and rows become columns.",
-    "emoji": "🔁",
-    "cefr": "C1"
-   },
-   {
-    "word": "exponent",
-    "ipa": "/ɪkˈspəʊnənt/",
-    "pos": "n.",
-    "zh": "指数",
-    "example": "Doubling raises the exponent each step.",
-    "emoji": "🔺",
-    "cefr": "C1"
-   },
-   {
-    "word": "binomial",
-    "ipa": "/baɪˈnəʊmiəl/",
-    "pos": "n./adj.",
-    "zh": "二项式",
-    "example": "The binomial theorem expands squared brackets neatly.",
-    "emoji": "🎟️",
-    "cefr": "C1"
-   },
-   {
-    "word": "factorise",
-    "ipa": "/ˈfæktəraɪz/",
-    "pos": "v.",
-    "zh": "因式分解",
-    "example": "Factorise first and the roots fall out.",
-    "emoji": "🧩",
-    "cefr": "C1"
-   },
-   {
-    "word": "quadratic",
-    "ipa": "/kwɒˈdrætɪk/",
-    "pos": "adj.",
-    "zh": "二次的",
-    "example": "Every quadratic graphs a parabola.",
-    "emoji": "🪃",
-    "cefr": "C1"
-   },
-   {
-    "word": "matrix",
-    "ipa": "/ˈmeɪtrɪks/",
-    "pos": "n.",
-    "zh": "矩阵",
-    "example": "Rotations hide inside a two-by-two matrix.",
-    "emoji": "🔲",
-    "cefr": "C1"
-   },
-   {
-    "word": "eigenvalue",
-    "ipa": "/ˈaɪgənˌvæljuː/",
-    "pos": "n.",
-    "zh": "特征值",
-    "example": "Eigenvalues reveal what a matrix only stretches.",
-    "emoji": "🎚️",
-    "cefr": "C2"
-   },
-   {
-    "word": "logarithm",
-    "ipa": "/ˈlɒgərɪðəm/",
-    "pos": "n.",
-    "zh": "对数",
-    "example": "The logarithm turns multiplication into addition.",
-    "emoji": "🪜",
-    "cefr": "C1"
-   },
-   {
-    "word": "operand",
-    "ipa": "/ˈɒpərænd/",
-    "pos": "n.",
-    "zh": "操作数",
-    "example": "Plus takes two operands, one result.",
-    "emoji": "⚙️",
-    "cefr": "C2"
-   },
-   {
-    "word": "equation",
-    "ipa": "/ɪˈkweɪʒn/",
-    "pos": "n.",
-    "zh": "方程；等式",
-    "example": "Balance both sides and the equation surrenders.",
-    "emoji": "⚖️",
-    "cefr": "B2"
-   }
-  ]
- },
- {
-  "id": "l7_math_geometry",
-  "title": "几何与证明",
-  "emoji": "📐",
-  "words": [
-   {
-    "word": "theorem",
-    "ipa": "/ˈθɪərəm/",
-    "pos": "n.",
-    "zh": "定理",
-    "example": "Pythagoras wrote the most famous theorem.",
-    "emoji": "📏",
-    "cefr": "C1"
-   },
-   {
-    "word": "proof",
-    "ipa": "/pruːf/",
-    "pos": "n.",
-    "zh": "证明",
-    "example": "A proof leaves nothing to opinion.",
-    "emoji": "🧾",
-    "cefr": "B2"
-   },
-   {
-    "word": "congruent",
-    "ipa": "/ˈkɒngruənt/",
-    "pos": "adj.",
-    "zh": "全等的",
-    "example": "Mirror tiles are congruent triangles.",
-    "emoji": "🪞",
-    "cefr": "C1"
-   },
-   {
-    "word": "polygon",
-    "ipa": "/ˈpɒlɪgən/",
-    "pos": "n.",
-    "zh": "多边形",
-    "example": "A heptagon is a seven-sided polygon.",
-    "emoji": "⬡",
-    "cefr": "C1"
-   },
-   {
-    "word": "tangent",
-    "ipa": "/ˈtændʒənt/",
-    "pos": "n./adj.",
-    "zh": "切线；相切的",
-    "example": "The tangent touches the circle once.",
-    "emoji": "🛞",
-    "cefr": "C1"
-   },
-   {
-    "word": "perpendicular",
-    "ipa": "/ˌpɜːpənˈdɪkjələ/",
-    "pos": "adj.",
-    "zh": "垂直的",
-    "example": "Perpendicular walls meet at ninety degrees.",
-    "emoji": "✛",
-    "cefr": "C1"
-   },
-   {
-    "word": "diameter",
-    "ipa": "/daɪˈæmɪtə/",
-    "pos": "n.",
-    "zh": "直径",
-    "example": "Fold the circle and the diameter appears.",
-    "emoji": "⊙",
-    "cefr": "B2"
-   },
-   {
-    "word": "circumference",
-    "ipa": "/səˈkʌmfərəns/",
-    "pos": "n.",
-    "zh": "圆周；周长",
-    "example": "Circumference equals pi times the diameter.",
-    "emoji": "⭕",
-    "cefr": "C1"
-   },
-   {
-    "word": "vertex",
-    "ipa": "/ˈvɜːteks/",
-    "pos": "n.",
-    "zh": "顶点",
-    "example": "Each cube boasts eight vertices.",
-    "emoji": "🔻",
-    "cefr": "C1"
-   },
-   {
-    "word": "bisect",
-    "ipa": "/baɪˈsekt/",
-    "pos": "v.",
-    "zh": "平分；二等分",
-    "example": "Bisect the angle with one compass arc.",
-    "emoji": "✂️",
-    "cefr": "C1"
-   },
-   {
-    "word": "isosceles",
-    "ipa": "/aɪˈsɒsɪliːz/",
-    "pos": "adj.",
-    "zh": "等腰的",
-    "example": "The roof truss forms isosceles triangles.",
-    "emoji": "⛺",
-    "cefr": "C2"
-   },
-   {
-    "word": "arc",
-    "ipa": "/ɑːk/",
-    "pos": "n.",
-    "zh": "弧；拱",
-    "example": "The rainbow draws a perfect arc.",
-    "emoji": "🌈",
-    "cefr": "B2"
-   }
-  ]
- },
- {
-  "id": "l7_math_calculus",
-  "title": "微积分",
-  "emoji": "∫",
-  "words": [
-   {
-    "word": "derivative",
-    "ipa": "/dɪˈrɪvətɪv/",
-    "pos": "n.",
-    "zh": "导数",
-    "example": "The derivative measures instant change.",
-    "emoji": "📉",
-    "cefr": "C1"
-   },
-   {
-    "word": "concavity",
-    "ipa": "/kənˈkævəti/",
-    "pos": "n.",
-    "zh": "凹凸性",
-    "example": "Concavity tells whether the curve cups up or down.",
-    "emoji": "🥣",
-    "cefr": "C2"
-   },
-   {
-    "word": "limit",
-    "ipa": "/ˈlɪmɪt/",
-    "pos": "n.",
-    "zh": "极限",
-    "example": "Approach zero and the limit emerges.",
-    "emoji": "🎯",
-    "cefr": "C1"
-   },
-   {
-    "word": "converge",
-    "ipa": "/kənˈvɜːdʒ/",
-    "pos": "v.",
-    "zh": "收敛；汇聚",
-    "example": "The series converges to exactly two.",
-    "emoji": "🔻",
-    "cefr": "C1"
-   },
-   {
-    "word": "diverge",
-    "ipa": "/daɪˈvɜːdʒ/",
-    "pos": "v.",
-    "zh": "发散；分岔",
-    "example": "Add one more term and the sum diverges.",
-    "emoji": "💥",
-    "cefr": "C1"
-   },
-   {
-    "word": "asymptote",
-    "ipa": "/ˈæsɪmtəʊt/",
-    "pos": "n.",
-    "zh": "渐近线",
-    "example": "The curve hugs its asymptote forever.",
-    "emoji": "〰️",
-    "cefr": "C2"
-   },
-   {
-    "word": "infinitesimal",
-    "ipa": "/ˌɪnfɪnɪˈtesɪml/",
-    "pos": "adj.",
-    "zh": "无穷小的",
-    "example": "Calculus slices time into infinitesimal bits.",
-    "emoji": "🔬",
-    "cefr": "C2"
-   },
-   {
-    "word": "gradient",
-    "ipa": "/ˈgreɪdiənt/",
-    "pos": "n.",
-    "zh": "梯度；坡度",
-    "example": "Follow the gradient downhill for the minimum.",
-    "emoji": "⛰️",
-    "cefr": "C1"
-   },
-   {
-    "word": "optimise",
-    "ipa": "/ˈɒptɪmaɪz/",
-    "pos": "v.",
-    "zh": "使最优；优化",
-    "example": "Set the derivative to zero to optimise profit.",
-    "emoji": "🏁",
-    "cefr": "C1"
-   },
-   {
-    "word": "approximation",
-    "ipa": "/əˌprɒksɪˈmeɪʃn/",
-    "pos": "n.",
-    "zh": "近似值",
-    "example": "Three terms give a decent approximation.",
-    "emoji": "📊",
-    "cefr": "C1"
-   },
-   {
-    "word": "continuity",
-    "ipa": "/ˌkɒntɪˈnjuːəti/",
-    "pos": "n.",
-    "zh": "连续性",
-    "example": "Sketch without lifting the pen: that is continuity.",
-    "emoji": "✒️",
-    "cefr": "C1"
-   },
-   {
-    "word": "singleton",
-    "ipa": "/ˈsɪŋgltən/",
-    "pos": "n.",
-    "zh": "单元素集；独身者",
-    "example": "The set holds one point: a singleton.",
-    "emoji": "1️⃣",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l7_math_probability",
-  "title": "概率",
-  "emoji": "🎲",
-  "words": [
-   {
-    "word": "coin-flip",
-    "ipa": "/ˈkɔɪn flɪp/",
-    "pos": "n.",
-    "zh": "掷硬币；五五开",
-    "example": "A coin-flip settles the fairest tie.",
-    "emoji": "🎬",
-    "cefr": "C1"
-   },
-   {
-    "word": "random",
-    "ipa": "/ˈrændəm/",
-    "pos": "adj.",
-    "zh": "随机的",
-    "example": "A fair die makes each face random.",
-    "emoji": "🎲",
-    "cefr": "B2"
-   },
-   {
-    "word": "odds",
-    "ipa": "/ɒdz/",
-    "pos": "n.",
-    "zh": "几率；赔率",
-    "example": "The odds favour the house, always.",
-    "emoji": "🎟️",
-    "cefr": "C1"
-   },
-   {
-    "word": "stochastic",
-    "ipa": "/stəˈkæstɪk/",
-    "pos": "adj.",
-    "zh": "随机的（过程）",
-    "example": "Stock prices follow a stochastic walk.",
-    "emoji": "📈",
-    "cefr": "C2"
-   },
-   {
-    "word": "permutation",
-    "ipa": "/ˌpɜːmjəˈteɪʃn/",
-    "pos": "n.",
-    "zh": "排列",
-    "example": "Ten runners offer 3,628,800 permutations.",
-    "emoji": "🔀",
-    "cefr": "C1"
-   },
-   {
-    "word": "combination",
-    "ipa": "/ˌkɒmbɪˈneɪʃn/",
-    "pos": "n.",
-    "zh": "组合",
-    "example": "Order ignored: that is a combination lock.",
-    "emoji": "🔐",
-    "cefr": "B2"
-   },
-   {
-    "word": "independent",
-    "ipa": "/ˌɪndɪˈpendənt/",
-    "pos": "adj.",
-    "zh": "独立的（事件）",
-    "example": "Coin tosses stay independent forever.",
-    "emoji": "🪙",
-    "cefr": "B2"
-   },
-   {
-    "word": "conditional",
-    "ipa": "/kənˈdɪʃənl/",
-    "pos": "adj.",
-    "zh": "有条件的；条件（概率）",
-    "example": "Umbrella sales follow conditional probability on rain.",
-    "emoji": "☔",
-    "cefr": "C1"
-   },
-   {
-    "word": "expectation",
-    "ipa": "/ˌekspekˈteɪʃn/",
-    "pos": "n.",
-    "zh": "期望值",
-    "example": "The lottery's expectation is stubbornly negative.",
-    "emoji": "🎰",
-    "cefr": "C1"
-   },
-   {
-    "word": "dispersion",
-    "ipa": "/dɪˈspɜːʃn/",
-    "pos": "n.",
-    "zh": "离散度；分散",
-    "example": "Low dispersion means tight clustering.",
-    "emoji": "🎯",
-    "cefr": "C2"
-   },
-   {
-    "word": "distribution",
-    "ipa": "/ˌdɪstrɪˈbjuːʃn/",
-    "pos": "n.",
-    "zh": "分布",
-    "example": "Heights trace a familiar bell distribution.",
-    "emoji": "🔔",
-    "cefr": "C1"
-   },
-   {
-    "word": "raffle",
-    "ipa": "/ˈræfl/",
-    "pos": "n.",
-    "zh": "抽奖；摇号",
-    "example": "The charity raffle drew 4,000 tickets.",
-    "emoji": "🎫",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l7_math_statistics",
-  "title": "统计推断",
-  "emoji": "📊",
-  "words": [
-   {
-    "word": "mean",
-    "ipa": "/miːn/",
-    "pos": "n./adj.",
-    "zh": "平均数；平均的",
-    "example": "The mean hides the outlier millionaire.",
-    "emoji": "➗",
-    "cefr": "B1"
-   },
-   {
-    "word": "median",
-    "ipa": "/ˈmiːdiən/",
-    "pos": "n.",
-    "zh": "中位数",
-    "example": "Salaries read truer through the median.",
-    "emoji": "🎚️",
-    "cefr": "C1"
-   },
-   {
-    "word": "skew",
-    "ipa": "/skjuː/",
-    "pos": "v./n.",
-    "zh": "使偏斜；偏态",
-    "example": "Billionaires skew the average wage.",
-    "emoji": "📈",
-    "cefr": "C2"
-   },
-   {
-    "word": "covariance",
-    "ipa": "/kəʊˈveəriəns/",
-    "pos": "n.",
-    "zh": "协方差",
-    "example": "Covariance measures how two variables sway together.",
-    "emoji": "💃",
-    "cefr": "C2"
-   },
-   {
-    "word": "significance",
-    "ipa": "/sɪgˈnɪfɪkəns/",
-    "pos": "n.",
-    "zh": "显著性；重要性",
-    "example": "Statistical significance is not life significance.",
-    "emoji": "⭐",
-    "cefr": "C1"
-   },
-   {
-    "word": "residual",
-    "ipa": "/rɪˈzɪdjuəl/",
-    "pos": "n./adj.",
-    "zh": "残差；剩余的",
-    "example": "Plot the residuals and patterns confess.",
-    "emoji": "🧷",
-    "cefr": "C2"
-   },
-   {
-    "word": "regression",
-    "ipa": "/rɪˈgreʃn/",
-    "pos": "n.",
-    "zh": "回归（分析）；倒退",
-    "example": "The regression line predicts sales from ads.",
-    "emoji": "📉",
-    "cefr": "C1"
-   },
-   {
-    "word": "census",
-    "ipa": "/ˈsensəs/",
-    "pos": "n.",
-    "zh": "普查；人口调查",
-    "example": "The census counts every household once a decade.",
-    "emoji": "🏠",
-    "cefr": "C1"
-   },
-   {
-    "word": "deviation",
-    "ipa": "/ˌdiːviˈeɪʃn/",
-    "pos": "n.",
-    "zh": "偏差",
-    "example": "Standard deviation measures the spread.",
-    "emoji": "📐",
-    "cefr": "C1"
-   },
-   {
-    "word": "percentile",
-    "ipa": "/pəˈsentaɪl/",
-    "pos": "n.",
-    "zh": "百分位数",
-    "example": "The top percentile is not the top ten percent.",
-    "emoji": "🏅",
-    "cefr": "C1"
-   },
-   {
-    "word": "confounding",
-    "ipa": "/kənˈfaʊndɪŋ/",
-    "pos": "adj.",
-    "zh": "混淆的（变量）",
-    "example": "Confounding factors muddle early studies.",
-    "emoji": "🌀",
-    "cefr": "C2"
-   },
-   {
-    "word": "subset",
-    "ipa": "/ˈsʌbset/",
-    "pos": "n.",
-    "zh": "子集",
-    "example": "The sample is a subset of all voters.",
-    "emoji": "🧺",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l7_math_discrete",
-  "title": "离散数学",
-  "emoji": "🔢",
-  "words": [
-   {
-    "word": "graph",
-    "ipa": "/grɑːf/",
-    "pos": "n.",
-    "zh": "图（论）；图表",
-    "example": "The graph maps cities as dots and roads as lines.",
-    "emoji": "🗺️",
-    "cefr": "B1"
-   },
-   {
-    "word": "node",
-    "ipa": "/nəʊd/",
-    "pos": "n.",
-    "zh": "节点",
-    "example": "Each node greets its neighbours by edge.",
-    "emoji": "🔗",
-    "cefr": "C1"
-   },
-   {
-    "word": "edge",
-    "ipa": "/edʒ/",
-    "pos": "n.",
-    "zh": "边；棱；优势",
-    "example": "Seven nodes can share twelve edges.",
-    "emoji": "📏",
-    "cefr": "B2"
-   },
-   {
-    "word": "cycle",
-    "ipa": "/ˈsaɪkl/",
-    "pos": "n.",
-    "zh": "圈；循环",
-    "example": "The route forms a cycle back to the start.",
-    "emoji": "🔄",
-    "cefr": "B2"
-   },
-   {
-    "word": "partition",
-    "ipa": "/pɑːˈtɪʃn/",
-    "pos": "n./v.",
-    "zh": "分割；划分",
-    "example": "Divide the set and every partition is unique.",
-    "emoji": "🧱",
-    "cefr": "C1"
-   },
-   {
-    "word": "recurrence",
-    "ipa": "/rɪˈkʌrəns/",
-    "pos": "n.",
-    "zh": "递推；复发",
-    "example": "Fibonacci grows by a simple recurrence.",
-    "emoji": "🐚",
-    "cefr": "C2"
-   },
-   {
-    "word": "enumeration",
-    "ipa": "/ɪˌnjuːməˈreɪʃn/",
-    "pos": "n.",
-    "zh": "枚举",
-    "example": "Enumeration counts, even when patterns hide.",
-    "emoji": "☑️",
-    "cefr": "C2"
-   },
-   {
-    "word": "optimality",
-    "ipa": "/ˌɒptɪˈmæləti/",
-    "pos": "n.",
-    "zh": "最优性",
-    "example": "Dijkstra's path claims optimality.",
-    "emoji": "🏆",
-    "cefr": "C2"
-   },
-   {
-    "word": "backtracking",
-    "ipa": "/ˈbæktrækɪŋ/",
-    "pos": "n.",
-    "zh": "回溯法",
-    "example": "Backtracking retreats whenever a branch dies.",
-    "emoji": "↩️",
-    "cefr": "C2"
-   },
-   {
-    "word": "boolean",
-    "ipa": "/ˈbuːliən/",
-    "pos": "adj.",
-    "zh": "布尔的",
-    "example": "Boolean logic runs every if-statement.",
-    "emoji": "🔘",
-    "cefr": "C1"
-   },
-   {
-    "word": "finite",
-    "ipa": "/ˈfaɪnaɪt/",
-    "pos": "adj.",
-    "zh": "有限的",
-    "example": "A finite list can always be sorted.",
-    "emoji": "📦",
-    "cefr": "B2"
-   },
-   {
-    "word": "intractable",
-    "ipa": "/ɪnˈtræktəbl/",
-    "pos": "adj.",
-    "zh": "难解的；棘手的",
-    "example": "Some searches stay intractable however clever we get.",
-    "emoji": "🕳️",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l7_math_number",
-  "title": "数论",
-  "emoji": "🧾",
-  "words": [
-   {
-    "word": "integer",
-    "ipa": "/ˈɪntɪdʒə/",
-    "pos": "n.",
-    "zh": "整数",
-    "example": "Count coins and you count integers.",
-    "emoji": "🪙",
-    "cefr": "C1"
-   },
-   {
-    "word": "prime",
-    "ipa": "/praɪm/",
-    "pos": "adj./n.",
-    "zh": "素数；首要的",
-    "example": "Every integer hides a prime factorisation.",
-    "emoji": "🔐",
-    "cefr": "C1"
-   },
-   {
-    "word": "divisor",
-    "ipa": "/dɪˈvaɪzə/",
-    "pos": "n.",
-    "zh": "约数；除数",
-    "example": "Twelve has six divisors.",
-    "emoji": "➗",
-    "cefr": "C1"
-   },
-   {
-    "word": "modular",
-    "ipa": "/ˈmɒdjʊlə/",
-    "pos": "adj.",
-    "zh": "模的；模块化的",
-    "example": "Clock arithmetic is modular by ten.",
-    "emoji": "🕙",
-    "cefr": "C2"
-   },
-   {
-    "word": "parity",
-    "ipa": "/ˈpærəti/",
-    "pos": "n.",
-    "zh": "奇偶性",
-    "example": "Parity decides whether the sum is odd.",
-    "emoji": "⚖️",
-    "cefr": "C1"
-   },
-   {
-    "word": "factorial",
-    "ipa": "/fækˈtɔːriəl/",
-    "pos": "n.",
-    "zh": "阶乘",
-    "example": "Six factorial already tops seven hundred.",
-    "emoji": "💥",
-    "cefr": "C1"
-   },
-   {
-    "word": "reciprocal",
-    "ipa": "/rɪˈsɪprəkl/",
-    "pos": "n./adj.",
-    "zh": "倒数；互惠的",
-    "example": "Flip the fraction to find the reciprocal.",
-    "emoji": "🙃",
-    "cefr": "C1"
-   },
-   {
-    "word": "remainder",
-    "ipa": "/rɪˈmeɪndə/",
-    "pos": "n.",
-    "zh": "余数；剩余物",
-    "example": "Divide and the remainder tells the truth.",
-    "emoji": "🥧",
-    "cefr": "C1"
-   },
-   {
-    "word": "sieve",
-    "ipa": "/sɪv/",
-    "pos": "n./v.",
-    "zh": "筛法；筛子",
-    "example": "The sieve of Eratosthenes strains out primes.",
-    "emoji": "🫗",
-    "cefr": "C2"
-   },
-   {
-    "word": "diophantine",
-    "ipa": "/ˌdaɪəˈfæntaɪn/",
-    "pos": "adj.",
-    "zh": "丢番图的（方程）",
-    "example": "Diophantine equations hunt whole-number answers.",
-    "emoji": "🧩",
-    "cefr": "C2"
-   },
-   {
-    "word": "irrational",
-    "ipa": "/ɪˈræʃənl/",
-    "pos": "adj.",
-    "zh": "无理的（数）；不理性的",
-    "example": "Pi is famously irrational.",
-    "emoji": "🤯",
-    "cefr": "C1"
-   },
-   {
-    "word": "cardinality",
-    "ipa": "/ˌkɑːdiˈnæləti/",
-    "pos": "n.",
-    "zh": "基数",
-    "example": "Infinity comes in sizes: cardinality measures them.",
-    "emoji": "♾️",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l7_math_analysis",
-  "title": "数学分析",
-  "emoji": "📉",
-  "words": [
-   {
-    "word": "sequence",
-    "ipa": "/ˈsiːkwəns/",
-    "pos": "n.",
-    "zh": "数列；序列",
-    "example": "The sequence 2, 4, 8 doubles each step.",
-    "emoji": "🔢",
-    "cefr": "B1"
-   },
-   {
-    "word": "series",
-    "ipa": "/ˈsɪəriːz/",
-    "pos": "n.",
-    "zh": "级数；系列",
-    "example": "Sum a series and infinity may behave.",
-    "emoji": "➕",
-    "cefr": "C1"
-   },
-   {
-    "word": "monotonic",
-    "ipa": "/ˌmɒnəˈtɒnɪk/",
-    "pos": "adj.",
-    "zh": "单调的",
-    "example": "A monotonic sequence never turns back.",
-    "emoji": "📈",
-    "cefr": "C2"
-   },
-   {
-    "word": "bounded",
-    "ipa": "/ˈbaʊndɪd/",
-    "pos": "adj.",
-    "zh": "有界的",
-    "example": "Bounded above, the climb must stall.",
-    "emoji": "🚧",
-    "cefr": "C2"
-   },
-   {
-    "word": "interval",
-    "ipa": "/ˈɪntəvl/",
-    "pos": "n.",
-    "zh": "区间；间隔",
-    "example": "Squeeze the answer into a tight interval.",
-    "emoji": "📏",
-    "cefr": "C1"
-   },
-   {
-    "word": "subsequence",
-    "ipa": "/ˈsʌbˌsiːkwəns/",
-    "pos": "n.",
-    "zh": "子序列",
-    "example": "Every convergent sequence hides tidy subsequences.",
-    "emoji": "🪆",
-    "cefr": "C2"
-   },
-   {
-    "word": "compactness",
-    "ipa": "/kəmˈpæktnəs/",
-    "pos": "n.",
-    "zh": "紧致性",
-    "example": "Compactness tames infinite sets.",
-    "emoji": "📦",
-    "cefr": "C2"
-   },
-   {
-    "word": "differentiable",
-    "ipa": "/ˌdɪfəˈrenʃəbl/",
-    "pos": "adj.",
-    "zh": "可微的",
-    "example": "A corner breaks the differentiable dream.",
-    "emoji": "⛰️",
-    "cefr": "C2"
-   },
-   {
-    "word": "integrable",
-    "ipa": "/ˈɪntɪgrəbl/",
-    "pos": "adj.",
-    "zh": "可积的",
-    "example": "Wild gaps make a function not integrable.",
-    "emoji": "🕳️",
-    "cefr": "C2"
-   },
-   {
-    "word": "supremum",
-    "ipa": "/suːˈpriːməm/",
-    "pos": "n.",
-    "zh": "上确界",
-    "example": "The supremum need not be reached.",
-    "emoji": "🔝",
-    "cefr": "C2"
-   },
-   {
-    "word": "epsilon",
-    "ipa": "/ˈepsɪlɒn/",
-    "pos": "n.",
-    "zh": "（希腊字母）ε；极小量",
-    "example": "For every epsilon there is a delta.",
-    "emoji": "🔤",
-    "cefr": "C2"
-   },
-   {
-    "word": "summation",
-    "ipa": "/sʌˈmeɪʃn/",
-    "pos": "n.",
-    "zh": "求和；总和",
-    "example": "Sigma notation compresses every summation.",
-    "emoji": "Σ",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l7_math_modelling",
-  "title": "数学建模",
-  "emoji": "🧮",
-  "words": [
-   {
-    "word": "tuning",
-    "ipa": "/ˈtjuːnɪŋ/",
-    "pos": "n.",
-    "zh": "调参；调试",
-    "example": "Careful tuning doubled the forecast accuracy.",
-    "emoji": "🎛️",
-    "cefr": "C1"
-   },
-   {
-    "word": "recalibrate",
-    "ipa": "/ˌriːˈkælɪbreɪt/",
-    "pos": "v.",
-    "zh": "重新校准",
-    "example": "Recalibrate the sensors after each flight.",
-    "emoji": "🔧",
-    "cefr": "C1"
-   },
-   {
-    "word": "hindcast",
-    "ipa": "/ˈhaɪndkɑːst/",
-    "pos": "n./v.",
-    "zh": "事后回算验证",
-    "example": "A hindcast tests the model on past storms.",
-    "emoji": "🕰️",
-    "cefr": "C2"
-   },
-   {
-    "word": "interpolate",
-    "ipa": "/ɪnˈtɜːpəleɪt/",
-    "pos": "v.",
-    "zh": "内插；插值",
-    "example": "Interpolate between the dots for the midpoint.",
-    "emoji": "📍",
-    "cefr": "C2"
-   },
-   {
-    "word": "simulate",
-    "ipa": "/ˈsɪmjuleɪt/",
-    "pos": "v.",
-    "zh": "模拟；仿真",
-    "example": "Simulate the traffic before building the bridge.",
-    "emoji": "🖥️",
-    "cefr": "C1"
-   },
-   {
-    "word": "iteration",
-    "ipa": "/ˌɪtəˈreɪʃn/",
-    "pos": "n.",
-    "zh": "迭代",
-    "example": "Each iteration inches closer to the answer.",
-    "emoji": "🔁",
-    "cefr": "C1"
-   },
-   {
-    "word": "perturbation",
-    "ipa": "/ˌpɜːtəˈbeɪʃn/",
-    "pos": "n.",
-    "zh": "扰动；微扰",
-    "example": "A tiny perturbation topples the fragile balance.",
-    "emoji": "🌪️",
-    "cefr": "C2"
-   },
-   {
-    "word": "chaos",
-    "ipa": "/ˈkeɪɒs/",
-    "pos": "n.",
-    "zh": "混沌",
-    "example": "Butterfly wings and weather: textbook chaos.",
-    "emoji": "🦋",
-    "cefr": "C1"
-   },
-   {
-    "word": "deterministic",
-    "ipa": "/dɪˌtɜːmɪˈnɪstɪk/",
-    "pos": "adj.",
-    "zh": "决定论的；确定性的",
-    "example": "A deterministic model repeats identically forever.",
-    "emoji": "⚙️",
-    "cefr": "C2"
-   },
-   {
-    "word": "regularisation",
-    "ipa": "/ˌregjʊləraɪˈzeɪʃn/",
-    "pos": "n.",
-    "zh": "正则化",
-    "example": "Regularisation keeps wild models humble.",
-    "emoji": "🤏",
-    "cefr": "C2"
-   },
-   {
-    "word": "yardstick",
-    "ipa": "/ˈjɑːdstɪk/",
-    "pos": "n.",
-    "zh": "衡量标准",
-    "example": "Growth is a poor yardstick for happiness.",
-    "emoji": "📏",
-    "cefr": "C2"
-   },
-   {
-    "word": "fragility",
-    "ipa": "/frəˈdʒɪləti/",
-    "pos": "n.",
-    "zh": "脆弱性",
-    "example": "The model hides a worrying fragility.",
-    "emoji": "🥚",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l7_math_foundations",
-  "title": "数学基础与历史",
-  "emoji": "🏛️",
-  "words": [
-   {
-    "word": "set",
-    "ipa": "/set/",
-    "pos": "n.",
-    "zh": "集合",
-    "example": "A set collects members without repeats.",
-    "emoji": "🧺",
-    "cefr": "B1"
-   },
-   {
-    "word": "mapping",
-    "ipa": "/ˈmæpɪŋ/",
-    "pos": "n.",
-    "zh": "映射",
-    "example": "Every function is a mapping between sets.",
-    "emoji": "🗺️",
-    "cefr": "C1"
-   },
-   {
-    "word": "bijection",
-    "ipa": "/baɪˈdʒekʃn/",
-    "pos": "n.",
-    "zh": "双射；一一对应",
-    "example": "A bijection pairs every element exactly once.",
-    "emoji": "🤝",
-    "cefr": "C2"
-   },
-   {
-    "word": "inductive",
-    "ipa": "/ɪnˈdʌktɪv/",
-    "pos": "adj.",
-    "zh": "归纳的",
-    "example": "Inductive reasoning climbs from cases to rules.",
-    "emoji": "🔺",
-    "cefr": "C1"
-   },
-   {
-    "word": "negation",
-    "ipa": "/nɪˈgeɪʃn/",
-    "pos": "n.",
-    "zh": "否定",
-    "example": "Double negation restores the original claim.",
-    "emoji": "🚫",
-    "cefr": "C2"
-   },
-   {
-    "word": "invariant",
-    "ipa": "/ɪnˈveəriənt/",
-    "pos": "n./adj.",
-    "zh": "不变量；不变的",
-    "example": "Parity is an invariant no move can change.",
-    "emoji": "🛡️",
-    "cefr": "C2"
-   },
-   {
-    "word": "lemma",
-    "ipa": "/ˈlemə/",
-    "pos": "n.",
-    "zh": "引理",
-    "example": "Prove the lemma first; the theorem follows.",
-    "emoji": "🪜",
-    "cefr": "C2"
-   },
-   {
-    "word": "abacus",
-    "ipa": "/ˈæbəkəs/",
-    "pos": "n.",
-    "zh": "算盘",
-    "example": "Merchants once clicked numbers on an abacus.",
+  {
+    "id": "l7_math_algebra",
+    "title": "代数与方程",
     "emoji": "🧮",
-    "cefr": "C1"
-   },
-   {
-    "word": "geodesic",
-    "ipa": "/ˌdʒiːəˈdeɪsɪk/",
-    "pos": "n.",
-    "zh": "测地线；最短路径",
-    "example": "Planes follow geodesics, not straight atlas lines.",
-    "emoji": "✈️",
-    "cefr": "C2"
-   },
-   {
-    "word": "topology",
-    "ipa": "/təˈpɒlədʒi/",
-    "pos": "n.",
-    "zh": "拓扑学",
-    "example": "Topology treats doughnuts and mugs as cousins.",
-    "emoji": "🍩",
-    "cefr": "C2"
-   },
-   {
-    "word": "manifold",
-    "ipa": "/ˈmænɪfəʊld/",
-    "pos": "n./adj.",
-    "zh": "流形；多种的",
-    "example": "Spacetime bends as a four-dimensional manifold.",
-    "emoji": "🌀",
-    "cefr": "C2"
-   },
-   {
-    "word": "diagonal",
-    "ipa": "/ˈdaɪægənl/",
-    "pos": "n./adj.",
-    "zh": "对角线；对角的",
-    "example": "Two diagonals cross at the square centre.",
-    "emoji": "◗",
-    "cefr": "C1"
-   }
-  ]
- }
+    "words": [
+      {
+        "word": "coefficient",
+        "ipa": "/ˌkəʊɪˈfɪʃnt/",
+        "pos": "n.",
+        "zh": "系数",
+        "example": "The coefficient of x determines the slope.",
+        "emoji": "🔢",
+        "cefr": "C1"
+      },
+      {
+        "word": "polynomial",
+        "ipa": "/ˌpɒliˈnəʊmiəl/",
+        "pos": "n.",
+        "zh": "多项式",
+        "example": "Cubic curves come from polynomial degrees of three.",
+        "emoji": "📈",
+        "cefr": "C1"
+      },
+      {
+        "word": "transpose",
+        "ipa": "/trænˈspəʊz/",
+        "pos": "v.",
+        "zh": "移项；转置",
+        "example": "Transpose the matrix and rows become columns.",
+        "emoji": "🔁",
+        "cefr": "C1"
+      },
+      {
+        "word": "exponent",
+        "ipa": "/ɪkˈspəʊnənt/",
+        "pos": "n.",
+        "zh": "指数",
+        "example": "Doubling raises the exponent each step.",
+        "emoji": "🔺",
+        "cefr": "C1"
+      },
+      {
+        "word": "binomial",
+        "ipa": "/baɪˈnəʊmiəl/",
+        "pos": "n./adj.",
+        "zh": "二项式",
+        "example": "The binomial theorem expands squared brackets neatly.",
+        "emoji": "🎟️",
+        "cefr": "C1"
+      },
+      {
+        "word": "factorise",
+        "ipa": "/ˈfæktəraɪz/",
+        "pos": "v.",
+        "zh": "因式分解",
+        "example": "Factorise first and the roots fall out.",
+        "emoji": "🧩",
+        "cefr": "C1"
+      },
+      {
+        "word": "quadratic",
+        "ipa": "/kwɒˈdrætɪk/",
+        "pos": "adj.",
+        "zh": "二次的",
+        "example": "Every quadratic graphs a parabola.",
+        "emoji": "🪃",
+        "cefr": "C1"
+      },
+      {
+        "word": "matrix",
+        "ipa": "/ˈmeɪtrɪks/",
+        "pos": "n.",
+        "zh": "矩阵",
+        "example": "Rotations hide inside a two-by-two matrix.",
+        "emoji": "🔲",
+        "cefr": "C1"
+      },
+      {
+        "word": "eigenvalue",
+        "ipa": "/ˈaɪgənˌvæljuː/",
+        "pos": "n.",
+        "zh": "特征值",
+        "example": "Eigenvalues reveal what a matrix only stretches.",
+        "emoji": "🎚️",
+        "cefr": "C2"
+      },
+      {
+        "word": "logarithm",
+        "ipa": "/ˈlɒgərɪðəm/",
+        "pos": "n.",
+        "zh": "对数",
+        "example": "The logarithm turns multiplication into addition.",
+        "emoji": "🪜",
+        "cefr": "C1"
+      },
+      {
+        "word": "operand",
+        "ipa": "/ˈɒpərænd/",
+        "pos": "n.",
+        "zh": "操作数",
+        "example": "Plus takes two operands, one result.",
+        "emoji": "⚙️",
+        "cefr": "C2"
+      },
+      {
+        "word": "equation",
+        "ipa": "/ɪˈkweɪʒn/",
+        "pos": "n.",
+        "zh": "方程；等式",
+        "example": "Balance both sides and the equation surrenders.",
+        "emoji": "⚖️",
+        "cefr": "B2"
+      },
+      {
+        "word": "determinant",
+        "ipa": "/dɪˈtɜːmɪnənt/",
+        "pos": "n.",
+        "zh": "行列式",
+        "example": "The determinant tells if the matrix is invertible.",
+        "emoji": "🧲",
+        "cefr": "C2"
+      },
+      {
+        "word": "monomial",
+        "ipa": "/ˌmɒnəˈnəʊmiəl/",
+        "pos": "n.",
+        "zh": "单项式",
+        "example": "A monomial has a single term.",
+        "emoji": "1️⃣",
+        "cefr": "C2"
+      },
+      {
+        "word": "hypothesize",
+        "ipa": "/haɪˈpɒθəsaɪz/",
+        "pos": "v.",
+        "zh": "提出假设",
+        "example": "Researchers hypothesize a new cause.",
+        "emoji": "🔬",
+        "cefr": "C2",
+        "level": "C1"
+      }
+    ],
+    "extends_from": "l2_school"
+  },
+  {
+    "id": "l7_math_geometry",
+    "title": "几何与证明",
+    "emoji": "📐",
+    "words": [
+      {
+        "word": "theorem",
+        "ipa": "/ˈθɪərəm/",
+        "pos": "n.",
+        "zh": "定理",
+        "example": "Pythagoras wrote the most famous theorem.",
+        "emoji": "📏",
+        "cefr": "C1"
+      },
+      {
+        "word": "proof",
+        "ipa": "/pruːf/",
+        "pos": "n.",
+        "zh": "证明",
+        "example": "A proof leaves nothing to opinion.",
+        "emoji": "🧾",
+        "cefr": "B2"
+      },
+      {
+        "word": "congruent",
+        "ipa": "/ˈkɒngruənt/",
+        "pos": "adj.",
+        "zh": "全等的",
+        "example": "Mirror tiles are congruent triangles.",
+        "emoji": "🪞",
+        "cefr": "C1"
+      },
+      {
+        "word": "polygon",
+        "ipa": "/ˈpɒlɪgən/",
+        "pos": "n.",
+        "zh": "多边形",
+        "example": "A heptagon is a seven-sided polygon.",
+        "emoji": "⬡",
+        "cefr": "C1"
+      },
+      {
+        "word": "tangent",
+        "ipa": "/ˈtændʒənt/",
+        "pos": "n./adj.",
+        "zh": "切线；相切的",
+        "example": "The tangent touches the circle once.",
+        "emoji": "🛞",
+        "cefr": "C1"
+      },
+      {
+        "word": "perpendicular",
+        "ipa": "/ˌpɜːpənˈdɪkjələ/",
+        "pos": "adj.",
+        "zh": "垂直的",
+        "example": "Perpendicular walls meet at ninety degrees.",
+        "emoji": "✛",
+        "cefr": "C1"
+      },
+      {
+        "word": "diameter",
+        "ipa": "/daɪˈæmɪtə/",
+        "pos": "n.",
+        "zh": "直径",
+        "example": "Fold the circle and the diameter appears.",
+        "emoji": "⊙",
+        "cefr": "B2"
+      },
+      {
+        "word": "circumference",
+        "ipa": "/səˈkʌmfərəns/",
+        "pos": "n.",
+        "zh": "圆周；周长",
+        "example": "Circumference equals pi times the diameter.",
+        "emoji": "⭕",
+        "cefr": "C1"
+      },
+      {
+        "word": "vertex",
+        "ipa": "/ˈvɜːteks/",
+        "pos": "n.",
+        "zh": "顶点",
+        "example": "Each cube boasts eight vertices.",
+        "emoji": "🔻",
+        "cefr": "C1"
+      },
+      {
+        "word": "bisect",
+        "ipa": "/baɪˈsekt/",
+        "pos": "v.",
+        "zh": "平分；二等分",
+        "example": "Bisect the angle with one compass arc.",
+        "emoji": "✂️",
+        "cefr": "C1"
+      },
+      {
+        "word": "isosceles",
+        "ipa": "/aɪˈsɒsɪliːz/",
+        "pos": "adj.",
+        "zh": "等腰的",
+        "example": "The roof truss forms isosceles triangles.",
+        "emoji": "⛺",
+        "cefr": "C2"
+      },
+      {
+        "word": "arc",
+        "ipa": "/ɑːk/",
+        "pos": "n.",
+        "zh": "弧；拱",
+        "example": "The rainbow draws a perfect arc.",
+        "emoji": "🌈",
+        "cefr": "B2"
+      },
+      {
+        "word": "hypotenuse",
+        "ipa": "/haɪˈpɒtənjuːz/",
+        "pos": "n.",
+        "zh": "斜边",
+        "example": "The hypotenuse faces the right angle.",
+        "emoji": "📐",
+        "cefr": "C2"
+      },
+      {
+        "word": "trapezoid",
+        "ipa": "/ˈtræpəzɔɪd/",
+        "pos": "n.",
+        "zh": "梯形",
+        "example": "The trapezoid has one pair of parallels.",
+        "emoji": "📐",
+        "cefr": "C2"
+      },
+      {
+        "word": "deconstruct",
+        "ipa": "/ˌdiːkənˈstrʌkt/",
+        "pos": "v.",
+        "zh": "解构",
+        "example": "The essay deconstructs the myth of success.",
+        "emoji": "🧩",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_shapes"
+  },
+  {
+    "id": "l7_math_calculus",
+    "title": "微积分",
+    "emoji": "∫",
+    "words": [
+      {
+        "word": "derivative",
+        "ipa": "/dɪˈrɪvətɪv/",
+        "pos": "n.",
+        "zh": "导数",
+        "example": "The derivative measures instant change.",
+        "emoji": "📉",
+        "cefr": "C1"
+      },
+      {
+        "word": "concavity",
+        "ipa": "/kənˈkævəti/",
+        "pos": "n.",
+        "zh": "凹凸性",
+        "example": "Concavity tells whether the curve cups up or down.",
+        "emoji": "🥣",
+        "cefr": "C2"
+      },
+      {
+        "word": "limit",
+        "ipa": "/ˈlɪmɪt/",
+        "pos": "n.",
+        "zh": "极限",
+        "example": "Approach zero and the limit emerges.",
+        "emoji": "🎯",
+        "cefr": "C1"
+      },
+      {
+        "word": "converge",
+        "ipa": "/kənˈvɜːdʒ/",
+        "pos": "v.",
+        "zh": "收敛；汇聚",
+        "example": "The series converges to exactly two.",
+        "emoji": "🔻",
+        "cefr": "C1"
+      },
+      {
+        "word": "diverge",
+        "ipa": "/daɪˈvɜːdʒ/",
+        "pos": "v.",
+        "zh": "发散；分岔",
+        "example": "Add one more term and the sum diverges.",
+        "emoji": "💥",
+        "cefr": "C1"
+      },
+      {
+        "word": "asymptote",
+        "ipa": "/ˈæsɪmtəʊt/",
+        "pos": "n.",
+        "zh": "渐近线",
+        "example": "The curve hugs its asymptote forever.",
+        "emoji": "〰️",
+        "cefr": "C2"
+      },
+      {
+        "word": "infinitesimal",
+        "ipa": "/ˌɪnfɪnɪˈtesɪml/",
+        "pos": "adj.",
+        "zh": "无穷小的",
+        "example": "Calculus slices time into infinitesimal bits.",
+        "emoji": "🔬",
+        "cefr": "C2"
+      },
+      {
+        "word": "gradient",
+        "ipa": "/ˈgreɪdiənt/",
+        "pos": "n.",
+        "zh": "梯度；坡度",
+        "example": "Follow the gradient downhill for the minimum.",
+        "emoji": "⛰️",
+        "cefr": "C1"
+      },
+      {
+        "word": "optimise",
+        "ipa": "/ˈɒptɪmaɪz/",
+        "pos": "v.",
+        "zh": "使最优；优化",
+        "example": "Set the derivative to zero to optimise profit.",
+        "emoji": "🏁",
+        "cefr": "C1"
+      },
+      {
+        "word": "approximation",
+        "ipa": "/əˌprɒksɪˈmeɪʃn/",
+        "pos": "n.",
+        "zh": "近似值",
+        "example": "Three terms give a decent approximation.",
+        "emoji": "📊",
+        "cefr": "C1"
+      },
+      {
+        "word": "continuity",
+        "ipa": "/ˌkɒntɪˈnjuːəti/",
+        "pos": "n.",
+        "zh": "连续性",
+        "example": "Sketch without lifting the pen: that is continuity.",
+        "emoji": "✒️",
+        "cefr": "C1"
+      },
+      {
+        "word": "singleton",
+        "ipa": "/ˈsɪŋgltən/",
+        "pos": "n.",
+        "zh": "单元素集；独身者",
+        "example": "The set holds one point: a singleton.",
+        "emoji": "1️⃣",
+        "cefr": "C2"
+      },
+      {
+        "word": "differential",
+        "ipa": "/ˌdɪfəˈrenʃl/",
+        "pos": "adj.",
+        "zh": "微分的",
+        "example": "Differential equations model change.",
+        "emoji": "📈",
+        "cefr": "C2"
+      },
+      {
+        "word": "function",
+        "ipa": "/ˈfʌŋkʃn/",
+        "pos": "n.",
+        "zh": "函数",
+        "example": "The function maps input to output.",
+        "emoji": "📈",
+        "cefr": "C2",
+        "level": "C1"
+      },
+      {
+        "word": "triangulate",
+        "ipa": "/traɪˈæŋɡjuleɪt/",
+        "pos": "v.",
+        "zh": "三角测量",
+        "example": "Researchers triangulate results from several surveys.",
+        "emoji": "📡",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_school"
+  },
+  {
+    "id": "l7_math_probability",
+    "title": "概率",
+    "emoji": "🎲",
+    "words": [
+      {
+        "word": "coin-flip",
+        "ipa": "/ˈkɔɪn flɪp/",
+        "pos": "n.",
+        "zh": "掷硬币；五五开",
+        "example": "A coin-flip settles the fairest tie.",
+        "emoji": "🎬",
+        "cefr": "C1"
+      },
+      {
+        "word": "random",
+        "ipa": "/ˈrændəm/",
+        "pos": "adj.",
+        "zh": "随机的",
+        "example": "A fair die makes each face random.",
+        "emoji": "🎲",
+        "cefr": "B2"
+      },
+      {
+        "word": "odds",
+        "ipa": "/ɒdz/",
+        "pos": "n.",
+        "zh": "几率；赔率",
+        "example": "The odds favour the house, always.",
+        "emoji": "🎟️",
+        "cefr": "C1"
+      },
+      {
+        "word": "stochastic",
+        "ipa": "/stəˈkæstɪk/",
+        "pos": "adj.",
+        "zh": "随机的（过程）",
+        "example": "Stock prices follow a stochastic walk.",
+        "emoji": "📈",
+        "cefr": "C2"
+      },
+      {
+        "word": "permutation",
+        "ipa": "/ˌpɜːmjəˈteɪʃn/",
+        "pos": "n.",
+        "zh": "排列",
+        "example": "Ten runners offer 3,628,800 permutations.",
+        "emoji": "🔀",
+        "cefr": "C1"
+      },
+      {
+        "word": "combination",
+        "ipa": "/ˌkɒmbɪˈneɪʃn/",
+        "pos": "n.",
+        "zh": "组合",
+        "example": "Order ignored: that is a combination lock.",
+        "emoji": "🔐",
+        "cefr": "B2"
+      },
+      {
+        "word": "independent",
+        "ipa": "/ˌɪndɪˈpendənt/",
+        "pos": "adj.",
+        "zh": "独立的（事件）",
+        "example": "Coin tosses stay independent forever.",
+        "emoji": "🪙",
+        "cefr": "B2"
+      },
+      {
+        "word": "conditional",
+        "ipa": "/kənˈdɪʃənl/",
+        "pos": "adj.",
+        "zh": "有条件的；条件（概率）",
+        "example": "Umbrella sales follow conditional probability on rain.",
+        "emoji": "☔",
+        "cefr": "C1"
+      },
+      {
+        "word": "expectation",
+        "ipa": "/ˌekspekˈteɪʃn/",
+        "pos": "n.",
+        "zh": "期望值",
+        "example": "The lottery's expectation is stubbornly negative.",
+        "emoji": "🎰",
+        "cefr": "C1"
+      },
+      {
+        "word": "dispersion",
+        "ipa": "/dɪˈspɜːʃn/",
+        "pos": "n.",
+        "zh": "离散度；分散",
+        "example": "Low dispersion means tight clustering.",
+        "emoji": "🎯",
+        "cefr": "C2"
+      },
+      {
+        "word": "distribution",
+        "ipa": "/ˌdɪstrɪˈbjuːʃn/",
+        "pos": "n.",
+        "zh": "分布",
+        "example": "Heights trace a familiar bell distribution.",
+        "emoji": "🔔",
+        "cefr": "C1"
+      },
+      {
+        "word": "raffle",
+        "ipa": "/ˈræfl/",
+        "pos": "n.",
+        "zh": "抽奖；摇号",
+        "example": "The charity raffle drew 4,000 tickets.",
+        "emoji": "🎫",
+        "cefr": "C1"
+      },
+      {
+        "word": "sample space",
+        "ipa": "/ˈsɑːmpl speɪs/",
+        "pos": "n.",
+        "zh": "样本空间",
+        "example": "Dice have a sample space of six outcomes.",
+        "emoji": "🎲",
+        "cefr": "C2"
+      },
+      {
+        "word": "putative",
+        "ipa": "/ˈpjuːtətɪv/",
+        "pos": "adj.",
+        "zh": "公认的，推定的",
+        "example": "The putative heir claimed the throne.",
+        "emoji": "👑",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_school"
+  },
+  {
+    "id": "l7_math_statistics",
+    "title": "统计推断",
+    "emoji": "📊",
+    "words": [
+      {
+        "word": "mean",
+        "ipa": "/miːn/",
+        "pos": "n./adj.",
+        "zh": "平均数；平均的",
+        "example": "The mean hides the outlier millionaire.",
+        "emoji": "➗",
+        "cefr": "B1"
+      },
+      {
+        "word": "median",
+        "ipa": "/ˈmiːdiən/",
+        "pos": "n.",
+        "zh": "中位数",
+        "example": "Salaries read truer through the median.",
+        "emoji": "🎚️",
+        "cefr": "C1"
+      },
+      {
+        "word": "skew",
+        "ipa": "/skjuː/",
+        "pos": "v./n.",
+        "zh": "使偏斜；偏态",
+        "example": "Billionaires skew the average wage.",
+        "emoji": "📈",
+        "cefr": "C2"
+      },
+      {
+        "word": "covariance",
+        "ipa": "/kəʊˈveəriəns/",
+        "pos": "n.",
+        "zh": "协方差",
+        "example": "Covariance measures how two variables sway together.",
+        "emoji": "💃",
+        "cefr": "C2"
+      },
+      {
+        "word": "significance",
+        "ipa": "/sɪgˈnɪfɪkəns/",
+        "pos": "n.",
+        "zh": "显著性；重要性",
+        "example": "Statistical significance is not life significance.",
+        "emoji": "⭐",
+        "cefr": "C1"
+      },
+      {
+        "word": "residual",
+        "ipa": "/rɪˈzɪdjuəl/",
+        "pos": "n./adj.",
+        "zh": "残差；剩余的",
+        "example": "Plot the residuals and patterns confess.",
+        "emoji": "🧷",
+        "cefr": "C2"
+      },
+      {
+        "word": "regression",
+        "ipa": "/rɪˈgreʃn/",
+        "pos": "n.",
+        "zh": "回归（分析）；倒退",
+        "example": "The regression line predicts sales from ads.",
+        "emoji": "📉",
+        "cefr": "C1"
+      },
+      {
+        "word": "census",
+        "ipa": "/ˈsensəs/",
+        "pos": "n.",
+        "zh": "普查；人口调查",
+        "example": "The census counts every household once a decade.",
+        "emoji": "🏠",
+        "cefr": "C1"
+      },
+      {
+        "word": "deviation",
+        "ipa": "/ˌdiːviˈeɪʃn/",
+        "pos": "n.",
+        "zh": "偏差",
+        "example": "Standard deviation measures the spread.",
+        "emoji": "📐",
+        "cefr": "C1"
+      },
+      {
+        "word": "percentile",
+        "ipa": "/pəˈsentaɪl/",
+        "pos": "n.",
+        "zh": "百分位数",
+        "example": "The top percentile is not the top ten percent.",
+        "emoji": "🏅",
+        "cefr": "C1"
+      },
+      {
+        "word": "confounding",
+        "ipa": "/kənˈfaʊndɪŋ/",
+        "pos": "adj.",
+        "zh": "混淆的（变量）",
+        "example": "Confounding factors muddle early studies.",
+        "emoji": "🌀",
+        "cefr": "C2"
+      },
+      {
+        "word": "subset",
+        "ipa": "/ˈsʌbset/",
+        "pos": "n.",
+        "zh": "子集",
+        "example": "The sample is a subset of all voters.",
+        "emoji": "🧺",
+        "cefr": "C1"
+      },
+      {
+        "word": "standard deviation",
+        "ipa": "/ˌstændəd ˌdiːviˈeɪʃn/",
+        "pos": "n.",
+        "zh": "标准差",
+        "example": "Standard deviation measures spread.",
+        "emoji": "🎚️",
+        "cefr": "C2"
+      },
+      {
+        "word": "histogram",
+        "ipa": "/ˈhɪstəɡræm/",
+        "pos": "n.",
+        "zh": "直方图",
+        "example": "The histogram shows score frequencies.",
+        "emoji": "📊",
+        "cefr": "C2"
+      },
+      {
+        "word": "paradigmatic",
+        "ipa": "/ˌpærədɪɡˈmætɪk/",
+        "pos": "adj.",
+        "zh": "典范的",
+        "example": "The case is paradigmatic of urban decline.",
+        "emoji": "🏛️",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_school"
+  },
+  {
+    "id": "l7_math_discrete",
+    "title": "离散数学",
+    "emoji": "🔢",
+    "words": [
+      {
+        "word": "graph",
+        "ipa": "/grɑːf/",
+        "pos": "n.",
+        "zh": "图（论）；图表",
+        "example": "The graph maps cities as dots and roads as lines.",
+        "emoji": "🗺️",
+        "cefr": "B1"
+      },
+      {
+        "word": "node",
+        "ipa": "/nəʊd/",
+        "pos": "n.",
+        "zh": "节点",
+        "example": "Each node greets its neighbours by edge.",
+        "emoji": "🔗",
+        "cefr": "C1"
+      },
+      {
+        "word": "edge",
+        "ipa": "/edʒ/",
+        "pos": "n.",
+        "zh": "边；棱；优势",
+        "example": "Seven nodes can share twelve edges.",
+        "emoji": "📏",
+        "cefr": "B2"
+      },
+      {
+        "word": "cycle",
+        "ipa": "/ˈsaɪkl/",
+        "pos": "n.",
+        "zh": "圈；循环",
+        "example": "The route forms a cycle back to the start.",
+        "emoji": "🔄",
+        "cefr": "B2"
+      },
+      {
+        "word": "partition",
+        "ipa": "/pɑːˈtɪʃn/",
+        "pos": "n./v.",
+        "zh": "分割；划分",
+        "example": "Divide the set and every partition is unique.",
+        "emoji": "🧱",
+        "cefr": "C1"
+      },
+      {
+        "word": "recurrence",
+        "ipa": "/rɪˈkʌrəns/",
+        "pos": "n.",
+        "zh": "递推；复发",
+        "example": "Fibonacci grows by a simple recurrence.",
+        "emoji": "🐚",
+        "cefr": "C2"
+      },
+      {
+        "word": "enumeration",
+        "ipa": "/ɪˌnjuːməˈreɪʃn/",
+        "pos": "n.",
+        "zh": "枚举",
+        "example": "Enumeration counts, even when patterns hide.",
+        "emoji": "☑️",
+        "cefr": "C2"
+      },
+      {
+        "word": "optimality",
+        "ipa": "/ˌɒptɪˈmæləti/",
+        "pos": "n.",
+        "zh": "最优性",
+        "example": "Dijkstra's path claims optimality.",
+        "emoji": "🏆",
+        "cefr": "C2"
+      },
+      {
+        "word": "backtracking",
+        "ipa": "/ˈbæktrækɪŋ/",
+        "pos": "n.",
+        "zh": "回溯法",
+        "example": "Backtracking retreats whenever a branch dies.",
+        "emoji": "↩️",
+        "cefr": "C2"
+      },
+      {
+        "word": "boolean",
+        "ipa": "/ˈbuːliən/",
+        "pos": "adj.",
+        "zh": "布尔的",
+        "example": "Boolean logic runs every if-statement.",
+        "emoji": "🔘",
+        "cefr": "C1"
+      },
+      {
+        "word": "finite",
+        "ipa": "/ˈfaɪnaɪt/",
+        "pos": "adj.",
+        "zh": "有限的",
+        "example": "A finite list can always be sorted.",
+        "emoji": "📦",
+        "cefr": "B2"
+      },
+      {
+        "word": "intractable",
+        "ipa": "/ɪnˈtræktəbl/",
+        "pos": "adj.",
+        "zh": "难解的；棘手的",
+        "example": "Some searches stay intractable however clever we get.",
+        "emoji": "🕳️",
+        "cefr": "C2"
+      },
+      {
+        "word": "combinatorics",
+        "ipa": "/kəmˌbaɪnəˈtɒrɪks/",
+        "pos": "n.",
+        "zh": "组合数学",
+        "example": "Combinatorics counts arrangements and choices.",
+        "emoji": "🧩",
+        "cefr": "C2"
+      },
+      {
+        "word": "graph theory",
+        "ipa": "/ˈɡrɑːf θɪəri/",
+        "pos": "n.",
+        "zh": "图论",
+        "example": "Graph theory models networks and routes.",
+        "emoji": "🕸️",
+        "cefr": "C2"
+      },
+      {
+        "word": "consequential",
+        "ipa": "/ˌkɒnsɪˈkwenʃl/",
+        "pos": "adj.",
+        "zh": "重要的，有后果的",
+        "example": "The ruling had consequential effects.",
+        "emoji": "⚖️",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_school"
+  },
+  {
+    "id": "l7_math_number",
+    "title": "数论",
+    "emoji": "🧾",
+    "words": [
+      {
+        "word": "integer",
+        "ipa": "/ˈɪntɪdʒə/",
+        "pos": "n.",
+        "zh": "整数",
+        "example": "Count coins and you count integers.",
+        "emoji": "🪙",
+        "cefr": "C1"
+      },
+      {
+        "word": "prime",
+        "ipa": "/praɪm/",
+        "pos": "adj./n.",
+        "zh": "素数；首要的",
+        "example": "Every integer hides a prime factorisation.",
+        "emoji": "🔐",
+        "cefr": "C1"
+      },
+      {
+        "word": "divisor",
+        "ipa": "/dɪˈvaɪzə/",
+        "pos": "n.",
+        "zh": "约数；除数",
+        "example": "Twelve has six divisors.",
+        "emoji": "➗",
+        "cefr": "C1"
+      },
+      {
+        "word": "modular",
+        "ipa": "/ˈmɒdjʊlə/",
+        "pos": "adj.",
+        "zh": "模的；模块化的",
+        "example": "Clock arithmetic is modular by ten.",
+        "emoji": "🕙",
+        "cefr": "C2"
+      },
+      {
+        "word": "parity",
+        "ipa": "/ˈpærəti/",
+        "pos": "n.",
+        "zh": "奇偶性",
+        "example": "Parity decides whether the sum is odd.",
+        "emoji": "⚖️",
+        "cefr": "C1"
+      },
+      {
+        "word": "factorial",
+        "ipa": "/fækˈtɔːriəl/",
+        "pos": "n.",
+        "zh": "阶乘",
+        "example": "Six factorial already tops seven hundred.",
+        "emoji": "💥",
+        "cefr": "C1"
+      },
+      {
+        "word": "reciprocal",
+        "ipa": "/rɪˈsɪprəkl/",
+        "pos": "n./adj.",
+        "zh": "倒数；互惠的",
+        "example": "Flip the fraction to find the reciprocal.",
+        "emoji": "🙃",
+        "cefr": "C1"
+      },
+      {
+        "word": "remainder",
+        "ipa": "/rɪˈmeɪndə/",
+        "pos": "n.",
+        "zh": "余数；剩余物",
+        "example": "Divide and the remainder tells the truth.",
+        "emoji": "🥧",
+        "cefr": "C1"
+      },
+      {
+        "word": "sieve",
+        "ipa": "/sɪv/",
+        "pos": "n./v.",
+        "zh": "筛法；筛子",
+        "example": "The sieve of Eratosthenes strains out primes.",
+        "emoji": "🫗",
+        "cefr": "C2"
+      },
+      {
+        "word": "diophantine",
+        "ipa": "/ˌdaɪəˈfæntaɪn/",
+        "pos": "adj.",
+        "zh": "丢番图的（方程）",
+        "example": "Diophantine equations hunt whole-number answers.",
+        "emoji": "🧩",
+        "cefr": "C2"
+      },
+      {
+        "word": "irrational",
+        "ipa": "/ɪˈræʃənl/",
+        "pos": "adj.",
+        "zh": "无理的（数）；不理性的",
+        "example": "Pi is famously irrational.",
+        "emoji": "🤯",
+        "cefr": "C1"
+      },
+      {
+        "word": "cardinality",
+        "ipa": "/ˌkɑːdiˈnæləti/",
+        "pos": "n.",
+        "zh": "基数",
+        "example": "Infinity comes in sizes: cardinality measures them.",
+        "emoji": "♾️",
+        "cefr": "C2"
+      },
+      {
+        "word": "transcendental",
+        "ipa": "/ˌtrænsenˈdentl/",
+        "pos": "adj.",
+        "zh": "超越数的",
+        "example": "Pi is a transcendental number.",
+        "emoji": "🥧",
+        "cefr": "C2"
+      },
+      {
+        "word": "divisibility",
+        "ipa": "/dɪˌvɪzəˈbɪləti/",
+        "pos": "n.",
+        "zh": "整除性",
+        "example": "Divisibility rules speed mental math.",
+        "emoji": "➗",
+        "cefr": "C2"
+      },
+      {
+        "word": "commensurate",
+        "ipa": "/kəˈmenʃərət/",
+        "pos": "adj.",
+        "zh": "相称的",
+        "example": "Pay should be commensurate with effort.",
+        "emoji": "⚖️",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_numbers"
+  },
+  {
+    "id": "l7_math_analysis",
+    "title": "数学分析",
+    "emoji": "📉",
+    "words": [
+      {
+        "word": "sequence",
+        "ipa": "/ˈsiːkwəns/",
+        "pos": "n.",
+        "zh": "数列；序列",
+        "example": "The sequence 2, 4, 8 doubles each step.",
+        "emoji": "🔢",
+        "cefr": "B1"
+      },
+      {
+        "word": "series",
+        "ipa": "/ˈsɪəriːz/",
+        "pos": "n.",
+        "zh": "级数；系列",
+        "example": "Sum a series and infinity may behave.",
+        "emoji": "➕",
+        "cefr": "C1"
+      },
+      {
+        "word": "monotonic",
+        "ipa": "/ˌmɒnəˈtɒnɪk/",
+        "pos": "adj.",
+        "zh": "单调的",
+        "example": "A monotonic sequence never turns back.",
+        "emoji": "📈",
+        "cefr": "C2"
+      },
+      {
+        "word": "bounded",
+        "ipa": "/ˈbaʊndɪd/",
+        "pos": "adj.",
+        "zh": "有界的",
+        "example": "Bounded above, the climb must stall.",
+        "emoji": "🚧",
+        "cefr": "C2"
+      },
+      {
+        "word": "interval",
+        "ipa": "/ˈɪntəvl/",
+        "pos": "n.",
+        "zh": "区间；间隔",
+        "example": "Squeeze the answer into a tight interval.",
+        "emoji": "📏",
+        "cefr": "C1"
+      },
+      {
+        "word": "subsequence",
+        "ipa": "/ˈsʌbˌsiːkwəns/",
+        "pos": "n.",
+        "zh": "子序列",
+        "example": "Every convergent sequence hides tidy subsequences.",
+        "emoji": "🪆",
+        "cefr": "C2"
+      },
+      {
+        "word": "compactness",
+        "ipa": "/kəmˈpæktnəs/",
+        "pos": "n.",
+        "zh": "紧致性",
+        "example": "Compactness tames infinite sets.",
+        "emoji": "📦",
+        "cefr": "C2"
+      },
+      {
+        "word": "differentiable",
+        "ipa": "/ˌdɪfəˈrenʃəbl/",
+        "pos": "adj.",
+        "zh": "可微的",
+        "example": "A corner breaks the differentiable dream.",
+        "emoji": "⛰️",
+        "cefr": "C2"
+      },
+      {
+        "word": "integrable",
+        "ipa": "/ˈɪntɪgrəbl/",
+        "pos": "adj.",
+        "zh": "可积的",
+        "example": "Wild gaps make a function not integrable.",
+        "emoji": "🕳️",
+        "cefr": "C2"
+      },
+      {
+        "word": "supremum",
+        "ipa": "/suːˈpriːməm/",
+        "pos": "n.",
+        "zh": "上确界",
+        "example": "The supremum need not be reached.",
+        "emoji": "🔝",
+        "cefr": "C2"
+      },
+      {
+        "word": "epsilon",
+        "ipa": "/ˈepsɪlɒn/",
+        "pos": "n.",
+        "zh": "（希腊字母）ε；极小量",
+        "example": "For every epsilon there is a delta.",
+        "emoji": "🔤",
+        "cefr": "C2"
+      },
+      {
+        "word": "summation",
+        "ipa": "/sʌˈmeɪʃn/",
+        "pos": "n.",
+        "zh": "求和；总和",
+        "example": "Sigma notation compresses every summation.",
+        "emoji": "Σ",
+        "cefr": "C2"
+      },
+      {
+        "word": "convergence",
+        "ipa": "/kənˈvɜːdʒəns/",
+        "pos": "n.",
+        "zh": "收敛",
+        "example": "The series shows slow convergence.",
+        "emoji": "🎯",
+        "cefr": "C2"
+      },
+      {
+        "word": "bound",
+        "ipa": "/baʊnd/",
+        "pos": "n.",
+        "zh": "界限",
+        "example": "The set has a finite bound.",
+        "emoji": "🎯",
+        "cefr": "C2",
+        "level": "C1"
+      },
+      {
+        "word": "salience",
+        "ipa": "/ˈseɪliəns/",
+        "pos": "n.",
+        "zh": "显著性",
+        "example": "The issue gained salience in the media.",
+        "emoji": "🌟",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_school"
+  },
+  {
+    "id": "l7_math_modelling",
+    "title": "数学建模",
+    "emoji": "🧮",
+    "words": [
+      {
+        "word": "tuning",
+        "ipa": "/ˈtjuːnɪŋ/",
+        "pos": "n.",
+        "zh": "调参；调试",
+        "example": "Careful tuning doubled the forecast accuracy.",
+        "emoji": "🎛️",
+        "cefr": "C1"
+      },
+      {
+        "word": "recalibrate",
+        "ipa": "/ˌriːˈkælɪbreɪt/",
+        "pos": "v.",
+        "zh": "重新校准",
+        "example": "Recalibrate the sensors after each flight.",
+        "emoji": "🔧",
+        "cefr": "C1"
+      },
+      {
+        "word": "hindcast",
+        "ipa": "/ˈhaɪndkɑːst/",
+        "pos": "n./v.",
+        "zh": "事后回算验证",
+        "example": "A hindcast tests the model on past storms.",
+        "emoji": "🕰️",
+        "cefr": "C2"
+      },
+      {
+        "word": "interpolate",
+        "ipa": "/ɪnˈtɜːpəleɪt/",
+        "pos": "v.",
+        "zh": "内插；插值",
+        "example": "Interpolate between the dots for the midpoint.",
+        "emoji": "📍",
+        "cefr": "C2"
+      },
+      {
+        "word": "simulate",
+        "ipa": "/ˈsɪmjuleɪt/",
+        "pos": "v.",
+        "zh": "模拟；仿真",
+        "example": "Simulate the traffic before building the bridge.",
+        "emoji": "🖥️",
+        "cefr": "C1"
+      },
+      {
+        "word": "iteration",
+        "ipa": "/ˌɪtəˈreɪʃn/",
+        "pos": "n.",
+        "zh": "迭代",
+        "example": "Each iteration inches closer to the answer.",
+        "emoji": "🔁",
+        "cefr": "C1"
+      },
+      {
+        "word": "perturbation",
+        "ipa": "/ˌpɜːtəˈbeɪʃn/",
+        "pos": "n.",
+        "zh": "扰动；微扰",
+        "example": "A tiny perturbation topples the fragile balance.",
+        "emoji": "🌪️",
+        "cefr": "C2"
+      },
+      {
+        "word": "chaos",
+        "ipa": "/ˈkeɪɒs/",
+        "pos": "n.",
+        "zh": "混沌",
+        "example": "Butterfly wings and weather: textbook chaos.",
+        "emoji": "🦋",
+        "cefr": "C1"
+      },
+      {
+        "word": "deterministic",
+        "ipa": "/dɪˌtɜːmɪˈnɪstɪk/",
+        "pos": "adj.",
+        "zh": "决定论的；确定性的",
+        "example": "A deterministic model repeats identically forever.",
+        "emoji": "⚙️",
+        "cefr": "C2"
+      },
+      {
+        "word": "regularisation",
+        "ipa": "/ˌregjʊləraɪˈzeɪʃn/",
+        "pos": "n.",
+        "zh": "正则化",
+        "example": "Regularisation keeps wild models humble.",
+        "emoji": "🤏",
+        "cefr": "C2"
+      },
+      {
+        "word": "yardstick",
+        "ipa": "/ˈjɑːdstɪk/",
+        "pos": "n.",
+        "zh": "衡量标准",
+        "example": "Growth is a poor yardstick for happiness.",
+        "emoji": "📏",
+        "cefr": "C2"
+      },
+      {
+        "word": "fragility",
+        "ipa": "/frəˈdʒɪləti/",
+        "pos": "n.",
+        "zh": "脆弱性",
+        "example": "The model hides a worrying fragility.",
+        "emoji": "🥚",
+        "cefr": "C1"
+      },
+      {
+        "word": "optimization",
+        "ipa": "/ˌɒptɪmaɪˈzeɪʃn/",
+        "pos": "n.",
+        "zh": "最优化",
+        "example": "Optimization finds the best route for trucks.",
+        "emoji": "🎯",
+        "cefr": "C1"
+      },
+      {
+        "word": "discretize",
+        "ipa": "/ˈdɪskrətaɪz/",
+        "pos": "v.",
+        "zh": "离散化",
+        "example": "We discretize time into small steps.",
+        "emoji": "🧮",
+        "cefr": "C2"
+      },
+      {
+        "word": "refutation",
+        "ipa": "/ˌrefjuˈteɪʃn/",
+        "pos": "n.",
+        "zh": "反驳",
+        "example": "Her refutation was logical and clear.",
+        "emoji": "⚔️",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_school"
+  },
+  {
+    "id": "l7_math_foundations",
+    "title": "数学基础与历史",
+    "emoji": "🏛️",
+    "words": [
+      {
+        "word": "set",
+        "ipa": "/set/",
+        "pos": "n.",
+        "zh": "集合",
+        "example": "A set collects members without repeats.",
+        "emoji": "🧺",
+        "cefr": "B1"
+      },
+      {
+        "word": "mapping",
+        "ipa": "/ˈmæpɪŋ/",
+        "pos": "n.",
+        "zh": "映射",
+        "example": "Every function is a mapping between sets.",
+        "emoji": "🗺️",
+        "cefr": "C1"
+      },
+      {
+        "word": "bijection",
+        "ipa": "/baɪˈdʒekʃn/",
+        "pos": "n.",
+        "zh": "双射；一一对应",
+        "example": "A bijection pairs every element exactly once.",
+        "emoji": "🤝",
+        "cefr": "C2"
+      },
+      {
+        "word": "inductive",
+        "ipa": "/ɪnˈdʌktɪv/",
+        "pos": "adj.",
+        "zh": "归纳的",
+        "example": "Inductive reasoning climbs from cases to rules.",
+        "emoji": "🔺",
+        "cefr": "C1"
+      },
+      {
+        "word": "negation",
+        "ipa": "/nɪˈgeɪʃn/",
+        "pos": "n.",
+        "zh": "否定",
+        "example": "Double negation restores the original claim.",
+        "emoji": "🚫",
+        "cefr": "C2"
+      },
+      {
+        "word": "invariant",
+        "ipa": "/ɪnˈveəriənt/",
+        "pos": "n./adj.",
+        "zh": "不变量；不变的",
+        "example": "Parity is an invariant no move can change.",
+        "emoji": "🛡️",
+        "cefr": "C2"
+      },
+      {
+        "word": "lemma",
+        "ipa": "/ˈlemə/",
+        "pos": "n.",
+        "zh": "引理",
+        "example": "Prove the lemma first; the theorem follows.",
+        "emoji": "🪜",
+        "cefr": "C2"
+      },
+      {
+        "word": "abacus",
+        "ipa": "/ˈæbəkəs/",
+        "pos": "n.",
+        "zh": "算盘",
+        "example": "Merchants once clicked numbers on an abacus.",
+        "emoji": "🧮",
+        "cefr": "C1"
+      },
+      {
+        "word": "geodesic",
+        "ipa": "/ˌdʒiːəˈdeɪsɪk/",
+        "pos": "n.",
+        "zh": "测地线；最短路径",
+        "example": "Planes follow geodesics, not straight atlas lines.",
+        "emoji": "✈️",
+        "cefr": "C2"
+      },
+      {
+        "word": "topology",
+        "ipa": "/təˈpɒlədʒi/",
+        "pos": "n.",
+        "zh": "拓扑学",
+        "example": "Topology treats doughnuts and mugs as cousins.",
+        "emoji": "🍩",
+        "cefr": "C2"
+      },
+      {
+        "word": "manifold",
+        "ipa": "/ˈmænɪfəʊld/",
+        "pos": "n./adj.",
+        "zh": "流形；多种的",
+        "example": "Spacetime bends as a four-dimensional manifold.",
+        "emoji": "🌀",
+        "cefr": "C2"
+      },
+      {
+        "word": "diagonal",
+        "ipa": "/ˈdaɪægənl/",
+        "pos": "n./adj.",
+        "zh": "对角线；对角的",
+        "example": "Two diagonals cross at the square centre.",
+        "emoji": "◗",
+        "cefr": "C1"
+      },
+      {
+        "word": "set theory",
+        "ipa": "/ˈset θɪəri/",
+        "pos": "n.",
+        "zh": "集合论",
+        "example": "Set theory underpins all mathematics.",
+        "emoji": "⭕",
+        "cefr": "C2"
+      },
+      {
+        "word": "ordinal",
+        "ipa": "/ˈɔːdɪnl/",
+        "pos": "n.",
+        "zh": "序数",
+        "example": "First, second and third are ordinals.",
+        "emoji": "1️⃣",
+        "cefr": "C1"
+      },
+      {
+        "word": "cardinal",
+        "ipa": "/ˈkɑːdɪnl/",
+        "pos": "n.",
+        "zh": "基数",
+        "example": "Cardinals count how many items exist.",
+        "emoji": "🔢",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_school"
+  }
 ]

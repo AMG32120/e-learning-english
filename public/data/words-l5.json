@@ -124,6 +124,105 @@
         "emoji": "🌧️",
         "cefr": "B1",
         "level": "l5"
+      },
+      {
+        "word": "sibling",
+        "ipa": "/ˈsɪblɪŋ/",
+        "pos": "n.",
+        "zh": "兄弟姐妹",
+        "example": "She has two younger siblings.",
+        "emoji": "👫",
+        "cefr": "B2"
+      },
+      {
+        "word": "stepfather",
+        "ipa": "/ˈstepfɑːðə(r)/",
+        "pos": "n.",
+        "zh": "继父",
+        "example": "Her stepfather is very kind.",
+        "emoji": "🧔",
+        "cefr": "B1"
+      },
+      {
+        "word": "iguana",
+        "ipa": "/ɪˈɡwɑːnə/",
+        "pos": "n.",
+        "zh": "鬣蜥",
+        "example": "His pet iguana is green.",
+        "emoji": "🦎",
+        "cefr": "B1"
+      },
+      {
+        "word": "gecko",
+        "ipa": "/ˈɡekəʊ/",
+        "pos": "n.",
+        "zh": "壁虎",
+        "example": "The gecko climbed the glass.",
+        "emoji": "🦎",
+        "cefr": "B1"
+      },
+      {
+        "word": "jealous",
+        "ipa": "/ˈdʒeləs/",
+        "pos": "adj.",
+        "zh": "嫉妒的",
+        "example": "He was jealous of his brother.",
+        "emoji": "😒",
+        "cefr": "B1"
+      },
+      {
+        "word": "embarrassed",
+        "ipa": "/ɪmˈbærəst/",
+        "pos": "adj.",
+        "zh": "尴尬的",
+        "example": "She felt embarrassed by her mistake.",
+        "emoji": "😳",
+        "cefr": "B1"
+      },
+      {
+        "word": "disappointed",
+        "ipa": "/ˌdɪsəˈpɔɪntɪd/",
+        "pos": "adj.",
+        "zh": "失望的",
+        "example": "I was disappointed with the result.",
+        "emoji": "😞",
+        "cefr": "B1"
+      },
+      {
+        "word": "grateful",
+        "ipa": "/ˈɡreɪtfl/",
+        "pos": "adj.",
+        "zh": "感激的",
+        "example": "I am grateful for your help.",
+        "emoji": "🙏",
+        "cefr": "B1"
+      },
+      {
+        "word": "ashamed",
+        "ipa": "/əˈʃeɪmd/",
+        "pos": "adj.",
+        "zh": "羞愧的",
+        "example": "He was ashamed of his lie.",
+        "emoji": "😔",
+        "cefr": "B1"
+      },
+      {
+        "word": "relaxed",
+        "ipa": "/rɪˈlækst/",
+        "pos": "adj.",
+        "zh": "放松的",
+        "example": "She felt relaxed by the sea.",
+        "emoji": "😌",
+        "cefr": "B1"
+      },
+      {
+        "word": "stressed",
+        "ipa": "/strest/",
+        "pos": "adj.",
+        "zh": "有压力的",
+        "example": "He is stressed about work.",
+        "emoji": "😣",
+        "cefr": "B1"
       }
     ]
   },
@@ -131,7 +230,7 @@
     "id": "l5_education",
     "title": "教育与学习",
     "emoji": "📚",
-    "extends_from": null,
+    "extends_from": "l2_school",
     "words": [
       {
         "word": "subject",
@@ -252,6 +351,51 @@
         "emoji": "🔁",
         "cefr": "B1",
         "level": "l5"
+      },
+      {
+        "word": "handwriting",
+        "ipa": "/ˈhændraɪtɪŋ/",
+        "pos": "n.",
+        "zh": "笔迹",
+        "example": "His handwriting is hard to read.",
+        "emoji": "✍️",
+        "cefr": "B1"
+      },
+      {
+        "word": "fountain pen",
+        "ipa": "/ˈfaʊntən pen/",
+        "pos": "n.",
+        "zh": "钢笔",
+        "example": "He writes with a fountain pen.",
+        "emoji": "🖋️",
+        "cefr": "B1"
+      },
+      {
+        "word": "principal",
+        "ipa": "/ˈprɪnsəpl/",
+        "pos": "n.",
+        "zh": "校长",
+        "example": "The principal spoke at the assembly.",
+        "emoji": "👨‍💼",
+        "cefr": "B1"
+      },
+      {
+        "word": "report card",
+        "ipa": "/rɪˈpɔːt kɑːd/",
+        "pos": "n.",
+        "zh": "成绩单",
+        "example": "My parents check my report card.",
+        "emoji": "📊",
+        "cefr": "B1"
+      },
+      {
+        "word": "recess",
+        "ipa": "/rɪˈses/",
+        "pos": "n.",
+        "zh": "课间休息",
+        "example": "The kids play outside during recess.",
+        "emoji": "🏃",
+        "cefr": "B1"
       }
     ]
   },
@@ -380,6 +524,123 @@
         "emoji": "😴",
         "cefr": "A2",
         "level": "l5"
+      },
+      {
+        "word": "pilates",
+        "ipa": "/pɪˈlɑːtiːz/",
+        "pos": "n.",
+        "zh": "普拉提",
+        "example": "Pilates strengthens your core muscles.",
+        "emoji": "🧘",
+        "cefr": "B2"
+      },
+      {
+        "word": "fire extinguisher",
+        "ipa": "/ˈfaɪə ɪkˌstɪŋɡwɪʃə(r)/",
+        "pos": "n.",
+        "zh": "灭火器",
+        "example": "There is a fire extinguisher by the door.",
+        "emoji": "🧯",
+        "cefr": "B1"
+      },
+      {
+        "word": "lifeguard",
+        "ipa": "/ˈlaɪfɡɑːd/",
+        "pos": "n.",
+        "zh": "救生员",
+        "example": "The lifeguard watched the swimmers.",
+        "emoji": "🏊",
+        "cefr": "B1"
+      },
+      {
+        "word": "shin",
+        "ipa": "/ʃɪn/",
+        "pos": "n.",
+        "zh": "胫骨",
+        "example": "He kicked the ball with his shin.",
+        "emoji": "🦵",
+        "cefr": "B1"
+      },
+      {
+        "word": "calf",
+        "ipa": "/kɑːf/",
+        "pos": "n.",
+        "zh": "小腿",
+        "example": "Her calf muscles hurt after running.",
+        "emoji": "🦵",
+        "cefr": "B1"
+      },
+      {
+        "word": "thigh",
+        "ipa": "/θaɪ/",
+        "pos": "n.",
+        "zh": "大腿",
+        "example": "He hurt his thigh during the game.",
+        "emoji": "🦵",
+        "cefr": "B1"
+      },
+      {
+        "word": "hip",
+        "ipa": "/hɪp/",
+        "pos": "n.",
+        "zh": "臀部",
+        "example": "She carried the baby on her hip.",
+        "emoji": "🤰",
+        "cefr": "B1"
+      },
+      {
+        "word": "eyelid",
+        "ipa": "/ˈaɪlɪd/",
+        "pos": "n.",
+        "zh": "眼睑",
+        "example": "His eyelids were heavy with sleep.",
+        "emoji": "👁️",
+        "cefr": "B1"
+      },
+      {
+        "word": "nostril",
+        "ipa": "/ˈnɒstrəl/",
+        "pos": "n.",
+        "zh": "鼻孔",
+        "example": "Smoke came out of his nostrils.",
+        "emoji": "👃",
+        "cefr": "B1"
+      },
+      {
+        "word": "knuckle",
+        "ipa": "/ˈnʌkl/",
+        "pos": "n.",
+        "zh": "指关节",
+        "example": "He knocked with his knuckles.",
+        "emoji": "✊",
+        "cefr": "B1"
+      },
+      {
+        "word": "championship",
+        "ipa": "/ˈtʃæmpiənʃɪp/",
+        "pos": "n.",
+        "zh": "锦标赛",
+        "example": "They won the championship title.",
+        "emoji": "🏆",
+        "cefr": "B1"
+      },
+      {
+        "word": "treatment",
+        "ipa": "/ˈtriːtmənt/",
+        "pos": "n.",
+        "zh": "治疗",
+        "example": "The treatment helped her recover.",
+        "emoji": "💊",
+        "cefr": "B1"
+      },
+      {
+        "word": "dizziness",
+        "ipa": "/ˈdɪzinəs/",
+        "pos": "n.",
+        "zh": "头晕",
+        "example": "He felt dizziness after standing up.",
+        "emoji": "😵",
+        "cefr": "B1"
       }
     ]
   },
@@ -387,7 +648,7 @@
     "id": "l5_work_jobs",
     "title": "工作与职业",
     "emoji": "💼",
-    "extends_from": null,
+    "extends_from": "l2_jobs",
     "words": [
       {
         "word": "engineer",
@@ -508,6 +769,78 @@
         "emoji": "🗂️",
         "cefr": "A2",
         "level": "l5"
+      },
+      {
+        "word": "apprentice",
+        "ipa": "/əˈprentɪs/",
+        "pos": "n.",
+        "zh": "学徒",
+        "example": "He started as an apprentice electrician.",
+        "emoji": "🔧",
+        "cefr": "B2"
+      },
+      {
+        "word": "plumber",
+        "ipa": "/ˈplʌmə(r)/",
+        "pos": "n.",
+        "zh": "水暖工",
+        "example": "We called a plumber to fix the pipe.",
+        "emoji": "🔧",
+        "cefr": "B1"
+      },
+      {
+        "word": "mechanic",
+        "ipa": "/məˈkænɪk/",
+        "pos": "n.",
+        "zh": "机械师",
+        "example": "The mechanic checked the engine.",
+        "emoji": "⚙️",
+        "cefr": "B1"
+      },
+      {
+        "word": "translator",
+        "ipa": "/trænzˈleɪtə(r)/",
+        "pos": "n.",
+        "zh": "译员",
+        "example": "She works as a translator.",
+        "emoji": "🗣️",
+        "cefr": "B1"
+      },
+      {
+        "word": "technician",
+        "ipa": "/tekˈnɪʃn/",
+        "pos": "n.",
+        "zh": "技术员",
+        "example": "The technician repaired the printer.",
+        "emoji": "🛠️",
+        "cefr": "B1"
+      },
+      {
+        "word": "electrician",
+        "ipa": "/ɪˌlekˈtrɪʃn/",
+        "pos": "n.",
+        "zh": "电工",
+        "example": "The electrician fixed the lights.",
+        "emoji": "⚡",
+        "cefr": "B1"
+      },
+      {
+        "word": "carpenter",
+        "ipa": "/ˈkɑːpəntə(r)/",
+        "pos": "n.",
+        "zh": "木匠",
+        "example": "The carpenter built a wooden table.",
+        "emoji": "🪵",
+        "cefr": "B1"
+      },
+      {
+        "word": "butcher",
+        "ipa": "/ˈbʊtʃə(r)/",
+        "pos": "n.",
+        "zh": "屠夫",
+        "example": "The butcher sells fresh meat.",
+        "emoji": "🥩",
+        "cefr": "B1"
       }
     ]
   },
@@ -515,7 +848,7 @@
     "id": "l5_tech_network",
     "title": "科技与网络",
     "emoji": "🖥️",
-    "extends_from": null,
+    "extends_from": "l2_tech",
     "words": [
       {
         "word": "computer",
@@ -636,6 +969,96 @@
         "emoji": "💬",
         "cefr": "A2",
         "level": "l5"
+      },
+      {
+        "word": "server",
+        "ipa": "/ˈsɜːvə(r)/",
+        "pos": "n.",
+        "zh": "服务器",
+        "example": "The website runs on a powerful server.",
+        "emoji": "🖥️",
+        "cefr": "B2"
+      },
+      {
+        "word": "motherboard",
+        "ipa": "/ˈmʌðəbɔːd/",
+        "pos": "n.",
+        "zh": "主板",
+        "example": "The motherboard connects all computer parts.",
+        "emoji": "🖥️",
+        "cefr": "B2"
+      },
+      {
+        "word": "screenshot",
+        "ipa": "/ˈskriːnʃɒt/",
+        "pos": "n.",
+        "zh": "截图",
+        "example": "She took a screenshot of the chat.",
+        "emoji": "📸",
+        "cefr": "B1"
+      },
+      {
+        "word": "wallpaper",
+        "ipa": "/ˈwɔːlpeɪpə(r)/",
+        "pos": "n.",
+        "zh": "壁纸",
+        "example": "He changed his phone wallpaper.",
+        "emoji": "🖼️",
+        "cefr": "B1"
+      },
+      {
+        "word": "icon",
+        "ipa": "/ˈaɪkɒn/",
+        "pos": "n.",
+        "zh": "图标",
+        "example": "Tap the app icon to open it.",
+        "emoji": "🖥️",
+        "cefr": "B1"
+      },
+      {
+        "word": "scroll",
+        "ipa": "/skrəʊl/",
+        "pos": "v.",
+        "zh": "滚动",
+        "example": "Scroll down to see more.",
+        "emoji": "📜",
+        "cefr": "B1"
+      },
+      {
+        "word": "undo",
+        "ipa": "/ˌʌnˈduː/",
+        "pos": "v.",
+        "zh": "撤销",
+        "example": "Press undo to fix the mistake.",
+        "emoji": "↩️",
+        "cefr": "B1"
+      },
+      {
+        "word": "redo",
+        "ipa": "/ˌriːˈduː/",
+        "pos": "v.",
+        "zh": "重做",
+        "example": "Click redo to restore the change.",
+        "emoji": "↪️",
+        "cefr": "B1"
+      },
+      {
+        "word": "backup",
+        "ipa": "/ˈbækʌp/",
+        "pos": "n.",
+        "zh": "备份",
+        "example": "Keep a backup of your files.",
+        "emoji": "💿",
+        "cefr": "B1"
+      },
+      {
+        "word": "cache",
+        "ipa": "/kæʃ/",
+        "pos": "n.",
+        "zh": "缓存",
+        "example": "Clear the cache to speed up the page.",
+        "emoji": "💾",
+        "cefr": "B1"
       }
     ]
   },
@@ -643,7 +1066,7 @@
     "id": "l5_travel",
     "title": "旅行与交通",
     "emoji": "✈️",
-    "extends_from": "l2_transport_daily",
+    "extends_from": "l2_transport",
     "words": [
       {
         "word": "airport",
@@ -764,6 +1187,87 @@
         "emoji": "🏝️",
         "cefr": "B1",
         "level": "l5"
+      },
+      {
+        "word": "room service",
+        "ipa": "/ˈruːm sɜːvɪs/",
+        "pos": "n.",
+        "zh": "客房服务",
+        "example": "We ordered dinner from room service.",
+        "emoji": "🛎️",
+        "cefr": "B1"
+      },
+      {
+        "word": "minibar",
+        "ipa": "/ˈmɪnibɑː(r)/",
+        "pos": "n.",
+        "zh": "迷你吧",
+        "example": "The minibar has snacks and drinks.",
+        "emoji": "🥂",
+        "cefr": "B1"
+      },
+      {
+        "word": "boarding pass",
+        "ipa": "/ˈbɔːdɪŋ pɑːs/",
+        "pos": "n.",
+        "zh": "登机牌",
+        "example": "Show your boarding pass at the gate.",
+        "emoji": "🎫",
+        "cefr": "B1"
+      },
+      {
+        "word": "duty-free",
+        "ipa": "/ˌdjuːti ˈfriː/",
+        "pos": "adj.",
+        "zh": "免税的",
+        "example": "She bought perfume at the duty-free shop.",
+        "emoji": "🛍️",
+        "cefr": "B1"
+      },
+      {
+        "word": "rush hour",
+        "ipa": "/ˈrʌʃ aʊə(r)/",
+        "pos": "n.",
+        "zh": "高峰时段",
+        "example": "Avoid the subway at rush hour.",
+        "emoji": "⏰",
+        "cefr": "B1"
+      },
+      {
+        "word": "yacht",
+        "ipa": "/jɒt/",
+        "pos": "n.",
+        "zh": "游艇",
+        "example": "A white yacht sat in the harbour.",
+        "emoji": "🛥️",
+        "cefr": "B1"
+      },
+      {
+        "word": "shuttle",
+        "ipa": "/ˈʃʌtl/",
+        "pos": "n.",
+        "zh": "班车",
+        "example": "The airport shuttle leaves every hour.",
+        "emoji": "🚌",
+        "cefr": "B1"
+      },
+      {
+        "word": "dump truck",
+        "ipa": "/ˈdʌmp trʌk/",
+        "pos": "n.",
+        "zh": "自卸卡车",
+        "example": "A dump truck carried the sand.",
+        "emoji": "🚚",
+        "cefr": "B1"
+      },
+      {
+        "word": "limousine",
+        "ipa": "/ˌlɪməˈziːn/",
+        "pos": "n.",
+        "zh": "豪华轿车",
+        "example": "They arrived in a white limousine.",
+        "emoji": "🚘",
+        "cefr": "B1"
       }
     ]
   },
@@ -892,6 +1396,186 @@
         "emoji": "🏮",
         "cefr": "A2",
         "level": "l5"
+      },
+      {
+        "word": "papaya",
+        "ipa": "/pəˈpaɪə/",
+        "pos": "n.",
+        "zh": "木瓜",
+        "example": "Papaya is sweet and soft.",
+        "emoji": "🧡",
+        "cefr": "B1"
+      },
+      {
+        "word": "passion fruit",
+        "ipa": "/ˈpæʃn fruːt/",
+        "pos": "n.",
+        "zh": "百香果",
+        "example": "Passion fruit juice is very tasty.",
+        "emoji": "🍈",
+        "cefr": "B1"
+      },
+      {
+        "word": "dragon fruit",
+        "ipa": "/ˈdræɡən fruːt/",
+        "pos": "n.",
+        "zh": "火龙果",
+        "example": "Dragon fruit has a pink skin.",
+        "emoji": "🐉",
+        "cefr": "B1"
+      },
+      {
+        "word": "durian",
+        "ipa": "/ˈdʊəriən/",
+        "pos": "n.",
+        "zh": "榴莲",
+        "example": "Durian has a strong smell.",
+        "emoji": "🍍",
+        "cefr": "B1"
+      },
+      {
+        "word": "cauliflower",
+        "ipa": "/ˈkɒliflaʊə(r)/",
+        "pos": "n.",
+        "zh": "花椰菜",
+        "example": "The cauliflower is white and round.",
+        "emoji": "🥦",
+        "cefr": "B1"
+      },
+      {
+        "word": "asparagus",
+        "ipa": "/əˈspærəɡəs/",
+        "pos": "n.",
+        "zh": "芦笋",
+        "example": "Grilled asparagus is delicious.",
+        "emoji": "🌱",
+        "cefr": "B1"
+      },
+      {
+        "word": "zucchini",
+        "ipa": "/zuˈkiːni/",
+        "pos": "n.",
+        "zh": "西葫芦",
+        "example": "Slice the zucchini for salad.",
+        "emoji": "🥒",
+        "cefr": "B1"
+      },
+      {
+        "word": "beet",
+        "ipa": "/biːt/",
+        "pos": "n.",
+        "zh": "甜菜",
+        "example": "Beets can be red or yellow.",
+        "emoji": "🔴",
+        "cefr": "B1"
+      },
+      {
+        "word": "turnip",
+        "ipa": "/ˈtɜːnɪp/",
+        "pos": "n.",
+        "zh": "芜菁",
+        "example": "Turnips grow well in cold weather.",
+        "emoji": "🥔",
+        "cefr": "B1"
+      },
+      {
+        "word": "smoothie",
+        "ipa": "/ˈsmuːði/",
+        "pos": "n.",
+        "zh": "果昔",
+        "example": "I made a banana smoothie.",
+        "emoji": "🥤",
+        "cefr": "B1"
+      },
+      {
+        "word": "cocktail",
+        "ipa": "/ˈkɒkteɪl/",
+        "pos": "n.",
+        "zh": "鸡尾酒",
+        "example": "They ordered cocktails at the bar.",
+        "emoji": "🍹",
+        "cefr": "B1"
+      },
+      {
+        "word": "liquor",
+        "ipa": "/ˈlɪkə(r)/",
+        "pos": "n.",
+        "zh": "烈酒",
+        "example": "He never drinks liquor.",
+        "emoji": "🥃",
+        "cefr": "B1"
+      },
+      {
+        "word": "herbal tea",
+        "ipa": "/ˌhɜːbl ˈtiː/",
+        "pos": "n.",
+        "zh": "花草茶",
+        "example": "She drinks herbal tea before bed.",
+        "emoji": "🍵",
+        "cefr": "B1"
+      },
+      {
+        "word": "main course",
+        "ipa": "/ˌmeɪn ˈkɔːs/",
+        "pos": "n.",
+        "zh": "主菜",
+        "example": "The main course is grilled fish.",
+        "emoji": "🍽️",
+        "cefr": "B1"
+      },
+      {
+        "word": "side dish",
+        "ipa": "/ˈsaɪd dɪʃ/",
+        "pos": "n.",
+        "zh": "配菜",
+        "example": "A salad is a perfect side dish.",
+        "emoji": "🥗",
+        "cefr": "B1"
+      },
+      {
+        "word": "brunch",
+        "ipa": "/brʌntʃ/",
+        "pos": "n.",
+        "zh": "早午餐",
+        "example": "We had brunch at noon.",
+        "emoji": "🥞",
+        "cefr": "B1"
+      },
+      {
+        "word": "leftovers",
+        "ipa": "/ˈleftəʊvəz/",
+        "pos": "n.",
+        "zh": "剩菜",
+        "example": "We ate the leftovers for dinner.",
+        "emoji": "🍲",
+        "cefr": "B1"
+      },
+      {
+        "word": "chopping board",
+        "ipa": "/ˈtʃɒpɪŋ bɔːd/",
+        "pos": "n.",
+        "zh": "砧板",
+        "example": "Cut the vegetables on the chopping board.",
+        "emoji": "🔪",
+        "cefr": "B1"
+      },
+      {
+        "word": "whisk",
+        "ipa": "/wɪsk/",
+        "pos": "n.",
+        "zh": "打蛋器",
+        "example": "Use a whisk to mix the eggs.",
+        "emoji": "🥢",
+        "cefr": "B1"
+      },
+      {
+        "word": "peeler",
+        "ipa": "/ˈpiːlə(r)/",
+        "pos": "n.",
+        "zh": "削皮器",
+        "example": "She peeled the potatoes with a peeler.",
+        "emoji": "🥔",
+        "cefr": "B1"
       }
     ]
   },
@@ -899,7 +1583,7 @@
     "id": "l5_shopping",
     "title": "购物与消费",
     "emoji": "🛍️",
-    "extends_from": null,
+    "extends_from": "l2_shopping",
     "words": [
       {
         "word": "price",
@@ -1020,6 +1704,177 @@
         "emoji": "🎉",
         "cefr": "A2",
         "level": "l5"
+      },
+      {
+        "word": "showroom",
+        "ipa": "/ˈʃəʊruːm/",
+        "pos": "n.",
+        "zh": "展厅",
+        "example": "The car showroom opens on weekends.",
+        "emoji": "🚗",
+        "cefr": "B2"
+      },
+      {
+        "word": "maroon",
+        "ipa": "/məˈruːn/",
+        "pos": "n.",
+        "zh": "栗色",
+        "example": "She chose a maroon dress.",
+        "emoji": "🟤",
+        "cefr": "B1"
+      },
+      {
+        "word": "lime",
+        "ipa": "/laɪm/",
+        "pos": "n.",
+        "zh": "青柠色",
+        "example": "The walls were painted lime green.",
+        "emoji": "💚",
+        "cefr": "B1"
+      },
+      {
+        "word": "indigo",
+        "ipa": "/ˈɪndɪɡəʊ/",
+        "pos": "n.",
+        "zh": "靛蓝",
+        "example": "Indigo is between blue and violet.",
+        "emoji": "💙",
+        "cefr": "B1"
+      },
+      {
+        "word": "owe",
+        "ipa": "/əʊ/",
+        "pos": "v.",
+        "zh": "欠",
+        "example": "I owe him ten dollars.",
+        "emoji": "🧾",
+        "cefr": "B1"
+      },
+      {
+        "word": "try on",
+        "ipa": "/ˌtraɪ ˈɒn/",
+        "pos": "v.",
+        "zh": "试穿",
+        "example": "You should try on the jacket.",
+        "emoji": "👗",
+        "cefr": "B1"
+      },
+      {
+        "word": "fit",
+        "ipa": "/fɪt/",
+        "pos": "v.",
+        "zh": "合身",
+        "example": "These shoes fit me well.",
+        "emoji": "👟",
+        "cefr": "B1"
+      },
+      {
+        "word": "bracelet",
+        "ipa": "/ˈbreɪslət/",
+        "pos": "n.",
+        "zh": "手链",
+        "example": "He bought her a silver bracelet.",
+        "emoji": "⛓️",
+        "cefr": "B1"
+      },
+      {
+        "word": "shawl",
+        "ipa": "/ʃɔːl/",
+        "pos": "n.",
+        "zh": "披肩",
+        "example": "She wore a silk shawl.",
+        "emoji": "🧣",
+        "cefr": "B1"
+      },
+      {
+        "word": "beige",
+        "ipa": "/beɪʒ/",
+        "pos": "adj.",
+        "zh": "米色的",
+        "example": "The curtains are light beige.",
+        "emoji": "🧋",
+        "cefr": "B1"
+      },
+      {
+        "word": "turquoise",
+        "ipa": "/ˈtɜːkwɔɪz/",
+        "pos": "adj.",
+        "zh": "青绿色的",
+        "example": "The sea looked turquoise in the sun.",
+        "emoji": "🦚",
+        "cefr": "B1"
+      },
+      {
+        "word": "violet",
+        "ipa": "/ˈvaɪələt/",
+        "pos": "adj.",
+        "zh": "紫罗兰色的",
+        "example": "Violet is a shade between blue and red.",
+        "emoji": "🪻",
+        "cefr": "B1"
+      },
+      {
+        "word": "crimson",
+        "ipa": "/ˈkrɪmzn/",
+        "pos": "adj.",
+        "zh": "深红色的",
+        "example": "She wore a crimson dress.",
+        "emoji": "🍷",
+        "cefr": "B1"
+      },
+      {
+        "word": "ivory",
+        "ipa": "/ˈaɪvəri/",
+        "pos": "adj.",
+        "zh": "象牙色的",
+        "example": "The piano has ivory keys.",
+        "emoji": "🦷",
+        "cefr": "B1"
+      },
+      {
+        "word": "khaki",
+        "ipa": "/ˈkɑːki/",
+        "pos": "n.",
+        "zh": "卡其色",
+        "example": "He wore khaki shorts.",
+        "emoji": "🧥",
+        "cefr": "B1"
+      },
+      {
+        "word": "burgundy",
+        "ipa": "/ˈbɜːɡəndi/",
+        "pos": "n.",
+        "zh": "酒红色",
+        "example": "The wine glass was burgundy.",
+        "emoji": "🍷",
+        "cefr": "B1"
+      },
+      {
+        "word": "scarlet",
+        "ipa": "/ˈskɑːlət/",
+        "pos": "n.",
+        "zh": "猩红色",
+        "example": "The flag is scarlet red.",
+        "emoji": "❤️",
+        "cefr": "B1"
+      },
+      {
+        "word": "underwear",
+        "ipa": "/ˈʌndəweə(r)/",
+        "pos": "n.",
+        "zh": "内衣",
+        "example": "He washed his underwear by hand.",
+        "emoji": "👙",
+        "cefr": "B1"
+      },
+      {
+        "word": "cardigan",
+        "ipa": "/ˈkɑːdɪɡən/",
+        "pos": "n.",
+        "zh": "开衫",
+        "example": "She knitted a warm cardigan.",
+        "emoji": "🧶",
+        "cefr": "B1"
       }
     ]
   },
@@ -1148,6 +2003,186 @@
         "emoji": "🏔️",
         "cefr": "B1",
         "level": "l5"
+      },
+      {
+        "word": "ox",
+        "ipa": "/ɒks/",
+        "pos": "n.",
+        "zh": "公牛",
+        "example": "The ox pulled the heavy cart.",
+        "emoji": "🐂",
+        "cefr": "B1"
+      },
+      {
+        "word": "mild",
+        "ipa": "/maɪld/",
+        "pos": "adj.",
+        "zh": "温和的",
+        "example": "The climate here is mild.",
+        "emoji": "🌤️",
+        "cefr": "B1"
+      },
+      {
+        "word": "chilly",
+        "ipa": "/ˈtʃɪli/",
+        "pos": "adj.",
+        "zh": "寒冷的",
+        "example": "It's chilly in the morning.",
+        "emoji": "🥶",
+        "cefr": "B1"
+      },
+      {
+        "word": "overcast",
+        "ipa": "/ˌəʊvəˈkɑːst/",
+        "pos": "adj.",
+        "zh": "阴天的",
+        "example": "The sky is overcast today.",
+        "emoji": "☁️",
+        "cefr": "B1"
+      },
+      {
+        "word": "thunderstorm",
+        "ipa": "/ˈθʌndəstɔːm/",
+        "pos": "n.",
+        "zh": "雷雨",
+        "example": "A thunderstorm hit the town.",
+        "emoji": "⛈️",
+        "cefr": "B1"
+      },
+      {
+        "word": "buffalo",
+        "ipa": "/ˈbʌfələʊ/",
+        "pos": "n.",
+        "zh": "水牛",
+        "example": "Buffaloes are strong animals.",
+        "emoji": "🐃",
+        "cefr": "B1"
+      },
+      {
+        "word": "stable",
+        "ipa": "/ˈsteɪbl/",
+        "pos": "n.",
+        "zh": "马厩",
+        "example": "The horses are kept in the stable.",
+        "emoji": "🏚️",
+        "cefr": "B1"
+      },
+      {
+        "word": "pasture",
+        "ipa": "/ˈpɑːstʃə(r)/",
+        "pos": "n.",
+        "zh": "牧场",
+        "example": "The cows graze in the pasture.",
+        "emoji": "🌾",
+        "cefr": "B1"
+      },
+      {
+        "word": "scarecrow",
+        "ipa": "/ˈskeəkrəʊ/",
+        "pos": "n.",
+        "zh": "稻草人",
+        "example": "The scarecrow kept birds away.",
+        "emoji": "🧙",
+        "cefr": "B1"
+      },
+      {
+        "word": "wasp",
+        "ipa": "/wɒsp/",
+        "pos": "n.",
+        "zh": "黄蜂",
+        "example": "A wasp buzzed around the fruit.",
+        "emoji": "🐝",
+        "cefr": "B1"
+      },
+      {
+        "word": "grasshopper",
+        "ipa": "/ˈɡrɑːshɒpə(r)/",
+        "pos": "n.",
+        "zh": "蚂蚱",
+        "example": "A grasshopper jumped in the grass.",
+        "emoji": "🦗",
+        "cefr": "B1"
+      },
+      {
+        "word": "scorpion",
+        "ipa": "/ˈskɔːpiən/",
+        "pos": "n.",
+        "zh": "蝎子",
+        "example": "The scorpion lives in the desert.",
+        "emoji": "🦂",
+        "cefr": "B1"
+      },
+      {
+        "word": "termite",
+        "ipa": "/ˈtɜːmaɪt/",
+        "pos": "n.",
+        "zh": "白蚁",
+        "example": "Termites can damage wooden houses.",
+        "emoji": "🐜",
+        "cefr": "B1"
+      },
+      {
+        "word": "orchid",
+        "ipa": "/ˈɔːkɪd/",
+        "pos": "n.",
+        "zh": "兰花",
+        "example": "The orchid blooms in spring.",
+        "emoji": "🌺",
+        "cefr": "B1"
+      },
+      {
+        "word": "sapling",
+        "ipa": "/ˈsæplɪŋ/",
+        "pos": "n.",
+        "zh": "树苗",
+        "example": "They planted a sapling in the yard.",
+        "emoji": "🌱",
+        "cefr": "B1"
+      },
+      {
+        "word": "bud",
+        "ipa": "/bʌd/",
+        "pos": "n.",
+        "zh": "花蕾",
+        "example": "The buds will open soon.",
+        "emoji": "🌷",
+        "cefr": "B1"
+      },
+      {
+        "word": "pollen",
+        "ipa": "/ˈpɒlən/",
+        "pos": "n.",
+        "zh": "花粉",
+        "example": "Bees carry pollen between flowers.",
+        "emoji": "🐝",
+        "cefr": "B1"
+      },
+      {
+        "word": "cedar",
+        "ipa": "/ˈsiːdə(r)/",
+        "pos": "n.",
+        "zh": "雪松",
+        "example": "A tall cedar grows by the path.",
+        "emoji": "🌲",
+        "cefr": "B1"
+      },
+      {
+        "word": "cypress",
+        "ipa": "/ˈsaɪprəs/",
+        "pos": "n.",
+        "zh": "柏树",
+        "example": "Cypress trees line the road.",
+        "emoji": "🌳",
+        "cefr": "B1"
+      },
+      {
+        "word": "poplar",
+        "ipa": "/ˈpɒplə(r)/",
+        "pos": "n.",
+        "zh": "杨树",
+        "example": "Poplar leaves tremble in the wind.",
+        "emoji": "🌬️",
+        "cefr": "B1"
       }
     ]
   },
@@ -1155,7 +2190,7 @@
     "id": "l5_society_news",
     "title": "社会与新闻",
     "emoji": "📰",
-    "extends_from": null,
+    "extends_from": "l2_city",
     "words": [
       {
         "word": "society",
@@ -1276,6 +2311,186 @@
         "emoji": "🏮",
         "cefr": "B1",
         "level": "l5"
+      },
+      {
+        "word": "dawn",
+        "ipa": "/dɔːn/",
+        "pos": "n.",
+        "zh": "黎明",
+        "example": "We left at dawn.",
+        "emoji": "🌄",
+        "cefr": "B1"
+      },
+      {
+        "word": "torch",
+        "ipa": "/tɔːtʃ/",
+        "pos": "n.",
+        "zh": "手电筒",
+        "example": "We used a torch in the dark.",
+        "emoji": "🔦",
+        "cefr": "B1"
+      },
+      {
+        "word": "lotion",
+        "ipa": "/ˈləʊʃn/",
+        "pos": "n.",
+        "zh": "乳液",
+        "example": "Apply lotion to your skin.",
+        "emoji": "🧴",
+        "cefr": "B1"
+      },
+      {
+        "word": "basin",
+        "ipa": "/ˈbeɪsn/",
+        "pos": "n.",
+        "zh": "洗手盆",
+        "example": "Wash your hands in the basin.",
+        "emoji": "🚰",
+        "cefr": "B1"
+      },
+      {
+        "word": "humidifier",
+        "ipa": "/hjuːˈmɪdɪfaɪə(r)/",
+        "pos": "n.",
+        "zh": "加湿器",
+        "example": "The humidifier makes the room comfortable.",
+        "emoji": "💨",
+        "cefr": "B1"
+      },
+      {
+        "word": "yo-yo",
+        "ipa": "/ˈjəʊ jəʊ/",
+        "pos": "n.",
+        "zh": "悠悠球",
+        "example": "He plays with a yo-yo.",
+        "emoji": "🪀",
+        "cefr": "B1"
+      },
+      {
+        "word": "plush",
+        "ipa": "/plʌʃ/",
+        "pos": "n.",
+        "zh": "毛绒玩具",
+        "example": "The baby hugged her plush toy.",
+        "emoji": "🧸",
+        "cefr": "B1"
+      },
+      {
+        "word": "nylon",
+        "ipa": "/ˈnaɪlɒn/",
+        "pos": "n.",
+        "zh": "尼龙",
+        "example": "The bag is made of nylon.",
+        "emoji": "👜",
+        "cefr": "B1"
+      },
+      {
+        "word": "polyester",
+        "ipa": "/ˌpɒliˈestə(r)/",
+        "pos": "n.",
+        "zh": "涤纶",
+        "example": "This shirt is polyester.",
+        "emoji": "👕",
+        "cefr": "B1"
+      },
+      {
+        "word": "resin",
+        "ipa": "/ˈrezɪn/",
+        "pos": "n.",
+        "zh": "树脂",
+        "example": "The table is coated with resin.",
+        "emoji": "🪵",
+        "cefr": "B1"
+      },
+      {
+        "word": "sphere",
+        "ipa": "/sfɪə(r)/",
+        "pos": "n.",
+        "zh": "球体",
+        "example": "The earth is a sphere.",
+        "emoji": "🌐",
+        "cefr": "B1"
+      },
+      {
+        "word": "cone",
+        "ipa": "/kəʊn/",
+        "pos": "n.",
+        "zh": "圆锥",
+        "example": "An ice cream cone is a cone.",
+        "emoji": "🍦",
+        "cefr": "B1"
+      },
+      {
+        "word": "hexagon",
+        "ipa": "/ˈheksəɡən/",
+        "pos": "n.",
+        "zh": "六边形",
+        "example": "A snowflake is like a hexagon.",
+        "emoji": "❄️",
+        "cefr": "B1"
+      },
+      {
+        "word": "pentagon",
+        "ipa": "/ˈpentəɡən/",
+        "pos": "n.",
+        "zh": "五边形",
+        "example": "The badge is a pentagon.",
+        "emoji": "🔷",
+        "cefr": "B1"
+      },
+      {
+        "word": "octagon",
+        "ipa": "/ˈɒktəɡən/",
+        "pos": "n.",
+        "zh": "八边形",
+        "example": "The sign is an octagon.",
+        "emoji": "🛑",
+        "cefr": "B1"
+      },
+      {
+        "word": "miniature",
+        "ipa": "/ˈmɪnətʃə(r)/",
+        "pos": "adj.",
+        "zh": "微型的",
+        "example": "She keeps a miniature garden.",
+        "emoji": "🌷",
+        "cefr": "B1"
+      },
+      {
+        "word": "colossal",
+        "ipa": "/kəˈlɒsl/",
+        "pos": "adj.",
+        "zh": "巨大的",
+        "example": "A colossal statue stands in the square.",
+        "emoji": "🗿",
+        "cefr": "B1"
+      },
+      {
+        "word": "slender",
+        "ipa": "/ˈslendə(r)/",
+        "pos": "adj.",
+        "zh": "苗条的",
+        "example": "The tree has a slender trunk.",
+        "emoji": "🌿",
+        "cefr": "B1"
+      },
+      {
+        "word": "bulky",
+        "ipa": "/ˈbʌlki/",
+        "pos": "adj.",
+        "zh": "笨重的",
+        "example": "The suitcase is bulky and heavy.",
+        "emoji": "🧳",
+        "cefr": "B1"
+      },
+      {
+        "word": "beneath",
+        "ipa": "/bɪˈniːθ/",
+        "pos": "prep.",
+        "zh": "在…下方",
+        "example": "The cat hid beneath the bed.",
+        "emoji": "🐈",
+        "cefr": "B1"
       }
     ]
   }

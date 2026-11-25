@@ -4,18 +4,178 @@
     "title": "校园学习",
     "emoji": "🎓",
     "words": [
-      { "word": "turn in", "pos": "phr.", "zh": "上交（作业）", "example": "Turn in your essay before Friday.", "emoji": "📥" },
-      { "word": "sign up for", "pos": "phr.", "zh": "报名参加", "example": "I signed up for the speaking club.", "emoji": "✏️" },
-      { "word": "drop out", "pos": "phr.", "zh": "退学；退出", "example": "He dropped out of the course after a month.", "emoji": "🚪" },
-      { "word": "keep up with", "pos": "phr.", "zh": "跟上（进度）", "example": "It is hard to keep up with the class.", "emoji": "🏃" },
-      { "word": "study for", "pos": "phr.", "zh": "为…备考", "example": "She is studying for the final exam.", "emoji": "📚" },
-      { "word": "take notes", "pos": "phr.", "zh": "记笔记", "example": "Take notes while the teacher speaks.", "emoji": "🗒️" },
-      { "word": "take an exam", "pos": "phr.", "zh": "参加考试", "example": "We take an exam at the end of each term.", "emoji": "📝" },
-      { "word": "hand back", "pos": "phr.", "zh": "发还（作业）", "example": "The teacher handed back our papers.", "emoji": "📃" },
-      { "word": "read aloud", "pos": "phr.", "zh": "朗读", "example": "Read the passage aloud, please.", "emoji": "🔈" },
-      { "word": "look through", "pos": "phr.", "zh": "浏览", "example": "Look through the chapter before class.", "emoji": "👓" },
-      { "word": "work on", "pos": "phr.", "zh": "致力于；钻研", "example": "I am working on my listening skills.", "emoji": "🔧" },
-      { "word": "catch up on", "pos": "phr.", "zh": "补上（落下的）", "example": "I need to catch up on last week's lessons.", "emoji": "📈" }
+      {
+        "word": "turn in",
+        "pos": "phr.",
+        "zh": "上交（作业）",
+        "example": "Turn in your essay before Friday.",
+        "emoji": "📥",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "sign up for",
+        "pos": "phr.",
+        "zh": "报名参加",
+        "example": "I signed up for the speaking club.",
+        "emoji": "✏️",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "drop out",
+        "pos": "phr.",
+        "zh": "退学；退出",
+        "example": "He dropped out of the course after a month.",
+        "emoji": "🚪",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "keep up with",
+        "pos": "phr.",
+        "zh": "跟上（进度）",
+        "example": "It is hard to keep up with the class.",
+        "emoji": "🏃",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "study for",
+        "pos": "phr.",
+        "zh": "为…备考",
+        "example": "She is studying for the final exam.",
+        "emoji": "📚",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "take notes",
+        "pos": "phr.",
+        "zh": "记笔记",
+        "example": "Take notes while the teacher speaks.",
+        "emoji": "🗒️",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "take an exam",
+        "pos": "phr.",
+        "zh": "参加考试",
+        "example": "We take an exam at the end of each term.",
+        "emoji": "📝",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "hand back",
+        "pos": "phr.",
+        "zh": "发还（作业）",
+        "example": "The teacher handed back our papers.",
+        "emoji": "📃",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "read aloud",
+        "pos": "phr.",
+        "zh": "朗读",
+        "example": "Read the passage aloud, please.",
+        "emoji": "🔈",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "look through",
+        "pos": "phr.",
+        "zh": "浏览",
+        "example": "Look through the chapter before class.",
+        "emoji": "👓",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "work on",
+        "pos": "phr.",
+        "zh": "致力于；钻研",
+        "example": "I am working on my listening skills.",
+        "emoji": "🔧",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "catch up on",
+        "pos": "phr.",
+        "zh": "补上（落下的）",
+        "example": "I need to catch up on last week's lessons.",
+        "emoji": "📈",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "hand out",
+        "pos": "phr.",
+        "zh": "分发",
+        "example": "The teacher handed out tests.",
+        "emoji": "📋",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "brush up on",
+        "ipa": "/brʌʃ ʌp ɒn/",
+        "pos": "phr.",
+        "zh": "温习",
+        "example": "I brushed up on my grammar.",
+        "emoji": "📖",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "pass the exam",
+        "pos": "phr.",
+        "zh": "通过考试",
+        "example": "He passed the exam with flying colours.",
+        "emoji": "🏅",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "fail the exam",
+        "pos": "phr.",
+        "zh": "考试不及格",
+        "example": "She failed the exam and retook it.",
+        "emoji": "😔",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "review for",
+        "pos": "phr.",
+        "zh": "为…复习",
+        "example": "They reviewed for the final together.",
+        "emoji": "📖",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "do well in",
+        "pos": "phr.",
+        "zh": "在某方面表现好",
+        "example": "She does well in math and science.",
+        "emoji": "🏅",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "get good grades",
+        "pos": "phr.",
+        "zh": "取得好成绩",
+        "example": "He always gets good grades in English.",
+        "emoji": "📈",
+        "cefr": "B1",
+        "level": "B1"
+      }
     ]
   },
   {
@@ -23,18 +183,159 @@
     "title": "办公会议",
     "emoji": "🏢",
     "words": [
-      { "word": "call off", "pos": "phr.", "zh": "取消", "example": "They called off the meeting.", "emoji": "❌" },
-      { "word": "put through", "pos": "phr.", "zh": "转接（电话）", "example": "I will put you through to the manager.", "emoji": "☎️" },
-      { "word": "take down", "pos": "phr.", "zh": "记录下来", "example": "She took down every point in the meeting.", "emoji": "📝" },
-      { "word": "bring in", "pos": "phr.", "zh": "引入；请来", "example": "They brought in an expert to help.", "emoji": "🤝" },
-      { "word": "kick off", "pos": "phr.", "zh": "启动；开始", "example": "The project kicked off in March.", "emoji": "🚀" },
-      { "word": "sign off", "pos": "phr.", "zh": "签字确认", "example": "The director signed off on the budget.", "emoji": "✒️" },
-      { "word": "hand over", "pos": "phr.", "zh": "移交", "example": "He handed over the files before leaving.", "emoji": "🗃️" },
-      { "word": "draw up", "pos": "phr.", "zh": "起草", "example": "We drew up a new contract.", "emoji": "📐" },
-      { "word": "lay out", "pos": "phr.", "zh": "布置；陈述", "example": "She laid out the plan clearly.", "emoji": "🧱" },
-      { "word": "follow up", "pos": "phr.", "zh": "跟进", "example": "I will follow up on your request.", "emoji": "🔔" },
-      { "word": "run through", "pos": "phr.", "zh": "过一遍；快速演练", "example": "Let us run through the slides once.", "emoji": "🎬" },
-      { "word": "book up", "pos": "phr.", "zh": "订满；排满", "example": "The hotel is booked up this weekend.", "emoji": "📅" }
+      {
+        "word": "call off",
+        "pos": "phr.",
+        "zh": "取消",
+        "example": "They called off the meeting.",
+        "emoji": "❌",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "put through",
+        "pos": "phr.",
+        "zh": "转接（电话）",
+        "example": "I will put you through to the manager.",
+        "emoji": "☎️",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "take down",
+        "pos": "phr.",
+        "zh": "记录下来",
+        "example": "She took down every point in the meeting.",
+        "emoji": "📝",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "bring in",
+        "pos": "phr.",
+        "zh": "引入；请来",
+        "example": "They brought in an expert to help.",
+        "emoji": "🤝",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "kick off",
+        "pos": "phr.",
+        "zh": "启动；开始",
+        "example": "The project kicked off in March.",
+        "emoji": "🚀",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "sign off",
+        "pos": "phr.",
+        "zh": "签字确认",
+        "example": "The director signed off on the budget.",
+        "emoji": "✒️",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "hand over",
+        "pos": "phr.",
+        "zh": "移交",
+        "example": "He handed over the files before leaving.",
+        "emoji": "🗃️",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "draw up",
+        "pos": "phr.",
+        "zh": "起草",
+        "example": "We drew up a new contract.",
+        "emoji": "📐",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "lay out",
+        "pos": "phr.",
+        "zh": "布置；陈述",
+        "example": "She laid out the plan clearly.",
+        "emoji": "🧱",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "follow up",
+        "pos": "phr.",
+        "zh": "跟进",
+        "example": "I will follow up on your request.",
+        "emoji": "🔔",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "run through",
+        "pos": "phr.",
+        "zh": "过一遍；快速演练",
+        "example": "Let us run through the slides once.",
+        "emoji": "🎬",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "book up",
+        "pos": "phr.",
+        "zh": "订满；排满",
+        "example": "The hotel is booked up this weekend.",
+        "emoji": "📅",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "push back",
+        "pos": "phr.",
+        "zh": "推迟，延后",
+        "example": "The launch date was pushed back.",
+        "emoji": "📅",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "loop in",
+        "pos": "phr.",
+        "zh": "抄送，拉入",
+        "example": "Loop me in on the email thread.",
+        "emoji": "🔗",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "take minutes",
+        "pos": "phr.",
+        "zh": "做会议记录",
+        "example": "She takes minutes at every meeting.",
+        "emoji": "📝",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "delegate to",
+        "pos": "phr.",
+        "zh": "委派给",
+        "example": "The manager delegated the task to me.",
+        "emoji": "📨",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "cc someone",
+        "pos": "phr.",
+        "zh": "抄送某人",
+        "example": "Please cc your manager in the email.",
+        "emoji": "📧",
+        "cefr": "B2",
+        "level": "B2"
+      }
     ]
   },
   {
@@ -42,18 +343,169 @@
     "title": "冲突争执",
     "emoji": "⚡",
     "words": [
-      { "word": "argue with", "pos": "phr.", "zh": "与…争论", "example": "He argued with his boss about the plan.", "emoji": "🗯️" },
-      { "word": "fight back", "pos": "phr.", "zh": "反击", "example": "She fought back against unfair rules.", "emoji": "🥊" },
-      { "word": "stand up for", "pos": "phr.", "zh": "维护；支持", "example": "Stand up for what you believe in.", "emoji": "🛡️" },
-      { "word": "back down", "pos": "phr.", "zh": "让步；退缩", "example": "Neither side would back down.", "emoji": "🔽" },
-      { "word": "give in", "pos": "phr.", "zh": "屈服；让步", "example": "He finally gave in to their demands.", "emoji": "🏳️" },
-      { "word": "take sides", "pos": "phr.", "zh": "站队", "example": "A good judge never takes sides.", "emoji": "⚖️" },
-      { "word": "blow up", "pos": "phr.", "zh": "突然发火；爆炸", "example": "He blew up when he saw the bill.", "emoji": "💥" },
-      { "word": "cool off", "pos": "phr.", "zh": "冷静下来", "example": "Take a walk and cool off.", "emoji": "❄️" },
-      { "word": "get even", "pos": "phr.", "zh": "报复", "example": "She wanted to get even with him.", "emoji": "😈" },
-      { "word": "let down", "pos": "phr.", "zh": "使失望", "example": "I am sorry to let you down.", "emoji": "📉" },
-      { "word": "pick on", "pos": "phr.", "zh": "找茬；欺负", "example": "Stop picking on the new student.", "emoji": "🎯" },
-      { "word": "stand out", "pos": "phr.", "zh": "突出；显眼", "example": "Her work stands out from the rest.", "emoji": "🌟" }
+      {
+        "word": "argue with",
+        "pos": "phr.",
+        "zh": "与…争论",
+        "example": "He argued with his boss about the plan.",
+        "emoji": "🗯️",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "fight back",
+        "pos": "phr.",
+        "zh": "反击",
+        "example": "She fought back against unfair rules.",
+        "emoji": "🥊",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "stand up for",
+        "pos": "phr.",
+        "zh": "维护；支持",
+        "example": "Stand up for what you believe in.",
+        "emoji": "🛡️",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "back down",
+        "pos": "phr.",
+        "zh": "让步；退缩",
+        "example": "Neither side would back down.",
+        "emoji": "🔽",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "give in",
+        "pos": "phr.",
+        "zh": "屈服；让步",
+        "example": "He finally gave in to their demands.",
+        "emoji": "🏳️",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "take sides",
+        "pos": "phr.",
+        "zh": "站队",
+        "example": "A good judge never takes sides.",
+        "emoji": "⚖️",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "blow up",
+        "pos": "phr.",
+        "zh": "突然发火；爆炸",
+        "example": "He blew up when he saw the bill.",
+        "emoji": "💥",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "cool off",
+        "pos": "phr.",
+        "zh": "冷静下来",
+        "example": "Take a walk and cool off.",
+        "emoji": "❄️",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "get even",
+        "pos": "phr.",
+        "zh": "报复",
+        "example": "She wanted to get even with him.",
+        "emoji": "😈",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "let down",
+        "pos": "phr.",
+        "zh": "使失望",
+        "example": "I am sorry to let you down.",
+        "emoji": "📉",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "pick on",
+        "pos": "phr.",
+        "zh": "找茬；欺负",
+        "example": "Stop picking on the new student.",
+        "emoji": "🎯",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "stand out",
+        "pos": "phr.",
+        "zh": "突出；显眼",
+        "example": "Her work stands out from the rest.",
+        "emoji": "🌟",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "patch up",
+        "ipa": "/pætʃ ʌp/",
+        "pos": "phr.",
+        "zh": "和解",
+        "example": "They patched up their quarrel.",
+        "emoji": "🤝",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "smooth over",
+        "pos": "phr.",
+        "zh": "平息，缓和",
+        "example": "He smoothed over the argument.",
+        "emoji": "🕊️",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "square off",
+        "pos": "phr.",
+        "zh": "对峙",
+        "example": "The two sides squared off in court.",
+        "emoji": "⚔️",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "stand firm",
+        "pos": "phr.",
+        "zh": "立场坚定",
+        "example": "The union stood firm on wages.",
+        "emoji": "🧱",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "take the blame",
+        "pos": "phr.",
+        "zh": "承担责任；背锅",
+        "example": "He took the blame for the mistake.",
+        "emoji": "🙋",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "have it out with",
+        "pos": "phr.",
+        "zh": "与…摊牌说清",
+        "example": "She had it out with him about the noise.",
+        "emoji": "🗣️",
+        "cefr": "C1",
+        "level": "C1"
+      }
     ]
   },
   {
@@ -61,18 +513,159 @@
     "title": "自然天气",
     "emoji": "🌦️",
     "words": [
-      { "word": "clear up", "pos": "phr.", "zh": "放晴", "example": "The sky cleared up after lunch.", "emoji": "☀️" },
-      { "word": "cloud over", "pos": "phr.", "zh": "阴起来", "example": "It clouded over before the storm.", "emoji": "☁️" },
-      { "word": "pour down", "pos": "phr.", "zh": "倾盆而下", "example": "It poured down all afternoon.", "emoji": "🌧️" },
-      { "word": "freeze over", "pos": "phr.", "zh": "结冰", "example": "The lake froze over in winter.", "emoji": "🧊" },
-      { "word": "dry up", "pos": "phr.", "zh": "干涸", "example": "The river dried up last summer.", "emoji": "🏜️" },
-      { "word": "blow over", "pos": "phr.", "zh": "（风暴）平息", "example": "The storm blew over by morning.", "emoji": "🌬️" },
-      { "word": "come out", "pos": "phr.", "zh": "（花）开放；出现", "example": "The flowers come out in April.", "emoji": "🌸" },
-      { "word": "die off", "pos": "phr.", "zh": "（植物）枯死", "example": "The leaves die off in autumn.", "emoji": "🍂" },
-      { "word": "grow back", "pos": "phr.", "zh": "重新长出", "example": "The grass grew back after the rain.", "emoji": "🌿" },
-      { "word": "take root", "pos": "phr.", "zh": "扎根", "example": "The tree took root in the rocky soil.", "emoji": "🌱" },
-      { "word": "break through", "pos": "phr.", "zh": "破土而出；突破", "example": "Small shoots broke through the ground.", "emoji": "🌾" },
-      { "word": "wash away", "pos": "phr.", "zh": "冲走", "example": "The flood washed away the bridge.", "emoji": "🌊" }
+      {
+        "word": "clear up",
+        "pos": "phr.",
+        "zh": "放晴",
+        "example": "The sky cleared up after lunch.",
+        "emoji": "☀️",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "cloud over",
+        "pos": "phr.",
+        "zh": "阴起来",
+        "example": "It clouded over before the storm.",
+        "emoji": "☁️",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "pour down",
+        "pos": "phr.",
+        "zh": "倾盆而下",
+        "example": "It poured down all afternoon.",
+        "emoji": "🌧️",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "freeze over",
+        "pos": "phr.",
+        "zh": "结冰",
+        "example": "The lake froze over in winter.",
+        "emoji": "🧊",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "dry up",
+        "pos": "phr.",
+        "zh": "干涸",
+        "example": "The river dried up last summer.",
+        "emoji": "🏜️",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "blow over",
+        "pos": "phr.",
+        "zh": "（风暴）平息",
+        "example": "The storm blew over by morning.",
+        "emoji": "🌬️",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "come out",
+        "pos": "phr.",
+        "zh": "（花）开放；出现",
+        "example": "The flowers come out in April.",
+        "emoji": "🌸",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "die off",
+        "pos": "phr.",
+        "zh": "（植物）枯死",
+        "example": "The leaves die off in autumn.",
+        "emoji": "🍂",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "grow back",
+        "pos": "phr.",
+        "zh": "重新长出",
+        "example": "The grass grew back after the rain.",
+        "emoji": "🌿",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "take root",
+        "pos": "phr.",
+        "zh": "扎根",
+        "example": "The tree took root in the rocky soil.",
+        "emoji": "🌱",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "break through",
+        "pos": "phr.",
+        "zh": "破土而出；突破",
+        "example": "Small shoots broke through the ground.",
+        "emoji": "🌾",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "wash away",
+        "pos": "phr.",
+        "zh": "冲走",
+        "example": "The flood washed away the bridge.",
+        "emoji": "🌊",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "spring up",
+        "pos": "phr.",
+        "zh": "涌现",
+        "example": "New shops sprang up along the street.",
+        "emoji": "🌱",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "wither away",
+        "pos": "phr.",
+        "zh": "枯萎，衰退",
+        "example": "The old industry withered away.",
+        "emoji": "🍂",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "in bloom",
+        "pos": "phr.",
+        "zh": "开花，盛开",
+        "example": "The cherry trees are in bloom along the river.",
+        "example_zh": "河边的樱花树正值盛开。",
+        "cefr": "B1",
+        "level": "B1"
+      },
+      {
+        "word": "melt away",
+        "pos": "phr.",
+        "zh": "融化消失",
+        "example": "The snow melted away in the spring sun.",
+        "emoji": "❄️",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "fade away",
+        "pos": "phr.",
+        "zh": "逐渐褪去；消失",
+        "example": "The colors faded away in the sunlight.",
+        "emoji": "🎨",
+        "cefr": "B1",
+        "level": "B1"
+      }
     ]
   },
   {
@@ -80,18 +673,170 @@
     "title": "身体动作",
     "emoji": "🤸",
     "words": [
-      { "word": "reach out", "pos": "phr.", "zh": "伸出手", "example": "She reached out to take the cup.", "emoji": "🤲" },
-      { "word": "bend over", "pos": "phr.", "zh": "弯腰", "example": "He bent over to pick up the pen.", "emoji": "🙇" },
-      { "word": "lie around", "pos": "phr.", "zh": "闲躺着", "example": "Stop lying around and do some work.", "emoji": "🛋️" },
-      { "word": "run after", "pos": "phr.", "zh": "追赶", "example": "The dog ran after the ball.", "emoji": "🏃" },
-      { "word": "walk away", "pos": "phr.", "zh": "走开", "example": "He walked away without a word.", "emoji": "🚶" },
-      { "word": "jump in", "pos": "phr.", "zh": "跳入；插话", "example": "They jumped in the lake for a swim.", "emoji": "🤿" },
-      { "word": "climb up", "pos": "phr.", "zh": "爬上", "example": "We climbed up the hill at dawn.", "emoji": "🧗" },
-      { "word": "pull up", "pos": "phr.", "zh": "拉起；停下", "example": "A car pulled up outside the shop.", "emoji": "🪢" },
-      { "word": "push away", "pos": "phr.", "zh": "推开", "example": "She pushed away the plate politely.", "emoji": "🙌" },
-      { "word": "hold on to", "pos": "phr.", "zh": "抓住；保留", "example": "Hold on to the rail firmly.", "emoji": "✊" },
-      { "word": "let go", "pos": "phr.", "zh": "松手；放手", "example": "Do not let go of the rope.", "emoji": "🕊️" },
-      { "word": "roll over", "pos": "phr.", "zh": "翻身；打滚", "example": "The dog rolled over on the grass.", "emoji": "🔄" }
+      {
+        "word": "reach out",
+        "pos": "phr.",
+        "zh": "伸出手",
+        "example": "She reached out to take the cup.",
+        "emoji": "🤲",
+        "cefr": "A2",
+        "level": "A2"
+      },
+      {
+        "word": "bend over",
+        "pos": "phr.",
+        "zh": "弯腰",
+        "example": "He bent over to pick up the pen.",
+        "emoji": "🙇",
+        "cefr": "A2",
+        "level": "A2"
+      },
+      {
+        "word": "lie around",
+        "pos": "phr.",
+        "zh": "闲躺着",
+        "example": "Stop lying around and do some work.",
+        "emoji": "🛋️",
+        "cefr": "A2",
+        "level": "A2"
+      },
+      {
+        "word": "run after",
+        "pos": "phr.",
+        "zh": "追赶",
+        "example": "The dog ran after the ball.",
+        "emoji": "🏃",
+        "cefr": "A2",
+        "level": "A2"
+      },
+      {
+        "word": "walk away",
+        "pos": "phr.",
+        "zh": "走开",
+        "example": "He walked away without a word.",
+        "emoji": "🚶",
+        "cefr": "A2",
+        "level": "A2"
+      },
+      {
+        "word": "jump in",
+        "pos": "phr.",
+        "zh": "跳入；插话",
+        "example": "They jumped in the lake for a swim.",
+        "emoji": "🤿",
+        "cefr": "A2",
+        "level": "A2"
+      },
+      {
+        "word": "climb up",
+        "pos": "phr.",
+        "zh": "爬上",
+        "example": "We climbed up the hill at dawn.",
+        "emoji": "🧗",
+        "cefr": "A2",
+        "level": "A2"
+      },
+      {
+        "word": "pull up",
+        "pos": "phr.",
+        "zh": "拉起；停下",
+        "example": "A car pulled up outside the shop.",
+        "emoji": "🪢",
+        "cefr": "A2",
+        "level": "A2"
+      },
+      {
+        "word": "push away",
+        "pos": "phr.",
+        "zh": "推开",
+        "example": "She pushed away the plate politely.",
+        "emoji": "🙌",
+        "cefr": "A2",
+        "level": "A2"
+      },
+      {
+        "word": "hold on to",
+        "pos": "phr.",
+        "zh": "抓住；保留",
+        "example": "Hold on to the rail firmly.",
+        "emoji": "✊",
+        "cefr": "A2",
+        "level": "A2"
+      },
+      {
+        "word": "let go",
+        "pos": "phr.",
+        "zh": "松手；放手",
+        "example": "Do not let go of the rope.",
+        "emoji": "🕊️",
+        "cefr": "A2",
+        "level": "A2"
+      },
+      {
+        "word": "roll over",
+        "pos": "phr.",
+        "zh": "翻身；打滚",
+        "example": "The dog rolled over on the grass.",
+        "emoji": "🔄",
+        "cefr": "A2",
+        "level": "A2"
+      },
+      {
+        "word": "lean back",
+        "ipa": "/liːn bæk/",
+        "pos": "phr.",
+        "zh": "向后靠",
+        "example": "Lean back and relax.",
+        "emoji": "🪑",
+        "cefr": "A2",
+        "level": "A2"
+      },
+      {
+        "word": "stretch out",
+        "ipa": "/stretʃ aʊt/",
+        "pos": "phr.",
+        "zh": "伸展四肢",
+        "example": "Stretch out before the run.",
+        "emoji": "🧘",
+        "cefr": "A2",
+        "level": "A2"
+      },
+      {
+        "word": "curl up",
+        "pos": "phr.",
+        "zh": "蜷缩",
+        "example": "The cat curled up on the sofa.",
+        "emoji": "🐈",
+        "cefr": "A2",
+        "level": "A2"
+      },
+      {
+        "word": "bow down",
+        "pos": "phr.",
+        "zh": "鞠躬，俯首",
+        "example": "They bowed down before the king.",
+        "emoji": "🙇",
+        "cefr": "A2",
+        "level": "A2"
+      },
+      {
+        "word": "double over",
+        "pos": "phr.",
+        "zh": "弯腰；笑弯了腰",
+        "example": "He doubled over with laughter.",
+        "emoji": "🤣",
+        "cefr": "B2",
+        "level": "B2"
+      },
+      {
+        "word": "hunch over",
+        "pos": "phr.",
+        "zh": "弓着身子",
+        "example": "Don't hunch over your phone all day.",
+        "emoji": "🧘",
+        "cefr": "B2",
+        "level": "B2"
+      }
     ]
   }
 ]

@@ -1,1 +1,5272 @@
-[{"word":"academic","ipa":"/ˌækəˈdemɪk/","pos":"adj.","zh":"学术的","example":"Her academic record is excellent.","l5_core":"subject"},{"word":"curriculum","ipa":"/kəˈrɪkjələm/","pos":"n.","zh":"课程体系","example":"The curriculum includes art and music.","l5_core":"course"},{"word":"seminar","ipa":"/ˈsemɪnɑː(r)/","pos":"n.","zh":"研讨课","example":"We discussed the topic in the seminar.","l5_core":"professor"},{"word":"assignment","ipa":"/əˈsaɪnmənt/","pos":"n.","zh":"作业，任务","example":"The assignment is due on Friday.","l5_core":"homework"},{"word":"degree","ipa":"/dɪˈɡriː/","pos":"n.","zh":"学位","example":"She earned a degree in biology.","l5_core":"degree"},{"word":"scholarship","ipa":"/ˈskɒləʃɪp/","pos":"n.","zh":"奖学金","example":"He won a full scholarship.","l5_core":"exam"},{"word":"lecture","ipa":"/ˈlektʃə(r)/","pos":"n.","zh":"讲座，讲课","example":"The lecture lasted for two hours.","l5_core":"professor"},{"word":"research","ipa":"/rɪˈsɜːtʃ/","pos":"n./v.","zh":"研究","example":"She does research on climate change.","l5_core":"research"},{"word":"knowledge","ipa":"/ˈnɒlɪdʒ/","pos":"n.","zh":"知识","example":"Books give us knowledge.","l5_core":"knowledge"},{"word":"achieve","ipa":"/əˈtʃiːv/","pos":"v.","zh":"实现，达到","example":"You can achieve your goal with hard work.","l5_core":"practice"},{"word":"improve","ipa":"/ɪmˈpruːv/","pos":"v.","zh":"提高，改进","example":"Practice will improve your English.","l5_core":"practice"},{"word":"graduate","ipa":"/ˈɡrædʒueɪt/","pos":"v./n.","zh":"毕业；毕业生","example":"She will graduate next year.","l5_core":"degree"},{"word":"society","ipa":"/səˈsaɪəti/","pos":"n.","zh":"社会","example":"Technology changes our society fast.","l5_core":"society"},{"word":"community","ipa":"/kəˈmjuːnəti/","pos":"n.","zh":"社区，群体","example":"Our community holds a market on Sundays.","l5_core":"community"},{"word":"citizen","ipa":"/ˈsɪtɪzən/","pos":"n.","zh":"公民，市民","example":"Every citizen has the right to vote.","l5_core":"citizen"},{"word":"policy","ipa":"/ˈpɒləsi/","pos":"n.","zh":"政策","example":"The new policy supports small businesses.","l5_core":"government"},{"word":"government","ipa":"/ˈɡʌvənmənt/","pos":"n.","zh":"政府","example":"The government built a new hospital.","l5_core":"government"},{"word":"media","ipa":"/ˈmiːdiə/","pos":"n.","zh":"媒体","example":"The media reported the news quickly.","l5_core":"news"},{"word":"issue","ipa":"/ˈɪʃuː/","pos":"n.","zh":"议题，问题","example":"Housing is a big issue in cities.","l5_core":"report"},{"word":"affect","ipa":"/əˈfekt/","pos":"v.","zh":"影响","example":"The weather affects my mood.","l5_core":"economy"},{"word":"increase","ipa":"/ɪnˈkriːs/","pos":"v./n.","zh":"增加","example":"Sales increased by ten percent.","l5_core":"population"},{"word":"opinion","ipa":"/əˈpɪnjən/","pos":"n.","zh":"观点","example":"In my opinion, reading is important.","l5_core":"tradition"},{"word":"event","ipa":"/ɪˈvent/","pos":"n.","zh":"事件，活动","example":"The sports event was exciting.","l5_core":"event"},{"word":"culture","ipa":"/ˈkʌltʃə(r)/","pos":"n.","zh":"文化","example":"Music is part of our culture.","l5_core":"culture"},{"word":"health","ipa":"/helθ/","pos":"n.","zh":"健康","example":"Good sleep is important for health.","l5_core":"healthy"},{"word":"disease","ipa":"/dɪˈziːz/","pos":"n.","zh":"疾病","example":"Clean water prevents disease.","l5_core":"hospital"},{"word":"treatment","ipa":"/ˈtriːtmənt/","pos":"n.","zh":"治疗","example":"The treatment worked well.","l5_core":"medicine"},{"word":"nutrition","ipa":"/njuˈtrɪʃn/","pos":"n.","zh":"营养","example":"Good nutrition keeps you strong.","l5_core":"diet"},{"word":"exercise","ipa":"/ˈeksəsaɪz/","pos":"n./v.","zh":"锻炼","example":"Daily exercise benefits your heart.","l5_core":"exercise"},{"word":"scientific","ipa":"/ˌsaɪənˈtɪfɪk/","pos":"adj.","zh":"科学的","example":"The result comes from scientific tests.","l5_core":"fitness"},{"word":"experiment","ipa":"/ɪkˈsperɪmənt/","pos":"n.","zh":"实验","example":"We did an experiment in the lab.","l5_core":"practice"},{"word":"evidence","ipa":"/ˈevɪdəns/","pos":"n.","zh":"证据","example":"The evidence supports the theory.","l5_core":"history"},{"word":"prevent","ipa":"/prɪˈvent/","pos":"v.","zh":"预防，阻止","example":"Washing hands can prevent illness.","l5_core":"protect"},{"word":"energy","ipa":"/ˈenədʒi/","pos":"n.","zh":"精力，能量","example":"Exercise gives me energy.","l5_core":"energy"},{"word":"balance","ipa":"/ˈbæləns/","pos":"n./v.","zh":"平衡","example":"Keep a balance between work and rest.","l5_core":"healthy"},{"word":"recover","ipa":"/rɪˈkʌvə(r)/","pos":"v.","zh":"恢复","example":"He recovered from the cold quickly.","l5_core":"patient"},{"word":"technology","ipa":"/tekˈnɒlədʒi/","pos":"n.","zh":"科技","example":"Technology makes life convenient.","l5_core":"computer"},{"word":"digital","ipa":"/ˈdɪdʒɪtl/","pos":"adj.","zh":"数字的","example":"We live in a digital age.","l5_core":"screen"},{"word":"device","ipa":"/dɪˈvaɪs/","pos":"n.","zh":"设备","example":"This device can charge your phone.","l5_core":"keyboard"},{"word":"network","ipa":"/ˈnetwɜːk/","pos":"n.","zh":"网络","example":"The office network is very fast.","l5_core":"internet"},{"word":"software","ipa":"/ˈsɒftweə(r)/","pos":"n.","zh":"软件","example":"This software helps you edit photos.","l5_core":"software"},{"word":"data","ipa":"/ˈdeɪtə/","pos":"n.","zh":"数据","example":"We store data in the cloud.","l5_core":"information"},{"word":"connect","ipa":"/kəˈnekt/","pos":"v.","zh":"连接","example":"Connect the printer to the computer.","l5_core":"email"},{"word":"access","ipa":"/ˈækses/","pos":"n./v.","zh":"访问，获取","example":"Students have free access to the library.","l5_core":"website"},{"word":"communicate","ipa":"/kəˈmjuːnɪkeɪt/","pos":"v.","zh":"交流","example":"We communicate by email.","l5_core":"message"},{"word":"develop","ipa":"/dɪˈveləp/","pos":"v.","zh":"开发，发展","example":"They develop apps for learning.","l5_core":"project"},{"word":"download","ipa":"/ˌdaʊnˈləʊd/","pos":"v.","zh":"下载","example":"Download the file from the website.","l5_core":"download"},{"word":"security","ipa":"/sɪˈkjʊərəti/","pos":"n.","zh":"安全","example":"Password security is very important.","l5_core":"password"},{"word":"environment","ipa":"/ɪnˈvaɪrənmənt/","pos":"n.","zh":"环境","example":"We must protect the environment.","l5_core":"environment"},{"word":"pollution","ipa":"/pəˈluːʃn/","pos":"n.","zh":"污染","example":"Air pollution is a serious problem.","l5_core":"waste"},{"word":"resource","ipa":"/rɪˈsɔːs/","pos":"n.","zh":"资源","example":"Water is a precious resource.","l5_core":"power"},{"word":"climate","ipa":"/ˈklaɪmət/","pos":"n.","zh":"气候","example":"The climate is changing.","l5_core":"climate"},{"word":"recycle","ipa":"/ˌriːˈsaɪkl/","pos":"v.","zh":"回收利用","example":"We recycle paper and plastic.","l5_core":"recycle"},{"word":"reduce","ipa":"/rɪˈdjuːs/","pos":"v.","zh":"减少","example":"Turn off lights to reduce energy use.","l5_core":"reduce"},{"word":"protect","ipa":"/prəˈtekt/","pos":"v.","zh":"保护","example":"Protect the forest from fire.","l5_core":"protect"},{"word":"species","ipa":"/ˈspiːʃiːz/","pos":"n.","zh":"物种","example":"This species only lives on the island.","l5_core":"plant"},{"word":"natural","ipa":"/ˈnætʃrəl/","pos":"adj.","zh":"自然的","example":"Natural parks keep wildlife safe.","l5_core":"natural"},{"word":"global","ipa":"/ˈɡləʊbl/","pos":"adj.","zh":"全球的","example":"Global warming worries scientists.","l5_core":"earth"},{"word":"ecosystem","ipa":"/ˈiːkəʊsɪstəm/","pos":"n.","zh":"生态系统","example":"The wetland is a rich ecosystem.","l5_core":"forest"},{"word":"sustain","ipa":"/səˈsteɪn/","pos":"v.","zh":"维持，可持续","example":"We need sustainable ways of living.","l5_core":"power"},{"word":"career","ipa":"/kəˈrɪə(r)/","pos":"n.","zh":"职业，生涯","example":"She plans a career in medicine.","l5_core":"career"},{"word":"profession","ipa":"/prəˈfeʃn/","pos":"n.","zh":"专业职业","example":"Teaching is a respected profession.","l5_core":"engineer"},{"word":"employer","ipa":"/ɪmˈplɔɪə(r)/","pos":"n.","zh":"雇主","example":"The employer offers free training.","l5_core":"company"},{"word":"employee","ipa":"/ɪmˈplɔɪiː/","pos":"n.","zh":"雇员","example":"The employees work in shifts.","l5_core":"colleague"},{"word":"salary","ipa":"/ˈsæləri/","pos":"n.","zh":"薪水","example":"The salary is paid monthly.","l5_core":"salary"},{"word":"skill","ipa":"/skɪl/","pos":"n.","zh":"技能","example":"Communication is a useful skill.","l5_core":"skill"},{"word":"experience","ipa":"/ɪkˈspɪəriəns/","pos":"n.","zh":"经验，经历","example":"She has three years of experience.","l5_core":"experience"},{"word":"interview","ipa":"/ˈɪntəvjuː/","pos":"n./v.","zh":"面试，采访","example":"The interview went very well.","l5_core":"interview"},{"word":"promote","ipa":"/prəˈməʊt/","pos":"v.","zh":"晋升，推广","example":"He was promoted to manager.","l5_core":"manager"},{"word":"responsibility","ipa":"/rɪˌspɒnsəˈbɪləti/","pos":"n.","zh":"责任","example":"Safety is everyone’s responsibility.","l5_core":"project"},{"word":"training","ipa":"/ˈtreɪnɪŋ/","pos":"n.","zh":"培训","example":"The company provides free training.","l5_core":"practice"},{"word":"retire","ipa":"/rɪˈtaɪə(r)/","pos":"v.","zh":"退休","example":"My father will retire at sixty.","l5_core":"office"},{"word":"journey","ipa":"/ˈdʒɜːni/","pos":"n.","zh":"旅程","example":"The journey took eight hours.","l5_core":"trip"},{"word":"destination","ipa":"/ˌdestɪˈneɪʃn/","pos":"n.","zh":"目的地","example":"Beijing is our destination.","l5_core":"destination"},{"word":"tourist","ipa":"/ˈtʊərɪst/","pos":"n.","zh":"游客","example":"Tourists visit the old temple.","l5_core":"tour"},{"word":"custom","ipa":"/ˈkʌstəm/","pos":"n.","zh":"风俗习惯","example":"The local customs are interesting.","l5_core":"tradition"},{"word":"tradition","ipa":"/trəˈdɪʃn/","pos":"n.","zh":"传统","example":"Eating dumplings is a tradition.","l5_core":"history"},{"word":"abroad","ipa":"/əˈbrɔːd/","pos":"adv.","zh":"在国外","example":"She studies abroad in London.","l5_core":"airport"},{"word":"accommodation","ipa":"/əˌkɒməˈdeɪʃn/","pos":"n.","zh":"住宿","example":"The hotel offers cheap accommodation.","l5_core":"hotel"},{"word":"transport","ipa":"/ˈtrænspɔːt/","pos":"n.","zh":"交通","example":"Public transport is convenient here.","l5_core":"railway"},{"word":"scenery","ipa":"/ˈsiːnəri/","pos":"n.","zh":"风景","example":"The scenery in the mountains is beautiful.","l5_core":"guide"},{"word":"exchange","ipa":"/ɪksˈtʃeɪndʒ/","pos":"n./v.","zh":"交换，交流","example":"Students join an exchange program.","l5_core":"ticket"},{"word":"explore","ipa":"/ɪkˈsplɔː(r)/","pos":"v.","zh":"探索","example":"We explored the old town on foot.","l5_core":"passport"},{"word":"arrange","ipa":"/əˈreɪndʒ/","pos":"v.","zh":"安排","example":"She arranged the trip for us.","l5_core":"booking"},{"word":"relative","ipa":"/ˈrelətɪv/","pos":"n.","zh":"亲戚","example":"Many relatives came to the party.","l5_core":"relative"},{"word":"relationship","ipa":"/rɪˈleɪʃnʃɪp/","pos":"n.","zh":"关系","example":"They have a close relationship.","l5_core":"cousin"},{"word":"emotion","ipa":"/ɪˈməʊʃn/","pos":"n.","zh":"情绪，情感","example":"Music can bring strong emotions.","l5_core":"excited"},{"word":"support","ipa":"/səˈpɔːt/","pos":"v./n.","zh":"支持","example":"My family supports my dreams.","l5_core":"husband"},{"word":"trust","ipa":"/trʌst/","pos":"v./n.","zh":"信任","example":"Friends should trust each other.","l5_core":"wife"},{"word":"respect","ipa":"/rɪˈspekt/","pos":"v./n.","zh":"尊重","example":"We respect our elders.","l5_core":"relative"},{"word":"generation","ipa":"/ˌdʒenəˈreɪʃn/","pos":"n.","zh":"一代人","example":"This tradition passed through generations.","l5_core":"nephew"},{"word":"memory","ipa":"/ˈmeməri/","pos":"n.","zh":"记忆","example":"The photo brings back sweet memories.","l5_core":"memorize"},{"word":"encourage","ipa":"/ɪnˈkʌrɪdʒ/","pos":"v.","zh":"鼓励","example":"My parents encourage me to try new things.","l5_core":"proud"},{"word":"share","ipa":"/ʃeə(r)/","pos":"v.","zh":"分享","example":"We share happy moments together.","l5_core":"lonely"},{"word":"comfort","ipa":"/ˈkʌmfət/","pos":"n./v.","zh":"安慰，舒适","example":"A warm hug gives comfort.","l5_core":"nervous"},{"word":"belong","ipa":"/bɪˈlɒŋ/","pos":"v.","zh":"属于","example":"I feel I belong to this team.","l5_core":"excited"}]
+[
+  {
+    "word": "academic",
+    "ipa": "/ˌækəˈdemɪk/",
+    "pos": "adj.",
+    "zh": "学术的",
+    "example": "Her academic record is excellent.",
+    "l5_core": "subject",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "curriculum",
+    "ipa": "/kəˈrɪkjələm/",
+    "pos": "n.",
+    "zh": "课程体系",
+    "example": "The curriculum includes art and music.",
+    "l5_core": "course",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "seminar",
+    "ipa": "/ˈsemɪnɑː(r)/",
+    "pos": "n.",
+    "zh": "研讨课",
+    "example": "We discussed the topic in the seminar.",
+    "l5_core": "professor",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "assignment",
+    "ipa": "/əˈsaɪnmənt/",
+    "pos": "n.",
+    "zh": "作业，任务",
+    "example": "The assignment is due on Friday.",
+    "l5_core": "homework",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "degree",
+    "ipa": "/dɪˈɡriː/",
+    "pos": "n.",
+    "zh": "学位",
+    "example": "She earned a degree in biology.",
+    "l5_core": "degree",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "scholarship",
+    "ipa": "/ˈskɒləʃɪp/",
+    "pos": "n.",
+    "zh": "奖学金",
+    "example": "He won a full scholarship.",
+    "l5_core": "exam",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "lecture",
+    "ipa": "/ˈlektʃə(r)/",
+    "pos": "n.",
+    "zh": "讲座，讲课",
+    "example": "The lecture lasted for two hours.",
+    "l5_core": "professor",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "research",
+    "ipa": "/rɪˈsɜːtʃ/",
+    "pos": "n./v.",
+    "zh": "研究",
+    "example": "She does research on climate change.",
+    "l5_core": "research",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "knowledge",
+    "ipa": "/ˈnɒlɪdʒ/",
+    "pos": "n.",
+    "zh": "知识",
+    "example": "Books give us knowledge.",
+    "l5_core": "knowledge",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "achieve",
+    "ipa": "/əˈtʃiːv/",
+    "pos": "v.",
+    "zh": "实现，达到",
+    "example": "You can achieve your goal with hard work.",
+    "l5_core": "practice",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "improve",
+    "ipa": "/ɪmˈpruːv/",
+    "pos": "v.",
+    "zh": "提高，改进",
+    "example": "Practice will improve your English.",
+    "l5_core": "practice",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "graduate",
+    "ipa": "/ˈɡrædʒueɪt/",
+    "pos": "v./n.",
+    "zh": "毕业；毕业生",
+    "example": "She will graduate next year.",
+    "l5_core": "degree",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "society",
+    "ipa": "/səˈsaɪəti/",
+    "pos": "n.",
+    "zh": "社会",
+    "example": "Technology changes our society fast.",
+    "l5_core": "society",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "community",
+    "ipa": "/kəˈmjuːnəti/",
+    "pos": "n.",
+    "zh": "社区，群体",
+    "example": "Our community holds a market on Sundays.",
+    "l5_core": "community",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "citizen",
+    "ipa": "/ˈsɪtɪzən/",
+    "pos": "n.",
+    "zh": "公民，市民",
+    "example": "Every citizen has the right to vote.",
+    "l5_core": "citizen",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "policy",
+    "ipa": "/ˈpɒləsi/",
+    "pos": "n.",
+    "zh": "政策",
+    "example": "The new policy supports small businesses.",
+    "l5_core": "government",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "government",
+    "ipa": "/ˈɡʌvənmənt/",
+    "pos": "n.",
+    "zh": "政府",
+    "example": "The government built a new hospital.",
+    "l5_core": "government",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "media",
+    "ipa": "/ˈmiːdiə/",
+    "pos": "n.",
+    "zh": "媒体",
+    "example": "The media reported the news quickly.",
+    "l5_core": "news",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "issue",
+    "ipa": "/ˈɪʃuː/",
+    "pos": "n.",
+    "zh": "议题，问题",
+    "example": "Housing is a big issue in cities.",
+    "l5_core": "report",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "affect",
+    "ipa": "/əˈfekt/",
+    "pos": "v.",
+    "zh": "影响",
+    "example": "The weather affects my mood.",
+    "l5_core": "economy",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "increase",
+    "ipa": "/ɪnˈkriːs/",
+    "pos": "v./n.",
+    "zh": "增加",
+    "example": "Sales increased by ten percent.",
+    "l5_core": "population",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "opinion",
+    "ipa": "/əˈpɪnjən/",
+    "pos": "n.",
+    "zh": "观点",
+    "example": "In my opinion, reading is important.",
+    "l5_core": "tradition",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "event",
+    "ipa": "/ɪˈvent/",
+    "pos": "n.",
+    "zh": "事件，活动",
+    "example": "The sports event was exciting.",
+    "l5_core": "event",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "culture",
+    "ipa": "/ˈkʌltʃə(r)/",
+    "pos": "n.",
+    "zh": "文化",
+    "example": "Music is part of our culture.",
+    "l5_core": "culture",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "health",
+    "ipa": "/helθ/",
+    "pos": "n.",
+    "zh": "健康",
+    "example": "Good sleep is important for health.",
+    "l5_core": "healthy",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "disease",
+    "ipa": "/dɪˈziːz/",
+    "pos": "n.",
+    "zh": "疾病",
+    "example": "Clean water prevents disease.",
+    "l5_core": "hospital",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "treatment",
+    "ipa": "/ˈtriːtmənt/",
+    "pos": "n.",
+    "zh": "治疗",
+    "example": "The treatment worked well.",
+    "l5_core": "medicine",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "nutrition",
+    "ipa": "/njuˈtrɪʃn/",
+    "pos": "n.",
+    "zh": "营养",
+    "example": "Good nutrition keeps you strong.",
+    "l5_core": "diet",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "exercise",
+    "ipa": "/ˈeksəsaɪz/",
+    "pos": "n./v.",
+    "zh": "锻炼",
+    "example": "Daily exercise benefits your heart.",
+    "l5_core": "exercise",
+    "cefr": "A2",
+    "level": "A2"
+  },
+  {
+    "word": "scientific",
+    "ipa": "/ˌsaɪənˈtɪfɪk/",
+    "pos": "adj.",
+    "zh": "科学的",
+    "example": "The result comes from scientific tests.",
+    "l5_core": "fitness",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "experiment",
+    "ipa": "/ɪkˈsperɪmənt/",
+    "pos": "n.",
+    "zh": "实验",
+    "example": "We did an experiment in the lab.",
+    "l5_core": "practice",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "evidence",
+    "ipa": "/ˈevɪdəns/",
+    "pos": "n.",
+    "zh": "证据",
+    "example": "The evidence supports the theory.",
+    "l5_core": "history",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "prevent",
+    "ipa": "/prɪˈvent/",
+    "pos": "v.",
+    "zh": "预防，阻止",
+    "example": "Washing hands can prevent illness.",
+    "l5_core": "protect",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "energy",
+    "ipa": "/ˈenədʒi/",
+    "pos": "n.",
+    "zh": "精力，能量",
+    "example": "Exercise gives me energy.",
+    "l5_core": "energy",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "balance",
+    "ipa": "/ˈbæləns/",
+    "pos": "n./v.",
+    "zh": "平衡",
+    "example": "Keep a balance between work and rest.",
+    "l5_core": "healthy",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "recover",
+    "ipa": "/rɪˈkʌvə(r)/",
+    "pos": "v.",
+    "zh": "恢复",
+    "example": "He recovered from the cold quickly.",
+    "l5_core": "patient",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "technology",
+    "ipa": "/tekˈnɒlədʒi/",
+    "pos": "n.",
+    "zh": "科技",
+    "example": "Technology makes life convenient.",
+    "l5_core": "computer",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "digital",
+    "ipa": "/ˈdɪdʒɪtl/",
+    "pos": "adj.",
+    "zh": "数字的",
+    "example": "We live in a digital age.",
+    "l5_core": "screen",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "device",
+    "ipa": "/dɪˈvaɪs/",
+    "pos": "n.",
+    "zh": "设备",
+    "example": "This device can charge your phone.",
+    "l5_core": "keyboard",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "network",
+    "ipa": "/ˈnetwɜːk/",
+    "pos": "n.",
+    "zh": "网络",
+    "example": "The office network is very fast.",
+    "l5_core": "internet",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "software",
+    "ipa": "/ˈsɒftweə(r)/",
+    "pos": "n.",
+    "zh": "软件",
+    "example": "This software helps you edit photos.",
+    "l5_core": "software",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "data",
+    "ipa": "/ˈdeɪtə/",
+    "pos": "n.",
+    "zh": "数据",
+    "example": "We store data in the cloud.",
+    "l5_core": "information",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "connect",
+    "ipa": "/kəˈnekt/",
+    "pos": "v.",
+    "zh": "连接",
+    "example": "Connect the printer to the computer.",
+    "l5_core": "email",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "access",
+    "ipa": "/ˈækses/",
+    "pos": "n./v.",
+    "zh": "访问，获取",
+    "example": "Students have free access to the library.",
+    "l5_core": "website",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "communicate",
+    "ipa": "/kəˈmjuːnɪkeɪt/",
+    "pos": "v.",
+    "zh": "交流",
+    "example": "We communicate by email.",
+    "l5_core": "message",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "develop",
+    "ipa": "/dɪˈveləp/",
+    "pos": "v.",
+    "zh": "开发，发展",
+    "example": "They develop apps for learning.",
+    "l5_core": "project",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "download",
+    "ipa": "/ˌdaʊnˈləʊd/",
+    "pos": "v.",
+    "zh": "下载",
+    "example": "Download the file from the website.",
+    "l5_core": "download",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "security",
+    "ipa": "/sɪˈkjʊərəti/",
+    "pos": "n.",
+    "zh": "安全",
+    "example": "Password security is very important.",
+    "l5_core": "password",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "environment",
+    "ipa": "/ɪnˈvaɪrənmənt/",
+    "pos": "n.",
+    "zh": "环境",
+    "example": "We must protect the environment.",
+    "l5_core": "environment",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "pollution",
+    "ipa": "/pəˈluːʃn/",
+    "pos": "n.",
+    "zh": "污染",
+    "example": "Air pollution is a serious problem.",
+    "l5_core": "waste",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "resource",
+    "ipa": "/rɪˈsɔːs/",
+    "pos": "n.",
+    "zh": "资源",
+    "example": "Water is a precious resource.",
+    "l5_core": "power",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "climate",
+    "ipa": "/ˈklaɪmət/",
+    "pos": "n.",
+    "zh": "气候",
+    "example": "The climate is changing.",
+    "l5_core": "climate",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "recycle",
+    "ipa": "/ˌriːˈsaɪkl/",
+    "pos": "v.",
+    "zh": "回收利用",
+    "example": "We recycle paper and plastic.",
+    "l5_core": "recycle",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "reduce",
+    "ipa": "/rɪˈdjuːs/",
+    "pos": "v.",
+    "zh": "减少",
+    "example": "Turn off lights to reduce energy use.",
+    "l5_core": "reduce",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "protect",
+    "ipa": "/prəˈtekt/",
+    "pos": "v.",
+    "zh": "保护",
+    "example": "Protect the forest from fire.",
+    "l5_core": "protect",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "species",
+    "ipa": "/ˈspiːʃiːz/",
+    "pos": "n.",
+    "zh": "物种",
+    "example": "This species only lives on the island.",
+    "l5_core": "plant",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "natural",
+    "ipa": "/ˈnætʃrəl/",
+    "pos": "adj.",
+    "zh": "自然的",
+    "example": "Natural parks keep wildlife safe.",
+    "l5_core": "natural",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "global",
+    "ipa": "/ˈɡləʊbl/",
+    "pos": "adj.",
+    "zh": "全球的",
+    "example": "Global warming worries scientists.",
+    "l5_core": "earth",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "ecosystem",
+    "ipa": "/ˈiːkəʊsɪstəm/",
+    "pos": "n.",
+    "zh": "生态系统",
+    "example": "The wetland is a rich ecosystem.",
+    "l5_core": "forest",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "sustain",
+    "ipa": "/səˈsteɪn/",
+    "pos": "v.",
+    "zh": "维持，可持续",
+    "example": "We need sustainable ways of living.",
+    "l5_core": "power",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "career",
+    "ipa": "/kəˈrɪə(r)/",
+    "pos": "n.",
+    "zh": "职业，生涯",
+    "example": "She plans a career in medicine.",
+    "l5_core": "career",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "profession",
+    "ipa": "/prəˈfeʃn/",
+    "pos": "n.",
+    "zh": "专业职业",
+    "example": "Teaching is a respected profession.",
+    "l5_core": "engineer",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "employer",
+    "ipa": "/ɪmˈplɔɪə(r)/",
+    "pos": "n.",
+    "zh": "雇主",
+    "example": "The employer offers free training.",
+    "l5_core": "company",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "employee",
+    "ipa": "/ɪmˈplɔɪiː/",
+    "pos": "n.",
+    "zh": "雇员",
+    "example": "The employees work in shifts.",
+    "l5_core": "colleague",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "salary",
+    "ipa": "/ˈsæləri/",
+    "pos": "n.",
+    "zh": "薪水",
+    "example": "The salary is paid monthly.",
+    "l5_core": "salary",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "skill",
+    "ipa": "/skɪl/",
+    "pos": "n.",
+    "zh": "技能",
+    "example": "Communication is a useful skill.",
+    "l5_core": "skill",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "experience",
+    "ipa": "/ɪkˈspɪəriəns/",
+    "pos": "n.",
+    "zh": "经验，经历",
+    "example": "She has three years of experience.",
+    "l5_core": "experience",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "interview",
+    "ipa": "/ˈɪntəvjuː/",
+    "pos": "n./v.",
+    "zh": "面试，采访",
+    "example": "The interview went very well.",
+    "l5_core": "interview",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "promote",
+    "ipa": "/prəˈməʊt/",
+    "pos": "v.",
+    "zh": "晋升，推广",
+    "example": "He was promoted to manager.",
+    "l5_core": "manager",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "responsibility",
+    "ipa": "/rɪˌspɒnsəˈbɪləti/",
+    "pos": "n.",
+    "zh": "责任",
+    "example": "Safety is everyone’s responsibility.",
+    "l5_core": "project",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "training",
+    "ipa": "/ˈtreɪnɪŋ/",
+    "pos": "n.",
+    "zh": "培训",
+    "example": "The company provides free training.",
+    "l5_core": "practice",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "retire",
+    "ipa": "/rɪˈtaɪə(r)/",
+    "pos": "v.",
+    "zh": "退休",
+    "example": "My father will retire at sixty.",
+    "l5_core": "office",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "journey",
+    "ipa": "/ˈdʒɜːni/",
+    "pos": "n.",
+    "zh": "旅程",
+    "example": "The journey took eight hours.",
+    "l5_core": "trip",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "destination",
+    "ipa": "/ˌdestɪˈneɪʃn/",
+    "pos": "n.",
+    "zh": "目的地",
+    "example": "Beijing is our destination.",
+    "l5_core": "destination",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "tourist",
+    "ipa": "/ˈtʊərɪst/",
+    "pos": "n.",
+    "zh": "游客",
+    "example": "Tourists visit the old temple.",
+    "l5_core": "tour",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "custom",
+    "ipa": "/ˈkʌstəm/",
+    "pos": "n.",
+    "zh": "风俗习惯",
+    "example": "The local customs are interesting.",
+    "l5_core": "tradition",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "tradition",
+    "ipa": "/trəˈdɪʃn/",
+    "pos": "n.",
+    "zh": "传统",
+    "example": "Eating dumplings is a tradition.",
+    "l5_core": "history",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "abroad",
+    "ipa": "/əˈbrɔːd/",
+    "pos": "adv.",
+    "zh": "在国外",
+    "example": "She studies abroad in London.",
+    "l5_core": "airport",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "accommodation",
+    "ipa": "/əˌkɒməˈdeɪʃn/",
+    "pos": "n.",
+    "zh": "住宿",
+    "example": "The hotel offers cheap accommodation.",
+    "l5_core": "hotel",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "transport",
+    "ipa": "/ˈtrænspɔːt/",
+    "pos": "n.",
+    "zh": "交通",
+    "example": "Public transport is convenient here.",
+    "l5_core": "railway",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "scenery",
+    "ipa": "/ˈsiːnəri/",
+    "pos": "n.",
+    "zh": "风景",
+    "example": "The scenery in the mountains is beautiful.",
+    "l5_core": "guide",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "exchange",
+    "ipa": "/ɪksˈtʃeɪndʒ/",
+    "pos": "n./v.",
+    "zh": "交换，交流",
+    "example": "Students join an exchange program.",
+    "l5_core": "ticket",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "explore",
+    "ipa": "/ɪkˈsplɔː(r)/",
+    "pos": "v.",
+    "zh": "探索",
+    "example": "We explored the old town on foot.",
+    "l5_core": "passport",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "arrange",
+    "ipa": "/əˈreɪndʒ/",
+    "pos": "v.",
+    "zh": "安排",
+    "example": "She arranged the trip for us.",
+    "l5_core": "booking",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "relative",
+    "ipa": "/ˈrelətɪv/",
+    "pos": "n.",
+    "zh": "亲戚",
+    "example": "Many relatives came to the party.",
+    "l5_core": "relative",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "relationship",
+    "ipa": "/rɪˈleɪʃnʃɪp/",
+    "pos": "n.",
+    "zh": "关系",
+    "example": "They have a close relationship.",
+    "l5_core": "cousin",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "emotion",
+    "ipa": "/ɪˈməʊʃn/",
+    "pos": "n.",
+    "zh": "情绪，情感",
+    "example": "Music can bring strong emotions.",
+    "l5_core": "excited",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "support",
+    "ipa": "/səˈpɔːt/",
+    "pos": "v./n.",
+    "zh": "支持",
+    "example": "My family supports my dreams.",
+    "l5_core": "husband",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "trust",
+    "ipa": "/trʌst/",
+    "pos": "v./n.",
+    "zh": "信任",
+    "example": "Friends should trust each other.",
+    "l5_core": "wife",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "respect",
+    "ipa": "/rɪˈspekt/",
+    "pos": "v./n.",
+    "zh": "尊重",
+    "example": "We respect our elders.",
+    "l5_core": "relative",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "generation",
+    "ipa": "/ˌdʒenəˈreɪʃn/",
+    "pos": "n.",
+    "zh": "一代人",
+    "example": "This tradition passed through generations.",
+    "l5_core": "nephew",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "memory",
+    "ipa": "/ˈmeməri/",
+    "pos": "n.",
+    "zh": "记忆",
+    "example": "The photo brings back sweet memories.",
+    "l5_core": "memorize",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "encourage",
+    "ipa": "/ɪnˈkʌrɪdʒ/",
+    "pos": "v.",
+    "zh": "鼓励",
+    "example": "My parents encourage me to try new things.",
+    "l5_core": "proud",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "share",
+    "ipa": "/ʃeə(r)/",
+    "pos": "v.",
+    "zh": "分享",
+    "example": "We share happy moments together.",
+    "l5_core": "lonely",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "comfort",
+    "ipa": "/ˈkʌmfət/",
+    "pos": "n./v.",
+    "zh": "安慰，舒适",
+    "example": "A warm hug gives comfort.",
+    "l5_core": "nervous",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "belong",
+    "ipa": "/bɪˈlɒŋ/",
+    "pos": "v.",
+    "zh": "属于",
+    "example": "I feel I belong to this team.",
+    "l5_core": "excited",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "analyse",
+    "ipa": "/ˈænəlaɪz/",
+    "pos": "v.",
+    "zh": "分析",
+    "example": "We need to analyse the data carefully.",
+    "l5_core": "analyze",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "approach",
+    "ipa": "/əˈprəʊtʃ/",
+    "pos": "n./v.",
+    "zh": "方法；接近",
+    "example": "This approach is more effective.",
+    "l5_core": "method",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "area",
+    "ipa": "/ˈeəriə/",
+    "pos": "n.",
+    "zh": "领域，区域",
+    "example": "She is an expert in this area.",
+    "l5_core": "region",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "assess",
+    "ipa": "/əˈses/",
+    "pos": "v.",
+    "zh": "评估",
+    "example": "Teachers assess students every term.",
+    "l5_core": "evaluate",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "assume",
+    "ipa": "/əˈsjuːm/",
+    "pos": "v.",
+    "zh": "假定，认为",
+    "example": "We cannot assume the answer is right.",
+    "l5_core": "assumption",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "authority",
+    "ipa": "/ɔːˈθɒrəti/",
+    "pos": "n.",
+    "zh": "权威，当局",
+    "example": "The local authority built new roads.",
+    "l5_core": "government",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "available",
+    "ipa": "/əˈveɪləbl/",
+    "pos": "adj.",
+    "zh": "可获得的",
+    "example": "The book is available online.",
+    "l5_core": "supply",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "benefit",
+    "ipa": "/ˈbenɪfɪt/",
+    "pos": "n./v.",
+    "zh": "好处；受益",
+    "example": "Exercise brings many benefits.",
+    "l5_core": "profit",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "concept",
+    "ipa": "/ˈkɒnsept/",
+    "pos": "n.",
+    "zh": "概念",
+    "example": "The concept of time is interesting.",
+    "l5_core": "notion",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "consist",
+    "ipa": "/kənˈsɪst/",
+    "pos": "v.",
+    "zh": "由…组成",
+    "example": "The team consists of five members.",
+    "l5_core": "comprise",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "constitute",
+    "ipa": "/ˈkɒnstɪtjuːt/",
+    "pos": "v.",
+    "zh": "构成",
+    "example": "Women constitute half of the staff.",
+    "l5_core": "form",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "context",
+    "ipa": "/ˈkɒntekst/",
+    "pos": "n.",
+    "zh": "语境，背景",
+    "example": "Guess the meaning from the context.",
+    "l5_core": "situation",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "contract",
+    "ipa": "/ˈkɒntrækt/",
+    "pos": "n.",
+    "zh": "合同",
+    "example": "They signed a contract with the firm.",
+    "l5_core": "agreement",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "create",
+    "ipa": "/kriˈeɪt/",
+    "pos": "v.",
+    "zh": "创造",
+    "example": "Artists create beautiful works.",
+    "l5_core": "produce",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "define",
+    "ipa": "/dɪˈfaɪn/",
+    "pos": "v.",
+    "zh": "定义，界定",
+    "example": "Can you define this word?",
+    "l5_core": "explain",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "derive",
+    "ipa": "/dɪˈraɪv/",
+    "pos": "v.",
+    "zh": "获得，源自",
+    "example": "Many words derive from Latin.",
+    "l5_core": "obtain",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "distribute",
+    "ipa": "/dɪˈstrɪbjuːt/",
+    "pos": "v.",
+    "zh": "分发，分配",
+    "example": "They distribute food to the poor.",
+    "l5_core": "distribution",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "economy",
+    "ipa": "/ɪˈkɒnəmi/",
+    "pos": "n.",
+    "zh": "经济",
+    "example": "The economy is growing slowly.",
+    "l5_core": "economy",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "establish",
+    "ipa": "/ɪˈstæblɪʃ/",
+    "pos": "v.",
+    "zh": "建立",
+    "example": "They established a new school.",
+    "l5_core": "establish",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "estimate",
+    "ipa": "/ˈestɪmeɪt/",
+    "pos": "v./n.",
+    "zh": "估计",
+    "example": "We estimate the cost at two million.",
+    "l5_core": "estimate",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "export",
+    "ipa": "/ɪkˈspɔːt/",
+    "pos": "v./n.",
+    "zh": "出口",
+    "example": "The country exports rice and tea.",
+    "l5_core": "export",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "factor",
+    "ipa": "/ˈfæktə(r)/",
+    "pos": "n.",
+    "zh": "因素",
+    "example": "Price is a key factor.",
+    "l5_core": "factor",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "finance",
+    "ipa": "/ˈfaɪnæns/",
+    "pos": "n.",
+    "zh": "金融，财务",
+    "example": "She works in finance.",
+    "l5_core": "investment",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "formula",
+    "ipa": "/ˈfɔːmjələ/",
+    "pos": "n.",
+    "zh": "公式，配方",
+    "example": "The formula for water is H2O.",
+    "l5_core": "formula",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "function",
+    "ipa": "/ˈfʌŋkʃn/",
+    "pos": "n./v.",
+    "zh": "功能；运转",
+    "example": "The heart has an important function.",
+    "l5_core": "function",
+    "cefr": "C2",
+    "level": "C2"
+  },
+  {
+    "word": "identify",
+    "ipa": "/aɪˈdentɪfaɪ/",
+    "pos": "v.",
+    "zh": "识别，确认",
+    "example": "Police identified the thief quickly.",
+    "l5_core": "identify",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "indicate",
+    "ipa": "/ˈɪndɪkeɪt/",
+    "pos": "v.",
+    "zh": "表明，指示",
+    "example": "The sign indicates the way out.",
+    "l5_core": "indicate",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "individual",
+    "ipa": "/ˌɪndɪˈvɪdʒuəl/",
+    "pos": "n./adj.",
+    "zh": "个人",
+    "example": "Each individual has unique talents.",
+    "l5_core": "distinct",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "interpret",
+    "ipa": "/ɪnˈtɜːprɪt/",
+    "pos": "v.",
+    "zh": "解释，口译",
+    "example": "It is hard to interpret this poem.",
+    "l5_core": "interpretation",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "involve",
+    "ipa": "/ɪnˈvɒlv/",
+    "pos": "v.",
+    "zh": "涉及，包含",
+    "example": "The job involves much travel.",
+    "l5_core": "engagement",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "legal",
+    "ipa": "/ˈliːɡl/",
+    "pos": "adj.",
+    "zh": "法律的，合法的",
+    "example": "He studies legal issues.",
+    "l5_core": "legislation",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "legislate",
+    "ipa": "/ˈledʒɪsleɪt/",
+    "pos": "v.",
+    "zh": "立法",
+    "example": "Parliament legislates new rules.",
+    "l5_core": "legislation",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "major",
+    "ipa": "/ˈmeɪdʒə(r)/",
+    "pos": "adj.",
+    "zh": "主要的",
+    "example": "Air pollution is a major problem.",
+    "l5_core": "major",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "method",
+    "ipa": "/ˈmeθəd/",
+    "pos": "n.",
+    "zh": "方法",
+    "example": "This method saves time.",
+    "l5_core": "method",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "occur",
+    "ipa": "/əˈkɜː(r)/",
+    "pos": "v.",
+    "zh": "发生",
+    "example": "Earthquakes occur in this region.",
+    "l5_core": "arise",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "percent",
+    "ipa": "/pəˈsent/",
+    "pos": "n.",
+    "zh": "百分比",
+    "example": "Thirty percent of students walk to school.",
+    "l5_core": "percentage",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "period",
+    "ipa": "/ˈpɪəriəd/",
+    "pos": "n.",
+    "zh": "时期，阶段",
+    "example": "We lived there for a short period.",
+    "l5_core": "interval",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "principle",
+    "ipa": "/ˈprɪnsəpl/",
+    "pos": "n.",
+    "zh": "原则，原理",
+    "example": "Honesty is a basic principle.",
+    "l5_core": "principle",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "proceed",
+    "ipa": "/prəˈsiːd/",
+    "pos": "v.",
+    "zh": "继续进行",
+    "example": "Please proceed with your work.",
+    "l5_core": "",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "process",
+    "ipa": "/ˈprəʊses/",
+    "pos": "n.",
+    "zh": "过程",
+    "example": "Learning is a long process.",
+    "l5_core": "course",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "require",
+    "ipa": "/rɪˈkwaɪə(r)/",
+    "pos": "v.",
+    "zh": "需要，要求",
+    "example": "This job requires patience.",
+    "l5_core": "require",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "respond",
+    "ipa": "/rɪˈspɒnd/",
+    "pos": "v.",
+    "zh": "回应",
+    "example": "She responded to my email quickly.",
+    "l5_core": "reply",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "role",
+    "ipa": "/rəʊl/",
+    "pos": "n.",
+    "zh": "角色，作用",
+    "example": "Teachers play a key role.",
+    "l5_core": "role",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "section",
+    "ipa": "/ˈsekʃn/",
+    "pos": "n.",
+    "zh": "部分，部门",
+    "example": "Read the first section of the book.",
+    "l5_core": "segment",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "sector",
+    "ipa": "/ˈsektə(r)/",
+    "pos": "n.",
+    "zh": "部门，行业",
+    "example": "He works in the service sector.",
+    "l5_core": "segment",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "significant",
+    "ipa": "/sɪɡˈnɪfɪkənt/",
+    "pos": "adj.",
+    "zh": "重要的，显著的",
+    "example": "There is a significant difference.",
+    "l5_core": "significant",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "similar",
+    "ipa": "/ˈsɪmələ(r)/",
+    "pos": "adj.",
+    "zh": "相似的",
+    "example": "The two pictures are similar.",
+    "l5_core": "similar",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "source",
+    "ipa": "/sɔːs/",
+    "pos": "n.",
+    "zh": "来源",
+    "example": "The sun is a source of energy.",
+    "l5_core": "source",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "specific",
+    "ipa": "/spəˈsɪfɪk/",
+    "pos": "adj.",
+    "zh": "具体的",
+    "example": "Give me a specific example.",
+    "l5_core": "specific",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "structure",
+    "ipa": "/ˈstrʌktʃə(r)/",
+    "pos": "n.",
+    "zh": "结构",
+    "example": "The structure of the building is solid.",
+    "l5_core": "framework",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "theory",
+    "ipa": "/ˈθɪəri/",
+    "pos": "n.",
+    "zh": "理论",
+    "example": "Einstein created a famous theory.",
+    "l5_core": "theory",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "vary",
+    "ipa": "/ˈveəri/",
+    "pos": "v.",
+    "zh": "变化，不同",
+    "example": "Prices vary from shop to shop.",
+    "l5_core": "fluctuate",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "acquire",
+    "ipa": "/əˈkwaɪə(r)/",
+    "pos": "v.",
+    "zh": "获得",
+    "example": "Children acquire language quickly.",
+    "l5_core": "obtain",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "administrate",
+    "ipa": "/ədˈmɪnɪstreɪt/",
+    "pos": "v.",
+    "zh": "管理，行政",
+    "example": "She administrates the whole office.",
+    "l5_core": "administration",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "appropriate",
+    "ipa": "/əˈprəʊpriət/",
+    "pos": "adj.",
+    "zh": "适当的",
+    "example": "Wear appropriate clothes for the interview.",
+    "l5_core": "appropriate",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "aspect",
+    "ipa": "/ˈæspekt/",
+    "pos": "n.",
+    "zh": "方面",
+    "example": "Health is one aspect of life.",
+    "l5_core": "dimension",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "assist",
+    "ipa": "/əˈsɪst/",
+    "pos": "v.",
+    "zh": "协助",
+    "example": "Volunteers assist the elderly.",
+    "l5_core": "volunteer",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "category",
+    "ipa": "/ˈkætəɡəri/",
+    "pos": "n.",
+    "zh": "类别",
+    "example": "This book belongs to the science category.",
+    "l5_core": "classify",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "chapter",
+    "ipa": "/ˈtʃæptə(r)/",
+    "pos": "n.",
+    "zh": "章节",
+    "example": "Read Chapter Three for tomorrow.",
+    "l5_core": "segment",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "commission",
+    "ipa": "/kəˈmɪʃn/",
+    "pos": "n.",
+    "zh": "委员会；佣金",
+    "example": "The commission will investigate the case.",
+    "l5_core": "council",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "complex",
+    "ipa": "/ˈkɒmpleks/",
+    "pos": "adj.",
+    "zh": "复杂的",
+    "example": "This is a complex problem.",
+    "l5_core": "complex",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "compute",
+    "ipa": "/kəmˈpjuːt/",
+    "pos": "v.",
+    "zh": "计算",
+    "example": "The app computes the total quickly.",
+    "l5_core": "",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "conclude",
+    "ipa": "/kənˈkluːd/",
+    "pos": "v.",
+    "zh": "得出结论，结束",
+    "example": "We concluded that the plan works.",
+    "l5_core": "conclusion",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "conduct",
+    "ipa": "/kənˈdʌkt/",
+    "pos": "v.",
+    "zh": "进行，实施",
+    "example": "They conducted a survey last week.",
+    "l5_core": "conduct",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "consequent",
+    "ipa": "/ˈkɒnsɪkwənt/",
+    "pos": "adj.",
+    "zh": "随之发生的",
+    "example": "The flood and consequent damage shocked everyone.",
+    "l5_core": "consequence",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "construct",
+    "ipa": "/kənˈstrʌkt/",
+    "pos": "v.",
+    "zh": "建造，构建",
+    "example": "They constructed a bridge across the river.",
+    "l5_core": "construct",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "consume",
+    "ipa": "/kənˈsjuːm/",
+    "pos": "v.",
+    "zh": "消耗，消费",
+    "example": "Cars consume a lot of fuel.",
+    "l5_core": "consumption",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "credit",
+    "ipa": "/ˈkredɪt/",
+    "pos": "n.",
+    "zh": "信用，学分",
+    "example": "He paid by credit card.",
+    "l5_core": "credit",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "design",
+    "ipa": "/dɪˈzaɪn/",
+    "pos": "v./n.",
+    "zh": "设计",
+    "example": "She designed the new logo.",
+    "l5_core": "concept",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "distinct",
+    "ipa": "/dɪˈstɪŋkt/",
+    "pos": "adj.",
+    "zh": "明显的，不同的",
+    "example": "The two styles are quite distinct.",
+    "l5_core": "distinct",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "element",
+    "ipa": "/ˈelɪmənt/",
+    "pos": "n.",
+    "zh": "元素，要素",
+    "example": "Trust is a key element of friendship.",
+    "l5_core": "element",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "equate",
+    "ipa": "/ɪˈkweɪt/",
+    "pos": "v.",
+    "zh": "等同，使相等",
+    "example": "Do not equate money with happiness.",
+    "l5_core": "equality",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "evaluate",
+    "ipa": "/ɪˈvæljueɪt/",
+    "pos": "v.",
+    "zh": "评价，评估",
+    "example": "We evaluate the results each month.",
+    "l5_core": "evaluate",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "feature",
+    "ipa": "/ˈfiːtʃə(r)/",
+    "pos": "n.",
+    "zh": "特征，特点",
+    "example": "The phone has many new features.",
+    "l5_core": "feature",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "final",
+    "ipa": "/ˈfaɪnl/",
+    "pos": "adj.",
+    "zh": "最终的",
+    "example": "This is my final decision.",
+    "l5_core": "conclusion",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "focus",
+    "ipa": "/ˈfəʊkəs/",
+    "pos": "v./n.",
+    "zh": "聚焦，重点",
+    "example": "Focus on your study.",
+    "l5_core": "attention",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "impact",
+    "ipa": "/ˈɪmpækt/",
+    "pos": "n.",
+    "zh": "影响，冲击",
+    "example": "The new law had a big impact.",
+    "l5_core": "impact",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "injure",
+    "ipa": "/ˈɪndʒə(r)/",
+    "pos": "v.",
+    "zh": "使受伤",
+    "example": "He injured his leg in the game.",
+    "l5_core": "injury",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "institute",
+    "ipa": "/ˈɪnstɪtjuːt/",
+    "pos": "n.",
+    "zh": "学院，机构",
+    "example": "She studies at a research institute.",
+    "l5_core": "institution",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "invest",
+    "ipa": "/ɪnˈvest/",
+    "pos": "v.",
+    "zh": "投资",
+    "example": "They invested in a new factory.",
+    "l5_core": "investment",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "item",
+    "ipa": "/ˈaɪtəm/",
+    "pos": "n.",
+    "zh": "项目，物品",
+    "example": "Each item has a price tag.",
+    "l5_core": "article",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "journal",
+    "ipa": "/ˈdʒɜːnl/",
+    "pos": "n.",
+    "zh": "期刊，日记",
+    "example": "She published a paper in the journal.",
+    "l5_core": "article",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "maintain",
+    "ipa": "/meɪnˈteɪn/",
+    "pos": "v.",
+    "zh": "维持，维护",
+    "example": "Exercise helps maintain good health.",
+    "l5_core": "maintain",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "normal",
+    "ipa": "/ˈnɔːml/",
+    "pos": "adj.",
+    "zh": "正常的",
+    "example": "Everything returned to normal.",
+    "l5_core": "standard",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "obtain",
+    "ipa": "/əbˈteɪn/",
+    "pos": "v.",
+    "zh": "获得",
+    "example": "You can obtain a visa online.",
+    "l5_core": "obtain",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "participate",
+    "ipa": "/pɑːˈtɪsɪpeɪt/",
+    "pos": "v.",
+    "zh": "参与",
+    "example": "All students participate in the activity.",
+    "l5_core": "engagement",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "perceive",
+    "ipa": "/pəˈsiːv/",
+    "pos": "v.",
+    "zh": "感知，察觉",
+    "example": "We perceive the world through our senses.",
+    "l5_core": "perception",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "positive",
+    "ipa": "/ˈpɒzətɪv/",
+    "pos": "adj.",
+    "zh": "积极的，肯定的",
+    "example": "Keep a positive attitude.",
+    "l5_core": "confident",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "potential",
+    "ipa": "/pəˈtenʃl/",
+    "pos": "adj./n.",
+    "zh": "潜在的；潜力",
+    "example": "She has great potential as a singer.",
+    "l5_core": "potential",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "previous",
+    "ipa": "/ˈpriːviəs/",
+    "pos": "adj.",
+    "zh": "先前的",
+    "example": "In the previous lesson we learned grammar.",
+    "l5_core": "previous",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "primary",
+    "ipa": "/ˈpraɪməri/",
+    "pos": "adj.",
+    "zh": "主要的，初级的",
+    "example": "The primary goal is safety.",
+    "l5_core": "essential",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "purchase",
+    "ipa": "/ˈpɜːtʃəs/",
+    "pos": "v./n.",
+    "zh": "购买",
+    "example": "She purchased a new laptop.",
+    "l5_core": "transaction",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "range",
+    "ipa": "/reɪndʒ/",
+    "pos": "n.",
+    "zh": "范围，系列",
+    "example": "The store offers a wide range of goods.",
+    "l5_core": "range",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "region",
+    "ipa": "/ˈriːdʒən/",
+    "pos": "n.",
+    "zh": "地区",
+    "example": "This region is famous for tea.",
+    "l5_core": "region",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "regulate",
+    "ipa": "/ˈreɡjuleɪt/",
+    "pos": "v.",
+    "zh": "管理，调节",
+    "example": "The government regulates food safety.",
+    "l5_core": "regulate",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "relevant",
+    "ipa": "/ˈreləvənt/",
+    "pos": "adj.",
+    "zh": "相关的",
+    "example": "Please provide relevant documents.",
+    "l5_core": "relevant",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "reside",
+    "ipa": "/rɪˈzaɪd/",
+    "pos": "v.",
+    "zh": "居住",
+    "example": "She resides in the countryside.",
+    "l5_core": "resident",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "restrict",
+    "ipa": "/rɪˈstrɪkt/",
+    "pos": "v.",
+    "zh": "限制",
+    "example": "The law restricts car use in the city.",
+    "l5_core": "limit",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "secure",
+    "ipa": "/sɪˈkjʊə(r)/",
+    "pos": "adj./v.",
+    "zh": "安全的；确保",
+    "example": "Keep your password secure.",
+    "l5_core": "password",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "seek",
+    "ipa": "/siːk/",
+    "pos": "v.",
+    "zh": "寻求",
+    "example": "Many people seek better jobs.",
+    "l5_core": "pursue",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "select",
+    "ipa": "/sɪˈlekt/",
+    "pos": "v.",
+    "zh": "选择",
+    "example": "Select the correct answer.",
+    "l5_core": "",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "site",
+    "ipa": "/saɪt/",
+    "pos": "n.",
+    "zh": "地点，网站",
+    "example": "The building site is closed.",
+    "l5_core": "site",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "strategy",
+    "ipa": "/ˈstrætədʒi/",
+    "pos": "n.",
+    "zh": "策略",
+    "example": "We need a new marketing strategy.",
+    "l5_core": "strategy",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "survey",
+    "ipa": "/ˈsɜːveɪ/",
+    "pos": "n./v.",
+    "zh": "调查",
+    "example": "The survey shows people read less.",
+    "l5_core": "survey",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "text",
+    "ipa": "/tekst/",
+    "pos": "n.",
+    "zh": "文本",
+    "example": "Read the text carefully.",
+    "l5_core": "textbook",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "transfer",
+    "ipa": "/trænsˈfɜː(r)/",
+    "pos": "v./n.",
+    "zh": "转移，调动",
+    "example": "She transferred to another office.",
+    "l5_core": "relocate",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "alternative",
+    "ipa": "/ɔːlˈtɜːnətɪv/",
+    "pos": "n./adj.",
+    "zh": "替代方案；可替代的",
+    "example": "We need an alternative plan.",
+    "l5_core": "substitute",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "circumstance",
+    "ipa": "/ˈsɜːkəmstəns/",
+    "pos": "n.",
+    "zh": "情况，环境",
+    "example": "Under no circumstances should you give up.",
+    "l5_core": "situation",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "comment",
+    "ipa": "/ˈkɒment/",
+    "pos": "n./v.",
+    "zh": "评论",
+    "example": "She made a helpful comment.",
+    "l5_core": "comment",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "compensate",
+    "ipa": "/ˈkɒmpenseɪt/",
+    "pos": "v.",
+    "zh": "补偿",
+    "example": "The firm compensated him for the loss.",
+    "l5_core": "compensation",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "component",
+    "ipa": "/kəmˈpəʊnənt/",
+    "pos": "n.",
+    "zh": "组成部分",
+    "example": "Trust is a vital component of a team.",
+    "l5_core": "element",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "consent",
+    "ipa": "/kənˈsent/",
+    "pos": "n./v.",
+    "zh": "同意",
+    "example": "You need parental consent to join.",
+    "l5_core": "consent",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "considerable",
+    "ipa": "/kənˈsɪdərəbl/",
+    "pos": "adj.",
+    "zh": "相当大的",
+    "example": "It caused considerable damage.",
+    "l5_core": "considerable",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "constant",
+    "ipa": "/ˈkɒnstənt/",
+    "pos": "adj.",
+    "zh": "持续的，不变的",
+    "example": "She is under constant pressure.",
+    "l5_core": "consistent",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "constrain",
+    "ipa": "/kənˈstreɪn/",
+    "pos": "v.",
+    "zh": "限制，约束",
+    "example": "Budget issues constrain our choices.",
+    "l5_core": "constraint",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "contribute",
+    "ipa": "/kənˈtrɪbjuːt/",
+    "pos": "v.",
+    "zh": "贡献，促成",
+    "example": "Everyone contributed to the project.",
+    "l5_core": "donate",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "coordinate",
+    "ipa": "/kəʊˈɔːdɪneɪt/",
+    "pos": "v.",
+    "zh": "协调",
+    "example": "She coordinates the volunteers.",
+    "l5_core": "coordinate",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "core",
+    "ipa": "/kɔː(r)/",
+    "pos": "n./adj.",
+    "zh": "核心",
+    "example": "These are the core skills for the job.",
+    "l5_core": "essence",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "correspond",
+    "ipa": "/ˌkɒrəˈspɒnd/",
+    "pos": "v.",
+    "zh": "符合，对应；通信",
+    "example": "His words do not correspond to his actions.",
+    "l5_core": "accord",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "criteria",
+    "ipa": "/kraɪˈtɪəriə/",
+    "pos": "n.",
+    "zh": "标准（复数）",
+    "example": "What criteria are used to judge essays?",
+    "l5_core": "criterion",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "deduce",
+    "ipa": "/dɪˈdjuːs/",
+    "pos": "v.",
+    "zh": "推断",
+    "example": "We deduced the truth from the evidence.",
+    "l5_core": "deduction",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "demonstrate",
+    "ipa": "/ˈdemənstreɪt/",
+    "pos": "v.",
+    "zh": "证明，演示",
+    "example": "She demonstrated the experiment in class.",
+    "l5_core": "demonstration",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "document",
+    "ipa": "/ˈdɒkjumənt/",
+    "pos": "n./v.",
+    "zh": "文件；记录",
+    "example": "Please sign this document.",
+    "l5_core": "report",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "dominate",
+    "ipa": "/ˈdɒmɪneɪt/",
+    "pos": "v.",
+    "zh": "支配，主导",
+    "example": "One company dominates the market.",
+    "l5_core": "influence",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "emphasis",
+    "ipa": "/ˈemfəsɪs/",
+    "pos": "n.",
+    "zh": "强调，重点",
+    "example": "The course puts emphasis on speaking.",
+    "l5_core": "stress",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "ensure",
+    "ipa": "/ɪnˈʃʊə(r)/",
+    "pos": "v.",
+    "zh": "确保",
+    "example": "Ensure the door is locked.",
+    "l5_core": "ensure",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "exclude",
+    "ipa": "/ɪkˈskluːd/",
+    "pos": "v.",
+    "zh": "排除",
+    "example": "The price excludes delivery.",
+    "l5_core": "ban",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "framework",
+    "ipa": "/ˈfreɪmwɜːk/",
+    "pos": "n.",
+    "zh": "框架",
+    "example": "The report provides a useful framework.",
+    "l5_core": "framework",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "fund",
+    "ipa": "/fʌnd/",
+    "pos": "n./v.",
+    "zh": "资金；资助",
+    "example": "The project is short of funds.",
+    "l5_core": "investment",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "illustrate",
+    "ipa": "/ˈɪləstreɪt/",
+    "pos": "v.",
+    "zh": "说明，图解",
+    "example": "Let me illustrate with an example.",
+    "l5_core": "explain",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "imply",
+    "ipa": "/ɪmˈplaɪ/",
+    "pos": "v.",
+    "zh": "暗示，意味着",
+    "example": "Silence does not imply agreement.",
+    "l5_core": "imply",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "initial",
+    "ipa": "/ɪˈnɪʃl/",
+    "pos": "adj.",
+    "zh": "最初的",
+    "example": "The initial results look good.",
+    "l5_core": "commencement",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "instance",
+    "ipa": "/ˈɪnstəns/",
+    "pos": "n.",
+    "zh": "实例",
+    "example": "For instance, tea is grown in this area.",
+    "l5_core": "sample",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "interact",
+    "ipa": "/ˌɪntərˈækt/",
+    "pos": "v.",
+    "zh": "互动，相互作用",
+    "example": "Teachers interact with students daily.",
+    "l5_core": "interaction",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "justify",
+    "ipa": "/ˈdʒʌstɪfaɪ/",
+    "pos": "v.",
+    "zh": "证明…有理",
+    "example": "Can you justify your decision?",
+    "l5_core": "explain",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "layer",
+    "ipa": "/ˈleɪə(r)/",
+    "pos": "n.",
+    "zh": "层",
+    "example": "A layer of snow covered the ground.",
+    "l5_core": "",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "locate",
+    "ipa": "/ləʊˈkeɪt/",
+    "pos": "v.",
+    "zh": "定位，坐落于",
+    "example": "The office is located downtown.",
+    "l5_core": "site",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "maximise",
+    "ipa": "/ˈmæksɪmaɪz/",
+    "pos": "v.",
+    "zh": "最大化",
+    "example": "We aim to maximise efficiency.",
+    "l5_core": "increase",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "minor",
+    "ipa": "/ˈmaɪnə(r)/",
+    "pos": "adj.",
+    "zh": "较小的，次要的",
+    "example": "It is only a minor problem.",
+    "l5_core": "minor",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "outcome",
+    "ipa": "/ˈaʊtkʌm/",
+    "pos": "n.",
+    "zh": "结果",
+    "example": "The outcome of the vote surprised us.",
+    "l5_core": "outcome",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "partner",
+    "ipa": "/ˈpɑːtnə(r)/",
+    "pos": "n.",
+    "zh": "伙伴，合伙人",
+    "example": "She is my business partner.",
+    "l5_core": "partner",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "philosophy",
+    "ipa": "/fəˈlɒsəfi/",
+    "pos": "n.",
+    "zh": "哲学，理念",
+    "example": "He studies philosophy at college.",
+    "l5_core": "philosophy",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "physical",
+    "ipa": "/ˈfɪzɪkl/",
+    "pos": "adj.",
+    "zh": "身体的，物理的",
+    "example": "Physical exercise keeps us healthy.",
+    "l5_core": "exercise",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "proportion",
+    "ipa": "/prəˈpɔːʃn/",
+    "pos": "n.",
+    "zh": "比例",
+    "example": "A large proportion of students passed.",
+    "l5_core": "proportion",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "publish",
+    "ipa": "/ˈpʌblɪʃ/",
+    "pos": "v.",
+    "zh": "出版，发表",
+    "example": "She published her first novel at 25.",
+    "l5_core": "publish",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "react",
+    "ipa": "/riˈækt/",
+    "pos": "v.",
+    "zh": "反应",
+    "example": "How did he react to the news?",
+    "l5_core": "reaction",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "register",
+    "ipa": "/ˈredʒɪstə(r)/",
+    "pos": "v./n.",
+    "zh": "登记，注册",
+    "example": "Please register for the course online.",
+    "l5_core": "register",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "rely",
+    "ipa": "/rɪˈlaɪ/",
+    "pos": "v.",
+    "zh": "依赖，信赖",
+    "example": "You can rely on her.",
+    "l5_core": "trust",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "remove",
+    "ipa": "/rɪˈmuːv/",
+    "pos": "v.",
+    "zh": "移除",
+    "example": "Remove the old files from the folder.",
+    "l5_core": "withdraw",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "scheme",
+    "ipa": "/skiːm/",
+    "pos": "n.",
+    "zh": "方案，计划",
+    "example": "The government launched a new scheme.",
+    "l5_core": "strategy",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "sequence",
+    "ipa": "/ˈsiːkwəns/",
+    "pos": "n.",
+    "zh": "顺序，序列",
+    "example": "Put the events in time sequence.",
+    "l5_core": "sequence",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "shift",
+    "ipa": "/ʃɪft/",
+    "pos": "v./n.",
+    "zh": "转移；轮班",
+    "example": "He works the night shift.",
+    "l5_core": "shift",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "specify",
+    "ipa": "/ˈspesɪfaɪ/",
+    "pos": "v.",
+    "zh": "明确指定",
+    "example": "Please specify your requirements.",
+    "l5_core": "indicate",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "sufficient",
+    "ipa": "/səˈfɪʃnt/",
+    "pos": "adj.",
+    "zh": "足够的",
+    "example": "We have sufficient time to finish.",
+    "l5_core": "sufficient",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "task",
+    "ipa": "/tɑːsk/",
+    "pos": "n.",
+    "zh": "任务",
+    "example": "Finish the task before noon.",
+    "l5_core": "assignment",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "technical",
+    "ipa": "/ˈteknɪkl/",
+    "pos": "adj.",
+    "zh": "技术的",
+    "example": "The manual is too technical for me.",
+    "l5_core": "technique",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "technique",
+    "ipa": "/tekˈniːk/",
+    "pos": "n.",
+    "zh": "技巧，技术",
+    "example": "Practice improves your technique.",
+    "l5_core": "technique",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "valid",
+    "ipa": "/ˈvælɪd/",
+    "pos": "adj.",
+    "zh": "有效的，合理的",
+    "example": "Your ticket is valid for one year.",
+    "l5_core": "valid",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "volume",
+    "ipa": "/ˈvɒljuːm/",
+    "pos": "n.",
+    "zh": "体积，音量，卷",
+    "example": "Turn down the volume, please.",
+    "l5_core": "capacity",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "adequate",
+    "ipa": "/ˈædɪkwət/",
+    "pos": "adj.",
+    "zh": "足够的，适当的",
+    "example": "The room has adequate lighting.",
+    "l5_core": "adequate",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "annual",
+    "ipa": "/ˈænjuəl/",
+    "pos": "adj.",
+    "zh": "每年的",
+    "example": "The annual meeting is in March.",
+    "l5_core": "",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "apparent",
+    "ipa": "/əˈpærənt/",
+    "pos": "adj.",
+    "zh": "明显的",
+    "example": "It became apparent that he was lying.",
+    "l5_core": "apparent",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "approximate",
+    "ipa": "/əˈprɒksɪmət/",
+    "pos": "adj.",
+    "zh": "大约的",
+    "example": "The approximate cost is two hundred dollars.",
+    "l5_core": "approximate",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "attitude",
+    "ipa": "/ˈætɪtjuːd/",
+    "pos": "n.",
+    "zh": "态度",
+    "example": "A positive attitude matters a lot.",
+    "l5_core": "attitude",
+    "cefr": "C2",
+    "level": "C2"
+  },
+  {
+    "word": "attribute",
+    "ipa": "/əˈtrɪbjuːt/",
+    "pos": "n./v.",
+    "zh": "属性；归因于",
+    "example": "She attributes her success to hard work.",
+    "l5_core": "attribute",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "civil",
+    "ipa": "/ˈsɪvl/",
+    "pos": "adj.",
+    "zh": "公民的，民事的",
+    "example": "They discussed civil rights.",
+    "l5_core": "citizen",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "code",
+    "ipa": "/kəʊd/",
+    "pos": "n.",
+    "zh": "代码，密码，准则",
+    "example": "Write clean code.",
+    "l5_core": "password",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "commit",
+    "ipa": "/kəˈmɪt/",
+    "pos": "v.",
+    "zh": "承诺；犯（错）",
+    "example": "She committed herself to the project.",
+    "l5_core": "undertake",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "concentrate",
+    "ipa": "/ˈkɒnsntreɪt/",
+    "pos": "v.",
+    "zh": "集中（注意力）",
+    "example": "Concentrate on your homework.",
+    "l5_core": "attention",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "conference",
+    "ipa": "/ˈkɒnfərəns/",
+    "pos": "n.",
+    "zh": "会议",
+    "example": "She spoke at an international conference.",
+    "l5_core": "conference",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "contrast",
+    "ipa": "/ˈkɒntrɑːst/",
+    "pos": "n./v.",
+    "zh": "对比",
+    "example": "The contrast between the two is clear.",
+    "l5_core": "contrast",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "cycle",
+    "ipa": "/ˈsaɪkl/",
+    "pos": "n.",
+    "zh": "循环，周期",
+    "example": "Life is a cycle of ups and downs.",
+    "l5_core": "cycle",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "debate",
+    "ipa": "/dɪˈbeɪt/",
+    "pos": "n./v.",
+    "zh": "辩论",
+    "example": "The class held a debate on climate.",
+    "l5_core": "argument",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "despite",
+    "ipa": "/dɪˈspaɪt/",
+    "pos": "prep.",
+    "zh": "尽管",
+    "example": "Despite the rain, we went out.",
+    "l5_core": "nevertheless",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "dimension",
+    "ipa": "/daɪˈmenʃn/",
+    "pos": "n.",
+    "zh": "维度，尺寸",
+    "example": "The problem has many dimensions.",
+    "l5_core": "dimension",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "domestic",
+    "ipa": "/dəˈmestɪk/",
+    "pos": "adj.",
+    "zh": "国内的，家庭的",
+    "example": "Domestic sales are growing.",
+    "l5_core": "household",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "emerge",
+    "ipa": "/iˈmɜːdʒ/",
+    "pos": "v.",
+    "zh": "出现",
+    "example": "New problems emerged after the reform.",
+    "l5_core": "arise",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "error",
+    "ipa": "/ˈerə(r)/",
+    "pos": "n.",
+    "zh": "错误",
+    "example": "There is an error in the report.",
+    "l5_core": "mistake",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "ethnic",
+    "ipa": "/ˈeθnɪk/",
+    "pos": "adj.",
+    "zh": "民族的，种族的",
+    "example": "The city has many ethnic groups.",
+    "l5_core": "culture",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "goal",
+    "ipa": "/ɡəʊl/",
+    "pos": "n.",
+    "zh": "目标",
+    "example": "Her goal is to become a doctor.",
+    "l5_core": "target",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "grant",
+    "ipa": "/ɡrɑːnt/",
+    "pos": "v./n.",
+    "zh": "授予；补助金",
+    "example": "The university granted her a scholarship.",
+    "l5_core": "grant",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "hence",
+    "ipa": "/hens/",
+    "pos": "adv.",
+    "zh": "因此",
+    "example": "It rained heavily; hence the delay.",
+    "l5_core": "hence",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "hypothesis",
+    "ipa": "/haɪˈpɒθəsɪs/",
+    "pos": "n.",
+    "zh": "假设",
+    "example": "We tested the hypothesis with data.",
+    "l5_core": "hypothesis",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "implement",
+    "ipa": "/ˈɪmplɪment/",
+    "pos": "v.",
+    "zh": "实施",
+    "example": "The school implemented a new policy.",
+    "l5_core": "implement",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "impose",
+    "ipa": "/ɪmˈpəʊz/",
+    "pos": "v.",
+    "zh": "强加，征收",
+    "example": "The city imposed a new tax.",
+    "l5_core": "demand",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "integrate",
+    "ipa": "/ˈɪntɪɡreɪt/",
+    "pos": "v.",
+    "zh": "整合，融入",
+    "example": "The app integrates all your files.",
+    "l5_core": "integrate",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "internal",
+    "ipa": "/ɪnˈtɜːnl/",
+    "pos": "adj.",
+    "zh": "内部的",
+    "example": "Internal communication is efficient.",
+    "l5_core": "",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "investigate",
+    "ipa": "/ɪnˈvestɪɡeɪt/",
+    "pos": "v.",
+    "zh": "调查",
+    "example": "Police are investigating the case.",
+    "l5_core": "examine",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "job",
+    "ipa": "/dʒɒb/",
+    "pos": "n.",
+    "zh": "工作，任务",
+    "example": "She found a job in a bank.",
+    "l5_core": "career",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "label",
+    "ipa": "/ˈleɪbl/",
+    "pos": "n./v.",
+    "zh": "标签；贴标签",
+    "example": "Check the label before washing.",
+    "l5_core": "label",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "mechanism",
+    "ipa": "/ˈmekənɪzəm/",
+    "pos": "n.",
+    "zh": "机制",
+    "example": "The mechanism of the clock is broken.",
+    "l5_core": "apparatus",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "obvious",
+    "ipa": "/ˈɒbviəs/",
+    "pos": "adj.",
+    "zh": "明显的",
+    "example": "The answer is obvious.",
+    "l5_core": "evident",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "occupy",
+    "ipa": "/ˈɒkjupaɪ/",
+    "pos": "v.",
+    "zh": "占据，占用",
+    "example": "The meeting occupied two hours.",
+    "l5_core": "takeover",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "option",
+    "ipa": "/ˈɒpʃn/",
+    "pos": "n.",
+    "zh": "选择，选项",
+    "example": "You have two options.",
+    "l5_core": "",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "output",
+    "ipa": "/ˈaʊtpʊt/",
+    "pos": "n.",
+    "zh": "产量，输出",
+    "example": "Factory output has doubled.",
+    "l5_core": "output",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "overall",
+    "ipa": "/ˌəʊvərˈɔːl/",
+    "pos": "adj./adv.",
+    "zh": "总体的",
+    "example": "The overall result is positive.",
+    "l5_core": "total",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "parallel",
+    "ipa": "/ˈpærəlel/",
+    "pos": "adj./n.",
+    "zh": "平行的；相似处",
+    "example": "The two roads run parallel.",
+    "l5_core": "similar",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "parameter",
+    "ipa": "/pəˈræmɪtə(r)/",
+    "pos": "n.",
+    "zh": "参数",
+    "example": "Set the parameters before running the test.",
+    "l5_core": "parameter",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "phase",
+    "ipa": "/feɪz/",
+    "pos": "n.",
+    "zh": "阶段",
+    "example": "The project is in its final phase.",
+    "l5_core": "phase",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "predict",
+    "ipa": "/prɪˈdɪkt/",
+    "pos": "v.",
+    "zh": "预测",
+    "example": "Scientists predict a warm winter.",
+    "l5_core": "forecast",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "principal",
+    "ipa": "/ˈprɪnsəpl/",
+    "pos": "adj./n.",
+    "zh": "主要的；校长",
+    "example": "The principal cause is pollution.",
+    "l5_core": "major",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "prior",
+    "ipa": "/ˈpraɪə(r)/",
+    "pos": "adj.",
+    "zh": "先前的",
+    "example": "We had no prior experience.",
+    "l5_core": "previous",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "professional",
+    "ipa": "/prəˈfeʃənl/",
+    "pos": "adj./n.",
+    "zh": "专业的；专业人士",
+    "example": "She is a professional designer.",
+    "l5_core": "career",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "project",
+    "ipa": "/ˈprɒdʒekt/",
+    "pos": "n.",
+    "zh": "项目",
+    "example": "Our group finished the science project.",
+    "l5_core": "project",
+    "cefr": "A2",
+    "level": "A2"
+  },
+  {
+    "word": "regime",
+    "ipa": "/reɪˈʒiːm/",
+    "pos": "n.",
+    "zh": "政权，体制",
+    "example": "The new regime changed the law.",
+    "l5_core": "government",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "resolve",
+    "ipa": "/rɪˈzɒlv/",
+    "pos": "v.",
+    "zh": "解决",
+    "example": "We resolved the dispute peacefully.",
+    "l5_core": "resolve",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "retain",
+    "ipa": "/rɪˈteɪn/",
+    "pos": "v.",
+    "zh": "保留",
+    "example": "The town retains its old charm.",
+    "l5_core": "maintain",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "series",
+    "ipa": "/ˈsɪəriːz/",
+    "pos": "n.",
+    "zh": "系列，连续",
+    "example": "A series of events led to the war.",
+    "l5_core": "series",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "statistic",
+    "ipa": "/stəˈtɪstɪk/",
+    "pos": "n.",
+    "zh": "统计数据",
+    "example": "The statistics show a rise in sales.",
+    "l5_core": "statistic",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "status",
+    "ipa": "/ˈsteɪtəs/",
+    "pos": "n.",
+    "zh": "地位，状态",
+    "example": "Women gained higher status in society.",
+    "l5_core": "status",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "stress",
+    "ipa": "/stres/",
+    "pos": "n./v.",
+    "zh": "压力；强调",
+    "example": "Stress can harm your health.",
+    "l5_core": "stress",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "subsequent",
+    "ipa": "/ˈsʌbsɪkwənt/",
+    "pos": "adj.",
+    "zh": "随后的",
+    "example": "Subsequent events proved him right.",
+    "l5_core": "",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "sum",
+    "ipa": "/sʌm/",
+    "pos": "n.",
+    "zh": "总数，金额",
+    "example": "The sum of two and three is five.",
+    "l5_core": "total",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "summary",
+    "ipa": "/ˈsʌməri/",
+    "pos": "n.",
+    "zh": "摘要",
+    "example": "Write a summary of the article.",
+    "l5_core": "conclusion",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "undertake",
+    "ipa": "/ˌʌndəˈteɪk/",
+    "pos": "v.",
+    "zh": "承担，从事",
+    "example": "She undertook the task willingly.",
+    "l5_core": "undertake",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "adjust",
+    "ipa": "/əˈdʒʌst/",
+    "pos": "v.",
+    "zh": "调整",
+    "example": "Adjust the chair to your height.",
+    "l5_core": "modify",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "amend",
+    "ipa": "/əˈmend/",
+    "pos": "v.",
+    "zh": "修改，修正",
+    "example": "The law was amended last year.",
+    "l5_core": "amend",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "aware",
+    "ipa": "/əˈweə(r)/",
+    "pos": "adj.",
+    "zh": "意识到的",
+    "example": "Be aware of the risks.",
+    "l5_core": "conscious",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "capacity",
+    "ipa": "/kəˈpæsəti/",
+    "pos": "n.",
+    "zh": "容量，能力",
+    "example": "The hall has a capacity of 500.",
+    "l5_core": "capacity",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "challenge",
+    "ipa": "/ˈtʃælɪndʒ/",
+    "pos": "n./v.",
+    "zh": "挑战",
+    "example": "Learning English is a big challenge.",
+    "l5_core": "challenge",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "clause",
+    "ipa": "/klɔːz/",
+    "pos": "n.",
+    "zh": "从句，条款",
+    "example": "Read the clause about payment.",
+    "l5_core": "clause",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "compound",
+    "ipa": "/ˈkɒmpaʊnd/",
+    "pos": "n./adj.",
+    "zh": "复合物；复合的",
+    "example": "Water is a compound of hydrogen and oxygen.",
+    "l5_core": "compound",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "conflict",
+    "ipa": "/ˈkɒnflɪkt/",
+    "pos": "n./v.",
+    "zh": "冲突",
+    "example": "The conflict between the two sides continues.",
+    "l5_core": "argument",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "consult",
+    "ipa": "/kənˈsʌlt/",
+    "pos": "v.",
+    "zh": "咨询，查阅",
+    "example": "Consult a doctor if you feel ill.",
+    "l5_core": "",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "contact",
+    "ipa": "/ˈkɒntækt/",
+    "pos": "n./v.",
+    "zh": "联系",
+    "example": "Keep in contact with your friends.",
+    "l5_core": "liaison",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "decline",
+    "ipa": "/dɪˈklaɪn/",
+    "pos": "v./n.",
+    "zh": "下降；婉拒",
+    "example": "Sales declined in winter.",
+    "l5_core": "decline",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "discrete",
+    "ipa": "/dɪˈskriːt/",
+    "pos": "adj.",
+    "zh": "分离的，离散的",
+    "example": "The course has four discrete parts.",
+    "l5_core": "distinct",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "draft",
+    "ipa": "/drɑːft/",
+    "pos": "n./v.",
+    "zh": "草稿；起草",
+    "example": "Show me the first draft of your essay.",
+    "l5_core": "draft",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "enable",
+    "ipa": "/ɪˈneɪbl/",
+    "pos": "v.",
+    "zh": "使能够",
+    "example": "The app enables users to learn anywhere.",
+    "l5_core": "empower",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "enforce",
+    "ipa": "/ɪnˈfɔːs/",
+    "pos": "v.",
+    "zh": "执行，强制",
+    "example": "Police enforce traffic laws.",
+    "l5_core": "implement",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "entity",
+    "ipa": "/ˈentəti/",
+    "pos": "n.",
+    "zh": "实体",
+    "example": "The company is a separate legal entity.",
+    "l5_core": "institution",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "equivalent",
+    "ipa": "/ɪˈkwɪvələnt/",
+    "pos": "adj./n.",
+    "zh": "等价的；等价物",
+    "example": "One dollar is equivalent to ten yuan.",
+    "l5_core": "equivalent",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "evolve",
+    "ipa": "/iˈvɒlv/",
+    "pos": "v.",
+    "zh": "进化，演变",
+    "example": "Languages evolve over time.",
+    "l5_core": "evolve",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "expand",
+    "ipa": "/ɪkˈspænd/",
+    "pos": "v.",
+    "zh": "扩大",
+    "example": "The company expanded its business.",
+    "l5_core": "increase",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "expose",
+    "ipa": "/ɪkˈspəʊz/",
+    "pos": "v.",
+    "zh": "暴露，揭露",
+    "example": "The report exposed the scandal.",
+    "l5_core": "reveal",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "external",
+    "ipa": "/ɪkˈstɜːnl/",
+    "pos": "adj.",
+    "zh": "外部的",
+    "example": "The external walls need painting.",
+    "l5_core": "",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "facilitate",
+    "ipa": "/fəˈsɪlɪteɪt/",
+    "pos": "v.",
+    "zh": "促进，使便利",
+    "example": "Good roads facilitate trade.",
+    "l5_core": "facilitate",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "fundamental",
+    "ipa": "/ˌfʌndəˈmentl/",
+    "pos": "adj.",
+    "zh": "基本的，根本的",
+    "example": "Freedom is a fundamental right.",
+    "l5_core": "essential",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "generate",
+    "ipa": "/ˈdʒenəreɪt/",
+    "pos": "v.",
+    "zh": "产生",
+    "example": "Wind can generate electricity.",
+    "l5_core": "generate",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "image",
+    "ipa": "/ˈɪmɪdʒ/",
+    "pos": "n.",
+    "zh": "形象，图像",
+    "example": "The brand has a strong image.",
+    "l5_core": "brand",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "liberal",
+    "ipa": "/ˈlɪbərəl/",
+    "pos": "adj.",
+    "zh": "自由的，开明的",
+    "example": "She holds liberal views.",
+    "l5_core": "",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "licence",
+    "ipa": "/ˈlaɪsns/",
+    "pos": "n.",
+    "zh": "许可证",
+    "example": "You need a driving licence to drive.",
+    "l5_core": "permit",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "logic",
+    "ipa": "/ˈlɒdʒɪk/",
+    "pos": "n.",
+    "zh": "逻辑",
+    "example": "There is no logic in his argument.",
+    "l5_core": "logic",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "margin",
+    "ipa": "/ˈmɑːdʒɪn/",
+    "pos": "n.",
+    "zh": "边缘，差额，利润",
+    "example": "They won by a wide margin.",
+    "l5_core": "edge",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "medical",
+    "ipa": "/ˈmedɪkl/",
+    "pos": "adj.",
+    "zh": "医学的",
+    "example": "She needs medical care.",
+    "l5_core": "medicine",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "mental",
+    "ipa": "/ˈmentl/",
+    "pos": "adj.",
+    "zh": "精神的，心理的",
+    "example": "Mental health is as important as physical health.",
+    "l5_core": "cognitive",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "modify",
+    "ipa": "/ˈmɒdɪfaɪ/",
+    "pos": "v.",
+    "zh": "修改",
+    "example": "Modify the design to save cost.",
+    "l5_core": "modify",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "monitor",
+    "ipa": "/ˈmɒnɪtə(r)/",
+    "pos": "v./n.",
+    "zh": "监控；显示器",
+    "example": "Doctors monitor the patient closely.",
+    "l5_core": "screen",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "notion",
+    "ipa": "/ˈnəʊʃn/",
+    "pos": "n.",
+    "zh": "观念",
+    "example": "He rejected the notion of luck.",
+    "l5_core": "notion",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "objective",
+    "ipa": "/əbˈdʒektɪv/",
+    "pos": "n./adj.",
+    "zh": "目标；客观的",
+    "example": "Our objective is to cut costs.",
+    "l5_core": "motive",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "orient",
+    "ipa": "/ˈɔːrient/",
+    "pos": "v.",
+    "zh": "定位，使适应",
+    "example": "The course orients new students.",
+    "l5_core": "guide",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "perspective",
+    "ipa": "/pəˈspektɪv/",
+    "pos": "n.",
+    "zh": "视角，观点",
+    "example": "Try to see it from my perspective.",
+    "l5_core": "perspective",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "precise",
+    "ipa": "/prɪˈsaɪs/",
+    "pos": "adj.",
+    "zh": "精确的",
+    "example": "Give precise instructions.",
+    "l5_core": "accurate",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "prime",
+    "ipa": "/praɪm/",
+    "pos": "adj.",
+    "zh": "首要的，最好的",
+    "example": "The prime minister will visit.",
+    "l5_core": "prime",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "psychology",
+    "ipa": "/saɪˈkɒlədʒi/",
+    "pos": "n.",
+    "zh": "心理学",
+    "example": "She studies child psychology.",
+    "l5_core": "psychology",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "pursue",
+    "ipa": "/pəˈsjuː/",
+    "pos": "v.",
+    "zh": "追求，从事",
+    "example": "He pursued his dream of being a pilot.",
+    "l5_core": "pursue",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "ratio",
+    "ipa": "/ˈreɪʃiəʊ/",
+    "pos": "n.",
+    "zh": "比率",
+    "example": "The ratio of boys to girls is 2:1.",
+    "l5_core": "ratio",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "reject",
+    "ipa": "/rɪˈdʒekt/",
+    "pos": "v.",
+    "zh": "拒绝，驳回",
+    "example": "They rejected my proposal.",
+    "l5_core": "decline",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "revenue",
+    "ipa": "/ˈrevənjuː/",
+    "pos": "n.",
+    "zh": "收入，税收",
+    "example": "The company's revenue grew by 20%.",
+    "l5_core": "revenue",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "stable",
+    "ipa": "/ˈsteɪbl/",
+    "pos": "adj.",
+    "zh": "稳定的",
+    "example": "The patient is in a stable condition.",
+    "l5_core": "consistent",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "style",
+    "ipa": "/staɪl/",
+    "pos": "n.",
+    "zh": "风格，样式",
+    "example": "She writes in a clear style.",
+    "l5_core": "",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "substitute",
+    "ipa": "/ˈsʌbstɪtjuːt/",
+    "pos": "n./v.",
+    "zh": "替代品；代替",
+    "example": "Honey can substitute for sugar.",
+    "l5_core": "substitute",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "symbol",
+    "ipa": "/ˈsɪmbl/",
+    "pos": "n.",
+    "zh": "象征，符号",
+    "example": "The dove is a symbol of peace.",
+    "l5_core": "emblem",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "target",
+    "ipa": "/ˈtɑːɡɪt/",
+    "pos": "n./v.",
+    "zh": "目标；瞄准",
+    "example": "Set a target of 1000 words.",
+    "l5_core": "target",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "transit",
+    "ipa": "/ˈtrænzɪt/",
+    "pos": "n.",
+    "zh": "运输，过境",
+    "example": "Goods in transit were delayed.",
+    "l5_core": "transit",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "trend",
+    "ipa": "/trend/",
+    "pos": "n.",
+    "zh": "趋势",
+    "example": "There is a trend toward online learning.",
+    "l5_core": "trend",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "adapt",
+    "ipa": "/əˈdæpt/",
+    "pos": "v.",
+    "zh": "适应，改编",
+    "example": "Animals adapt to their environment.",
+    "l5_core": "modify",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "advocate",
+    "ipa": "/ˈædvəkeɪt/",
+    "pos": "v./n.",
+    "zh": "提倡；倡导者",
+    "example": "Many experts advocate regular exercise.",
+    "l5_core": "advocate",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "aid",
+    "ipa": "/eɪd/",
+    "pos": "n./v.",
+    "zh": "援助",
+    "example": "The region received food aid.",
+    "l5_core": "relief",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "channel",
+    "ipa": "/ˈtʃænl/",
+    "pos": "n.",
+    "zh": "渠道，频道",
+    "example": "The news came through official channels.",
+    "l5_core": "channel",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "chemical",
+    "ipa": "/ˈkemɪkl/",
+    "pos": "adj./n.",
+    "zh": "化学的；化学品",
+    "example": "The chemical reaction produced heat.",
+    "l5_core": "chemical",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "classic",
+    "ipa": "/ˈklæsɪk/",
+    "pos": "adj./n.",
+    "zh": "经典的；名著",
+    "example": "This is a classic example.",
+    "l5_core": "",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "comprehensive",
+    "ipa": "/ˌkɒmprɪˈhensɪv/",
+    "pos": "adj.",
+    "zh": "全面的",
+    "example": "The book gives a comprehensive guide.",
+    "l5_core": "comprehensive",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "comprise",
+    "ipa": "/kəmˈpraɪz/",
+    "pos": "v.",
+    "zh": "包含，构成",
+    "example": "The committee comprises ten members.",
+    "l5_core": "comprise",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "confirm",
+    "ipa": "/kənˈfɜːm/",
+    "pos": "v.",
+    "zh": "确认",
+    "example": "Please confirm your booking by email.",
+    "l5_core": "verify",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "contrary",
+    "ipa": "/ˈkɒntrəri/",
+    "pos": "adj./n.",
+    "zh": "相反的",
+    "example": "Contrary to expectations, he passed.",
+    "l5_core": "",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "convert",
+    "ipa": "/kənˈvɜːt/",
+    "pos": "v.",
+    "zh": "转换",
+    "example": "Convert the file to PDF.",
+    "l5_core": "convert",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "couple",
+    "ipa": "/ˈkʌpl/",
+    "pos": "n./v.",
+    "zh": "一对，几个；结合",
+    "example": "I'll be back in a couple of minutes.",
+    "l5_core": "couple",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "decade",
+    "ipa": "/ˈdekeɪd/",
+    "pos": "n.",
+    "zh": "十年",
+    "example": "The city changed over the past decade.",
+    "l5_core": "decade",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "definite",
+    "ipa": "/ˈdefɪnət/",
+    "pos": "adj.",
+    "zh": "明确的，肯定的",
+    "example": "We need a definite answer.",
+    "l5_core": "explicit",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "deny",
+    "ipa": "/dɪˈnaɪ/",
+    "pos": "v.",
+    "zh": "否认，拒绝",
+    "example": "He denied stealing the money.",
+    "l5_core": "decline",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "differentiate",
+    "ipa": "/ˌdɪfəˈrenʃieɪt/",
+    "pos": "v.",
+    "zh": "区分",
+    "example": "Can you differentiate the twins?",
+    "l5_core": "differentiate",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "dispose",
+    "ipa": "/dɪˈspəʊz/",
+    "pos": "v.",
+    "zh": "处理，处置",
+    "example": "Dispose of waste properly.",
+    "l5_core": "waste",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "dynamic",
+    "ipa": "/daɪˈnæmɪk/",
+    "pos": "adj.",
+    "zh": "动态的，有活力的",
+    "example": "The market is dynamic and fast-changing.",
+    "l5_core": "",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "eliminate",
+    "ipa": "/ɪˈlɪmɪneɪt/",
+    "pos": "v.",
+    "zh": "消除",
+    "example": "We eliminated all errors in the report.",
+    "l5_core": "withdraw",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "empirical",
+    "ipa": "/ɪmˈpɪrɪkl/",
+    "pos": "adj.",
+    "zh": "以实验为依据的",
+    "example": "The theory lacks empirical evidence.",
+    "l5_core": "empirical",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "equip",
+    "ipa": "/ɪˈkwɪp/",
+    "pos": "v.",
+    "zh": "装备，配备",
+    "example": "The lab is equipped with new machines.",
+    "l5_core": "supply",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "extract",
+    "ipa": "/ɪkˈstrækt/",
+    "pos": "v./n.",
+    "zh": "提取",
+    "example": "We extracted data from the report.",
+    "l5_core": "obtain",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "file",
+    "ipa": "/faɪl/",
+    "pos": "n./v.",
+    "zh": "文件；归档",
+    "example": "Please save the file to disk.",
+    "l5_core": "archive",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "finite",
+    "ipa": "/ˈfaɪnaɪt/",
+    "pos": "adj.",
+    "zh": "有限的",
+    "example": "Resources are finite.",
+    "l5_core": "finite",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "foundation",
+    "ipa": "/faʊnˈdeɪʃn/",
+    "pos": "n.",
+    "zh": "基础，基金会",
+    "example": "The course provides a solid foundation.",
+    "l5_core": "foundation",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "globe",
+    "ipa": "/ɡləʊb/",
+    "pos": "n.",
+    "zh": "地球，球体",
+    "example": "The product sells across the globe.",
+    "l5_core": "earth",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "grade",
+    "ipa": "/ɡreɪd/",
+    "pos": "n./v.",
+    "zh": "等级，年级；评分",
+    "example": "She got a good grade in math.",
+    "l5_core": "rating",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "guarantee",
+    "ipa": "/ˌɡærənˈtiː/",
+    "pos": "v./n.",
+    "zh": "保证",
+    "example": "Quality is guaranteed.",
+    "l5_core": "guarantee",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "hierarchical",
+    "ipa": "/ˌhaɪəˈrɑːkɪkl/",
+    "pos": "adj.",
+    "zh": "分层的，等级制的",
+    "example": "The company has a hierarchical structure.",
+    "l5_core": "tier",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "identical",
+    "ipa": "/aɪˈdentɪkl/",
+    "pos": "adj.",
+    "zh": "完全相同的",
+    "example": "The two signatures are identical.",
+    "l5_core": "identical",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "ideology",
+    "ipa": "/ˌaɪdiˈɒlədʒi/",
+    "pos": "n.",
+    "zh": "意识形态",
+    "example": "Their ideology shaped the policy.",
+    "l5_core": "ideology",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "infer",
+    "ipa": "/ɪnˈfɜː(r)/",
+    "pos": "v.",
+    "zh": "推断",
+    "example": "We infer the meaning from context.",
+    "l5_core": "deduce",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "innovate",
+    "ipa": "/ˈɪnəveɪt/",
+    "pos": "v.",
+    "zh": "创新",
+    "example": "Companies must innovate to survive.",
+    "l5_core": "originality",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "insert",
+    "ipa": "/ɪnˈsɜːt/",
+    "pos": "v.",
+    "zh": "插入",
+    "example": "Insert your card into the machine.",
+    "l5_core": "input",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "intervene",
+    "ipa": "/ˌɪntəˈviːn/",
+    "pos": "v.",
+    "zh": "干预",
+    "example": "The government intervened in the crisis.",
+    "l5_core": "intervention",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "isolate",
+    "ipa": "/ˈaɪsəleɪt/",
+    "pos": "v.",
+    "zh": "隔离",
+    "example": "The patient was isolated from others.",
+    "l5_core": "",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "mode",
+    "ipa": "/məʊd/",
+    "pos": "n.",
+    "zh": "模式，方式",
+    "example": "Switch the phone to flight mode.",
+    "l5_core": "method",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "paradigm",
+    "ipa": "/ˈpærədaɪm/",
+    "pos": "n.",
+    "zh": "范式",
+    "example": "The new paradigm changed the field.",
+    "l5_core": "paradigm",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "phenomenon",
+    "ipa": "/fəˈnɒmɪnən/",
+    "pos": "n.",
+    "zh": "现象",
+    "example": "Global warming is a global phenomenon.",
+    "l5_core": "phenomenon",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "priority",
+    "ipa": "/praɪˈɒrəti/",
+    "pos": "n.",
+    "zh": "优先事项",
+    "example": "Safety is our top priority.",
+    "l5_core": "stress",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "prohibit",
+    "ipa": "/prəˈhɪbɪt/",
+    "pos": "v.",
+    "zh": "禁止",
+    "example": "Smoking is prohibited here.",
+    "l5_core": "ban",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "publication",
+    "ipa": "/ˌpʌblɪˈkeɪʃn/",
+    "pos": "n.",
+    "zh": "出版，出版物",
+    "example": "Her latest publication is a success.",
+    "l5_core": "publish",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "quote",
+    "ipa": "/kwəʊt/",
+    "pos": "v./n.",
+    "zh": "引用；引语",
+    "example": "She quoted a line from the poem.",
+    "l5_core": "cite",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "release",
+    "ipa": "/rɪˈliːs/",
+    "pos": "v./n.",
+    "zh": "发布，释放",
+    "example": "The company released a new app.",
+    "l5_core": "release",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "reverse",
+    "ipa": "/rɪˈvɜːs/",
+    "pos": "v./n./adj.",
+    "zh": "逆转；相反的",
+    "example": "The court reversed the decision.",
+    "l5_core": "",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "simulate",
+    "ipa": "/ˈsɪmjuleɪt/",
+    "pos": "v.",
+    "zh": "模拟",
+    "example": "The software simulates real traffic.",
+    "l5_core": "simulate",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "solely",
+    "ipa": "/ˈsəʊlli/",
+    "pos": "adv.",
+    "zh": "仅仅，唯一地",
+    "example": "The decision rests solely with you.",
+    "l5_core": "",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "somewhat",
+    "ipa": "/ˈsʌmwɒt/",
+    "pos": "adv.",
+    "zh": "有点",
+    "example": "The task is somewhat difficult.",
+    "l5_core": "somewhat",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "submit",
+    "ipa": "/səbˈmɪt/",
+    "pos": "v.",
+    "zh": "提交",
+    "example": "Submit your homework before Friday.",
+    "l5_core": "submit",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "successor",
+    "ipa": "/səkˈsesə(r)/",
+    "pos": "n.",
+    "zh": "继任者",
+    "example": "She is the successor to the manager.",
+    "l5_core": "replacement",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "survive",
+    "ipa": "/səˈvaɪv/",
+    "pos": "v.",
+    "zh": "幸存",
+    "example": "Few plants survive in the desert.",
+    "l5_core": "",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "thesis",
+    "ipa": "/ˈθiːsɪs/",
+    "pos": "n.",
+    "zh": "论文，论点",
+    "example": "She is writing her master's thesis.",
+    "l5_core": "thesis",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "topic",
+    "ipa": "/ˈtɒpɪk/",
+    "pos": "n.",
+    "zh": "话题，主题",
+    "example": "The topic of the lecture is AI.",
+    "l5_core": "subject",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "transmit",
+    "ipa": "/trænzˈmɪt/",
+    "pos": "v.",
+    "zh": "传送，传播",
+    "example": "The signal is transmitted by satellite.",
+    "l5_core": "dispatch",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "ultimate",
+    "ipa": "/ˈʌltɪmət/",
+    "pos": "adj.",
+    "zh": "最终的，根本的",
+    "example": "The ultimate goal is world peace.",
+    "l5_core": "eventual",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "unique",
+    "ipa": "/juˈniːk/",
+    "pos": "adj.",
+    "zh": "独特的",
+    "example": "Every person is unique.",
+    "l5_core": "distinct",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "visible",
+    "ipa": "/ˈvɪzəbl/",
+    "pos": "adj.",
+    "zh": "可见的",
+    "example": "The stars are visible tonight.",
+    "l5_core": "evident",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "voluntary",
+    "ipa": "/ˈvɒləntri/",
+    "pos": "adj.",
+    "zh": "自愿的",
+    "example": "She does voluntary work at weekends.",
+    "l5_core": "voluntary",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "abandon",
+    "ipa": "/əˈbændən/",
+    "pos": "v.",
+    "zh": "放弃，抛弃",
+    "example": "They abandoned the plan.",
+    "l5_core": "",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "abstract",
+    "ipa": "/ˈæbstrækt/",
+    "pos": "adj./n.",
+    "zh": "抽象的；摘要",
+    "example": "Abstract ideas are hard to grasp.",
+    "l5_core": "abstract",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "acknowledge",
+    "ipa": "/əkˈnɒlɪdʒ/",
+    "pos": "v.",
+    "zh": "承认",
+    "example": "He acknowledged his mistake.",
+    "l5_core": "concede",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "aggregate",
+    "ipa": "/ˈæɡrɪɡət/",
+    "pos": "n./v.",
+    "zh": "总计，集合",
+    "example": "The aggregate score decided the winner.",
+    "l5_core": "aggregate",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "allocate",
+    "ipa": "/ˈæləkeɪt/",
+    "pos": "v.",
+    "zh": "分配",
+    "example": "We allocated more time to review.",
+    "l5_core": "allocate",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "ambiguous",
+    "ipa": "/æmˈbɪɡjuəs/",
+    "pos": "adj.",
+    "zh": "模棱两可的",
+    "example": "His answer was ambiguous.",
+    "l5_core": "ambiguous",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "appendix",
+    "ipa": "/əˈpendɪks/",
+    "pos": "n.",
+    "zh": "附录",
+    "example": "See the appendix for details.",
+    "l5_core": "appendix",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "appreciate",
+    "ipa": "/əˈpriːʃieɪt/",
+    "pos": "v.",
+    "zh": "感激，欣赏",
+    "example": "I appreciate your help.",
+    "l5_core": "appreciate",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "arbitrary",
+    "ipa": "/ˈɑːbɪtrəri/",
+    "pos": "adj.",
+    "zh": "任意的，武断的",
+    "example": "The rule seems arbitrary.",
+    "l5_core": "random",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "automate",
+    "ipa": "/ˈɔːtəmeɪt/",
+    "pos": "v.",
+    "zh": "使自动化",
+    "example": "The factory automated its production.",
+    "l5_core": "",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "bias",
+    "ipa": "/ˈbaɪəs/",
+    "pos": "n.",
+    "zh": "偏见",
+    "example": "The report shows a clear bias.",
+    "l5_core": "bias",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "brief",
+    "ipa": "/briːf/",
+    "pos": "adj./n.",
+    "zh": "简短的；摘要",
+    "example": "Give me a brief introduction.",
+    "l5_core": "concise",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "bulk",
+    "ipa": "/bʌlk/",
+    "pos": "n.",
+    "zh": "大量，主体",
+    "example": "The bulk of the work is done.",
+    "l5_core": "majority",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "capable",
+    "ipa": "/ˈkeɪpəbl/",
+    "pos": "adj.",
+    "zh": "有能力的",
+    "example": "She is capable of great things.",
+    "l5_core": "",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "cite",
+    "ipa": "/saɪt/",
+    "pos": "v.",
+    "zh": "引用",
+    "example": "Cite your sources in the essay.",
+    "l5_core": "cite",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "coherent",
+    "ipa": "/kəʊˈhɪərənt/",
+    "pos": "adj.",
+    "zh": "连贯的",
+    "example": "Her argument is coherent.",
+    "l5_core": "coherent",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "coincide",
+    "ipa": "/ˌkəʊɪnˈsaɪd/",
+    "pos": "v.",
+    "zh": "巧合，同时发生",
+    "example": "My schedule coincides with yours.",
+    "l5_core": "accord",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "commence",
+    "ipa": "/kəˈmens/",
+    "pos": "v.",
+    "zh": "开始",
+    "example": "The ceremony will commence at 9 am.",
+    "l5_core": "launch",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "compatible",
+    "ipa": "/kəmˈpætəbl/",
+    "pos": "adj.",
+    "zh": "兼容的",
+    "example": "The software is compatible with Windows.",
+    "l5_core": "consistent",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "concurrent",
+    "ipa": "/kənˈkʌrənt/",
+    "pos": "adj.",
+    "zh": "同时发生的",
+    "example": "The two projects run concurrently.",
+    "l5_core": "simultaneous",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "confine",
+    "ipa": "/kənˈfaɪn/",
+    "pos": "v.",
+    "zh": "限制，监禁",
+    "example": "Keep the discussion confined to the topic.",
+    "l5_core": "limit",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "controversy",
+    "ipa": "/ˈkɒntrəvɜːsi/",
+    "pos": "n.",
+    "zh": "争议",
+    "example": "The policy caused much controversy.",
+    "l5_core": "controversy",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "converse",
+    "ipa": "/kənˈvɜːs/",
+    "pos": "v./adj.",
+    "zh": "交谈；相反的",
+    "example": "They conversed in low voices.",
+    "l5_core": "communicate",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "crucial",
+    "ipa": "/ˈkruːʃl/",
+    "pos": "adj.",
+    "zh": "关键的",
+    "example": "Timing is crucial to success.",
+    "l5_core": "crucial",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "currency",
+    "ipa": "/ˈkʌrənsi/",
+    "pos": "n.",
+    "zh": "货币",
+    "example": "The currency dropped in value.",
+    "l5_core": "currency",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "denote",
+    "ipa": "/dɪˈnəʊt/",
+    "pos": "v.",
+    "zh": "表示，意味着",
+    "example": "The sign denotes a warning.",
+    "l5_core": "denote",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "detect",
+    "ipa": "/dɪˈtekt/",
+    "pos": "v.",
+    "zh": "察觉，检测",
+    "example": "The machine detects smoke early.",
+    "l5_core": "observation",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "deviate",
+    "ipa": "/ˈdiːvieɪt/",
+    "pos": "v.",
+    "zh": "偏离",
+    "example": "The train deviated from its route.",
+    "l5_core": "diverge",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "displace",
+    "ipa": "/dɪsˈpleɪs/",
+    "pos": "v.",
+    "zh": "取代，转移",
+    "example": "Robots displaced many workers.",
+    "l5_core": "relocate",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "dramatic",
+    "ipa": "/drəˈmætɪk/",
+    "pos": "adj.",
+    "zh": "戏剧性的，显著的",
+    "example": "There was a dramatic increase in sales.",
+    "l5_core": "significant",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "eventually",
+    "ipa": "/ɪˈventʃuəli/",
+    "pos": "adv.",
+    "zh": "最终",
+    "example": "Eventually, they reached an agreement.",
+    "l5_core": "ultimately",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "exhibit",
+    "ipa": "/ɪɡˈzɪbɪt/",
+    "pos": "v./n.",
+    "zh": "展示；展品",
+    "example": "The museum exhibits ancient art.",
+    "l5_core": "exhibit",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "exploit",
+    "ipa": "/ɪkˈsplɔɪt/",
+    "pos": "v.",
+    "zh": "利用，开发",
+    "example": "We should exploit renewable energy.",
+    "l5_core": "exploit",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "fluctuate",
+    "ipa": "/ˈflʌktʃueɪt/",
+    "pos": "v.",
+    "zh": "波动",
+    "example": "Prices fluctuate with demand.",
+    "l5_core": "fluctuate",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "guideline",
+    "ipa": "/ˈɡaɪdlaɪn/",
+    "pos": "n.",
+    "zh": "指导方针",
+    "example": "Follow the safety guidelines.",
+    "l5_core": "principle",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "highlight",
+    "ipa": "/ˈhaɪlaɪt/",
+    "pos": "v./n.",
+    "zh": "突出，强调",
+    "example": "The report highlights key issues.",
+    "l5_core": "stress",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "implicit",
+    "ipa": "/ɪmˈplɪsɪt/",
+    "pos": "adj.",
+    "zh": "含蓄的",
+    "example": "Her words carried an implicit warning.",
+    "l5_core": "inference",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "induce",
+    "ipa": "/ɪnˈdjuːs/",
+    "pos": "v.",
+    "zh": "引起，诱导",
+    "example": "The medicine induces sleep.",
+    "l5_core": "cause",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "inevitable",
+    "ipa": "/ɪnˈevɪtəbl/",
+    "pos": "adj.",
+    "zh": "不可避免的",
+    "example": "Change is inevitable.",
+    "l5_core": "inevitable",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "infrastructure",
+    "ipa": "/ˈɪnfrəstrʌktʃə(r)/",
+    "pos": "n.",
+    "zh": "基础设施",
+    "example": "The city invested in new infrastructure.",
+    "l5_core": "infrastructure",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "inspect",
+    "ipa": "/ɪnˈspekt/",
+    "pos": "v.",
+    "zh": "检查",
+    "example": "Engineers inspect the bridge yearly.",
+    "l5_core": "examine",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "intense",
+    "ipa": "/ɪnˈtens/",
+    "pos": "adj.",
+    "zh": "强烈的",
+    "example": "The heat was intense in summer.",
+    "l5_core": "",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "manipulate",
+    "ipa": "/məˈnɪpjuleɪt/",
+    "pos": "v.",
+    "zh": "操纵，操控",
+    "example": "He manipulated the data unfairly.",
+    "l5_core": "",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "minimise",
+    "ipa": "/ˈmɪnɪmaɪz/",
+    "pos": "v.",
+    "zh": "最小化",
+    "example": "Minimise the risk of error.",
+    "l5_core": "reduce",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "nuclear",
+    "ipa": "/ˈnjuːkliə(r)/",
+    "pos": "adj.",
+    "zh": "核能的，核的",
+    "example": "Nuclear power is controversial.",
+    "l5_core": "nuclear",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "offset",
+    "ipa": "/ˈɒfset/",
+    "pos": "v./n.",
+    "zh": "抵消",
+    "example": "Savings offset the extra cost.",
+    "l5_core": "offset",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "paragraph",
+    "ipa": "/ˈpærəɡrɑːf/",
+    "pos": "n.",
+    "zh": "段落",
+    "example": "Start each paragraph with a topic sentence.",
+    "l5_core": "paragraph",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "plus",
+    "ipa": "/plʌs/",
+    "pos": "prep./n.",
+    "zh": "加，加上；好处",
+    "example": "Two plus three equals five.",
+    "l5_core": "",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "practitioner",
+    "ipa": "/prækˈtɪʃənə(r)/",
+    "pos": "n.",
+    "zh": "从业者",
+    "example": "She is a medical practitioner.",
+    "l5_core": "",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "predominant",
+    "ipa": "/prɪˈdɒmɪnənt/",
+    "pos": "adj.",
+    "zh": "占主导地位的",
+    "example": "English is the predominant language here.",
+    "l5_core": "dominant",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "preliminary",
+    "ipa": "/prɪˈlɪmɪnəri/",
+    "pos": "adj.",
+    "zh": "初步的",
+    "example": "The preliminary results are encouraging.",
+    "l5_core": "preliminary",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "presume",
+    "ipa": "/prɪˈzjuːm/",
+    "pos": "v.",
+    "zh": "假定",
+    "example": "I presume you are the new student.",
+    "l5_core": "assume",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "rational",
+    "ipa": "/ˈræʃnəl/",
+    "pos": "adj.",
+    "zh": "理性的",
+    "example": "Stay calm and make a rational choice.",
+    "l5_core": "rational",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "reveal",
+    "ipa": "/rɪˈviːl/",
+    "pos": "v.",
+    "zh": "揭示",
+    "example": "The test revealed a hidden talent.",
+    "l5_core": "reveal",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "scope",
+    "ipa": "/skəʊp/",
+    "pos": "n.",
+    "zh": "范围",
+    "example": "The scope of the project is huge.",
+    "l5_core": "range",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "subsidy",
+    "ipa": "/ˈsʌbsədi/",
+    "pos": "n.",
+    "zh": "补贴",
+    "example": "Farmers receive government subsidies.",
+    "l5_core": "subsidy",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "tape",
+    "ipa": "/teɪp/",
+    "pos": "n.",
+    "zh": "磁带，胶带",
+    "example": "Listen to the tape for practice.",
+    "l5_core": "",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "temporary",
+    "ipa": "/ˈtemprəri/",
+    "pos": "adj.",
+    "zh": "临时的",
+    "example": "This is a temporary job.",
+    "l5_core": "temporary",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "trigger",
+    "ipa": "/ˈtrɪɡə(r)/",
+    "pos": "v./n.",
+    "zh": "引发；扳机",
+    "example": "The news triggered a debate.",
+    "l5_core": "trigger",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "unify",
+    "ipa": "/ˈjuːnɪfaɪ/",
+    "pos": "v.",
+    "zh": "统一",
+    "example": "The new system unifies all departments.",
+    "l5_core": "unity",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "violate",
+    "ipa": "/ˈvaɪəleɪt/",
+    "pos": "v.",
+    "zh": "违反",
+    "example": "He violated the traffic rules.",
+    "l5_core": "breach",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "vision",
+    "ipa": "/ˈvɪʒn/",
+    "pos": "n.",
+    "zh": "愿景，视野",
+    "example": "The leader has a clear vision.",
+    "l5_core": "outlook",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "feasible",
+    "ipa": "/ˈfiːzəbl/",
+    "pos": "adj.",
+    "zh": "可行的",
+    "example": "The plan is economically feasible.",
+    "l5_core": "feasible",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "inherent",
+    "ipa": "/ɪnˈhɪərənt/",
+    "pos": "adj.",
+    "zh": "固有的",
+    "example": "Risk is inherent in investing.",
+    "l5_core": "intrinsic",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "quantify",
+    "ipa": "/ˈkwɒntɪfaɪ/",
+    "pos": "v.",
+    "zh": "量化",
+    "example": "It is hard to quantify the damage.",
+    "l5_core": "measure",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "robust",
+    "ipa": "/rəʊˈbʌst/",
+    "pos": "adj.",
+    "zh": "强健的，稳健的",
+    "example": "The economy shows robust growth.",
+    "l5_core": "robust",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "scenario",
+    "ipa": "/səˈnɑːriəʊ/",
+    "pos": "n.",
+    "zh": "情景，方案",
+    "example": "Imagine a worst-case scenario.",
+    "l5_core": "scenario",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "tentative",
+    "ipa": "/ˈtentətɪv/",
+    "pos": "adj.",
+    "zh": "暂定的，试探性的",
+    "example": "We made a tentative plan.",
+    "l5_core": "tentative",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "yield",
+    "ipa": "/jiːld/",
+    "pos": "v./n.",
+    "zh": "产生；产量",
+    "example": "The farm yields rich crops.",
+    "l5_core": "yield",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "immense",
+    "ipa": "/ɪˈmens/",
+    "pos": "adj.",
+    "zh": "巨大的",
+    "example": "The task requires immense effort.",
+    "l5_core": "vast",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "pragmatic",
+    "ipa": "/præɡˈmætɪk/",
+    "pos": "adj.",
+    "zh": "务实的",
+    "example": "We need a pragmatic approach.",
+    "l5_core": "",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "critique",
+    "ipa": "/krɪˈtiːk/",
+    "pos": "n./v.",
+    "zh": "评论批评",
+    "example": "She wrote a sharp critique of the film.",
+    "l5_core": "critique",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "nuance",
+    "ipa": "/ˈnjuːɑːns/",
+    "pos": "n.",
+    "zh": "细微差别",
+    "example": "The poem is full of nuance.",
+    "l5_core": "nuance",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "mandate",
+    "ipa": "/ˈmændeɪt/",
+    "pos": "n./v.",
+    "zh": "授权，命令",
+    "example": "The government has a mandate to reform.",
+    "l5_core": "mandate",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "narrative",
+    "ipa": "/ˈnærətɪv/",
+    "pos": "n.",
+    "zh": "叙述，故事",
+    "example": "The film has a strong narrative.",
+    "l5_core": "narrative",
+    "cefr": "B1",
+    "level": "B1"
+  },
+  {
+    "word": "compile",
+    "ipa": "/kəmˈpaɪl/",
+    "pos": "v.",
+    "zh": "汇编",
+    "example": "She compiled a list of sources.",
+    "l5_core": "compile",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "comply",
+    "ipa": "/kəmˈplaɪ/",
+    "pos": "v.",
+    "zh": "遵守",
+    "example": "All members must comply with the rules.",
+    "l5_core": "compliance",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "consensus",
+    "ipa": "/kənˈsensəs/",
+    "pos": "n.",
+    "zh": "共识",
+    "example": "The group reached a consensus.",
+    "l5_core": "consensus",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "contemplate",
+    "ipa": "/ˈkɒntəmpleɪt/",
+    "pos": "v.",
+    "zh": "沉思，考虑",
+    "example": "She contemplated changing jobs.",
+    "l5_core": "reflect",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "distort",
+    "ipa": "/dɪˈstɔːt/",
+    "pos": "v.",
+    "zh": "歪曲",
+    "example": "The report distorted the facts.",
+    "l5_core": "",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "accurate",
+    "ipa": "/ˈækjərət/",
+    "pos": "adj.",
+    "zh": "准确的",
+    "example": "The figures are accurate.",
+    "l5_core": "accurate",
+    "cefr": "B2",
+    "level": "B2"
+  },
+  {
+    "word": "adjacent",
+    "ipa": "/əˈdʒeɪsnt/",
+    "pos": "adj.",
+    "zh": "邻近的",
+    "example": "The school is adjacent to the park.",
+    "l5_core": "",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "albeit",
+    "ipa": "/ˌɔːlˈbiːɪt/",
+    "pos": "conj.",
+    "zh": "尽管",
+    "example": "He accepted, albeit unwillingly.",
+    "l5_core": "albeit",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "allege",
+    "ipa": "/əˈledʒ/",
+    "pos": "v.",
+    "zh": "声称，指控",
+    "example": "The report alleges serious fraud.",
+    "l5_core": "claim",
+    "cefr": "C1",
+    "level": "C1"
+  },
+  {
+    "word": "conceive",
+    "ipa": "/kənˈsiːv/",
+    "pos": "v.",
+    "zh": "构想；设想",
+    "example": "The plan was conceived by a young engineer.",
+    "cefr": "C1",
+    "level": "C1",
+    "l5_core": "think"
+  },
+  {
+    "word": "confer",
+    "ipa": "/kənˈfɜː/",
+    "pos": "v.",
+    "zh": "授予；商议",
+    "example": "The university will confer degrees at the ceremony.",
+    "cefr": "C1",
+    "level": "C1",
+    "l5_core": "give"
+  },
+  {
+    "word": "conform",
+    "ipa": "/kənˈfɔːm/",
+    "pos": "v.",
+    "zh": "符合；遵守",
+    "example": "All products must conform to safety standards.",
+    "cefr": "C1",
+    "level": "C1",
+    "l5_core": "fit"
+  },
+  {
+    "word": "convince",
+    "ipa": "/kənˈvɪns/",
+    "pos": "v.",
+    "zh": "说服",
+    "example": "She convinced me to join the project.",
+    "cefr": "B2",
+    "level": "B2",
+    "l5_core": "persuade"
+  },
+  {
+    "word": "cooperate",
+    "ipa": "/kəʊˈɒpəreɪt/",
+    "pos": "v.",
+    "zh": "合作",
+    "example": "The two teams will cooperate on the research.",
+    "cefr": "B2",
+    "level": "B2",
+    "l5_core": "work"
+  },
+  {
+    "word": "correlate",
+    "ipa": "/ˈkɒrəleɪt/",
+    "pos": "v.",
+    "zh": "相关",
+    "example": "Sleep loss correlates with lower grades.",
+    "cefr": "C1",
+    "level": "C1",
+    "l5_core": "relate"
+  },
+  {
+    "word": "culminate",
+    "ipa": "/ˈkʌlmɪneɪt/",
+    "pos": "v.",
+    "zh": "达到顶点；以…告终",
+    "example": "The festival culminated in a fireworks show.",
+    "cefr": "C1",
+    "level": "C1",
+    "l5_core": "end"
+  },
+  {
+    "word": "deem",
+    "ipa": "/diːm/",
+    "pos": "v.",
+    "zh": "认为；视为",
+    "example": "The court deemed the evidence acceptable.",
+    "cefr": "C1",
+    "level": "C1",
+    "l5_core": "think"
+  },
+  {
+    "word": "depict",
+    "ipa": "/dɪˈpɪkt/",
+    "pos": "v.",
+    "zh": "描绘",
+    "example": "The painting depicts a peaceful village.",
+    "cefr": "C1",
+    "level": "C1",
+    "l5_core": "draw"
+  },
+  {
+    "word": "deprive",
+    "ipa": "/dɪˈpraɪv/",
+    "pos": "v.",
+    "zh": "剥夺",
+    "example": "Poor sleep can deprive students of focus.",
+    "cefr": "C1",
+    "level": "C1",
+    "l5_core": "take"
+  },
+  {
+    "word": "divert",
+    "ipa": "/daɪˈvɜːt/",
+    "pos": "v.",
+    "zh": "转移；使改道",
+    "example": "Police diverted traffic to another road.",
+    "cefr": "C1",
+    "level": "C1",
+    "l5_core": "turn"
+  },
+  {
+    "word": "duration",
+    "ipa": "/djuˈreɪʃn/",
+    "pos": "n.",
+    "zh": "持续时间",
+    "example": "The course runs for the duration of the semester.",
+    "cefr": "B2",
+    "level": "B2",
+    "l5_core": "time"
+  },
+  {
+    "word": "dwell",
+    "ipa": "/dwel/",
+    "pos": "v.",
+    "zh": "居住；停留",
+    "example": "They dwell in a small mountain village.",
+    "cefr": "C1",
+    "level": "C1",
+    "l5_core": "live"
+  },
+  {
+    "word": "elapse",
+    "ipa": "/ɪˈlæps/",
+    "pos": "v.",
+    "zh": "（时间）流逝",
+    "example": "Three months elapsed before the reply came.",
+    "cefr": "C1",
+    "level": "C1",
+    "l5_core": "pass"
+  },
+  {
+    "word": "enact",
+    "ipa": "/ɪˈnækt/",
+    "pos": "v.",
+    "zh": "颁布；制定",
+    "example": "The government enacted a new education law.",
+    "cefr": "C1",
+    "level": "C1",
+    "l5_core": "make"
+  },
+  {
+    "word": "enlist",
+    "ipa": "/ɪnˈlɪst/",
+    "pos": "v.",
+    "zh": "征募；争取",
+    "example": "The charity enlisted local volunteers.",
+    "cefr": "C1",
+    "level": "C1",
+    "l5_core": "join"
+  },
+  {
+    "word": "enormous",
+    "ipa": "/ɪˈnɔːməs/",
+    "pos": "adj.",
+    "zh": "巨大的",
+    "example": "The project requires enormous effort.",
+    "cefr": "B2",
+    "level": "B2",
+    "l5_core": "huge"
+  },
+  {
+    "word": "erode",
+    "ipa": "/ɪˈrəʊd/",
+    "pos": "v.",
+    "zh": "侵蚀；削弱",
+    "example": "Rain slowly eroded the old stone wall.",
+    "cefr": "C1",
+    "level": "C1",
+    "l5_core": "wear"
+  },
+  {
+    "word": "ethic",
+    "ipa": "/ˈeθɪk/",
+    "pos": "n.",
+    "zh": "伦理；道德",
+    "example": "Scientists must follow research ethics.",
+    "cefr": "C1",
+    "level": "C1",
+    "l5_core": "moral"
+  },
+  {
+    "word": "evoke",
+    "ipa": "/ɪˈvəʊk/",
+    "pos": "v.",
+    "zh": "唤起",
+    "example": "The song evokes memories of my childhood.",
+    "cefr": "C1",
+    "level": "C1",
+    "l5_core": "bring"
+  },
+  {
+    "word": "exempt",
+    "ipa": "/ɪɡˈzempt/",
+    "pos": "v.",
+    "zh": "免除",
+    "example": "Students may be exempt from the final exam.",
+    "cefr": "C1",
+    "level": "C1",
+    "l5_core": "free"
+  },
+  {
+    "word": "exert",
+    "ipa": "/ɪɡˈzɜːt/",
+    "pos": "v.",
+    "zh": "施加；运用",
+    "example": "Parents exert a strong influence on children.",
+    "cefr": "C1",
+    "level": "C1",
+    "l5_core": "apply"
+  },
+  {
+    "word": "foster",
+    "ipa": "/ˈfɒstə/",
+    "pos": "v.",
+    "zh": "培养；促进",
+    "example": "Reading fosters creativity in young minds.",
+    "cefr": "C1",
+    "level": "C1",
+    "l5_core": "grow"
+  }
+]

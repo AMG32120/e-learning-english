@@ -112,7 +112,8 @@
         "emoji": "❗",
         "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_school"
   },
   {
     "id": "l5b_university",
@@ -227,7 +228,8 @@
         "emoji": "📘",
         "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_school"
   },
   {
     "id": "l5b_job_hunting",
@@ -341,8 +343,18 @@
         "example": "He resigned after two years.",
         "emoji": "🚪",
         "cefr": "B1"
+      },
+      {
+        "word": "recruiter",
+        "ipa": "/rɪˈkruːtə(r)/",
+        "pos": "n.",
+        "zh": "招聘人员",
+        "example": "The recruiter called for a second interview.",
+        "emoji": "📞",
+        "cefr": "B2"
       }
-    ]
+    ],
+    "extends_from": "l2_jobs"
   },
   {
     "id": "l5b_office",
@@ -456,8 +468,18 @@
         "example": "A memo was sent to everyone.",
         "emoji": "📨",
         "cefr": "B1"
+      },
+      {
+        "word": "cubicle",
+        "ipa": "/ˈkjuːbɪkl/",
+        "pos": "n.",
+        "zh": "办公隔间",
+        "example": "She works in a small cubicle.",
+        "emoji": "🖥️",
+        "cefr": "B2"
       }
-    ]
+    ],
+    "extends_from": "l2_jobs"
   },
   {
     "id": "l5b_business",
@@ -572,7 +594,8 @@
         "emoji": "🏷️",
         "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_jobs"
   },
   {
     "id": "l5b_marketing",
@@ -687,7 +710,8 @@
         "emoji": "♟️",
         "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_shopping"
   },
   {
     "id": "l5b_finance",
@@ -801,8 +825,59 @@
         "example": "The firm went bankrupt last year.",
         "emoji": "💥",
         "cefr": "B1"
+      },
+      {
+        "word": "account",
+        "ipa": "/əˈkaʊnt/",
+        "pos": "n.",
+        "zh": "账户",
+        "example": "I opened a bank account last week.",
+        "emoji": "🏦",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "deposit",
+        "ipa": "/dɪˈpɒzɪt/",
+        "pos": "v.",
+        "zh": "存款",
+        "example": "I deposit money every month.",
+        "emoji": "💵",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "expense",
+        "ipa": "/ɪkˈspens/",
+        "pos": "n.",
+        "zh": "开支",
+        "example": "Travel is a big expense.",
+        "emoji": "🧾",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "invest",
+        "ipa": "/ɪnˈvest/",
+        "pos": "v.",
+        "zh": "投资",
+        "example": "They invest in small companies.",
+        "emoji": "💹",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "tax",
+        "ipa": "/tæks/",
+        "pos": "n.",
+        "zh": "税",
+        "example": "Everyone pays income tax.",
+        "emoji": "🧮",
+        "cefr": "B1",
+        "level": "l5"
       }
-    ]
+    ],
+    "extends_from": "l2_money"
   },
   {
     "id": "l5b_insurance",
@@ -917,7 +992,8 @@
         "emoji": "🔁",
         "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_money"
   },
   {
     "id": "l5b_tax",
@@ -1032,7 +1108,8 @@
         "emoji": "🚫",
         "cefr": "B1"
       }
-    ]
+    ],
+    "extends_from": "l2_money"
   },
   {
     "id": "l5b_court",
@@ -1146,7 +1223,58 @@
         "example": "His testimony was very clear.",
         "emoji": "🗣️",
         "cefr": "B1"
+      },
+      {
+        "word": "court",
+        "ipa": "/kɔːt/",
+        "pos": "n.",
+        "zh": "法庭",
+        "example": "The case goes to court.",
+        "emoji": "🏛️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "crime",
+        "ipa": "/kraɪm/",
+        "pos": "n.",
+        "zh": "犯罪",
+        "example": "Crime has fallen this year.",
+        "emoji": "🚨",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "illegal",
+        "ipa": "/ɪˈliːɡl/",
+        "pos": "adj.",
+        "zh": "非法的",
+        "example": "It is illegal to park here.",
+        "emoji": "🚫",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "prison",
+        "ipa": "/ˈprɪzn/",
+        "pos": "n.",
+        "zh": "监狱",
+        "example": "He spent two years in prison.",
+        "emoji": "🔒",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "punish",
+        "ipa": "/ˈpʌnɪʃ/",
+        "pos": "v.",
+        "zh": "惩罚",
+        "example": "The law punishes drunk driving.",
+        "emoji": "⚠️",
+        "cefr": "B1",
+        "level": "l5"
       }
-    ]
+    ],
+    "extends_from": "l2_safety"
   }
 ]

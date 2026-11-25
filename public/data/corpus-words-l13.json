@@ -1,0 +1,432 @@
+[
+ {
+  "word": "favourite",
+  "ipa": "/ˈfeɪvərɪt/",
+  "pos": "adj",
+  "zh": "最喜欢的",
+  "example": "My favourite subject is English.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_01"
+ },
+ {
+  "word": "usually",
+  "ipa": "/ˈjuːʒuəli/",
+  "pos": "adv",
+  "zh": "通常",
+  "example": "For breakfast, I usually eat eggs and drink milk.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_03"
+ },
+ {
+  "word": "science",
+  "ipa": "/ˈsaɪəns/",
+  "pos": "n",
+  "zh": "科学",
+  "example": "I often read books about science at night.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_08"
+ },
+ {
+  "word": "future",
+  "ipa": "/ˈfjuːtʃər/",
+  "pos": "n",
+  "zh": "未来",
+  "example": "I want to be an English teacher in the future.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_01"
+ },
+ {
+  "word": "classmate",
+  "ipa": "/ˈklæsmeɪt/",
+  "pos": "n",
+  "zh": "同学",
+  "example": "I have lunch at school with my classmates.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_03"
+ },
+ {
+  "word": "college",
+  "ipa": "/ˈkɑːlɪdʒ/",
+  "pos": "n",
+  "zh": "大学",
+  "example": "My older sister is a college student.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_02"
+ },
+ {
+  "word": "plan",
+  "ipa": "/plæn/",
+  "pos": "n",
+  "zh": "计划",
+  "example": "The weekend is coming, and I have a nice plan.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_05"
+ },
+ {
+  "word": "grandparent",
+  "ipa": "/ˈɡrænpeərənt/",
+  "pos": "n",
+  "zh": "祖父母",
+  "example": "On Sunday, my family will visit my grandparents.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_05"
+ },
+ {
+  "word": "older",
+  "ipa": "/ˈoʊldər/",
+  "pos": "adj",
+  "zh": "年长的",
+  "example": "My older sister is a college student.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_02"
+ },
+ {
+  "word": "vegetable",
+  "ipa": "/ˈvedʒtəbl/",
+  "pos": "n",
+  "zh": "蔬菜",
+  "example": "We often have rice, vegetables and some meat.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_03"
+ },
+ {
+  "word": "pair",
+  "ipa": "/per/",
+  "pos": "n",
+  "zh": "一双",
+  "example": "I wanted to buy a pair of shoes, but they were too expensive.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_06"
+ },
+ {
+  "word": "autumn",
+  "ipa": "/ˈɔːtəm/",
+  "pos": "n",
+  "zh": "秋天",
+  "example": "The weather there is cool and sunny in autumn.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_07"
+ },
+ {
+  "word": "clothes",
+  "ipa": "/kloʊðz/",
+  "pos": "n",
+  "zh": "衣服",
+  "example": "Everyone needs to bring some warm clothes.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_07"
+ },
+ {
+  "word": "climb",
+  "ipa": "/klaɪm/",
+  "pos": "v",
+  "zh": "攀爬",
+  "example": "We will climb the mountain and have a picnic.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_07"
+ },
+ {
+  "word": "picnic",
+  "ipa": "/ˈpɪknɪk/",
+  "pos": "n",
+  "zh": "野餐",
+  "example": "We will climb the mountain and have a picnic.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_07"
+ },
+ {
+  "word": "enough",
+  "ipa": "/ɪˈnʌf/",
+  "pos": "adv",
+  "zh": "足够",
+  "example": "The teacher says we should also bring enough water.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_07"
+ },
+ {
+  "word": "scientist",
+  "ipa": "/ˈsaɪəntɪst/",
+  "pos": "n",
+  "zh": "科学家",
+  "example": "My dream is to become a scientist.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_08"
+ },
+ {
+  "word": "universe",
+  "ipa": "/ˈjuːnɪvɜːrs/",
+  "pos": "n",
+  "zh": "宇宙",
+  "example": "I want to study the stars and the universe.",
+  "cefr": "B1",
+  "level": "l13",
+  "source": "l6_08"
+ },
+ {
+  "word": "encourage",
+  "ipa": "/ɪnˈkɜːrɪdʒ/",
+  "pos": "v",
+  "zh": "鼓励",
+  "example": "My science teacher always encourages me.",
+  "cefr": "B1",
+  "level": "l13",
+  "source": "l6_08"
+ },
+ {
+  "word": "recommend",
+  "ipa": "/ˌrekəˈmend/",
+  "pos": "v",
+  "zh": "推荐",
+  "example": "What would you recommend?",
+  "cefr": "B1",
+  "level": "l13",
+  "source": "l6_09"
+ },
+ {
+  "word": "grilled",
+  "ipa": "/ɡrɪld/",
+  "pos": "adj",
+  "zh": "烤的",
+  "example": "The grilled fish is very popular today.",
+  "cefr": "B1",
+  "level": "l13",
+  "source": "l6_09"
+ },
+ {
+  "word": "popular",
+  "ipa": "/ˈpɑːpjələr/",
+  "pos": "adj",
+  "zh": "受欢迎的",
+  "example": "The grilled fish is very popular today.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_09"
+ },
+ {
+  "word": "sparkling",
+  "ipa": "/ˈspɑːrklɪŋ/",
+  "pos": "adj",
+  "zh": "起泡的",
+  "example": "Two glasses of sparkling water, please.",
+  "cefr": "B1",
+  "level": "l13",
+  "source": "l6_09"
+ },
+ {
+  "word": "sound",
+  "ipa": "/saʊnd/",
+  "pos": "v",
+  "zh": "听起来",
+  "example": "That sounds good. I will have the fish and a green salad.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_09"
+ },
+ {
+  "word": "fly",
+  "ipa": "/flaɪ/",
+  "pos": "v",
+  "zh": "飞",
+  "example": "Here you are. I am flying to London.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_10"
+ },
+ {
+  "word": "sore",
+  "ipa": "/sɔːr/",
+  "pos": "adj",
+  "zh": "疼痛的",
+  "example": "I have had a sore throat and a headache for three days.",
+  "cefr": "B1",
+  "level": "l13",
+  "source": "l6_11"
+ },
+ {
+  "word": "throat",
+  "ipa": "/θroʊt/",
+  "pos": "n",
+  "zh": "喉咙",
+  "example": "I have had a sore throat and a headache for three days.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_11"
+ },
+ {
+  "word": "infection",
+  "ipa": "/ɪnˈfekʃn/",
+  "pos": "n",
+  "zh": "感染",
+  "example": "It looks like a throat infection. Take this medicine twice a day.",
+  "cefr": "B1",
+  "level": "l13",
+  "source": "l6_11"
+ },
+ {
+  "word": "twice",
+  "ipa": "/twaɪs/",
+  "pos": "adv",
+  "zh": "两次",
+  "example": "It looks like a throat infection. Take this medicine twice a day.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_11"
+ },
+ {
+  "word": "account",
+  "ipa": "/əˈkaʊnt/",
+  "pos": "n",
+  "zh": "账户",
+  "example": "Hello, I would like to open a savings account.",
+  "cefr": "B1",
+  "level": "l13",
+  "source": "l6_12"
+ },
+ {
+  "word": "savings",
+  "ipa": "/ˈseɪvɪŋz/",
+  "pos": "n",
+  "zh": "储蓄",
+  "example": "Hello, I would like to open a savings account.",
+  "cefr": "B1",
+  "level": "l13",
+  "source": "l6_12"
+ },
+ {
+  "word": "fill",
+  "ipa": "/fɪl/",
+  "pos": "v",
+  "zh": "填写",
+  "example": "Sure. Please fill in this form first.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_12"
+ },
+ {
+  "word": "double",
+  "ipa": "/ˈdʌbl/",
+  "pos": "adj",
+  "zh": "双人的",
+  "example": "I would like to book a double room for two nights.",
+  "cefr": "B1",
+  "level": "l13",
+  "source": "l6_13"
+ },
+ {
+  "word": "include",
+  "ipa": "/ɪnˈkluːd/",
+  "pos": "v",
+  "zh": "包括",
+  "example": "Does that include breakfast?",
+  "cefr": "B1",
+  "level": "l13",
+  "source": "l6_13"
+ },
+ {
+  "word": "delivery",
+  "ipa": "/dɪˈlɪvəri/",
+  "pos": "n",
+  "zh": "配送",
+  "example": "How long does delivery usually take?",
+  "cefr": "B1",
+  "level": "l13",
+  "source": "l6_14"
+ },
+ {
+  "word": "coast",
+  "ipa": "/koʊst/",
+  "pos": "n",
+  "zh": "海岸",
+  "example": "However, a strong wind will blow along the coast.",
+  "cefr": "B1",
+  "level": "l13",
+  "source": "l6_15"
+ },
+ {
+  "word": "driver",
+  "ipa": "/ˈdraɪvər/",
+  "pos": "n",
+  "zh": "司机",
+  "example": "Drivers should be careful on the bridges.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_15"
+ },
+ {
+  "word": "bridge",
+  "ipa": "/brɪdʒ/",
+  "pos": "n",
+  "zh": "桥",
+  "example": "Drivers should be careful on the bridges.",
+  "cefr": "A2",
+  "level": "l13",
+  "source": "l6_15"
+ },
+ {
+  "word": "nearby",
+  "ipa": "/ˌnɪrˈbaɪ/",
+  "pos": "adj",
+  "zh": "附近的",
+  "example": "Thanks a lot. Is there a map nearby?",
+  "cefr": "B1",
+  "level": "l13",
+  "source": "l6_16"
+ },
+ {
+  "word": "beautiful",
+  "ipa": "/ˈbjuːtɪfl/",
+  "pos": "adj",
+  "zh": "美丽的",
+  "example": "My school is big and beautiful.",
+  "cefr": "A1",
+  "level": "l13",
+  "source": "l6_04"
+ },
+ {
+  "word": "interesting",
+  "ipa": "/ˈɪntrəstɪŋ/",
+  "pos": "adj",
+  "zh": "有趣的",
+  "example": "He makes his classes interesting and fun.",
+  "cefr": "A1",
+  "level": "l13",
+  "source": "l6_04"
+ },
+ {
+  "word": "monday",
+  "ipa": "/ˈmʌndeɪ/",
+  "pos": "n",
+  "zh": "星期一",
+  "example": "We have classes from Monday to Friday.",
+  "cefr": "A1",
+  "level": "l13",
+  "source": "l6_04"
+ },
+ {
+  "word": "friday",
+  "ipa": "/ˈfraɪdeɪ/",
+  "pos": "n",
+  "zh": "星期五",
+  "example": "We have classes from Monday to Friday.",
+  "cefr": "A1",
+  "level": "l13",
+  "source": "l6_04"
+ }
+]

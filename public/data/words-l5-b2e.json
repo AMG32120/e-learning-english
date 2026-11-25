@@ -4,170 +4,1481 @@
     "title": "社会学",
     "emoji": "👥",
     "words": [
-      { "word": "society", "ipa": "/səˈsaɪəti/", "pos": "n.", "zh": "社会", "example": "Society is changing quickly.", "emoji": "👥", "cefr": "B1" },
-      { "word": "class", "ipa": "/klɑːs/", "pos": "n.", "zh": "阶层", "example": "Class still shapes education.", "emoji": "🏷️", "cefr": "B1" },
-      { "word": "gender", "ipa": "/ˈdʒendə(r)/", "pos": "n.", "zh": "性别", "example": "The pay gap crosses gender lines.", "emoji": "⚧️", "cefr": "B1" },
-      { "word": "norm", "ipa": "/nɔːm/", "pos": "n.", "zh": "社会规范", "example": "Queueing is a social norm here.", "emoji": "📏", "cefr": "B1" },
-      { "word": "role", "ipa": "/rəʊl/", "pos": "n.", "zh": "角色", "example": "Parents play a key role.", "emoji": "🎭", "cefr": "B1" },
-      { "word": "status", "ipa": "/ˈsteɪtəs/", "pos": "n.", "zh": "地位", "example": "Education raises social status.", "emoji": "🏅", "cefr": "B1" },
-      { "word": "institution", "ipa": "/ˌɪnstɪˈtjuːʃn/", "pos": "n.", "zh": "制度机构", "example": "Marriage is a social institution.", "emoji": "🏛️", "cefr": "B1" },
-      { "word": "minority", "ipa": "/maɪˈnɒrəti/", "pos": "n.", "zh": "少数群体", "example": "Minorities need better support.", "emoji": "🌍", "cefr": "B1" },
-      { "word": "mobility", "ipa": "/məʊˈbɪləti/", "pos": "n.", "zh": "社会流动", "example": "Upward mobility is slower now.", "emoji": "🔀", "cefr": "B1" },
-      { "word": "interaction", "ipa": "/ˌɪntərˈækʃn/", "pos": "n.", "zh": "互动", "example": "Online interaction replaces meetings.", "emoji": "💬", "cefr": "B1" },
-      { "word": "hierarchy", "ipa": "/ˈhaɪərɑːki/", "pos": "n.", "zh": "等级结构", "example": "The office has a flat hierarchy.", "emoji": "🪜", "cefr": "B1" },
-      { "word": "community", "ipa": "/kəˈmjuːnəti/", "pos": "n.", "zh": "社区", "example": "The whole community helped.", "emoji": "🏘️", "cefr": "B1" }
-    ]
+      {
+        "word": "society",
+        "ipa": "/səˈsaɪəti/",
+        "pos": "n.",
+        "zh": "社会",
+        "example": "Society is changing quickly.",
+        "emoji": "👥",
+        "cefr": "B1"
+      },
+      {
+        "word": "class",
+        "ipa": "/klɑːs/",
+        "pos": "n.",
+        "zh": "阶层",
+        "example": "Class still shapes education.",
+        "emoji": "🏷️",
+        "cefr": "B1"
+      },
+      {
+        "word": "gender",
+        "ipa": "/ˈdʒendə(r)/",
+        "pos": "n.",
+        "zh": "性别",
+        "example": "The pay gap crosses gender lines.",
+        "emoji": "⚧️",
+        "cefr": "B1"
+      },
+      {
+        "word": "norm",
+        "ipa": "/nɔːm/",
+        "pos": "n.",
+        "zh": "社会规范",
+        "example": "Queueing is a social norm here.",
+        "emoji": "📏",
+        "cefr": "B1"
+      },
+      {
+        "word": "role",
+        "ipa": "/rəʊl/",
+        "pos": "n.",
+        "zh": "角色",
+        "example": "Parents play a key role.",
+        "emoji": "🎭",
+        "cefr": "B1"
+      },
+      {
+        "word": "status",
+        "ipa": "/ˈsteɪtəs/",
+        "pos": "n.",
+        "zh": "地位",
+        "example": "Education raises social status.",
+        "emoji": "🏅",
+        "cefr": "B1"
+      },
+      {
+        "word": "institution",
+        "ipa": "/ˌɪnstɪˈtjuːʃn/",
+        "pos": "n.",
+        "zh": "制度机构",
+        "example": "Marriage is a social institution.",
+        "emoji": "🏛️",
+        "cefr": "B1"
+      },
+      {
+        "word": "minority",
+        "ipa": "/maɪˈnɒrəti/",
+        "pos": "n.",
+        "zh": "少数群体",
+        "example": "Minorities need better support.",
+        "emoji": "🌍",
+        "cefr": "B1"
+      },
+      {
+        "word": "mobility",
+        "ipa": "/məʊˈbɪləti/",
+        "pos": "n.",
+        "zh": "社会流动",
+        "example": "Upward mobility is slower now.",
+        "emoji": "🔀",
+        "cefr": "B1"
+      },
+      {
+        "word": "interaction",
+        "ipa": "/ˌɪntərˈækʃn/",
+        "pos": "n.",
+        "zh": "互动",
+        "example": "Online interaction replaces meetings.",
+        "emoji": "💬",
+        "cefr": "B1"
+      },
+      {
+        "word": "hierarchy",
+        "ipa": "/ˈhaɪərɑːki/",
+        "pos": "n.",
+        "zh": "等级结构",
+        "example": "The office has a flat hierarchy.",
+        "emoji": "🪜",
+        "cefr": "B1"
+      },
+      {
+        "word": "community",
+        "ipa": "/kəˈmjuːnəti/",
+        "pos": "n.",
+        "zh": "社区",
+        "example": "The whole community helped.",
+        "emoji": "🏘️",
+        "cefr": "B1"
+      },
+      {
+        "word": "acquaintance",
+        "ipa": "/əˈkweɪntəns/",
+        "pos": "n.",
+        "zh": "熟人",
+        "example": "He is an old acquaintance.",
+        "emoji": "👋",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "apologize",
+        "ipa": "/əˈpɒlədʒaɪz/",
+        "pos": "v.",
+        "zh": "道歉",
+        "example": "You should apologize to her.",
+        "emoji": "🙏",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "argue",
+        "ipa": "/ˈɑːɡjuː/",
+        "pos": "v.",
+        "zh": "争论",
+        "example": "They argue about small things.",
+        "emoji": "💬",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "couple",
+        "ipa": "/ˈkʌpl/",
+        "pos": "n.",
+        "zh": "夫妻；情侣",
+        "example": "The couple moved to a new flat.",
+        "emoji": "💑",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "engage",
+        "ipa": "/ɪnˈɡeɪdʒ/",
+        "pos": "v.",
+        "zh": "建立密切关系",
+        "example": "He engages well with students.",
+        "emoji": "🤝",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "friendship",
+        "ipa": "/ˈfrendʃɪp/",
+        "pos": "n.",
+        "zh": "友谊",
+        "example": "Their friendship lasted forty years.",
+        "emoji": "🫂",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "neighbor",
+        "ipa": "/ˈneɪbə/",
+        "pos": "n.",
+        "zh": "邻居",
+        "example": "Our neighbor is very friendly.",
+        "emoji": "🏡",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "partner",
+        "ipa": "/ˈpɑːtnə/",
+        "pos": "n.",
+        "zh": "伙伴；伴侣",
+        "example": "She works with a business partner.",
+        "emoji": "👥",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "respect",
+        "ipa": "/rɪˈspekt/",
+        "pos": "n.",
+        "zh": "尊重",
+        "example": "Students show respect to teachers.",
+        "emoji": "🫡",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "stranger",
+        "ipa": "/ˈstreɪndʒə/",
+        "pos": "n.",
+        "zh": "陌生人",
+        "example": "Never open the door to strangers.",
+        "emoji": "🚶",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "trust",
+        "ipa": "/trʌst/",
+        "pos": "v.",
+        "zh": "信任",
+        "example": "I trust his judgment.",
+        "emoji": "🔗",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "porch",
+        "ipa": "/pɔːtʃ/",
+        "pos": "n.",
+        "zh": "门廊",
+        "example": "We sat on the porch in the evening.",
+        "emoji": "🌆",
+        "cefr": "B1"
+      },
+      {
+        "word": "chimney",
+        "ipa": "/ˈtʃɪmni/",
+        "pos": "n.",
+        "zh": "烟囱",
+        "example": "Smoke rose from the chimney.",
+        "emoji": "🏭",
+        "cefr": "B1"
+      },
+      {
+        "word": "ability",
+        "ipa": "/əˈbɪləti/",
+        "pos": "n.",
+        "zh": "能力",
+        "example": "He has the ability to learn fast.",
+        "emoji": "🧠",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "approach",
+        "ipa": "/əˈprəʊtʃ/",
+        "pos": "n.",
+        "zh": "方法",
+        "example": "We need a new approach.",
+        "emoji": "🧭",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "challenge",
+        "ipa": "/ˈtʃælɪndʒ/",
+        "pos": "n.",
+        "zh": "挑战",
+        "example": "The task is a real challenge.",
+        "emoji": "🏔️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "concept",
+        "ipa": "/ˈkɒnsept/",
+        "pos": "n.",
+        "zh": "概念",
+        "example": "The concept is easy to understand.",
+        "emoji": "💭",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "impact",
+        "ipa": "/ˈɪmpækt/",
+        "pos": "n.",
+        "zh": "影响",
+        "example": "The policy had a big impact.",
+        "emoji": "💥",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "method",
+        "ipa": "/ˈmeθəd/",
+        "pos": "n.",
+        "zh": "方法",
+        "example": "This method saves time.",
+        "emoji": "🛠️",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "result",
+        "ipa": "/rɪˈzʌlt/",
+        "pos": "n.",
+        "zh": "结果",
+        "example": "The result surprised everyone.",
+        "emoji": "📊",
+        "cefr": "B1",
+        "level": "l5"
+      }
+    ],
+    "extends_from": "l2_city"
   },
   {
     "id": "l5b_linguistics",
     "title": "语言学",
     "emoji": "🔤",
     "words": [
-      { "word": "language", "ipa": "/ˈlæŋɡwɪdʒ/", "pos": "n.", "zh": "语言", "example": "Learning a language takes time.", "emoji": "🗣️", "cefr": "B1" },
-      { "word": "dialect", "ipa": "/ˈdaɪəlekt/", "pos": "n.", "zh": "方言", "example": "The village has its own dialect.", "emoji": "🗺️", "cefr": "B1" },
-      { "word": "grammar", "ipa": "/ˈɡræmə(r)/", "pos": "n.", "zh": "语法", "example": "Grammar rules are not fixed forever.", "emoji": "📐", "cefr": "B1" },
-      { "word": "vocabulary", "ipa": "/vəˈkæbjələri/", "pos": "n.", "zh": "词汇量", "example": "Reading builds vocabulary.", "emoji": "📖", "cefr": "B1" },
-      { "word": "pronunciation", "ipa": "/prəˌnʌnsiˈeɪʃn/", "pos": "n.", "zh": "发音", "example": "Her pronunciation is very clear.", "emoji": "🔊", "cefr": "B1" },
-      { "word": "accent", "ipa": "/ˈæksent/", "pos": "n.", "zh": "口音", "example": "He speaks with a slight accent.", "emoji": "🎙️", "cefr": "B1" },
-      { "word": "phonetics", "ipa": "/fəˈnetɪks/", "pos": "n.", "zh": "语音学", "example": "Phonetics explains how sounds form.", "emoji": "🔤", "cefr": "B1" },
-      { "word": "syntax", "ipa": "/ˈsɪntæks/", "pos": "n.", "zh": "句法", "example": "Syntax decides word order.", "emoji": "🧩", "cefr": "B1" },
-      { "word": "semantics", "ipa": "/sɪˈmæntɪks/", "pos": "n.", "zh": "语义学", "example": "Semantics studies meaning.", "emoji": "💭", "cefr": "B1" },
-      { "word": "translation", "ipa": "/trænsˈleɪʃn/", "pos": "n.", "zh": "翻译", "example": "The translation misses the joke.", "emoji": "🔄", "cefr": "B1" },
-      { "word": "bilingual", "ipa": "/ˌbaɪˈlɪŋɡwəl/", "pos": "adj.", "zh": "双语的", "example": "Bilingual children switch easily.", "emoji": "🌐", "cefr": "B1" },
-      { "word": "fluency", "ipa": "/ˈfluːənsi/", "pos": "n.", "zh": "流利度", "example": "Fluency grows with practice.", "emoji": "🌊", "cefr": "B1" }
-    ]
+      {
+        "word": "language",
+        "ipa": "/ˈlæŋɡwɪdʒ/",
+        "pos": "n.",
+        "zh": "语言",
+        "example": "Learning a language takes time.",
+        "emoji": "🗣️",
+        "cefr": "B1"
+      },
+      {
+        "word": "dialect",
+        "ipa": "/ˈdaɪəlekt/",
+        "pos": "n.",
+        "zh": "方言",
+        "example": "The village has its own dialect.",
+        "emoji": "🗺️",
+        "cefr": "B1"
+      },
+      {
+        "word": "grammar",
+        "ipa": "/ˈɡræmə(r)/",
+        "pos": "n.",
+        "zh": "语法",
+        "example": "Grammar rules are not fixed forever.",
+        "emoji": "📐",
+        "cefr": "B1"
+      },
+      {
+        "word": "vocabulary",
+        "ipa": "/vəˈkæbjələri/",
+        "pos": "n.",
+        "zh": "词汇量",
+        "example": "Reading builds vocabulary.",
+        "emoji": "📖",
+        "cefr": "B1"
+      },
+      {
+        "word": "pronunciation",
+        "ipa": "/prəˌnʌnsiˈeɪʃn/",
+        "pos": "n.",
+        "zh": "发音",
+        "example": "Her pronunciation is very clear.",
+        "emoji": "🔊",
+        "cefr": "B1"
+      },
+      {
+        "word": "accent",
+        "ipa": "/ˈæksent/",
+        "pos": "n.",
+        "zh": "口音",
+        "example": "He speaks with a slight accent.",
+        "emoji": "🎙️",
+        "cefr": "B1"
+      },
+      {
+        "word": "phonetics",
+        "ipa": "/fəˈnetɪks/",
+        "pos": "n.",
+        "zh": "语音学",
+        "example": "Phonetics explains how sounds form.",
+        "emoji": "🔤",
+        "cefr": "B1"
+      },
+      {
+        "word": "syntax",
+        "ipa": "/ˈsɪntæks/",
+        "pos": "n.",
+        "zh": "句法",
+        "example": "Syntax decides word order.",
+        "emoji": "🧩",
+        "cefr": "B1"
+      },
+      {
+        "word": "semantics",
+        "ipa": "/sɪˈmæntɪks/",
+        "pos": "n.",
+        "zh": "语义学",
+        "example": "Semantics studies meaning.",
+        "emoji": "💭",
+        "cefr": "B1"
+      },
+      {
+        "word": "translation",
+        "ipa": "/trænsˈleɪʃn/",
+        "pos": "n.",
+        "zh": "翻译",
+        "example": "The translation misses the joke.",
+        "emoji": "🔄",
+        "cefr": "B1"
+      },
+      {
+        "word": "bilingual",
+        "ipa": "/ˌbaɪˈlɪŋɡwəl/",
+        "pos": "adj.",
+        "zh": "双语的",
+        "example": "Bilingual children switch easily.",
+        "emoji": "🌐",
+        "cefr": "B1"
+      },
+      {
+        "word": "fluency",
+        "ipa": "/ˈfluːənsi/",
+        "pos": "n.",
+        "zh": "流利度",
+        "example": "Fluency grows with practice.",
+        "emoji": "🌊",
+        "cefr": "B1"
+      }
+    ],
+    "extends_from": "l2_school"
   },
   {
     "id": "l5b_journalism",
     "title": "新闻业",
     "emoji": "📰",
     "words": [
-      { "word": "journalist", "ipa": "/ˈdʒɜːnəlɪst/", "pos": "n.", "zh": "记者", "example": "The journalist asked hard questions.", "emoji": "📰", "cefr": "B1" },
-      { "word": "headline", "ipa": "/ˈhedlaɪn/", "pos": "n.", "zh": "标题", "example": "The headline was misleading.", "emoji": "🔠", "cefr": "B1" },
-      { "word": "article", "ipa": "/ˈɑːtɪkl/", "pos": "n.", "zh": "文章", "example": "I read an article about it.", "emoji": "📄", "cefr": "B1" },
-      { "word": "editor", "ipa": "/ˈedɪtə(r)/", "pos": "n.", "zh": "编辑", "example": "The editor cut two paragraphs.", "emoji": "✏️", "cefr": "B1" },
-      { "word": "reporter", "ipa": "/rɪˈpɔːtə(r)/", "pos": "n.", "zh": "报道记者", "example": "A reporter waited outside.", "emoji": "🎤", "cefr": "B1" },
-      { "word": "source", "ipa": "/sɔːs/", "pos": "n.", "zh": "消息来源", "example": "The source asked to stay anonymous.", "emoji": "🔍", "cefr": "B1" },
-      { "word": "column", "ipa": "/ˈkɒləm/", "pos": "n.", "zh": "专栏", "example": "She writes a weekly column.", "emoji": "🗂️", "cefr": "B1" },
-      { "word": "breaking", "ipa": "/ˈbreɪkɪŋ/", "pos": "adj.", "zh": "突发的", "example": "Breaking news interrupted the show.", "emoji": "🚨", "cefr": "B1" },
-      { "word": "verify", "ipa": "/ˈverɪfaɪ/", "pos": "v.", "zh": "核实", "example": "Always verify a story first.", "emoji": "✅", "cefr": "B1" },
-      { "word": "coverage", "ipa": "/ˈkʌvərɪdʒ/", "pos": "n.", "zh": "新闻报道", "example": "The event got wide coverage.", "emoji": "📺", "cefr": "B1" },
-      { "word": "interview", "ipa": "/ˈɪntəvjuː/", "pos": "n.", "zh": "采访", "example": "The interview lasted an hour.", "emoji": "🎙️", "cefr": "B1" },
-      { "word": "anonymity", "ipa": "/ˌænəˈnɪməti/", "pos": "n.", "zh": "匿名", "example": "Anonymity protects the witness.", "emoji": "🕶️", "cefr": "B1" }
-    ]
+      {
+        "word": "journalist",
+        "ipa": "/ˈdʒɜːnəlɪst/",
+        "pos": "n.",
+        "zh": "记者",
+        "example": "The journalist asked hard questions.",
+        "emoji": "📰",
+        "cefr": "B1"
+      },
+      {
+        "word": "headline",
+        "ipa": "/ˈhedlaɪn/",
+        "pos": "n.",
+        "zh": "标题",
+        "example": "The headline was misleading.",
+        "emoji": "🔠",
+        "cefr": "B1"
+      },
+      {
+        "word": "article",
+        "ipa": "/ˈɑːtɪkl/",
+        "pos": "n.",
+        "zh": "文章",
+        "example": "I read an article about it.",
+        "emoji": "📄",
+        "cefr": "B1"
+      },
+      {
+        "word": "editor",
+        "ipa": "/ˈedɪtə(r)/",
+        "pos": "n.",
+        "zh": "编辑",
+        "example": "The editor cut two paragraphs.",
+        "emoji": "✏️",
+        "cefr": "B1"
+      },
+      {
+        "word": "reporter",
+        "ipa": "/rɪˈpɔːtə(r)/",
+        "pos": "n.",
+        "zh": "报道记者",
+        "example": "A reporter waited outside.",
+        "emoji": "🎤",
+        "cefr": "B1"
+      },
+      {
+        "word": "source",
+        "ipa": "/sɔːs/",
+        "pos": "n.",
+        "zh": "消息来源",
+        "example": "The source asked to stay anonymous.",
+        "emoji": "🔍",
+        "cefr": "B1"
+      },
+      {
+        "word": "column",
+        "ipa": "/ˈkɒləm/",
+        "pos": "n.",
+        "zh": "专栏",
+        "example": "She writes a weekly column.",
+        "emoji": "🗂️",
+        "cefr": "B1"
+      },
+      {
+        "word": "breaking",
+        "ipa": "/ˈbreɪkɪŋ/",
+        "pos": "adj.",
+        "zh": "突发的",
+        "example": "Breaking news interrupted the show.",
+        "emoji": "🚨",
+        "cefr": "B1"
+      },
+      {
+        "word": "verify",
+        "ipa": "/ˈverɪfaɪ/",
+        "pos": "v.",
+        "zh": "核实",
+        "example": "Always verify a story first.",
+        "emoji": "✅",
+        "cefr": "B1"
+      },
+      {
+        "word": "coverage",
+        "ipa": "/ˈkʌvərɪdʒ/",
+        "pos": "n.",
+        "zh": "新闻报道",
+        "example": "The event got wide coverage.",
+        "emoji": "📺",
+        "cefr": "B1"
+      },
+      {
+        "word": "interview",
+        "ipa": "/ˈɪntəvjuː/",
+        "pos": "n.",
+        "zh": "采访",
+        "example": "The interview lasted an hour.",
+        "emoji": "🎙️",
+        "cefr": "B1"
+      },
+      {
+        "word": "anonymity",
+        "ipa": "/ˌænəˈnɪməti/",
+        "pos": "n.",
+        "zh": "匿名",
+        "example": "Anonymity protects the witness.",
+        "emoji": "🕶️",
+        "cefr": "B1"
+      },
+      {
+        "word": "beyond",
+        "ipa": "/bɪˈjɒnd/",
+        "pos": "prep.",
+        "zh": "在…之外",
+        "example": "The village is beyond the hills.",
+        "emoji": "⛰️",
+        "cefr": "B1"
+      },
+      {
+        "word": "detour",
+        "ipa": "/ˈdiːtʊə(r)/",
+        "pos": "n.",
+        "zh": "绕行",
+        "example": "We took a detour to avoid the traffic.",
+        "emoji": "↩️",
+        "cefr": "B1"
+      },
+      {
+        "word": "registered",
+        "ipa": "/ˈredʒɪstəd/",
+        "pos": "adj.",
+        "zh": "挂号的",
+        "example": "I sent the documents as registered mail.",
+        "emoji": "📮",
+        "cefr": "B1"
+      },
+      {
+        "word": "postage",
+        "ipa": "/ˈpəʊstɪdʒ/",
+        "pos": "n.",
+        "zh": "邮资",
+        "example": "Postage is cheaper for small letters.",
+        "emoji": "💌",
+        "cefr": "B1"
+      },
+      {
+        "word": "airmail",
+        "ipa": "/ˈeəmeɪl/",
+        "pos": "n.",
+        "zh": "航空邮件",
+        "example": "The postcard was sent by airmail.",
+        "emoji": "✈️",
+        "cefr": "B1"
+      },
+      {
+        "word": "box office",
+        "ipa": "/ˈbɒks ɒfɪs/",
+        "pos": "n.",
+        "zh": "票房",
+        "example": "The movie broke box office records.",
+        "emoji": "🎟️",
+        "cefr": "B1"
+      },
+      {
+        "word": "cast",
+        "ipa": "/kɑːst/",
+        "pos": "n.",
+        "zh": "演员阵容",
+        "example": "The cast includes famous actors.",
+        "emoji": "⭐",
+        "cefr": "B1"
+      },
+      {
+        "word": "critic",
+        "ipa": "/ˈkrɪtɪk/",
+        "pos": "n.",
+        "zh": "影评人",
+        "example": "The critic gave the film five stars.",
+        "emoji": "🗞️",
+        "cefr": "B1"
+      },
+      {
+        "word": "watercolor",
+        "ipa": "/ˈwɔːtəkʌlə(r)/",
+        "pos": "n.",
+        "zh": "水彩",
+        "example": "He paints with watercolors.",
+        "emoji": "🎨",
+        "cefr": "B1"
+      },
+      {
+        "word": "banner",
+        "ipa": "/ˈbænə(r)/",
+        "pos": "n.",
+        "zh": "横幅",
+        "example": "A banner said 'Happy Birthday'.",
+        "emoji": "🎏",
+        "cefr": "B1"
+      },
+      {
+        "word": "eve",
+        "ipa": "/iːv/",
+        "pos": "n.",
+        "zh": "前夜",
+        "example": "We had a big dinner on New Year's Eve.",
+        "emoji": "🌙",
+        "cefr": "B1"
+      },
+      {
+        "word": "blessing",
+        "ipa": "/ˈblesɪŋ/",
+        "pos": "n.",
+        "zh": "祝福",
+        "example": "They gave the couple their blessing.",
+        "emoji": "🕊️",
+        "cefr": "B1"
+      },
+      {
+        "word": "reception",
+        "ipa": "/rɪˈsepʃn/",
+        "pos": "n.",
+        "zh": "宴会",
+        "example": "The reception starts at seven.",
+        "emoji": "🍾",
+        "cefr": "B1"
+      },
+      {
+        "word": "fiance",
+        "ipa": "/fiˈɒnseɪ/",
+        "pos": "n.",
+        "zh": "未婚夫",
+        "example": "Her fiance is a doctor.",
+        "emoji": "🤵",
+        "cefr": "B1"
+      },
+      {
+        "word": "fiancee",
+        "ipa": "/fiˈɒnseɪ/",
+        "pos": "n.",
+        "zh": "未婚妻",
+        "example": "His fiancee wore a white dress.",
+        "emoji": "👰",
+        "cefr": "B1"
+      },
+      {
+        "word": "best man",
+        "ipa": "/ˌbest ˈmæn/",
+        "pos": "n.",
+        "zh": "伴郎",
+        "example": "His brother was the best man.",
+        "emoji": "🕴️",
+        "cefr": "B1"
+      },
+      {
+        "word": "bridesmaid",
+        "ipa": "/ˈbraɪdzmeɪd/",
+        "pos": "n.",
+        "zh": "伴娘",
+        "example": "The bridesmaids wore pink.",
+        "emoji": "👗",
+        "cefr": "B1"
+      },
+      {
+        "word": "honeymoon",
+        "ipa": "/ˈhʌnimuːn/",
+        "pos": "n.",
+        "zh": "蜜月",
+        "example": "They went to Paris for their honeymoon.",
+        "emoji": "🌙",
+        "cefr": "B1"
+      },
+      {
+        "word": "axe",
+        "ipa": "/æks/",
+        "pos": "n.",
+        "zh": "斧头",
+        "example": "He split the wood with an axe.",
+        "emoji": "🪓",
+        "cefr": "B1"
+      },
+      {
+        "word": "spade",
+        "ipa": "/speɪd/",
+        "pos": "n.",
+        "zh": "铲子",
+        "example": "Use a spade to dig the soil.",
+        "emoji": "⛏️",
+        "cefr": "B1"
+      }
+    ],
+    "extends_from": "l2_media"
   },
   {
     "id": "l5b_pharmacy",
     "title": "药学用药",
     "emoji": "💊",
     "words": [
-      { "word": "pharmacy", "ipa": "/ˈfɑːməsi/", "pos": "n.", "zh": "药房", "example": "The pharmacy closes at nine.", "emoji": "💊", "cefr": "B1" },
-      { "word": "prescription", "ipa": "/prɪˈskrɪpʃn/", "pos": "n.", "zh": "处方", "example": "You need a prescription for this.", "emoji": "📝", "cefr": "B1" },
-      { "word": "dosage", "ipa": "/ˈdəʊsɪdʒ/", "pos": "n.", "zh": "剂量", "example": "Do not exceed the dosage.", "emoji": "⚖️", "cefr": "B1" },
-      { "word": "tablet", "ipa": "/ˈtæblət/", "pos": "n.", "zh": "药片", "example": "Take one tablet after dinner.", "emoji": "🔵", "cefr": "B1" },
-      { "word": "capsule", "ipa": "/ˈkæpsjuːl/", "pos": "n.", "zh": "胶囊", "example": "Swallow the capsule with water.", "emoji": "🟡", "cefr": "B1" },
-      { "word": "pharmacist", "ipa": "/ˈfɑːməsɪst/", "pos": "n.", "zh": "药剂师", "example": "Ask the pharmacist about side effects.", "emoji": "🧑‍⚕️", "cefr": "B1" },
-      { "word": "vaccine", "ipa": "/ˈvæksiːn/", "pos": "n.", "zh": "疫苗", "example": "The vaccine is free for children.", "emoji": "💉", "cefr": "B1" },
-      { "word": "antibiotic", "ipa": "/ˌæntibaɪˈɒtɪk/", "pos": "n.", "zh": "抗生素", "example": "Antibiotics do not cure a cold.", "emoji": "🦠", "cefr": "B1" },
-      { "word": "symptom", "ipa": "/ˈsɪmptəm/", "pos": "n.", "zh": "症状", "example": "A fever is a common symptom.", "emoji": "🤒", "cefr": "B1" },
-      { "word": "dose", "ipa": "/dəʊs/", "pos": "n.", "zh": "一剂", "example": "The second dose is in June.", "emoji": "📏", "cefr": "B1" },
-      { "word": "refill", "ipa": "/ˌriːˈfɪl/", "pos": "n.", "zh": "续配", "example": "Ask for a refill next week.", "emoji": "🔁", "cefr": "B1" },
-      { "word": "allergy", "ipa": "/ˈælədʒi/", "pos": "n.", "zh": "过敏", "example": "He has an allergy to nuts.", "emoji": "⚠️", "cefr": "B1" }
-    ]
+      {
+        "word": "pharmacy",
+        "ipa": "/ˈfɑːməsi/",
+        "pos": "n.",
+        "zh": "药房",
+        "example": "The pharmacy closes at nine.",
+        "emoji": "💊",
+        "cefr": "B1"
+      },
+      {
+        "word": "prescription",
+        "ipa": "/prɪˈskrɪpʃn/",
+        "pos": "n.",
+        "zh": "处方",
+        "example": "You need a prescription for this.",
+        "emoji": "📝",
+        "cefr": "B1"
+      },
+      {
+        "word": "dosage",
+        "ipa": "/ˈdəʊsɪdʒ/",
+        "pos": "n.",
+        "zh": "剂量",
+        "example": "Do not exceed the dosage.",
+        "emoji": "⚖️",
+        "cefr": "B1"
+      },
+      {
+        "word": "tablet",
+        "ipa": "/ˈtæblət/",
+        "pos": "n.",
+        "zh": "药片",
+        "example": "Take one tablet after dinner.",
+        "emoji": "🔵",
+        "cefr": "B1"
+      },
+      {
+        "word": "capsule",
+        "ipa": "/ˈkæpsjuːl/",
+        "pos": "n.",
+        "zh": "胶囊",
+        "example": "Swallow the capsule with water.",
+        "emoji": "🟡",
+        "cefr": "B1"
+      },
+      {
+        "word": "pharmacist",
+        "ipa": "/ˈfɑːməsɪst/",
+        "pos": "n.",
+        "zh": "药剂师",
+        "example": "Ask the pharmacist about side effects.",
+        "emoji": "🧑‍⚕️",
+        "cefr": "B1"
+      },
+      {
+        "word": "vaccine",
+        "ipa": "/ˈvæksiːn/",
+        "pos": "n.",
+        "zh": "疫苗",
+        "example": "The vaccine is free for children.",
+        "emoji": "💉",
+        "cefr": "B1"
+      },
+      {
+        "word": "antibiotic",
+        "ipa": "/ˌæntibaɪˈɒtɪk/",
+        "pos": "n.",
+        "zh": "抗生素",
+        "example": "Antibiotics do not cure a cold.",
+        "emoji": "🦠",
+        "cefr": "B1"
+      },
+      {
+        "word": "symptom",
+        "ipa": "/ˈsɪmptəm/",
+        "pos": "n.",
+        "zh": "症状",
+        "example": "A fever is a common symptom.",
+        "emoji": "🤒",
+        "cefr": "B1"
+      },
+      {
+        "word": "dose",
+        "ipa": "/dəʊs/",
+        "pos": "n.",
+        "zh": "一剂",
+        "example": "The second dose is in June.",
+        "emoji": "📏",
+        "cefr": "B1"
+      },
+      {
+        "word": "refill",
+        "ipa": "/ˌriːˈfɪl/",
+        "pos": "n.",
+        "zh": "续配",
+        "example": "Ask for a refill next week.",
+        "emoji": "🔁",
+        "cefr": "B1"
+      },
+      {
+        "word": "allergy",
+        "ipa": "/ˈælədʒi/",
+        "pos": "n.",
+        "zh": "过敏",
+        "example": "He has an allergy to nuts.",
+        "emoji": "⚠️",
+        "cefr": "B1"
+      }
+    ],
+    "extends_from": "l2_health"
   },
   {
     "id": "l5b_dentistry",
     "title": "牙科护理",
     "emoji": "🦷",
     "words": [
-      { "word": "dentist", "ipa": "/ˈdentɪst/", "pos": "n.", "zh": "牙医", "example": "I see the dentist twice a year.", "emoji": "🦷", "cefr": "B1" },
-      { "word": "cavity", "ipa": "/ˈkævəti/", "pos": "n.", "zh": "蛀洞", "example": "The dentist found a small cavity.", "emoji": "🕳️", "cefr": "B1" },
-      { "word": "filling", "ipa": "/ˈfɪlɪŋ/", "pos": "n.", "zh": "补牙", "example": "The filling took twenty minutes.", "emoji": "🔧", "cefr": "B1" },
-      { "word": "braces", "ipa": "/ˈbreɪsɪz/", "pos": "n.", "zh": "牙套", "example": "She wore braces for two years.", "emoji": "😬", "cefr": "B1" },
-      { "word": "gum", "ipa": "/ɡʌm/", "pos": "n.", "zh": "牙龈", "example": "His gums bleed easily.", "emoji": "🩸", "cefr": "B1" },
-      { "word": "plaque", "ipa": "/plæk/", "pos": "n.", "zh": "牙菌斑", "example": "Brushing removes plaque.", "emoji": "🧫", "cefr": "B1" },
-      { "word": "extraction", "ipa": "/ɪkˈstrækʃn/", "pos": "n.", "zh": "拔牙", "example": "The extraction was painless.", "emoji": "🪥", "cefr": "B1" },
-      { "word": "anaesthetic", "ipa": "/ˌænəsˈθetɪk/", "pos": "n.", "zh": "麻醉剂", "example": "The anaesthetic worked quickly.", "emoji": "😴", "cefr": "B1" },
-      { "word": "hygiene", "ipa": "/ˈhaɪdʒiːn/", "pos": "n.", "zh": "卫生", "example": "Dental hygiene prevents decay.", "emoji": "🧼", "cefr": "B1" },
-      { "word": "crown", "ipa": "/kraʊn/", "pos": "n.", "zh": "牙冠", "example": "The crown matches the other teeth.", "emoji": "👑", "cefr": "B1" },
-      { "word": "implant", "ipa": "/ˈɪmplɑːnt/", "pos": "n.", "zh": "种植牙", "example": "The implant costs a lot.", "emoji": "🔩", "cefr": "B1" },
-      { "word": "mouthwash", "ipa": "/ˈmaʊθwɒʃ/", "pos": "n.", "zh": "漱口水", "example": "Use mouthwash after brushing.", "emoji": "🫗", "cefr": "B1" }
-    ]
+      {
+        "word": "dentist",
+        "ipa": "/ˈdentɪst/",
+        "pos": "n.",
+        "zh": "牙医",
+        "example": "I see the dentist twice a year.",
+        "emoji": "🦷",
+        "cefr": "B1"
+      },
+      {
+        "word": "cavity",
+        "ipa": "/ˈkævəti/",
+        "pos": "n.",
+        "zh": "蛀洞",
+        "example": "The dentist found a small cavity.",
+        "emoji": "🕳️",
+        "cefr": "B1"
+      },
+      {
+        "word": "filling",
+        "ipa": "/ˈfɪlɪŋ/",
+        "pos": "n.",
+        "zh": "补牙",
+        "example": "The filling took twenty minutes.",
+        "emoji": "🔧",
+        "cefr": "B1"
+      },
+      {
+        "word": "braces",
+        "ipa": "/ˈbreɪsɪz/",
+        "pos": "n.",
+        "zh": "牙套",
+        "example": "She wore braces for two years.",
+        "emoji": "😬",
+        "cefr": "B1"
+      },
+      {
+        "word": "gum",
+        "ipa": "/ɡʌm/",
+        "pos": "n.",
+        "zh": "牙龈",
+        "example": "His gums bleed easily.",
+        "emoji": "🩸",
+        "cefr": "B1"
+      },
+      {
+        "word": "plaque",
+        "ipa": "/plæk/",
+        "pos": "n.",
+        "zh": "牙菌斑",
+        "example": "Brushing removes plaque.",
+        "emoji": "🧫",
+        "cefr": "B1"
+      },
+      {
+        "word": "extraction",
+        "ipa": "/ɪkˈstrækʃn/",
+        "pos": "n.",
+        "zh": "拔牙",
+        "example": "The extraction was painless.",
+        "emoji": "🪥",
+        "cefr": "B1"
+      },
+      {
+        "word": "anaesthetic",
+        "ipa": "/ˌænəsˈθetɪk/",
+        "pos": "n.",
+        "zh": "麻醉剂",
+        "example": "The anaesthetic worked quickly.",
+        "emoji": "😴",
+        "cefr": "B1"
+      },
+      {
+        "word": "hygiene",
+        "ipa": "/ˈhaɪdʒiːn/",
+        "pos": "n.",
+        "zh": "卫生",
+        "example": "Dental hygiene prevents decay.",
+        "emoji": "🧼",
+        "cefr": "B1"
+      },
+      {
+        "word": "crown",
+        "ipa": "/kraʊn/",
+        "pos": "n.",
+        "zh": "牙冠",
+        "example": "The crown matches the other teeth.",
+        "emoji": "👑",
+        "cefr": "B1"
+      },
+      {
+        "word": "implant",
+        "ipa": "/ˈɪmplɑːnt/",
+        "pos": "n.",
+        "zh": "种植牙",
+        "example": "The implant costs a lot.",
+        "emoji": "🔩",
+        "cefr": "B1"
+      },
+      {
+        "word": "mouthwash",
+        "ipa": "/ˈmaʊθwɒʃ/",
+        "pos": "n.",
+        "zh": "漱口水",
+        "example": "Use mouthwash after brushing.",
+        "emoji": "🫗",
+        "cefr": "B1"
+      }
+    ],
+    "extends_from": "l2_health"
   },
   {
     "id": "l5b_architecture",
     "title": "建筑艺术",
     "emoji": "🏛️",
     "words": [
-      { "word": "architecture", "ipa": "/ˈɑːkɪtektʃə(r)/", "pos": "n.", "zh": "建筑学", "example": "She studied architecture in Italy.", "emoji": "🏛️", "cefr": "B1" },
-      { "word": "facade", "ipa": "/fəˈsɑːd/", "pos": "n.", "zh": "建筑立面", "example": "The facade is covered in glass.", "emoji": "🏢", "cefr": "B1" },
-      { "word": "column", "ipa": "/ˈkɒləm/", "pos": "n.", "zh": "柱子", "example": "Six stone columns hold the roof.", "emoji": "⬜", "cefr": "B1" },
-      { "word": "arch", "ipa": "/ɑːtʃ/", "pos": "n.", "zh": "拱门", "example": "The arch frames the entrance.", "emoji": "🌉", "cefr": "B1" },
-      { "word": "dome", "ipa": "/dəʊm/", "pos": "n.", "zh": "穹顶", "example": "The dome is painted inside.", "emoji": "⛪", "cefr": "B1" },
-      { "word": "atrium", "ipa": "/ˈeɪtriəm/", "pos": "n.", "zh": "中庭", "example": "The atrium has a glass roof.", "emoji": "🏙️", "cefr": "B1" },
-      { "word": "balcony", "ipa": "/ˈbælkəni/", "pos": "n.", "zh": "阳台", "example": "Our room has a small balcony.", "emoji": "🪟", "cefr": "B1" },
-      { "word": "terrace", "ipa": "/ˈterəs/", "pos": "n.", "zh": "露台", "example": "They eat dinner on the terrace.", "emoji": "🌿", "cefr": "B1" },
-      { "word": "courtyard", "ipa": "/ˈkɔːtjɑːd/", "pos": "n.", "zh": "庭院", "example": "The courtyard is cool in summer.", "emoji": "🌳", "cefr": "B1" },
-      { "word": "layout", "ipa": "/ˈleɪaʊt/", "pos": "n.", "zh": "布局", "example": "The layout saves space.", "emoji": "📐", "cefr": "B1" },
-      { "word": "proportion", "ipa": "/prəˈpɔːʃn/", "pos": "n.", "zh": "比例", "example": "The proportions look perfect.", "emoji": "📏", "cefr": "B1" },
-      { "word": "restore", "ipa": "/rɪˈstɔː(r)/", "pos": "v.", "zh": "修复", "example": "They restored the old theatre.", "emoji": "🛠️", "cefr": "B1" }
-    ]
+      {
+        "word": "architecture",
+        "ipa": "/ˈɑːkɪtektʃə(r)/",
+        "pos": "n.",
+        "zh": "建筑学",
+        "example": "She studied architecture in Italy.",
+        "emoji": "🏛️",
+        "cefr": "B1"
+      },
+      {
+        "word": "facade",
+        "ipa": "/fəˈsɑːd/",
+        "pos": "n.",
+        "zh": "建筑立面",
+        "example": "The facade is covered in glass.",
+        "emoji": "🏢",
+        "cefr": "B1"
+      },
+      {
+        "word": "column",
+        "ipa": "/ˈkɒləm/",
+        "pos": "n.",
+        "zh": "柱子",
+        "example": "Six stone columns hold the roof.",
+        "emoji": "⬜",
+        "cefr": "B1"
+      },
+      {
+        "word": "arch",
+        "ipa": "/ɑːtʃ/",
+        "pos": "n.",
+        "zh": "拱门",
+        "example": "The arch frames the entrance.",
+        "emoji": "🌉",
+        "cefr": "B1"
+      },
+      {
+        "word": "dome",
+        "ipa": "/dəʊm/",
+        "pos": "n.",
+        "zh": "穹顶",
+        "example": "The dome is painted inside.",
+        "emoji": "⛪",
+        "cefr": "B1"
+      },
+      {
+        "word": "atrium",
+        "ipa": "/ˈeɪtriəm/",
+        "pos": "n.",
+        "zh": "中庭",
+        "example": "The atrium has a glass roof.",
+        "emoji": "🏙️",
+        "cefr": "B1"
+      },
+      {
+        "word": "balcony",
+        "ipa": "/ˈbælkəni/",
+        "pos": "n.",
+        "zh": "阳台",
+        "example": "Our room has a small balcony.",
+        "emoji": "🪟",
+        "cefr": "B1"
+      },
+      {
+        "word": "terrace",
+        "ipa": "/ˈterəs/",
+        "pos": "n.",
+        "zh": "露台",
+        "example": "They eat dinner on the terrace.",
+        "emoji": "🌿",
+        "cefr": "B1"
+      },
+      {
+        "word": "courtyard",
+        "ipa": "/ˈkɔːtjɑːd/",
+        "pos": "n.",
+        "zh": "庭院",
+        "example": "The courtyard is cool in summer.",
+        "emoji": "🌳",
+        "cefr": "B1"
+      },
+      {
+        "word": "layout",
+        "ipa": "/ˈleɪaʊt/",
+        "pos": "n.",
+        "zh": "布局",
+        "example": "The layout saves space.",
+        "emoji": "📐",
+        "cefr": "B1"
+      },
+      {
+        "word": "proportion",
+        "ipa": "/prəˈpɔːʃn/",
+        "pos": "n.",
+        "zh": "比例",
+        "example": "The proportions look perfect.",
+        "emoji": "📏",
+        "cefr": "B1"
+      },
+      {
+        "word": "restore",
+        "ipa": "/rɪˈstɔː(r)/",
+        "pos": "v.",
+        "zh": "修复",
+        "example": "They restored the old theatre.",
+        "emoji": "🛠️",
+        "cefr": "B1"
+      }
+    ],
+    "extends_from": "l2_buildings"
   },
   {
     "id": "l5b_music_industry",
     "title": "音乐产业",
     "emoji": "🎼",
     "words": [
-      { "word": "album", "ipa": "/ˈælbəm/", "pos": "n.", "zh": "专辑", "example": "The album sold a million copies.", "emoji": "💿", "cefr": "B1" },
-      { "word": "tour", "ipa": "/tʊə(r)/", "pos": "n.", "zh": "巡演", "example": "The band is on tour.", "emoji": "🚌", "cefr": "B1" },
-      { "word": "label", "ipa": "/ˈleɪbl/", "pos": "n.", "zh": "唱片公司", "example": "She signed with a small label.", "emoji": "🏷️", "cefr": "B1" },
-      { "word": "lyrics", "ipa": "/ˈlɪrɪks/", "pos": "n.", "zh": "歌词", "example": "The lyrics are easy to remember.", "emoji": "📝", "cefr": "B1" },
-      { "word": "composer", "ipa": "/kəmˈpəʊzə(r)/", "pos": "n.", "zh": "作曲家", "example": "The composer wrote it at twenty.", "emoji": "🎼", "cefr": "B1" },
-      { "word": "performance", "ipa": "/pəˈfɔːməns/", "pos": "n.", "zh": "演出", "example": "Her performance was excellent.", "emoji": "🎭", "cefr": "B1" },
-      { "word": "studio", "ipa": "/ˈstjuːdiəʊ/", "pos": "n.", "zh": "录音棚", "example": "They recorded it in one studio.", "emoji": "🎙️", "cefr": "B1" },
-      { "word": "rehearsal", "ipa": "/rɪˈhɜːsl/", "pos": "n.", "zh": "排练", "example": "The rehearsal starts at four.", "emoji": "🔊", "cefr": "B1" },
-      { "word": "release", "ipa": "/rɪˈliːs/", "pos": "n.", "zh": "发行", "example": "The release date moved again.", "emoji": "📀", "cefr": "B1" },
-      { "word": "genre", "ipa": "/ˈʒɒnrə/", "pos": "n.", "zh": "音乐类型", "example": "Jazz is my favourite genre.", "emoji": "🎵", "cefr": "B1" },
-      { "word": "royalty", "ipa": "/ˈrɔɪəlti/", "pos": "n.", "zh": "版税", "example": "The writer earns royalties.", "emoji": "💰", "cefr": "B1" },
-      { "word": "audience", "ipa": "/ˈɔːdiəns/", "pos": "n.", "zh": "听众", "example": "The audience clapped for minutes.", "emoji": "📣", "cefr": "B1" }
-    ]
+      {
+        "word": "album",
+        "ipa": "/ˈælbəm/",
+        "pos": "n.",
+        "zh": "专辑",
+        "example": "The album sold a million copies.",
+        "emoji": "💿",
+        "cefr": "B1"
+      },
+      {
+        "word": "tour",
+        "ipa": "/tʊə(r)/",
+        "pos": "n.",
+        "zh": "巡演",
+        "example": "The band is on tour.",
+        "emoji": "🚌",
+        "cefr": "B1"
+      },
+      {
+        "word": "label",
+        "ipa": "/ˈleɪbl/",
+        "pos": "n.",
+        "zh": "唱片公司",
+        "example": "She signed with a small label.",
+        "emoji": "🏷️",
+        "cefr": "B1"
+      },
+      {
+        "word": "lyrics",
+        "ipa": "/ˈlɪrɪks/",
+        "pos": "n.",
+        "zh": "歌词",
+        "example": "The lyrics are easy to remember.",
+        "emoji": "📝",
+        "cefr": "B1"
+      },
+      {
+        "word": "composer",
+        "ipa": "/kəmˈpəʊzə(r)/",
+        "pos": "n.",
+        "zh": "作曲家",
+        "example": "The composer wrote it at twenty.",
+        "emoji": "🎼",
+        "cefr": "B1"
+      },
+      {
+        "word": "performance",
+        "ipa": "/pəˈfɔːməns/",
+        "pos": "n.",
+        "zh": "演出",
+        "example": "Her performance was excellent.",
+        "emoji": "🎭",
+        "cefr": "B1"
+      },
+      {
+        "word": "studio",
+        "ipa": "/ˈstjuːdiəʊ/",
+        "pos": "n.",
+        "zh": "录音棚",
+        "example": "They recorded it in one studio.",
+        "emoji": "🎙️",
+        "cefr": "B1"
+      },
+      {
+        "word": "rehearsal",
+        "ipa": "/rɪˈhɜːsl/",
+        "pos": "n.",
+        "zh": "排练",
+        "example": "The rehearsal starts at four.",
+        "emoji": "🔊",
+        "cefr": "B1"
+      },
+      {
+        "word": "release",
+        "ipa": "/rɪˈliːs/",
+        "pos": "n.",
+        "zh": "发行",
+        "example": "The release date moved again.",
+        "emoji": "📀",
+        "cefr": "B1"
+      },
+      {
+        "word": "genre",
+        "ipa": "/ˈʒɒnrə/",
+        "pos": "n.",
+        "zh": "音乐类型",
+        "example": "Jazz is my favourite genre.",
+        "emoji": "🎵",
+        "cefr": "B1"
+      },
+      {
+        "word": "royalty",
+        "ipa": "/ˈrɔɪəlti/",
+        "pos": "n.",
+        "zh": "版税",
+        "example": "The writer earns royalties.",
+        "emoji": "💰",
+        "cefr": "B1"
+      },
+      {
+        "word": "audience",
+        "ipa": "/ˈɔːdiəns/",
+        "pos": "n.",
+        "zh": "听众",
+        "example": "The audience clapped for minutes.",
+        "emoji": "📣",
+        "cefr": "B1"
+      }
+    ],
+    "extends_from": "l2_music"
   },
   {
     "id": "l5b_astronomy",
     "title": "天文宇宙",
     "emoji": "🔭",
     "words": [
-      { "word": "astronomy", "ipa": "/əˈstrɒnəmi/", "pos": "n.", "zh": "天文学", "example": "Astronomy explains the night sky.", "emoji": "🔭", "cefr": "B1" },
-      { "word": "orbit", "ipa": "/ˈɔːbɪt/", "pos": "n.", "zh": "轨道", "example": "The satellite is in orbit.", "emoji": "🛰️", "cefr": "B1" },
-      { "word": "gravity", "ipa": "/ˈɡrævəti/", "pos": "n.", "zh": "重力", "example": "Gravity keeps us on the ground.", "emoji": "🍎", "cefr": "B1" },
-      { "word": "asteroid", "ipa": "/ˈæstərɔɪd/", "pos": "n.", "zh": "小行星", "example": "An asteroid passed close by.", "emoji": "☄️", "cefr": "B1" },
-      { "word": "nebula", "ipa": "/ˈnebjələ/", "pos": "n.", "zh": "星云", "example": "The nebula glows faintly.", "emoji": "🌌", "cefr": "B1" },
-      { "word": "constellation", "ipa": "/ˌkɒnstəˈleɪʃn/", "pos": "n.", "zh": "星座", "example": "That constellation is easy to find.", "emoji": "✨", "cefr": "B1" },
-      { "word": "observatory", "ipa": "/əbˈzɜːvətri/", "pos": "n.", "zh": "天文台", "example": "The observatory sits on a hill.", "emoji": "🏔️", "cefr": "B1" },
-      { "word": "universe", "ipa": "/ˈjuːnɪvɜːs/", "pos": "n.", "zh": "宇宙", "example": "The universe is still expanding.", "emoji": "♾️", "cefr": "B1" },
-      { "word": "sunlight", "ipa": "/ˈsʌnlaɪt/", "pos": "n.", "zh": "阳光", "example": "Sunlight reaches us in eight minutes.", "emoji": "🌞", "cefr": "B1" },
-      { "word": "eclipse", "ipa": "/ɪˈklɪps/", "pos": "n.", "zh": "食", "example": "A solar eclipse was visible today.", "emoji": "🌑", "cefr": "B1" },
-      { "word": "meteorite", "ipa": "/ˈmiːtiəraɪt/", "pos": "n.", "zh": "陨石", "example": "The meteorite landed in a field.", "emoji": "🪨", "cefr": "B1" },
-      { "word": "spacecraft", "ipa": "/ˈspeɪskrɑːft/", "pos": "n.", "zh": "航天器", "example": "The spacecraft left Earth orbit.", "emoji": "🚀", "cefr": "B1" }
-    ]
+      {
+        "word": "astronomy",
+        "ipa": "/əˈstrɒnəmi/",
+        "pos": "n.",
+        "zh": "天文学",
+        "example": "Astronomy explains the night sky.",
+        "emoji": "🔭",
+        "cefr": "B1"
+      },
+      {
+        "word": "orbit",
+        "ipa": "/ˈɔːbɪt/",
+        "pos": "n.",
+        "zh": "轨道",
+        "example": "The satellite is in orbit.",
+        "emoji": "🛰️",
+        "cefr": "B1"
+      },
+      {
+        "word": "gravity",
+        "ipa": "/ˈɡrævəti/",
+        "pos": "n.",
+        "zh": "重力",
+        "example": "Gravity keeps us on the ground.",
+        "emoji": "🍎",
+        "cefr": "B1"
+      },
+      {
+        "word": "asteroid",
+        "ipa": "/ˈæstərɔɪd/",
+        "pos": "n.",
+        "zh": "小行星",
+        "example": "An asteroid passed close by.",
+        "emoji": "☄️",
+        "cefr": "B1"
+      },
+      {
+        "word": "nebula",
+        "ipa": "/ˈnebjələ/",
+        "pos": "n.",
+        "zh": "星云",
+        "example": "The nebula glows faintly.",
+        "emoji": "🌌",
+        "cefr": "B1"
+      },
+      {
+        "word": "constellation",
+        "ipa": "/ˌkɒnstəˈleɪʃn/",
+        "pos": "n.",
+        "zh": "星座",
+        "example": "That constellation is easy to find.",
+        "emoji": "✨",
+        "cefr": "B1"
+      },
+      {
+        "word": "observatory",
+        "ipa": "/əbˈzɜːvətri/",
+        "pos": "n.",
+        "zh": "天文台",
+        "example": "The observatory sits on a hill.",
+        "emoji": "🏔️",
+        "cefr": "B1"
+      },
+      {
+        "word": "universe",
+        "ipa": "/ˈjuːnɪvɜːs/",
+        "pos": "n.",
+        "zh": "宇宙",
+        "example": "The universe is still expanding.",
+        "emoji": "♾️",
+        "cefr": "B1"
+      },
+      {
+        "word": "sunlight",
+        "ipa": "/ˈsʌnlaɪt/",
+        "pos": "n.",
+        "zh": "阳光",
+        "example": "Sunlight reaches us in eight minutes.",
+        "emoji": "🌞",
+        "cefr": "B1"
+      },
+      {
+        "word": "eclipse",
+        "ipa": "/ɪˈklɪps/",
+        "pos": "n.",
+        "zh": "食",
+        "example": "A solar eclipse was visible today.",
+        "emoji": "🌑",
+        "cefr": "B1"
+      },
+      {
+        "word": "meteorite",
+        "ipa": "/ˈmiːtiəraɪt/",
+        "pos": "n.",
+        "zh": "陨石",
+        "example": "The meteorite landed in a field.",
+        "emoji": "🪨",
+        "cefr": "B1"
+      },
+      {
+        "word": "spacecraft",
+        "ipa": "/ˈspeɪskrɑːft/",
+        "pos": "n.",
+        "zh": "航天器",
+        "example": "The spacecraft left Earth orbit.",
+        "emoji": "🚀",
+        "cefr": "B1"
+      },
+      {
+        "word": "analyze",
+        "ipa": "/ˈænəlaɪz/",
+        "pos": "v.",
+        "zh": "分析",
+        "example": "We analyze the data carefully.",
+        "emoji": "📊",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "experiment",
+        "ipa": "/ɪkˈsperɪmənt/",
+        "pos": "n.",
+        "zh": "实验",
+        "example": "The experiment failed twice.",
+        "emoji": "🧪",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "observe",
+        "ipa": "/əbˈzɜːv/",
+        "pos": "v.",
+        "zh": "观察",
+        "example": "Observe the changes each day.",
+        "emoji": "👀",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "particle",
+        "ipa": "/ˈpɑːtɪkl/",
+        "pos": "n.",
+        "zh": "粒子",
+        "example": "Tiny particles fill the air.",
+        "emoji": "✨",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "sample",
+        "ipa": "/ˈsɑːmpl/",
+        "pos": "n.",
+        "zh": "样本",
+        "example": "The sample was too small.",
+        "emoji": "🧫",
+        "cefr": "B1",
+        "level": "l5"
+      },
+      {
+        "word": "theory",
+        "ipa": "/ˈθɪəri/",
+        "pos": "n.",
+        "zh": "理论",
+        "example": "The theory explains the result.",
+        "emoji": "📐",
+        "cefr": "B1",
+        "level": "l5"
+      }
+    ],
+    "extends_from": "l2_space"
   },
   {
     "id": "l5b_chemistry",
     "title": "化学基础",
     "emoji": "🧪",
     "words": [
-      { "word": "chemistry", "ipa": "/ˈkemɪstri/", "pos": "n.", "zh": "化学", "example": "Chemistry explains how things react.", "emoji": "🧪", "cefr": "B1" },
-      { "word": "element", "ipa": "/ˈelɪmənt/", "pos": "n.", "zh": "元素", "example": "Oxygen is a common element.", "emoji": "⚛️", "cefr": "B1" },
-      { "word": "molecule", "ipa": "/ˈmɒlɪkjuːl/", "pos": "n.", "zh": "分子", "example": "Water is a simple molecule.", "emoji": "🔬", "cefr": "B1" },
-      { "word": "reaction", "ipa": "/riˈækʃn/", "pos": "n.", "zh": "反应", "example": "The reaction gives off heat.", "emoji": "💥", "cefr": "B1" },
-      { "word": "acid", "ipa": "/ˈæsɪd/", "pos": "n.", "zh": "酸", "example": "Acid can burn your skin.", "emoji": "🧫", "cefr": "B1" },
-      { "word": "alkali", "ipa": "/ˈælkəlaɪ/", "pos": "n.", "zh": "碱", "example": "Alkali neutralises acid.", "emoji": "🧴", "cefr": "B1" },
-      { "word": "compound", "ipa": "/ˈkɒmpaʊnd/", "pos": "n.", "zh": "化合物", "example": "Salt is a simple compound.", "emoji": "🧬", "cefr": "B1" },
-      { "word": "solution", "ipa": "/səˈluːʃn/", "pos": "n.", "zh": "溶液", "example": "The solution turned blue.", "emoji": "💧", "cefr": "B1" },
-      { "word": "catalyst", "ipa": "/ˈkætəlɪst/", "pos": "n.", "zh": "催化剂", "example": "A catalyst speeds up the reaction.", "emoji": "⚡", "cefr": "B1" },
-      { "word": "mixture", "ipa": "/ˈmɪkstʃə(r)/", "pos": "n.", "zh": "混合物", "example": "Shake the mixture well.", "emoji": "🥣", "cefr": "B1" },
-      { "word": "formula", "ipa": "/ˈfɔːmjələ/", "pos": "n.", "zh": "化学式", "example": "Write the formula on the board.", "emoji": "➗", "cefr": "B1" },
-      { "word": "laboratory", "ipa": "/ləˈbɒrətri/", "pos": "n.", "zh": "实验室", "example": "No food in the laboratory.", "emoji": "🥼", "cefr": "B1" }
-    ]
+      {
+        "word": "chemistry",
+        "ipa": "/ˈkemɪstri/",
+        "pos": "n.",
+        "zh": "化学",
+        "example": "Chemistry explains how things react.",
+        "emoji": "🧪",
+        "cefr": "B1"
+      },
+      {
+        "word": "element",
+        "ipa": "/ˈelɪmənt/",
+        "pos": "n.",
+        "zh": "元素",
+        "example": "Oxygen is a common element.",
+        "emoji": "⚛️",
+        "cefr": "B1"
+      },
+      {
+        "word": "molecule",
+        "ipa": "/ˈmɒlɪkjuːl/",
+        "pos": "n.",
+        "zh": "分子",
+        "example": "Water is a simple molecule.",
+        "emoji": "🔬",
+        "cefr": "B1"
+      },
+      {
+        "word": "reaction",
+        "ipa": "/riˈækʃn/",
+        "pos": "n.",
+        "zh": "反应",
+        "example": "The reaction gives off heat.",
+        "emoji": "💥",
+        "cefr": "B1"
+      },
+      {
+        "word": "acid",
+        "ipa": "/ˈæsɪd/",
+        "pos": "n.",
+        "zh": "酸",
+        "example": "Acid can burn your skin.",
+        "emoji": "🧫",
+        "cefr": "B1"
+      },
+      {
+        "word": "alkali",
+        "ipa": "/ˈælkəlaɪ/",
+        "pos": "n.",
+        "zh": "碱",
+        "example": "Alkali neutralises acid.",
+        "emoji": "🧴",
+        "cefr": "B1"
+      },
+      {
+        "word": "compound",
+        "ipa": "/ˈkɒmpaʊnd/",
+        "pos": "n.",
+        "zh": "化合物",
+        "example": "Salt is a simple compound.",
+        "emoji": "🧬",
+        "cefr": "B1"
+      },
+      {
+        "word": "solution",
+        "ipa": "/səˈluːʃn/",
+        "pos": "n.",
+        "zh": "溶液",
+        "example": "The solution turned blue.",
+        "emoji": "💧",
+        "cefr": "B1"
+      },
+      {
+        "word": "catalyst",
+        "ipa": "/ˈkætəlɪst/",
+        "pos": "n.",
+        "zh": "催化剂",
+        "example": "A catalyst speeds up the reaction.",
+        "emoji": "⚡",
+        "cefr": "B1"
+      },
+      {
+        "word": "mixture",
+        "ipa": "/ˈmɪkstʃə(r)/",
+        "pos": "n.",
+        "zh": "混合物",
+        "example": "Shake the mixture well.",
+        "emoji": "🥣",
+        "cefr": "B1"
+      },
+      {
+        "word": "formula",
+        "ipa": "/ˈfɔːmjələ/",
+        "pos": "n.",
+        "zh": "化学式",
+        "example": "Write the formula on the board.",
+        "emoji": "➗",
+        "cefr": "B1"
+      },
+      {
+        "word": "laboratory",
+        "ipa": "/ləˈbɒrətri/",
+        "pos": "n.",
+        "zh": "实验室",
+        "example": "No food in the laboratory.",
+        "emoji": "🥼",
+        "cefr": "B1"
+      }
+    ],
+    "extends_from": "l2_science"
   }
 ]

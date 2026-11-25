@@ -1,142 +1,1786 @@
 {
   "directions": [
-    { "word": "left", "ipa": "/left/", "pos": "n.", "zh": "左边", "example": "Turn left at the corner.", "emoji": "⬅️", "cefr": "A1" },
-    { "word": "right", "ipa": "/raɪt/", "pos": "n.", "zh": "右边", "example": "The bank is on your right.", "emoji": "➡️", "cefr": "A1" },
-    { "word": "up", "ipa": "/ʌp/", "pos": "adv.", "zh": "向上", "example": "Walk up the hill.", "emoji": "⬆️", "cefr": "A1" },
-    { "word": "down", "ipa": "/daʊn/", "pos": "adv.", "zh": "向下", "example": "Go down this street.", "emoji": "⬇️", "cefr": "A1" },
-    { "word": "straight", "ipa": "/streɪt/", "pos": "adv.", "zh": "直走", "example": "Go straight for two blocks.", "emoji": "🛤️", "cefr": "A1" },
-    { "word": "turn", "ipa": "/tɜːn/", "pos": "v.", "zh": "转弯", "example": "Turn at the traffic lights.", "emoji": "🔄", "cefr": "A1" },
-    { "word": "corner", "ipa": "/ˈkɔːnə(r)/", "pos": "n.", "zh": "拐角", "example": "The shop is on the corner.", "emoji": "📐", "cefr": "A1" },
-    { "word": "map", "ipa": "/mæp/", "pos": "n.", "zh": "地图", "example": "Look at the map on your phone.", "emoji": "🗺️", "cefr": "A1" },
-    { "word": "north", "ipa": "/nɔːθ/", "pos": "n.", "zh": "北方", "example": "The wind comes from the north.", "emoji": "🧭", "cefr": "A2" },
-    { "word": "south", "ipa": "/saʊθ/", "pos": "n.", "zh": "南方", "example": "Birds fly south in winter.", "emoji": "🔻", "cefr": "A2" },
-    { "word": "east", "ipa": "/iːst/", "pos": "n.", "zh": "东方", "example": "The sun rises in the east.", "emoji": "🔶", "cefr": "A2" },
-    { "word": "west", "ipa": "/west/", "pos": "n.", "zh": "西方", "example": "The airport is west of the city.", "emoji": "🔷", "cefr": "A2" }
+    {
+      "word": "left",
+      "ipa": "/left/",
+      "pos": "n.",
+      "zh": "左边",
+      "example": "Turn left at the corner.",
+      "emoji": "⬅️",
+      "cefr": "A1"
+    },
+    {
+      "word": "right",
+      "ipa": "/raɪt/",
+      "pos": "n.",
+      "zh": "右边",
+      "example": "The bank is on your right.",
+      "emoji": "➡️",
+      "cefr": "A1"
+    },
+    {
+      "word": "up",
+      "ipa": "/ʌp/",
+      "pos": "adv.",
+      "zh": "向上",
+      "example": "Walk up the hill.",
+      "emoji": "⬆️",
+      "cefr": "A1"
+    },
+    {
+      "word": "down",
+      "ipa": "/daʊn/",
+      "pos": "adv.",
+      "zh": "向下",
+      "example": "Go down this street.",
+      "emoji": "⬇️",
+      "cefr": "A1"
+    },
+    {
+      "word": "straight",
+      "ipa": "/streɪt/",
+      "pos": "adv.",
+      "zh": "直走",
+      "example": "Go straight for two blocks.",
+      "emoji": "🛤️",
+      "cefr": "A1"
+    },
+    {
+      "word": "turn",
+      "ipa": "/tɜːn/",
+      "pos": "v.",
+      "zh": "转弯",
+      "example": "Turn at the traffic lights.",
+      "emoji": "🔄",
+      "cefr": "A1"
+    },
+    {
+      "word": "corner",
+      "ipa": "/ˈkɔːnə(r)/",
+      "pos": "n.",
+      "zh": "拐角",
+      "example": "The shop is on the corner.",
+      "emoji": "📐",
+      "cefr": "A1"
+    },
+    {
+      "word": "map",
+      "ipa": "/mæp/",
+      "pos": "n.",
+      "zh": "地图",
+      "example": "Look at the map on your phone.",
+      "emoji": "🗺️",
+      "cefr": "A1"
+    },
+    {
+      "word": "north",
+      "ipa": "/nɔːθ/",
+      "pos": "n.",
+      "zh": "北方",
+      "example": "The wind comes from the north.",
+      "emoji": "🧭",
+      "cefr": "A2"
+    },
+    {
+      "word": "south",
+      "ipa": "/saʊθ/",
+      "pos": "n.",
+      "zh": "南方",
+      "example": "Birds fly south in winter.",
+      "emoji": "🔻",
+      "cefr": "A2"
+    },
+    {
+      "word": "east",
+      "ipa": "/iːst/",
+      "pos": "n.",
+      "zh": "东方",
+      "example": "The sun rises in the east.",
+      "emoji": "🔶",
+      "cefr": "A2"
+    },
+    {
+      "word": "west",
+      "ipa": "/west/",
+      "pos": "n.",
+      "zh": "西方",
+      "example": "The airport is west of the city.",
+      "emoji": "🔷",
+      "cefr": "A2"
+    },
+    {
+      "word": "northeast",
+      "ipa": "/ˌnɔːθˈiːst/",
+      "pos": "n",
+      "zh": "东北",
+      "example": "The wind blows from the northeast.",
+      "emoji": "🧭",
+      "cefr": "A2"
+    },
+    {
+      "word": "clockwise",
+      "ipa": "/ˈklɒkwaɪz/",
+      "pos": "adv",
+      "zh": "顺时针",
+      "example": "Turn the knob clockwise.",
+      "emoji": "🔄",
+      "cefr": "A2"
+    },
+    {
+      "word": "forward",
+      "ipa": "/ˈfɔːwəd/",
+      "pos": "adv.",
+      "zh": "向前",
+      "example": "Walk forward two steps.",
+      "emoji": "➡️",
+      "cefr": "A2"
+    },
+    {
+      "word": "backward",
+      "ipa": "/ˈbækwəd/",
+      "pos": "adv.",
+      "zh": "向后",
+      "example": "The crab moves backward.",
+      "emoji": "🦀",
+      "cefr": "A2"
+    },
+    {
+      "word": "southeast",
+      "ipa": "/ˌsaʊθˈiːst/",
+      "pos": "n.",
+      "zh": "东南",
+      "example": "The city lies to the southeast.",
+      "emoji": "🧭",
+      "cefr": "A2"
+    },
+    {
+      "word": "southwest",
+      "ipa": "/ˌsaʊθˈwest/",
+      "pos": "n.",
+      "zh": "西南",
+      "example": "The wind came from the southwest.",
+      "emoji": "🧭",
+      "cefr": "A2"
+    },
+    {
+      "word": "northwest",
+      "ipa": "/ˌnɔːθˈwest/",
+      "pos": "n.",
+      "zh": "西北",
+      "example": "The river runs to the northwest.",
+      "emoji": "🧭",
+      "cefr": "A2"
+    },
+    {
+      "word": "landmark",
+      "ipa": "/ˈlændmɑːk/",
+      "pos": "n.",
+      "zh": "地标",
+      "example": "The tower is a famous landmark.",
+      "emoji": "🗼",
+      "cefr": "B1"
+    },
+    {
+      "word": "compass",
+      "ipa": "/ˈkʌmpəs/",
+      "pos": "n.",
+      "zh": "指南针",
+      "example": "The compass shows the direction.",
+      "emoji": "🧭",
+      "cefr": "A2"
+    },
+    {
+      "word": "junction",
+      "ipa": "/ˈdʒʌŋkʃn/",
+      "pos": "n.",
+      "zh": "交叉路口",
+      "example": "Turn left at the junction.",
+      "emoji": "🚏",
+      "cefr": "B1"
+    },
+    {
+      "word": "roundabout",
+      "ipa": "/ˈraʊndəbaʊt/",
+      "pos": "n.",
+      "zh": "环岛",
+      "example": "Drive around the roundabout.",
+      "emoji": "🔄",
+      "cefr": "B1"
+    },
+    {
+      "word": "crossroads",
+      "ipa": "/ˈkrɒsrəʊdz/",
+      "pos": "n.",
+      "zh": "十字路口",
+      "example": "Turn left at the next crossroads.",
+      "emoji": "🚦",
+      "cefr": "A2"
+    }
   ],
   "money": [
-    { "word": "money", "ipa": "/ˈmʌni/", "pos": "n.", "zh": "钱", "example": "He saves money every month.", "emoji": "💵", "cefr": "A1" },
-    { "word": "coin", "ipa": "/kɔɪn/", "pos": "n.", "zh": "硬币", "example": "She found a coin on the floor.", "emoji": "🪙", "cefr": "A1" },
-    { "word": "note", "ipa": "/nəʊt/", "pos": "n.", "zh": "纸币", "example": "He paid with a ten-pound note.", "emoji": "📝", "cefr": "A2" },
-    { "word": "price", "ipa": "/praɪs/", "pos": "n.", "zh": "价格", "example": "The price is too high.", "emoji": "🏷️", "cefr": "A1" },
-    { "word": "change", "ipa": "/tʃeɪndʒ/", "pos": "n.", "zh": "零钱", "example": "Keep the change, please.", "emoji": "🔄", "cefr": "A2" },
-    { "word": "bank", "ipa": "/bæŋk/", "pos": "n.", "zh": "银行", "example": "The bank opens at nine.", "emoji": "🏦", "cefr": "A1" },
-    { "word": "wallet", "ipa": "/ˈwɒlɪt/", "pos": "n.", "zh": "钱包", "example": "I lost my wallet yesterday.", "emoji": "👛", "cefr": "A2" },
-    { "word": "card", "ipa": "/kɑːd/", "pos": "n.", "zh": "银行卡", "example": "Can I pay by card?", "emoji": "💳", "cefr": "A1" },
-    { "word": "save", "ipa": "/seɪv/", "pos": "v.", "zh": "存钱", "example": "I save a little every week.", "emoji": "🐷", "cefr": "A2" },
-    { "word": "spend", "ipa": "/spend/", "pos": "v.", "zh": "花费", "example": "Do not spend all your money.", "emoji": "💸", "cefr": "A2" },
-    { "word": "cost", "ipa": "/kɒst/", "pos": "v.", "zh": "花费；价值", "example": "How much does it cost?", "emoji": "🧮", "cefr": "A1" },
-    { "word": "expensive", "ipa": "/ɪkˈspensɪv/", "pos": "adj.", "zh": "昂贵的", "example": "This watch is very expensive.", "emoji": "💰", "cefr": "A2" }
+    {
+      "word": "money",
+      "ipa": "/ˈmʌni/",
+      "pos": "n.",
+      "zh": "钱",
+      "example": "He saves money every month.",
+      "emoji": "💵",
+      "cefr": "A1"
+    },
+    {
+      "word": "coin",
+      "ipa": "/kɔɪn/",
+      "pos": "n.",
+      "zh": "硬币",
+      "example": "She found a coin on the floor.",
+      "emoji": "🪙",
+      "cefr": "A1"
+    },
+    {
+      "word": "note",
+      "ipa": "/nəʊt/",
+      "pos": "n.",
+      "zh": "纸币",
+      "example": "He paid with a ten-pound note.",
+      "emoji": "📝",
+      "cefr": "A2"
+    },
+    {
+      "word": "price",
+      "ipa": "/praɪs/",
+      "pos": "n.",
+      "zh": "价格",
+      "example": "The price is too high.",
+      "emoji": "🏷️",
+      "cefr": "A1"
+    },
+    {
+      "word": "change",
+      "ipa": "/tʃeɪndʒ/",
+      "pos": "n.",
+      "zh": "零钱",
+      "example": "Keep the change, please.",
+      "emoji": "🔄",
+      "cefr": "A2"
+    },
+    {
+      "word": "bank",
+      "ipa": "/bæŋk/",
+      "pos": "n.",
+      "zh": "银行",
+      "example": "The bank opens at nine.",
+      "emoji": "🏦",
+      "cefr": "A1"
+    },
+    {
+      "word": "wallet",
+      "ipa": "/ˈwɒlɪt/",
+      "pos": "n.",
+      "zh": "钱包",
+      "example": "I lost my wallet yesterday.",
+      "emoji": "👛",
+      "cefr": "A2"
+    },
+    {
+      "word": "card",
+      "ipa": "/kɑːd/",
+      "pos": "n.",
+      "zh": "银行卡",
+      "example": "Can I pay by card?",
+      "emoji": "💳",
+      "cefr": "A1"
+    },
+    {
+      "word": "save",
+      "ipa": "/seɪv/",
+      "pos": "v.",
+      "zh": "存钱",
+      "example": "I save a little every week.",
+      "emoji": "🐷",
+      "cefr": "A2"
+    },
+    {
+      "word": "spend",
+      "ipa": "/spend/",
+      "pos": "v.",
+      "zh": "花费",
+      "example": "Do not spend all your money.",
+      "emoji": "💸",
+      "cefr": "A2"
+    },
+    {
+      "word": "cost",
+      "ipa": "/kɒst/",
+      "pos": "v.",
+      "zh": "花费；价值",
+      "example": "How much does it cost?",
+      "emoji": "🧮",
+      "cefr": "A1"
+    },
+    {
+      "word": "expensive",
+      "ipa": "/ɪkˈspensɪv/",
+      "pos": "adj.",
+      "zh": "昂贵的",
+      "example": "This watch is very expensive.",
+      "emoji": "💰",
+      "cefr": "A2"
+    },
+    {
+      "word": "loan",
+      "ipa": "/ləʊn/",
+      "pos": "n",
+      "zh": "贷款",
+      "example": "They took a loan to buy a house.",
+      "emoji": "💳",
+      "cefr": "A2"
+    },
+    {
+      "word": "cash",
+      "ipa": "/kæʃ/",
+      "pos": "n",
+      "zh": "现金",
+      "example": "I pay in cash.",
+      "emoji": "💵",
+      "cefr": "A1"
+    },
+    {
+      "word": "banknote",
+      "ipa": "/ˈbæŋknəʊt/",
+      "pos": "n.",
+      "zh": "钞票",
+      "example": "He paid with a hundred-yuan banknote.",
+      "emoji": "💵",
+      "cefr": "A2"
+    },
+    {
+      "word": "currency",
+      "ipa": "/ˈkʌrənsi/",
+      "pos": "n.",
+      "zh": "货币",
+      "example": "The local currency is the yuan.",
+      "emoji": "💱",
+      "cefr": "B1"
+    },
+    {
+      "word": "withdraw",
+      "ipa": "/wɪðˈdrɔː/",
+      "pos": "v.",
+      "zh": "取款",
+      "example": "I need to withdraw some cash.",
+      "emoji": "🏧",
+      "cefr": "B1"
+    },
+    {
+      "word": "borrow",
+      "ipa": "/ˈbɒrəʊ/",
+      "pos": "v.",
+      "zh": "借入",
+      "example": "Can I borrow your pen?",
+      "emoji": "🤝",
+      "cefr": "A2"
+    },
+    {
+      "word": "lend",
+      "ipa": "/lend/",
+      "pos": "v.",
+      "zh": "借出",
+      "example": "She lent me her umbrella.",
+      "emoji": "☂️",
+      "cefr": "A2"
+    },
+    {
+      "word": "debt",
+      "ipa": "/det/",
+      "pos": "n.",
+      "zh": "债务",
+      "example": "He is trying to pay off his debt.",
+      "emoji": "💸",
+      "cefr": "B1"
+    },
+    {
+      "word": "budget",
+      "ipa": "/ˈbʌdʒɪt/",
+      "pos": "n.",
+      "zh": "预算",
+      "example": "We set a budget for the trip.",
+      "emoji": "📊",
+      "cefr": "B1"
+    },
+    {
+      "word": "income",
+      "ipa": "/ˈɪnkəm/",
+      "pos": "n.",
+      "zh": "收入",
+      "example": "Her income increased this year.",
+      "emoji": "💰",
+      "cefr": "B1"
+    },
+    {
+      "word": "salary",
+      "ipa": "/ˈsæləri/",
+      "pos": "n.",
+      "zh": "薪水",
+      "example": "His salary is paid monthly.",
+      "emoji": "💵",
+      "cefr": "B1"
+    },
+    {
+      "word": "tax",
+      "ipa": "/tæks/",
+      "pos": "n.",
+      "zh": "税",
+      "example": "The price includes tax.",
+      "emoji": "🧾",
+      "cefr": "B1"
+    },
+    {
+      "word": "invest",
+      "ipa": "/ɪnˈvest/",
+      "pos": "v.",
+      "zh": "投资",
+      "example": "They invested in a new business.",
+      "emoji": "📈",
+      "cefr": "B1"
+    },
+    {
+      "word": "interest",
+      "ipa": "/ˈɪntrəst/",
+      "pos": "n.",
+      "zh": "利息",
+      "example": "The bank pays interest on savings.",
+      "emoji": "🏦",
+      "cefr": "B1"
+    },
+    {
+      "word": "refund",
+      "ipa": "/ˈriːfʌnd/",
+      "pos": "n.",
+      "zh": "退款",
+      "example": "I asked for a full refund.",
+      "emoji": "🔙",
+      "cefr": "B1"
+    }
   ],
   "shopping": [
-    { "word": "shop", "ipa": "/ʃɒp/", "pos": "n.", "zh": "商店", "example": "The shop closes at nine.", "emoji": "🏪", "cefr": "A1" },
-    { "word": "market", "ipa": "/ˈmɑːkɪt/", "pos": "n.", "zh": "市场", "example": "We buy fruit at the market.", "emoji": "🏬", "cefr": "A1" },
-    { "word": "buy", "ipa": "/baɪ/", "pos": "v.", "zh": "买", "example": "I want to buy a new bag.", "emoji": "🛍️", "cefr": "A1" },
-    { "word": "sell", "ipa": "/sel/", "pos": "v.", "zh": "卖", "example": "They sell fresh bread here.", "emoji": "🤝", "cefr": "A1" },
-    { "word": "customer", "ipa": "/ˈkʌstəmə(r)/", "pos": "n.", "zh": "顾客", "example": "The customer is always right.", "emoji": "🧑‍💼", "cefr": "A2" },
-    { "word": "cashier", "ipa": "/kæˈʃɪə(r)/", "pos": "n.", "zh": "收银员", "example": "Pay the cashier at the door.", "emoji": "🧾", "cefr": "A2" },
-    { "word": "receipt", "ipa": "/rɪˈsiːt/", "pos": "n.", "zh": "收据", "example": "Keep the receipt for returns.", "emoji": "📃", "cefr": "A2" },
-    { "word": "discount", "ipa": "/ˈdɪskaʊnt/", "pos": "n.", "zh": "折扣", "example": "There is a ten percent discount.", "emoji": "🔻", "cefr": "A2" },
-    { "word": "sale", "ipa": "/seɪl/", "pos": "n.", "zh": "促销", "example": "The sale ends on Sunday.", "emoji": "🎯", "cefr": "A2" },
-    { "word": "queue", "ipa": "/kjuː/", "pos": "n.", "zh": "队伍", "example": "There is a long queue outside.", "emoji": "🚶", "cefr": "A2" },
-    { "word": "trolley", "ipa": "/ˈtrɒli/", "pos": "n.", "zh": "购物车", "example": "He pushed the trolley slowly.", "emoji": "🛒", "cefr": "A2" },
-    { "word": "size", "ipa": "/saɪz/", "pos": "n.", "zh": "尺码", "example": "Do you have this in a larger size?", "emoji": "📏", "cefr": "A1" }
+    {
+      "word": "shop",
+      "ipa": "/ʃɒp/",
+      "pos": "n.",
+      "zh": "商店",
+      "example": "The shop closes at nine.",
+      "emoji": "🏪",
+      "cefr": "A1"
+    },
+    {
+      "word": "market",
+      "ipa": "/ˈmɑːkɪt/",
+      "pos": "n.",
+      "zh": "市场",
+      "example": "We buy fruit at the market.",
+      "emoji": "🏬",
+      "cefr": "A1"
+    },
+    {
+      "word": "buy",
+      "ipa": "/baɪ/",
+      "pos": "v.",
+      "zh": "买",
+      "example": "I want to buy a new bag.",
+      "emoji": "🛍️",
+      "cefr": "A1"
+    },
+    {
+      "word": "sell",
+      "ipa": "/sel/",
+      "pos": "v.",
+      "zh": "卖",
+      "example": "They sell fresh bread here.",
+      "emoji": "🤝",
+      "cefr": "A1"
+    },
+    {
+      "word": "customer",
+      "ipa": "/ˈkʌstəmə(r)/",
+      "pos": "n.",
+      "zh": "顾客",
+      "example": "The customer is always right.",
+      "emoji": "🧑‍💼",
+      "cefr": "A2"
+    },
+    {
+      "word": "cashier",
+      "ipa": "/kæˈʃɪə(r)/",
+      "pos": "n.",
+      "zh": "收银员",
+      "example": "Pay the cashier at the door.",
+      "emoji": "🧾",
+      "cefr": "A2"
+    },
+    {
+      "word": "receipt",
+      "ipa": "/rɪˈsiːt/",
+      "pos": "n.",
+      "zh": "收据",
+      "example": "Keep the receipt for returns.",
+      "emoji": "📃",
+      "cefr": "A2"
+    },
+    {
+      "word": "discount",
+      "ipa": "/ˈdɪskaʊnt/",
+      "pos": "n.",
+      "zh": "折扣",
+      "example": "There is a ten percent discount.",
+      "emoji": "🔻",
+      "cefr": "A2"
+    },
+    {
+      "word": "sale",
+      "ipa": "/seɪl/",
+      "pos": "n.",
+      "zh": "促销",
+      "example": "The sale ends on Sunday.",
+      "emoji": "🎯",
+      "cefr": "A2"
+    },
+    {
+      "word": "queue",
+      "ipa": "/kjuː/",
+      "pos": "n.",
+      "zh": "队伍",
+      "example": "There is a long queue outside.",
+      "emoji": "🚶",
+      "cefr": "A2"
+    },
+    {
+      "word": "trolley",
+      "ipa": "/ˈtrɒli/",
+      "pos": "n.",
+      "zh": "购物车",
+      "example": "He pushed the trolley slowly.",
+      "emoji": "🛒",
+      "cefr": "A2"
+    },
+    {
+      "word": "size",
+      "ipa": "/saɪz/",
+      "pos": "n.",
+      "zh": "尺码",
+      "example": "Do you have this in a larger size?",
+      "emoji": "📏",
+      "cefr": "A1"
+    },
+    {
+      "word": "bargain",
+      "ipa": "/ˈbɑːɡən/",
+      "pos": "n",
+      "zh": "便宜货",
+      "example": "This jacket was a real bargain.",
+      "emoji": "🏷️",
+      "cefr": "A2"
+    },
+    {
+      "word": "mall",
+      "ipa": "/mɔːl/",
+      "pos": "n",
+      "zh": "购物中心",
+      "example": "Let's go to the mall.",
+      "emoji": "🛍️",
+      "cefr": "A2"
+    },
+    {
+      "word": "cart",
+      "ipa": "/kɑːt/",
+      "pos": "n.",
+      "zh": "购物车",
+      "example": "The cart is full of food.",
+      "emoji": "🛒",
+      "cefr": "A2"
+    },
+    {
+      "word": "basket",
+      "ipa": "/ˈbɑːskɪt/",
+      "pos": "n.",
+      "zh": "篮子",
+      "example": "She carried a basket of apples.",
+      "emoji": "🧺",
+      "cefr": "A2"
+    },
+    {
+      "word": "supermarket",
+      "ipa": "/ˈsuːpəmɑːkɪt/",
+      "pos": "n.",
+      "zh": "超市",
+      "example": "We buy food at the supermarket.",
+      "emoji": "🛒",
+      "cefr": "A1"
+    },
+    {
+      "word": "warranty",
+      "ipa": "/ˈwɒrənti/",
+      "pos": "n.",
+      "zh": "保修",
+      "example": "The phone comes with a two-year warranty.",
+      "emoji": "🛡️",
+      "cefr": "B1"
+    },
+    {
+      "word": "invoice",
+      "ipa": "/ˈɪnvɔɪs/",
+      "pos": "n.",
+      "zh": "发票",
+      "example": "Keep the invoice for returns.",
+      "emoji": "🧾",
+      "cefr": "B1"
+    },
+    {
+      "word": "coupon",
+      "ipa": "/ˈkuːpɒn/",
+      "pos": "n.",
+      "zh": "优惠券",
+      "example": "Use this coupon to save money.",
+      "emoji": "🎟️",
+      "cefr": "B1"
+    },
+    {
+      "word": "fitting room",
+      "ipa": "/ˈfɪtɪŋ ruːm/",
+      "pos": "n.",
+      "zh": "试衣间",
+      "example": "You can try the dress on in the fitting room.",
+      "emoji": "🪞",
+      "cefr": "A2"
+    }
   ],
   "restaurant": [
-    { "word": "menu", "ipa": "/ˈmenjuː/", "pos": "n.", "zh": "菜单", "example": "Can I see the menu, please?", "emoji": "📋", "cefr": "A1" },
-    { "word": "waiter", "ipa": "/ˈweɪtə(r)/", "pos": "n.", "zh": "服务员", "example": "The waiter brought our drinks.", "emoji": "🧑‍🍳", "cefr": "A1" },
-    { "word": "order", "ipa": "/ˈɔːdə(r)/", "pos": "v.", "zh": "点餐", "example": "Are you ready to order?", "emoji": "📝", "cefr": "A1" },
-    { "word": "table", "ipa": "/ˈteɪbl/", "pos": "n.", "zh": "餐桌", "example": "We booked a table for four.", "emoji": "🪑", "cefr": "A1" },
-    { "word": "bill", "ipa": "/bɪl/", "pos": "n.", "zh": "账单", "example": "Could we have the bill?", "emoji": "💳", "cefr": "A2" },
-    { "word": "tip", "ipa": "/tɪp/", "pos": "n.", "zh": "小费", "example": "He left a tip on the table.", "emoji": "💰", "cefr": "A2" },
-    { "word": "dish", "ipa": "/dɪʃ/", "pos": "n.", "zh": "一道菜", "example": "This dish is very popular.", "emoji": "🍲", "cefr": "A2" },
-    { "word": "dessert", "ipa": "/dɪˈzɜːt/", "pos": "n.", "zh": "甜点", "example": "We shared a chocolate dessert.", "emoji": "🍮", "cefr": "A2" },
-    { "word": "spicy", "ipa": "/ˈspaɪsi/", "pos": "adj.", "zh": "辣的", "example": "The soup is too spicy for me.", "emoji": "🌶️", "cefr": "A2" },
-    { "word": "delicious", "ipa": "/dɪˈlɪʃəs/", "pos": "adj.", "zh": "美味的", "example": "The fish was delicious.", "emoji": "😋", "cefr": "A1" },
-    { "word": "reserve", "ipa": "/rɪˈzɜːv/", "pos": "v.", "zh": "预订", "example": "I would like to reserve a table.", "emoji": "📅", "cefr": "A2" },
-    { "word": "seat", "ipa": "/siːt/", "pos": "n.", "zh": "座位", "example": "Please take a seat by the window.", "emoji": "💺", "cefr": "A1" }
+    {
+      "word": "menu",
+      "ipa": "/ˈmenjuː/",
+      "pos": "n.",
+      "zh": "菜单",
+      "example": "Can I see the menu, please?",
+      "emoji": "📋",
+      "cefr": "A1"
+    },
+    {
+      "word": "waiter",
+      "ipa": "/ˈweɪtə(r)/",
+      "pos": "n.",
+      "zh": "服务员",
+      "example": "The waiter brought our drinks.",
+      "emoji": "🧑‍🍳",
+      "cefr": "A1"
+    },
+    {
+      "word": "order",
+      "ipa": "/ˈɔːdə(r)/",
+      "pos": "v.",
+      "zh": "点餐",
+      "example": "Are you ready to order?",
+      "emoji": "📝",
+      "cefr": "A1"
+    },
+    {
+      "word": "table",
+      "ipa": "/ˈteɪbl/",
+      "pos": "n.",
+      "zh": "餐桌",
+      "example": "We booked a table for four.",
+      "emoji": "🪑",
+      "cefr": "A1"
+    },
+    {
+      "word": "bill",
+      "ipa": "/bɪl/",
+      "pos": "n.",
+      "zh": "账单",
+      "example": "Could we have the bill?",
+      "emoji": "💳",
+      "cefr": "A2"
+    },
+    {
+      "word": "tip",
+      "ipa": "/tɪp/",
+      "pos": "n.",
+      "zh": "小费",
+      "example": "He left a tip on the table.",
+      "emoji": "💰",
+      "cefr": "A2"
+    },
+    {
+      "word": "dish",
+      "ipa": "/dɪʃ/",
+      "pos": "n.",
+      "zh": "一道菜",
+      "example": "This dish is very popular.",
+      "emoji": "🍲",
+      "cefr": "A2"
+    },
+    {
+      "word": "dessert",
+      "ipa": "/dɪˈzɜːt/",
+      "pos": "n.",
+      "zh": "甜点",
+      "example": "We shared a chocolate dessert.",
+      "emoji": "🍮",
+      "cefr": "A2"
+    },
+    {
+      "word": "spicy",
+      "ipa": "/ˈspaɪsi/",
+      "pos": "adj.",
+      "zh": "辣的",
+      "example": "The soup is too spicy for me.",
+      "emoji": "🌶️",
+      "cefr": "A2"
+    },
+    {
+      "word": "delicious",
+      "ipa": "/dɪˈlɪʃəs/",
+      "pos": "adj.",
+      "zh": "美味的",
+      "example": "The fish was delicious.",
+      "emoji": "😋",
+      "cefr": "A1"
+    },
+    {
+      "word": "reserve",
+      "ipa": "/rɪˈzɜːv/",
+      "pos": "v.",
+      "zh": "预订",
+      "example": "I would like to reserve a table.",
+      "emoji": "📅",
+      "cefr": "A2"
+    },
+    {
+      "word": "seat",
+      "ipa": "/siːt/",
+      "pos": "n.",
+      "zh": "座位",
+      "example": "Please take a seat by the window.",
+      "emoji": "💺",
+      "cefr": "A1"
+    },
+    {
+      "word": "napkin",
+      "ipa": "/ˈnæpkɪn/",
+      "pos": "n",
+      "zh": "餐巾",
+      "example": "Put the napkin on your lap.",
+      "emoji": "🍽️",
+      "cefr": "A2"
+    },
+    {
+      "word": "appetizer",
+      "ipa": "/ˈæpɪtaɪzə(r)/",
+      "pos": "n",
+      "zh": "开胃菜",
+      "example": "We ordered an appetizer first.",
+      "emoji": "🥗",
+      "cefr": "A2"
+    },
+    {
+      "word": "cuisine",
+      "ipa": "/kwɪˈziːn/",
+      "pos": "n.",
+      "zh": "菜系",
+      "example": "This restaurant serves French cuisine.",
+      "emoji": "🍳",
+      "cefr": "B1"
+    },
+    {
+      "word": "portion",
+      "ipa": "/ˈpɔːʃn/",
+      "pos": "n.",
+      "zh": "份",
+      "example": "The portion is big enough for two.",
+      "emoji": "🍛",
+      "cefr": "B1"
+    }
   ],
   "hotel": [
-    { "word": "hotel", "ipa": "/həʊˈtel/", "pos": "n.", "zh": "酒店", "example": "We stayed at a small hotel.", "emoji": "🏨", "cefr": "A1" },
-    { "word": "room", "ipa": "/ruːm/", "pos": "n.", "zh": "房间", "example": "The room has a sea view.", "emoji": "🛏️", "cefr": "A1" },
-    { "word": "key", "ipa": "/kiː/", "pos": "n.", "zh": "钥匙", "example": "I left the key at the desk.", "emoji": "🔑", "cefr": "A1" },
-    { "word": "lift", "ipa": "/lɪft/", "pos": "n.", "zh": "电梯", "example": "Take the lift to the fifth floor.", "emoji": "🛗", "cefr": "A2" },
-    { "word": "lobby", "ipa": "/ˈlɒbi/", "pos": "n.", "zh": "大堂", "example": "Wait for me in the lobby.", "emoji": "🛋️", "cefr": "A2" },
-    { "word": "bell", "ipa": "/bel/", "pos": "n.", "zh": "门铃", "example": "Ring the bell for service.", "emoji": "🔔", "cefr": "A1" },
-    { "word": "luggage", "ipa": "/ˈlʌɡɪdʒ/", "pos": "n.", "zh": "行李", "example": "You can leave your luggage here.", "emoji": "🧳", "cefr": "A2" },
-    { "word": "guest", "ipa": "/ɡest/", "pos": "n.", "zh": "客人", "example": "Every guest gets free breakfast.", "emoji": "🧑", "cefr": "A2" },
-    { "word": "book", "ipa": "/bʊk/", "pos": "v.", "zh": "预订", "example": "I booked a room online.", "emoji": "📅", "cefr": "A2" },
-    { "word": "checkin", "ipa": "/ˈtʃek ɪn/", "pos": "n.", "zh": "入住", "example": "Check-in starts at two.", "emoji": "🎫", "cefr": "A2" },
-    { "word": "pillow", "ipa": "/ˈpɪləʊ/", "pos": "n.", "zh": "枕头", "example": "The pillow is too soft.", "emoji": "🛌", "cefr": "A2" },
-    { "word": "view", "ipa": "/vjuː/", "pos": "n.", "zh": "景色", "example": "The view from the window is lovely.", "emoji": "🪟", "cefr": "A2" }
+    {
+      "word": "hotel",
+      "ipa": "/həʊˈtel/",
+      "pos": "n.",
+      "zh": "酒店",
+      "example": "We stayed at a small hotel.",
+      "emoji": "🏨",
+      "cefr": "A1"
+    },
+    {
+      "word": "room",
+      "ipa": "/ruːm/",
+      "pos": "n.",
+      "zh": "房间",
+      "example": "The room has a sea view.",
+      "emoji": "🛏️",
+      "cefr": "A1"
+    },
+    {
+      "word": "key",
+      "ipa": "/kiː/",
+      "pos": "n.",
+      "zh": "钥匙",
+      "example": "I left the key at the desk.",
+      "emoji": "🔑",
+      "cefr": "A1"
+    },
+    {
+      "word": "lift",
+      "ipa": "/lɪft/",
+      "pos": "n.",
+      "zh": "电梯",
+      "example": "Take the lift to the fifth floor.",
+      "emoji": "🛗",
+      "cefr": "A2"
+    },
+    {
+      "word": "lobby",
+      "ipa": "/ˈlɒbi/",
+      "pos": "n.",
+      "zh": "大堂",
+      "example": "Wait for me in the lobby.",
+      "emoji": "🛋️",
+      "cefr": "A2"
+    },
+    {
+      "word": "bell",
+      "ipa": "/bel/",
+      "pos": "n.",
+      "zh": "门铃",
+      "example": "Ring the bell for service.",
+      "emoji": "🔔",
+      "cefr": "A1"
+    },
+    {
+      "word": "luggage",
+      "ipa": "/ˈlʌɡɪdʒ/",
+      "pos": "n.",
+      "zh": "行李",
+      "example": "You can leave your luggage here.",
+      "emoji": "🧳",
+      "cefr": "A2"
+    },
+    {
+      "word": "guest",
+      "ipa": "/ɡest/",
+      "pos": "n.",
+      "zh": "客人",
+      "example": "Every guest gets free breakfast.",
+      "emoji": "🧑",
+      "cefr": "A2"
+    },
+    {
+      "word": "book",
+      "ipa": "/bʊk/",
+      "pos": "v.",
+      "zh": "预订",
+      "example": "I booked a room online.",
+      "emoji": "📅",
+      "cefr": "A2"
+    },
+    {
+      "word": "checkin",
+      "ipa": "/ˈtʃek ɪn/",
+      "pos": "n.",
+      "zh": "入住",
+      "example": "Check-in starts at two.",
+      "emoji": "🎫",
+      "cefr": "A2"
+    },
+    {
+      "word": "pillow",
+      "ipa": "/ˈpɪləʊ/",
+      "pos": "n.",
+      "zh": "枕头",
+      "example": "The pillow is too soft.",
+      "emoji": "🛌",
+      "cefr": "A2"
+    },
+    {
+      "word": "view",
+      "ipa": "/vjuː/",
+      "pos": "n.",
+      "zh": "景色",
+      "example": "The view from the window is lovely.",
+      "emoji": "🪟",
+      "cefr": "A2"
+    },
+    {
+      "word": "reception",
+      "ipa": "/rɪˈsepʃn/",
+      "pos": "n",
+      "zh": "前台",
+      "example": "Leave your key at the reception.",
+      "emoji": "🛎️",
+      "cefr": "A2"
+    },
+    {
+      "word": "reservation",
+      "ipa": "/ˌrezəˈveɪʃn/",
+      "pos": "n",
+      "zh": "预订",
+      "example": "I made a reservation for two nights.",
+      "emoji": "📅",
+      "cefr": "A2"
+    },
+    {
+      "word": "suite",
+      "ipa": "/swiːt/",
+      "pos": "n.",
+      "zh": "套房",
+      "example": "The suite has two rooms.",
+      "emoji": "🛏️",
+      "cefr": "A2"
+    },
+    {
+      "word": "housekeeping",
+      "ipa": "/ˈhaʊskiːpɪŋ/",
+      "pos": "n.",
+      "zh": "客房保洁",
+      "example": "Housekeeping cleans the room daily.",
+      "emoji": "🧹",
+      "cefr": "B1"
+    },
+    {
+      "word": "checkout",
+      "ipa": "/ˈtʃekaʊt/",
+      "pos": "n.",
+      "zh": "退房",
+      "example": "Checkout is at noon.",
+      "emoji": "🕛",
+      "cefr": "A2"
+    },
+    {
+      "word": "concierge",
+      "ipa": "/kɒnˈsieəʒ/",
+      "pos": "n.",
+      "zh": "礼宾部",
+      "example": "The concierge booked us a taxi.",
+      "emoji": "🤵",
+      "cefr": "B1"
+    },
+    {
+      "word": "deposit",
+      "ipa": "/dɪˈpɒzɪt/",
+      "pos": "n.",
+      "zh": "押金",
+      "example": "You pay a deposit when you book.",
+      "emoji": "💳",
+      "cefr": "B1"
+    },
+    {
+      "word": "elevator",
+      "ipa": "/ˈelɪveɪtə/",
+      "pos": "n.",
+      "zh": "电梯",
+      "example": "Take the elevator to the tenth floor.",
+      "emoji": "🛗",
+      "cefr": "A1"
+    }
   ],
   "airport": [
-    { "word": "airport", "ipa": "/ˈeəpɔːt/", "pos": "n.", "zh": "机场", "example": "We arrived at the airport early.", "emoji": "🛫", "cefr": "A1" },
-    { "word": "plane", "ipa": "/pleɪn/", "pos": "n.", "zh": "飞机", "example": "The plane leaves at noon.", "emoji": "✈️", "cefr": "A1" },
-    { "word": "ticket", "ipa": "/ˈtɪkɪt/", "pos": "n.", "zh": "机票", "example": "Show your ticket at the gate.", "emoji": "🎫", "cefr": "A1" },
-    { "word": "passport", "ipa": "/ˈpɑːspɔːt/", "pos": "n.", "zh": "护照", "example": "Do not forget your passport.", "emoji": "🛂", "cefr": "A1" },
-    { "word": "flight", "ipa": "/flaɪt/", "pos": "n.", "zh": "航班", "example": "My flight is delayed.", "emoji": "🛬", "cefr": "A2" },
-    { "word": "gate", "ipa": "/ɡeɪt/", "pos": "n.", "zh": "登机口", "example": "Go to gate twelve.", "emoji": "🚪", "cefr": "A2" },
-    { "word": "pilot", "ipa": "/ˈpaɪlət/", "pos": "n.", "zh": "飞行员", "example": "The pilot spoke to the passengers.", "emoji": "👨‍✈️", "cefr": "A2" },
-    { "word": "runway", "ipa": "/ˈrʌnweɪ/", "pos": "n.", "zh": "跑道", "example": "The plane is on the runway.", "emoji": "🛣️", "cefr": "A2" },
-    { "word": "depart", "ipa": "/dɪˈpɑːt/", "pos": "v.", "zh": "出发", "example": "The flight departs at six.", "emoji": "🚦", "cefr": "A2" },
-    { "word": "delay", "ipa": "/dɪˈleɪ/", "pos": "n.", "zh": "延误", "example": "There is a two-hour delay.", "emoji": "⏰", "cefr": "A2" },
-    { "word": "board", "ipa": "/bɔːd/", "pos": "v.", "zh": "登机", "example": "Passengers may board now.", "emoji": "🧳", "cefr": "A2" },
-    { "word": "security", "ipa": "/sɪˈkjʊərəti/", "pos": "n.", "zh": "安检", "example": "Security checks take time.", "emoji": "🛡️", "cefr": "A2" }
+    {
+      "word": "airport",
+      "ipa": "/ˈeəpɔːt/",
+      "pos": "n.",
+      "zh": "机场",
+      "example": "We arrived at the airport early.",
+      "emoji": "🛫",
+      "cefr": "A1"
+    },
+    {
+      "word": "plane",
+      "ipa": "/pleɪn/",
+      "pos": "n.",
+      "zh": "飞机",
+      "example": "The plane leaves at noon.",
+      "emoji": "✈️",
+      "cefr": "A1"
+    },
+    {
+      "word": "ticket",
+      "ipa": "/ˈtɪkɪt/",
+      "pos": "n.",
+      "zh": "机票",
+      "example": "Show your ticket at the gate.",
+      "emoji": "🎫",
+      "cefr": "A1"
+    },
+    {
+      "word": "passport",
+      "ipa": "/ˈpɑːspɔːt/",
+      "pos": "n.",
+      "zh": "护照",
+      "example": "Do not forget your passport.",
+      "emoji": "🛂",
+      "cefr": "A1"
+    },
+    {
+      "word": "flight",
+      "ipa": "/flaɪt/",
+      "pos": "n.",
+      "zh": "航班",
+      "example": "My flight is delayed.",
+      "emoji": "🛬",
+      "cefr": "A2"
+    },
+    {
+      "word": "gate",
+      "ipa": "/ɡeɪt/",
+      "pos": "n.",
+      "zh": "登机口",
+      "example": "Go to gate twelve.",
+      "emoji": "🚪",
+      "cefr": "A2"
+    },
+    {
+      "word": "pilot",
+      "ipa": "/ˈpaɪlət/",
+      "pos": "n.",
+      "zh": "飞行员",
+      "example": "The pilot spoke to the passengers.",
+      "emoji": "👨‍✈️",
+      "cefr": "A2"
+    },
+    {
+      "word": "runway",
+      "ipa": "/ˈrʌnweɪ/",
+      "pos": "n.",
+      "zh": "跑道",
+      "example": "The plane is on the runway.",
+      "emoji": "🛣️",
+      "cefr": "A2"
+    },
+    {
+      "word": "depart",
+      "ipa": "/dɪˈpɑːt/",
+      "pos": "v.",
+      "zh": "出发",
+      "example": "The flight departs at six.",
+      "emoji": "🚦",
+      "cefr": "A2"
+    },
+    {
+      "word": "delay",
+      "ipa": "/dɪˈleɪ/",
+      "pos": "n.",
+      "zh": "延误",
+      "example": "There is a two-hour delay.",
+      "emoji": "⏰",
+      "cefr": "A2"
+    },
+    {
+      "word": "board",
+      "ipa": "/bɔːd/",
+      "pos": "v.",
+      "zh": "登机",
+      "example": "Passengers may board now.",
+      "emoji": "🧳",
+      "cefr": "A2"
+    },
+    {
+      "word": "security",
+      "ipa": "/sɪˈkjʊərəti/",
+      "pos": "n.",
+      "zh": "安检",
+      "example": "Security checks take time.",
+      "emoji": "🛡️",
+      "cefr": "A2"
+    },
+    {
+      "word": "terminal",
+      "ipa": "/ˈtɜːmɪnl/",
+      "pos": "n",
+      "zh": "航站楼",
+      "example": "Our flight leaves from Terminal 2.",
+      "emoji": "🛫",
+      "cefr": "A2"
+    },
+    {
+      "word": "customs",
+      "ipa": "/ˈkʌstəmz/",
+      "pos": "n",
+      "zh": "海关",
+      "example": "Show your passport at customs.",
+      "emoji": "🛂",
+      "cefr": "A2"
+    },
+    {
+      "word": "visa",
+      "ipa": "/ˈviːzə/",
+      "pos": "n.",
+      "zh": "签证",
+      "example": "He applied for a tourist visa.",
+      "emoji": "🛂",
+      "cefr": "A2"
+    },
+    {
+      "word": "baggage",
+      "ipa": "/ˈbæɡɪdʒ/",
+      "pos": "n.",
+      "zh": "行李",
+      "example": "Please collect your baggage here.",
+      "emoji": "🧳",
+      "cefr": "A2"
+    },
+    {
+      "word": "aisle",
+      "ipa": "/aɪl/",
+      "pos": "n.",
+      "zh": "过道",
+      "example": "My seat is by the aisle.",
+      "emoji": "🪑",
+      "cefr": "B1"
+    },
+    {
+      "word": "jet",
+      "ipa": "/dʒet/",
+      "pos": "n.",
+      "zh": "喷气式飞机",
+      "example": "The jet flew high in the sky.",
+      "emoji": "🛩️",
+      "cefr": "A2"
+    },
+    {
+      "word": "landing",
+      "ipa": "/ˈlændɪŋ/",
+      "pos": "n.",
+      "zh": "着陆",
+      "example": "The landing was very smooth.",
+      "emoji": "🛬",
+      "cefr": "A2"
+    },
+    {
+      "word": "takeoff",
+      "ipa": "/ˈteɪkɒf/",
+      "pos": "n.",
+      "zh": "起飞",
+      "example": "Takeoff was delayed by an hour.",
+      "emoji": "🛫",
+      "cefr": "A2"
+    },
+    {
+      "word": "arrival",
+      "ipa": "/əˈraɪvl/",
+      "pos": "n.",
+      "zh": "到达",
+      "example": "The arrival hall is on the left.",
+      "emoji": "🚉",
+      "cefr": "A2"
+    },
+    {
+      "word": "departure",
+      "ipa": "/dɪˈpɑːtʃə(r)/",
+      "pos": "n.",
+      "zh": "出发",
+      "example": "Check the departure time on the screen.",
+      "emoji": "⏰",
+      "cefr": "A2"
+    },
+    {
+      "word": "transit",
+      "ipa": "/ˈtrænzɪt/",
+      "pos": "n.",
+      "zh": "中转",
+      "example": "We had a two-hour transit in Dubai.",
+      "emoji": "🔁",
+      "cefr": "B1"
+    }
   ],
   "station": [
-    { "word": "station", "ipa": "/ˈsteɪʃn/", "pos": "n.", "zh": "车站", "example": "The station is five minutes away.", "emoji": "🚉", "cefr": "A1" },
-    { "word": "train", "ipa": "/treɪn/", "pos": "n.", "zh": "火车", "example": "The train leaves at eight.", "emoji": "🚆", "cefr": "A1" },
-    { "word": "platform", "ipa": "/ˈplætfɔːm/", "pos": "n.", "zh": "站台", "example": "Wait on platform three.", "emoji": "🚏", "cefr": "A2" },
-    { "word": "timetable", "ipa": "/ˈtaɪmteɪbl/", "pos": "n.", "zh": "时刻表", "example": "Check the timetable on the wall.", "emoji": "🕐", "cefr": "A2" },
-    { "word": "track", "ipa": "/træk/", "pos": "n.", "zh": "铁轨", "example": "Do not cross the track.", "emoji": "🛤️", "cefr": "A2" },
-    { "word": "fare", "ipa": "/feə(r)/", "pos": "n.", "zh": "车费", "example": "The bus fare is two pounds.", "emoji": "💴", "cefr": "A2" },
-    { "word": "subway", "ipa": "/ˈsʌbweɪ/", "pos": "n.", "zh": "地铁", "example": "Take the subway to the centre.", "emoji": "🚇", "cefr": "A1" },
-    { "word": "bus", "ipa": "/bʌs/", "pos": "n.", "zh": "公交车", "example": "The bus is always late.", "emoji": "🚌", "cefr": "A1" },
-    { "word": "stop", "ipa": "/stɒp/", "pos": "n.", "zh": "站点", "example": "Get off at the next stop.", "emoji": "🛑", "cefr": "A1" },
-    { "word": "arrive", "ipa": "/əˈraɪv/", "pos": "v.", "zh": "到达", "example": "We arrive at ten in the morning.", "emoji": "🏁", "cefr": "A1" },
-    { "word": "transfer", "ipa": "/trænsˈfɜː(r)/", "pos": "v.", "zh": "换乘", "example": "Transfer to line two here.", "emoji": "🔀", "cefr": "A2" },
-    { "word": "wait", "ipa": "/weɪt/", "pos": "v.", "zh": "等待", "example": "We waited twenty minutes.", "emoji": "⏳", "cefr": "A1" }
+    {
+      "word": "station",
+      "ipa": "/ˈsteɪʃn/",
+      "pos": "n.",
+      "zh": "车站",
+      "example": "The station is five minutes away.",
+      "emoji": "🚉",
+      "cefr": "A1"
+    },
+    {
+      "word": "train",
+      "ipa": "/treɪn/",
+      "pos": "n.",
+      "zh": "火车",
+      "example": "The train leaves at eight.",
+      "emoji": "🚆",
+      "cefr": "A1"
+    },
+    {
+      "word": "platform",
+      "ipa": "/ˈplætfɔːm/",
+      "pos": "n.",
+      "zh": "站台",
+      "example": "Wait on platform three.",
+      "emoji": "🚏",
+      "cefr": "A2"
+    },
+    {
+      "word": "timetable",
+      "ipa": "/ˈtaɪmteɪbl/",
+      "pos": "n.",
+      "zh": "时刻表",
+      "example": "Check the timetable on the wall.",
+      "emoji": "🕐",
+      "cefr": "A2"
+    },
+    {
+      "word": "track",
+      "ipa": "/træk/",
+      "pos": "n.",
+      "zh": "铁轨",
+      "example": "Do not cross the track.",
+      "emoji": "🛤️",
+      "cefr": "A2"
+    },
+    {
+      "word": "fare",
+      "ipa": "/feə(r)/",
+      "pos": "n.",
+      "zh": "车费",
+      "example": "The bus fare is two pounds.",
+      "emoji": "💴",
+      "cefr": "A2"
+    },
+    {
+      "word": "subway",
+      "ipa": "/ˈsʌbweɪ/",
+      "pos": "n.",
+      "zh": "地铁",
+      "example": "Take the subway to the centre.",
+      "emoji": "🚇",
+      "cefr": "A1"
+    },
+    {
+      "word": "bus",
+      "ipa": "/bʌs/",
+      "pos": "n.",
+      "zh": "公交车",
+      "example": "The bus is always late.",
+      "emoji": "🚌",
+      "cefr": "A1"
+    },
+    {
+      "word": "stop",
+      "ipa": "/stɒp/",
+      "pos": "n.",
+      "zh": "站点",
+      "example": "Get off at the next stop.",
+      "emoji": "🛑",
+      "cefr": "A1"
+    },
+    {
+      "word": "arrive",
+      "ipa": "/əˈraɪv/",
+      "pos": "v.",
+      "zh": "到达",
+      "example": "We arrive at ten in the morning.",
+      "emoji": "🏁",
+      "cefr": "A1"
+    },
+    {
+      "word": "transfer",
+      "ipa": "/trænsˈfɜː(r)/",
+      "pos": "v.",
+      "zh": "换乘",
+      "example": "Transfer to line two here.",
+      "emoji": "🔀",
+      "cefr": "A2"
+    },
+    {
+      "word": "wait",
+      "ipa": "/weɪt/",
+      "pos": "v.",
+      "zh": "等待",
+      "example": "We waited twenty minutes.",
+      "emoji": "⏳",
+      "cefr": "A1"
+    },
+    {
+      "word": "conductor",
+      "ipa": "/kənˈdʌktə(r)/",
+      "pos": "n",
+      "zh": "列车员",
+      "example": "The conductor checks the tickets.",
+      "emoji": "🎫",
+      "cefr": "A2"
+    },
+    {
+      "word": "rail",
+      "ipa": "/reɪl/",
+      "pos": "n",
+      "zh": "铁轨",
+      "example": "The train runs on the rail.",
+      "emoji": "🚆",
+      "cefr": "A2"
+    },
+    {
+      "word": "locomotive",
+      "ipa": "/ˌləʊkəˈməʊtɪv/",
+      "pos": "n.",
+      "zh": "火车头",
+      "example": "The locomotive pulled twenty cars.",
+      "emoji": "🚂",
+      "cefr": "B1"
+    },
+    {
+      "word": "commuter",
+      "ipa": "/kəˈmjuːtə(r)/",
+      "pos": "n.",
+      "zh": "通勤者",
+      "example": "The train was full of commuters.",
+      "emoji": "🚇",
+      "cefr": "B1"
+    }
   ],
   "post": [
-    { "word": "post", "ipa": "/pəʊst/", "pos": "n.", "zh": "邮政", "example": "I sent the book by post.", "emoji": "🏤", "cefr": "A1" },
-    { "word": "letter", "ipa": "/ˈletə(r)/", "pos": "n.", "zh": "信", "example": "She wrote a long letter.", "emoji": "✉️", "cefr": "A1" },
-    { "word": "stamp", "ipa": "/stæmp/", "pos": "n.", "zh": "邮票", "example": "Put a stamp on the envelope.", "emoji": "📮", "cefr": "A2" },
-    { "word": "envelope", "ipa": "/ˈenvələʊp/", "pos": "n.", "zh": "信封", "example": "The envelope is already sealed.", "emoji": "📩", "cefr": "A2" },
-    { "word": "package", "ipa": "/ˈpækɪdʒ/", "pos": "n.", "zh": "包裹", "example": "A package arrived this morning.", "emoji": "📦", "cefr": "A2" },
-    { "word": "address", "ipa": "/əˈdres/", "pos": "n.", "zh": "地址", "example": "Write your address clearly.", "emoji": "🏠", "cefr": "A1" },
-    { "word": "mail", "ipa": "/meɪl/", "pos": "n.", "zh": "邮件", "example": "Check the mail every morning.", "emoji": "📬", "cefr": "A1" },
-    { "word": "deliver", "ipa": "/dɪˈlɪvə(r)/", "pos": "v.", "zh": "投递", "example": "They deliver in two days.", "emoji": "🚚", "cefr": "A2" },
-    { "word": "sender", "ipa": "/ˈsendə(r)/", "pos": "n.", "zh": "寄件人", "example": "Write the sender on the back.", "emoji": "👤", "cefr": "A2" },
-    { "word": "postcode", "ipa": "/ˈpəʊstkəʊd/", "pos": "n.", "zh": "邮编", "example": "What is your postcode?", "emoji": "🔢", "cefr": "A2" },
-    { "word": "card", "ipa": "/kɑːd/", "pos": "n.", "zh": "贺卡", "example": "I sent her a birthday card.", "emoji": "💌", "cefr": "A1" },
-    { "word": "weigh", "ipa": "/weɪ/", "pos": "v.", "zh": "称重", "example": "Please weigh the parcel here.", "emoji": "⚖️", "cefr": "A2" }
+    {
+      "word": "post",
+      "ipa": "/pəʊst/",
+      "pos": "n.",
+      "zh": "邮政",
+      "example": "I sent the book by post.",
+      "emoji": "🏤",
+      "cefr": "A1"
+    },
+    {
+      "word": "letter",
+      "ipa": "/ˈletə(r)/",
+      "pos": "n.",
+      "zh": "信",
+      "example": "She wrote a long letter.",
+      "emoji": "✉️",
+      "cefr": "A1"
+    },
+    {
+      "word": "stamp",
+      "ipa": "/stæmp/",
+      "pos": "n.",
+      "zh": "邮票",
+      "example": "Put a stamp on the envelope.",
+      "emoji": "📮",
+      "cefr": "A2"
+    },
+    {
+      "word": "envelope",
+      "ipa": "/ˈenvələʊp/",
+      "pos": "n.",
+      "zh": "信封",
+      "example": "The envelope is already sealed.",
+      "emoji": "📩",
+      "cefr": "A2"
+    },
+    {
+      "word": "package",
+      "ipa": "/ˈpækɪdʒ/",
+      "pos": "n.",
+      "zh": "包裹",
+      "example": "A package arrived this morning.",
+      "emoji": "📦",
+      "cefr": "A2"
+    },
+    {
+      "word": "address",
+      "ipa": "/əˈdres/",
+      "pos": "n.",
+      "zh": "地址",
+      "example": "Write your address clearly.",
+      "emoji": "🏠",
+      "cefr": "A1"
+    },
+    {
+      "word": "mail",
+      "ipa": "/meɪl/",
+      "pos": "n.",
+      "zh": "邮件",
+      "example": "Check the mail every morning.",
+      "emoji": "📬",
+      "cefr": "A1"
+    },
+    {
+      "word": "deliver",
+      "ipa": "/dɪˈlɪvə(r)/",
+      "pos": "v.",
+      "zh": "投递",
+      "example": "They deliver in two days.",
+      "emoji": "🚚",
+      "cefr": "A2"
+    },
+    {
+      "word": "sender",
+      "ipa": "/ˈsendə(r)/",
+      "pos": "n.",
+      "zh": "寄件人",
+      "example": "Write the sender on the back.",
+      "emoji": "👤",
+      "cefr": "A2"
+    },
+    {
+      "word": "postcode",
+      "ipa": "/ˈpəʊstkəʊd/",
+      "pos": "n.",
+      "zh": "邮编",
+      "example": "What is your postcode?",
+      "emoji": "🔢",
+      "cefr": "A2"
+    },
+    {
+      "word": "card",
+      "ipa": "/kɑːd/",
+      "pos": "n.",
+      "zh": "贺卡",
+      "example": "I sent her a birthday card.",
+      "emoji": "💌",
+      "cefr": "A1"
+    },
+    {
+      "word": "weigh",
+      "ipa": "/weɪ/",
+      "pos": "v.",
+      "zh": "称重",
+      "example": "Please weigh the parcel here.",
+      "emoji": "⚖️",
+      "cefr": "A2"
+    },
+    {
+      "word": "postcard",
+      "ipa": "/ˈpəʊstkɑːd/",
+      "pos": "n",
+      "zh": "明信片",
+      "example": "I sent a postcard from Paris.",
+      "emoji": "💌",
+      "cefr": "A1"
+    },
+    {
+      "word": "parcel",
+      "ipa": "/ˈpɑːsl/",
+      "pos": "n",
+      "zh": "包裹",
+      "example": "The parcel arrived today.",
+      "emoji": "📦",
+      "cefr": "A2"
+    },
+    {
+      "word": "mailbox",
+      "ipa": "/ˈmeɪlbɒks/",
+      "pos": "n.",
+      "zh": "邮筒",
+      "example": "Drop the letter in the mailbox.",
+      "emoji": "📮",
+      "cefr": "A1"
+    },
+    {
+      "word": "courier",
+      "ipa": "/ˈkʊriə(r)/",
+      "pos": "n.",
+      "zh": "快递员",
+      "example": "The courier delivered the package.",
+      "emoji": "📦",
+      "cefr": "B1"
+    },
+    {
+      "word": "express",
+      "ipa": "/ɪkˈspres/",
+      "pos": "adj.",
+      "zh": "特快的",
+      "example": "Send the letter by express mail.",
+      "emoji": "🚀",
+      "cefr": "B1"
+    }
   ],
   "phone": [
-    { "word": "phone", "ipa": "/fəʊn/", "pos": "n.", "zh": "电话", "example": "My phone is out of battery.", "emoji": "📱", "cefr": "A1" },
-    { "word": "call", "ipa": "/kɔːl/", "pos": "v.", "zh": "打电话", "example": "Call me when you arrive.", "emoji": "📞", "cefr": "A1" },
-    { "word": "message", "ipa": "/ˈmesɪdʒ/", "pos": "n.", "zh": "短信", "example": "I sent you a message.", "emoji": "💬", "cefr": "A1" },
-    { "word": "ring", "ipa": "/rɪŋ/", "pos": "v.", "zh": "响铃", "example": "The phone is ringing.", "emoji": "🔔", "cefr": "A2" },
-    { "word": "answer", "ipa": "/ˈɑːnsə(r)/", "pos": "v.", "zh": "接听", "example": "Please answer the phone.", "emoji": "✅", "cefr": "A1" },
-    { "word": "contact", "ipa": "/ˈkɒntækt/", "pos": "n.", "zh": "联系人", "example": "Save my number as a contact.", "emoji": "👤", "cefr": "A2" },
-    { "word": "voicemail", "ipa": "/ˈvɔɪsmeɪl/", "pos": "n.", "zh": "语音留言", "example": "Leave a voicemail after the tone.", "emoji": "📼", "cefr": "A2" },
-    { "word": "silent", "ipa": "/ˈsaɪlənt/", "pos": "adj.", "zh": "静音的", "example": "Keep your phone silent in class.", "emoji": "🔇", "cefr": "A2" },
-    { "word": "charge", "ipa": "/tʃɑːdʒ/", "pos": "v.", "zh": "充电", "example": "I need to charge my phone.", "emoji": "🔋", "cefr": "A2" },
-    { "word": "signal", "ipa": "/ˈsɪɡnəl/", "pos": "n.", "zh": "信号", "example": "There is no signal here.", "emoji": "📶", "cefr": "A2" },
-    { "word": "number", "ipa": "/ˈnʌmbə(r)/", "pos": "n.", "zh": "号码", "example": "What is your phone number?", "emoji": "🔢", "cefr": "A1" },
-    { "word": "dial", "ipa": "/ˈdaɪəl/", "pos": "v.", "zh": "拨号", "example": "Dial the number and wait.", "emoji": "☎️", "cefr": "A2" }
+    {
+      "word": "phone",
+      "ipa": "/fəʊn/",
+      "pos": "n.",
+      "zh": "电话",
+      "example": "My phone is out of battery.",
+      "emoji": "📱",
+      "cefr": "A1"
+    },
+    {
+      "word": "call",
+      "ipa": "/kɔːl/",
+      "pos": "v.",
+      "zh": "打电话",
+      "example": "Call me when you arrive.",
+      "emoji": "📞",
+      "cefr": "A1"
+    },
+    {
+      "word": "message",
+      "ipa": "/ˈmesɪdʒ/",
+      "pos": "n.",
+      "zh": "短信",
+      "example": "I sent you a message.",
+      "emoji": "💬",
+      "cefr": "A1"
+    },
+    {
+      "word": "ring",
+      "ipa": "/rɪŋ/",
+      "pos": "v.",
+      "zh": "响铃",
+      "example": "The phone is ringing.",
+      "emoji": "🔔",
+      "cefr": "A2"
+    },
+    {
+      "word": "answer",
+      "ipa": "/ˈɑːnsə(r)/",
+      "pos": "v.",
+      "zh": "接听",
+      "example": "Please answer the phone.",
+      "emoji": "✅",
+      "cefr": "A1"
+    },
+    {
+      "word": "contact",
+      "ipa": "/ˈkɒntækt/",
+      "pos": "n.",
+      "zh": "联系人",
+      "example": "Save my number as a contact.",
+      "emoji": "👤",
+      "cefr": "A2"
+    },
+    {
+      "word": "voicemail",
+      "ipa": "/ˈvɔɪsmeɪl/",
+      "pos": "n.",
+      "zh": "语音留言",
+      "example": "Leave a voicemail after the tone.",
+      "emoji": "📼",
+      "cefr": "A2"
+    },
+    {
+      "word": "silent",
+      "ipa": "/ˈsaɪlənt/",
+      "pos": "adj.",
+      "zh": "静音的",
+      "example": "Keep your phone silent in class.",
+      "emoji": "🔇",
+      "cefr": "A2"
+    },
+    {
+      "word": "charge",
+      "ipa": "/tʃɑːdʒ/",
+      "pos": "v.",
+      "zh": "充电",
+      "example": "I need to charge my phone.",
+      "emoji": "🔋",
+      "cefr": "A2"
+    },
+    {
+      "word": "signal",
+      "ipa": "/ˈsɪɡnəl/",
+      "pos": "n.",
+      "zh": "信号",
+      "example": "There is no signal here.",
+      "emoji": "📶",
+      "cefr": "A2"
+    },
+    {
+      "word": "number",
+      "ipa": "/ˈnʌmbə(r)/",
+      "pos": "n.",
+      "zh": "号码",
+      "example": "What is your phone number?",
+      "emoji": "🔢",
+      "cefr": "A1"
+    },
+    {
+      "word": "dial",
+      "ipa": "/ˈdaɪəl/",
+      "pos": "v.",
+      "zh": "拨号",
+      "example": "Dial the number and wait.",
+      "emoji": "☎️",
+      "cefr": "A2"
+    },
+    {
+      "word": "headset",
+      "ipa": "/ˈhedset/",
+      "pos": "n",
+      "zh": "耳机",
+      "example": "She uses a headset for calls.",
+      "emoji": "🎧",
+      "cefr": "A2"
+    },
+    {
+      "word": "hotspot",
+      "ipa": "/ˈhɒtspɒt/",
+      "pos": "n",
+      "zh": "热点",
+      "example": "Share your phone hotspot.",
+      "emoji": "📶",
+      "cefr": "A2"
+    },
+    {
+      "word": "bluetooth",
+      "ipa": "/ˈbluːtʊːθ/",
+      "pos": "n.",
+      "zh": "蓝牙",
+      "example": "Turn on bluetooth to connect.",
+      "emoji": "🔷",
+      "cefr": "B1"
+    },
+    {
+      "word": "vibrate",
+      "ipa": "/vaɪˈbreɪt/",
+      "pos": "v.",
+      "zh": "震动",
+      "example": "My phone vibrates on silent.",
+      "emoji": "📳",
+      "cefr": "B1"
+    }
   ],
   "screen": [
-    { "word": "computer", "ipa": "/kəmˈpjuːtə(r)/", "pos": "n.", "zh": "电脑", "example": "I use a computer for work.", "emoji": "💻", "cefr": "A1" },
-    { "word": "keyboard", "ipa": "/ˈkiːbɔːd/", "pos": "n.", "zh": "键盘", "example": "This keyboard is very quiet.", "emoji": "⌨️", "cefr": "A2" },
-    { "word": "mouse", "ipa": "/maʊs/", "pos": "n.", "zh": "鼠标", "example": "The mouse needs a new battery.", "emoji": "🖱️", "cefr": "A2" },
-    { "word": "monitor", "ipa": "/ˈmɒnɪtə(r)/", "pos": "n.", "zh": "显示器", "example": "The monitor is too bright.", "emoji": "🖥️", "cefr": "A2" },
-    { "word": "printer", "ipa": "/ˈprɪntə(r)/", "pos": "n.", "zh": "打印机", "example": "The printer has no paper.", "emoji": "🖨️", "cefr": "A2" },
-    { "word": "file", "ipa": "/faɪl/", "pos": "n.", "zh": "文件", "example": "Save the file before you close it.", "emoji": "📁", "cefr": "A2" },
-    { "word": "folder", "ipa": "/ˈfəʊldə(r)/", "pos": "n.", "zh": "文件夹", "example": "Put the photos in this folder.", "emoji": "📂", "cefr": "A2" },
-    { "word": "save", "ipa": "/seɪv/", "pos": "v.", "zh": "保存", "example": "Do not forget to save your work.", "emoji": "💾", "cefr": "A1" },
-    { "word": "delete", "ipa": "/dɪˈliːt/", "pos": "v.", "zh": "删除", "example": "Delete the old files.", "emoji": "🗑️", "cefr": "A2" },
-    { "word": "click", "ipa": "/klɪk/", "pos": "v.", "zh": "点击", "example": "Click the button to start.", "emoji": "👆", "cefr": "A2" },
-    { "word": "type", "ipa": "/taɪp/", "pos": "v.", "zh": "打字", "example": "Type your name here.", "emoji": "✍️", "cefr": "A1" },
-    { "word": "password", "ipa": "/ˈpɑːswɜːd/", "pos": "n.", "zh": "密码", "example": "I forgot my password again.", "emoji": "🔐", "cefr": "A2" }
+    {
+      "word": "computer",
+      "ipa": "/kəmˈpjuːtə(r)/",
+      "pos": "n.",
+      "zh": "电脑",
+      "example": "I use a computer for work.",
+      "emoji": "💻",
+      "cefr": "A1"
+    },
+    {
+      "word": "keyboard",
+      "ipa": "/ˈkiːbɔːd/",
+      "pos": "n.",
+      "zh": "键盘",
+      "example": "This keyboard is very quiet.",
+      "emoji": "⌨️",
+      "cefr": "A2"
+    },
+    {
+      "word": "mouse",
+      "ipa": "/maʊs/",
+      "pos": "n.",
+      "zh": "鼠标",
+      "example": "The mouse needs a new battery.",
+      "emoji": "🖱️",
+      "cefr": "A2"
+    },
+    {
+      "word": "monitor",
+      "ipa": "/ˈmɒnɪtə(r)/",
+      "pos": "n.",
+      "zh": "显示器",
+      "example": "The monitor is too bright.",
+      "emoji": "🖥️",
+      "cefr": "A2"
+    },
+    {
+      "word": "printer",
+      "ipa": "/ˈprɪntə(r)/",
+      "pos": "n.",
+      "zh": "打印机",
+      "example": "The printer has no paper.",
+      "emoji": "🖨️",
+      "cefr": "A2"
+    },
+    {
+      "word": "file",
+      "ipa": "/faɪl/",
+      "pos": "n.",
+      "zh": "文件",
+      "example": "Save the file before you close it.",
+      "emoji": "📁",
+      "cefr": "A2"
+    },
+    {
+      "word": "folder",
+      "ipa": "/ˈfəʊldə(r)/",
+      "pos": "n.",
+      "zh": "文件夹",
+      "example": "Put the photos in this folder.",
+      "emoji": "📂",
+      "cefr": "A2"
+    },
+    {
+      "word": "save",
+      "ipa": "/seɪv/",
+      "pos": "v.",
+      "zh": "保存",
+      "example": "Do not forget to save your work.",
+      "emoji": "💾",
+      "cefr": "A1"
+    },
+    {
+      "word": "delete",
+      "ipa": "/dɪˈliːt/",
+      "pos": "v.",
+      "zh": "删除",
+      "example": "Delete the old files.",
+      "emoji": "🗑️",
+      "cefr": "A2"
+    },
+    {
+      "word": "click",
+      "ipa": "/klɪk/",
+      "pos": "v.",
+      "zh": "点击",
+      "example": "Click the button to start.",
+      "emoji": "👆",
+      "cefr": "A2"
+    },
+    {
+      "word": "type",
+      "ipa": "/taɪp/",
+      "pos": "v.",
+      "zh": "打字",
+      "example": "Type your name here.",
+      "emoji": "✍️",
+      "cefr": "A1"
+    },
+    {
+      "word": "password",
+      "ipa": "/ˈpɑːswɜːd/",
+      "pos": "n.",
+      "zh": "密码",
+      "example": "I forgot my password again.",
+      "emoji": "🔐",
+      "cefr": "A2"
+    },
+    {
+      "word": "desktop",
+      "ipa": "/ˈdesktɒp/",
+      "pos": "n",
+      "zh": "桌面电脑",
+      "example": "I work on a desktop computer.",
+      "emoji": "🖥️",
+      "cefr": "A2"
+    },
+    {
+      "word": "cursor",
+      "ipa": "/ˈkɜːsə(r)/",
+      "pos": "n",
+      "zh": "光标",
+      "example": "Move the cursor to the icon.",
+      "emoji": "🖱️",
+      "cefr": "A2"
+    },
+    {
+      "word": "copy",
+      "ipa": "/ˈkɒpi/",
+      "pos": "v.",
+      "zh": "复制",
+      "example": "Copy the file to the folder.",
+      "emoji": "📋",
+      "cefr": "A2"
+    },
+    {
+      "word": "paste",
+      "ipa": "/peɪst/",
+      "pos": "v.",
+      "zh": "粘贴",
+      "example": "Paste the text here.",
+      "emoji": "📌",
+      "cefr": "A2"
+    }
   ]
 }

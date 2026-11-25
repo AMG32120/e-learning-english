@@ -1,1037 +1,1194 @@
 [
- {
-  "id": "l9_mil_strategy",
-  "title": "军事战略",
-  "emoji": "🗺️",
-  "words": [
-   {
-    "word": "pyrrhic",
-    "ipa": "/ˈpɪrɪk/",
-    "pos": "adj.",
-    "zh": "得不偿失的（胜利）",
-    "example": "A pyrrhic victory emptied both armies.",
-    "emoji": "🎭",
-    "cefr": "C2"
-   },
-   {
-    "word": "flank",
-    "ipa": "/flæŋk/",
-    "pos": "n./v.",
-    "zh": "侧翼；包抄",
-    "example": "Cavalry swept round the open flank.",
-    "emoji": "↪️",
-    "cefr": "C2"
-   },
-   {
-    "word": "garrison",
-    "ipa": "/ˈgærɪsn/",
-    "pos": "n.",
-    "zh": "驻军；要塞驻防",
-    "example": "The garrison held out for nine months.",
-    "emoji": "🏯",
-    "cefr": "C1"
-   },
-   {
-    "word": "armament",
-    "ipa": "/ˈɑːməmənt/",
-    "pos": "n.",
-    "zh": "军备；武装",
-    "example": "Armament spending outran every forecast.",
-    "emoji": "💣",
-    "cefr": "C1"
-   },
-   {
-    "word": "conscription",
-    "ipa": "/kənˈskrɪpʃn/",
-    "pos": "n.",
-    "zh": "征兵制",
-    "example": "Conscription ended in 1960.",
-    "emoji": "📋",
-    "cefr": "C2"
-   },
-   {
-    "word": "sortie",
-    "ipa": "/ˈsɔːti/",
-    "pos": "n.",
-    "zh": "出击；架次",
-    "example": "Pilots flew three sorties a day.",
-    "emoji": "✈️",
-    "cefr": "C2"
-   },
-   {
-    "word": "manoeuvre",
-    "ipa": "/məˈnuːvə/",
-    "pos": "n./v.",
-    "zh": "机动；演习",
-    "example": "Autumn manoeuvres tested the new radio.",
-    "emoji": "🎯",
-    "cefr": "C1"
-   },
-   {
-    "word": "fortification",
-    "ipa": "/ˌfɔːtɪfɪˈkeɪʃn/",
-    "pos": "n.",
-    "zh": "防御工事",
-    "example": "Star-shaped fortifications suited cannon.",
-    "emoji": "⭐",
-    "cefr": "C2"
-   },
-   {
-    "word": "siege",
-    "ipa": "/siːdʒ/",
-    "pos": "n.",
-    "zh": "围攻；围困",
-    "example": "The siege lasted through two winters.",
-    "emoji": "🏰",
-    "cefr": "C1"
-   },
-   {
-    "word": "artillery",
-    "ipa": "/ɑːˈtɪləri/",
-    "pos": "n.",
-    "zh": "炮兵；火炮",
-    "example": "Artillery decided most Great War battles.",
-    "emoji": "💥",
-    "cefr": "C1"
-   },
-   {
-    "word": "cavalry",
-    "ipa": "/ˈkævəlri/",
-    "pos": "n.",
-    "zh": "骑兵",
-    "example": "Cavalry charged at dawn, famously.",
-    "emoji": "🐎",
-    "cefr": "C1"
-   },
-   {
-    "word": "munitions",
-    "ipa": "/mjuːˈnɪʃnz/",
-    "pos": "n.",
-    "zh": "军火；弹药",
-    "example": "Munitions factories hired entire villages.",
-    "emoji": "🧨",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_mil_defence",
-  "title": "国防与军备控制",
-  "emoji": "🛡️",
-  "words": [
-   {
-    "word": "reprisal",
-    "ipa": "/rɪˈpraɪzl/",
-    "pos": "n.",
-    "zh": "报复；报复行动",
-    "example": " reprisals deter, then escalate.",
-    "emoji": "↩️",
-    "cefr": "C2"
-   },
-   {
-    "word": "interceptor",
-    "ipa": "/ˌɪntəˈseptə/",
-    "pos": "n.",
-    "zh": "拦截机；拦截器",
-    "example": "Interceptors scrambled within four minutes.",
-    "emoji": "✈️",
-    "cefr": "C2"
-   },
-   {
-    "word": "warhead",
-    "ipa": "/ˈwɔːhed/",
-    "pos": "n.",
-    "zh": "弹头",
-    "example": "Treaties capped warheads at 1,550.",
-    "emoji": "💀",
-    "cefr": "C2"
-   },
-   {
-    "word": "disarmament",
-    "ipa": "/dɪsˈɑːməmənt/",
-    "pos": "n.",
-    "zh": "裁军；解除武装",
-    "example": "Disarmament talks resume every spring.",
+  {
+    "id": "l9_mil_strategy",
+    "title": "军事战略",
+    "emoji": "🗺️",
+    "words": [
+      {
+        "word": "pyrrhic",
+        "ipa": "/ˈpɪrɪk/",
+        "pos": "adj.",
+        "zh": "得不偿失的（胜利）",
+        "example": "A pyrrhic victory emptied both armies.",
+        "emoji": "🎭",
+        "cefr": "C2"
+      },
+      {
+        "word": "flank",
+        "ipa": "/flæŋk/",
+        "pos": "n./v.",
+        "zh": "侧翼；包抄",
+        "example": "Cavalry swept round the open flank.",
+        "emoji": "↪️",
+        "cefr": "C2"
+      },
+      {
+        "word": "garrison",
+        "ipa": "/ˈgærɪsn/",
+        "pos": "n.",
+        "zh": "驻军；要塞驻防",
+        "example": "The garrison held out for nine months.",
+        "emoji": "🏯",
+        "cefr": "C1"
+      },
+      {
+        "word": "armament",
+        "ipa": "/ˈɑːməmənt/",
+        "pos": "n.",
+        "zh": "军备；武装",
+        "example": "Armament spending outran every forecast.",
+        "emoji": "💣",
+        "cefr": "C1"
+      },
+      {
+        "word": "conscription",
+        "ipa": "/kənˈskrɪpʃn/",
+        "pos": "n.",
+        "zh": "征兵制",
+        "example": "Conscription ended in 1960.",
+        "emoji": "📋",
+        "cefr": "C2"
+      },
+      {
+        "word": "sortie",
+        "ipa": "/ˈsɔːti/",
+        "pos": "n.",
+        "zh": "出击；架次",
+        "example": "Pilots flew three sorties a day.",
+        "emoji": "✈️",
+        "cefr": "C2"
+      },
+      {
+        "word": "manoeuvre",
+        "ipa": "/məˈnuːvə/",
+        "pos": "n./v.",
+        "zh": "机动；演习",
+        "example": "Autumn manoeuvres tested the new radio.",
+        "emoji": "🎯",
+        "cefr": "C1"
+      },
+      {
+        "word": "fortification",
+        "ipa": "/ˌfɔːtɪfɪˈkeɪʃn/",
+        "pos": "n.",
+        "zh": "防御工事",
+        "example": "Star-shaped fortifications suited cannon.",
+        "emoji": "⭐",
+        "cefr": "C2"
+      },
+      {
+        "word": "siege",
+        "ipa": "/siːdʒ/",
+        "pos": "n.",
+        "zh": "围攻；围困",
+        "example": "The siege lasted through two winters.",
+        "emoji": "🏰",
+        "cefr": "C1"
+      },
+      {
+        "word": "artillery",
+        "ipa": "/ɑːˈtɪləri/",
+        "pos": "n.",
+        "zh": "炮兵；火炮",
+        "example": "Artillery decided most Great War battles.",
+        "emoji": "💥",
+        "cefr": "C1"
+      },
+      {
+        "word": "cavalry",
+        "ipa": "/ˈkævəlri/",
+        "pos": "n.",
+        "zh": "骑兵",
+        "example": "Cavalry charged at dawn, famously.",
+        "emoji": "🐎",
+        "cefr": "C1"
+      },
+      {
+        "word": "munitions",
+        "ipa": "/mjuːˈnɪʃnz/",
+        "pos": "n.",
+        "zh": "军火；弹药",
+        "example": "Munitions factories hired entire villages.",
+        "emoji": "🧨",
+        "cefr": "C2"
+      },
+      {
+        "word": "counteroffensive",
+        "ipa": "/ˌkaʊntərəˈfensɪv/",
+        "pos": "n.",
+        "zh": "反攻",
+        "example": "The counteroffensive retook the ridge.",
+        "emoji": "🗡️",
+        "cefr": "C2"
+      },
+      {
+        "word": "maneuver",
+        "ipa": "/məˈnuːvə(r)/",
+        "pos": "n.",
+        "zh": "机动",
+        "example": "The flanking maneuver won the day.",
+        "emoji": "🎯",
+        "cefr": "C2",
+        "level": "C1"
+      }
+    ],
+    "extends_from": "l2_safety"
+  },
+  {
+    "id": "l9_mil_defence",
+    "title": "国防与军备控制",
+    "emoji": "🛡️",
+    "words": [
+      {
+        "word": "reprisal",
+        "ipa": "/rɪˈpraɪzl/",
+        "pos": "n.",
+        "zh": "报复；报复行动",
+        "example": " reprisals deter, then escalate.",
+        "emoji": "↩️",
+        "cefr": "C2"
+      },
+      {
+        "word": "interceptor",
+        "ipa": "/ˌɪntəˈseptə/",
+        "pos": "n.",
+        "zh": "拦截机；拦截器",
+        "example": "Interceptors scrambled within four minutes.",
+        "emoji": "✈️",
+        "cefr": "C2"
+      },
+      {
+        "word": "warhead",
+        "ipa": "/ˈwɔːhed/",
+        "pos": "n.",
+        "zh": "弹头",
+        "example": "Treaties capped warheads at 1,550.",
+        "emoji": "💀",
+        "cefr": "C2"
+      },
+      {
+        "word": "disarmament",
+        "ipa": "/dɪsˈɑːməmənt/",
+        "pos": "n.",
+        "zh": "裁军；解除武装",
+        "example": "Disarmament talks resume every spring.",
+        "emoji": "🕊️",
+        "cefr": "C1"
+      },
+      {
+        "word": "stand-down",
+        "ipa": "/ˌstænd ˈdaʊn/",
+        "pos": "n.",
+        "zh": "解除战备；停戒",
+        "example": "A stand-down order closed the guns.",
+        "emoji": "⬇️",
+        "cefr": "C2"
+      },
+      {
+        "word": "bunker",
+        "ipa": "/ˈbʌŋkə/",
+        "pos": "n.",
+        "zh": "掩体；地堡",
+        "example": "The bunker housed forty staff.",
+        "emoji": "🕳️",
+        "cefr": "C1"
+      },
+      {
+        "word": "salvo",
+        "ipa": "/ˈsælvəʊ/",
+        "pos": "n.",
+        "zh": "齐射；连发",
+        "example": "The first salvo missed entirely.",
+        "emoji": "🎆",
+        "cefr": "C2"
+      },
+      {
+        "word": "deployment",
+        "ipa": "/dɪˈplɔɪmənt/",
+        "pos": "n.",
+        "zh": "部署；调动",
+        "example": "Deployment orders arrived on Sunday.",
+        "emoji": "🚚",
+        "cefr": "C1"
+      },
+      {
+        "word": "reconnaissance",
+        "ipa": "/rɪˈkɒnɪsns/",
+        "pos": "n.",
+        "zh": "侦察",
+        "example": "Reconnaissance flights mapped the ridge.",
+        "emoji": "🔭",
+        "cefr": "C2"
+      },
+      {
+        "word": "supply-line",
+        "ipa": "/səˈplaɪ laɪn/",
+        "pos": "n.",
+        "zh": "补给线",
+        "example": "Cut the supply-line, win slowly.",
+        "emoji": "⛓️",
+        "cefr": "C1"
+      },
+      {
+        "word": "veteran",
+        "ipa": "/ˈvetərən/",
+        "pos": "n.",
+        "zh": "老兵；资深者",
+        "example": "Veterans march every November.",
+        "emoji": "🎖️",
+        "cefr": "C1"
+      },
+      {
+        "word": "mobilisation",
+        "ipa": "/ˌməʊbəlaɪˈzeɪʃn/",
+        "pos": "n.",
+        "zh": "动员",
+        "example": "Mobilisation took nineteen days in 1914.",
+        "emoji": "📣",
+        "cefr": "C2"
+      },
+      {
+        "word": "arsenal",
+        "ipa": "/ˈɑːsənl/",
+        "pos": "n.",
+        "zh": "军火库",
+        "example": "The arsenal holds aging missiles.",
+        "emoji": "🏭",
+        "cefr": "C2"
+      },
+      {
+        "word": "demobilisation",
+        "ipa": "/ˌdiːməʊbɪlaɪˈzeɪʃn/",
+        "pos": "n.",
+        "zh": "复员",
+        "example": "Demobilisation followed the peace treaty.",
+        "emoji": "🪖",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_safety"
+  },
+  {
+    "id": "l9_mil_peace",
+    "title": "和平与调停",
     "emoji": "🕊️",
-    "cefr": "C1"
-   },
-   {
-    "word": "stand-down",
-    "ipa": "/ˌstænd ˈdaʊn/",
-    "pos": "n.",
-    "zh": "解除战备；停戒",
-    "example": "A stand-down order closed the guns.",
-    "emoji": "⬇️",
-    "cefr": "C2"
-   },
-   {
-    "word": "bunker",
-    "ipa": "/ˈbʌŋkə/",
-    "pos": "n.",
-    "zh": "掩体；地堡",
-    "example": "The bunker housed forty staff.",
-    "emoji": "🕳️",
-    "cefr": "C1"
-   },
-   {
-    "word": "salvo",
-    "ipa": "/ˈsælvəʊ/",
-    "pos": "n.",
-    "zh": "齐射；连发",
-    "example": "The first salvo missed entirely.",
-    "emoji": "🎆",
-    "cefr": "C2"
-   },
-   {
-    "word": "deployment",
-    "ipa": "/dɪˈplɔɪmənt/",
-    "pos": "n.",
-    "zh": "部署；调动",
-    "example": "Deployment orders arrived on Sunday.",
-    "emoji": "🚚",
-    "cefr": "C1"
-   },
-   {
-    "word": "reconnaissance",
-    "ipa": "/rɪˈkɒnɪsns/",
-    "pos": "n.",
-    "zh": "侦察",
-    "example": "Reconnaissance flights mapped the ridge.",
-    "emoji": "🔭",
-    "cefr": "C2"
-   },
-   {
-    "word": "supply-line",
-    "ipa": "/səˈplaɪ laɪn/",
-    "pos": "n.",
-    "zh": "补给线",
-    "example": "Cut the supply-line, win slowly.",
-    "emoji": "⛓️",
-    "cefr": "C1"
-   },
-   {
-    "word": "veteran",
-    "ipa": "/ˈvetərən/",
-    "pos": "n.",
-    "zh": "老兵；资深者",
-    "example": "Veterans march every November.",
-    "emoji": "🎖️",
-    "cefr": "C1"
-   },
-   {
-    "word": "mobilisation",
-    "ipa": "/ˌməʊbəlaɪˈzeɪʃn/",
-    "pos": "n.",
-    "zh": "动员",
-    "example": "Mobilisation took nineteen days in 1914.",
-    "emoji": "📣",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_mil_peace",
-  "title": "和平与调停",
-  "emoji": "🕊️",
-  "words": [
-   {
-    "word": "truce",
-    "ipa": "/truːs/",
-    "pos": "n.",
-    "zh": "休战；停战协定",
-    "example": "A Christmas truce paused the guns.",
-    "emoji": "🕊️",
-    "cefr": "C1"
-   },
-   {
-    "word": "conciliation",
-    "ipa": "/kənˌsɪliˈeɪʃn/",
-    "pos": "n.",
-    "zh": "调解；安抚",
-    "example": "Conciliation boards settled most rent rows.",
-    "emoji": "🤲",
-    "cefr": "C2"
-   },
-   {
-    "word": "entente",
-    "ipa": "/ɒnˈtɒnt/",
-    "pos": "n.",
-    "zh": "协约；谅解",
-    "example": "The entente paired two uneasy empires.",
-    "emoji": "🤝",
-    "cefr": "C2"
-   },
-   {
-    "word": "de-escalation",
-    "ipa": "/ˌdiː ˌeskəˈleɪʃn/",
-    "pos": "n.",
-    "zh": "降级；缓和",
-    "example": "Hotline calls enabled de-escalation.",
-    "emoji": "📉",
-    "cefr": "C2"
-   },
-   {
-    "word": "peacekeeping",
-    "ipa": "/ˈpiːsˌkiːpɪŋ/",
-    "pos": "n./adj.",
-    "zh": "维和（行动）",
-    "example": "Peacekeeping troops patrol the buffer strips.",
-    "emoji": "🪖",
-    "cefr": "C1"
-   },
-   {
-    "word": "reparations",
-    "ipa": "/ˌrepəˈreɪʃnz/",
-    "pos": "n.",
-    "zh": "（战争）赔款",
-    "example": "Reparations bankrupted the losers twice.",
-    "emoji": "💷",
-    "cefr": "C2"
-   },
-   {
-    "word": "neutrality",
-    "ipa": "/njuːˈtræləti/",
-    "pos": "n.",
-    "zh": "中立",
-    "example": "Neutrality suited the mountain republics.",
-    "emoji": "⚖️",
-    "cefr": "C1"
-   },
-   {
-    "word": "demilitarise",
-    "ipa": "/ˌdiːˈmɪlɪtəraɪz/",
-    "pos": "v.",
-    "zh": "使非军事化",
-    "example": "Both sides agreed to demilitarise the island.",
-    "emoji": "🚫",
-    "cefr": "C2"
-   },
-   {
-    "word": "accord",
-    "ipa": "/əˈkɔːd/",
-    "pos": "n.",
-    "zh": "协议；一致",
-    "example": "The accord ended the shelling.",
-    "emoji": "✍️",
-    "cefr": "C1"
-   },
-   {
-    "word": "repatriate",
-    "ipa": "/ˌriːˈpætrieɪt/",
-    "pos": "v.",
-    "zh": "遣返",
-    "example": "Winter forced both sides to repatriate prisoners.",
-    "emoji": "🛬",
-    "cefr": "C2"
-   },
-   {
-    "word": "internment",
-    "ipa": "/ɪnˈtɜːnmənt/",
-    "pos": "n.",
-    "zh": "拘留（战时拘押）",
-    "example": "Internment camps held twelve thousand men.",
-    "emoji": "⛓️",
-    "cefr": "C2"
-   },
-   {
-    "word": "armistice-line",
-    "ipa": "/ˈɑːmɪstɪs laɪn/",
-    "pos": "n.",
-    "zh": "停火线",
-    "example": "The armistice-line runs along the river.",
-    "emoji": "📍",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_mil_naval",
-  "title": "海战",
-  "emoji": "⚓",
-  "words": [
-   {
-    "word": "flagship",
-    "ipa": "/ˈflægʃɪp/",
-    "pos": "n.",
-    "zh": "旗舰；（比喻）王牌",
-    "example": "The flagship carried the admiral and his cat.",
-    "emoji": "🚢",
-    "cefr": "C1"
-   },
-   {
-    "word": "broadside",
-    "ipa": "/ˈbrɔːdsaɪd/",
-    "pos": "n.",
-    "zh": "（军舰）舷炮齐射；猛烈抨击",
-    "example": "One broadside settled the argument.",
-    "emoji": "💥",
-    "cefr": "C2"
-   },
-   {
-    "word": "torpedo",
-    "ipa": "/tɔːˈpiːdəʊ/",
-    "pos": "n.",
-    "zh": "鱼雷",
-    "example": "Torpedoes ran straight and true.",
-    "emoji": "🐟",
-    "cefr": "C2"
-   },
-   {
-    "word": "frigate",
-    "ipa": "/ˈfrɪgət/",
-    "pos": "n.",
-    "zh": "护卫舰",
-    "example": "The frigate escorted convoys north.",
-    "emoji": "🛥️",
-    "cefr": "C2"
-   },
-   {
-    "word": "submarine",
-    "ipa": "/ˈsʌbməriːn/",
-    "pos": "n.",
-    "zh": "潜水艇",
-    "example": "Submarine silence made hunting unfair.",
-    "emoji": "🌊",
-    "cefr": "B2"
-   },
-   {
-    "word": "armada",
-    "ipa": "/ɑːˈmɑːdə/",
-    "pos": "n.",
-    "zh": "（大）舰队",
-    "example": "The armada sighted land at dusk.",
+    "words": [
+      {
+        "word": "truce",
+        "ipa": "/truːs/",
+        "pos": "n.",
+        "zh": "休战；停战协定",
+        "example": "A Christmas truce paused the guns.",
+        "emoji": "🕊️",
+        "cefr": "C1"
+      },
+      {
+        "word": "conciliation",
+        "ipa": "/kənˌsɪliˈeɪʃn/",
+        "pos": "n.",
+        "zh": "调解；安抚",
+        "example": "Conciliation boards settled most rent rows.",
+        "emoji": "🤲",
+        "cefr": "C2"
+      },
+      {
+        "word": "entente",
+        "ipa": "/ɒnˈtɒnt/",
+        "pos": "n.",
+        "zh": "协约；谅解",
+        "example": "The entente paired two uneasy empires.",
+        "emoji": "🤝",
+        "cefr": "C2"
+      },
+      {
+        "word": "de-escalation",
+        "ipa": "/ˌdiː ˌeskəˈleɪʃn/",
+        "pos": "n.",
+        "zh": "降级；缓和",
+        "example": "Hotline calls enabled de-escalation.",
+        "emoji": "📉",
+        "cefr": "C2"
+      },
+      {
+        "word": "peacekeeping",
+        "ipa": "/ˈpiːsˌkiːpɪŋ/",
+        "pos": "n./adj.",
+        "zh": "维和（行动）",
+        "example": "Peacekeeping troops patrol the buffer strips.",
+        "emoji": "🪖",
+        "cefr": "C1"
+      },
+      {
+        "word": "reparations",
+        "ipa": "/ˌrepəˈreɪʃnz/",
+        "pos": "n.",
+        "zh": "（战争）赔款",
+        "example": "Reparations bankrupted the losers twice.",
+        "emoji": "💷",
+        "cefr": "C2"
+      },
+      {
+        "word": "neutrality",
+        "ipa": "/njuːˈtræləti/",
+        "pos": "n.",
+        "zh": "中立",
+        "example": "Neutrality suited the mountain republics.",
+        "emoji": "⚖️",
+        "cefr": "C1"
+      },
+      {
+        "word": "demilitarise",
+        "ipa": "/ˌdiːˈmɪlɪtəraɪz/",
+        "pos": "v.",
+        "zh": "使非军事化",
+        "example": "Both sides agreed to demilitarise the island.",
+        "emoji": "🚫",
+        "cefr": "C2"
+      },
+      {
+        "word": "accord",
+        "ipa": "/əˈkɔːd/",
+        "pos": "n.",
+        "zh": "协议；一致",
+        "example": "The accord ended the shelling.",
+        "emoji": "✍️",
+        "cefr": "C1"
+      },
+      {
+        "word": "repatriate",
+        "ipa": "/ˌriːˈpætrieɪt/",
+        "pos": "v.",
+        "zh": "遣返",
+        "example": "Winter forced both sides to repatriate prisoners.",
+        "emoji": "🛬",
+        "cefr": "C2"
+      },
+      {
+        "word": "internment",
+        "ipa": "/ɪnˈtɜːnmənt/",
+        "pos": "n.",
+        "zh": "拘留（战时拘押）",
+        "example": "Internment camps held twelve thousand men.",
+        "emoji": "⛓️",
+        "cefr": "C2"
+      },
+      {
+        "word": "armistice-line",
+        "ipa": "/ˈɑːmɪstɪs laɪn/",
+        "pos": "n.",
+        "zh": "停火线",
+        "example": "The armistice-line runs along the river.",
+        "emoji": "📍",
+        "cefr": "C2"
+      },
+      {
+        "word": "detente",
+        "ipa": "/deɪˈtɒnt/",
+        "pos": "n.",
+        "zh": "缓和",
+        "example": "The detente reduced Cold War tensions.",
+        "emoji": "🕊️",
+        "cefr": "C2"
+      },
+      {
+        "word": "pacification",
+        "ipa": "/ˌpæsɪfɪˈkeɪʃn/",
+        "pos": "n.",
+        "zh": "平定，安抚",
+        "example": "Pacification followed the ceasefire.",
+        "emoji": "☮️",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_safety"
+  },
+  {
+    "id": "l9_mil_naval",
+    "title": "海战",
     "emoji": "⚓",
-    "cefr": "C2"
-   },
-   {
-    "word": "mutiny",
-    "ipa": "/ˈmjuːtəni/",
-    "pos": "n./v.",
-    "zh": "哗变；叛变",
-    "example": "Mutiny trials followed the bread riot.",
-    "emoji": "✊",
-    "cefr": "C2"
-   },
-   {
-    "word": "keel",
-    "ipa": "/kiːl/",
-    "pos": "n.",
-    "zh": "龙骨",
-    "example": "Lay the keel and the ship begins.",
-    "emoji": "📏",
-    "cefr": "C2"
-   },
-   {
-    "word": "admiral",
-    "ipa": "/ˈædmərəl/",
-    "pos": "n.",
-    "zh": "海军上将；舰队司令",
-    "example": "The admiral signalled from the quarterdeck.",
-    "emoji": "🎖️",
-    "cefr": "C1"
-   },
-   {
-    "word": "salvager",
-    "ipa": "",
-    "pos": "",
-    "zh": "",
-    "example": "",
-    "emoji": "",
-    "cefr": ""
-   },
-   {
-    "word": "convoy",
-    "ipa": "/ˈkɒnvɔɪ/",
-    "pos": "n.",
-    "zh": "护航队；车队",
-    "example": "Convoys crossed at night, lights doused.",
-    "emoji": "🚚",
-    "cefr": "C1"
-   },
-   {
-    "word": "naval-blockade",
-    "ipa": "/ˈneɪvl blɒˈkeɪd/",
-    "pos": "n.",
-    "zh": "海上封锁",
-    "example": "A naval-blockade starved the port.",
-    "emoji": "🚧",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_sport_science",
-  "title": "运动科学",
-  "emoji": "🧪",
-  "words": [
-   {
-    "word": "biomechanics",
-    "ipa": "/ˌbaɪəʊmɪˈkænɪks/",
-    "pos": "n.",
-    "zh": "生物力学",
-    "example": "Biomechanics rebuilt her serve.",
+    "words": [
+      {
+        "word": "flagship",
+        "ipa": "/ˈflægʃɪp/",
+        "pos": "n.",
+        "zh": "旗舰；（比喻）王牌",
+        "example": "The flagship carried the admiral and his cat.",
+        "emoji": "🚢",
+        "cefr": "C1"
+      },
+      {
+        "word": "broadside",
+        "ipa": "/ˈbrɔːdsaɪd/",
+        "pos": "n.",
+        "zh": "（军舰）舷炮齐射；猛烈抨击",
+        "example": "One broadside settled the argument.",
+        "emoji": "💥",
+        "cefr": "C2"
+      },
+      {
+        "word": "torpedo",
+        "ipa": "/tɔːˈpiːdəʊ/",
+        "pos": "n.",
+        "zh": "鱼雷",
+        "example": "Torpedoes ran straight and true.",
+        "emoji": "🐟",
+        "cefr": "C2"
+      },
+      {
+        "word": "frigate",
+        "ipa": "/ˈfrɪgət/",
+        "pos": "n.",
+        "zh": "护卫舰",
+        "example": "The frigate escorted convoys north.",
+        "emoji": "🛥️",
+        "cefr": "C2"
+      },
+      {
+        "word": "submarine",
+        "ipa": "/ˈsʌbməriːn/",
+        "pos": "n.",
+        "zh": "潜水艇",
+        "example": "Submarine silence made hunting unfair.",
+        "emoji": "🌊",
+        "cefr": "B2"
+      },
+      {
+        "word": "armada",
+        "ipa": "/ɑːˈmɑːdə/",
+        "pos": "n.",
+        "zh": "（大）舰队",
+        "example": "The armada sighted land at dusk.",
+        "emoji": "⚓",
+        "cefr": "C2"
+      },
+      {
+        "word": "mutiny",
+        "ipa": "/ˈmjuːtəni/",
+        "pos": "n./v.",
+        "zh": "哗变；叛变",
+        "example": "Mutiny trials followed the bread riot.",
+        "emoji": "✊",
+        "cefr": "C2"
+      },
+      {
+        "word": "keel",
+        "ipa": "/kiːl/",
+        "pos": "n.",
+        "zh": "龙骨",
+        "example": "Lay the keel and the ship begins.",
+        "emoji": "📏",
+        "cefr": "C2"
+      },
+      {
+        "word": "admiral",
+        "ipa": "/ˈædmərəl/",
+        "pos": "n.",
+        "zh": "海军上将；舰队司令",
+        "example": "The admiral signalled from the quarterdeck.",
+        "emoji": "🎖️",
+        "cefr": "C1"
+      },
+      {
+        "word": "salvager",
+        "ipa": "",
+        "pos": "",
+        "zh": "",
+        "example": "",
+        "emoji": "",
+        "cefr": ""
+      },
+      {
+        "word": "convoy",
+        "ipa": "/ˈkɒnvɔɪ/",
+        "pos": "n.",
+        "zh": "护航队；车队",
+        "example": "Convoys crossed at night, lights doused.",
+        "emoji": "🚚",
+        "cefr": "C1"
+      },
+      {
+        "word": "naval-blockade",
+        "ipa": "/ˈneɪvl blɒˈkeɪd/",
+        "pos": "n.",
+        "zh": "海上封锁",
+        "example": "A naval-blockade starved the port.",
+        "emoji": "🚧",
+        "cefr": "C2"
+      },
+      {
+        "word": "squadron",
+        "ipa": "/ˈskwɒdrən/",
+        "pos": "n.",
+        "zh": "中队",
+        "example": "A squadron guarded the strait.",
+        "emoji": "✈️",
+        "cefr": "C2",
+        "level": "C1"
+      },
+      {
+        "word": "warship",
+        "ipa": "/ˈwɔːʃɪp/",
+        "pos": "n.",
+        "zh": "军舰",
+        "example": "The warship patrolled the coast.",
+        "emoji": "🚢",
+        "cefr": "C2",
+        "level": "C1"
+      }
+    ],
+    "extends_from": "l2_safety"
+  },
+  {
+    "id": "l9_sport_science",
+    "title": "运动科学",
     "emoji": "🧪",
-    "cefr": "C2"
-   },
-   {
-    "word": "threshold-training",
-    "ipa": "/ˈθreʃhəʊld ˈtreɪnɪŋ/",
-    "pos": "n.",
-    "zh": "阈值训练",
-    "example": "Threshold-training raises the aerobic floor.",
-    "emoji": "🛣️",
-    "cefr": "C2"
-   },
-   {
-    "word": "aerobic",
-    "ipa": "/eəˈrəʊbɪk/",
-    "pos": "adj.",
-    "zh": "有氧的",
-    "example": "Aerobic base decides the last kilometre.",
-    "emoji": "💓",
-    "cefr": "C1"
-   },
-   {
-    "word": "anaerobic",
-    "ipa": "/ˌænəˈrəʊbɪk/",
-    "pos": "adj.",
-    "zh": "无氧的",
-    "example": "Anaerobic bursts decide the sprint finish.",
-    "emoji": "💨",
-    "cefr": "C2"
-   },
-   {
-    "word": "hydration",
-    "ipa": "/haɪˈdreɪʃn/",
-    "pos": "n.",
-    "zh": "补水；水合作用",
-    "example": "Hydration plans beat heroics in heat.",
-    "emoji": "💧",
-    "cefr": "C1"
-   },
-   {
-    "word": "overtraining",
-    "ipa": "/ˌəʊvəˈtreɪnɪŋ/",
-    "pos": "n.",
-    "zh": "过度训练",
-    "example": "Overtraining mimics illness, expensively.",
-    "emoji": "⚠️",
-    "cefr": "C2"
-   },
-   {
-    "word": "erythropoietin",
-    "ipa": "/ɪˌrɪθrəˈpɔɪɪtɪn/",
-    "pos": "n.",
-    "zh": "促红细胞生成素（EPO）",
-    "example": "EPO boosted blood, then bans followed.",
-    "emoji": "💉",
-    "cefr": "C2"
-   },
-   {
-    "word": "vigour",
-    "ipa": "/ˈvɪgə/",
-    "pos": "n.",
-    "zh": "精力；活力",
-    "example": "Morning vigour hides in sleep quality.",
-    "emoji": "🔋",
-    "cefr": "C2"
-   },
-   {
-    "word": "supple",
-    "ipa": "/ˈsʌpl/",
-    "pos": "adj.",
-    "zh": "柔软的；灵活的",
-    "example": "Supple hips protect sprinters.",
-    "emoji": "🤸",
-    "cefr": "C2"
-   },
-   {
-    "word": "warm-up",
-    "ipa": "/ˈwɔːm ʌp/",
-    "pos": "n.",
-    "zh": "热身",
-    "example": "A proper warm-up prevents most pulls.",
-    "emoji": "🔥",
-    "cefr": "B2"
-   },
-   {
-    "word": "cool-down",
-    "ipa": "/ˈkuːl daʊn/",
-    "pos": "n.",
-    "zh": "冷身；整理活动",
-    "example": "Jogging cool-downs flush the legs.",
-    "emoji": "🌬️",
-    "cefr": "C1"
-   },
-   {
-    "word": "meniscus",
-    "ipa": "/məˈnɪskəs/",
-    "pos": "n.",
-    "zh": "半月板",
-    "example": "A torn meniscus swells quietly.",
-    "emoji": "🌙",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_sport_coaching",
-  "title": "教练与战术",
-  "emoji": "📋",
-  "words": [
-   {
-    "word": "playbook",
-    "ipa": "/ˈpleɪbʊk/",
-    "pos": "n.",
-    "zh": "战术手册",
-    "example": "The playbook runs to ninety pages.",
+    "words": [
+      {
+        "word": "biomechanics",
+        "ipa": "/ˌbaɪəʊmɪˈkænɪks/",
+        "pos": "n.",
+        "zh": "生物力学",
+        "example": "Biomechanics rebuilt her serve.",
+        "emoji": "🧪",
+        "cefr": "C2"
+      },
+      {
+        "word": "threshold-training",
+        "ipa": "/ˈθreʃhəʊld ˈtreɪnɪŋ/",
+        "pos": "n.",
+        "zh": "阈值训练",
+        "example": "Threshold-training raises the aerobic floor.",
+        "emoji": "🛣️",
+        "cefr": "C2"
+      },
+      {
+        "word": "aerobic",
+        "ipa": "/eəˈrəʊbɪk/",
+        "pos": "adj.",
+        "zh": "有氧的",
+        "example": "Aerobic base decides the last kilometre.",
+        "emoji": "💓",
+        "cefr": "C1"
+      },
+      {
+        "word": "anaerobic",
+        "ipa": "/ˌænəˈrəʊbɪk/",
+        "pos": "adj.",
+        "zh": "无氧的",
+        "example": "Anaerobic bursts decide the sprint finish.",
+        "emoji": "💨",
+        "cefr": "C2"
+      },
+      {
+        "word": "hydration",
+        "ipa": "/haɪˈdreɪʃn/",
+        "pos": "n.",
+        "zh": "补水；水合作用",
+        "example": "Hydration plans beat heroics in heat.",
+        "emoji": "💧",
+        "cefr": "C1"
+      },
+      {
+        "word": "overtraining",
+        "ipa": "/ˌəʊvəˈtreɪnɪŋ/",
+        "pos": "n.",
+        "zh": "过度训练",
+        "example": "Overtraining mimics illness, expensively.",
+        "emoji": "⚠️",
+        "cefr": "C2"
+      },
+      {
+        "word": "erythropoietin",
+        "ipa": "/ɪˌrɪθrəˈpɔɪɪtɪn/",
+        "pos": "n.",
+        "zh": "促红细胞生成素（EPO）",
+        "example": "EPO boosted blood, then bans followed.",
+        "emoji": "💉",
+        "cefr": "C2"
+      },
+      {
+        "word": "vigour",
+        "ipa": "/ˈvɪgə/",
+        "pos": "n.",
+        "zh": "精力；活力",
+        "example": "Morning vigour hides in sleep quality.",
+        "emoji": "🔋",
+        "cefr": "C2"
+      },
+      {
+        "word": "supple",
+        "ipa": "/ˈsʌpl/",
+        "pos": "adj.",
+        "zh": "柔软的；灵活的",
+        "example": "Supple hips protect sprinters.",
+        "emoji": "🤸",
+        "cefr": "C2"
+      },
+      {
+        "word": "warm-up",
+        "ipa": "/ˈwɔːm ʌp/",
+        "pos": "n.",
+        "zh": "热身",
+        "example": "A proper warm-up prevents most pulls.",
+        "emoji": "🔥",
+        "cefr": "B2"
+      },
+      {
+        "word": "cool-down",
+        "ipa": "/ˈkuːl daʊn/",
+        "pos": "n.",
+        "zh": "冷身；整理活动",
+        "example": "Jogging cool-downs flush the legs.",
+        "emoji": "🌬️",
+        "cefr": "C1"
+      },
+      {
+        "word": "meniscus",
+        "ipa": "/məˈnɪskəs/",
+        "pos": "n.",
+        "zh": "半月板",
+        "example": "A torn meniscus swells quietly.",
+        "emoji": "🌙",
+        "cefr": "C2"
+      },
+      {
+        "word": "recovery",
+        "ipa": "/rɪˈkʌvəri/",
+        "pos": "n.",
+        "zh": "恢复",
+        "example": "Recovery days prevent overtraining.",
+        "emoji": "😴",
+        "cefr": "B2"
+      },
+      {
+        "word": "periodisation",
+        "ipa": "/ˌpɪəriədaɪˈzeɪʃn/",
+        "pos": "n.",
+        "zh": "分期训练",
+        "example": "Periodisation cycles intensity across seasons.",
+        "emoji": "📅",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_sports"
+  },
+  {
+    "id": "l9_sport_coaching",
+    "title": "教练与战术",
     "emoji": "📋",
-    "cefr": "C2"
-   },
-   {
-    "word": "counterattack",
-    "ipa": "/ˈkaʊntərəˌtæk/",
-    "pos": "n./v.",
-    "zh": "反击",
-    "example": "Their counterattack started from the keeper.",
-    "emoji": "↩️",
-    "cefr": "C1"
-   },
-   {
-    "word": "possession",
-    "ipa": "/pəˈzeʃn/",
-    "pos": "n.",
-    "zh": "控球（率）；拥有",
-    "example": "Sixty percent possession means little without goals.",
-    "emoji": "⚽",
-    "cefr": "C1"
-   },
-   {
-    "word": "zonal",
-    "ipa": "/ˈzəʊnl/",
-    "pos": "adj.",
-    "zh": "区域的（防守）",
-    "example": "Zonal marking divides the box into boxes.",
-    "emoji": "🔲",
-    "cefr": "C2"
-   },
-   {
-    "word": "regimen",
-    "ipa": "/ˈredʒɪmən/",
-    "pos": "n.",
-    "zh": "训练计划；养生法",
-    "example": "A six-week regimen rebuilt the shoulder.",
-    "emoji": "📅",
-    "cefr": "C2"
-   },
-   {
-    "word": "scrimmage",
-    "ipa": "/ˈskrɪmɪdʒ/",
-    "pos": "n.",
-    "zh": "混战；练习赛",
-    "example": "Saturday scrimmage settles the lineup.",
-    "emoji": "🤼",
-    "cefr": "C2"
-   },
-   {
-    "word": "timeout",
-    "ipa": "/ˈtaɪmaʊt/",
-    "pos": "n.",
-    "zh": "暂停",
-    "example": "A timeout broke the visitors run.",
-    "emoji": "⏸️",
-    "cefr": "C1"
-   },
-   {
-    "word": "outsider",
-    "ipa": "/ˌaʊtˈsaɪdə/",
-    "pos": "n.",
-    "zh": "局外人；冷门选手",
-    "example": "The outsider priced at fifty to one.",
-    "emoji": "🐎",
-    "cefr": "C1"
-   },
-   {
-    "word": "comeback",
-    "ipa": "/ˈkʌmbæk/",
-    "pos": "n.",
-    "zh": "逆转；复出",
-    "example": "The comeback started at minute eighty.",
-    "emoji": "🔄",
-    "cefr": "C1"
-   },
-   {
-    "word": "seeding",
-    "ipa": "/ˈsiːdɪŋ/",
-    "pos": "n.",
-    "zh": "（赛事）种子排位",
-    "example": "Seeding spared the finalists until late.",
-    "emoji": "🌱",
-    "cefr": "C2"
-   },
-   {
-    "word": "forfeit",
-    "ipa": "/ˈfɔːfɪt/",
-    "pos": "v./n.",
-    "zh": "弃权；被没收",
-    "example": "They forfeited the tie by fielding a ghost.",
-    "emoji": "🚫",
-    "cefr": "C2"
-   },
-   {
-    "word": "cadre",
-    "ipa": "/ˈkɑːdə/",
-    "pos": "n.",
-    "zh": "骨干队伍；干部",
-    "example": "A small cadre runs the whole academy.",
-    "emoji": "👥",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_sport_events",
-  "title": "赛事与竞技",
-  "emoji": "🏅",
-  "words": [
-   {
-    "word": "invitational",
-    "ipa": "/ˌɪnvɪˈteɪʃənl/",
-    "pos": "adj./n.",
-    "zh": "邀请赛的；邀请赛",
-    "example": "The invitational drew Olympic champions.",
-    "emoji": "✉️",
-    "cefr": "C2"
-   },
-   {
-    "word": "heats",
-    "ipa": "/hiːts/",
-    "pos": "n.",
-    "zh": "预赛（组）",
-    "example": "Morning heats decide the evening final.",
-    "emoji": "🌡️",
-    "cefr": "C1"
-   },
-   {
-    "word": "semifinal",
-    "ipa": "/ˌsemiˈfaɪnl/",
-    "pos": "n.",
-    "zh": "半决赛",
-    "example": "The semifinal went to penalties.",
-    "emoji": "⚽",
-    "cefr": "B2"
-   },
-   {
-    "word": "rostrum",
-    "ipa": "/ˈrɒstrəm/",
-    "pos": "n.",
-    "zh": "领奖台；讲台",
-    "example": "Two steps of the rostrum reward decades.",
+    "words": [
+      {
+        "word": "playbook",
+        "ipa": "/ˈpleɪbʊk/",
+        "pos": "n.",
+        "zh": "战术手册",
+        "example": "The playbook runs to ninety pages.",
+        "emoji": "📋",
+        "cefr": "C2"
+      },
+      {
+        "word": "counterattack",
+        "ipa": "/ˈkaʊntərəˌtæk/",
+        "pos": "n./v.",
+        "zh": "反击",
+        "example": "Their counterattack started from the keeper.",
+        "emoji": "↩️",
+        "cefr": "C1"
+      },
+      {
+        "word": "possession",
+        "ipa": "/pəˈzeʃn/",
+        "pos": "n.",
+        "zh": "控球（率）；拥有",
+        "example": "Sixty percent possession means little without goals.",
+        "emoji": "⚽",
+        "cefr": "C1"
+      },
+      {
+        "word": "zonal",
+        "ipa": "/ˈzəʊnl/",
+        "pos": "adj.",
+        "zh": "区域的（防守）",
+        "example": "Zonal marking divides the box into boxes.",
+        "emoji": "🔲",
+        "cefr": "C2"
+      },
+      {
+        "word": "regimen",
+        "ipa": "/ˈredʒɪmən/",
+        "pos": "n.",
+        "zh": "训练计划；养生法",
+        "example": "A six-week regimen rebuilt the shoulder.",
+        "emoji": "📅",
+        "cefr": "C2"
+      },
+      {
+        "word": "scrimmage",
+        "ipa": "/ˈskrɪmɪdʒ/",
+        "pos": "n.",
+        "zh": "混战；练习赛",
+        "example": "Saturday scrimmage settles the lineup.",
+        "emoji": "🤼",
+        "cefr": "C2"
+      },
+      {
+        "word": "timeout",
+        "ipa": "/ˈtaɪmaʊt/",
+        "pos": "n.",
+        "zh": "暂停",
+        "example": "A timeout broke the visitors run.",
+        "emoji": "⏸️",
+        "cefr": "C1"
+      },
+      {
+        "word": "outsider",
+        "ipa": "/ˌaʊtˈsaɪdə/",
+        "pos": "n.",
+        "zh": "局外人；冷门选手",
+        "example": "The outsider priced at fifty to one.",
+        "emoji": "🐎",
+        "cefr": "C1"
+      },
+      {
+        "word": "comeback",
+        "ipa": "/ˈkʌmbæk/",
+        "pos": "n.",
+        "zh": "逆转；复出",
+        "example": "The comeback started at minute eighty.",
+        "emoji": "🔄",
+        "cefr": "C1"
+      },
+      {
+        "word": "seeding",
+        "ipa": "/ˈsiːdɪŋ/",
+        "pos": "n.",
+        "zh": "（赛事）种子排位",
+        "example": "Seeding spared the finalists until late.",
+        "emoji": "🌱",
+        "cefr": "C2"
+      },
+      {
+        "word": "forfeit",
+        "ipa": "/ˈfɔːfɪt/",
+        "pos": "v./n.",
+        "zh": "弃权；被没收",
+        "example": "They forfeited the tie by fielding a ghost.",
+        "emoji": "🚫",
+        "cefr": "C2"
+      },
+      {
+        "word": "cadre",
+        "ipa": "/ˈkɑːdə/",
+        "pos": "n.",
+        "zh": "骨干队伍；干部",
+        "example": "A small cadre runs the whole academy.",
+        "emoji": "👥",
+        "cefr": "C2"
+      },
+      {
+        "word": "drill",
+        "ipa": "/drɪl/",
+        "pos": "n.",
+        "zh": "训练动作",
+        "example": "The drill sharpens passing under pressure.",
+        "emoji": "🥅",
+        "cefr": "B2"
+      },
+      {
+        "word": "man-marking",
+        "ipa": "/ˌmæn ˈmɑːkɪŋ/",
+        "pos": "n.",
+        "zh": "人盯人防守",
+        "example": "Man-marking stifled the playmaker.",
+        "emoji": "🧍",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_sports"
+  },
+  {
+    "id": "l9_sport_events",
+    "title": "赛事与竞技",
     "emoji": "🏅",
-    "cefr": "C2"
-   },
-   {
-    "word": "medallist",
-    "ipa": "/ˈmedəlɪst/",
-    "pos": "n.",
-    "zh": "奖牌获得者",
-    "example": "Two medallists trained in the same pool.",
-    "emoji": "🎖️",
-    "cefr": "C1"
-   },
-   {
-    "word": "wildcard",
-    "ipa": "/ˈwaɪldkɑːd/",
-    "pos": "n.",
-    "zh": "外卡；未知数",
-    "example": "The wildcard reached the last four.",
-    "emoji": "🃏",
-    "cefr": "C1"
-   },
-   {
-    "word": "fixture",
-    "ipa": "/ˈfɪkstʃə/",
-    "pos": "n.",
-    "zh": "赛程；固定装置",
-    "example": "The fixture list spans ten months.",
-    "emoji": "📅",
-    "cefr": "C1"
-   },
-   {
-    "word": "relegation",
-    "ipa": "/ˌrelɪˈgeɪʃn/",
-    "pos": "n.",
-    "zh": "降级",
-    "example": "Relegation costs more than pride.",
-    "emoji": "📉",
-    "cefr": "C1"
-   },
-   {
-    "word": "decider",
-    "ipa": "/dɪˈsaɪdə/",
-    "pos": "n.",
-    "zh": "决胜局；决胜赛",
-    "example": "Game seven is the decider.",
-    "emoji": "🎯",
-    "cefr": "C1"
-   },
-   {
-    "word": "rematch",
-    "ipa": "/ˈriːmætʃ/",
-    "pos": "n./v.",
-    "zh": "重赛；再次交手",
-    "example": "Fans demand the rematch within a year.",
-    "emoji": "🔁",
-    "cefr": "C1"
-   },
-   {
-    "word": "photo-finish",
-    "ipa": "/ˈfəʊtəʊ ˌfɪnɪʃ/",
-    "pos": "n.",
-    "zh": "（赛跑）几乎同时到达的终点",
-    "example": "The photo-finish took four minutes to judge.",
-    "emoji": "📷",
-    "cefr": "C2"
-   },
-   {
-    "word": "crowd-pleaser",
-    "ipa": "/ˈkraʊd ˌpliːzə/",
-    "pos": "n.",
-    "zh": "最受欢迎的（选手/节目）",
-    "example": "Slam dunks are reliable crowd-pleasers.",
-    "emoji": "🙌",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_sport_media",
-  "title": "体育报道",
-  "emoji": "🎙️",
-  "words": [
-   {
-    "word": "pundit",
-    "ipa": "/ˈpʌndɪt/",
-    "pos": "n.",
-    "zh": "评论员；专家",
-    "example": "Pundits disagreed about the handball.",
+    "words": [
+      {
+        "word": "invitational",
+        "ipa": "/ˌɪnvɪˈteɪʃənl/",
+        "pos": "adj./n.",
+        "zh": "邀请赛的；邀请赛",
+        "example": "The invitational drew Olympic champions.",
+        "emoji": "✉️",
+        "cefr": "C2"
+      },
+      {
+        "word": "heats",
+        "ipa": "/hiːts/",
+        "pos": "n.",
+        "zh": "预赛（组）",
+        "example": "Morning heats decide the evening final.",
+        "emoji": "🌡️",
+        "cefr": "C1"
+      },
+      {
+        "word": "semifinal",
+        "ipa": "/ˌsemiˈfaɪnl/",
+        "pos": "n.",
+        "zh": "半决赛",
+        "example": "The semifinal went to penalties.",
+        "emoji": "⚽",
+        "cefr": "B2"
+      },
+      {
+        "word": "rostrum",
+        "ipa": "/ˈrɒstrəm/",
+        "pos": "n.",
+        "zh": "领奖台；讲台",
+        "example": "Two steps of the rostrum reward decades.",
+        "emoji": "🏅",
+        "cefr": "C2"
+      },
+      {
+        "word": "medallist",
+        "ipa": "/ˈmedəlɪst/",
+        "pos": "n.",
+        "zh": "奖牌获得者",
+        "example": "Two medallists trained in the same pool.",
+        "emoji": "🎖️",
+        "cefr": "C1"
+      },
+      {
+        "word": "wildcard",
+        "ipa": "/ˈwaɪldkɑːd/",
+        "pos": "n.",
+        "zh": "外卡；未知数",
+        "example": "The wildcard reached the last four.",
+        "emoji": "🃏",
+        "cefr": "C1"
+      },
+      {
+        "word": "fixture",
+        "ipa": "/ˈfɪkstʃə/",
+        "pos": "n.",
+        "zh": "赛程；固定装置",
+        "example": "The fixture list spans ten months.",
+        "emoji": "📅",
+        "cefr": "C1"
+      },
+      {
+        "word": "relegation",
+        "ipa": "/ˌrelɪˈgeɪʃn/",
+        "pos": "n.",
+        "zh": "降级",
+        "example": "Relegation costs more than pride.",
+        "emoji": "📉",
+        "cefr": "C1"
+      },
+      {
+        "word": "decider",
+        "ipa": "/dɪˈsaɪdə/",
+        "pos": "n.",
+        "zh": "决胜局；决胜赛",
+        "example": "Game seven is the decider.",
+        "emoji": "🎯",
+        "cefr": "C1"
+      },
+      {
+        "word": "rematch",
+        "ipa": "/ˈriːmætʃ/",
+        "pos": "n./v.",
+        "zh": "重赛；再次交手",
+        "example": "Fans demand the rematch within a year.",
+        "emoji": "🔁",
+        "cefr": "C1"
+      },
+      {
+        "word": "photo-finish",
+        "ipa": "/ˈfəʊtəʊ ˌfɪnɪʃ/",
+        "pos": "n.",
+        "zh": "（赛跑）几乎同时到达的终点",
+        "example": "The photo-finish took four minutes to judge.",
+        "emoji": "📷",
+        "cefr": "C2"
+      },
+      {
+        "word": "crowd-pleaser",
+        "ipa": "/ˈkraʊd ˌpliːzə/",
+        "pos": "n.",
+        "zh": "最受欢迎的（选手/节目）",
+        "example": "Slam dunks are reliable crowd-pleasers.",
+        "emoji": "🙌",
+        "cefr": "C2"
+      },
+      {
+        "word": "grandstand",
+        "ipa": "/ˈɡrændstænd/",
+        "pos": "n.",
+        "zh": "主看台",
+        "example": "The grandstand roared at the finish.",
+        "emoji": "🏟️",
+        "cefr": "C2"
+      },
+      {
+        "word": "medal tally",
+        "ipa": "/ˈmedl ˈtæli/",
+        "pos": "n.",
+        "zh": "奖牌榜",
+        "example": "The host nation led the medal tally.",
+        "emoji": "🥇",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_sports"
+  },
+  {
+    "id": "l9_sport_media",
+    "title": "体育报道",
     "emoji": "🎙️",
-    "cefr": "C2"
-   },
-   {
-    "word": "replay",
-    "ipa": "/ˈriːpleɪ/",
-    "pos": "n./v.",
-    "zh": "重放；重赛",
-    "example": "Slow-motion replay settled nothing, again.",
-    "emoji": "⏪",
-    "cefr": "B2"
-   },
-   {
-    "word": "handball",
-    "ipa": "/ˈhændbɔːl/",
-    "pos": "n.",
-    "zh": "手球（犯规/运动）",
-    "example": "The handball debate outlived the final.",
-    "emoji": "🤾",
-    "cefr": "C1"
-   },
-   {
-    "word": "bookmaker",
-    "ipa": "/ˈbʊkˌmeɪkə/",
-    "pos": "n.",
-    "zh": "（赛马等）赌注登记经纪人",
-    "example": "Bookmakers priced the outsider at forty to one.",
-    "emoji": "🎲",
-    "cefr": "C2"
-   },
-   {
-    "word": "narration",
-    "ipa": "/nəˈreɪʃn/",
-    "pos": "n.",
-    "zh": "解说；叙述",
-    "example": "Radio narration paints the pitch.",
-    "emoji": "🎤",
-    "cefr": "C1"
-   },
-   {
-    "word": "highlights",
-    "ipa": "/ˈhaɪlaɪts/",
-    "pos": "n.",
-    "zh": "精彩集锦；要闻",
-    "example": "Highlights hide the tedious hours.",
-    "emoji": "✨",
-    "cefr": "B2"
-   },
-   {
-    "word": "transfer-fee",
-    "ipa": "/ˈtrænsfɜː fiː/",
-    "pos": "n.",
-    "zh": "转会费",
-    "example": "The transfer-fee tripled within a season.",
-    "emoji": "🧾",
-    "cefr": "C1"
-   },
-   {
-    "word": "standings",
-    "ipa": "/ˈstændɪŋz/",
-    "pos": "n.",
-    "zh": "积分榜；排名",
-    "example": "Mid-table standings bore everyone equally.",
-    "emoji": "📊",
-    "cefr": "C1"
-   },
-   {
-    "word": "season-ticket",
-    "ipa": "/ˈsiːzn ˌtɪkɪt/",
-    "pos": "n.",
-    "zh": "季票",
-    "example": "Season-ticket prices rose eight percent.",
-    "emoji": "🎫",
-    "cefr": "C1"
-   },
-   {
-    "word": "commentator",
-    "ipa": "/ˈkɒmənteɪtə/",
-    "pos": "n.",
-    "zh": "解说员；评论员",
-    "example": "The commentator lost his voice by minute sixty.",
-    "emoji": "🗣️",
-    "cefr": "C1"
-   },
-   {
-    "word": "jubilee",
-    "ipa": "/ˈdʒuːbɪliː/",
-    "pos": "n.",
-    "zh": "周年庆典；纪念日",
-    "example": "The club jubilee filled the museum.",
-    "emoji": "🎉",
-    "cefr": "C2"
-   },
-   {
-    "word": "play-off",
-    "ipa": "/ˈpleɪ ɒf/",
-    "pos": "n.",
-    "zh": "加赛；季后赛",
-    "example": "Play-offs reward the stubborn.",
-    "emoji": "🏁",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l9_sport_youth",
-  "title": "青少年体育",
-  "emoji": "🏫",
-  "words": [
-   {
-    "word": "junior",
-    "ipa": "/ˈdʒuːniə/",
-    "pos": "adj./n.",
-    "zh": "少年的；年少者",
-    "example": "Junior squads train twice weekly.",
-    "emoji": "🧒",
-    "cefr": "B1"
-   },
-   {
-    "word": "academy",
-    "ipa": "/əˈkædəmi/",
-    "pos": "n.",
-    "zh": "（体育）学院；研究院",
-    "example": "The academy scouts ten counties.",
+    "words": [
+      {
+        "word": "pundit",
+        "ipa": "/ˈpʌndɪt/",
+        "pos": "n.",
+        "zh": "评论员；专家",
+        "example": "Pundits disagreed about the handball.",
+        "emoji": "🎙️",
+        "cefr": "C2"
+      },
+      {
+        "word": "replay",
+        "ipa": "/ˈriːpleɪ/",
+        "pos": "n./v.",
+        "zh": "重放；重赛",
+        "example": "Slow-motion replay settled nothing, again.",
+        "emoji": "⏪",
+        "cefr": "B2"
+      },
+      {
+        "word": "handball",
+        "ipa": "/ˈhændbɔːl/",
+        "pos": "n.",
+        "zh": "手球（犯规/运动）",
+        "example": "The handball debate outlived the final.",
+        "emoji": "🤾",
+        "cefr": "C1"
+      },
+      {
+        "word": "bookmaker",
+        "ipa": "/ˈbʊkˌmeɪkə/",
+        "pos": "n.",
+        "zh": "（赛马等）赌注登记经纪人",
+        "example": "Bookmakers priced the outsider at forty to one.",
+        "emoji": "🎲",
+        "cefr": "C2"
+      },
+      {
+        "word": "narration",
+        "ipa": "/nəˈreɪʃn/",
+        "pos": "n.",
+        "zh": "解说；叙述",
+        "example": "Radio narration paints the pitch.",
+        "emoji": "🎤",
+        "cefr": "C1"
+      },
+      {
+        "word": "highlights",
+        "ipa": "/ˈhaɪlaɪts/",
+        "pos": "n.",
+        "zh": "精彩集锦；要闻",
+        "example": "Highlights hide the tedious hours.",
+        "emoji": "✨",
+        "cefr": "B2"
+      },
+      {
+        "word": "transfer-fee",
+        "ipa": "/ˈtrænsfɜː fiː/",
+        "pos": "n.",
+        "zh": "转会费",
+        "example": "The transfer-fee tripled within a season.",
+        "emoji": "🧾",
+        "cefr": "C1"
+      },
+      {
+        "word": "standings",
+        "ipa": "/ˈstændɪŋz/",
+        "pos": "n.",
+        "zh": "积分榜；排名",
+        "example": "Mid-table standings bore everyone equally.",
+        "emoji": "📊",
+        "cefr": "C1"
+      },
+      {
+        "word": "season-ticket",
+        "ipa": "/ˈsiːzn ˌtɪkɪt/",
+        "pos": "n.",
+        "zh": "季票",
+        "example": "Season-ticket prices rose eight percent.",
+        "emoji": "🎫",
+        "cefr": "C1"
+      },
+      {
+        "word": "commentator",
+        "ipa": "/ˈkɒmənteɪtə/",
+        "pos": "n.",
+        "zh": "解说员；评论员",
+        "example": "The commentator lost his voice by minute sixty.",
+        "emoji": "🗣️",
+        "cefr": "C1"
+      },
+      {
+        "word": "jubilee",
+        "ipa": "/ˈdʒuːbɪliː/",
+        "pos": "n.",
+        "zh": "周年庆典；纪念日",
+        "example": "The club jubilee filled the museum.",
+        "emoji": "🎉",
+        "cefr": "C2"
+      },
+      {
+        "word": "play-off",
+        "ipa": "/ˈpleɪ ɒf/",
+        "pos": "n.",
+        "zh": "加赛；季后赛",
+        "example": "Play-offs reward the stubborn.",
+        "emoji": "🏁",
+        "cefr": "C1"
+      },
+      {
+        "word": "transfer window",
+        "ipa": "/ˈtrænsfɜː(r) ˈwɪndəʊ/",
+        "pos": "n.",
+        "zh": "转会窗",
+        "example": "Clubs race to sign stars in the transfer window.",
+        "emoji": "💸",
+        "cefr": "C2"
+      },
+      {
+        "word": "analyst",
+        "ipa": "/ˈænəlɪst/",
+        "pos": "n.",
+        "zh": "评论员",
+        "example": "The analyst broke down the play.",
+        "emoji": "🎙️",
+        "cefr": "C2",
+        "level": "C1"
+      }
+    ],
+    "extends_from": "l2_sports"
+  },
+  {
+    "id": "l9_sport_youth",
+    "title": "青少年体育",
     "emoji": "🏫",
-    "cefr": "C1"
-   },
-   {
-    "word": "scouting",
-    "ipa": "/ˈskaʊtɪŋ/",
-    "pos": "n.",
-    "zh": "球探工作；侦察",
-    "example": "Scouting reports travel faster than players.",
-    "emoji": "🔭",
-    "cefr": "C1"
-   },
-   {
-    "word": "bursar",
-    "ipa": "/ˈbɜːsə/",
-    "pos": "n.",
-    "zh": "领奖学金者；财务主管",
-    "example": "The bursar signs every cheque twice.",
-    "emoji": "🎓",
-    "cefr": "C2"
-   },
-   {
-    "word": "try-out",
-    "ipa": "/ˈtraɪ aʊt/",
-    "pos": "n.",
-    "zh": "选拔；试训",
-    "example": "Two hundred hopefuls queued for the try-out.",
-    "emoji": "🏟️",
-    "cefr": "C1"
-   },
-   {
-    "word": "age-group",
-    "ipa": "/ˈeɪdʒ gruːp/",
-    "pos": "n.",
-    "zh": "年龄段；同年龄组",
-    "example": "Age-group bands keep contests fair.",
-    "emoji": "🔢",
-    "cefr": "C1"
-   },
-   {
-    "word": "minis",
-    "ipa": "/ˈmɪniz/",
-    "pos": "n.",
-    "zh": "幼儿组（小场地比赛）",
-    "example": "Minis play four-a-side on Sundays.",
-    "emoji": "⛳",
-    "cefr": "C2"
-   },
-   {
-    "word": "PE",
-    "ipa": "/ˌpiː ˈiː/",
-    "pos": "n.",
-    "zh": "体育课（physical education）",
-    "example": "PE moved indoors during the storm.",
-    "emoji": "🤾",
-    "cefr": "B1"
-   },
-   {
-    "word": "parenting",
-    "ipa": "/ˈpeərəntɪŋ/",
-    "pos": "n.",
-    "zh": "养育；为人父母",
-    "example": "Touchline parenting spoils more games than referees.",
-    "emoji": "👨‍👧",
-    "cefr": "C1"
-   },
-   {
-    "word": "esprit-de-corps",
-    "ipa": "/eˈspriː də ˈkɔː/",
-    "pos": "n.",
-    "zh": "团队精神",
-    "example": "Esprit-de-corps survives losing seasons.",
-    "emoji": "🫂",
-    "cefr": "C2"
-   },
-   {
-    "word": "disengagement",
-    "ipa": "/ˌdɪsɪnˈgeɪdʒmənt/",
-    "pos": "n.",
-    "zh": "脱离；不参与",
-    "example": "Silent disengagement precedes quitting.",
-    "emoji": "🚪",
-    "cefr": "C2"
-   },
-   {
-    "word": "thrive",
-    "ipa": "/θraɪv/",
-    "pos": "v.",
-    "zh": "茁壮成长；兴旺",
-    "example": "Some athletes thrive under pressure.",
-    "emoji": "🌱",
-    "cefr": "C1"
-   }
-  ]
- }
+    "words": [
+      {
+        "word": "academy",
+        "ipa": "/əˈkædəmi/",
+        "pos": "n.",
+        "zh": "（体育）学院；研究院",
+        "example": "The academy scouts ten counties.",
+        "emoji": "🏫",
+        "cefr": "C1"
+      },
+      {
+        "word": "scouting",
+        "ipa": "/ˈskaʊtɪŋ/",
+        "pos": "n.",
+        "zh": "球探工作；侦察",
+        "example": "Scouting reports travel faster than players.",
+        "emoji": "🔭",
+        "cefr": "C1"
+      },
+      {
+        "word": "bursar",
+        "ipa": "/ˈbɜːsə/",
+        "pos": "n.",
+        "zh": "领奖学金者；财务主管",
+        "example": "The bursar signs every cheque twice.",
+        "emoji": "🎓",
+        "cefr": "C2"
+      },
+      {
+        "word": "try-out",
+        "ipa": "/ˈtraɪ aʊt/",
+        "pos": "n.",
+        "zh": "选拔；试训",
+        "example": "Two hundred hopefuls queued for the try-out.",
+        "emoji": "🏟️",
+        "cefr": "C1"
+      },
+      {
+        "word": "age-group",
+        "ipa": "/ˈeɪdʒ gruːp/",
+        "pos": "n.",
+        "zh": "年龄段；同年龄组",
+        "example": "Age-group bands keep contests fair.",
+        "emoji": "🔢",
+        "cefr": "C1"
+      },
+      {
+        "word": "minis",
+        "ipa": "/ˈmɪniz/",
+        "pos": "n.",
+        "zh": "幼儿组（小场地比赛）",
+        "example": "Minis play four-a-side on Sundays.",
+        "emoji": "⛳",
+        "cefr": "C2"
+      },
+      {
+        "word": "parenting",
+        "ipa": "/ˈpeərəntɪŋ/",
+        "pos": "n.",
+        "zh": "养育；为人父母",
+        "example": "Touchline parenting spoils more games than referees.",
+        "emoji": "👨‍👧",
+        "cefr": "C1"
+      },
+      {
+        "word": "esprit-de-corps",
+        "ipa": "/eˈspriː də ˈkɔː/",
+        "pos": "n.",
+        "zh": "团队精神",
+        "example": "Esprit-de-corps survives losing seasons.",
+        "emoji": "🫂",
+        "cefr": "C2"
+      },
+      {
+        "word": "disengagement",
+        "ipa": "/ˌdɪsɪnˈgeɪdʒmənt/",
+        "pos": "n.",
+        "zh": "脱离；不参与",
+        "example": "Silent disengagement precedes quitting.",
+        "emoji": "🚪",
+        "cefr": "C2"
+      },
+      {
+        "word": "thrive",
+        "ipa": "/θraɪv/",
+        "pos": "v.",
+        "zh": "茁壮成长；兴旺",
+        "example": "Some athletes thrive under pressure.",
+        "emoji": "🌱",
+        "cefr": "C1"
+      },
+      {
+        "word": "development squad",
+        "ipa": "/dɪˌveləpmənt ˈskwɒd/",
+        "pos": "n.",
+        "zh": "青年梯队",
+        "example": "The development squad feeds the first team.",
+        "emoji": "🌱",
+        "cefr": "C2"
+      },
+      {
+        "word": "talent identification",
+        "ipa": "/ˌtælənt aɪˌdentɪfɪˈkeɪʃn/",
+        "pos": "n.",
+        "zh": "选材",
+        "example": "Talent identification scouts the regions.",
+        "emoji": "🔍",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_sports"
+  }
 ]

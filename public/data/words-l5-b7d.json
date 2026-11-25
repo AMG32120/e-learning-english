@@ -1,1152 +1,1325 @@
 [
- {
-  "id": "l9_acct_ledger",
-  "title": "会计基础",
-  "emoji": "📒",
-  "words": [
-   {
-    "word": "ledger",
-    "ipa": "/ˈledʒə/",
-    "pos": "n.",
-    "zh": "账簿；分类账",
-    "example": "Every entry lands in the ledger twice.",
+  {
+    "id": "l9_acct_ledger",
+    "title": "会计基础",
     "emoji": "📒",
-    "cefr": "C1"
-   },
-   {
-    "word": "debit",
-    "ipa": "/ˈdebɪt/",
-    "pos": "n./v.",
-    "zh": "借方；记入借方",
-    "example": "Debit the asset, credit the cash.",
-    "emoji": "➖",
-    "cefr": "C1"
-   },
-   {
-    "word": "reconciliation",
-    "ipa": "/ˌrekənsɪliˈeɪʃn/",
-    "pos": "n.",
-    "zh": "对账；调解",
-    "example": "Monthly reconciliation catches the ghost entries.",
-    "emoji": "🧾",
-    "cefr": "C2"
-   },
-   {
-    "word": "overdue",
-    "ipa": "/ˌəʊvəˈdjuː/",
-    "pos": "adj.",
-    "zh": "逾期的；迟到的",
-    "example": "Two invoices run sixty days overdue.",
-    "emoji": "⏰",
-    "cefr": "C1"
-   },
-   {
-    "word": "takings",
-    "ipa": "/ˈteɪkɪŋz/",
-    "pos": "n.",
-    "zh": "营业收入",
-    "example": "Friday takings tripled after the review.",
-    "emoji": "🪙",
-    "cefr": "C2"
-   },
-   {
-    "word": "outlay",
-    "ipa": "/ˈaʊtleɪ/",
-    "pos": "n.",
-    "zh": "支出；初始花费",
-    "example": "The initial outlay repaid in two years.",
-    "emoji": "💸",
-    "cefr": "C2"
-   },
-   {
-    "word": "holding",
-    "ipa": "/ˈhəʊldɪŋ/",
-    "pos": "n.",
-    "zh": "持有资产；持股",
-    "example": "The family sold its last holding in May.",
-    "emoji": "💎",
-    "cefr": "C1"
-   },
-   {
-    "word": "indebtedness",
-    "ipa": "/ɪnˈdetɪdnəs/",
-    "pos": "n.",
-    "zh": "负债；负债状况",
-    "example": "Household indebtedness doubled in a decade.",
-    "emoji": "📉",
-    "cefr": "C2"
-   },
-   {
-    "word": "payroll",
-    "ipa": "/ˈpeɪrəʊl/",
-    "pos": "n.",
-    "zh": "工资名单；发薪",
-    "example": "Payroll lands on the twenty-fifth.",
-    "emoji": "💵",
-    "cefr": "C1"
-   },
-   {
-    "word": "balance-sheet",
-    "ipa": "/ˈbæləns ʃiːt/",
-    "pos": "n.",
-    "zh": "资产负债表",
-    "example": "The balance-sheet balances, always.",
-    "emoji": "⚖️",
-    "cefr": "C1"
-   },
-   {
-    "word": "write-off",
-    "ipa": "/ˈraɪt ɒf/",
-    "pos": "n.",
-    "zh": "核销；坏账",
-    "example": "The stale stock became a write-off.",
-    "emoji": "🗑️",
-    "cefr": "C1"
-   },
-   {
-    "word": "budgetary",
-    "ipa": "/ˈbʌdʒɪtri/",
-    "pos": "adj.",
-    "zh": "预算的",
-    "example": "Budgetary rooms for manoeuvre keep shrinking.",
-    "emoji": "🧮",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_acct_audit",
-  "title": "审计与合规",
-  "emoji": "🔍",
-  "words": [
-   {
-    "word": "auditor",
-    "ipa": "/ˈɔːdɪtə/",
-    "pos": "n.",
-    "zh": "审计员",
-    "example": "The auditor arrived with sixteen questions.",
+    "words": [
+      {
+        "word": "ledger",
+        "ipa": "/ˈledʒə/",
+        "pos": "n.",
+        "zh": "账簿；分类账",
+        "example": "Every entry lands in the ledger twice.",
+        "emoji": "📒",
+        "cefr": "C1"
+      },
+      {
+        "word": "debit",
+        "ipa": "/ˈdebɪt/",
+        "pos": "n./v.",
+        "zh": "借方；记入借方",
+        "example": "Debit the asset, credit the cash.",
+        "emoji": "➖",
+        "cefr": "C1"
+      },
+      {
+        "word": "reconciliation",
+        "ipa": "/ˌrekənsɪliˈeɪʃn/",
+        "pos": "n.",
+        "zh": "对账；调解",
+        "example": "Monthly reconciliation catches the ghost entries.",
+        "emoji": "🧾",
+        "cefr": "C2"
+      },
+      {
+        "word": "overdue",
+        "ipa": "/ˌəʊvəˈdjuː/",
+        "pos": "adj.",
+        "zh": "逾期的；迟到的",
+        "example": "Two invoices run sixty days overdue.",
+        "emoji": "⏰",
+        "cefr": "C1"
+      },
+      {
+        "word": "takings",
+        "ipa": "/ˈteɪkɪŋz/",
+        "pos": "n.",
+        "zh": "营业收入",
+        "example": "Friday takings tripled after the review.",
+        "emoji": "🪙",
+        "cefr": "C2"
+      },
+      {
+        "word": "outlay",
+        "ipa": "/ˈaʊtleɪ/",
+        "pos": "n.",
+        "zh": "支出；初始花费",
+        "example": "The initial outlay repaid in two years.",
+        "emoji": "💸",
+        "cefr": "C2"
+      },
+      {
+        "word": "holding",
+        "ipa": "/ˈhəʊldɪŋ/",
+        "pos": "n.",
+        "zh": "持有资产；持股",
+        "example": "The family sold its last holding in May.",
+        "emoji": "💎",
+        "cefr": "C1"
+      },
+      {
+        "word": "indebtedness",
+        "ipa": "/ɪnˈdetɪdnəs/",
+        "pos": "n.",
+        "zh": "负债；负债状况",
+        "example": "Household indebtedness doubled in a decade.",
+        "emoji": "📉",
+        "cefr": "C2"
+      },
+      {
+        "word": "payroll",
+        "ipa": "/ˈpeɪrəʊl/",
+        "pos": "n.",
+        "zh": "工资名单；发薪",
+        "example": "Payroll lands on the twenty-fifth.",
+        "emoji": "💵",
+        "cefr": "C1"
+      },
+      {
+        "word": "balance-sheet",
+        "ipa": "/ˈbæləns ʃiːt/",
+        "pos": "n.",
+        "zh": "资产负债表",
+        "example": "The balance-sheet balances, always.",
+        "emoji": "⚖️",
+        "cefr": "C1"
+      },
+      {
+        "word": "write-off",
+        "ipa": "/ˈraɪt ɒf/",
+        "pos": "n.",
+        "zh": "核销；坏账",
+        "example": "The stale stock became a write-off.",
+        "emoji": "🗑️",
+        "cefr": "C1"
+      },
+      {
+        "word": "budgetary",
+        "ipa": "/ˈbʌdʒɪtri/",
+        "pos": "adj.",
+        "zh": "预算的",
+        "example": "Budgetary rooms for manoeuvre keep shrinking.",
+        "emoji": "🧮",
+        "cefr": "C2"
+      },
+      {
+        "word": "trial balance",
+        "ipa": "/ˌtraɪəl ˈbæləns/",
+        "pos": "n.",
+        "zh": "试算平衡表",
+        "example": "The trial balance should match credits to debits.",
+        "emoji": "⚖️",
+        "cefr": "C2"
+      },
+      {
+        "word": "posting",
+        "ipa": "/ˈpəʊstɪŋ/",
+        "pos": "n.",
+        "zh": "过账",
+        "example": "Posting moves entries into the ledger.",
+        "emoji": "📤",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_money"
+  },
+  {
+    "id": "l9_acct_audit",
+    "title": "审计与合规",
     "emoji": "🔍",
-    "cefr": "C1"
-   },
-   {
-    "word": "adherence",
-    "ipa": "/ədˈhɪərəns/",
-    "pos": "n.",
-    "zh": "遵守； adherence",
-    "example": "Strict adherence to the checklist avoided fines.",
-    "emoji": "🧷",
-    "cefr": "C2"
-   },
-   {
-    "word": "tip-off",
-    "ipa": "/ˈtɪp ɒf/",
-    "pos": "n.",
-    "zh": "举报线索；密报",
-    "example": "An anonymous tip-off cracked the case.",
-    "emoji": "📮",
-    "cefr": "C2"
-   },
-   {
-    "word": "fraud",
-    "ipa": "/frɔːd/",
-    "pos": "n.",
-    "zh": "欺诈",
-    "example": "Invoice fraud drains small firms silently.",
-    "emoji": "🎭",
-    "cefr": "C1"
-   },
-   {
-    "word": "exhibits",
-    "ipa": "/ɪgˈzɪbɪts/",
-    "pos": "n.",
-    "zh": "证物（批量）",
-    "example": "Exhibits filled four steel cabinets.",
-    "emoji": "🗄️",
-    "cefr": "C1"
-   },
-   {
-    "word": "embezzle",
-    "ipa": "/ɪmˈbezl/",
-    "pos": "v.",
-    "zh": "挪用；侵占",
-    "example": "The treasurer embezzled for six years.",
-    "emoji": "🕵️",
-    "cefr": "C2"
-   },
-   {
-    "word": "misstatement",
-    "ipa": "/ˌmɪsˈsteɪtmənt/",
-    "pos": "n.",
-    "zh": "错报",
-    "example": "A single misstatement snowballed into restatement.",
-    "emoji": "🌀",
-    "cefr": "C2"
-   },
-   {
-    "word": "due-diligence",
-    "ipa": "/ˌdjuː ˈdɪlɪdʒəns/",
-    "pos": "n.",
-    "zh": "尽职调查",
-    "example": "Due-diligence flagged three hidden lawsuits.",
-    "emoji": "🔎",
-    "cefr": "C1"
-   },
-   {
-    "word": "irregularity",
-    "ipa": "/ɪˌregjəˈlærəti/",
-    "pos": "n.",
-    "zh": "违规；异常",
-    "example": "Auditors logged fourteen irregularities.",
-    "emoji": "🚩",
-    "cefr": "C1"
-   },
-   {
-    "word": "disclosure",
-    "ipa": "/dɪsˈkləʊʒə/",
-    "pos": "n.",
-    "zh": "披露",
-    "example": "Full disclosure defuses most scandals.",
-    "emoji": "📢",
-    "cefr": "C1"
-   },
-   {
-    "word": "insider",
-    "ipa": "/ɪnˈsaɪdə/",
-    "pos": "n.",
-    "zh": "内部人",
-    "example": "Insider lists burned three careers.",
-    "emoji": "🚪",
-    "cefr": "C1"
-   },
-   {
-    "word": "bookkeeping",
-    "ipa": "/ˈbʊkˌkiːpɪŋ/",
-    "pos": "n.",
-    "zh": "记账；簿记",
-    "example": "Sloppy bookkeeping hides real profit.",
-    "emoji": "✍️",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l9_gov_board",
-  "title": "公司治理",
-  "emoji": "🏛️",
-  "words": [
-   {
-    "word": "boardroom",
-    "ipa": "/ˈbɔːdrʊm/",
-    "pos": "n.",
-    "zh": "董事会会议室",
-    "example": "The boardroom emptied in silence.",
+    "words": [
+      {
+        "word": "auditor",
+        "ipa": "/ˈɔːdɪtə/",
+        "pos": "n.",
+        "zh": "审计员",
+        "example": "The auditor arrived with sixteen questions.",
+        "emoji": "🔍",
+        "cefr": "C1"
+      },
+      {
+        "word": "adherence",
+        "ipa": "/ədˈhɪərəns/",
+        "pos": "n.",
+        "zh": "遵守； adherence",
+        "example": "Strict adherence to the checklist avoided fines.",
+        "emoji": "🧷",
+        "cefr": "C2"
+      },
+      {
+        "word": "tip-off",
+        "ipa": "/ˈtɪp ɒf/",
+        "pos": "n.",
+        "zh": "举报线索；密报",
+        "example": "An anonymous tip-off cracked the case.",
+        "emoji": "📮",
+        "cefr": "C2"
+      },
+      {
+        "word": "fraud",
+        "ipa": "/frɔːd/",
+        "pos": "n.",
+        "zh": "欺诈",
+        "example": "Invoice fraud drains small firms silently.",
+        "emoji": "🎭",
+        "cefr": "C1"
+      },
+      {
+        "word": "exhibits",
+        "ipa": "/ɪgˈzɪbɪts/",
+        "pos": "n.",
+        "zh": "证物（批量）",
+        "example": "Exhibits filled four steel cabinets.",
+        "emoji": "🗄️",
+        "cefr": "C1"
+      },
+      {
+        "word": "embezzle",
+        "ipa": "/ɪmˈbezl/",
+        "pos": "v.",
+        "zh": "挪用；侵占",
+        "example": "The treasurer embezzled for six years.",
+        "emoji": "🕵️",
+        "cefr": "C2"
+      },
+      {
+        "word": "misstatement",
+        "ipa": "/ˌmɪsˈsteɪtmənt/",
+        "pos": "n.",
+        "zh": "错报",
+        "example": "A single misstatement snowballed into restatement.",
+        "emoji": "🌀",
+        "cefr": "C2"
+      },
+      {
+        "word": "due-diligence",
+        "ipa": "/ˌdjuː ˈdɪlɪdʒəns/",
+        "pos": "n.",
+        "zh": "尽职调查",
+        "example": "Due-diligence flagged three hidden lawsuits.",
+        "emoji": "🔎",
+        "cefr": "C1"
+      },
+      {
+        "word": "irregularity",
+        "ipa": "/ɪˌregjəˈlærəti/",
+        "pos": "n.",
+        "zh": "违规；异常",
+        "example": "Auditors logged fourteen irregularities.",
+        "emoji": "🚩",
+        "cefr": "C1"
+      },
+      {
+        "word": "disclosure",
+        "ipa": "/dɪsˈkləʊʒə/",
+        "pos": "n.",
+        "zh": "披露",
+        "example": "Full disclosure defuses most scandals.",
+        "emoji": "📢",
+        "cefr": "C1"
+      },
+      {
+        "word": "insider",
+        "ipa": "/ɪnˈsaɪdə/",
+        "pos": "n.",
+        "zh": "内部人",
+        "example": "Insider lists burned three careers.",
+        "emoji": "🚪",
+        "cefr": "C1"
+      },
+      {
+        "word": "bookkeeping",
+        "ipa": "/ˈbʊkˌkiːpɪŋ/",
+        "pos": "n.",
+        "zh": "记账；簿记",
+        "example": "Sloppy bookkeeping hides real profit.",
+        "emoji": "✍️",
+        "cefr": "C1"
+      },
+      {
+        "word": "unqualified opinion",
+        "ipa": "/ʌnˌkwɒlɪfaɪd əˈpɪnjən/",
+        "pos": "n.",
+        "zh": "无保留意见",
+        "example": "The unqualified opinion satisfied the bank.",
+        "emoji": "✅",
+        "cefr": "C2"
+      },
+      {
+        "word": "deductible",
+        "ipa": "/dɪˈdʌktəbl/",
+        "pos": "n.",
+        "zh": "免赔额",
+        "example": "The deductible is two hundred dollars.",
+        "emoji": "💰",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_money"
+  },
+  {
+    "id": "l9_gov_board",
+    "title": "公司治理",
     "emoji": "🏛️",
-    "cefr": "C1"
-   },
-   {
-    "word": "chairperson",
-    "ipa": "/ˈtʃeəpɜːsn/",
-    "pos": "n.",
-    "zh": "董事长；主席",
-    "example": "The chairperson votes only on ties.",
-    "emoji": "🪑",
-    "cefr": "C1"
-   },
-   {
-    "word": "stockholder",
-    "ipa": "/ˈstɒkˌhəʊldə/",
-    "pos": "n.",
-    "zh": "股东",
-    "example": "Stockholders approved the merger easily.",
-    "emoji": "🪙",
-    "cefr": "C1"
-   },
-   {
-    "word": "coupon",
-    "ipa": "/ˈkuːpɒn/",
-    "pos": "n.",
-    "zh": "息票；优惠券",
-    "example": "The bond pays a five percent coupon.",
-    "emoji": "🎟️",
-    "cefr": "C2"
-   },
-   {
-    "word": "proxy",
-    "ipa": "/ˈprɒksi/",
-    "pos": "n.",
-    "zh": "代理；委托书",
-    "example": "Vote by proxy if you cannot attend.",
-    "emoji": "📨",
-    "cefr": "C1"
-   },
-   {
-    "word": "bylaw",
-    "ipa": "/ˈbaɪlɔː/",
-    "pos": "n.",
-    "zh": "公司章程；细则",
-    "example": "Bylaw nine caps any single donation.",
-    "emoji": "📜",
-    "cefr": "C2"
-   },
-   {
-    "word": "remuneration",
-    "ipa": "/rɪˌmjuːnəˈreɪʃn/",
-    "pos": "n.",
-    "zh": "报酬；酬金",
-    "example": "Remuneration committees meet behind doors.",
-    "emoji": "💼",
-    "cefr": "C2"
-   },
-   {
-    "word": "fiduciary",
-    "ipa": "/fɪˈdjuːʃiəri/",
-    "pos": "adj.",
-    "zh": "受托的；信义的",
-    "example": "Directors owe fiduciary duties to the firm.",
-    "emoji": "🤝",
-    "cefr": "C2"
-   },
-   {
-    "word": "quorum",
-    "ipa": "/ˈkwɔːrəm/",
-    "pos": "n.",
-    "zh": "法定人数",
-    "example": "Without a quorum the meeting collapses.",
-    "emoji": "👥",
-    "cefr": "C2"
-   },
-   {
-    "word": "forthcoming",
-    "ipa": "/ˌfɔːθˈkʌmɪŋ/",
-    "pos": "adj.",
-    "zh": "坦率的；即将到来的",
-    "example": "The report proved less forthcoming than promised.",
-    "emoji": "🪟",
-    "cefr": "C2"
-   },
-   {
-    "word": "succession",
-    "ipa": "/səkˈseʃn/",
-    "pos": "n.",
-    "zh": "继承；接任",
-    "example": "Succession planning began too late.",
-    "emoji": "🪜",
-    "cefr": "C1"
-   },
-   {
-    "word": "remit",
-    "ipa": "/ˈriːmɪt/",
-    "pos": "n.",
-    "zh": "职权范围",
-    "example": "Climate sits within the new remit.",
-    "emoji": "🪪",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_tax_duty",
-  "title": "税务",
-  "emoji": "🧾",
-  "words": [
-   {
-    "word": "taxpayer",
-    "ipa": "/ˈtæksˌpeɪə/",
-    "pos": "n.",
-    "zh": "纳税人",
-    "example": "Every taxpayer dreads the April envelope.",
+    "words": [
+      {
+        "word": "boardroom",
+        "ipa": "/ˈbɔːdrʊm/",
+        "pos": "n.",
+        "zh": "董事会会议室",
+        "example": "The boardroom emptied in silence.",
+        "emoji": "🏛️",
+        "cefr": "C1"
+      },
+      {
+        "word": "chairperson",
+        "ipa": "/ˈtʃeəpɜːsn/",
+        "pos": "n.",
+        "zh": "董事长；主席",
+        "example": "The chairperson votes only on ties.",
+        "emoji": "🪑",
+        "cefr": "C1"
+      },
+      {
+        "word": "stockholder",
+        "ipa": "/ˈstɒkˌhəʊldə/",
+        "pos": "n.",
+        "zh": "股东",
+        "example": "Stockholders approved the merger easily.",
+        "emoji": "🪙",
+        "cefr": "C1"
+      },
+      {
+        "word": "coupon",
+        "ipa": "/ˈkuːpɒn/",
+        "pos": "n.",
+        "zh": "息票；优惠券",
+        "example": "The bond pays a five percent coupon.",
+        "emoji": "🎟️",
+        "cefr": "C2"
+      },
+      {
+        "word": "proxy",
+        "ipa": "/ˈprɒksi/",
+        "pos": "n.",
+        "zh": "代理；委托书",
+        "example": "Vote by proxy if you cannot attend.",
+        "emoji": "📨",
+        "cefr": "C1"
+      },
+      {
+        "word": "bylaw",
+        "ipa": "/ˈbaɪlɔː/",
+        "pos": "n.",
+        "zh": "公司章程；细则",
+        "example": "Bylaw nine caps any single donation.",
+        "emoji": "📜",
+        "cefr": "C2"
+      },
+      {
+        "word": "remuneration",
+        "ipa": "/rɪˌmjuːnəˈreɪʃn/",
+        "pos": "n.",
+        "zh": "报酬；酬金",
+        "example": "Remuneration committees meet behind doors.",
+        "emoji": "💼",
+        "cefr": "C2"
+      },
+      {
+        "word": "fiduciary",
+        "ipa": "/fɪˈdjuːʃiəri/",
+        "pos": "adj.",
+        "zh": "受托的；信义的",
+        "example": "Directors owe fiduciary duties to the firm.",
+        "emoji": "🤝",
+        "cefr": "C2"
+      },
+      {
+        "word": "quorum",
+        "ipa": "/ˈkwɔːrəm/",
+        "pos": "n.",
+        "zh": "法定人数",
+        "example": "Without a quorum the meeting collapses.",
+        "emoji": "👥",
+        "cefr": "C2"
+      },
+      {
+        "word": "forthcoming",
+        "ipa": "/ˌfɔːθˈkʌmɪŋ/",
+        "pos": "adj.",
+        "zh": "坦率的；即将到来的",
+        "example": "The report proved less forthcoming than promised.",
+        "emoji": "🪟",
+        "cefr": "C2"
+      },
+      {
+        "word": "succession",
+        "ipa": "/səkˈseʃn/",
+        "pos": "n.",
+        "zh": "继承；接任",
+        "example": "Succession planning began too late.",
+        "emoji": "🪜",
+        "cefr": "C1"
+      },
+      {
+        "word": "remit",
+        "ipa": "/ˈriːmɪt/",
+        "pos": "n.",
+        "zh": "职权范围",
+        "example": "Climate sits within the new remit.",
+        "emoji": "🪪",
+        "cefr": "C2"
+      },
+      {
+        "word": "insider trading",
+        "ipa": "/ɪnˌsaɪdə ˈtreɪdɪŋ/",
+        "pos": "n.",
+        "zh": "内幕交易",
+        "example": "Insider trading is strictly illegal.",
+        "emoji": "🚫",
+        "cefr": "C2"
+      },
+      {
+        "word": "legislature",
+        "ipa": "/ˈledʒɪslətʃə(r)/",
+        "pos": "n.",
+        "zh": "立法机构",
+        "example": "The legislature passed the bill.",
+        "emoji": "🏛️",
+        "cefr": "B2"
+      }
+    ],
+    "extends_from": "l2_jobs"
+  },
+  {
+    "id": "l9_tax_duty",
+    "title": "税务",
     "emoji": "🧾",
-    "cefr": "C1"
-   },
-   {
-    "word": "exemption",
-    "ipa": "/ɪgˈzempʃn/",
-    "pos": "n.",
-    "zh": "豁免；免除",
-    "example": "Small firms claim an annual exemption.",
-    "emoji": "🕊️",
-    "cefr": "C1"
-   },
-   {
-    "word": "surcharge",
-    "ipa": "/ˈsɜːtʃɑːdʒ/",
-    "pos": "n.",
-    "zh": "附加费",
-    "example": "A fuel surcharge appears every winter.",
-    "emoji": "⛽",
-    "cefr": "C1"
-   },
-   {
-    "word": "imposition",
-    "ipa": "/ˌɪmpəˈzɪʃn/",
-    "pos": "n.",
-    "zh": "征收；强加",
-    "example": "The imposition surprised no economist.",
-    "emoji": "🪣",
-    "cefr": "C2"
-   },
-   {
-    "word": "zero-rated",
-    "ipa": "/ˌzɪərəʊ ˈreɪtɪd/",
-    "pos": "adj.",
-    "zh": "零税率的",
-    "example": "Books are zero-rated in many countries.",
-    "emoji": "📖",
-    "cefr": "C2"
-   },
-   {
-    "word": "evasion",
-    "ipa": "/ɪˈveɪʒn/",
-    "pos": "n.",
-    "zh": "逃税；逃避",
-    "example": "Tax evasion, unlike avoidance, is a crime.",
-    "emoji": "🕳️",
-    "cefr": "C1"
-   },
-   {
-    "word": "loophole",
-    "ipa": "/ˈluːphəʊl/",
-    "pos": "n.",
-    "zh": "漏洞",
-    "example": "Cinemas found a popcorn-shaped loophole.",
-    "emoji": "🍿",
-    "cefr": "C1"
-   },
-   {
-    "word": "tier",
-    "ipa": "/tɪə/",
-    "pos": "n.",
-    "zh": "层级；税档",
-    "example": "Gold members sit in the top tier.",
-    "emoji": "🪜",
-    "cefr": "C1"
-   },
-   {
-    "word": "return",
-    "ipa": "/rɪˈtɜːn/",
-    "pos": "n.",
-    "zh": "申报表；回报",
-    "example": "File the return before January thirty-first.",
-    "emoji": "📨",
-    "cefr": "B2"
-   },
-   {
-    "word": "rebate",
-    "ipa": "/ˈriːbeɪt/",
-    "pos": "n.",
-    "zh": "返还款；退税",
-    "example": "The rebate covered half the bill.",
-    "emoji": "🪃",
-    "cefr": "C1"
-   },
-   {
-    "word": "declaration",
-    "ipa": "/ˌdekləˈreɪʃn/",
-    "pos": "n.",
-    "zh": "报关单；申报",
-    "example": "The customs declaration took two minutes.",
-    "emoji": "🛃",
-    "cefr": "C1"
-   },
-   {
-    "word": "revenue-stamp",
-    "ipa": "/ˈrevənjuː stæmp/",
-    "pos": "n.",
-    "zh": "印花税票",
-    "example": "Old contracts carry a faded revenue-stamp.",
-    "emoji": "🎫",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_law_contract",
-  "title": "合同法",
-  "emoji": "📜",
-  "words": [
-   {
-    "word": "contractual",
-    "ipa": "/kənˈtræktʃuəl/",
-    "pos": "adj.",
-    "zh": "合同的；契约的",
-    "example": "Contractual penalties stack quickly.",
+    "words": [
+      {
+        "word": "taxpayer",
+        "ipa": "/ˈtæksˌpeɪə/",
+        "pos": "n.",
+        "zh": "纳税人",
+        "example": "Every taxpayer dreads the April envelope.",
+        "emoji": "🧾",
+        "cefr": "C1"
+      },
+      {
+        "word": "exemption",
+        "ipa": "/ɪgˈzempʃn/",
+        "pos": "n.",
+        "zh": "豁免；免除",
+        "example": "Small firms claim an annual exemption.",
+        "emoji": "🕊️",
+        "cefr": "C1"
+      },
+      {
+        "word": "surcharge",
+        "ipa": "/ˈsɜːtʃɑːdʒ/",
+        "pos": "n.",
+        "zh": "附加费",
+        "example": "A fuel surcharge appears every winter.",
+        "emoji": "⛽",
+        "cefr": "C1"
+      },
+      {
+        "word": "imposition",
+        "ipa": "/ˌɪmpəˈzɪʃn/",
+        "pos": "n.",
+        "zh": "征收；强加",
+        "example": "The imposition surprised no economist.",
+        "emoji": "🪣",
+        "cefr": "C2"
+      },
+      {
+        "word": "zero-rated",
+        "ipa": "/ˌzɪərəʊ ˈreɪtɪd/",
+        "pos": "adj.",
+        "zh": "零税率的",
+        "example": "Books are zero-rated in many countries.",
+        "emoji": "📖",
+        "cefr": "C2"
+      },
+      {
+        "word": "evasion",
+        "ipa": "/ɪˈveɪʒn/",
+        "pos": "n.",
+        "zh": "逃税；逃避",
+        "example": "Tax evasion, unlike avoidance, is a crime.",
+        "emoji": "🕳️",
+        "cefr": "C1"
+      },
+      {
+        "word": "loophole",
+        "ipa": "/ˈluːphəʊl/",
+        "pos": "n.",
+        "zh": "漏洞",
+        "example": "Cinemas found a popcorn-shaped loophole.",
+        "emoji": "🍿",
+        "cefr": "C1"
+      },
+      {
+        "word": "tier",
+        "ipa": "/tɪə/",
+        "pos": "n.",
+        "zh": "层级；税档",
+        "example": "Gold members sit in the top tier.",
+        "emoji": "🪜",
+        "cefr": "C1"
+      },
+      {
+        "word": "return",
+        "ipa": "/rɪˈtɜːn/",
+        "pos": "n.",
+        "zh": "申报表；回报",
+        "example": "File the return before January thirty-first.",
+        "emoji": "📨",
+        "cefr": "B2"
+      },
+      {
+        "word": "rebate",
+        "ipa": "/ˈriːbeɪt/",
+        "pos": "n.",
+        "zh": "返还款；退税",
+        "example": "The rebate covered half the bill.",
+        "emoji": "🪃",
+        "cefr": "C1"
+      },
+      {
+        "word": "declaration",
+        "ipa": "/ˌdekləˈreɪʃn/",
+        "pos": "n.",
+        "zh": "报关单；申报",
+        "example": "The customs declaration took two minutes.",
+        "emoji": "🛃",
+        "cefr": "C1"
+      },
+      {
+        "word": "revenue-stamp",
+        "ipa": "/ˈrevənjuː stæmp/",
+        "pos": "n.",
+        "zh": "印花税票",
+        "example": "Old contracts carry a faded revenue-stamp.",
+        "emoji": "🎫",
+        "cefr": "C2"
+      },
+      {
+        "word": "capital gains",
+        "ipa": "/ˌkæpɪtl ˈɡeɪnz/",
+        "pos": "n.",
+        "zh": "资本利得",
+        "example": "Capital gains are taxed on sale.",
+        "emoji": "📈",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_money"
+  },
+  {
+    "id": "l9_law_contract",
+    "title": "合同法",
     "emoji": "📜",
-    "cefr": "C1"
-   },
-   {
-    "word": "covenant",
-    "ipa": "/ˈkʌvənənt/",
-    "pos": "n.",
-    "zh": "契约；条款",
-    "example": "The covenant bars late-night deliveries.",
-    "emoji": "🔏",
-    "cefr": "C2"
-   },
-   {
-    "word": "formalise",
-    "ipa": "/ˈfɔːməlaɪz/",
-    "pos": "v.",
-    "zh": "使正式化",
-    "example": "They formalised the deal over lunch.",
-    "emoji": "🖋️",
-    "cefr": "C2"
-   },
-   {
-    "word": "repudiate",
-    "ipa": "/rɪˈpjuːdieɪt/",
-    "pos": "v.",
-    "zh": "拒绝履行；否认",
-    "example": "The supplier repudiated the delayed contract.",
-    "emoji": "🙅",
-    "cefr": "C2"
-   },
-   {
-    "word": "annul",
-    "ipa": "/əˈnʌl/",
-    "pos": "v.",
-    "zh": "废止；宣布无效",
-    "example": "The court annulled the rushed agreement.",
-    "emoji": "🚫",
-    "cefr": "C2"
-   },
-   {
-    "word": "underwriter",
-    "ipa": "/ˈʌndəˌraɪtə/",
-    "pos": "n.",
-    "zh": "承保人；核保员",
-    "example": "The underwriter queried the wiring.",
-    "emoji": "✒️",
-    "cefr": "C2"
-   },
-   {
-    "word": "waiver",
-    "ipa": "/ˈweɪvə/",
-    "pos": "n.",
-    "zh": "弃权书；豁免",
-    "example": "Sign the waiver before the climb.",
-    "emoji": "🪶",
-    "cefr": "C1"
-   },
-   {
-    "word": "non-compete",
-    "ipa": "/ˌnɒn kəmˈpiːt/",
-    "pos": "adj./n.",
-    "zh": "竞业禁止的；竞业条款",
-    "example": "The non-compete binds him for a year.",
-    "emoji": "🚷",
-    "cefr": "C1"
-   },
-   {
-    "word": "counterparty",
-    "ipa": "/ˈkaʊntəpɑːti/",
-    "pos": "n.",
-    "zh": "缔约对方",
-    "example": "The counterparty defaulted overnight.",
-    "emoji": "🤝",
-    "cefr": "C2"
-   },
-   {
-    "word": "consideration",
-    "ipa": "/kənˌsɪdəˈreɪʃn/",
-    "pos": "n.",
-    "zh": "对价；体谅",
-    "example": "No consideration, no contract, says the rule.",
-    "emoji": "🪙",
-    "cefr": "C1"
-   },
-   {
-    "word": "signatory",
-    "ipa": "/ˈsɪgnətri/",
-    "pos": "n.",
-    "zh": "签署方",
-    "example": "Both signatories stamped the last page.",
-    "emoji": "✍️",
-    "cefr": "C2"
-   },
-   {
-    "word": "amend",
-    "ipa": "/əˈmend/",
-    "pos": "v.",
-    "zh": "修订；修改",
-    "example": "Both sides agreed to amend clause four.",
-    "emoji": "✏️",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l9_law_tort",
-  "title": "侵权与责任",
-  "emoji": "⚖️",
-  "words": [
-   {
-    "word": "tort",
-    "ipa": "/tɔːt/",
-    "pos": "n.",
-    "zh": "侵权行为",
-    "example": "Negligence is the busiest area of tort.",
+    "words": [
+      {
+        "word": "contractual",
+        "ipa": "/kənˈtræktʃuəl/",
+        "pos": "adj.",
+        "zh": "合同的；契约的",
+        "example": "Contractual penalties stack quickly.",
+        "emoji": "📜",
+        "cefr": "C1"
+      },
+      {
+        "word": "covenant",
+        "ipa": "/ˈkʌvənənt/",
+        "pos": "n.",
+        "zh": "契约；条款",
+        "example": "The covenant bars late-night deliveries.",
+        "emoji": "🔏",
+        "cefr": "C2"
+      },
+      {
+        "word": "formalise",
+        "ipa": "/ˈfɔːməlaɪz/",
+        "pos": "v.",
+        "zh": "使正式化",
+        "example": "They formalised the deal over lunch.",
+        "emoji": "🖋️",
+        "cefr": "C2"
+      },
+      {
+        "word": "repudiate",
+        "ipa": "/rɪˈpjuːdieɪt/",
+        "pos": "v.",
+        "zh": "拒绝履行；否认",
+        "example": "The supplier repudiated the delayed contract.",
+        "emoji": "🙅",
+        "cefr": "C2"
+      },
+      {
+        "word": "annul",
+        "ipa": "/əˈnʌl/",
+        "pos": "v.",
+        "zh": "废止；宣布无效",
+        "example": "The court annulled the rushed agreement.",
+        "emoji": "🚫",
+        "cefr": "C2"
+      },
+      {
+        "word": "underwriter",
+        "ipa": "/ˈʌndəˌraɪtə/",
+        "pos": "n.",
+        "zh": "承保人；核保员",
+        "example": "The underwriter queried the wiring.",
+        "emoji": "✒️",
+        "cefr": "C2"
+      },
+      {
+        "word": "waiver",
+        "ipa": "/ˈweɪvə/",
+        "pos": "n.",
+        "zh": "弃权书；豁免",
+        "example": "Sign the waiver before the climb.",
+        "emoji": "🪶",
+        "cefr": "C1"
+      },
+      {
+        "word": "non-compete",
+        "ipa": "/ˌnɒn kəmˈpiːt/",
+        "pos": "adj./n.",
+        "zh": "竞业禁止的；竞业条款",
+        "example": "The non-compete binds him for a year.",
+        "emoji": "🚷",
+        "cefr": "C1"
+      },
+      {
+        "word": "counterparty",
+        "ipa": "/ˈkaʊntəpɑːti/",
+        "pos": "n.",
+        "zh": "缔约对方",
+        "example": "The counterparty defaulted overnight.",
+        "emoji": "🤝",
+        "cefr": "C2"
+      },
+      {
+        "word": "consideration",
+        "ipa": "/kənˌsɪdəˈreɪʃn/",
+        "pos": "n.",
+        "zh": "对价；体谅",
+        "example": "No consideration, no contract, says the rule.",
+        "emoji": "🪙",
+        "cefr": "C1"
+      },
+      {
+        "word": "signatory",
+        "ipa": "/ˈsɪgnətri/",
+        "pos": "n.",
+        "zh": "签署方",
+        "example": "Both signatories stamped the last page.",
+        "emoji": "✍️",
+        "cefr": "C2"
+      },
+      {
+        "word": "amend",
+        "ipa": "/əˈmend/",
+        "pos": "v.",
+        "zh": "修订；修改",
+        "example": "Both sides agreed to amend clause four.",
+        "emoji": "✏️",
+        "cefr": "C1"
+      },
+      {
+        "word": "voidable",
+        "ipa": "/ˈvɔɪdəbl/",
+        "pos": "adj.",
+        "zh": "可撤销的",
+        "example": "A contract by a minor is voidable.",
+        "emoji": "❌",
+        "cefr": "C2"
+      },
+      {
+        "word": "provision",
+        "ipa": "/prəˈvɪʒn/",
+        "pos": "n.",
+        "zh": "条款",
+        "example": "The provision limits liability.",
+        "emoji": "📄",
+        "cefr": "C2",
+        "level": "C1"
+      }
+    ],
+    "extends_from": "l2_safety"
+  },
+  {
+    "id": "l9_law_tort",
+    "title": "侵权与责任",
     "emoji": "⚖️",
-    "cefr": "C2"
-   },
-   {
-    "word": "negligence",
-    "ipa": "/ˈneglɪdʒəns/",
-    "pos": "n.",
-    "zh": "过失；疏忽",
-    "example": "The pipe burst through pure negligence.",
-    "emoji": "💧",
-    "cefr": "C1"
-   },
-   {
-    "word": "respondent",
-    "ipa": "/rɪˈspɒndənt/",
-    "pos": "n.",
-    "zh": "被告；应答者",
-    "example": "The respondent filed within the deadline.",
-    "emoji": "🪑",
-    "cefr": "C2"
-   },
-   {
-    "word": "claimant",
-    "ipa": "/ˈkleɪmənt/",
-    "pos": "n.",
-    "zh": "索赔人；申请人",
-    "example": "The claimant produced forty photographs.",
-    "emoji": "📷",
-    "cefr": "C2"
-   },
-   {
-    "word": "punitive",
-    "ipa": "/ˈpjuːnɪtɪv/",
-    "pos": "adj.",
-    "zh": "惩罚性的",
-    "example": "Punitive awards aim at deterrence.",
-    "emoji": "🔨",
-    "cefr": "C2"
-   },
-   {
-    "word": "moratorium",
-    "ipa": "/ˌmɒrəˈtɔːriəm/",
-    "pos": "n.",
-    "zh": "暂停令；延期偿付",
-    "example": "A moratorium froze evictions citywide.",
-    "emoji": "⏸️",
-    "cefr": "C2"
-   },
-   {
-    "word": "settle",
-    "ipa": "/ˈsetl/",
-    "pos": "v.",
-    "zh": "和解；解决",
-    "example": "They settled before the third hearing.",
-    "emoji": "🤝",
-    "cefr": "B2"
-   },
-   {
-    "word": "out-of-court",
-    "ipa": "/ˌaʊt əv ˈkɔːt/",
-    "pos": "adj.",
-    "zh": "庭外的",
-    "example": "An out-of-court deal saved everyone a year.",
-    "emoji": "🚪",
-    "cefr": "C1"
-   },
-   {
-    "word": "indemnify",
-    "ipa": "/ˈɪndəmnɪfaɪ/",
-    "pos": "v.",
-    "zh": "保障；赔付",
-    "example": "The insurer indemnified the cafe overnight.",
-    "emoji": "🛡️",
-    "cefr": "C2"
-   },
-   {
-    "word": "indict",
-    "ipa": "/ɪnˈdaɪt/",
-    "pos": "v.",
-    "zh": "起诉；控告",
-    "example": "The grand jury indicted two directors.",
-    "emoji": "📨",
-    "cefr": "C2"
-   },
-   {
-    "word": "extenuating",
-    "ipa": "/ɪkˈstenjueɪtɪŋ/",
-    "pos": "adj.",
-    "zh": "可减轻罪责的",
-    "example": "Extenuating circumstances halved the fine.",
-    "emoji": "🍃",
-    "cefr": "C2"
-   },
-   {
-    "word": "clawback",
-    "ipa": "/ˈklɔːbæk/",
-    "pos": "n.",
-    "zh": "追回款项",
-    "example": "Bonus clawback clauses spread quickly.",
-    "emoji": "🪤",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_law_ip",
-  "title": "知识产权",
-  "emoji": "💡",
-  "words": [
-   {
-    "word": "originality",
-    "ipa": "/əˌrɪdʒəˈnæləti/",
-    "pos": "n.",
-    "zh": "原创性",
-    "example": "Originality decides whether protection applies.",
+    "words": [
+      {
+        "word": "tort",
+        "ipa": "/tɔːt/",
+        "pos": "n.",
+        "zh": "侵权行为",
+        "example": "Negligence is the busiest area of tort.",
+        "emoji": "⚖️",
+        "cefr": "C2"
+      },
+      {
+        "word": "negligence",
+        "ipa": "/ˈneglɪdʒəns/",
+        "pos": "n.",
+        "zh": "过失；疏忽",
+        "example": "The pipe burst through pure negligence.",
+        "emoji": "💧",
+        "cefr": "C1"
+      },
+      {
+        "word": "respondent",
+        "ipa": "/rɪˈspɒndənt/",
+        "pos": "n.",
+        "zh": "被告；应答者",
+        "example": "The respondent filed within the deadline.",
+        "emoji": "🪑",
+        "cefr": "C2"
+      },
+      {
+        "word": "claimant",
+        "ipa": "/ˈkleɪmənt/",
+        "pos": "n.",
+        "zh": "索赔人；申请人",
+        "example": "The claimant produced forty photographs.",
+        "emoji": "📷",
+        "cefr": "C2"
+      },
+      {
+        "word": "punitive",
+        "ipa": "/ˈpjuːnɪtɪv/",
+        "pos": "adj.",
+        "zh": "惩罚性的",
+        "example": "Punitive awards aim at deterrence.",
+        "emoji": "🔨",
+        "cefr": "C2"
+      },
+      {
+        "word": "moratorium",
+        "ipa": "/ˌmɒrəˈtɔːriəm/",
+        "pos": "n.",
+        "zh": "暂停令；延期偿付",
+        "example": "A moratorium froze evictions citywide.",
+        "emoji": "⏸️",
+        "cefr": "C2"
+      },
+      {
+        "word": "settle",
+        "ipa": "/ˈsetl/",
+        "pos": "v.",
+        "zh": "和解；解决",
+        "example": "They settled before the third hearing.",
+        "emoji": "🤝",
+        "cefr": "B2"
+      },
+      {
+        "word": "out-of-court",
+        "ipa": "/ˌaʊt əv ˈkɔːt/",
+        "pos": "adj.",
+        "zh": "庭外的",
+        "example": "An out-of-court deal saved everyone a year.",
+        "emoji": "🚪",
+        "cefr": "C1"
+      },
+      {
+        "word": "indemnify",
+        "ipa": "/ˈɪndəmnɪfaɪ/",
+        "pos": "v.",
+        "zh": "保障；赔付",
+        "example": "The insurer indemnified the cafe overnight.",
+        "emoji": "🛡️",
+        "cefr": "C2"
+      },
+      {
+        "word": "indict",
+        "ipa": "/ɪnˈdaɪt/",
+        "pos": "v.",
+        "zh": "起诉；控告",
+        "example": "The grand jury indicted two directors.",
+        "emoji": "📨",
+        "cefr": "C2"
+      },
+      {
+        "word": "extenuating",
+        "ipa": "/ɪkˈstenjueɪtɪŋ/",
+        "pos": "adj.",
+        "zh": "可减轻罪责的",
+        "example": "Extenuating circumstances halved the fine.",
+        "emoji": "🍃",
+        "cefr": "C2"
+      },
+      {
+        "word": "clawback",
+        "ipa": "/ˈklɔːbæk/",
+        "pos": "n.",
+        "zh": "追回款项",
+        "example": "Bonus clawback clauses spread quickly.",
+        "emoji": "🪤",
+        "cefr": "C2"
+      },
+      {
+        "word": "nuisance",
+        "ipa": "/ˈnjuːsns/",
+        "pos": "n.",
+        "zh": "妨害",
+        "example": "The noisy plant was deemed a nuisance.",
+        "emoji": "🔇",
+        "cefr": "C2"
+      },
+      {
+        "word": "strict liability",
+        "ipa": "/ˌstrɪkt ˌlaɪəˈbɪləti/",
+        "pos": "n.",
+        "zh": "严格责任",
+        "example": "Strict liability needs no proof of fault.",
+        "emoji": "⚖️",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_safety"
+  },
+  {
+    "id": "l9_law_ip",
+    "title": "知识产权",
     "emoji": "💡",
-    "cefr": "C1"
-   },
-   {
-    "word": "registration",
-    "ipa": "/ˌredʒɪˈstreɪʃn/",
-    "pos": "n.",
-    "zh": "注册；登记",
-    "example": "Registration grants ten quiet years.",
-    "emoji": "📇",
-    "cefr": "C1"
-   },
-   {
-    "word": "authorship",
-    "ipa": "/ˈɔːθəʃɪp/",
-    "pos": "n.",
-    "zh": "作者身份；原创来源",
-    "example": "Authorship remains hotly contested.",
-    "emoji": "✒️",
-    "cefr": "C2"
-   },
-   {
-    "word": "infringe",
-    "ipa": "/ɪnˈfrɪndʒ/",
-    "pos": "v.",
-    "zh": "侵犯（权利）",
-    "example": "The clone infringed two patents.",
-    "emoji": "🚫",
-    "cefr": "C1"
-   },
-   {
-    "word": "licensing",
-    "ipa": "/ˈlaɪsnsɪŋ/",
-    "pos": "n.",
-    "zh": "许可授权（业务）",
-    "example": "Licensing feeds the studio between films.",
-    "emoji": "🔀",
-    "cefr": "C1"
-   },
-   {
-    "word": "licensor",
-    "ipa": "/ˈlaɪsənsə/",
-    "pos": "n.",
-    "zh": "许可方",
-    "example": "The licensor audits sales annually.",
-    "emoji": "📤",
-    "cefr": "C2"
-   },
-   {
-    "word": "licensee",
-    "ipa": "/ˌlaɪsənˈsiː/",
-    "pos": "n.",
-    "zh": "被许可方",
-    "example": "The licensee prints the comic in Japan.",
-    "emoji": "📥",
-    "cefr": "C2"
-   },
-   {
-    "word": "counterfeit",
-    "ipa": "/ˈkaʊntəfɪt/",
-    "pos": "adj./n.",
-    "zh": "假冒的；赝品",
-    "example": "Counterfeit bags flood the night market.",
-    "emoji": "👛",
-    "cefr": "C1"
-   },
-   {
-    "word": "piracy",
-    "ipa": "/ˈpaɪrəsi/",
-    "pos": "n.",
-    "zh": "盗版；海盗行为",
-    "example": "Piracy gutted the DVD market.",
-    "emoji": "🏴‍☠️",
-    "cefr": "C1"
-   },
-   {
-    "word": "acknowledgement",
-    "ipa": "/əkˈnɒlɪdʒmənt/",
-    "pos": "n.",
-    "zh": "鸣谢；确认",
-    "example": "A quiet acknowledgement ended the dispute.",
-    "emoji": "🤲",
-    "cefr": "C1"
-   },
-   {
-    "word": "trade-secret",
-    "ipa": "/treɪd sɪˈkret/",
-    "pos": "n.",
-    "zh": "商业秘密",
-    "example": "The recipe stays a trade-secret forever.",
-    "emoji": "🔐",
-    "cefr": "C1"
-   },
-   {
-    "word": "design-right",
-    "ipa": "/dɪˈzaɪn raɪt/",
-    "pos": "n.",
-    "zh": "外观设计权",
-    "example": "Design-right protects the chair silhouette.",
-    "emoji": "🪑",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_law_employment",
-  "title": "劳动法",
-  "emoji": "👷",
-  "words": [
-   {
-    "word": "dismissal",
-    "ipa": "/dɪsˈmɪsl/",
-    "pos": "n.",
-    "zh": "解雇",
-    "example": "Unfair dismissal claims take months.",
-    "emoji": "📤",
-    "cefr": "C1"
-   },
-   {
-    "word": "headcount",
-    "ipa": "/ˈhedkaʊnt/",
-    "pos": "n.",
-    "zh": "员工人数",
-    "example": "Headcount fell from ninety to sixty.",
-    "emoji": "🧮",
-    "cefr": "C1"
-   },
-   {
-    "word": "entitled",
-    "ipa": "/ɪnˈtaɪtld/",
-    "pos": "adj.",
-    "zh": "有权享有的",
-    "example": "Part-timers are entitled to the same holidays.",
-    "emoji": "🎟️",
-    "cefr": "C1"
-   },
-   {
-    "word": "grievance",
-    "ipa": "/ˈgriːvəns/",
-    "pos": "n.",
-    "zh": "申诉；不满",
-    "example": "The grievance cites unpaid overtime.",
-    "emoji": "📄",
-    "cefr": "C1"
-   },
-   {
-    "word": "arbiter",
-    "ipa": "/ˈɑːbɪtə/",
-    "pos": "n.",
-    "zh": "仲裁人；权威",
-    "example": "An independent arbiter heard both sides.",
-    "emoji": "🧑‍⚖️",
-    "cefr": "C2"
-   },
-   {
-    "word": "guild",
-    "ipa": "/gɪld/",
-    "pos": "n.",
-    "zh": "行会；公会",
-    "example": "The printers guild dates from 1602.",
+    "words": [
+      {
+        "word": "originality",
+        "ipa": "/əˌrɪdʒəˈnæləti/",
+        "pos": "n.",
+        "zh": "原创性",
+        "example": "Originality decides whether protection applies.",
+        "emoji": "💡",
+        "cefr": "C1"
+      },
+      {
+        "word": "registration",
+        "ipa": "/ˌredʒɪˈstreɪʃn/",
+        "pos": "n.",
+        "zh": "注册；登记",
+        "example": "Registration grants ten quiet years.",
+        "emoji": "📇",
+        "cefr": "C1"
+      },
+      {
+        "word": "authorship",
+        "ipa": "/ˈɔːθəʃɪp/",
+        "pos": "n.",
+        "zh": "作者身份；原创来源",
+        "example": "Authorship remains hotly contested.",
+        "emoji": "✒️",
+        "cefr": "C2"
+      },
+      {
+        "word": "infringe",
+        "ipa": "/ɪnˈfrɪndʒ/",
+        "pos": "v.",
+        "zh": "侵犯（权利）",
+        "example": "The clone infringed two patents.",
+        "emoji": "🚫",
+        "cefr": "C1"
+      },
+      {
+        "word": "licensing",
+        "ipa": "/ˈlaɪsnsɪŋ/",
+        "pos": "n.",
+        "zh": "许可授权（业务）",
+        "example": "Licensing feeds the studio between films.",
+        "emoji": "🔀",
+        "cefr": "C1"
+      },
+      {
+        "word": "licensor",
+        "ipa": "/ˈlaɪsənsə/",
+        "pos": "n.",
+        "zh": "许可方",
+        "example": "The licensor audits sales annually.",
+        "emoji": "📤",
+        "cefr": "C2"
+      },
+      {
+        "word": "licensee",
+        "ipa": "/ˌlaɪsənˈsiː/",
+        "pos": "n.",
+        "zh": "被许可方",
+        "example": "The licensee prints the comic in Japan.",
+        "emoji": "📥",
+        "cefr": "C2"
+      },
+      {
+        "word": "counterfeit",
+        "ipa": "/ˈkaʊntəfɪt/",
+        "pos": "adj./n.",
+        "zh": "假冒的；赝品",
+        "example": "Counterfeit bags flood the night market.",
+        "emoji": "👛",
+        "cefr": "C1"
+      },
+      {
+        "word": "piracy",
+        "ipa": "/ˈpaɪrəsi/",
+        "pos": "n.",
+        "zh": "盗版；海盗行为",
+        "example": "Piracy gutted the DVD market.",
+        "emoji": "🏴‍☠️",
+        "cefr": "C1"
+      },
+      {
+        "word": "acknowledgement",
+        "ipa": "/əkˈnɒlɪdʒmənt/",
+        "pos": "n.",
+        "zh": "鸣谢；确认",
+        "example": "A quiet acknowledgement ended the dispute.",
+        "emoji": "🤲",
+        "cefr": "C1"
+      },
+      {
+        "word": "trade-secret",
+        "ipa": "/treɪd sɪˈkret/",
+        "pos": "n.",
+        "zh": "商业秘密",
+        "example": "The recipe stays a trade-secret forever.",
+        "emoji": "🔐",
+        "cefr": "C1"
+      },
+      {
+        "word": "design-right",
+        "ipa": "/dɪˈzaɪn raɪt/",
+        "pos": "n.",
+        "zh": "外观设计权",
+        "example": "Design-right protects the chair silhouette.",
+        "emoji": "🪑",
+        "cefr": "C2"
+      },
+      {
+        "word": "infringement",
+        "ipa": "/ɪnˈfrɪndʒmənt/",
+        "pos": "n.",
+        "zh": "侵权",
+        "example": "The patent faced widespread infringement.",
+        "emoji": "⚔️",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_tech"
+  },
+  {
+    "id": "l9_law_employment",
+    "title": "劳动法",
+    "emoji": "👷",
+    "words": [
+      {
+        "word": "dismissal",
+        "ipa": "/dɪsˈmɪsl/",
+        "pos": "n.",
+        "zh": "解雇",
+        "example": "Unfair dismissal claims take months.",
+        "emoji": "📤",
+        "cefr": "C1"
+      },
+      {
+        "word": "headcount",
+        "ipa": "/ˈhedkaʊnt/",
+        "pos": "n.",
+        "zh": "员工人数",
+        "example": "Headcount fell from ninety to sixty.",
+        "emoji": "🧮",
+        "cefr": "C1"
+      },
+      {
+        "word": "entitled",
+        "ipa": "/ɪnˈtaɪtld/",
+        "pos": "adj.",
+        "zh": "有权享有的",
+        "example": "Part-timers are entitled to the same holidays.",
+        "emoji": "🎟️",
+        "cefr": "C1"
+      },
+      {
+        "word": "grievance",
+        "ipa": "/ˈgriːvəns/",
+        "pos": "n.",
+        "zh": "申诉；不满",
+        "example": "The grievance cites unpaid overtime.",
+        "emoji": "📄",
+        "cefr": "C1"
+      },
+      {
+        "word": "arbiter",
+        "ipa": "/ˈɑːbɪtə/",
+        "pos": "n.",
+        "zh": "仲裁人；权威",
+        "example": "An independent arbiter heard both sides.",
+        "emoji": "🧑‍⚖️",
+        "cefr": "C2"
+      },
+      {
+        "word": "guild",
+        "ipa": "/gɪld/",
+        "pos": "n.",
+        "zh": "行会；公会",
+        "example": "The printers guild dates from 1602.",
+        "emoji": "🏛️",
+        "cefr": "C2"
+      },
+      {
+        "word": "collective-bargaining",
+        "ipa": "/kəˈlektɪv ˈbɑːgənɪŋ/",
+        "pos": "n.",
+        "zh": "集体谈判",
+        "example": "Collective-bargaining rounds open each spring.",
+        "emoji": "🤝",
+        "cefr": "C2"
+      },
+      {
+        "word": "maternity",
+        "ipa": "/məˈtɜːnəti/",
+        "pos": "n./adj.",
+        "zh": "产假；产妇的",
+        "example": "Maternity leave lasts twenty-six weeks here.",
+        "emoji": "🤰",
+        "cefr": "C1"
+      },
+      {
+        "word": "paternity",
+        "ipa": "/pəˈtɜːnəti/",
+        "pos": "n./adj.",
+        "zh": "陪产假；父亲的",
+        "example": "Paternity pay doubled this year.",
+        "emoji": "👶",
+        "cefr": "C1"
+      },
+      {
+        "word": "harassment",
+        "ipa": "/həˈræsmənt/",
+        "pos": "n.",
+        "zh": "骚扰",
+        "example": "Zero tolerance covers all harassment.",
+        "emoji": "🚫",
+        "cefr": "C1"
+      },
+      {
+        "word": "induct",
+        "ipa": "/ɪnˈdʌkt/",
+        "pos": "v.",
+        "zh": "使正式就任；引导入职",
+        "example": "HR inducts every hire on Monday.",
+        "emoji": "🚪",
+        "cefr": "C2"
+      },
+      {
+        "word": "staffing",
+        "ipa": "/ˈstɑːfɪŋ/",
+        "pos": "n.",
+        "zh": "人员配置",
+        "example": "Weekend staffing remains the sore spot.",
+        "emoji": "📋",
+        "cefr": "C1"
+      },
+      {
+        "word": "collective bargaining",
+        "ipa": "/kəˌlektɪv ˈbɑːɡənɪŋ/",
+        "pos": "n.",
+        "zh": "集体谈判",
+        "example": "Wages rose through collective bargaining.",
+        "emoji": "🤝",
+        "cefr": "C2"
+      },
+      {
+        "word": "tribunal",
+        "ipa": "/traɪˈbjuːnl/",
+        "pos": "n.",
+        "zh": "仲裁庭",
+        "example": "The tribunal ruled in her favour.",
+        "emoji": "⚖️",
+        "cefr": "C1"
+      },
+      {
+        "word": "whistle-blower",
+        "ipa": "/ˈwɪslbləʊə(r)/",
+        "pos": "n.",
+        "zh": "举报人",
+        "example": "The whistle-blower exposed the fraud.",
+        "emoji": "📣",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_jobs"
+  },
+  {
+    "id": "l9_law_court",
+    "title": "诉讼程序",
     "emoji": "🏛️",
-    "cefr": "C2"
-   },
-   {
-    "word": "collective-bargaining",
-    "ipa": "/kəˈlektɪv ˈbɑːgənɪŋ/",
-    "pos": "n.",
-    "zh": "集体谈判",
-    "example": "Collective-bargaining rounds open each spring.",
-    "emoji": "🤝",
-    "cefr": "C2"
-   },
-   {
-    "word": "maternity",
-    "ipa": "/məˈtɜːnəti/",
-    "pos": "n./adj.",
-    "zh": "产假；产妇的",
-    "example": "Maternity leave lasts twenty-six weeks here.",
-    "emoji": "🤰",
-    "cefr": "C1"
-   },
-   {
-    "word": "paternity",
-    "ipa": "/pəˈtɜːnəti/",
-    "pos": "n./adj.",
-    "zh": "陪产假；父亲的",
-    "example": "Paternity pay doubled this year.",
-    "emoji": "👶",
-    "cefr": "C1"
-   },
-   {
-    "word": "harassment",
-    "ipa": "/həˈræsmənt/",
-    "pos": "n.",
-    "zh": "骚扰",
-    "example": "Zero tolerance covers all harassment.",
-    "emoji": "🚫",
-    "cefr": "C1"
-   },
-   {
-    "word": "induct",
-    "ipa": "/ɪnˈdʌkt/",
-    "pos": "v.",
-    "zh": "使正式就任；引导入职",
-    "example": "HR inducts every hire on Monday.",
-    "emoji": "🚪",
-    "cefr": "C2"
-   },
-   {
-    "word": "staffing",
-    "ipa": "/ˈstɑːfɪŋ/",
-    "pos": "n.",
-    "zh": "人员配置",
-    "example": "Weekend staffing remains the sore spot.",
-    "emoji": "📋",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l9_law_court",
-  "title": "诉讼程序",
-  "emoji": "🏛️",
-  "words": [
-   {
-    "word": "proceedings",
-    "ipa": "/prəˈsiːdɪŋz/",
-    "pos": "n.",
-    "zh": "诉讼程序；进程",
-    "example": "Criminal proceedings opened in March.",
-    "emoji": "🏛️",
-    "cefr": "C1"
-   },
-   {
-    "word": "forum",
-    "ipa": "/ˈfɔːrəm/",
-    "pos": "n.",
-    "zh": "法庭；论坛",
-    "example": "The contract names a single forum.",
-    "emoji": "🗺️",
-    "cefr": "C2"
-   },
-   {
-    "word": "appellate",
-    "ipa": "/əˈpelət/",
-    "pos": "adj.",
-    "zh": "上诉的",
-    "example": "The appellate court reversed the fine.",
-    "emoji": "↩️",
-    "cefr": "C2"
-   },
-   {
-    "word": "ruling",
-    "ipa": "/ˈruːlɪŋ/",
-    "pos": "n.",
-    "zh": "裁定；规定",
-    "example": "The ruling stunned both chambers.",
-    "emoji": "⚖️",
-    "cefr": "C1"
-   },
-   {
-    "word": "sworn",
-    "ipa": "/swɔːn/",
-    "pos": "adj.",
-    "zh": "宣誓过的",
-    "example": "Sworn statements carry extra weight.",
-    "emoji": "🤚",
-    "cefr": "C2"
-   },
-   {
-    "word": "subpoena",
-    "ipa": "/səˈpiːnə/",
-    "pos": "n.",
-    "zh": "传票",
-    "example": "A subpoena summoned the accountant.",
-    "emoji": "📨",
-    "cefr": "C2"
-   },
-   {
-    "word": "cross-examine",
-    "ipa": "/ˌkrɒs ɪgˈzæmɪn/",
-    "pos": "v.",
-    "zh": "盘问；交叉询问",
-    "example": "The lawyer cross-examined for two hours.",
-    "emoji": "⚔️",
-    "cefr": "C2"
-   },
-   {
-    "word": "probate",
-    "ipa": "/ˈprəʊbeɪt/",
-    "pos": "n.",
-    "zh": "遗嘱认证",
-    "example": "Probate cleared by early summer.",
-    "emoji": "📜",
-    "cefr": "C2"
-   },
-   {
-    "word": "inquest",
-    "ipa": "/ˈɪŋkwest/",
-    "pos": "n.",
-    "zh": "死因研讯",
-    "example": "The inquest recorded misadventure.",
-    "emoji": "🕯️",
-    "cefr": "C2"
-   },
-   {
-    "word": "ordinance",
-    "ipa": "/ˈɔːdɪnəns/",
-    "pos": "n.",
-    "zh": "条例；法令",
-    "example": "A city ordinance bans rooftop beehives.",
-    "emoji": "🗞️",
-    "cefr": "C2"
-   },
-   {
-    "word": "jurisprudence",
-    "ipa": "/ˌdʒʊərɪsˈpruːdns/",
-    "pos": "n.",
-    "zh": "法理学；判例学说",
-    "example": "Nineteenth-century jurisprudence still echoes here.",
-    "emoji": "📙",
-    "cefr": "C2"
-   },
-   {
-    "word": "inadmissible",
-    "ipa": "/ˌɪnədˈmɪsəbl/",
-    "pos": "adj.",
-    "zh": "不被采纳的（证据）",
-    "example": "The tape was ruled inadmissible.",
-    "emoji": "🚫",
-    "cefr": "C2"
-   }
-  ]
- },
- {
-  "id": "l9_gov_csr",
-  "title": "社会责任与可持续治理",
-  "emoji": "🌱",
-  "words": [
-   {
-    "word": "viability",
-    "ipa": "/ˌvaɪəˈbɪləti/",
-    "pos": "n.",
-    "zh": "可行性；存续能力",
-    "example": "Long-term viability outranks quick wins.",
+    "words": [
+      {
+        "word": "proceedings",
+        "ipa": "/prəˈsiːdɪŋz/",
+        "pos": "n.",
+        "zh": "诉讼程序；进程",
+        "example": "Criminal proceedings opened in March.",
+        "emoji": "🏛️",
+        "cefr": "C1"
+      },
+      {
+        "word": "forum",
+        "ipa": "/ˈfɔːrəm/",
+        "pos": "n.",
+        "zh": "法庭；论坛",
+        "example": "The contract names a single forum.",
+        "emoji": "🗺️",
+        "cefr": "C2"
+      },
+      {
+        "word": "appellate",
+        "ipa": "/əˈpelət/",
+        "pos": "adj.",
+        "zh": "上诉的",
+        "example": "The appellate court reversed the fine.",
+        "emoji": "↩️",
+        "cefr": "C2"
+      },
+      {
+        "word": "ruling",
+        "ipa": "/ˈruːlɪŋ/",
+        "pos": "n.",
+        "zh": "裁定；规定",
+        "example": "The ruling stunned both chambers.",
+        "emoji": "⚖️",
+        "cefr": "C1"
+      },
+      {
+        "word": "sworn",
+        "ipa": "/swɔːn/",
+        "pos": "adj.",
+        "zh": "宣誓过的",
+        "example": "Sworn statements carry extra weight.",
+        "emoji": "🤚",
+        "cefr": "C2"
+      },
+      {
+        "word": "subpoena",
+        "ipa": "/səˈpiːnə/",
+        "pos": "n.",
+        "zh": "传票",
+        "example": "A subpoena summoned the accountant.",
+        "emoji": "📨",
+        "cefr": "C2"
+      },
+      {
+        "word": "cross-examine",
+        "ipa": "/ˌkrɒs ɪgˈzæmɪn/",
+        "pos": "v.",
+        "zh": "盘问；交叉询问",
+        "example": "The lawyer cross-examined for two hours.",
+        "emoji": "⚔️",
+        "cefr": "C2"
+      },
+      {
+        "word": "probate",
+        "ipa": "/ˈprəʊbeɪt/",
+        "pos": "n.",
+        "zh": "遗嘱认证",
+        "example": "Probate cleared by early summer.",
+        "emoji": "📜",
+        "cefr": "C2"
+      },
+      {
+        "word": "inquest",
+        "ipa": "/ˈɪŋkwest/",
+        "pos": "n.",
+        "zh": "死因研讯",
+        "example": "The inquest recorded misadventure.",
+        "emoji": "🕯️",
+        "cefr": "C2"
+      },
+      {
+        "word": "ordinance",
+        "ipa": "/ˈɔːdɪnəns/",
+        "pos": "n.",
+        "zh": "条例；法令",
+        "example": "A city ordinance bans rooftop beehives.",
+        "emoji": "🗞️",
+        "cefr": "C2"
+      },
+      {
+        "word": "jurisprudence",
+        "ipa": "/ˌdʒʊərɪsˈpruːdns/",
+        "pos": "n.",
+        "zh": "法理学；判例学说",
+        "example": "Nineteenth-century jurisprudence still echoes here.",
+        "emoji": "📙",
+        "cefr": "C2"
+      },
+      {
+        "word": "inadmissible",
+        "ipa": "/ˌɪnədˈmɪsəbl/",
+        "pos": "adj.",
+        "zh": "不被采纳的（证据）",
+        "example": "The tape was ruled inadmissible.",
+        "emoji": "🚫",
+        "cefr": "C2"
+      },
+      {
+        "word": "arraignment",
+        "ipa": "/əˈreɪnmənt/",
+        "pos": "n.",
+        "zh": "提审",
+        "example": "The arraignment is scheduled for Monday.",
+        "emoji": "🏛️",
+        "cefr": "C2"
+      },
+      {
+        "word": "recusal",
+        "ipa": "/rɪˈkjuːzl/",
+        "pos": "n.",
+        "zh": "回避",
+        "example": "The judge's recusal was accepted.",
+        "emoji": "🚫",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_safety"
+  },
+  {
+    "id": "l9_gov_csr",
+    "title": "社会责任与可持续治理",
     "emoji": "🌱",
-    "cefr": "C2"
-   },
-   {
-    "word": "constituency",
-    "ipa": "/kənˈstɪtjuənsi/",
-    "pos": "n.",
-    "zh": "选区；支持群体",
-    "example": "Every decision answers a constituency.",
-    "emoji": "🗳️",
-    "cefr": "C2"
-   },
-   {
-    "word": "benefactor",
-    "ipa": "/ˈbenɪfæktə/",
-    "pos": "n.",
-    "zh": "捐助人；恩人",
-    "example": "An anonymous benefactor rebuilt the gym.",
-    "emoji": "🫶",
-    "cefr": "C2"
-   },
-   {
-    "word": "voluntary",
-    "ipa": "/ˈvɒləntri/",
-    "pos": "adj.",
-    "zh": "自愿的；志愿的",
-    "example": "Voluntary disclosures build quiet trust.",
-    "emoji": "🙌",
-    "cefr": "B2"
-   },
-   {
-    "word": "carbon-offset",
-    "ipa": "/ˈkɑːbən ɒfset/",
-    "pos": "n.",
-    "zh": "碳抵消",
-    "example": "The airline sells carbon-offset at checkout.",
-    "emoji": "🌳",
-    "cefr": "C1"
-   },
-   {
-    "word": "decarbonise",
-    "ipa": "/ˌdiːˈkɑːbənaɪz/",
-    "pos": "v.",
-    "zh": "脱碳；去碳化",
-    "example": "Steelmakers race to decarbonise by 2040.",
-    "emoji": "🍃",
-    "cefr": "C2"
-   },
-   {
-    "word": "stewardship",
-    "ipa": "/ˈstjuːədʃɪp/",
-    "pos": "n.",
-    "zh": "管治责任；管家意识",
-    "example": "Stewardship beats short-term raiding.",
-    "emoji": "🧹",
-    "cefr": "C2"
-   },
-   {
-    "word": "charter",
-    "ipa": "/ˈtʃɑːtə/",
-    "pos": "n./v.",
-    "zh": "章程；特许",
-    "example": "The charter binds all four subsidiaries.",
-    "emoji": "📜",
-    "cefr": "C1"
-   },
-   {
-    "word": "watchdog",
-    "ipa": "/ˈwɒtʃdɒg/",
-    "pos": "n.",
-    "zh": "监督机构",
-    "example": "A new watchdog reviews ad claims.",
-    "emoji": "🐕",
-    "cefr": "C1"
-   },
-   {
-    "word": "scruple",
-    "ipa": "/ˈskruːpl/",
-    "pos": "n.",
-    "zh": "顾忌；道德顾虑",
-    "example": "He acted without a single scruple.",
-    "emoji": "🧭",
-    "cefr": "C2"
-   },
-   {
-    "word": "plea",
-    "ipa": "/pliː/",
-    "pos": "n.",
-    "zh": "恳求；抗辩",
-    "example": "The mayor ignored every plea.",
-    "emoji": "🙏",
-    "cefr": "C1"
-   },
-   {
-    "word": "crusade",
-    "ipa": "/kruːˈseɪd/",
-    "pos": "n.",
-    "zh": "（长期）运动；奋斗",
-    "example": "Her crusade for cycle lanes succeeded.",
-    "emoji": "🚲",
-    "cefr": "C2"
-   }
-  ]
- }
+    "words": [
+      {
+        "word": "viability",
+        "ipa": "/ˌvaɪəˈbɪləti/",
+        "pos": "n.",
+        "zh": "可行性；存续能力",
+        "example": "Long-term viability outranks quick wins.",
+        "emoji": "🌱",
+        "cefr": "C2"
+      },
+      {
+        "word": "constituency",
+        "ipa": "/kənˈstɪtjuənsi/",
+        "pos": "n.",
+        "zh": "选区；支持群体",
+        "example": "Every decision answers a constituency.",
+        "emoji": "🗳️",
+        "cefr": "C2"
+      },
+      {
+        "word": "benefactor",
+        "ipa": "/ˈbenɪfæktə/",
+        "pos": "n.",
+        "zh": "捐助人；恩人",
+        "example": "An anonymous benefactor rebuilt the gym.",
+        "emoji": "🫶",
+        "cefr": "C2"
+      },
+      {
+        "word": "voluntary",
+        "ipa": "/ˈvɒləntri/",
+        "pos": "adj.",
+        "zh": "自愿的；志愿的",
+        "example": "Voluntary disclosures build quiet trust.",
+        "emoji": "🙌",
+        "cefr": "B2"
+      },
+      {
+        "word": "carbon-offset",
+        "ipa": "/ˈkɑːbən ɒfset/",
+        "pos": "n.",
+        "zh": "碳抵消",
+        "example": "The airline sells carbon-offset at checkout.",
+        "emoji": "🌳",
+        "cefr": "C1"
+      },
+      {
+        "word": "decarbonise",
+        "ipa": "/ˌdiːˈkɑːbənaɪz/",
+        "pos": "v.",
+        "zh": "脱碳；去碳化",
+        "example": "Steelmakers race to decarbonise by 2040.",
+        "emoji": "🍃",
+        "cefr": "C2"
+      },
+      {
+        "word": "stewardship",
+        "ipa": "/ˈstjuːədʃɪp/",
+        "pos": "n.",
+        "zh": "管治责任；管家意识",
+        "example": "Stewardship beats short-term raiding.",
+        "emoji": "🧹",
+        "cefr": "C2"
+      },
+      {
+        "word": "charter",
+        "ipa": "/ˈtʃɑːtə/",
+        "pos": "n./v.",
+        "zh": "章程；特许",
+        "example": "The charter binds all four subsidiaries.",
+        "emoji": "📜",
+        "cefr": "C1"
+      },
+      {
+        "word": "watchdog",
+        "ipa": "/ˈwɒtʃdɒg/",
+        "pos": "n.",
+        "zh": "监督机构",
+        "example": "A new watchdog reviews ad claims.",
+        "emoji": "🐕",
+        "cefr": "C1"
+      },
+      {
+        "word": "scruple",
+        "ipa": "/ˈskruːpl/",
+        "pos": "n.",
+        "zh": "顾忌；道德顾虑",
+        "example": "He acted without a single scruple.",
+        "emoji": "🧭",
+        "cefr": "C2"
+      },
+      {
+        "word": "plea",
+        "ipa": "/pliː/",
+        "pos": "n.",
+        "zh": "恳求；抗辩",
+        "example": "The mayor ignored every plea.",
+        "emoji": "🙏",
+        "cefr": "C1"
+      },
+      {
+        "word": "crusade",
+        "ipa": "/kruːˈseɪd/",
+        "pos": "n.",
+        "zh": "（长期）运动；奋斗",
+        "example": "Her crusade for cycle lanes succeeded.",
+        "emoji": "🚲",
+        "cefr": "C2"
+      },
+      {
+        "word": "greenwashing",
+        "ipa": "/ˈɡriːnwɒʃɪŋ/",
+        "pos": "n.",
+        "zh": "漂绿",
+        "example": "Critics called the ad greenwashing.",
+        "emoji": "🎨",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_jobs"
+  }
 ]

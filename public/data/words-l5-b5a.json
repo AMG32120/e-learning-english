@@ -1,1727 +1,2003 @@
 [
- {
-  "id": "l5e_abstract_concepts",
-  "title": "抽象概念",
-  "emoji": "💭",
-  "words": [
-   {
-    "word": "dichotomy",
-    "ipa": "/daɪˈkɒtəmi/",
-    "pos": "n.",
-    "zh": "二分；对立",
-    "example": "The mind-body dichotomy still shapes medicine.",
-    "emoji": "🔀",
-    "cefr": "C1"
-   },
-   {
-    "word": "conundrum",
-    "ipa": "/kəˈnʌndrəm/",
-    "pos": "n.",
-    "zh": "难题；复杂问题",
-    "example": "Pricing free apps is a real conundrum.",
-    "emoji": "🧩",
-    "cefr": "C1"
-   },
-   {
-    "word": "essence",
-    "ipa": "/ˈesns/",
-    "pos": "n.",
-    "zh": "本质；精髓",
-    "example": "Time is the essence of a good contract.",
-    "emoji": "💧",
-    "cefr": "B2"
-   },
-   {
-    "word": "occurrence",
-    "ipa": "/əˈkʌrəns/",
-    "pos": "n.",
-    "zh": "发生；出现",
-    "example": "Blackouts became a daily occurrence in May.",
-    "emoji": "📅",
-    "cefr": "B2"
-   },
-   {
-    "word": "construct",
-    "ipa": "/ˈkɒnstrʌkt/",
-    "pos": "n./v.",
-    "zh": "构想；建构",
-    "example": "Intelligence is a social construct, some argue.",
-    "emoji": "🏗️",
-    "cefr": "C1"
-   },
-   {
-    "word": "facet",
-    "ipa": "/ˈfæsɪt/",
-    "pos": "n.",
-    "zh": "方面；侧面",
-    "example": "Each facet of the plan needs a budget.",
-    "emoji": "💎",
-    "cefr": "C1"
-   },
-   {
-    "word": "magnitude",
-    "ipa": "/ˈmæɡnɪtjuːd/",
-    "pos": "n.",
-    "zh": "量级；震级；巨大",
-    "example": "Few grasped the magnitude of the leak.",
-    "emoji": "📐",
-    "cefr": "C1"
-   },
-   {
-    "word": "abstraction",
-    "ipa": "/æbˈstrækʃn/",
-    "pos": "n.",
-    "zh": "抽象（化）",
-    "example": "Layers of abstraction hide the messy details.",
-    "emoji": "🌫️",
-    "cefr": "C1"
-   },
-   {
-    "word": "conception",
-    "ipa": "/kənˈsepʃn/",
-    "pos": "n.",
-    "zh": "概念；构想；受孕",
-    "example": "The project changed from its first conception.",
-    "emoji": "💡",
-    "cefr": "C1"
-   },
-   {
-    "word": "tenet",
-    "ipa": "/ˈtenɪt/",
-    "pos": "n.",
-    "zh": "信条；原则",
-    "example": "Fairness is the core tenet of the code.",
-    "emoji": "📜",
-    "cefr": "C1"
-   },
-   {
-    "word": "ambiguity",
-    "ipa": "/ˌæmbɪˈɡjuːəti/",
-    "pos": "n.",
-    "zh": "歧义；模棱两可",
-    "example": "Strategic ambiguity suits some negotiators.",
-    "emoji": "❓",
-    "cefr": "C1"
-   },
-   {
-    "word": "polarity",
-    "ipa": "/pəˈlærəti/",
-    "pos": "n.",
-    "zh": "两极；极性",
-    "example": "The debate hardened into sharp polarity.",
-    "emoji": "🧲",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_intense_emotions",
-  "title": "强烈情绪",
-  "emoji": "🌋",
-  "words": [
-   {
-    "word": "outrage",
-    "ipa": "/ˈaʊtreɪdʒ/",
-    "pos": "n.",
-    "zh": "愤怒；义愤",
-    "example": "The verdict sparked public outrage.",
-    "emoji": "😡",
-    "cefr": "B2"
-   },
-   {
-    "word": "resentment",
-    "ipa": "/rɪˈzentmənt/",
-    "pos": "n.",
-    "zh": "怨恨",
-    "example": "Quiet resentment built over unpaid weekends.",
-    "emoji": "🤐",
-    "cefr": "C1"
-   },
-   {
-    "word": "despair",
-    "ipa": "/dɪˈspeə/",
-    "pos": "n.",
-    "zh": "绝望",
-    "example": "Rescue teams refused to despair.",
-    "emoji": "🕳️",
-    "cefr": "B2"
-   },
-   {
-    "word": "ecstasy",
-    "ipa": "/ˈekstəsi/",
-    "pos": "n.",
-    "zh": "狂喜",
-    "example": "The winning goal sent fans into ecstasy.",
-    "emoji": "🤩",
-    "cefr": "C1"
-   },
-   {
-    "word": "panic",
-    "ipa": "/ˈpænɪk/",
-    "pos": "n./v.",
-    "zh": "恐慌",
-    "example": "Don't panic; follow the exit signs.",
-    "emoji": "😱",
-    "cefr": "B2"
-   },
-   {
-    "word": "hostility",
-    "ipa": "/hɒˈstɪləti/",
-    "pos": "n.",
-    "zh": "敌意",
-    "example": "Open hostility ended the partnership.",
-    "emoji": "⚔️",
-    "cefr": "C1"
-   },
-   {
-    "word": "admiration",
-    "ipa": "/ˌædməˈreɪʃn/",
-    "pos": "n.",
-    "zh": "钦佩",
-    "example": "Her composure earned universal admiration.",
+  {
+    "id": "l5e_abstract_concepts",
+    "title": "抽象概念",
+    "emoji": "💭",
+    "words": [
+      {
+        "word": "dichotomy",
+        "ipa": "/daɪˈkɒtəmi/",
+        "pos": "n.",
+        "zh": "二分；对立",
+        "example": "The mind-body dichotomy still shapes medicine.",
+        "emoji": "🔀",
+        "cefr": "C1"
+      },
+      {
+        "word": "conundrum",
+        "ipa": "/kəˈnʌndrəm/",
+        "pos": "n.",
+        "zh": "难题；复杂问题",
+        "example": "Pricing free apps is a real conundrum.",
+        "emoji": "🧩",
+        "cefr": "C1"
+      },
+      {
+        "word": "essence",
+        "ipa": "/ˈesns/",
+        "pos": "n.",
+        "zh": "本质；精髓",
+        "example": "Time is the essence of a good contract.",
+        "emoji": "💧",
+        "cefr": "B2"
+      },
+      {
+        "word": "occurrence",
+        "ipa": "/əˈkʌrəns/",
+        "pos": "n.",
+        "zh": "发生；出现",
+        "example": "Blackouts became a daily occurrence in May.",
+        "emoji": "📅",
+        "cefr": "B2"
+      },
+      {
+        "word": "construct",
+        "ipa": "/ˈkɒnstrʌkt/",
+        "pos": "n./v.",
+        "zh": "构想；建构",
+        "example": "Intelligence is a social construct, some argue.",
+        "emoji": "🏗️",
+        "cefr": "C1"
+      },
+      {
+        "word": "facet",
+        "ipa": "/ˈfæsɪt/",
+        "pos": "n.",
+        "zh": "方面；侧面",
+        "example": "Each facet of the plan needs a budget.",
+        "emoji": "💎",
+        "cefr": "C1"
+      },
+      {
+        "word": "magnitude",
+        "ipa": "/ˈmæɡnɪtjuːd/",
+        "pos": "n.",
+        "zh": "量级；震级；巨大",
+        "example": "Few grasped the magnitude of the leak.",
+        "emoji": "📐",
+        "cefr": "C1"
+      },
+      {
+        "word": "abstraction",
+        "ipa": "/æbˈstrækʃn/",
+        "pos": "n.",
+        "zh": "抽象（化）",
+        "example": "Layers of abstraction hide the messy details.",
+        "emoji": "🌫️",
+        "cefr": "C1"
+      },
+      {
+        "word": "conception",
+        "ipa": "/kənˈsepʃn/",
+        "pos": "n.",
+        "zh": "概念；构想；受孕",
+        "example": "The project changed from its first conception.",
+        "emoji": "💡",
+        "cefr": "C1"
+      },
+      {
+        "word": "tenet",
+        "ipa": "/ˈtenɪt/",
+        "pos": "n.",
+        "zh": "信条；原则",
+        "example": "Fairness is the core tenet of the code.",
+        "emoji": "📜",
+        "cefr": "C1"
+      },
+      {
+        "word": "ambiguity",
+        "ipa": "/ˌæmbɪˈɡjuːəti/",
+        "pos": "n.",
+        "zh": "歧义；模棱两可",
+        "example": "Strategic ambiguity suits some negotiators.",
+        "emoji": "❓",
+        "cefr": "C1"
+      },
+      {
+        "word": "polarity",
+        "ipa": "/pəˈlærəti/",
+        "pos": "n.",
+        "zh": "两极；极性",
+        "example": "The debate hardened into sharp polarity.",
+        "emoji": "🧲",
+        "cefr": "C1"
+      },
+      {
+        "word": "totality",
+        "ipa": "/təʊˈtæləti/",
+        "pos": "n.",
+        "zh": "总体",
+        "example": "The totality of evidence points one way.",
+        "emoji": "🌌",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_adjectives"
+  },
+  {
+    "id": "l5e_intense_emotions",
+    "title": "强烈情绪",
+    "emoji": "🌋",
+    "words": [
+      {
+        "word": "outrage",
+        "ipa": "/ˈaʊtreɪdʒ/",
+        "pos": "n.",
+        "zh": "愤怒；义愤",
+        "example": "The verdict sparked public outrage.",
+        "emoji": "😡",
+        "cefr": "B2"
+      },
+      {
+        "word": "resentment",
+        "ipa": "/rɪˈzentmənt/",
+        "pos": "n.",
+        "zh": "怨恨",
+        "example": "Quiet resentment built over unpaid weekends.",
+        "emoji": "🤐",
+        "cefr": "C1"
+      },
+      {
+        "word": "despair",
+        "ipa": "/dɪˈspeə/",
+        "pos": "n.",
+        "zh": "绝望",
+        "example": "Rescue teams refused to despair.",
+        "emoji": "🕳️",
+        "cefr": "B2"
+      },
+      {
+        "word": "ecstasy",
+        "ipa": "/ˈekstəsi/",
+        "pos": "n.",
+        "zh": "狂喜",
+        "example": "The winning goal sent fans into ecstasy.",
+        "emoji": "🤩",
+        "cefr": "C1"
+      },
+      {
+        "word": "panic",
+        "ipa": "/ˈpænɪk/",
+        "pos": "n./v.",
+        "zh": "恐慌",
+        "example": "Don't panic; follow the exit signs.",
+        "emoji": "😱",
+        "cefr": "B2"
+      },
+      {
+        "word": "hostility",
+        "ipa": "/hɒˈstɪləti/",
+        "pos": "n.",
+        "zh": "敌意",
+        "example": "Open hostility ended the partnership.",
+        "emoji": "⚔️",
+        "cefr": "C1"
+      },
+      {
+        "word": "admiration",
+        "ipa": "/ˌædməˈreɪʃn/",
+        "pos": "n.",
+        "zh": "钦佩",
+        "example": "Her composure earned universal admiration.",
+        "emoji": "🌟",
+        "cefr": "B2"
+      },
+      {
+        "word": "contempt",
+        "ipa": "/kənˈtempt/",
+        "pos": "n.",
+        "zh": "轻蔑",
+        "example": "He treated the rules with open contempt.",
+        "emoji": "👃",
+        "cefr": "C1"
+      },
+      {
+        "word": "euphoria",
+        "ipa": "/juːˈfɔːriə/",
+        "pos": "n.",
+        "zh": "极度愉快",
+        "example": "Post-exam euphoria lasted a whole day.",
+        "emoji": "🎉",
+        "cefr": "C1"
+      },
+      {
+        "word": "anguish",
+        "ipa": "/ˈæŋɡwɪʃ/",
+        "pos": "n.",
+        "zh": "极度痛苦",
+        "example": "The letter revealed years of silent anguish.",
+        "emoji": "💔",
+        "cefr": "C1"
+      },
+      {
+        "word": "remorse",
+        "ipa": "/rɪˈmɔːs/",
+        "pos": "n.",
+        "zh": "悔恨",
+        "example": "Real remorse matters more than apologies.",
+        "emoji": "😔",
+        "cefr": "C1"
+      },
+      {
+        "word": "vindication",
+        "ipa": "/ˌvɪndɪˈkeɪʃn/",
+        "pos": "n.",
+        "zh": "辩护成功；证明清白",
+        "example": "The acquittal felt like total vindication.",
+        "emoji": "🕊️",
+        "cefr": "C1"
+      },
+      {
+        "word": "frenzy",
+        "ipa": "/ˈfrenzi/",
+        "pos": "n.",
+        "zh": "疯狂，狂热",
+        "example": "Shoppers fell into a buying frenzy.",
+        "emoji": "🌀",
+        "cefr": "C1"
+      },
+      {
+        "word": "lament",
+        "ipa": "/ləˈment/",
+        "pos": "v./n.",
+        "zh": "悲叹",
+        "example": "The poem laments lost youth.",
+        "emoji": "😢",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_feelings"
+  },
+  {
+    "id": "l5e_positive_traits",
+    "title": "积极品质",
     "emoji": "🌟",
-    "cefr": "B2"
-   },
-   {
-    "word": "contempt",
-    "ipa": "/kənˈtempt/",
-    "pos": "n.",
-    "zh": "轻蔑",
-    "example": "He treated the rules with open contempt.",
-    "emoji": "👃",
-    "cefr": "C1"
-   },
-   {
-    "word": "euphoria",
-    "ipa": "/juːˈfɔːriə/",
-    "pos": "n.",
-    "zh": "极度愉快",
-    "example": "Post-exam euphoria lasted a whole day.",
-    "emoji": "🎉",
-    "cefr": "C1"
-   },
-   {
-    "word": "anguish",
-    "ipa": "/ˈæŋɡwɪʃ/",
-    "pos": "n.",
-    "zh": "极度痛苦",
-    "example": "The letter revealed years of silent anguish.",
-    "emoji": "💔",
-    "cefr": "C1"
-   },
-   {
-    "word": "remorse",
-    "ipa": "/rɪˈmɔːs/",
-    "pos": "n.",
-    "zh": "悔恨",
-    "example": "Real remorse matters more than apologies.",
-    "emoji": "😔",
-    "cefr": "C1"
-   },
-   {
-    "word": "vindication",
-    "ipa": "/ˌvɪndɪˈkeɪʃn/",
-    "pos": "n.",
-    "zh": "辩护成功；证明清白",
-    "example": "The acquittal felt like total vindication.",
-    "emoji": "🕊️",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_positive_traits",
-  "title": "积极品质",
-  "emoji": "🌟",
-  "words": [
-   {
-    "word": "diligence",
-    "ipa": "/ˈdɪlɪdʒəns/",
-    "pos": "n.",
-    "zh": "勤奋",
-    "example": "Diligence beat talent in the final rankings.",
-    "emoji": "🐝",
-    "cefr": "C1"
-   },
-   {
-    "word": "perseverance",
-    "ipa": "/ˌpɜːsɪˈvɪərəns/",
-    "pos": "n.",
-    "zh": "坚持不懈",
-    "example": "Perseverance carried her through 40 rejections.",
-    "emoji": "🧗",
-    "cefr": "C1"
-   },
-   {
-    "word": "frugality",
-    "ipa": "/fruːˈɡæləti/",
-    "pos": "n.",
-    "zh": "节俭",
-    "example": "Frugality funded their early retirement.",
-    "emoji": "🪙",
-    "cefr": "C1"
-   },
-   {
-    "word": "tact",
-    "ipa": "/tækt/",
-    "pos": "n.",
-    "zh": "圆通；得体",
-    "example": "Handle complaints with tact.",
-    "emoji": "🤝",
-    "cefr": "C1"
-   },
-   {
-    "word": "generosity",
-    "ipa": "/ˌdʒenəˈrɒsəti/",
-    "pos": "n.",
-    "zh": "慷慨",
-    "example": "Her generosity stocked the whole pantry.",
-    "emoji": "🎁",
-    "cefr": "B2"
-   },
-   {
-    "word": "patience",
-    "ipa": "/ˈpeɪʃns/",
-    "pos": "n.",
-    "zh": "耐心",
-    "example": "Kite flying teaches patience fast.",
-    "emoji": "🪁",
-    "cefr": "B2"
-   },
-   {
-    "word": "prudence",
-    "ipa": "/ˈpruːdns/",
-    "pos": "n.",
-    "zh": "审慎",
-    "example": "Prudence argues for a second opinion.",
-    "emoji": "🧐",
-    "cefr": "C1"
-   },
-   {
-    "word": "adaptability",
-    "ipa": "/əˌdæptəˈbɪləti/",
-    "pos": "n.",
-    "zh": "适应力",
-    "example": "Adaptability is the top skill employers cite.",
-    "emoji": "🦎",
-    "cefr": "C1"
-   },
-   {
-    "word": "resourcefulness",
-    "ipa": "/rɪˈsɔːsfəlnəs/",
-    "pos": "n.",
-    "zh": "机智；善用资源",
-    "example": "Resourcefulness fixed the tent in a storm.",
-    "emoji": "🛠️",
-    "cefr": "C1"
-   },
-   {
-    "word": "punctuality",
-    "ipa": "/ˌpʌŋktʃuˈæləti/",
-    "pos": "n.",
-    "zh": "守时",
-    "example": "Punctuality earns quiet respect.",
-    "emoji": "⏰",
-    "cefr": "C1"
-   },
-   {
-    "word": "discretion",
-    "ipa": "/dɪˈskreʃn/",
-    "pos": "n.",
-    "zh": "谨慎；斟酌决定权",
-    "example": "Use your discretion on refunds.",
-    "emoji": "🤫",
-    "cefr": "C1"
-   },
-   {
-    "word": "fidelity",
-    "ipa": "/fɪˈdeləti/",
-    "pos": "n.",
-    "zh": "忠诚；忠实",
-    "example": "His fidelity to the team never wavered.",
-    "emoji": "🫶",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_negative_traits",
-  "title": "消极特质",
-  "emoji": "🪞",
-  "words": [
-   {
-    "word": "vanity",
-    "ipa": "/ˈvænəti/",
-    "pos": "n.",
-    "zh": "虚荣",
-    "example": "Vanity drove the endless redesigns.",
+    "words": [
+      {
+        "word": "diligence",
+        "ipa": "/ˈdɪlɪdʒəns/",
+        "pos": "n.",
+        "zh": "勤奋",
+        "example": "Diligence beat talent in the final rankings.",
+        "emoji": "🐝",
+        "cefr": "C1"
+      },
+      {
+        "word": "perseverance",
+        "ipa": "/ˌpɜːsɪˈvɪərəns/",
+        "pos": "n.",
+        "zh": "坚持不懈",
+        "example": "Perseverance carried her through 40 rejections.",
+        "emoji": "🧗",
+        "cefr": "C1"
+      },
+      {
+        "word": "frugality",
+        "ipa": "/fruːˈɡæləti/",
+        "pos": "n.",
+        "zh": "节俭",
+        "example": "Frugality funded their early retirement.",
+        "emoji": "🪙",
+        "cefr": "C1"
+      },
+      {
+        "word": "tact",
+        "ipa": "/tækt/",
+        "pos": "n.",
+        "zh": "圆通；得体",
+        "example": "Handle complaints with tact.",
+        "emoji": "🤝",
+        "cefr": "C1"
+      },
+      {
+        "word": "generosity",
+        "ipa": "/ˌdʒenəˈrɒsəti/",
+        "pos": "n.",
+        "zh": "慷慨",
+        "example": "Her generosity stocked the whole pantry.",
+        "emoji": "🎁",
+        "cefr": "B2"
+      },
+      {
+        "word": "patience",
+        "ipa": "/ˈpeɪʃns/",
+        "pos": "n.",
+        "zh": "耐心",
+        "example": "Kite flying teaches patience fast.",
+        "emoji": "🪁",
+        "cefr": "B2"
+      },
+      {
+        "word": "prudence",
+        "ipa": "/ˈpruːdns/",
+        "pos": "n.",
+        "zh": "审慎",
+        "example": "Prudence argues for a second opinion.",
+        "emoji": "🧐",
+        "cefr": "C1"
+      },
+      {
+        "word": "adaptability",
+        "ipa": "/əˌdæptəˈbɪləti/",
+        "pos": "n.",
+        "zh": "适应力",
+        "example": "Adaptability is the top skill employers cite.",
+        "emoji": "🦎",
+        "cefr": "C1"
+      },
+      {
+        "word": "resourcefulness",
+        "ipa": "/rɪˈsɔːsfəlnəs/",
+        "pos": "n.",
+        "zh": "机智；善用资源",
+        "example": "Resourcefulness fixed the tent in a storm.",
+        "emoji": "🛠️",
+        "cefr": "C1"
+      },
+      {
+        "word": "punctuality",
+        "ipa": "/ˌpʌŋktʃuˈæləti/",
+        "pos": "n.",
+        "zh": "守时",
+        "example": "Punctuality earns quiet respect.",
+        "emoji": "⏰",
+        "cefr": "C1"
+      },
+      {
+        "word": "discretion",
+        "ipa": "/dɪˈskreʃn/",
+        "pos": "n.",
+        "zh": "谨慎；斟酌决定权",
+        "example": "Use your discretion on refunds.",
+        "emoji": "🤫",
+        "cefr": "C1"
+      },
+      {
+        "word": "fidelity",
+        "ipa": "/fɪˈdeləti/",
+        "pos": "n.",
+        "zh": "忠诚；忠实",
+        "example": "His fidelity to the team never wavered.",
+        "emoji": "🫶",
+        "cefr": "C1"
+      },
+      {
+        "word": "fortitude",
+        "ipa": "/ˈfɔːtɪtjuːd/",
+        "pos": "n.",
+        "zh": "坚韧",
+        "example": "She bore the loss with fortitude.",
+        "emoji": "🦾",
+        "cefr": "C2"
+      },
+      {
+        "word": "sagacity",
+        "ipa": "/səˈɡæsəti/",
+        "pos": "n.",
+        "zh": "睿智",
+        "example": "The elder's sagacity guided the village.",
+        "emoji": "🦉",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_adjectives"
+  },
+  {
+    "id": "l5e_negative_traits",
+    "title": "消极特质",
     "emoji": "🪞",
-    "cefr": "C1"
-   },
-   {
-    "word": "hypocrisy",
-    "ipa": "/hɪˈpɒkrəsi/",
-    "pos": "n.",
-    "zh": "虚伪",
-    "example": "Preaching green while flying private is pure hypocrisy.",
-    "emoji": "🎭",
-    "cefr": "C1"
-   },
-   {
-    "word": "cowardice",
-    "ipa": "/ˈkaʊədɪs/",
-    "pos": "n.",
-    "zh": "怯懦",
-    "example": "Silence here amounts to cowardice.",
-    "emoji": "🐔",
-    "cefr": "C1"
-   },
-   {
-    "word": "stubbornness",
-    "ipa": "/ˈstʌbənnəs/",
-    "pos": "n.",
-    "zh": "固执",
-    "example": "His stubbornness doubled the delay.",
-    "emoji": "🐂",
-    "cefr": "C1"
-   },
-   {
-    "word": "greed",
-    "ipa": "/ɡriːd/",
-    "pos": "n.",
-    "zh": "贪婪",
-    "example": "Greed wrote the worst clauses.",
-    "emoji": "💰",
-    "cefr": "B2"
-   },
-   {
-    "word": "laziness",
-    "ipa": "/ˈleɪzinəs/",
-    "pos": "n.",
-    "zh": "懒惰",
-    "example": "Automation rewards laziness that thinks ahead.",
-    "emoji": "🦥",
-    "cefr": "B2"
-   },
-   {
-    "word": "conceit",
-    "ipa": "/kənˈsiːt/",
-    "pos": "n.",
-    "zh": "自负",
-    "example": "Conceit blinded the whole board.",
-    "emoji": "😤",
-    "cefr": "C1"
-   },
-   {
-    "word": "envy",
-    "ipa": "/ˈenvi/",
-    "pos": "n./v.",
-    "zh": "嫉妒；羡慕",
-    "example": "Envy shrinks your own runway.",
-    "emoji": "🟢",
-    "cefr": "B2"
-   },
-   {
-    "word": "impatience",
-    "ipa": "/ɪmˈpeɪʃns/",
-    "pos": "n.",
-    "zh": "不耐烦",
-    "example": "Impatience ruined the risotto.",
-    "emoji": "⏱️",
-    "cefr": "B2"
-   },
-   {
-    "word": "recklessness",
-    "ipa": "/ˈrekləsnəs/",
-    "pos": "n.",
-    "zh": "鲁莽",
-    "example": "Recklessness at speed costs lives.",
-    "emoji": "🏎️",
-    "cefr": "C1"
-   },
-   {
-    "word": "gullibility",
-    "ipa": "/ˌɡʌləˈbɪləti/",
-    "pos": "n.",
-    "zh": "易受骗",
-    "example": "Gullibility fuels every phone scam.",
-    "emoji": "🎣",
-    "cefr": "C1"
-   },
-   {
-    "word": "selfishness",
-    "ipa": "/ˈselfɪʃnəs/",
-    "pos": "n.",
-    "zh": "自私",
-    "example": "Selfishness surfaced when the queue formed.",
-    "emoji": "🙅",
-    "cefr": "B2"
-   }
-  ]
- },
- {
-  "id": "l5e_academic_adj_1",
-  "title": "学术形容词 I",
-  "emoji": "🎓",
-  "words": [
-   {
-    "word": "cogent",
-    "ipa": "/ˈkəʊdʒənt/",
-    "pos": "adj.",
-    "zh": "有说服力的",
-    "example": "A cogent case needs no shouting.",
-    "emoji": "🗣️",
-    "cefr": "C1"
-   },
-   {
-    "word": "salient",
-    "ipa": "/ˈseɪliənt/",
-    "pos": "adj.",
-    "zh": "显著的；突出的",
-    "example": "Lead with the salient points first.",
-    "emoji": "📌",
-    "cefr": "C1"
-   },
-   {
-    "word": "ubiquitous",
-    "ipa": "/juːˈbɪkwɪtəs/",
-    "pos": "adj.",
-    "zh": "无处不在的",
-    "example": "QR codes are ubiquitous now.",
-    "emoji": "🌐",
-    "cefr": "C1"
-   },
-   {
-    "word": "tangible",
-    "ipa": "/ˈtændʒəbl/",
-    "pos": "adj.",
-    "zh": "有形的；切实的",
-    "example": "Show tangible progress within a month.",
-    "emoji": "🤲",
-    "cefr": "C1"
-   },
-   {
-    "word": "intangible",
-    "ipa": "/ɪnˈtændʒəbl/",
-    "pos": "adj.",
-    "zh": "无形的",
-    "example": "Trust is intangible but priceless.",
-    "emoji": "💨",
-    "cefr": "C1"
-   },
-   {
-    "word": "profound",
-    "ipa": "/prəˈfaʊnd/",
-    "pos": "adj.",
-    "zh": "深刻的",
-    "example": "Printing had a profound effect on memory.",
-    "emoji": "🌊",
-    "cefr": "B2"
-   },
-   {
-    "word": "nuanced",
-    "ipa": "/ˈnjuːɑːnst/",
-    "pos": "adj.",
-    "zh": "细致微妙的",
-    "example": "A nuanced reading avoids easy blame.",
-    "emoji": "🎨",
-    "cefr": "C1"
-   },
-   {
-    "word": "paramount",
-    "ipa": "/ˈpærəmaʊnt/",
-    "pos": "adj.",
-    "zh": "至上的；首要的",
-    "example": "Safety is paramount on set.",
-    "emoji": "🛡️",
-    "cefr": "C1"
-   },
-   {
-    "word": "integral",
-    "ipa": "/ˈɪntɪɡrəl/",
-    "pos": "adj.",
-    "zh": "不可或缺的",
-    "example": "Feedback is integral to the design loop.",
-    "emoji": "🧩",
-    "cefr": "C1"
-   },
-   {
-    "word": "intrinsic",
-    "ipa": "/ɪnˈtrɪnzɪk/",
-    "pos": "adj.",
-    "zh": "内在的；固有的",
-    "example": "Curiosity is intrinsic to babies.",
-    "emoji": "🧬",
-    "cefr": "C1"
-   },
-   {
-    "word": "inconsistent",
-    "ipa": "/ˌɪnkənˈsɪstənt/",
-    "pos": "adj.",
-    "zh": "不一致的",
-    "example": "The witness gave inconsistent accounts.",
-    "emoji": "🔀",
-    "cefr": "B2"
-   },
-   {
-    "word": "compelling",
-    "ipa": "/kəmˈpelɪŋ/",
-    "pos": "adj.",
-    "zh": "令人信服的；引人入胜的",
-    "example": "Compelling evidence settled the debate.",
-    "emoji": "🧲",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_academic_adj_2",
-  "title": "学术形容词 II",
-  "emoji": "📐",
-  "words": [
-   {
-    "word": "feasible",
-    "ipa": "/ˈfiːzəbl/",
-    "pos": "adj.",
-    "zh": "可行的",
-    "example": "A July launch is feasible if hiring starts now.",
-    "emoji": "✅",
-    "cefr": "C1"
-   },
-   {
-    "word": "unavoidable",
-    "ipa": "/ˌʌnəˈvɔɪdəbl/",
-    "pos": "adj.",
-    "zh": "不可避免的",
-    "example": "Some overlap was unavoidable.",
-    "emoji": "🚧",
-    "cefr": "B2"
-   },
-   {
-    "word": "credible",
-    "ipa": "/ˈkredəbl/",
-    "pos": "adj.",
-    "zh": "可信的",
-    "example": "Only two sources were credible.",
-    "emoji": "🪪",
-    "cefr": "C1"
-   },
-   {
-    "word": "controversial",
-    "ipa": "/ˌkɒntrəˈvɜːʃl/",
-    "pos": "adj.",
-    "zh": "有争议的",
-    "example": "The controversial ruling divided readers.",
-    "emoji": "⚔️",
-    "cefr": "B2"
-   },
-   {
-    "word": "tentative",
-    "ipa": "/ˈtentətɪv/",
-    "pos": "adj.",
-    "zh": "试探性的；暂定的",
-    "example": "We hold a tentative date in June.",
-    "emoji": "🤏",
-    "cefr": "C1"
-   },
-   {
-    "word": "obscure",
-    "ipa": "/əbˈskjʊə/",
-    "pos": "adj./v.",
-    "zh": "晦涩的；使模糊",
-    "example": "Jargon obscures otherwise clear findings.",
-    "emoji": "🌫️",
-    "cefr": "C1"
-   },
-   {
-    "word": "legitimate",
-    "ipa": "/lɪˈdʒɪtɪmət/",
-    "pos": "adj.",
-    "zh": "合法的；正当的",
-    "example": "Both claims have legitimate grounds.",
-    "emoji": "📜",
-    "cefr": "C1"
-   },
-   {
-    "word": "viable",
-    "ipa": "/ˈvaɪəbl/",
-    "pos": "adj.",
-    "zh": "可存活的；可行的",
-    "example": "The startup stayed viable on 3 staff.",
-    "emoji": "🌱",
-    "cefr": "C1"
-   },
-   {
-    "word": "robust",
-    "ipa": "/rəʊˈbʌst/",
-    "pos": "adj.",
-    "zh": "稳健的；结实的",
-    "example": "A robust design tolerates bad inputs.",
-    "emoji": "💪",
-    "cefr": "C1"
-   },
-   {
-    "word": "redundant",
-    "ipa": "/rɪˈdʌndənt/",
-    "pos": "adj.",
-    "zh": "多余的；被裁员的",
-    "example": "Cut the redundant slides.",
-    "emoji": "✂️",
-    "cefr": "C1"
-   },
-   {
-    "word": "prevailing",
-    "ipa": "/prɪˈveɪlɪŋ/",
-    "pos": "adj.",
-    "zh": "盛行的",
-    "example": "The prevailing wind favours westbound sails.",
-    "emoji": "🌬️",
-    "cefr": "C1"
-   },
-   {
-    "word": "worthwhile",
-    "ipa": "/ˌwɜːθˈwaɪl/",
-    "pos": "adj.",
-    "zh": "值得做的",
-    "example": "Mentoring proved worthwhile for both sides.",
-    "emoji": "🏅",
-    "cefr": "B2"
-   }
-  ]
- },
- {
-  "id": "l5e_academic_verbs_1",
-  "title": "学术动词 I",
-  "emoji": "✒️",
-  "words": [
-   {
-    "word": "advocate",
-    "ipa": "/ˈædvəkeɪt/",
-    "pos": "v./n.",
-    "zh": "提倡；提倡者",
-    "example": "The paper advocates longer school hours.",
-    "emoji": "📢",
-    "cefr": "B2"
-   },
-   {
-    "word": "articulate",
-    "ipa": "/ɑːˈtɪkjuleɪt/",
-    "pos": "v.",
-    "zh": "清晰表达",
-    "example": "Articulate the goal in one sentence.",
-    "emoji": "🗣️",
-    "cefr": "C1"
-   },
-   {
-    "word": "ascribe",
-    "ipa": "/əˈskraɪb/",
-    "pos": "v.",
-    "zh": "归因于",
-    "example": "Historians ascribe the decline to climate shifts.",
-    "emoji": "🏷️",
-    "cefr": "C1"
-   },
-   {
-    "word": "compile",
-    "ipa": "/kəmˈpaɪl/",
-    "pos": "v.",
-    "zh": "汇编；编译",
-    "example": "Compile the survey results into one table.",
-    "emoji": "📚",
-    "cefr": "C1"
-   },
-   {
-    "word": "consolidate",
-    "ipa": "/kənˈsɒlɪdeɪt/",
-    "pos": "v.",
-    "zh": "整合；巩固",
-    "example": "Three offices consolidated into one hub.",
-    "emoji": "🧲",
-    "cefr": "C1"
-   },
-   {
-    "word": "curb",
-    "ipa": "/kɜːb/",
-    "pos": "v./n.",
-    "zh": "抑制；路边",
-    "example": "New rules curb late-night deliveries.",
-    "emoji": "🛑",
-    "cefr": "C1"
-   },
-   {
-    "word": "denote",
-    "ipa": "/dɪˈnəʊt/",
-    "pos": "v.",
-    "zh": "表示；标志着",
-    "example": "Red denotes danger on most maps.",
-    "emoji": "🔺",
-    "cefr": "C1"
-   },
-   {
-    "word": "elicit",
-    "ipa": "/ɪˈlɪsɪt/",
-    "pos": "v.",
-    "zh": "引出；诱发",
-    "example": "Open questions elicit richer answers.",
-    "emoji": "🎣",
-    "cefr": "C1"
-   },
-   {
-    "word": "embody",
-    "ipa": "/ɪmˈbɒdi/",
-    "pos": "v.",
-    "zh": "体现；具体化",
-    "example": "The pavilion embodies minimalist ideals.",
-    "emoji": "🏛️",
-    "cefr": "C1"
-   },
-   {
-    "word": "formulate",
-    "ipa": "/ˈfɔːmjuleɪt/",
-    "pos": "v.",
-    "zh": "制定；系统阐述",
-    "example": "Formulate the question before collecting data.",
-    "emoji": "🧪",
-    "cefr": "C1"
-   },
-   {
-    "word": "embed",
-    "ipa": "/ɪmˈbed/",
-    "pos": "v.",
-    "zh": "嵌入；深植",
-    "example": "Values embed best through daily rituals.",
-    "emoji": "🧱",
-    "cefr": "C1"
-   },
-   {
-    "word": "postulate",
-    "ipa": "/ˈpɒstʃuleɪt/",
-    "pos": "v./n.",
-    "zh": "假定；公设",
-    "example": "Einstein postulated a constant light speed.",
-    "emoji": "💡",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_academic_verbs_2",
-  "title": "学术动词 II",
-  "emoji": "🔬",
-  "words": [
-   {
-    "word": "substantiate",
-    "ipa": "/səbˈstænʃieɪt/",
-    "pos": "v.",
-    "zh": "证实；使具体化",
-    "example": "Documents substantiate every claim made.",
-    "emoji": "🧾",
-    "cefr": "C1"
-   },
-   {
-    "word": "underpin",
-    "ipa": "/ˌʌndəˈpɪn/",
-    "pos": "v.",
-    "zh": "支撑；构成基础",
-    "example": "Trust underpins every long contract.",
-    "emoji": "🏗️",
-    "cefr": "C1"
-   },
-   {
-    "word": "corroborate",
-    "ipa": "/kəˈrɒbəreɪt/",
-    "pos": "v.",
-    "zh": "佐证",
-    "example": "Phone records corroborate her timeline.",
-    "emoji": "🤝",
-    "cefr": "C1"
-   },
-   {
-    "word": "extrapolate",
-    "ipa": "/ɪkˈstræpəleɪt/",
-    "pos": "v.",
-    "zh": "外推；推断",
-    "example": "Extrapolate carefully beyond the data range.",
-    "emoji": "📈",
-    "cefr": "C1"
-   },
-   {
-    "word": "approximate",
-    "ipa": "/əˈprɒksɪmeɪt/",
-    "pos": "adj./v.",
-    "zh": "近似的；约计",
-    "example": "The approximate cost is 2,000 yuan.",
-    "emoji": "➗",
-    "cefr": "C1"
-   },
-   {
-    "word": "categorise",
-    "ipa": "/ˈkætəɡəraɪz/",
-    "pos": "v.",
-    "zh": "分类",
-    "example": "Categorise errors by root cause.",
-    "emoji": "🗂️",
-    "cefr": "C1"
-   },
-   {
-    "word": "delineate",
-    "ipa": "/dɪˈlɪnieɪt/",
-    "pos": "v.",
-    "zh": "勾画；界定",
-    "example": "The charter delineates each role clearly.",
-    "emoji": "✏️",
-    "cefr": "C1"
-   },
-   {
-    "word": "disseminate",
-    "ipa": "/dɪˈsemɪneɪt/",
-    "pos": "v.",
-    "zh": "传播；散布",
-    "example": "Findings disseminate through open journals.",
-    "emoji": "📡",
-    "cefr": "C1"
-   },
-   {
-    "word": "replicate",
-    "ipa": "/ˈreplɪkeɪt/",
-    "pos": "v.",
-    "zh": "复制；重现",
-    "example": "No lab could replicate the result.",
-    "emoji": "🔁",
-    "cefr": "C1"
-   },
-   {
-    "word": "refine",
-    "ipa": "/rɪˈfaɪn/",
-    "pos": "v.",
-    "zh": "改进；提炼",
-    "example": "Refine the draft after feedback.",
-    "emoji": "💎",
-    "cefr": "B2"
-   },
-   {
-    "word": "stipulate",
-    "ipa": "/ˈstɪpjuleɪt/",
-    "pos": "v.",
-    "zh": "规定；明确要求",
-    "example": "The lease stipulates no sub-letting.",
-    "emoji": "📜",
-    "cefr": "C1"
-   },
-   {
-    "word": "validate",
-    "ipa": "/ˈvælɪdeɪt/",
-    "pos": "v.",
-    "zh": "验证；使生效",
-    "example": "Pilot users validate the new flow.",
-    "emoji": "✅",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_formal_nouns",
-  "title": "正式名词",
-  "emoji": "📑",
-  "words": [
-   {
-    "word": "discrepancy",
-    "ipa": "/dɪsˈkrepənsi/",
-    "pos": "n.",
-    "zh": "差异；不一致",
-    "example": "A 3% discrepancy triggered the audit.",
-    "emoji": "🧮",
-    "cefr": "C1"
-   },
-   {
-    "word": "deference",
-    "ipa": "/ˈdefərəns/",
-    "pos": "n.",
-    "zh": "尊重；顺从",
-    "example": "He deferred to the senior surgeon.",
-    "emoji": "🙇",
-    "cefr": "C1"
-   },
-   {
-    "word": "fallacy",
-    "ipa": "/ˈfæləsi/",
-    "pos": "n.",
-    "zh": "谬误",
-    "example": "Correlation implies causation is a classic fallacy.",
-    "emoji": "❌",
-    "cefr": "C1"
-   },
-   {
-    "word": "unanimity",
-    "ipa": "/ˌjuːnəˈnɪməti/",
-    "pos": "n.",
-    "zh": "一致同意",
-    "example": "Unanimity arrived on the fourth vote.",
-    "emoji": "🤝",
-    "cefr": "C1"
-   },
-   {
-    "word": "asymmetry",
-    "ipa": "/ˌeɪˈsɪmətri/",
-    "pos": "n.",
-    "zh": "不对称",
-    "example": "Information asymmetry explains the price gap.",
-    "emoji": "🪞",
-    "cefr": "C1"
-   },
-   {
-    "word": "aspiration",
-    "ipa": "/ˌæspəˈreɪʃn/",
-    "pos": "n.",
-    "zh": "抱负；渴望",
-    "example": "Her aspiration is a research career.",
-    "emoji": "🏔️",
-    "cefr": "C1"
-   },
-   {
-    "word": "presumption",
-    "ipa": "/prɪˈzʌmpʃn/",
-    "pos": "n.",
-    "zh": "假定；推定",
-    "example": "Innocence is the legal presumption here.",
-    "emoji": "⚖️",
-    "cefr": "C1"
-   },
-   {
-    "word": "corollary",
-    "ipa": "/kəˈrɒləri/",
-    "pos": "n.",
-    "zh": "必然结果；推论",
-    "example": "Growth's corollary is more traffic.",
-    "emoji": "➡️",
-    "cefr": "C1"
-   },
-   {
-    "word": "repercussion",
-    "ipa": "/ˌriːpəˈkʌʃn/",
-    "pos": "n.",
-    "zh": "（不良）影响；反弹",
-    "example": "Price caps had sudden repercussions on supply.",
-    "emoji": "🪃",
-    "cefr": "C1"
-   },
-   {
-    "word": "nuance",
-    "ipa": "/ˈnjuːɑːns/",
-    "pos": "n.",
-    "zh": "细微差别",
-    "example": "Tone carries nuance the transcript loses.",
-    "emoji": "🎨",
-    "cefr": "C1"
-   },
-   {
-    "word": "triumph",
-    "ipa": "/ˈtraɪʌmf/",
-    "pos": "n./v.",
-    "zh": "胜利；获胜",
-    "example": "The small team's triumph stunned the field.",
-    "emoji": "🏆",
-    "cefr": "B2"
-   },
-   {
-    "word": "pitfall",
-    "ipa": "/ˈpɪtfɔːl/",
-    "pos": "n.",
-    "zh": "隐患；陷阱",
-    "example": "Know the pitfalls before renting remotely.",
-    "emoji": "🕳️",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_discourse",
-  "title": "篇章衔接词",
-  "emoji": "🔗",
-  "words": [
-   {
-    "word": "notwithstanding",
-    "ipa": "/ˌnɒtwɪθˈstændɪŋ/",
-    "pos": "prep./adv.",
-    "zh": "尽管",
-    "example": "Notwithstanding the rain, the match sold out.",
-    "emoji": "☔",
-    "cefr": "C1"
-   },
-   {
-    "word": "albeit",
-    "ipa": "/ˌɔːlˈbiːɪt/",
-    "pos": "conj.",
-    "zh": "尽管；虽然",
-    "example": "A quiet success, albeit a costly one.",
-    "emoji": "🌤️",
-    "cefr": "C1"
-   },
-   {
-    "word": "henceforth",
-    "ipa": "/ˌhensˈfɔːθ/",
-    "pos": "adv.",
-    "zh": "从今以后",
-    "example": "Henceforth, all reports follow this template.",
-    "emoji": "📅",
-    "cefr": "C1"
-   },
-   {
-    "word": "conversely",
-    "ipa": "/ˈkɒnvɜːsli/",
-    "pos": "adv.",
-    "zh": "相反地",
-    "example": "Conversely, calm markets reward patience.",
-    "emoji": "↔️",
-    "cefr": "C1"
-   },
-   {
-    "word": "similarly",
-    "ipa": "/ˈsɪmɪləli/",
-    "pos": "adv.",
-    "zh": "同样地",
-    "example": "Similarly, early feedback saved the beta.",
-    "emoji": "🪞",
-    "cefr": "B2"
-   },
-   {
-    "word": "thereafter",
-    "ipa": "/ˌðeərˈɑːftə/",
-    "pos": "adv.",
-    "zh": "此后",
-    "example": "She led the lab thereafter.",
-    "emoji": "⏭️",
-    "cefr": "C1"
-   },
-   {
-    "word": "meanwhile",
-    "ipa": "/ˈmiːnwaɪl/",
-    "pos": "adv.",
-    "zh": "与此同时",
-    "example": "Meanwhile, costs kept climbing.",
-    "emoji": "🕐",
-    "cefr": "B2"
-   },
-   {
-    "word": "ultimately",
-    "ipa": "/ˈʌltɪmətli/",
-    "pos": "adv.",
-    "zh": "最终；根本上",
-    "example": "Ultimately, users decide what ships.",
-    "emoji": "🏁",
-    "cefr": "B2"
-   },
-   {
-    "word": "fundamentally",
-    "ipa": "/ˌfʌndəˈmentəli/",
-    "pos": "adv.",
-    "zh": "根本上",
-    "example": "The market fundamentally changed after streaming.",
-    "emoji": "🧱",
-    "cefr": "C1"
-   },
-   {
-    "word": "notably",
-    "ipa": "/ˈnəʊtəbli/",
-    "pos": "adv.",
-    "zh": "尤其；显著地",
-    "example": "Costs fell, notably in logistics.",
-    "emoji": "📌",
-    "cefr": "C1"
-   },
-   {
-    "word": "surprisingly",
-    "ipa": "/səˈpraɪzɪŋli/",
-    "pos": "adv.",
-    "zh": "出乎意料地",
-    "example": "Surprisingly, smaller teams shipped faster.",
-    "emoji": "😲",
-    "cefr": "B2"
-   },
-   {
-    "word": "crucially",
-    "ipa": "/ˈkruːʃəli/",
-    "pos": "adv.",
-    "zh": "关键地",
-    "example": "Crucially, no data was lost.",
-    "emoji": "🔑",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_perception_senses",
-  "title": "感知觉",
-  "emoji": "👁️",
-  "words": [
-   {
-    "word": "auditory",
-    "ipa": "/ˈɔːdɪtri/",
-    "pos": "adj.",
-    "zh": "听觉的",
-    "example": "Auditory cues guide the game's difficulty.",
-    "emoji": "👂",
-    "cefr": "C1"
-   },
-   {
-    "word": "visual",
-    "ipa": "/ˈvɪʒuəl/",
-    "pos": "adj./n.",
-    "zh": "视觉的；视觉素材",
-    "example": "Strong visuals carry silent films.",
-    "emoji": "👁️",
-    "cefr": "B2"
-   },
-   {
-    "word": "tactile",
-    "ipa": "/ˈtæktaɪl/",
-    "pos": "adj.",
-    "zh": "触觉的",
-    "example": "Tactile feedback confirms each tap.",
-    "emoji": "🤚",
-    "cefr": "C1"
-   },
-   {
-    "word": "peripheral",
-    "ipa": "/pəˈrɪfərəl/",
-    "pos": "adj.",
-    "zh": "外围的；次要的",
-    "example": "Peripheral vision spots sudden movement.",
-    "emoji": "⛶",
-    "cefr": "C1"
-   },
-   {
-    "word": "acuity",
-    "ipa": "/əˈkjuːəti/",
-    "pos": "n.",
-    "zh": "敏锐度",
-    "example": "Night driving tests visual acuity.",
-    "emoji": "🔍",
-    "cefr": "C1"
-   },
-   {
-    "word": "stimuli",
-    "ipa": "/ˈstɪmjəlaɪ/",
-    "pos": "n.",
-    "zh": "刺激物（复数）",
-    "example": "Infants respond to face-like stimuli first.",
-    "emoji": "⚡",
-    "cefr": "C1"
-   },
-   {
-    "word": "perceive",
-    "ipa": "/pəˈsiːv/",
-    "pos": "v.",
-    "zh": "感知；认为",
-    "example": "Users perceive speed as responsiveness.",
-    "emoji": "🧠",
-    "cefr": "B2"
-   },
-   {
-    "word": "discern",
-    "ipa": "/dɪˈsɜːn/",
-    "pos": "v.",
-    "zh": "辨别；察觉",
-    "example": "Trained palates discern three separate notes.",
-    "emoji": "🍷",
-    "cefr": "C1"
-   },
-   {
-    "word": "sensitivity",
-    "ipa": "/ˌsensəˈtɪvəti/",
-    "pos": "n.",
-    "zh": "敏感度；敏感性",
-    "example": "Screen sensitivity adjusts in settings.",
-    "emoji": "🎚️",
-    "cefr": "B2"
-   },
-   {
-    "word": "numbness",
-    "ipa": "/ˈnʌmnəs/",
-    "pos": "n.",
-    "zh": "麻木",
-    "example": "Numbness in the fingers warrants a checkup.",
-    "emoji": "🥶",
-    "cefr": "C1"
-   },
-   {
-    "word": "tingling",
-    "ipa": "/ˈtɪŋɡlɪŋ/",
-    "pos": "n.",
-    "zh": "刺痛感",
-    "example": "A tingling spread up her arm.",
-    "emoji": "✨",
-    "cefr": "C1"
-   },
-   {
-    "word": "vertigo",
-    "ipa": "/ˈvɜːtɪɡəʊ/",
-    "pos": "n.",
-    "zh": "眩晕",
-    "example": "Heights trigger his vertigo instantly.",
-    "emoji": "🌀",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_time_sequence",
-  "title": "时间与阶段",
-  "emoji": "⏳",
-  "words": [
-   {
-    "word": "simultaneous",
-    "ipa": "/ˌsɪməlˈteɪniəs/",
-    "pos": "adj.",
-    "zh": "同时的",
-    "example": "Simultaneous launches stretched the team thin.",
-    "emoji": "🔩",
-    "cefr": "C1"
-   },
-   {
-    "word": "interim",
-    "ipa": "/ˈɪntərɪm/",
-    "pos": "n./adj.",
-    "zh": "过渡期；临时的",
-    "example": "An interim manager steadied the shop.",
-    "emoji": "🔜",
-    "cefr": "C1"
-   },
-   {
-    "word": "phase",
-    "ipa": "/feɪz/",
-    "pos": "n.",
-    "zh": "阶段",
-    "example": "Phase two begins after the pilot.",
-    "emoji": "🌗",
-    "cefr": "B2"
-   },
-   {
-    "word": "elapsed",
-    "ipa": "/ɪˈlæpst/",
-    "pos": "adj./v.",
-    "zh": "流逝的；（时间）过去",
-    "example": "Within the elapsed hour, three tests passed.",
-    "emoji": "⌛",
-    "cefr": "C1"
-   },
-   {
-    "word": "prolonged",
-    "ipa": "/prəˈlɒŋd/",
-    "pos": "adj.",
-    "zh": "延长的；长期的",
-    "example": "Prolonged sitting harms the spine.",
-    "emoji": "💺",
-    "cefr": "C1"
-   },
-   {
-    "word": "fleeting",
-    "ipa": "/ˈfliːtɪŋ/",
-    "pos": "adj.",
-    "zh": "短暂的",
-    "example": "A fleeting smile crossed her face.",
-    "emoji": "💫",
-    "cefr": "C1"
-   },
-   {
-    "word": "sporadic",
-    "ipa": "/spəˈrædɪk/",
-    "pos": "adj.",
-    "zh": "偶发的",
-    "example": "Sporadic outages resumed after midnight.",
-    "emoji": "🚦",
-    "cefr": "C1"
-   },
-   {
-    "word": "recurrent",
-    "ipa": "/rɪˈkʌrənt/",
-    "pos": "adj.",
-    "zh": "反复出现的",
-    "example": "Recurrent delays erode trust fast.",
-    "emoji": "🔁",
-    "cefr": "C1"
-   },
-   {
-    "word": "imminent",
-    "ipa": "/ˈɪmɪnənt/",
-    "pos": "adj.",
-    "zh": "临近的",
-    "example": "Evacuation warned of imminent flooding.",
-    "emoji": "🚨",
-    "cefr": "C1"
-   },
-   {
-    "word": "impending",
-    "ipa": "/ɪmˈpendɪŋ/",
-    "pos": "adj.",
-    "zh": "即将发生的",
-    "example": "Impending layoffs dominated every conversation.",
-    "emoji": "🌩️",
-    "cefr": "C1"
-   },
-   {
-    "word": "eventual",
-    "ipa": "/ɪˈventʃuəl/",
-    "pos": "adj.",
-    "zh": "最终的",
-    "example": "The eventual winner trained in secret.",
-    "emoji": "🏆",
-    "cefr": "C1"
-   },
-   {
-    "word": "premature",
-    "ipa": "/ˌpreməˈtʃʊə/",
-    "pos": "adj.",
-    "zh": "过早的；早产的",
-    "example": "Launching now is premature.",
-    "emoji": "🐣",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_quantity_degree",
-  "title": "数量与程度",
-  "emoji": "📊",
-  "words": [
-   {
-    "word": "considerable",
-    "ipa": "/kənˈsɪdərəbl/",
-    "pos": "adj.",
-    "zh": "相当大的",
-    "example": "Considerable savings funded the second shop.",
-    "emoji": "📈",
-    "cefr": "B2"
-   },
-   {
-    "word": "negligible",
-    "ipa": "/ˈneɡlɪdʒəbl/",
-    "pos": "adj.",
-    "zh": "可忽略的",
-    "example": "The error is negligible at this scale.",
-    "emoji": "🤏",
-    "cefr": "C1"
-   },
-   {
-    "word": "abundant",
-    "ipa": "/əˈbʌndənt/",
-    "pos": "adj.",
-    "zh": "丰富的",
-    "example": "Rain made mushrooms abundant this autumn.",
-    "emoji": "🍄",
-    "cefr": "C1"
-   },
-   {
-    "word": "sparse",
-    "ipa": "/spɑːs/",
-    "pos": "adj.",
-    "zh": "稀疏的",
-    "example": "Sparse signage confused first-time visitors.",
-    "emoji": "🌵",
-    "cefr": "C1"
-   },
-   {
-    "word": "ample",
-    "ipa": "/ˈæmpl/",
-    "pos": "adj.",
-    "zh": "充足的",
-    "example": "Leave ample time for security checks.",
-    "emoji": "⏳",
-    "cefr": "C1"
-   },
-   {
-    "word": "meagre",
-    "ipa": "/ˈmiːɡə/",
-    "pos": "adj.",
-    "zh": "微薄的",
-    "example": "Meagre rations had to last the week.",
-    "emoji": "🥣",
-    "cefr": "C1"
-   },
-   {
-    "word": "copious",
-    "ipa": "/ˈkəʊpiəs/",
-    "pos": "adj.",
-    "zh": "大量的",
-    "example": "She took copious notes during the lecture.",
-    "emoji": "📝",
-    "cefr": "C1"
-   },
-   {
-    "word": "minimal",
-    "ipa": "/ˈmɪnɪml/",
-    "pos": "adj.",
-    "zh": "最小的",
-    "example": "Minimal packaging cuts costs and waste.",
-    "emoji": "📦",
-    "cefr": "B2"
-   },
-   {
-    "word": "excessive",
-    "ipa": "/ɪkˈsesɪv/",
-    "pos": "adj.",
-    "zh": "过度的",
-    "example": "Excessive salt hides the broth's depth.",
-    "emoji": "🧂",
-    "cefr": "B2"
-   },
-   {
-    "word": "moderate",
-    "ipa": "/ˈmɒdərət/",
-    "pos": "adj.",
-    "zh": "适度的",
-    "example": "Moderate exercise suits recovery best.",
-    "emoji": "🚶",
-    "cefr": "B2"
-   },
-   {
-    "word": "slight",
-    "ipa": "/slaɪt/",
-    "pos": "adj.",
-    "zh": "轻微的",
-    "example": "A slight delay won't affect the schedule.",
-    "emoji": "↗️",
-    "cefr": "B2"
-   },
-   {
-    "word": "vast",
-    "ipa": "/vɑːst/",
-    "pos": "adj.",
-    "zh": "巨大的；广阔的",
-    "example": "A vast steppe stretched beyond the road.",
-    "emoji": "🏞️",
-    "cefr": "B2"
-   }
-  ]
- },
- {
-  "id": "l5e_cause_effect",
-  "title": "因果与推断",
-  "emoji": "🪃",
-  "words": [
-   {
-    "word": "therefore",
-    "ipa": "/ˈðeəfɔː/",
-    "pos": "adv.",
-    "zh": "因此",
-    "example": "Costs rose; therefore margins shrank.",
-    "emoji": "➡️",
-    "cefr": "B2"
-   },
-   {
-    "word": "thus",
-    "ipa": "/ðʌs/",
-    "pos": "adv.",
-    "zh": "因而；这样",
-    "example": "The bridge closed, thus rerouting all traffic.",
-    "emoji": "🔀",
-    "cefr": "B2"
-   },
-   {
-    "word": "attributable",
-    "ipa": "/əˈtrɪbjətəbl/",
-    "pos": "adj.",
-    "zh": "可归因的",
-    "example": "Half the loss is attributable to theft.",
-    "emoji": "🏷️",
-    "cefr": "C1"
-   },
-   {
-    "word": "arise",
-    "ipa": "/əˈraɪz/",
-    "pos": "v.",
-    "zh": "出现；产生",
-    "example": "Most complaints arise from unclear labels.",
-    "emoji": "🌱",
-    "cefr": "B2"
-   },
-   {
-    "word": "provoke",
-    "ipa": "/prəˈvəʊk/",
-    "pos": "v.",
-    "zh": "激起；挑衅",
-    "example": "The policy provoked instant protests.",
-    "emoji": "😤",
-    "cefr": "B2"
-   },
-   {
-    "word": "originate",
-    "ipa": "/əˈrɪdʒɪneɪt/",
-    "pos": "v.",
-    "zh": "起源；发起",
-    "example": "The fire originated in the basement.",
-    "emoji": "🔥",
-    "cefr": "C1"
-   },
-   {
-    "word": "precipitate",
-    "ipa": "/prɪˈsɪpɪteɪt/",
-    "pos": "v./adj.",
-    "zh": "促成；仓促的",
-    "example": "One leaked memo precipitated the resignations.",
-    "emoji": "⛈️",
-    "cefr": "C1"
-   },
-   {
-    "word": "exacerbate",
-    "ipa": "/ɪkˈsæsəbeɪt/",
-    "pos": "v.",
-    "zh": "加剧",
-    "example": "Cutbacks exacerbated the staff shortage.",
-    "emoji": "📉",
-    "cefr": "C1"
-   },
-   {
-    "word": "alleviate",
-    "ipa": "/əˈliːvieɪt/",
-    "pos": "v.",
-    "zh": "缓解",
-    "example": "Wider roads rarely alleviate congestion.",
-    "emoji": "🩹",
-    "cefr": "C1"
-   },
-   {
-    "word": "offset",
-    "ipa": "/ˈɒfset/",
-    "pos": "v./n.",
-    "zh": "抵消",
-    "example": "Higher sales offset the currency loss.",
-    "emoji": "⚖️",
-    "cefr": "C1"
-   },
-   {
-    "word": "dampen",
-    "ipa": "/ˈdæmpən/",
-    "pos": "v.",
-    "zh": "抑制；使减弱",
-    "example": "Rate rises dampen borrowing appetite.",
-    "emoji": "🌧️",
-    "cefr": "C1"
-   },
-   {
-    "word": "ensue",
-    "ipa": "/ɪnˈsjuː/",
-    "pos": "v.",
-    "zh": "随之发生",
-    "example": "Confusion ensued after the announcement.",
-    "emoji": "🫨",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5e_social_ties",
-  "title": "社会纽带",
-  "emoji": "🧑‍🤝‍🧑",
-  "words": [
-   {
-    "word": "companionship",
-    "ipa": "/kəmˈpæniənʃɪp/",
-    "pos": "n.",
-    "zh": "陪伴",
-    "example": "Pets offer quiet companionship.",
-    "emoji": "🐾",
-    "cefr": "C1"
-   },
-   {
-    "word": "camaraderie",
-    "ipa": "/ˌkæməˈrɑːdəri/",
-    "pos": "n.",
-    "zh": "情谊；战友感情",
-    "example": "Late shifts built real camaraderie.",
-    "emoji": "🤝",
-    "cefr": "C1"
-   },
-   {
-    "word": "rapport",
-    "ipa": "/ræˈpɔː/",
-    "pos": "n.",
-    "zh": "融洽关系",
-    "example": "Good rapport opens closed doors.",
-    "emoji": "💬",
-    "cefr": "C1"
-   },
-   {
-    "word": "intimacy",
-    "ipa": "/ˈɪntɪməsi/",
-    "pos": "n.",
-    "zh": "亲密",
-    "example": "Long letters preserved their intimacy.",
-    "emoji": "💌",
-    "cefr": "C1"
-   },
-   {
-    "word": "estrangement",
-    "ipa": "/ɪˈstreɪndʒmənt/",
-    "pos": "n.",
-    "zh": "疏远",
-    "example": "Money caused the family estrangement.",
-    "emoji": "🚪",
-    "cefr": "C1"
-   },
-   {
-    "word": "alienation",
-    "ipa": "/ˌeɪliəˈneɪʃn/",
-    "pos": "n.",
-    "zh": "疏离感",
-    "example": "Office politics bred quiet alienation.",
-    "emoji": "🏝️",
-    "cefr": "C1"
-   },
-   {
-    "word": "kinship",
-    "ipa": "/ˈkɪnʃɪp/",
-    "pos": "n.",
-    "zh": "亲属关系；亲切感",
-    "example": "A sense of kinship united the villages.",
-    "emoji": "👨‍👩‍👧",
-    "cefr": "C1"
-   },
-   {
-    "word": "household",
-    "ipa": "/ˈhaʊshəʊld/",
-    "pos": "n.",
-    "zh": "家庭；住户",
-    "example": "Average household debt keeps rising.",
-    "emoji": "🏠",
-    "cefr": "B2"
-   },
-   {
-    "word": "neighbourhood",
-    "ipa": "/ˈneɪbəhʊd/",
-    "pos": "n.",
-    "zh": "街区；邻里",
-    "example": "The neighbourhood watch meets monthly.",
-    "emoji": "🏘️",
-    "cefr": "B2"
-   },
-   {
-    "word": "warmth",
-    "ipa": "/wɔːmθ/",
-    "pos": "n.",
-    "zh": "温暖；热情",
-    "example": "Strangers showed unexpected warmth.",
-    "emoji": "🔥",
-    "cefr": "B2"
-   },
-   {
-    "word": "unity",
-    "ipa": "/ˈjuːnəti/",
-    "pos": "n.",
-    "zh": "团结；统一",
-    "example": "Crisis restored a fragile unity.",
-    "emoji": "🧩",
-    "cefr": "B2"
-   },
-   {
-    "word": "bond",
-    "ipa": "/bɒnd/",
-    "pos": "n.",
-    "zh": "纽带；债券",
-    "example": "Shared struggle formed a lasting bond.",
+    "words": [
+      {
+        "word": "vanity",
+        "ipa": "/ˈvænəti/",
+        "pos": "n.",
+        "zh": "虚荣",
+        "example": "Vanity drove the endless redesigns.",
+        "emoji": "🪞",
+        "cefr": "C1"
+      },
+      {
+        "word": "hypocrisy",
+        "ipa": "/hɪˈpɒkrəsi/",
+        "pos": "n.",
+        "zh": "虚伪",
+        "example": "Preaching green while flying private is pure hypocrisy.",
+        "emoji": "🎭",
+        "cefr": "C1"
+      },
+      {
+        "word": "cowardice",
+        "ipa": "/ˈkaʊədɪs/",
+        "pos": "n.",
+        "zh": "怯懦",
+        "example": "Silence here amounts to cowardice.",
+        "emoji": "🐔",
+        "cefr": "C1"
+      },
+      {
+        "word": "stubbornness",
+        "ipa": "/ˈstʌbənnəs/",
+        "pos": "n.",
+        "zh": "固执",
+        "example": "His stubbornness doubled the delay.",
+        "emoji": "🐂",
+        "cefr": "C1"
+      },
+      {
+        "word": "greed",
+        "ipa": "/ɡriːd/",
+        "pos": "n.",
+        "zh": "贪婪",
+        "example": "Greed wrote the worst clauses.",
+        "emoji": "💰",
+        "cefr": "B2"
+      },
+      {
+        "word": "laziness",
+        "ipa": "/ˈleɪzinəs/",
+        "pos": "n.",
+        "zh": "懒惰",
+        "example": "Automation rewards laziness that thinks ahead.",
+        "emoji": "🦥",
+        "cefr": "B2"
+      },
+      {
+        "word": "conceit",
+        "ipa": "/kənˈsiːt/",
+        "pos": "n.",
+        "zh": "自负",
+        "example": "Conceit blinded the whole board.",
+        "emoji": "😤",
+        "cefr": "C1"
+      },
+      {
+        "word": "envy",
+        "ipa": "/ˈenvi/",
+        "pos": "n./v.",
+        "zh": "嫉妒；羡慕",
+        "example": "Envy shrinks your own runway.",
+        "emoji": "🟢",
+        "cefr": "B2"
+      },
+      {
+        "word": "impatience",
+        "ipa": "/ɪmˈpeɪʃns/",
+        "pos": "n.",
+        "zh": "不耐烦",
+        "example": "Impatience ruined the risotto.",
+        "emoji": "⏱️",
+        "cefr": "B2"
+      },
+      {
+        "word": "recklessness",
+        "ipa": "/ˈrekləsnəs/",
+        "pos": "n.",
+        "zh": "鲁莽",
+        "example": "Recklessness at speed costs lives.",
+        "emoji": "🏎️",
+        "cefr": "C1"
+      },
+      {
+        "word": "gullibility",
+        "ipa": "/ˌɡʌləˈbɪləti/",
+        "pos": "n.",
+        "zh": "易受骗",
+        "example": "Gullibility fuels every phone scam.",
+        "emoji": "🎣",
+        "cefr": "C1"
+      },
+      {
+        "word": "selfishness",
+        "ipa": "/ˈselfɪʃnəs/",
+        "pos": "n.",
+        "zh": "自私",
+        "example": "Selfishness surfaced when the queue formed.",
+        "emoji": "🙅",
+        "cefr": "B2"
+      },
+      {
+        "word": "obstinacy",
+        "ipa": "/ˈɒbstɪnəsi/",
+        "pos": "n.",
+        "zh": "固执",
+        "example": "Obstinacy blocked every compromise.",
+        "emoji": "🪨",
+        "cefr": "C2"
+      },
+      {
+        "word": "sloth",
+        "ipa": "/sləʊθ/",
+        "pos": "n.",
+        "zh": "懒惰",
+        "example": "Sloth, not hunger, kept him in bed.",
+        "emoji": "🦥",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_adjectives"
+  },
+  {
+    "id": "l5e_academic_adj_1",
+    "title": "学术形容词 I",
+    "emoji": "🎓",
+    "words": [
+      {
+        "word": "cogent",
+        "ipa": "/ˈkəʊdʒənt/",
+        "pos": "adj.",
+        "zh": "有说服力的",
+        "example": "A cogent case needs no shouting.",
+        "emoji": "🗣️",
+        "cefr": "C1"
+      },
+      {
+        "word": "salient",
+        "ipa": "/ˈseɪliənt/",
+        "pos": "adj.",
+        "zh": "显著的；突出的",
+        "example": "Lead with the salient points first.",
+        "emoji": "📌",
+        "cefr": "C1"
+      },
+      {
+        "word": "ubiquitous",
+        "ipa": "/juːˈbɪkwɪtəs/",
+        "pos": "adj.",
+        "zh": "无处不在的",
+        "example": "QR codes are ubiquitous now.",
+        "emoji": "🌐",
+        "cefr": "C1"
+      },
+      {
+        "word": "tangible",
+        "ipa": "/ˈtændʒəbl/",
+        "pos": "adj.",
+        "zh": "有形的；切实的",
+        "example": "Show tangible progress within a month.",
+        "emoji": "🤲",
+        "cefr": "C1"
+      },
+      {
+        "word": "intangible",
+        "ipa": "/ɪnˈtændʒəbl/",
+        "pos": "adj.",
+        "zh": "无形的",
+        "example": "Trust is intangible but priceless.",
+        "emoji": "💨",
+        "cefr": "C1"
+      },
+      {
+        "word": "profound",
+        "ipa": "/prəˈfaʊnd/",
+        "pos": "adj.",
+        "zh": "深刻的",
+        "example": "Printing had a profound effect on memory.",
+        "emoji": "🌊",
+        "cefr": "B2"
+      },
+      {
+        "word": "nuanced",
+        "ipa": "/ˈnjuːɑːnst/",
+        "pos": "adj.",
+        "zh": "细致微妙的",
+        "example": "A nuanced reading avoids easy blame.",
+        "emoji": "🎨",
+        "cefr": "C1"
+      },
+      {
+        "word": "paramount",
+        "ipa": "/ˈpærəmaʊnt/",
+        "pos": "adj.",
+        "zh": "至上的；首要的",
+        "example": "Safety is paramount on set.",
+        "emoji": "🛡️",
+        "cefr": "C1"
+      },
+      {
+        "word": "integral",
+        "ipa": "/ˈɪntɪɡrəl/",
+        "pos": "adj.",
+        "zh": "不可或缺的",
+        "example": "Feedback is integral to the design loop.",
+        "emoji": "🧩",
+        "cefr": "C1"
+      },
+      {
+        "word": "intrinsic",
+        "ipa": "/ɪnˈtrɪnzɪk/",
+        "pos": "adj.",
+        "zh": "内在的；固有的",
+        "example": "Curiosity is intrinsic to babies.",
+        "emoji": "🧬",
+        "cefr": "C1"
+      },
+      {
+        "word": "inconsistent",
+        "ipa": "/ˌɪnkənˈsɪstənt/",
+        "pos": "adj.",
+        "zh": "不一致的",
+        "example": "The witness gave inconsistent accounts.",
+        "emoji": "🔀",
+        "cefr": "B2"
+      },
+      {
+        "word": "compelling",
+        "ipa": "/kəmˈpelɪŋ/",
+        "pos": "adj.",
+        "zh": "令人信服的；引人入胜的",
+        "example": "Compelling evidence settled the debate.",
+        "emoji": "🧲",
+        "cefr": "C1"
+      },
+      {
+        "word": "concomitant",
+        "ipa": "/kənˈkɒmɪtənt/",
+        "pos": "adj.",
+        "zh": "伴随的",
+        "example": "Success brings concomitant pressures.",
+        "emoji": "🧷",
+        "cefr": "C2"
+      },
+      {
+        "word": "pervasive",
+        "ipa": "/pəˈveɪsɪv/",
+        "pos": "adj.",
+        "zh": "普遍的，弥漫的",
+        "example": "Corruption was pervasive in the sector.",
+        "emoji": "🌫️",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_adjectives"
+  },
+  {
+    "id": "l5e_academic_adj_2",
+    "title": "学术形容词 II",
+    "emoji": "📐",
+    "words": [
+      {
+        "word": "feasible",
+        "ipa": "/ˈfiːzəbl/",
+        "pos": "adj.",
+        "zh": "可行的",
+        "example": "A July launch is feasible if hiring starts now.",
+        "emoji": "✅",
+        "cefr": "C1"
+      },
+      {
+        "word": "unavoidable",
+        "ipa": "/ˌʌnəˈvɔɪdəbl/",
+        "pos": "adj.",
+        "zh": "不可避免的",
+        "example": "Some overlap was unavoidable.",
+        "emoji": "🚧",
+        "cefr": "B2"
+      },
+      {
+        "word": "credible",
+        "ipa": "/ˈkredəbl/",
+        "pos": "adj.",
+        "zh": "可信的",
+        "example": "Only two sources were credible.",
+        "emoji": "🪪",
+        "cefr": "C1"
+      },
+      {
+        "word": "controversial",
+        "ipa": "/ˌkɒntrəˈvɜːʃl/",
+        "pos": "adj.",
+        "zh": "有争议的",
+        "example": "The controversial ruling divided readers.",
+        "emoji": "⚔️",
+        "cefr": "B2"
+      },
+      {
+        "word": "tentative",
+        "ipa": "/ˈtentətɪv/",
+        "pos": "adj.",
+        "zh": "试探性的；暂定的",
+        "example": "We hold a tentative date in June.",
+        "emoji": "🤏",
+        "cefr": "C1"
+      },
+      {
+        "word": "obscure",
+        "ipa": "/əbˈskjʊə/",
+        "pos": "adj./v.",
+        "zh": "晦涩的；使模糊",
+        "example": "Jargon obscures otherwise clear findings.",
+        "emoji": "🌫️",
+        "cefr": "C1"
+      },
+      {
+        "word": "legitimate",
+        "ipa": "/lɪˈdʒɪtɪmət/",
+        "pos": "adj.",
+        "zh": "合法的；正当的",
+        "example": "Both claims have legitimate grounds.",
+        "emoji": "📜",
+        "cefr": "C1"
+      },
+      {
+        "word": "viable",
+        "ipa": "/ˈvaɪəbl/",
+        "pos": "adj.",
+        "zh": "可存活的；可行的",
+        "example": "The startup stayed viable on 3 staff.",
+        "emoji": "🌱",
+        "cefr": "C1"
+      },
+      {
+        "word": "robust",
+        "ipa": "/rəʊˈbʌst/",
+        "pos": "adj.",
+        "zh": "稳健的；结实的",
+        "example": "A robust design tolerates bad inputs.",
+        "emoji": "💪",
+        "cefr": "C1"
+      },
+      {
+        "word": "redundant",
+        "ipa": "/rɪˈdʌndənt/",
+        "pos": "adj.",
+        "zh": "多余的；被裁员的",
+        "example": "Cut the redundant slides.",
+        "emoji": "✂️",
+        "cefr": "C1"
+      },
+      {
+        "word": "prevailing",
+        "ipa": "/prɪˈveɪlɪŋ/",
+        "pos": "adj.",
+        "zh": "盛行的",
+        "example": "The prevailing wind favours westbound sails.",
+        "emoji": "🌬️",
+        "cefr": "C1"
+      },
+      {
+        "word": "worthwhile",
+        "ipa": "/ˌwɜːθˈwaɪl/",
+        "pos": "adj.",
+        "zh": "值得做的",
+        "example": "Mentoring proved worthwhile for both sides.",
+        "emoji": "🏅",
+        "cefr": "B2"
+      },
+      {
+        "word": "unambiguous",
+        "ipa": "/ˌʌnæmˈbɪɡjuəs/",
+        "pos": "adj.",
+        "zh": "明确的",
+        "example": "The instruction was unambiguous.",
+        "emoji": "➡️",
+        "cefr": "C2"
+      },
+      {
+        "word": "reproducible",
+        "ipa": "/ˌriːprəˈdjuːsəbl/",
+        "pos": "adj.",
+        "zh": "可复现的",
+        "example": "The experiment is fully reproducible.",
+        "emoji": "🔁",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_adjectives"
+  },
+  {
+    "id": "l5e_academic_verbs_1",
+    "title": "学术动词 I",
+    "emoji": "✒️",
+    "words": [
+      {
+        "word": "advocate",
+        "ipa": "/ˈædvəkeɪt/",
+        "pos": "v./n.",
+        "zh": "提倡；提倡者",
+        "example": "The paper advocates longer school hours.",
+        "emoji": "📢",
+        "cefr": "B2"
+      },
+      {
+        "word": "articulate",
+        "ipa": "/ɑːˈtɪkjuleɪt/",
+        "pos": "v.",
+        "zh": "清晰表达",
+        "example": "Articulate the goal in one sentence.",
+        "emoji": "🗣️",
+        "cefr": "C1"
+      },
+      {
+        "word": "ascribe",
+        "ipa": "/əˈskraɪb/",
+        "pos": "v.",
+        "zh": "归因于",
+        "example": "Historians ascribe the decline to climate shifts.",
+        "emoji": "🏷️",
+        "cefr": "C1"
+      },
+      {
+        "word": "compile",
+        "ipa": "/kəmˈpaɪl/",
+        "pos": "v.",
+        "zh": "汇编；编译",
+        "example": "Compile the survey results into one table.",
+        "emoji": "📚",
+        "cefr": "C1"
+      },
+      {
+        "word": "consolidate",
+        "ipa": "/kənˈsɒlɪdeɪt/",
+        "pos": "v.",
+        "zh": "整合；巩固",
+        "example": "Three offices consolidated into one hub.",
+        "emoji": "🧲",
+        "cefr": "C1"
+      },
+      {
+        "word": "curb",
+        "ipa": "/kɜːb/",
+        "pos": "v./n.",
+        "zh": "抑制；路边",
+        "example": "New rules curb late-night deliveries.",
+        "emoji": "🛑",
+        "cefr": "C1"
+      },
+      {
+        "word": "denote",
+        "ipa": "/dɪˈnəʊt/",
+        "pos": "v.",
+        "zh": "表示；标志着",
+        "example": "Red denotes danger on most maps.",
+        "emoji": "🔺",
+        "cefr": "C1"
+      },
+      {
+        "word": "elicit",
+        "ipa": "/ɪˈlɪsɪt/",
+        "pos": "v.",
+        "zh": "引出；诱发",
+        "example": "Open questions elicit richer answers.",
+        "emoji": "🎣",
+        "cefr": "C1"
+      },
+      {
+        "word": "embody",
+        "ipa": "/ɪmˈbɒdi/",
+        "pos": "v.",
+        "zh": "体现；具体化",
+        "example": "The pavilion embodies minimalist ideals.",
+        "emoji": "🏛️",
+        "cefr": "C1"
+      },
+      {
+        "word": "formulate",
+        "ipa": "/ˈfɔːmjuleɪt/",
+        "pos": "v.",
+        "zh": "制定；系统阐述",
+        "example": "Formulate the question before collecting data.",
+        "emoji": "🧪",
+        "cefr": "C1"
+      },
+      {
+        "word": "embed",
+        "ipa": "/ɪmˈbed/",
+        "pos": "v.",
+        "zh": "嵌入；深植",
+        "example": "Values embed best through daily rituals.",
+        "emoji": "🧱",
+        "cefr": "C1"
+      },
+      {
+        "word": "postulate",
+        "ipa": "/ˈpɒstʃuleɪt/",
+        "pos": "v./n.",
+        "zh": "假定；公设",
+        "example": "Einstein postulated a constant light speed.",
+        "emoji": "💡",
+        "cefr": "C1"
+      },
+      {
+        "word": "elucidate",
+        "ipa": "/ɪˈluːsɪdeɪt/",
+        "pos": "v.",
+        "zh": "阐明",
+        "example": "The paper elucidates the mechanism.",
+        "emoji": "💡",
+        "cefr": "C2"
+      },
+      {
+        "word": "underscore",
+        "ipa": "/ˌʌndəˈskɔː(r)/",
+        "pos": "v.",
+        "zh": "强调",
+        "example": "The results underscore the risk.",
+        "emoji": "✍️",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_verbs"
+  },
+  {
+    "id": "l5e_academic_verbs_2",
+    "title": "学术动词 II",
+    "emoji": "🔬",
+    "words": [
+      {
+        "word": "substantiate",
+        "ipa": "/səbˈstænʃieɪt/",
+        "pos": "v.",
+        "zh": "证实；使具体化",
+        "example": "Documents substantiate every claim made.",
+        "emoji": "🧾",
+        "cefr": "C1"
+      },
+      {
+        "word": "underpin",
+        "ipa": "/ˌʌndəˈpɪn/",
+        "pos": "v.",
+        "zh": "支撑；构成基础",
+        "example": "Trust underpins every long contract.",
+        "emoji": "🏗️",
+        "cefr": "C1"
+      },
+      {
+        "word": "corroborate",
+        "ipa": "/kəˈrɒbəreɪt/",
+        "pos": "v.",
+        "zh": "佐证",
+        "example": "Phone records corroborate her timeline.",
+        "emoji": "🤝",
+        "cefr": "C1"
+      },
+      {
+        "word": "extrapolate",
+        "ipa": "/ɪkˈstræpəleɪt/",
+        "pos": "v.",
+        "zh": "外推；推断",
+        "example": "Extrapolate carefully beyond the data range.",
+        "emoji": "📈",
+        "cefr": "C1"
+      },
+      {
+        "word": "approximate",
+        "ipa": "/əˈprɒksɪmeɪt/",
+        "pos": "adj./v.",
+        "zh": "近似的；约计",
+        "example": "The approximate cost is 2,000 yuan.",
+        "emoji": "➗",
+        "cefr": "C1"
+      },
+      {
+        "word": "categorise",
+        "ipa": "/ˈkætəɡəraɪz/",
+        "pos": "v.",
+        "zh": "分类",
+        "example": "Categorise errors by root cause.",
+        "emoji": "🗂️",
+        "cefr": "C1"
+      },
+      {
+        "word": "delineate",
+        "ipa": "/dɪˈlɪnieɪt/",
+        "pos": "v.",
+        "zh": "勾画；界定",
+        "example": "The charter delineates each role clearly.",
+        "emoji": "✏️",
+        "cefr": "C1"
+      },
+      {
+        "word": "disseminate",
+        "ipa": "/dɪˈsemɪneɪt/",
+        "pos": "v.",
+        "zh": "传播；散布",
+        "example": "Findings disseminate through open journals.",
+        "emoji": "📡",
+        "cefr": "C1"
+      },
+      {
+        "word": "replicate",
+        "ipa": "/ˈreplɪkeɪt/",
+        "pos": "v.",
+        "zh": "复制；重现",
+        "example": "No lab could replicate the result.",
+        "emoji": "🔁",
+        "cefr": "C1"
+      },
+      {
+        "word": "refine",
+        "ipa": "/rɪˈfaɪn/",
+        "pos": "v.",
+        "zh": "改进；提炼",
+        "example": "Refine the draft after feedback.",
+        "emoji": "💎",
+        "cefr": "B2"
+      },
+      {
+        "word": "stipulate",
+        "ipa": "/ˈstɪpjuleɪt/",
+        "pos": "v.",
+        "zh": "规定；明确要求",
+        "example": "The lease stipulates no sub-letting.",
+        "emoji": "📜",
+        "cefr": "C1"
+      },
+      {
+        "word": "validate",
+        "ipa": "/ˈvælɪdeɪt/",
+        "pos": "v.",
+        "zh": "验证；使生效",
+        "example": "Pilot users validate the new flow.",
+        "emoji": "✅",
+        "cefr": "C1"
+      },
+      {
+        "word": "amalgamate",
+        "ipa": "/əˈmælɡəmeɪt/",
+        "pos": "v.",
+        "zh": "合并",
+        "example": "Two labs amalgamated into one institute.",
+        "emoji": "🧬",
+        "cefr": "C2"
+      },
+      {
+        "word": "reiterate",
+        "ipa": "/riˈɪtəreɪt/",
+        "pos": "v.",
+        "zh": "重申",
+        "example": "The CEO reiterated the deadline.",
+        "emoji": "🔁",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_verbs"
+  },
+  {
+    "id": "l5e_formal_nouns",
+    "title": "正式名词",
+    "emoji": "📑",
+    "words": [
+      {
+        "word": "discrepancy",
+        "ipa": "/dɪsˈkrepənsi/",
+        "pos": "n.",
+        "zh": "差异；不一致",
+        "example": "A 3% discrepancy triggered the audit.",
+        "emoji": "🧮",
+        "cefr": "C1"
+      },
+      {
+        "word": "deference",
+        "ipa": "/ˈdefərəns/",
+        "pos": "n.",
+        "zh": "尊重；顺从",
+        "example": "He deferred to the senior surgeon.",
+        "emoji": "🙇",
+        "cefr": "C1"
+      },
+      {
+        "word": "fallacy",
+        "ipa": "/ˈfæləsi/",
+        "pos": "n.",
+        "zh": "谬误",
+        "example": "Correlation implies causation is a classic fallacy.",
+        "emoji": "❌",
+        "cefr": "C1"
+      },
+      {
+        "word": "unanimity",
+        "ipa": "/ˌjuːnəˈnɪməti/",
+        "pos": "n.",
+        "zh": "一致同意",
+        "example": "Unanimity arrived on the fourth vote.",
+        "emoji": "🤝",
+        "cefr": "C1"
+      },
+      {
+        "word": "asymmetry",
+        "ipa": "/ˌeɪˈsɪmətri/",
+        "pos": "n.",
+        "zh": "不对称",
+        "example": "Information asymmetry explains the price gap.",
+        "emoji": "🪞",
+        "cefr": "C1"
+      },
+      {
+        "word": "aspiration",
+        "ipa": "/ˌæspəˈreɪʃn/",
+        "pos": "n.",
+        "zh": "抱负；渴望",
+        "example": "Her aspiration is a research career.",
+        "emoji": "🏔️",
+        "cefr": "C1"
+      },
+      {
+        "word": "presumption",
+        "ipa": "/prɪˈzʌmpʃn/",
+        "pos": "n.",
+        "zh": "假定；推定",
+        "example": "Innocence is the legal presumption here.",
+        "emoji": "⚖️",
+        "cefr": "C1"
+      },
+      {
+        "word": "corollary",
+        "ipa": "/kəˈrɒləri/",
+        "pos": "n.",
+        "zh": "必然结果；推论",
+        "example": "Growth's corollary is more traffic.",
+        "emoji": "➡️",
+        "cefr": "C1"
+      },
+      {
+        "word": "repercussion",
+        "ipa": "/ˌriːpəˈkʌʃn/",
+        "pos": "n.",
+        "zh": "（不良）影响；反弹",
+        "example": "Price caps had sudden repercussions on supply.",
+        "emoji": "🪃",
+        "cefr": "C1"
+      },
+      {
+        "word": "nuance",
+        "ipa": "/ˈnjuːɑːns/",
+        "pos": "n.",
+        "zh": "细微差别",
+        "example": "Tone carries nuance the transcript loses.",
+        "emoji": "🎨",
+        "cefr": "C1"
+      },
+      {
+        "word": "triumph",
+        "ipa": "/ˈtraɪʌmf/",
+        "pos": "n./v.",
+        "zh": "胜利；获胜",
+        "example": "The small team's triumph stunned the field.",
+        "emoji": "🏆",
+        "cefr": "B2"
+      },
+      {
+        "word": "pitfall",
+        "ipa": "/ˈpɪtfɔːl/",
+        "pos": "n.",
+        "zh": "隐患；陷阱",
+        "example": "Know the pitfalls before renting remotely.",
+        "emoji": "🕳️",
+        "cefr": "C1"
+      },
+      {
+        "word": "concurrence",
+        "ipa": "/kənˈkʌrəns/",
+        "pos": "n.",
+        "zh": "同意，一致",
+        "example": "The judges issued a concurrence.",
+        "emoji": "🤝",
+        "cefr": "C2"
+      },
+      {
+        "word": "ratification",
+        "ipa": "/ˌrætɪfɪˈkeɪʃn/",
+        "pos": "n.",
+        "zh": "批准",
+        "example": "Ratification of the treaty took years.",
+        "emoji": "📜",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_verbs"
+  },
+  {
+    "id": "l5e_discourse",
+    "title": "篇章衔接词",
     "emoji": "🔗",
-    "cefr": "B2"
-   }
-  ]
- }
+    "words": [
+      {
+        "word": "notwithstanding",
+        "ipa": "/ˌnɒtwɪθˈstændɪŋ/",
+        "pos": "prep./adv.",
+        "zh": "尽管",
+        "example": "Notwithstanding the rain, the match sold out.",
+        "emoji": "☔",
+        "cefr": "C1"
+      },
+      {
+        "word": "albeit",
+        "ipa": "/ˌɔːlˈbiːɪt/",
+        "pos": "conj.",
+        "zh": "尽管；虽然",
+        "example": "A quiet success, albeit a costly one.",
+        "emoji": "🌤️",
+        "cefr": "C1"
+      },
+      {
+        "word": "henceforth",
+        "ipa": "/ˌhensˈfɔːθ/",
+        "pos": "adv.",
+        "zh": "从今以后",
+        "example": "Henceforth, all reports follow this template.",
+        "emoji": "📅",
+        "cefr": "C1"
+      },
+      {
+        "word": "conversely",
+        "ipa": "/ˈkɒnvɜːsli/",
+        "pos": "adv.",
+        "zh": "相反地",
+        "example": "Conversely, calm markets reward patience.",
+        "emoji": "↔️",
+        "cefr": "C1"
+      },
+      {
+        "word": "similarly",
+        "ipa": "/ˈsɪmɪləli/",
+        "pos": "adv.",
+        "zh": "同样地",
+        "example": "Similarly, early feedback saved the beta.",
+        "emoji": "🪞",
+        "cefr": "B2"
+      },
+      {
+        "word": "thereafter",
+        "ipa": "/ˌðeərˈɑːftə/",
+        "pos": "adv.",
+        "zh": "此后",
+        "example": "She led the lab thereafter.",
+        "emoji": "⏭️",
+        "cefr": "C1"
+      },
+      {
+        "word": "meanwhile",
+        "ipa": "/ˈmiːnwaɪl/",
+        "pos": "adv.",
+        "zh": "与此同时",
+        "example": "Meanwhile, costs kept climbing.",
+        "emoji": "🕐",
+        "cefr": "B2"
+      },
+      {
+        "word": "ultimately",
+        "ipa": "/ˈʌltɪmətli/",
+        "pos": "adv.",
+        "zh": "最终；根本上",
+        "example": "Ultimately, users decide what ships.",
+        "emoji": "🏁",
+        "cefr": "B2"
+      },
+      {
+        "word": "fundamentally",
+        "ipa": "/ˌfʌndəˈmentəli/",
+        "pos": "adv.",
+        "zh": "根本上",
+        "example": "The market fundamentally changed after streaming.",
+        "emoji": "🧱",
+        "cefr": "C1"
+      },
+      {
+        "word": "notably",
+        "ipa": "/ˈnəʊtəbli/",
+        "pos": "adv.",
+        "zh": "尤其；显著地",
+        "example": "Costs fell, notably in logistics.",
+        "emoji": "📌",
+        "cefr": "C1"
+      },
+      {
+        "word": "surprisingly",
+        "ipa": "/səˈpraɪzɪŋli/",
+        "pos": "adv.",
+        "zh": "出乎意料地",
+        "example": "Surprisingly, smaller teams shipped faster.",
+        "emoji": "😲",
+        "cefr": "B2"
+      },
+      {
+        "word": "crucially",
+        "ipa": "/ˈkruːʃəli/",
+        "pos": "adv.",
+        "zh": "关键地",
+        "example": "Crucially, no data was lost.",
+        "emoji": "🔑",
+        "cefr": "C1"
+      },
+      {
+        "word": "diatribe",
+        "ipa": "/ˈdaɪətraɪb/",
+        "pos": "n.",
+        "zh": "抨击",
+        "example": "His diatribe attacked the policy.",
+        "emoji": "🔥",
+        "cefr": "C2"
+      },
+      {
+        "word": "polemic",
+        "ipa": "/pəˈlemɪk/",
+        "pos": "n.",
+        "zh": "论战",
+        "example": "The book is a polemic against technocracy.",
+        "emoji": "⚔️",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_reading"
+  },
+  {
+    "id": "l5e_perception_senses",
+    "title": "感知觉",
+    "emoji": "👁️",
+    "words": [
+      {
+        "word": "auditory",
+        "ipa": "/ˈɔːdɪtri/",
+        "pos": "adj.",
+        "zh": "听觉的",
+        "example": "Auditory cues guide the game's difficulty.",
+        "emoji": "👂",
+        "cefr": "C1"
+      },
+      {
+        "word": "visual",
+        "ipa": "/ˈvɪʒuəl/",
+        "pos": "adj./n.",
+        "zh": "视觉的；视觉素材",
+        "example": "Strong visuals carry silent films.",
+        "emoji": "👁️",
+        "cefr": "B2"
+      },
+      {
+        "word": "tactile",
+        "ipa": "/ˈtæktaɪl/",
+        "pos": "adj.",
+        "zh": "触觉的",
+        "example": "Tactile feedback confirms each tap.",
+        "emoji": "🤚",
+        "cefr": "C1"
+      },
+      {
+        "word": "peripheral",
+        "ipa": "/pəˈrɪfərəl/",
+        "pos": "adj.",
+        "zh": "外围的；次要的",
+        "example": "Peripheral vision spots sudden movement.",
+        "emoji": "⛶",
+        "cefr": "C1"
+      },
+      {
+        "word": "acuity",
+        "ipa": "/əˈkjuːəti/",
+        "pos": "n.",
+        "zh": "敏锐度",
+        "example": "Night driving tests visual acuity.",
+        "emoji": "🔍",
+        "cefr": "C1"
+      },
+      {
+        "word": "stimuli",
+        "ipa": "/ˈstɪmjəlaɪ/",
+        "pos": "n.",
+        "zh": "刺激物（复数）",
+        "example": "Infants respond to face-like stimuli first.",
+        "emoji": "⚡",
+        "cefr": "C1"
+      },
+      {
+        "word": "perceive",
+        "ipa": "/pəˈsiːv/",
+        "pos": "v.",
+        "zh": "感知；认为",
+        "example": "Users perceive speed as responsiveness.",
+        "emoji": "🧠",
+        "cefr": "B2"
+      },
+      {
+        "word": "discern",
+        "ipa": "/dɪˈsɜːn/",
+        "pos": "v.",
+        "zh": "辨别；察觉",
+        "example": "Trained palates discern three separate notes.",
+        "emoji": "🍷",
+        "cefr": "C1"
+      },
+      {
+        "word": "sensitivity",
+        "ipa": "/ˌsensəˈtɪvəti/",
+        "pos": "n.",
+        "zh": "敏感度；敏感性",
+        "example": "Screen sensitivity adjusts in settings.",
+        "emoji": "🎚️",
+        "cefr": "B2"
+      },
+      {
+        "word": "numbness",
+        "ipa": "/ˈnʌmnəs/",
+        "pos": "n.",
+        "zh": "麻木",
+        "example": "Numbness in the fingers warrants a checkup.",
+        "emoji": "🥶",
+        "cefr": "C1"
+      },
+      {
+        "word": "tingling",
+        "ipa": "/ˈtɪŋɡlɪŋ/",
+        "pos": "n.",
+        "zh": "刺痛感",
+        "example": "A tingling spread up her arm.",
+        "emoji": "✨",
+        "cefr": "C1"
+      },
+      {
+        "word": "vertigo",
+        "ipa": "/ˈvɜːtɪɡəʊ/",
+        "pos": "n.",
+        "zh": "眩晕",
+        "example": "Heights trigger his vertigo instantly.",
+        "emoji": "🌀",
+        "cefr": "C1"
+      },
+      {
+        "word": "olfactory",
+        "ipa": "/ɒlˈfæktəri/",
+        "pos": "adj.",
+        "zh": "嗅觉的",
+        "example": "Olfactory signals reach the brain directly.",
+        "emoji": "👃",
+        "cefr": "C2"
+      },
+      {
+        "word": "gustatory",
+        "ipa": "/ɡʌˈsteɪtəri/",
+        "pos": "adj.",
+        "zh": "味觉的",
+        "example": "The dish delights gustatory senses.",
+        "emoji": "👅",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_body"
+  },
+  {
+    "id": "l5e_time_sequence",
+    "title": "时间与阶段",
+    "emoji": "⏳",
+    "words": [
+      {
+        "word": "simultaneous",
+        "ipa": "/ˌsɪməlˈteɪniəs/",
+        "pos": "adj.",
+        "zh": "同时的",
+        "example": "Simultaneous launches stretched the team thin.",
+        "emoji": "🔩",
+        "cefr": "C1"
+      },
+      {
+        "word": "interim",
+        "ipa": "/ˈɪntərɪm/",
+        "pos": "n./adj.",
+        "zh": "过渡期；临时的",
+        "example": "An interim manager steadied the shop.",
+        "emoji": "🔜",
+        "cefr": "C1"
+      },
+      {
+        "word": "phase",
+        "ipa": "/feɪz/",
+        "pos": "n.",
+        "zh": "阶段",
+        "example": "Phase two begins after the pilot.",
+        "emoji": "🌗",
+        "cefr": "B2"
+      },
+      {
+        "word": "elapsed",
+        "ipa": "/ɪˈlæpst/",
+        "pos": "adj./v.",
+        "zh": "流逝的；（时间）过去",
+        "example": "Within the elapsed hour, three tests passed.",
+        "emoji": "⌛",
+        "cefr": "C1"
+      },
+      {
+        "word": "prolonged",
+        "ipa": "/prəˈlɒŋd/",
+        "pos": "adj.",
+        "zh": "延长的；长期的",
+        "example": "Prolonged sitting harms the spine.",
+        "emoji": "💺",
+        "cefr": "C1"
+      },
+      {
+        "word": "fleeting",
+        "ipa": "/ˈfliːtɪŋ/",
+        "pos": "adj.",
+        "zh": "短暂的",
+        "example": "A fleeting smile crossed her face.",
+        "emoji": "💫",
+        "cefr": "C1"
+      },
+      {
+        "word": "sporadic",
+        "ipa": "/spəˈrædɪk/",
+        "pos": "adj.",
+        "zh": "偶发的",
+        "example": "Sporadic outages resumed after midnight.",
+        "emoji": "🚦",
+        "cefr": "C1"
+      },
+      {
+        "word": "recurrent",
+        "ipa": "/rɪˈkʌrənt/",
+        "pos": "adj.",
+        "zh": "反复出现的",
+        "example": "Recurrent delays erode trust fast.",
+        "emoji": "🔁",
+        "cefr": "C1"
+      },
+      {
+        "word": "imminent",
+        "ipa": "/ˈɪmɪnənt/",
+        "pos": "adj.",
+        "zh": "临近的",
+        "example": "Evacuation warned of imminent flooding.",
+        "emoji": "🚨",
+        "cefr": "C1"
+      },
+      {
+        "word": "impending",
+        "ipa": "/ɪmˈpendɪŋ/",
+        "pos": "adj.",
+        "zh": "即将发生的",
+        "example": "Impending layoffs dominated every conversation.",
+        "emoji": "🌩️",
+        "cefr": "C1"
+      },
+      {
+        "word": "eventual",
+        "ipa": "/ɪˈventʃuəl/",
+        "pos": "adj.",
+        "zh": "最终的",
+        "example": "The eventual winner trained in secret.",
+        "emoji": "🏆",
+        "cefr": "C1"
+      },
+      {
+        "word": "premature",
+        "ipa": "/ˌpreməˈtʃʊə/",
+        "pos": "adj.",
+        "zh": "过早的；早产的",
+        "example": "Launching now is premature.",
+        "emoji": "🐣",
+        "cefr": "C1"
+      },
+      {
+        "word": "anachronism",
+        "ipa": "/əˈnækrənɪzəm/",
+        "pos": "n.",
+        "zh": "时代错置",
+        "example": "A laptop in a Victorian film is an anachronism.",
+        "emoji": "⏳",
+        "cefr": "C2"
+      },
+      {
+        "word": "chronology",
+        "ipa": "/krəˈnɒlədʒi/",
+        "pos": "n.",
+        "zh": "年表",
+        "example": "The report includes a chronology of events.",
+        "emoji": "🗓️",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_time"
+  },
+  {
+    "id": "l5e_quantity_degree",
+    "title": "数量与程度",
+    "emoji": "📊",
+    "words": [
+      {
+        "word": "considerable",
+        "ipa": "/kənˈsɪdərəbl/",
+        "pos": "adj.",
+        "zh": "相当大的",
+        "example": "Considerable savings funded the second shop.",
+        "emoji": "📈",
+        "cefr": "B2"
+      },
+      {
+        "word": "negligible",
+        "ipa": "/ˈneɡlɪdʒəbl/",
+        "pos": "adj.",
+        "zh": "可忽略的",
+        "example": "The error is negligible at this scale.",
+        "emoji": "🤏",
+        "cefr": "C1"
+      },
+      {
+        "word": "abundant",
+        "ipa": "/əˈbʌndənt/",
+        "pos": "adj.",
+        "zh": "丰富的",
+        "example": "Rain made mushrooms abundant this autumn.",
+        "emoji": "🍄",
+        "cefr": "C1"
+      },
+      {
+        "word": "sparse",
+        "ipa": "/spɑːs/",
+        "pos": "adj.",
+        "zh": "稀疏的",
+        "example": "Sparse signage confused first-time visitors.",
+        "emoji": "🌵",
+        "cefr": "C1"
+      },
+      {
+        "word": "ample",
+        "ipa": "/ˈæmpl/",
+        "pos": "adj.",
+        "zh": "充足的",
+        "example": "Leave ample time for security checks.",
+        "emoji": "⏳",
+        "cefr": "C1"
+      },
+      {
+        "word": "meagre",
+        "ipa": "/ˈmiːɡə/",
+        "pos": "adj.",
+        "zh": "微薄的",
+        "example": "Meagre rations had to last the week.",
+        "emoji": "🥣",
+        "cefr": "C1"
+      },
+      {
+        "word": "copious",
+        "ipa": "/ˈkəʊpiəs/",
+        "pos": "adj.",
+        "zh": "大量的",
+        "example": "She took copious notes during the lecture.",
+        "emoji": "📝",
+        "cefr": "C1"
+      },
+      {
+        "word": "minimal",
+        "ipa": "/ˈmɪnɪml/",
+        "pos": "adj.",
+        "zh": "最小的",
+        "example": "Minimal packaging cuts costs and waste.",
+        "emoji": "📦",
+        "cefr": "B2"
+      },
+      {
+        "word": "excessive",
+        "ipa": "/ɪkˈsesɪv/",
+        "pos": "adj.",
+        "zh": "过度的",
+        "example": "Excessive salt hides the broth's depth.",
+        "emoji": "🧂",
+        "cefr": "B2"
+      },
+      {
+        "word": "moderate",
+        "ipa": "/ˈmɒdərət/",
+        "pos": "adj.",
+        "zh": "适度的",
+        "example": "Moderate exercise suits recovery best.",
+        "emoji": "🚶",
+        "cefr": "B2"
+      },
+      {
+        "word": "slight",
+        "ipa": "/slaɪt/",
+        "pos": "adj.",
+        "zh": "轻微的",
+        "example": "A slight delay won't affect the schedule.",
+        "emoji": "↗️",
+        "cefr": "B2"
+      },
+      {
+        "word": "vast",
+        "ipa": "/vɑːst/",
+        "pos": "adj.",
+        "zh": "巨大的；广阔的",
+        "example": "A vast steppe stretched beyond the road.",
+        "emoji": "🏞️",
+        "cefr": "B2"
+      },
+      {
+        "word": "plethora",
+        "ipa": "/ˈpleθərə/",
+        "pos": "n.",
+        "zh": "过多",
+        "example": "A plethora of apps confuses users.",
+        "emoji": "🌊",
+        "cefr": "C2"
+      },
+      {
+        "word": "paucity",
+        "ipa": "/ˈpɔːsəti/",
+        "pos": "n.",
+        "zh": "缺乏",
+        "example": "A paucity of data weakens the study.",
+        "emoji": "🕳️",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_adjectives"
+  },
+  {
+    "id": "l5e_cause_effect",
+    "title": "因果与推断",
+    "emoji": "🪃",
+    "words": [
+      {
+        "word": "therefore",
+        "ipa": "/ˈðeəfɔː/",
+        "pos": "adv.",
+        "zh": "因此",
+        "example": "Costs rose; therefore margins shrank.",
+        "emoji": "➡️",
+        "cefr": "B2"
+      },
+      {
+        "word": "thus",
+        "ipa": "/ðʌs/",
+        "pos": "adv.",
+        "zh": "因而；这样",
+        "example": "The bridge closed, thus rerouting all traffic.",
+        "emoji": "🔀",
+        "cefr": "B2"
+      },
+      {
+        "word": "attributable",
+        "ipa": "/əˈtrɪbjətəbl/",
+        "pos": "adj.",
+        "zh": "可归因的",
+        "example": "Half the loss is attributable to theft.",
+        "emoji": "🏷️",
+        "cefr": "C1"
+      },
+      {
+        "word": "arise",
+        "ipa": "/əˈraɪz/",
+        "pos": "v.",
+        "zh": "出现；产生",
+        "example": "Most complaints arise from unclear labels.",
+        "emoji": "🌱",
+        "cefr": "B2"
+      },
+      {
+        "word": "provoke",
+        "ipa": "/prəˈvəʊk/",
+        "pos": "v.",
+        "zh": "激起；挑衅",
+        "example": "The policy provoked instant protests.",
+        "emoji": "😤",
+        "cefr": "B2"
+      },
+      {
+        "word": "originate",
+        "ipa": "/əˈrɪdʒɪneɪt/",
+        "pos": "v.",
+        "zh": "起源；发起",
+        "example": "The fire originated in the basement.",
+        "emoji": "🔥",
+        "cefr": "C1"
+      },
+      {
+        "word": "precipitate",
+        "ipa": "/prɪˈsɪpɪteɪt/",
+        "pos": "v./adj.",
+        "zh": "促成；仓促的",
+        "example": "One leaked memo precipitated the resignations.",
+        "emoji": "⛈️",
+        "cefr": "C1"
+      },
+      {
+        "word": "exacerbate",
+        "ipa": "/ɪkˈsæsəbeɪt/",
+        "pos": "v.",
+        "zh": "加剧",
+        "example": "Cutbacks exacerbated the staff shortage.",
+        "emoji": "📉",
+        "cefr": "C1"
+      },
+      {
+        "word": "alleviate",
+        "ipa": "/əˈliːvieɪt/",
+        "pos": "v.",
+        "zh": "缓解",
+        "example": "Wider roads rarely alleviate congestion.",
+        "emoji": "🩹",
+        "cefr": "C1"
+      },
+      {
+        "word": "offset",
+        "ipa": "/ˈɒfset/",
+        "pos": "v./n.",
+        "zh": "抵消",
+        "example": "Higher sales offset the currency loss.",
+        "emoji": "⚖️",
+        "cefr": "C1"
+      },
+      {
+        "word": "dampen",
+        "ipa": "/ˈdæmpən/",
+        "pos": "v.",
+        "zh": "抑制；使减弱",
+        "example": "Rate rises dampen borrowing appetite.",
+        "emoji": "🌧️",
+        "cefr": "C1"
+      },
+      {
+        "word": "ensue",
+        "ipa": "/ɪnˈsjuː/",
+        "pos": "v.",
+        "zh": "随之发生",
+        "example": "Confusion ensued after the announcement.",
+        "emoji": "🫨",
+        "cefr": "C1"
+      },
+      {
+        "word": "cascade",
+        "ipa": "/kæˈskeɪd/",
+        "pos": "n./v.",
+        "zh": "级联",
+        "example": "A cascade of errors followed the glitch.",
+        "emoji": "🌊",
+        "cefr": "C1"
+      },
+      {
+        "word": "knock-on",
+        "ipa": "/ˌnɒk ˈɒn/",
+        "pos": "adj.",
+        "zh": "连锁的",
+        "example": "The strike had knock-on effects on shipping.",
+        "emoji": "🎳",
+        "cefr": "C2"
+      }
+    ],
+    "extends_from": "l2_verbs"
+  },
+  {
+    "id": "l5e_social_ties",
+    "title": "社会纽带",
+    "emoji": "🧑‍🤝‍🧑",
+    "words": [
+      {
+        "word": "companionship",
+        "ipa": "/kəmˈpæniənʃɪp/",
+        "pos": "n.",
+        "zh": "陪伴",
+        "example": "Pets offer quiet companionship.",
+        "emoji": "🐾",
+        "cefr": "C1"
+      },
+      {
+        "word": "camaraderie",
+        "ipa": "/ˌkæməˈrɑːdəri/",
+        "pos": "n.",
+        "zh": "情谊；战友感情",
+        "example": "Late shifts built real camaraderie.",
+        "emoji": "🤝",
+        "cefr": "C1"
+      },
+      {
+        "word": "rapport",
+        "ipa": "/ræˈpɔː/",
+        "pos": "n.",
+        "zh": "融洽关系",
+        "example": "Good rapport opens closed doors.",
+        "emoji": "💬",
+        "cefr": "C1"
+      },
+      {
+        "word": "intimacy",
+        "ipa": "/ˈɪntɪməsi/",
+        "pos": "n.",
+        "zh": "亲密",
+        "example": "Long letters preserved their intimacy.",
+        "emoji": "💌",
+        "cefr": "C1"
+      },
+      {
+        "word": "estrangement",
+        "ipa": "/ɪˈstreɪndʒmənt/",
+        "pos": "n.",
+        "zh": "疏远",
+        "example": "Money caused the family estrangement.",
+        "emoji": "🚪",
+        "cefr": "C1"
+      },
+      {
+        "word": "alienation",
+        "ipa": "/ˌeɪliəˈneɪʃn/",
+        "pos": "n.",
+        "zh": "疏离感",
+        "example": "Office politics bred quiet alienation.",
+        "emoji": "🏝️",
+        "cefr": "C1"
+      },
+      {
+        "word": "kinship",
+        "ipa": "/ˈkɪnʃɪp/",
+        "pos": "n.",
+        "zh": "亲属关系；亲切感",
+        "example": "A sense of kinship united the villages.",
+        "emoji": "👨‍👩‍👧",
+        "cefr": "C1"
+      },
+      {
+        "word": "household",
+        "ipa": "/ˈhaʊshəʊld/",
+        "pos": "n.",
+        "zh": "家庭；住户",
+        "example": "Average household debt keeps rising.",
+        "emoji": "🏠",
+        "cefr": "B2"
+      },
+      {
+        "word": "neighbourhood",
+        "ipa": "/ˈneɪbəhʊd/",
+        "pos": "n.",
+        "zh": "街区；邻里",
+        "example": "The neighbourhood watch meets monthly.",
+        "emoji": "🏘️",
+        "cefr": "B2"
+      },
+      {
+        "word": "warmth",
+        "ipa": "/wɔːmθ/",
+        "pos": "n.",
+        "zh": "温暖；热情",
+        "example": "Strangers showed unexpected warmth.",
+        "emoji": "🔥",
+        "cefr": "B2"
+      },
+      {
+        "word": "unity",
+        "ipa": "/ˈjuːnəti/",
+        "pos": "n.",
+        "zh": "团结；统一",
+        "example": "Crisis restored a fragile unity.",
+        "emoji": "🧩",
+        "cefr": "B2"
+      },
+      {
+        "word": "bond",
+        "ipa": "/bɒnd/",
+        "pos": "n.",
+        "zh": "纽带；债券",
+        "example": "Shared struggle formed a lasting bond.",
+        "emoji": "🔗",
+        "cefr": "B2"
+      },
+      {
+        "word": "networking",
+        "ipa": "/ˈnetwɜːkɪŋ/",
+        "pos": "n.",
+        "zh": "人脉拓展",
+        "example": "Networking opens doors at conferences.",
+        "emoji": "🤝",
+        "cefr": "C1"
+      },
+      {
+        "word": "bonding",
+        "ipa": "/ˈbɒndɪŋ/",
+        "pos": "n.",
+        "zh": "情感联结",
+        "example": "Team trips encourage bonding.",
+        "emoji": "🫂",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_family"
+  }
 ]

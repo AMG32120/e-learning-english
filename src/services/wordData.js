@@ -57,13 +57,19 @@ const WORD_DATA_FILES = [
   { group: 'l5', file: 'phrases-3.json', type: 'array', optional: true },
   { group: 'l5', file: 'phrases-4.json', type: 'array', optional: true },
   { group: 'l5', file: 'phrases-5.json', type: 'array', optional: true },
-  { group: 'l8', file: 'words-l8.json', type: 'array' }
+  { group: 'l8', file: 'words-l8.json', type: 'array' },
+  /* 语料生词表：L6 日常对话 / L13 听说进阶 / L14 高级阅读写作 固定内容等级的语料生词，
+     每个词条含 source 字段关联所属语料（L6 scene/script id、L13 l6_XX、L14 a7_XX），
+     供 getStageWords 按关卡返回，通关后进入掌握词与复习池。 */
+  { group: 'corpus', file: 'corpus-words-l6.json', type: 'array' },
+  { group: 'corpus', file: 'corpus-words-l13.json', type: 'array' },
+  { group: 'corpus', file: 'corpus-words-l14.json', type: 'array' }
 ]
 
 const RETRY_DELAYS = [0, 600, 2000] // 首次 + 两次重试的等待毫秒数
 
-/* 已加载缓存：{ l2: WORDS_L2, l5: L5_THEMES, l8: L8_ACADEMIC_WORDS } */
-const cache = { l2: null, l5: null, l8: null }
+/* 已加载缓存：{ l2: WORDS_L2, l5: L5_THEMES, l8: L8_ACADEMIC_WORDS, corpus: { l6, l13, l14 } } */
+const cache = { l2: null, l5: null, l8: null, corpus: null }
 let loadPromise = null
 
 function sleep(ms) {
@@ -148,15 +154,21 @@ export function preloadWordData() {
         const l2 = {}
         const l5 = []
         let l8 = []
+        const corpus = { l6: [], l13: [], l14: [] }
         results.forEach((data, i) => {
           const meta = WORD_DATA_FILES[i]
           if (meta.group === 'l2') Object.assign(l2, data || {})
           else if (meta.group === 'l5') l5.push(...(data || []))
-          else l8 = data || []
+          else if (meta.group === 'l8') l8 = data || []
+          else if (meta.group === 'corpus') {
+            const key = meta.file.replace('corpus-words-', '').replace('.json', '') // l6/l13/l14
+            corpus[key] = data || []
+          }
         })
         cache.l2 = dedupeL2(l2)
         cache.l5 = dedupeL5(l5)
         cache.l8 = l8
+        cache.corpus = corpus
         return cache
       })
       .catch((e) => {
@@ -173,12 +185,14 @@ export function ensureWordData() {
 }
 
 /* 测试/离线兜底：同步注入词库数据
-   l2/l5 可直接传入多文件合并后的结果；l2x/l5x 兼容旧写法。
+   l2/l5 可直接传入多文件合并后的结果；l2x/l5x 兼容旧写法；
+   corpus 为 { l6: [...], l13: [...], l14: [...] } 可选注入。
    注入后同样执行等级内去重，与线上加载行为一致。 */
-export function hydrateWordData({ l2, l5, l8, l2x, l5x }) {
+export function hydrateWordData({ l2, l5, l8, l2x, l5x, corpus }) {
   if (l2) cache.l2 = dedupeL2(l2x ? { ...l2, ...l2x } : l2)
   if (l5) cache.l5 = dedupeL5(l5x ? [...l5, ...l5x] : l5)
   if (l8) cache.l8 = l8
+  if (corpus) cache.corpus = { l6: corpus.l6 || [], l13: corpus.l13 || [], l14: corpus.l14 || [] }
   return cache
 }
 
@@ -209,6 +223,16 @@ export function getL8Words() {
   return cache.l8 || []
 }
 
+/* 语料生词表：levelKey 为 'l6' / 'l13' / 'l14'（对应 L6 日常对话 / L13 听说进阶 / L14 高级阅读写作）。
+   数据未加载时返回 []，不阻塞主流程。 */
+export function getCorpusWords(levelKey) {
+  return (cache.corpus && cache.corpus[levelKey]) || []
+}
+
+export function getAllCorpusWords() {
+  return ['l6', 'l13', 'l14'].flatMap((k) => getCorpusWords(k))
+}
+
 /* 浏览器恢复联网时自动重试一次（应用启动失败兜底） */
 if (typeof window !== 'undefined' && typeof window.addEventListener === 'function') {
   window.addEventListener('online', () => {
@@ -216,4 +240,4 @@ if (typeof window !== 'undefined' && typeof window.addEventListener === 'functio
   })
 }
 
-export default { preloadWordData, ensureWordData, hydrateWordData, getWordsL2, getAllL2Words, getL5Themes, getAllL5Words, getL8Words }
+export default { preloadWordData, ensureWordData, hydrateWordData, getWordsL2, getAllL2Words, getL5Themes, getAllL5Words, getL8Words, getCorpusWords, getAllCorpusWords }

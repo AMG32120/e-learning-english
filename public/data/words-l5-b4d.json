@@ -1,1037 +1,1289 @@
 [
- {
-  "id": "l5d_macroeconomics",
-  "title": "宏观经济",
-  "emoji": "📊",
-  "words": [
-   {
-    "word": "deflation",
-    "ipa": "/dɪˈfleɪʃn/",
-    "pos": "n.",
-    "zh": "通货紧缩",
-    "example": "Deflation pushes shoppers to delay purchases.",
-    "emoji": "📉",
-    "cefr": "C1"
-   },
-   {
-    "word": "slump",
-    "ipa": "/slʌmp/",
-    "pos": "n.",
-    "zh": "暴跌；衰退期",
-    "example": "Housing sales fell into a year-long slump.",
-    "emoji": "🛝",
-    "cefr": "C1"
-   },
-   {
-    "word": "monetary",
-    "ipa": "/ˈmʌnɪtri/",
-    "pos": "adj.",
-    "zh": "货币的",
-    "example": "The central bank tightened monetary policy again.",
-    "emoji": "🏦",
-    "cefr": "C1"
-   },
-   {
-    "word": "treasury",
-    "ipa": "/ˈtreʒəri/",
-    "pos": "n.",
-    "zh": "财政部；国库",
-    "example": "The treasury published the borrowing plan.",
-    "emoji": "🏛️",
-    "cefr": "C1"
-   },
-   {
-    "word": "aggregate",
-    "ipa": "/ˈæɡrɪɡət/",
-    "pos": "adj./n.",
-    "zh": "总的；总计",
-    "example": "Aggregate demand collapsed during the crisis.",
-    "emoji": "🧮",
-    "cefr": "C1"
-   },
-   {
-    "word": "quantitative",
-    "ipa": "/ˈkwɒntɪtətɪv/",
-    "pos": "adj.",
-    "zh": "定量的",
-    "example": "Quantitative easing flooded markets with cash.",
-    "emoji": "🔢",
-    "cefr": "C1"
-   },
-   {
-    "word": "protectionism",
-    "ipa": "/prəˈtekʃənɪzəm/",
-    "pos": "n.",
-    "zh": "保护主义",
-    "example": "Protectionism shields local factories from rivals.",
-    "emoji": "🛡️",
-    "cefr": "C1"
-   },
-   {
-    "word": "deficit",
-    "ipa": "/ˈdefɪsɪt/",
-    "pos": "n.",
-    "zh": "赤字；缺口",
-    "example": "The trade deficit hit a ten-year record.",
-    "emoji": "🔻",
-    "cefr": "C1"
-   },
-   {
-    "word": "affluence",
-    "ipa": "/ˈæfluəns/",
-    "pos": "n.",
-    "zh": "富裕",
-    "example": "Suburban affluence hides urban hardship.",
-    "emoji": "💎",
-    "cefr": "C1"
-   },
-   {
-    "word": "volatility",
-    "ipa": "/ˌvɒləˈtɪləti/",
-    "pos": "n.",
-    "zh": "波动性",
-    "example": "Currency volatility scares off foreign investors.",
-    "emoji": "🎢",
-    "cefr": "C1"
-   },
-   {
-    "word": "indicator",
-    "ipa": "/ˈɪndɪkeɪtə/",
-    "pos": "n.",
-    "zh": "指标",
-    "example": "Retail sales are a reliable leading indicator.",
-    "emoji": "📈",
-    "cefr": "B2"
-   },
-   {
-    "word": "devaluation",
-    "ipa": "/ˌdiːˌvæljuˈeɪʃn/",
-    "pos": "n.",
-    "zh": "（货币）贬值",
-    "example": "Devaluation made imports painfully expensive.",
-    "emoji": "🪙",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5d_global_trade",
-  "title": "全球贸易",
-  "emoji": "🚢",
-  "words": [
-   {
-    "word": "haulage",
-    "ipa": "/ˈhɔːlɪdʒ/",
-    "pos": "n.",
-    "zh": "公路货运",
-    "example": "Haulage firms raised rates twice this year.",
-    "emoji": "🚚",
-    "cefr": "C1"
-   },
-   {
-    "word": "clearance",
-    "ipa": "/ˈklɪərəns/",
-    "pos": "n.",
-    "zh": "清关；许可",
-    "example": "Customs clearance took only two hours.",
-    "emoji": "✅",
-    "cefr": "C1"
-   },
-   {
-    "word": "surplus",
-    "ipa": "/ˈsɜːpləs/",
-    "pos": "n.",
-    "zh": "盈余；过剩",
-    "example": "A grain surplus pushed world prices down.",
-    "emoji": "🛒",
-    "cefr": "C1"
-   },
-   {
-    "word": "free-trade",
-    "ipa": "/ˌfriːˈtreɪd/",
-    "pos": "adj.",
-    "zh": "自由贸易的",
-    "example": "The free-trade zone attracts assembly plants.",
-    "emoji": "🕊️",
-    "cefr": "C1"
-   },
-   {
-    "word": "offshore",
-    "ipa": "/ˌɒfˈʃɔː/",
-    "pos": "adj./adv.",
-    "zh": "离岸的；海外的",
-    "example": "The firm moved support offshore last year.",
-    "emoji": "🏝️",
-    "cefr": "C1"
-   },
-   {
-    "word": "supply-chain",
-    "ipa": "/səˈplaɪ tʃeɪn/",
-    "pos": "n.",
-    "zh": "供应链",
-    "example": "A port strike broke the whole supply chain.",
-    "emoji": "⛓️",
-    "cefr": "C1"
-   },
-   {
-    "word": "truckload",
-    "ipa": "/ˈtrʌkləʊd/",
-    "pos": "n.",
-    "zh": "一卡车（的量）",
-    "example": "A truckload of aid arrived at dawn.",
-    "emoji": "🛻",
-    "cefr": "C1"
-   },
-   {
-    "word": "fleet",
-    "ipa": "/fliːt/",
-    "pos": "n.",
-    "zh": "车队；船队",
-    "example": "A fleet of 200 trucks covers the province.",
-    "emoji": "🚛",
-    "cefr": "C1"
-   },
-   {
-    "word": "warehousing",
-    "ipa": "/ˈweəhaʊzɪŋ/",
-    "pos": "n.",
-    "zh": "仓储",
-    "example": "Automated warehousing cut order times in half.",
-    "emoji": "🏭",
-    "cefr": "C1"
-   },
-   {
-    "word": "consignment",
-    "ipa": "/kənˈsaɪnmənt/",
-    "pos": "n.",
-    "zh": "托运货物",
-    "example": "The consignment cleared customs on Friday.",
-    "emoji": "📮",
-    "cefr": "C1"
-   },
-   {
-    "word": "carrier",
-    "ipa": "/ˈkæriə/",
-    "pos": "n.",
-    "zh": "货运公司；承运人",
-    "example": "The carrier blamed fog for the delays.",
-    "emoji": "🛳️",
-    "cefr": "C1"
-   },
-   {
-    "word": "pallet",
-    "ipa": "/ˈpælət/",
-    "pos": "n.",
-    "zh": "托盘",
-    "example": "Each pallet carries a tonne of canned food.",
-    "emoji": "🪵",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5d_market_mechanics",
-  "title": "市场机制",
-  "emoji": "💹",
-  "words": [
-   {
-    "word": "monopoly",
-    "ipa": "/məˈnɒpəli/",
-    "pos": "n.",
-    "zh": "垄断",
-    "example": "Regulators broke up the railway monopoly.",
-    "emoji": "👑",
-    "cefr": "B2"
-   },
-   {
-    "word": "competition",
-    "ipa": "/ˌkɒmpəˈtɪʃn/",
-    "pos": "n.",
-    "zh": "竞争",
-    "example": "Healthy competition keeps prices honest.",
-    "emoji": "🏁",
-    "cefr": "B2"
-   },
-   {
-    "word": "stockpile",
-    "ipa": "/ˈstɒkpaɪl/",
-    "pos": "n./v.",
-    "zh": "储备；囤积",
-    "example": "Nations stockpiled grain ahead of the crisis.",
-    "emoji": "🏗️",
-    "cefr": "C1"
-   },
-   {
-    "word": "substitute",
-    "ipa": "/ˈsʌbstɪtjuːt/",
-    "pos": "n./v.",
-    "zh": "替代品；替代",
-    "example": "Margarine became a cheap substitute for butter.",
-    "emoji": "🔁",
-    "cefr": "B2"
-   },
-   {
-    "word": "scarcity",
-    "ipa": "/ˈskeəsəti/",
-    "pos": "n.",
-    "zh": "稀缺",
-    "example": "Water scarcity shapes settlement patterns.",
-    "emoji": "🌵",
-    "cefr": "C1"
-   },
-   {
-    "word": "stagnation",
-    "ipa": "/stæɡˈneɪʃn/",
-    "pos": "n.",
-    "zh": "停滞",
-    "example": "Wage stagnation worried voters most.",
-    "emoji": "🛑",
-    "cefr": "C1"
-   },
-   {
-    "word": "deregulated",
-    "ipa": "/diːˈreɡjuleɪtɪd/",
-    "pos": "adj.",
-    "zh": "解除管制的",
-    "example": "The deregulated market invited price wars.",
-    "emoji": "🔓",
-    "cefr": "C1"
-   },
-   {
-    "word": "commodity",
-    "ipa": "/kəˈmɒdəti/",
-    "pos": "n.",
-    "zh": "大宗商品",
-    "example": "Copper is a commodity that tracks construction.",
-    "emoji": "⛏️",
-    "cefr": "C1"
-   },
-   {
-    "word": "bubble",
-    "ipa": "/ˈbʌbl/",
-    "pos": "n.",
-    "zh": "（资产）泡沫",
-    "example": "When the housing bubble burst, banks wobbled.",
-    "emoji": "🫧",
-    "cefr": "C1"
-   },
-   {
-    "word": "bear-market",
-    "ipa": "/ˈbeə ˈmɑːkɪt/",
-    "pos": "n.",
-    "zh": "熊市",
-    "example": "Fund managers brace for a bear market each autumn.",
-    "emoji": "🐻",
-    "cefr": "C1"
-   },
-   {
-    "word": "insolvency",
-    "ipa": "/ɪnˈsɒlvənsi/",
-    "pos": "n.",
-    "zh": "资不抵债",
-    "example": "Insolvency proceedings began last month.",
-    "emoji": "🕳️",
-    "cefr": "C1"
-   },
-   {
-    "word": "benchmark",
-    "ipa": "/ˈbentʃmɑːk/",
-    "pos": "n.",
-    "zh": "基准；标杆",
-    "example": "The fund trails its benchmark index badly.",
-    "emoji": "📏",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5d_labour_employment",
-  "title": "劳动力市场",
-  "emoji": "🧑‍🏭",
-  "words": [
-   {
-    "word": "workforce",
-    "ipa": "/ˈwɜːkfɔːs/",
-    "pos": "n.",
-    "zh": "劳动力；全体员工",
-    "example": "Automation reshaped the factory workforce.",
-    "emoji": "🧑‍🏭",
-    "cefr": "B2"
-   },
-   {
-    "word": "headhunter",
-    "ipa": "/ˈhedhʌntə/",
-    "pos": "n.",
-    "zh": "猎头",
-    "example": "A headhunter called with a surprising offer.",
-    "emoji": "🎯",
-    "cefr": "C1"
-   },
-   {
-    "word": "severance",
-    "ipa": "/ˈsevərəns/",
-    "pos": "n.",
-    "zh": "遣散费",
-    "example": "Severance pay covered three months of rent.",
-    "emoji": "💰",
-    "cefr": "C1"
-   },
-   {
-    "word": "union",
-    "ipa": "/ˈjuːniən/",
-    "pos": "n.",
-    "zh": "工会；联盟",
-    "example": "The union negotiated a 6% pay rise.",
-    "emoji": "✊",
-    "cefr": "B2"
-   },
-   {
-    "word": "shift-work",
-    "ipa": "/ˈʃɪft wɜːk/",
-    "pos": "n.",
-    "zh": "轮班工作",
-    "example": "Shift-work disrupts sleep patterns badly.",
-    "emoji": "🌙",
-    "cefr": "C1"
-   },
-   {
-    "word": "internship",
-    "ipa": "/ˈɪntɜːnʃɪp/",
-    "pos": "n.",
-    "zh": "实习",
-    "example": "A summer internship opened every door for her.",
-    "emoji": "🎒",
-    "cefr": "B2"
-   },
-   {
-    "word": "contractor",
-    "ipa": "/kənˈtræktə/",
-    "pos": "n.",
-    "zh": "承包人；合同工",
-    "example": "Contractor invoices must arrive by the 5th.",
-    "emoji": "🧾",
-    "cefr": "B2"
-   },
-   {
-    "word": "flexibility",
-    "ipa": "/ˌfleksəˈbɪləti/",
-    "pos": "n.",
-    "zh": "灵活性",
-    "example": "Staff rank flexibility above pay rises.",
-    "emoji": "🤸",
-    "cefr": "B2"
-   },
-   {
-    "word": "layoff",
-    "ipa": "/ˈleɪɒf/",
-    "pos": "n.",
-    "zh": "解雇；裁员",
-    "example": "Layoffs hit junior staff first.",
-    "emoji": "🚪",
-    "cefr": "C1"
-   },
-   {
-    "word": "vocation",
-    "ipa": "/vəʊˈkeɪʃn/",
-    "pos": "n.",
-    "zh": "职业；使命感",
-    "example": "Nursing is a vocation, not just a job.",
-    "emoji": "🩺",
-    "cefr": "C1"
-   },
-   {
-    "word": "apprenticeship",
-    "ipa": "/əˈprentɪsʃɪp/",
-    "pos": "n.",
-    "zh": "学徒制",
-    "example": "Manufacturers revived apprenticeship schemes.",
-    "emoji": "🔨",
-    "cefr": "C1"
-   },
-   {
-    "word": "onboarding",
-    "ipa": "/ˈɒnbɔːdɪŋ/",
-    "pos": "n.",
-    "zh": "入职培训",
-    "example": "A smooth onboarding cuts early resignations.",
-    "emoji": "🛳️",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5d_business_strategy",
-  "title": "企业战略",
-  "emoji": "♟️",
-  "words": [
-   {
-    "word": "takeover",
-    "ipa": "/ˈteɪkəʊvə/",
-    "pos": "n.",
-    "zh": "收购；接管",
-    "example": "The hostile takeover surprised analysts.",
-    "emoji": "🦈",
-    "cefr": "C1"
-   },
-   {
-    "word": "acquisition",
-    "ipa": "/ˌækwɪˈzɪʃn/",
-    "pos": "n.",
-    "zh": "收购",
-    "example": "The acquisition doubled their customer base.",
-    "emoji": "🛒",
-    "cefr": "C1"
-   },
-   {
-    "word": "diversify",
-    "ipa": "/daɪˈvɜːsɪfaɪ/",
-    "pos": "v.",
-    "zh": "多元化；使多样",
-    "example": "The publisher diversified into podcasts.",
-    "emoji": "🌈",
-    "cefr": "C1"
-   },
-   {
-    "word": "headquarters",
-    "ipa": "/ˌhedˈkwɔːtəz/",
-    "pos": "n.",
-    "zh": "总部",
-    "example": "The bank moved its headquarters to Singapore.",
-    "emoji": "🏬",
-    "cefr": "B2"
-   },
-   {
-    "word": "gross",
-    "ipa": "/ɡrəʊs/",
-    "pos": "adj.",
-    "zh": "总的（毛收入）",
-    "example": "Gross margins improved after automation.",
-    "emoji": "🧮",
-    "cefr": "B2"
-   },
-   {
-    "word": "profit-margin",
-    "ipa": "/ˈprɒfɪt ˈmɑːdʒɪn/",
-    "pos": "n.",
-    "zh": "利润率",
-    "example": "Thin profit margins make airlines fragile.",
+  {
+    "id": "l5d_macroeconomics",
+    "title": "宏观经济",
     "emoji": "📊",
-    "cefr": "C1"
-   },
-   {
-    "word": "shareholder",
-    "ipa": "/ˈʃeəhəʊldə/",
-    "pos": "n.",
-    "zh": "股东",
-    "example": "Shareholders approved the buyback unanimously.",
-    "emoji": "🧾",
-    "cefr": "C1"
-   },
-   {
-    "word": "subsidiary",
-    "ipa": "/səbˈsɪdiəri/",
-    "pos": "n.",
-    "zh": "子公司",
-    "example": "The subsidiary handles all Asian sales.",
-    "emoji": "🏢",
-    "cefr": "C1"
-   },
-   {
-    "word": "entrepreneur",
-    "ipa": "/ˌɒntrəprəˈnɜː/",
-    "pos": "n.",
-    "zh": "企业家",
-    "example": "The young entrepreneur reinvested every yuan.",
-    "emoji": "💡",
-    "cefr": "B2"
-   },
-   {
-    "word": "stake",
-    "ipa": "/steɪk/",
-    "pos": "n.",
-    "zh": "股份；赌注",
-    "example": "The fund bought a 20% stake in the startup.",
-    "emoji": "🪙",
-    "cefr": "C1"
-   },
-   {
-    "word": "bargaining",
-    "ipa": "/ˈbɑːɡənɪŋ/",
-    "pos": "n.",
-    "zh": "讨价还价；谈判",
-    "example": "Collective bargaining raised wages 5%.",
-    "emoji": "🤲",
-    "cefr": "C1"
-   },
-   {
-    "word": "venture",
-    "ipa": "/ˈventʃə/",
-    "pos": "n.",
-    "zh": "风险投资；冒险事业",
-    "example": "The venture failed, but the lessons paid off.",
-    "emoji": "🎲",
-    "cefr": "B2"
-   }
-  ]
- },
- {
-  "id": "l5d_consumer_behavior",
-  "title": "消费行为",
-  "emoji": "🛍️",
-  "words": [
-   {
-    "word": "shopper",
-    "ipa": "/ˈʃɒpə/",
-    "pos": "n.",
-    "zh": "购物者",
-    "example": "Shoppers spent 20% more during the festival.",
+    "words": [
+      {
+        "word": "deflation",
+        "ipa": "/dɪˈfleɪʃn/",
+        "pos": "n.",
+        "zh": "通货紧缩",
+        "example": "Deflation pushes shoppers to delay purchases.",
+        "emoji": "📉",
+        "cefr": "C1"
+      },
+      {
+        "word": "slump",
+        "ipa": "/slʌmp/",
+        "pos": "n.",
+        "zh": "暴跌；衰退期",
+        "example": "Housing sales fell into a year-long slump.",
+        "emoji": "🛝",
+        "cefr": "C1"
+      },
+      {
+        "word": "monetary",
+        "ipa": "/ˈmʌnɪtri/",
+        "pos": "adj.",
+        "zh": "货币的",
+        "example": "The central bank tightened monetary policy again.",
+        "emoji": "🏦",
+        "cefr": "C1"
+      },
+      {
+        "word": "treasury",
+        "ipa": "/ˈtreʒəri/",
+        "pos": "n.",
+        "zh": "财政部；国库",
+        "example": "The treasury published the borrowing plan.",
+        "emoji": "🏛️",
+        "cefr": "C1"
+      },
+      {
+        "word": "aggregate",
+        "ipa": "/ˈæɡrɪɡət/",
+        "pos": "adj./n.",
+        "zh": "总的；总计",
+        "example": "Aggregate demand collapsed during the crisis.",
+        "emoji": "🧮",
+        "cefr": "C1"
+      },
+      {
+        "word": "quantitative",
+        "ipa": "/ˈkwɒntɪtətɪv/",
+        "pos": "adj.",
+        "zh": "定量的",
+        "example": "Quantitative easing flooded markets with cash.",
+        "emoji": "🔢",
+        "cefr": "C1"
+      },
+      {
+        "word": "protectionism",
+        "ipa": "/prəˈtekʃənɪzəm/",
+        "pos": "n.",
+        "zh": "保护主义",
+        "example": "Protectionism shields local factories from rivals.",
+        "emoji": "🛡️",
+        "cefr": "C1"
+      },
+      {
+        "word": "deficit",
+        "ipa": "/ˈdefɪsɪt/",
+        "pos": "n.",
+        "zh": "赤字；缺口",
+        "example": "The trade deficit hit a ten-year record.",
+        "emoji": "🔻",
+        "cefr": "C1"
+      },
+      {
+        "word": "affluence",
+        "ipa": "/ˈæfluəns/",
+        "pos": "n.",
+        "zh": "富裕",
+        "example": "Suburban affluence hides urban hardship.",
+        "emoji": "💎",
+        "cefr": "C1"
+      },
+      {
+        "word": "volatility",
+        "ipa": "/ˌvɒləˈtɪləti/",
+        "pos": "n.",
+        "zh": "波动性",
+        "example": "Currency volatility scares off foreign investors.",
+        "emoji": "🎢",
+        "cefr": "C1"
+      },
+      {
+        "word": "indicator",
+        "ipa": "/ˈɪndɪkeɪtə/",
+        "pos": "n.",
+        "zh": "指标",
+        "example": "Retail sales are a reliable leading indicator.",
+        "emoji": "📈",
+        "cefr": "B2"
+      },
+      {
+        "word": "devaluation",
+        "ipa": "/ˌdiːˌvæljuˈeɪʃn/",
+        "pos": "n.",
+        "zh": "（货币）贬值",
+        "example": "Devaluation made imports painfully expensive.",
+        "emoji": "🪙",
+        "cefr": "C1"
+      },
+      {
+        "word": "stagflation",
+        "ipa": "/stæɡˈfleɪʃn/",
+        "pos": "n.",
+        "zh": "滞胀",
+        "example": "Stagflation combines stagnation and inflation.",
+        "emoji": "🐌",
+        "cefr": "C2"
+      },
+      {
+        "word": "macroeconomic",
+        "ipa": "/ˌmækrəʊˌiːkəˈnɒmɪk/",
+        "pos": "adj.",
+        "zh": "宏观经济的",
+        "example": "Macroeconomic policy steers the whole economy.",
+        "emoji": "🏛️",
+        "cefr": "C1"
+      },
+      {
+        "word": "handout",
+        "ipa": "/ˈhændaʊt/",
+        "pos": "n.",
+        "zh": "救济金",
+        "example": "Some see welfare as a handout.",
+        "emoji": "🤲",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_money"
+  },
+  {
+    "id": "l5d_global_trade",
+    "title": "全球贸易",
+    "emoji": "🚢",
+    "words": [
+      {
+        "word": "haulage",
+        "ipa": "/ˈhɔːlɪdʒ/",
+        "pos": "n.",
+        "zh": "公路货运",
+        "example": "Haulage firms raised rates twice this year.",
+        "emoji": "🚚",
+        "cefr": "C1"
+      },
+      {
+        "word": "clearance",
+        "ipa": "/ˈklɪərəns/",
+        "pos": "n.",
+        "zh": "清关；许可",
+        "example": "Customs clearance took only two hours.",
+        "emoji": "✅",
+        "cefr": "C1"
+      },
+      {
+        "word": "surplus",
+        "ipa": "/ˈsɜːpləs/",
+        "pos": "n.",
+        "zh": "盈余；过剩",
+        "example": "A grain surplus pushed world prices down.",
+        "emoji": "🛒",
+        "cefr": "C1"
+      },
+      {
+        "word": "free-trade",
+        "ipa": "/ˌfriːˈtreɪd/",
+        "pos": "adj.",
+        "zh": "自由贸易的",
+        "example": "The free-trade zone attracts assembly plants.",
+        "emoji": "🕊️",
+        "cefr": "C1"
+      },
+      {
+        "word": "offshore",
+        "ipa": "/ˌɒfˈʃɔː/",
+        "pos": "adj./adv.",
+        "zh": "离岸的；海外的",
+        "example": "The firm moved support offshore last year.",
+        "emoji": "🏝️",
+        "cefr": "C1"
+      },
+      {
+        "word": "supply-chain",
+        "ipa": "/səˈplaɪ tʃeɪn/",
+        "pos": "n.",
+        "zh": "供应链",
+        "example": "A port strike broke the whole supply chain.",
+        "emoji": "⛓️",
+        "cefr": "C1"
+      },
+      {
+        "word": "truckload",
+        "ipa": "/ˈtrʌkləʊd/",
+        "pos": "n.",
+        "zh": "一卡车（的量）",
+        "example": "A truckload of aid arrived at dawn.",
+        "emoji": "🛻",
+        "cefr": "C1"
+      },
+      {
+        "word": "fleet",
+        "ipa": "/fliːt/",
+        "pos": "n.",
+        "zh": "车队；船队",
+        "example": "A fleet of 200 trucks covers the province.",
+        "emoji": "🚛",
+        "cefr": "C1"
+      },
+      {
+        "word": "warehousing",
+        "ipa": "/ˈweəhaʊzɪŋ/",
+        "pos": "n.",
+        "zh": "仓储",
+        "example": "Automated warehousing cut order times in half.",
+        "emoji": "🏭",
+        "cefr": "C1"
+      },
+      {
+        "word": "consignment",
+        "ipa": "/kənˈsaɪnmənt/",
+        "pos": "n.",
+        "zh": "托运货物",
+        "example": "The consignment cleared customs on Friday.",
+        "emoji": "📮",
+        "cefr": "C1"
+      },
+      {
+        "word": "carrier",
+        "ipa": "/ˈkæriə/",
+        "pos": "n.",
+        "zh": "货运公司；承运人",
+        "example": "The carrier blamed fog for the delays.",
+        "emoji": "🛳️",
+        "cefr": "C1"
+      },
+      {
+        "word": "pallet",
+        "ipa": "/ˈpælət/",
+        "pos": "n.",
+        "zh": "托盘",
+        "example": "Each pallet carries a tonne of canned food.",
+        "emoji": "🪵",
+        "cefr": "C1"
+      },
+      {
+        "word": "dumping",
+        "ipa": "/ˈdʌmpɪŋ/",
+        "pos": "n.",
+        "zh": "倾销",
+        "example": "Anti-dumping duties protected local firms.",
+        "emoji": "🏗️",
+        "cefr": "C2"
+      },
+      {
+        "word": "countervailing",
+        "ipa": "/ˌkaʊntəˈveɪlɪŋ/",
+        "pos": "adj.",
+        "zh": "反补贴的",
+        "example": "The court upheld countervailing tariffs.",
+        "emoji": "⚖️",
+        "cefr": "C2"
+      },
+      {
+        "word": "mores",
+        "ipa": "/ˈmɔːreɪz/",
+        "pos": "n.",
+        "zh": "社会习俗",
+        "example": "Social mores vary across cultures.",
+        "emoji": "🎎",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_money"
+  },
+  {
+    "id": "l5d_market_mechanics",
+    "title": "市场机制",
+    "emoji": "💹",
+    "words": [
+      {
+        "word": "monopoly",
+        "ipa": "/məˈnɒpəli/",
+        "pos": "n.",
+        "zh": "垄断",
+        "example": "Regulators broke up the railway monopoly.",
+        "emoji": "👑",
+        "cefr": "B2"
+      },
+      {
+        "word": "competition",
+        "ipa": "/ˌkɒmpəˈtɪʃn/",
+        "pos": "n.",
+        "zh": "竞争",
+        "example": "Healthy competition keeps prices honest.",
+        "emoji": "🏁",
+        "cefr": "B2"
+      },
+      {
+        "word": "stockpile",
+        "ipa": "/ˈstɒkpaɪl/",
+        "pos": "n./v.",
+        "zh": "储备；囤积",
+        "example": "Nations stockpiled grain ahead of the crisis.",
+        "emoji": "🏗️",
+        "cefr": "C1"
+      },
+      {
+        "word": "substitute",
+        "ipa": "/ˈsʌbstɪtjuːt/",
+        "pos": "n./v.",
+        "zh": "替代品；替代",
+        "example": "Margarine became a cheap substitute for butter.",
+        "emoji": "🔁",
+        "cefr": "B2"
+      },
+      {
+        "word": "scarcity",
+        "ipa": "/ˈskeəsəti/",
+        "pos": "n.",
+        "zh": "稀缺",
+        "example": "Water scarcity shapes settlement patterns.",
+        "emoji": "🌵",
+        "cefr": "C1"
+      },
+      {
+        "word": "stagnation",
+        "ipa": "/stæɡˈneɪʃn/",
+        "pos": "n.",
+        "zh": "停滞",
+        "example": "Wage stagnation worried voters most.",
+        "emoji": "🛑",
+        "cefr": "C1"
+      },
+      {
+        "word": "deregulated",
+        "ipa": "/diːˈreɡjuleɪtɪd/",
+        "pos": "adj.",
+        "zh": "解除管制的",
+        "example": "The deregulated market invited price wars.",
+        "emoji": "🔓",
+        "cefr": "C1"
+      },
+      {
+        "word": "commodity",
+        "ipa": "/kəˈmɒdəti/",
+        "pos": "n.",
+        "zh": "大宗商品",
+        "example": "Copper is a commodity that tracks construction.",
+        "emoji": "⛏️",
+        "cefr": "C1"
+      },
+      {
+        "word": "bubble",
+        "ipa": "/ˈbʌbl/",
+        "pos": "n.",
+        "zh": "（资产）泡沫",
+        "example": "When the housing bubble burst, banks wobbled.",
+        "emoji": "🫧",
+        "cefr": "C1"
+      },
+      {
+        "word": "bear-market",
+        "ipa": "/ˈbeə ˈmɑːkɪt/",
+        "pos": "n.",
+        "zh": "熊市",
+        "example": "Fund managers brace for a bear market each autumn.",
+        "emoji": "🐻",
+        "cefr": "C1"
+      },
+      {
+        "word": "insolvency",
+        "ipa": "/ɪnˈsɒlvənsi/",
+        "pos": "n.",
+        "zh": "资不抵债",
+        "example": "Insolvency proceedings began last month.",
+        "emoji": "🕳️",
+        "cefr": "C1"
+      },
+      {
+        "word": "benchmark",
+        "ipa": "/ˈbentʃmɑːk/",
+        "pos": "n.",
+        "zh": "基准；标杆",
+        "example": "The fund trails its benchmark index badly.",
+        "emoji": "📏",
+        "cefr": "C1"
+      },
+      {
+        "word": "collusion",
+        "ipa": "/kəˈluːʒn/",
+        "pos": "n.",
+        "zh": "合谋",
+        "example": "The firms were fined for collusion.",
+        "emoji": "🤐",
+        "cefr": "C2"
+      },
+      {
+        "word": "cartel",
+        "ipa": "/kɑːˈtel/",
+        "pos": "n.",
+        "zh": "卡特尔",
+        "example": "The cartel fixed oil prices.",
+        "emoji": "⛽",
+        "cefr": "C1"
+      },
+      {
+        "word": "socialization",
+        "ipa": "/ˌsəʊʃəlaɪˈzeɪʃn/",
+        "pos": "n.",
+        "zh": "社会化",
+        "example": "Schools play a role in socialization.",
+        "emoji": "🏫",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_money"
+  },
+  {
+    "id": "l5d_labour_employment",
+    "title": "劳动力市场",
+    "emoji": "🧑‍🏭",
+    "words": [
+      {
+        "word": "workforce",
+        "ipa": "/ˈwɜːkfɔːs/",
+        "pos": "n.",
+        "zh": "劳动力；全体员工",
+        "example": "Automation reshaped the factory workforce.",
+        "emoji": "🧑‍🏭",
+        "cefr": "B2"
+      },
+      {
+        "word": "headhunter",
+        "ipa": "/ˈhedhʌntə/",
+        "pos": "n.",
+        "zh": "猎头",
+        "example": "A headhunter called with a surprising offer.",
+        "emoji": "🎯",
+        "cefr": "C1"
+      },
+      {
+        "word": "severance",
+        "ipa": "/ˈsevərəns/",
+        "pos": "n.",
+        "zh": "遣散费",
+        "example": "Severance pay covered three months of rent.",
+        "emoji": "💰",
+        "cefr": "C1"
+      },
+      {
+        "word": "union",
+        "ipa": "/ˈjuːniən/",
+        "pos": "n.",
+        "zh": "工会；联盟",
+        "example": "The union negotiated a 6% pay rise.",
+        "emoji": "✊",
+        "cefr": "B2"
+      },
+      {
+        "word": "shift-work",
+        "ipa": "/ˈʃɪft wɜːk/",
+        "pos": "n.",
+        "zh": "轮班工作",
+        "example": "Shift-work disrupts sleep patterns badly.",
+        "emoji": "🌙",
+        "cefr": "C1"
+      },
+      {
+        "word": "internship",
+        "ipa": "/ˈɪntɜːnʃɪp/",
+        "pos": "n.",
+        "zh": "实习",
+        "example": "A summer internship opened every door for her.",
+        "emoji": "🎒",
+        "cefr": "B2"
+      },
+      {
+        "word": "contractor",
+        "ipa": "/kənˈtræktə/",
+        "pos": "n.",
+        "zh": "承包人；合同工",
+        "example": "Contractor invoices must arrive by the 5th.",
+        "emoji": "🧾",
+        "cefr": "B2"
+      },
+      {
+        "word": "flexibility",
+        "ipa": "/ˌfleksəˈbɪləti/",
+        "pos": "n.",
+        "zh": "灵活性",
+        "example": "Staff rank flexibility above pay rises.",
+        "emoji": "🤸",
+        "cefr": "B2"
+      },
+      {
+        "word": "layoff",
+        "ipa": "/ˈleɪɒf/",
+        "pos": "n.",
+        "zh": "解雇；裁员",
+        "example": "Layoffs hit junior staff first.",
+        "emoji": "🚪",
+        "cefr": "C1"
+      },
+      {
+        "word": "vocation",
+        "ipa": "/vəʊˈkeɪʃn/",
+        "pos": "n.",
+        "zh": "职业；使命感",
+        "example": "Nursing is a vocation, not just a job.",
+        "emoji": "🩺",
+        "cefr": "C1"
+      },
+      {
+        "word": "apprenticeship",
+        "ipa": "/əˈprentɪsʃɪp/",
+        "pos": "n.",
+        "zh": "学徒制",
+        "example": "Manufacturers revived apprenticeship schemes.",
+        "emoji": "🔨",
+        "cefr": "C1"
+      },
+      {
+        "word": "onboarding",
+        "ipa": "/ˈɒnbɔːdɪŋ/",
+        "pos": "n.",
+        "zh": "入职培训",
+        "example": "A smooth onboarding cuts early resignations.",
+        "emoji": "🛳️",
+        "cefr": "C1"
+      },
+      {
+        "word": "unionize",
+        "ipa": "/ˈjuːniənaɪz/",
+        "pos": "v.",
+        "zh": "组织工会",
+        "example": "Workers voted to unionize.",
+        "emoji": "🤝",
+        "cefr": "C1"
+      },
+      {
+        "word": "picket",
+        "ipa": "/ˈpɪkɪt/",
+        "pos": "n./v.",
+        "zh": "罢工纠察",
+        "example": "Workers picketed outside the plant.",
+        "emoji": "🪧",
+        "cefr": "C1"
+      },
+      {
+        "word": "libel",
+        "ipa": "/ˈlaɪbl/",
+        "pos": "n.",
+        "zh": "诽谤",
+        "example": "The paper faced a libel lawsuit.",
+        "emoji": "⚖️",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_jobs"
+  },
+  {
+    "id": "l5d_business_strategy",
+    "title": "企业战略",
+    "emoji": "♟️",
+    "words": [
+      {
+        "word": "takeover",
+        "ipa": "/ˈteɪkəʊvə/",
+        "pos": "n.",
+        "zh": "收购；接管",
+        "example": "The hostile takeover surprised analysts.",
+        "emoji": "🦈",
+        "cefr": "C1"
+      },
+      {
+        "word": "acquisition",
+        "ipa": "/ˌækwɪˈzɪʃn/",
+        "pos": "n.",
+        "zh": "收购",
+        "example": "The acquisition doubled their customer base.",
+        "emoji": "🛒",
+        "cefr": "C1"
+      },
+      {
+        "word": "diversify",
+        "ipa": "/daɪˈvɜːsɪfaɪ/",
+        "pos": "v.",
+        "zh": "多元化；使多样",
+        "example": "The publisher diversified into podcasts.",
+        "emoji": "🌈",
+        "cefr": "C1"
+      },
+      {
+        "word": "headquarters",
+        "ipa": "/ˌhedˈkwɔːtəz/",
+        "pos": "n.",
+        "zh": "总部",
+        "example": "The bank moved its headquarters to Singapore.",
+        "emoji": "🏬",
+        "cefr": "B2"
+      },
+      {
+        "word": "gross",
+        "ipa": "/ɡrəʊs/",
+        "pos": "adj.",
+        "zh": "总的（毛收入）",
+        "example": "Gross margins improved after automation.",
+        "emoji": "🧮",
+        "cefr": "B2"
+      },
+      {
+        "word": "profit-margin",
+        "ipa": "/ˈprɒfɪt ˈmɑːdʒɪn/",
+        "pos": "n.",
+        "zh": "利润率",
+        "example": "Thin profit margins make airlines fragile.",
+        "emoji": "📊",
+        "cefr": "C1"
+      },
+      {
+        "word": "shareholder",
+        "ipa": "/ˈʃeəhəʊldə/",
+        "pos": "n.",
+        "zh": "股东",
+        "example": "Shareholders approved the buyback unanimously.",
+        "emoji": "🧾",
+        "cefr": "C1"
+      },
+      {
+        "word": "subsidiary",
+        "ipa": "/səbˈsɪdiəri/",
+        "pos": "n.",
+        "zh": "子公司",
+        "example": "The subsidiary handles all Asian sales.",
+        "emoji": "🏢",
+        "cefr": "C1"
+      },
+      {
+        "word": "entrepreneur",
+        "ipa": "/ˌɒntrəprəˈnɜː/",
+        "pos": "n.",
+        "zh": "企业家",
+        "example": "The young entrepreneur reinvested every yuan.",
+        "emoji": "💡",
+        "cefr": "B2"
+      },
+      {
+        "word": "stake",
+        "ipa": "/steɪk/",
+        "pos": "n.",
+        "zh": "股份；赌注",
+        "example": "The fund bought a 20% stake in the startup.",
+        "emoji": "🪙",
+        "cefr": "C1"
+      },
+      {
+        "word": "bargaining",
+        "ipa": "/ˈbɑːɡənɪŋ/",
+        "pos": "n.",
+        "zh": "讨价还价；谈判",
+        "example": "Collective bargaining raised wages 5%.",
+        "emoji": "🤲",
+        "cefr": "C1"
+      },
+      {
+        "word": "venture",
+        "ipa": "/ˈventʃə/",
+        "pos": "n.",
+        "zh": "风险投资；冒险事业",
+        "example": "The venture failed, but the lessons paid off.",
+        "emoji": "🎲",
+        "cefr": "B2"
+      },
+      {
+        "word": "scalability",
+        "ipa": "/ˌskeɪləˈbɪləti/",
+        "pos": "n.",
+        "zh": "可扩展性",
+        "example": "Cloud computing improves scalability.",
+        "emoji": "📈",
+        "cefr": "C1"
+      },
+      {
+        "word": "differentiation",
+        "ipa": "/ˌdɪfəˌrenʃiˈeɪʃn/",
+        "pos": "n.",
+        "zh": "差异化",
+        "example": "Differentiation sets the brand apart.",
+        "emoji": "🌈",
+        "cefr": "C1"
+      },
+      {
+        "word": "side effect",
+        "ipa": "/ˌsaɪd ɪˈfekt/",
+        "pos": "n.",
+        "zh": "副作用",
+        "example": "The drug has mild side effects.",
+        "emoji": "💊",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_jobs"
+  },
+  {
+    "id": "l5d_consumer_behavior",
+    "title": "消费行为",
     "emoji": "🛍️",
-    "cefr": "B2"
-   },
-   {
-    "word": "purchasing",
-    "ipa": "/ˈpɜːtʃəsɪŋ/",
-    "pos": "n.",
-    "zh": "购买（力）",
-    "example": "Rural purchasing power keeps climbing.",
-    "emoji": "🪙",
-    "cefr": "C1"
-   },
-   {
-    "word": "impulse-buy",
-    "ipa": "/ˈɪmpʌls baɪ/",
-    "pos": "n./v.",
-    "zh": "冲动购买",
-    "example": "Checkout candy exists to trigger impulse buys.",
-    "emoji": "🍭",
-    "cefr": "C1"
-   },
-   {
-    "word": "churn",
-    "ipa": "/tʃɜːn/",
-    "pos": "n.",
-    "zh": "客户流失率",
-    "example": "Cutting churn beats hunting new users.",
-    "emoji": "🕳️",
-    "cefr": "C1"
-   },
-   {
-    "word": "after-sales",
-    "ipa": "/ˈɑːftəseɪlz/",
-    "pos": "adj.",
-    "zh": "售后的",
-    "example": "Good after-sales service wins repeat orders.",
-    "emoji": "🛠️",
-    "cefr": "C1"
-   },
-   {
-    "word": "guarantee",
-    "ipa": "/ˌɡærənˈtiː/",
-    "pos": "n./v.",
-    "zh": "保证；保修",
-    "example": "The engine carries a five-year guarantee.",
-    "emoji": "🤞",
-    "cefr": "B2"
-   },
-   {
-    "word": "reimbursement",
-    "ipa": "/ˌriːɪmˈbɜːsmənt/",
-    "pos": "n.",
-    "zh": "报销；偿付",
-    "example": "Travel reimbursement arrives with the salary.",
-    "emoji": "🧾",
-    "cefr": "C1"
-   },
-   {
-    "word": "installment",
-    "ipa": "/ɪnˈstɔːlmənt/",
-    "pos": "n.",
-    "zh": "分期付款",
-    "example": "Pay for the laptop in twelve installments.",
-    "emoji": "🗓️",
-    "cefr": "C1"
-   },
-   {
-    "word": "disposable-income",
-    "ipa": "/dɪˈspəʊzəbl ˈɪnkʌm/",
-    "pos": "n.",
-    "zh": "可支配收入",
-    "example": "Rising disposable income lifted dining sales.",
-    "emoji": "👛",
-    "cefr": "C1"
-   },
-   {
-    "word": "consumption",
-    "ipa": "/kənˈsʌmpʃn/",
-    "pos": "n.",
-    "zh": "消费；消耗",
-    "example": "Household consumption drives 60% of GDP here.",
-    "emoji": "🛒",
-    "cefr": "B2"
-   },
-   {
-    "word": "review",
-    "ipa": "/rɪˈvjuː/",
-    "pos": "n.",
-    "zh": "评价；评论",
-    "example": "One starred review can sink a small shop.",
-    "emoji": "⭐",
-    "cefr": "B2"
-   },
-   {
-    "word": "add-to-cart",
-    "ipa": "/əd tə kɑːt/",
-    "pos": "v.",
-    "zh": "加入购物车",
-    "example": "Shoppers add to cart, then forget for weeks.",
-    "emoji": "🧺",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5d_banking_finance",
-  "title": "银行与金融",
-  "emoji": "🏦",
-  "words": [
-   {
-    "word": "repayment",
-    "ipa": "/rɪˈpeɪmənt/",
-    "pos": "n.",
-    "zh": "还款",
-    "example": "Repayment holidays helped struggling firms.",
-    "emoji": "📆",
-    "cefr": "B2"
-   },
-   {
-    "word": "escrow",
-    "ipa": "/ˈeskraʊ/",
-    "pos": "n.",
-    "zh": "第三方托管（资金）",
-    "example": "The deposit sat in escrow until completion.",
-    "emoji": "🔒",
-    "cefr": "C1"
-   },
-   {
-    "word": "interest-rate",
-    "ipa": "/ˈɪntrəst reɪt/",
-    "pos": "n.",
-    "zh": "利率",
-    "example": "Interest-rate hikes cool borrowing fast.",
-    "emoji": "🆙",
-    "cefr": "C1"
-   },
-   {
-    "word": "savings",
-    "ipa": "/ˈseɪvɪŋz/",
-    "pos": "n.",
-    "zh": "储蓄",
-    "example": "Savings rates crept above 3% finally.",
-    "emoji": "🐷",
-    "cefr": "B2"
-   },
-   {
-    "word": "withdrawal",
-    "ipa": "/wɪðˈdrɔːəl/",
-    "pos": "n.",
-    "zh": "取款；撤回",
-    "example": "ATM withdrawal limits rose to 10,000.",
-    "emoji": "🏧",
-    "cefr": "B2"
-   },
-   {
-    "word": "bankruptcy",
-    "ipa": "/ˈbæŋkrʌptsɪ/",
-    "pos": "n.",
-    "zh": "破产",
-    "example": "Three retailers slid into bankruptcy this year.",
-    "emoji": "📉",
-    "cefr": "C1"
-   },
-   {
-    "word": "hedge",
-    "ipa": "/hedʒ/",
-    "pos": "v./n.",
-    "zh": "对冲",
-    "example": "Gold is a classic hedge against inflation.",
-    "emoji": "🦔",
-    "cefr": "C1"
-   },
-   {
-    "word": "appreciation",
-    "ipa": "/əˌpriːʃiˈeɪʃn/",
-    "pos": "n.",
-    "zh": "增值；欣赏",
-    "example": "Property appreciation outpaced wages for years.",
-    "emoji": "📈",
-    "cefr": "C1"
-   },
-   {
-    "word": "creditor",
-    "ipa": "/ˈkredɪtə/",
-    "pos": "n.",
-    "zh": "债权人",
-    "example": "Creditors agreed to freeze interest charges.",
-    "emoji": "🧑‍💼",
-    "cefr": "C1"
-   },
-   {
-    "word": "insolvent",
-    "ipa": "/ɪnˈsɒlvənt/",
-    "pos": "adj.",
-    "zh": "无偿付能力的",
-    "example": "The airline was declared insolvent in May.",
-    "emoji": "🚑",
-    "cefr": "C1"
-   },
-   {
-    "word": "forecaster",
-    "ipa": "/ˈfɔːkɑːstə/",
-    "pos": "n.",
-    "zh": "预测者",
-    "example": "Forecasters underestimated demand wildly.",
-    "emoji": "🔮",
-    "cefr": "C1"
-   },
-   {
-    "word": "cash-flow",
-    "ipa": "/ˈkæʃ fləʊ/",
-    "pos": "n.",
-    "zh": "现金流",
-    "example": "Profit is opinion; cash flow is fact.",
-    "emoji": "💧",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5d_startup_innovation",
-  "title": "创业与创新",
-  "emoji": "🚀",
-  "words": [
-   {
-    "word": "startup",
-    "ipa": "/ˈstɑːtʌp/",
-    "pos": "n.",
-    "zh": "初创公司",
-    "example": "The startup pitched to forty investors.",
+    "words": [
+      {
+        "word": "shopper",
+        "ipa": "/ˈʃɒpə/",
+        "pos": "n.",
+        "zh": "购物者",
+        "example": "Shoppers spent 20% more during the festival.",
+        "emoji": "🛍️",
+        "cefr": "B2"
+      },
+      {
+        "word": "purchasing",
+        "ipa": "/ˈpɜːtʃəsɪŋ/",
+        "pos": "n.",
+        "zh": "购买（力）",
+        "example": "Rural purchasing power keeps climbing.",
+        "emoji": "🪙",
+        "cefr": "C1"
+      },
+      {
+        "word": "impulse-buy",
+        "ipa": "/ˈɪmpʌls baɪ/",
+        "pos": "n./v.",
+        "zh": "冲动购买",
+        "example": "Checkout candy exists to trigger impulse buys.",
+        "emoji": "🍭",
+        "cefr": "C1"
+      },
+      {
+        "word": "churn",
+        "ipa": "/tʃɜːn/",
+        "pos": "n.",
+        "zh": "客户流失率",
+        "example": "Cutting churn beats hunting new users.",
+        "emoji": "🕳️",
+        "cefr": "C1"
+      },
+      {
+        "word": "after-sales",
+        "ipa": "/ˈɑːftəseɪlz/",
+        "pos": "adj.",
+        "zh": "售后的",
+        "example": "Good after-sales service wins repeat orders.",
+        "emoji": "🛠️",
+        "cefr": "C1"
+      },
+      {
+        "word": "guarantee",
+        "ipa": "/ˌɡærənˈtiː/",
+        "pos": "n./v.",
+        "zh": "保证；保修",
+        "example": "The engine carries a five-year guarantee.",
+        "emoji": "🤞",
+        "cefr": "B2"
+      },
+      {
+        "word": "reimbursement",
+        "ipa": "/ˌriːɪmˈbɜːsmənt/",
+        "pos": "n.",
+        "zh": "报销；偿付",
+        "example": "Travel reimbursement arrives with the salary.",
+        "emoji": "🧾",
+        "cefr": "C1"
+      },
+      {
+        "word": "installment",
+        "ipa": "/ɪnˈstɔːlmənt/",
+        "pos": "n.",
+        "zh": "分期付款",
+        "example": "Pay for the laptop in twelve installments.",
+        "emoji": "🗓️",
+        "cefr": "C1"
+      },
+      {
+        "word": "disposable-income",
+        "ipa": "/dɪˈspəʊzəbl ˈɪnkʌm/",
+        "pos": "n.",
+        "zh": "可支配收入",
+        "example": "Rising disposable income lifted dining sales.",
+        "emoji": "👛",
+        "cefr": "C1"
+      },
+      {
+        "word": "consumption",
+        "ipa": "/kənˈsʌmpʃn/",
+        "pos": "n.",
+        "zh": "消费；消耗",
+        "example": "Household consumption drives 60% of GDP here.",
+        "emoji": "🛒",
+        "cefr": "B2"
+      },
+      {
+        "word": "review",
+        "ipa": "/rɪˈvjuː/",
+        "pos": "n.",
+        "zh": "评价；评论",
+        "example": "One starred review can sink a small shop.",
+        "emoji": "⭐",
+        "cefr": "B2"
+      },
+      {
+        "word": "add-to-cart",
+        "ipa": "/əd tə kɑːt/",
+        "pos": "v.",
+        "zh": "加入购物车",
+        "example": "Shoppers add to cart, then forget for weeks.",
+        "emoji": "🧺",
+        "cefr": "C1"
+      },
+      {
+        "word": "disposable income",
+        "ipa": "/dɪˈspəʊzəbl ˈɪnkʌm/",
+        "pos": "n.",
+        "zh": "可支配收入",
+        "example": "Rising disposable income boosted retail.",
+        "emoji": "🛍️",
+        "cefr": "C1"
+      },
+      {
+        "word": "upselling",
+        "ipa": "/ˈʌpselɪŋ/",
+        "pos": "n.",
+        "zh": "追加销售",
+        "example": "Upselling suggests a pricier option at checkout.",
+        "emoji": "🛍️",
+        "cefr": "C1"
+      },
+      {
+        "word": "enamel",
+        "ipa": "/ɪˈnæml/",
+        "pos": "n.",
+        "zh": "牙釉质",
+        "example": "Acid weakens tooth enamel.",
+        "emoji": "🦷",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_shopping"
+  },
+  {
+    "id": "l5d_banking_finance",
+    "title": "银行与金融",
+    "emoji": "🏦",
+    "words": [
+      {
+        "word": "repayment",
+        "ipa": "/rɪˈpeɪmənt/",
+        "pos": "n.",
+        "zh": "还款",
+        "example": "Repayment holidays helped struggling firms.",
+        "emoji": "📆",
+        "cefr": "B2"
+      },
+      {
+        "word": "escrow",
+        "ipa": "/ˈeskraʊ/",
+        "pos": "n.",
+        "zh": "第三方托管（资金）",
+        "example": "The deposit sat in escrow until completion.",
+        "emoji": "🔒",
+        "cefr": "C1"
+      },
+      {
+        "word": "interest-rate",
+        "ipa": "/ˈɪntrəst reɪt/",
+        "pos": "n.",
+        "zh": "利率",
+        "example": "Interest-rate hikes cool borrowing fast.",
+        "emoji": "🆙",
+        "cefr": "C1"
+      },
+      {
+        "word": "savings",
+        "ipa": "/ˈseɪvɪŋz/",
+        "pos": "n.",
+        "zh": "储蓄",
+        "example": "Savings rates crept above 3% finally.",
+        "emoji": "🐷",
+        "cefr": "B2"
+      },
+      {
+        "word": "withdrawal",
+        "ipa": "/wɪðˈdrɔːəl/",
+        "pos": "n.",
+        "zh": "取款；撤回",
+        "example": "ATM withdrawal limits rose to 10,000.",
+        "emoji": "🏧",
+        "cefr": "B2"
+      },
+      {
+        "word": "bankruptcy",
+        "ipa": "/ˈbæŋkrʌptsɪ/",
+        "pos": "n.",
+        "zh": "破产",
+        "example": "Three retailers slid into bankruptcy this year.",
+        "emoji": "📉",
+        "cefr": "C1"
+      },
+      {
+        "word": "hedge",
+        "ipa": "/hedʒ/",
+        "pos": "v./n.",
+        "zh": "对冲",
+        "example": "Gold is a classic hedge against inflation.",
+        "emoji": "🦔",
+        "cefr": "C1"
+      },
+      {
+        "word": "appreciation",
+        "ipa": "/əˌpriːʃiˈeɪʃn/",
+        "pos": "n.",
+        "zh": "增值；欣赏",
+        "example": "Property appreciation outpaced wages for years.",
+        "emoji": "📈",
+        "cefr": "C1"
+      },
+      {
+        "word": "creditor",
+        "ipa": "/ˈkredɪtə/",
+        "pos": "n.",
+        "zh": "债权人",
+        "example": "Creditors agreed to freeze interest charges.",
+        "emoji": "🧑‍💼",
+        "cefr": "C1"
+      },
+      {
+        "word": "insolvent",
+        "ipa": "/ɪnˈsɒlvənt/",
+        "pos": "adj.",
+        "zh": "无偿付能力的",
+        "example": "The airline was declared insolvent in May.",
+        "emoji": "🚑",
+        "cefr": "C1"
+      },
+      {
+        "word": "forecaster",
+        "ipa": "/ˈfɔːkɑːstə/",
+        "pos": "n.",
+        "zh": "预测者",
+        "example": "Forecasters underestimated demand wildly.",
+        "emoji": "🔮",
+        "cefr": "C1"
+      },
+      {
+        "word": "cash-flow",
+        "ipa": "/ˈkæʃ fləʊ/",
+        "pos": "n.",
+        "zh": "现金流",
+        "example": "Profit is opinion; cash flow is fact.",
+        "emoji": "💧",
+        "cefr": "C1"
+      },
+      {
+        "word": "interest rate",
+        "ipa": "/ˈɪntrəst reɪt/",
+        "pos": "n.",
+        "zh": "利率",
+        "example": "The central bank cut interest rates.",
+        "emoji": "📉",
+        "cefr": "B2"
+      },
+      {
+        "word": "amortization",
+        "ipa": "/əˌmɔːtaɪˈzeɪʃn/",
+        "pos": "n.",
+        "zh": "摊销",
+        "example": "Amortization spreads the loan over years.",
+        "emoji": "📅",
+        "cefr": "C2"
+      },
+      {
+        "word": "headliner",
+        "ipa": "/ˈhedlaɪnə(r)/",
+        "pos": "n.",
+        "zh": "领衔主演者",
+        "example": "The headliner closed the festival.",
+        "emoji": "🎤",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_money"
+  },
+  {
+    "id": "l5d_startup_innovation",
+    "title": "创业与创新",
     "emoji": "🚀",
-    "cefr": "B2"
-   },
-   {
-    "word": "incubator",
-    "ipa": "/ˈɪŋkjubeɪtə/",
-    "pos": "n.",
-    "zh": "孵化器",
-    "example": "The university incubator hosts 30 teams.",
-    "emoji": "🐣",
-    "cefr": "C1"
-   },
-   {
-    "word": "prototype",
-    "ipa": "/ˈprəʊtətaɪp/",
-    "pos": "n.",
-    "zh": "原型；样机",
-    "example": "A 3D-printed prototype convinced the factory.",
-    "emoji": "🧪",
-    "cefr": "C1"
-   },
-   {
-    "word": "pitch",
-    "ipa": "/pɪtʃ/",
-    "pos": "n./v.",
-    "zh": "推介；推销",
-    "example": "Her five-minute pitch landed the first client.",
-    "emoji": "🎤",
-    "cefr": "B2"
-   },
-   {
-    "word": "scalable",
-    "ipa": "/ˈskeɪləbl/",
-    "pos": "adj.",
-    "zh": "可扩展的",
-    "example": "Investors only fund scalable business models.",
-    "emoji": "📈",
-    "cefr": "C1"
-   },
-   {
-    "word": "disruptive",
-    "ipa": "/dɪsˈrʌptɪv/",
-    "pos": "adj.",
-    "zh": "颠覆性的",
-    "example": "Streaming was disruptive for cable TV.",
-    "emoji": "💥",
-    "cefr": "C1"
-   },
-   {
-    "word": "iterative",
-    "ipa": "/ˈɪtərətɪv/",
-    "pos": "adj.",
-    "zh": "迭代的",
-    "example": "Design works best in iterative cycles.",
-    "emoji": "🔄",
-    "cefr": "C1"
-   },
-   {
-    "word": "break-even",
-    "ipa": "/ˌbreɪkˈiːvn/",
-    "pos": "adj./n.",
-    "zh": "盈亏平衡",
-    "example": "The café reached break-even in month nine.",
-    "emoji": "⚖️",
-    "cefr": "C1"
-   },
-   {
-    "word": "bootstrap",
-    "ipa": "/ˈbuːtstræp/",
-    "pos": "v.",
-    "zh": "自筹资金创业",
-    "example": "They bootstrapped the studio for two years.",
-    "emoji": "🥾",
-    "cefr": "C1"
-   },
-   {
-    "word": "valuation",
-    "ipa": "/ˌvæljuˈeɪʃn/",
-    "pos": "n.",
-    "zh": "估值",
-    "example": "The seed round valued the firm at 40 million.",
-    "emoji": "🏷️",
-    "cefr": "C1"
-   },
-   {
-    "word": "burn-rate",
-    "ipa": "/ˈbɜːn reɪt/",
-    "pos": "n.",
-    "zh": "烧钱率",
-    "example": "A high burn rate spooks early investors.",
-    "emoji": "🔥",
-    "cefr": "C1"
-   },
-   {
-    "word": "patent",
-    "ipa": "/ˈpætnt/",
-    "pos": "n./v.",
-    "zh": "专利",
-    "example": "The firm patented the folding hinge design.",
-    "emoji": "📜",
-    "cefr": "B2"
-   }
-  ]
- },
- {
-  "id": "l5d_economic_development",
-  "title": "经济发展",
-  "emoji": "🌍",
-  "words": [
-   {
-    "word": "urbanisation",
-    "ipa": "/ˌɜːbənaɪˈzeɪʃn/",
-    "pos": "n.",
-    "zh": "城市化",
-    "example": "Rapid urbanisation emptied many villages.",
-    "emoji": "🏙️",
-    "cefr": "C1"
-   },
-   {
-    "word": "destitute",
-    "ipa": "/ˈdestɪtjuːt/",
-    "pos": "adj.",
-    "zh": "一贫如洗的",
-    "example": "The flood left thousands destitute.",
-    "emoji": "🥺",
-    "cefr": "C1"
-   },
-   {
-    "word": "gulf",
-    "ipa": "/ɡʌlf/",
-    "pos": "n.",
-    "zh": "鸿沟；海湾",
-    "example": "A widening gulf separates urban and rural wages.",
-    "emoji": "🌊",
-    "cefr": "C1"
-   },
-   {
-    "word": "globalisation",
-    "ipa": "/ˌɡləʊbəlaɪˈzeɪʃn/",
-    "pos": "n.",
-    "zh": "全球化",
-    "example": "Globalisation moved assembly work eastwards.",
-    "emoji": "🌐",
-    "cefr": "C1"
-   },
-   {
-    "word": "development-aid",
-    "ipa": "/dɪˈveləpmənt eɪd/",
-    "pos": "n.",
-    "zh": "发展援助",
-    "example": "Development aid tied to reforms works better.",
-    "emoji": "🤲",
-    "cefr": "C1"
-   },
-   {
-    "word": "microloan",
-    "ipa": "/ˈmaɪkrəʊləʊn/",
-    "pos": "n.",
-    "zh": "小额贷款",
-    "example": "A 300-yuan microloan launched her bakery.",
-    "emoji": "🌱",
-    "cefr": "C1"
-   },
-   {
-    "word": "emerging-market",
-    "ipa": "/ɪˈmɜːdʒɪŋ ˈmɑːkɪt/",
-    "pos": "adj.",
-    "zh": "新兴市场的",
-    "example": "Emerging-market debt has tripled since 2010.",
-    "emoji": "📶",
-    "cefr": "C1"
-   },
-   {
-    "word": "manufacturing",
-    "ipa": "/ˌmænjuˈfæktʃərɪŋ/",
-    "pos": "n.",
-    "zh": "制造业",
-    "example": "Manufacturing still employs a quarter of workers.",
-    "emoji": "🏭",
-    "cefr": "B2"
-   },
-   {
-    "word": "infrastructure-bond",
-    "ipa": "/ˈɪnfrəstrʌktʃə bɒnd/",
-    "pos": "n.",
-    "zh": "基建债券",
-    "example": "Infrastructure bonds financed the new bridge.",
-    "emoji": "🌉",
-    "cefr": "C1"
-   },
-   {
-    "word": "self-sufficient",
-    "ipa": "/ˌself səˈfɪʃnt/",
-    "pos": "adj.",
-    "zh": "自给自足的",
-    "example": "The island aims to be self-sufficient in food.",
-    "emoji": "🌾",
-    "cefr": "C1"
-   },
-   {
-    "word": "per-capita",
-    "ipa": "/pə ˈkæpɪtə/",
-    "pos": "adj.",
-    "zh": "人均的",
-    "example": "Per-capita income tripled in one generation.",
-    "emoji": "🧮",
-    "cefr": "C1"
-   },
-   {
-    "word": "famine",
-    "ipa": "/ˈfæmɪn/",
-    "pos": "n.",
-    "zh": "饥荒",
-    "example": "Drought pushed the region towards famine.",
-    "emoji": "🍂",
-    "cefr": "C1"
-   }
-  ]
- }
+    "words": [
+      {
+        "word": "startup",
+        "ipa": "/ˈstɑːtʌp/",
+        "pos": "n.",
+        "zh": "初创公司",
+        "example": "The startup pitched to forty investors.",
+        "emoji": "🚀",
+        "cefr": "B2"
+      },
+      {
+        "word": "incubator",
+        "ipa": "/ˈɪŋkjubeɪtə/",
+        "pos": "n.",
+        "zh": "孵化器",
+        "example": "The university incubator hosts 30 teams.",
+        "emoji": "🐣",
+        "cefr": "C1"
+      },
+      {
+        "word": "prototype",
+        "ipa": "/ˈprəʊtətaɪp/",
+        "pos": "n.",
+        "zh": "原型；样机",
+        "example": "A 3D-printed prototype convinced the factory.",
+        "emoji": "🧪",
+        "cefr": "C1"
+      },
+      {
+        "word": "pitch",
+        "ipa": "/pɪtʃ/",
+        "pos": "n./v.",
+        "zh": "推介；推销",
+        "example": "Her five-minute pitch landed the first client.",
+        "emoji": "🎤",
+        "cefr": "B2"
+      },
+      {
+        "word": "scalable",
+        "ipa": "/ˈskeɪləbl/",
+        "pos": "adj.",
+        "zh": "可扩展的",
+        "example": "Investors only fund scalable business models.",
+        "emoji": "📈",
+        "cefr": "C1"
+      },
+      {
+        "word": "disruptive",
+        "ipa": "/dɪsˈrʌptɪv/",
+        "pos": "adj.",
+        "zh": "颠覆性的",
+        "example": "Streaming was disruptive for cable TV.",
+        "emoji": "💥",
+        "cefr": "C1"
+      },
+      {
+        "word": "iterative",
+        "ipa": "/ˈɪtərətɪv/",
+        "pos": "adj.",
+        "zh": "迭代的",
+        "example": "Design works best in iterative cycles.",
+        "emoji": "🔄",
+        "cefr": "C1"
+      },
+      {
+        "word": "break-even",
+        "ipa": "/ˌbreɪkˈiːvn/",
+        "pos": "adj./n.",
+        "zh": "盈亏平衡",
+        "example": "The café reached break-even in month nine.",
+        "emoji": "⚖️",
+        "cefr": "C1"
+      },
+      {
+        "word": "bootstrap",
+        "ipa": "/ˈbuːtstræp/",
+        "pos": "v.",
+        "zh": "自筹资金创业",
+        "example": "They bootstrapped the studio for two years.",
+        "emoji": "🥾",
+        "cefr": "C1"
+      },
+      {
+        "word": "valuation",
+        "ipa": "/ˌvæljuˈeɪʃn/",
+        "pos": "n.",
+        "zh": "估值",
+        "example": "The seed round valued the firm at 40 million.",
+        "emoji": "🏷️",
+        "cefr": "C1"
+      },
+      {
+        "word": "burn-rate",
+        "ipa": "/ˈbɜːn reɪt/",
+        "pos": "n.",
+        "zh": "烧钱率",
+        "example": "A high burn rate spooks early investors.",
+        "emoji": "🔥",
+        "cefr": "C1"
+      },
+      {
+        "word": "patent",
+        "ipa": "/ˈpætnt/",
+        "pos": "n./v.",
+        "zh": "专利",
+        "example": "The firm patented the folding hinge design.",
+        "emoji": "📜",
+        "cefr": "B2"
+      },
+      {
+        "word": "unicorn",
+        "ipa": "/ˈjuːnɪkɔːn/",
+        "pos": "n.",
+        "zh": "独角兽公司",
+        "example": "The payment app became a unicorn.",
+        "emoji": "🦄",
+        "cefr": "C1"
+      },
+      {
+        "word": "accelerator",
+        "ipa": "/əkˈseləreɪtə(r)/",
+        "pos": "n.",
+        "zh": "创业加速器",
+        "example": "The accelerator mentors early startups.",
+        "emoji": "🚀",
+        "cefr": "C1"
+      },
+      {
+        "word": "exoplanet",
+        "ipa": "/ˈeksəʊplænɪt/",
+        "pos": "n.",
+        "zh": "系外行星",
+        "example": "Telescopes spotted a new exoplanet.",
+        "emoji": "🪐",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_tech"
+  },
+  {
+    "id": "l5d_economic_development",
+    "title": "经济发展",
+    "emoji": "🌍",
+    "words": [
+      {
+        "word": "urbanisation",
+        "ipa": "/ˌɜːbənaɪˈzeɪʃn/",
+        "pos": "n.",
+        "zh": "城市化",
+        "example": "Rapid urbanisation emptied many villages.",
+        "emoji": "🏙️",
+        "cefr": "C1"
+      },
+      {
+        "word": "destitute",
+        "ipa": "/ˈdestɪtjuːt/",
+        "pos": "adj.",
+        "zh": "一贫如洗的",
+        "example": "The flood left thousands destitute.",
+        "emoji": "🥺",
+        "cefr": "C1"
+      },
+      {
+        "word": "gulf",
+        "ipa": "/ɡʌlf/",
+        "pos": "n.",
+        "zh": "鸿沟；海湾",
+        "example": "A widening gulf separates urban and rural wages.",
+        "emoji": "🌊",
+        "cefr": "C1"
+      },
+      {
+        "word": "globalisation",
+        "ipa": "/ˌɡləʊbəlaɪˈzeɪʃn/",
+        "pos": "n.",
+        "zh": "全球化",
+        "example": "Globalisation moved assembly work eastwards.",
+        "emoji": "🌐",
+        "cefr": "C1"
+      },
+      {
+        "word": "development-aid",
+        "ipa": "/dɪˈveləpmənt eɪd/",
+        "pos": "n.",
+        "zh": "发展援助",
+        "example": "Development aid tied to reforms works better.",
+        "emoji": "🤲",
+        "cefr": "C1"
+      },
+      {
+        "word": "microloan",
+        "ipa": "/ˈmaɪkrəʊləʊn/",
+        "pos": "n.",
+        "zh": "小额贷款",
+        "example": "A 300-yuan microloan launched her bakery.",
+        "emoji": "🌱",
+        "cefr": "C1"
+      },
+      {
+        "word": "emerging-market",
+        "ipa": "/ɪˈmɜːdʒɪŋ ˈmɑːkɪt/",
+        "pos": "adj.",
+        "zh": "新兴市场的",
+        "example": "Emerging-market debt has tripled since 2010.",
+        "emoji": "📶",
+        "cefr": "C1"
+      },
+      {
+        "word": "manufacturing",
+        "ipa": "/ˌmænjuˈfæktʃərɪŋ/",
+        "pos": "n.",
+        "zh": "制造业",
+        "example": "Manufacturing still employs a quarter of workers.",
+        "emoji": "🏭",
+        "cefr": "B2"
+      },
+      {
+        "word": "infrastructure-bond",
+        "ipa": "/ˈɪnfrəstrʌktʃə bɒnd/",
+        "pos": "n.",
+        "zh": "基建债券",
+        "example": "Infrastructure bonds financed the new bridge.",
+        "emoji": "🌉",
+        "cefr": "C1"
+      },
+      {
+        "word": "self-sufficient",
+        "ipa": "/ˌself səˈfɪʃnt/",
+        "pos": "adj.",
+        "zh": "自给自足的",
+        "example": "The island aims to be self-sufficient in food.",
+        "emoji": "🌾",
+        "cefr": "C1"
+      },
+      {
+        "word": "per-capita",
+        "ipa": "/pə ˈkæpɪtə/",
+        "pos": "adj.",
+        "zh": "人均的",
+        "example": "Per-capita income tripled in one generation.",
+        "emoji": "🧮",
+        "cefr": "C1"
+      },
+      {
+        "word": "famine",
+        "ipa": "/ˈfæmɪn/",
+        "pos": "n.",
+        "zh": "饥荒",
+        "example": "Drought pushed the region towards famine.",
+        "emoji": "🍂",
+        "cefr": "C1"
+      },
+      {
+        "word": "industrialize",
+        "ipa": "/ɪnˈdʌstriəlaɪz/",
+        "pos": "v.",
+        "zh": "工业化",
+        "example": "The country industrialized rapidly after 2000.",
+        "emoji": "🏭",
+        "cefr": "C1"
+      },
+      {
+        "word": "catch-up",
+        "ipa": "/ˈkætʃ ʌp/",
+        "pos": "n.",
+        "zh": "追赶",
+        "example": "Catch-up growth narrowed the wealth gap.",
+        "emoji": "🏃",
+        "cefr": "C2"
+      },
+      {
+        "word": "electrolysis",
+        "ipa": "/ɪˌlekˈtrɒləsɪs/",
+        "pos": "n.",
+        "zh": "电解",
+        "example": "Electrolysis splits water into gases.",
+        "emoji": "⚡",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_money"
+  }
 ]

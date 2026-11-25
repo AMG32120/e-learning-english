@@ -107,6 +107,60 @@
       "example": "One hundred students.",
       "emoji": "💯",
       "cefr": "A1"
+    },
+    {
+      "word": "eleven",
+      "ipa": "/ɪˈlevn/",
+      "pos": "num",
+      "zh": "十一",
+      "example": "There are eleven players on the team.",
+      "emoji": "1️⃣1️⃣",
+      "cefr": "A1"
+    },
+    {
+      "word": "twelve",
+      "ipa": "/twelv/",
+      "pos": "num",
+      "zh": "十二",
+      "example": "She is twelve years old.",
+      "emoji": "1️⃣2️⃣",
+      "cefr": "A1"
+    },
+    {
+      "word": "thirteen",
+      "ipa": "/ˌθɜːˈtiːn/",
+      "pos": "num.",
+      "zh": "十三",
+      "example": "There are thirteen students in the class.",
+      "emoji": "🔢",
+      "cefr": "A1"
+    },
+    {
+      "word": "fourteen",
+      "ipa": "/ˌfɔːˈtiːn/",
+      "pos": "num.",
+      "zh": "十四",
+      "example": "She is fourteen years old.",
+      "emoji": "🔢",
+      "cefr": "A1"
+    },
+    {
+      "word": "fifteen",
+      "ipa": "/ˌfɪfˈtiːn/",
+      "pos": "num.",
+      "zh": "十五",
+      "example": "The bus arrives at fifteen past eight.",
+      "emoji": "🔢",
+      "cefr": "A1"
+    },
+    {
+      "word": "twenty",
+      "ipa": "/ˈtwenti/",
+      "pos": "num.",
+      "zh": "二十",
+      "example": "I have twenty books on my shelf.",
+      "emoji": "🔢",
+      "cefr": "A1"
     }
   ],
   "colors": [
@@ -217,27 +271,36 @@
       "example": "She has a gold ring.",
       "emoji": "🥇",
       "cefr": "A2"
+    },
+    {
+      "word": "dark",
+      "ipa": "/dɑːk/",
+      "pos": "adj",
+      "zh": "深色的",
+      "example": "He likes dark green.",
+      "emoji": "🌲",
+      "cefr": "A1"
+    },
+    {
+      "word": "pale",
+      "ipa": "/peɪl/",
+      "pos": "adj",
+      "zh": "浅淡的",
+      "example": "The sky is pale blue.",
+      "emoji": "🌤️",
+      "cefr": "A2"
+    },
+    {
+      "word": "bronze",
+      "ipa": "/brɒnz/",
+      "pos": "n.",
+      "zh": "古铜色",
+      "example": "The statue has a bronze color.",
+      "emoji": "🏆",
+      "cefr": "B1"
     }
   ],
   "family": [
-    {
-      "word": "father",
-      "ipa": "/ˈfɑːðər/",
-      "pos": "n",
-      "zh": "父亲",
-      "example": "My father is tall.",
-      "emoji": "👨",
-      "cefr": "A1"
-    },
-    {
-      "word": "mother",
-      "ipa": "/ˈmʌðər/",
-      "pos": "n",
-      "zh": "母亲",
-      "example": "My mother cooks well.",
-      "emoji": "👩",
-      "cefr": "A1"
-    },
     {
       "word": "brother",
       "ipa": "/ˈbrʌðər/",
@@ -245,15 +308,6 @@
       "zh": "兄弟",
       "example": "I play with my brother.",
       "emoji": "👦",
-      "cefr": "A1"
-    },
-    {
-      "word": "sister",
-      "ipa": "/ˈsɪstər/",
-      "pos": "n",
-      "zh": "姐妹",
-      "example": "My sister sings songs.",
-      "emoji": "👧",
       "cefr": "A1"
     },
     {
@@ -326,6 +380,87 @@
       "zh": "女儿",
       "example": "Her daughter is cute.",
       "emoji": "🧑",
+      "cefr": "A1"
+    },
+    {
+      "word": "parent",
+      "ipa": "/ˈpeərənt/",
+      "pos": "n",
+      "zh": "父母",
+      "example": "My parents work hard.",
+      "emoji": "👨‍👩‍👧",
+      "cefr": "A1"
+    },
+    {
+      "word": "grandson",
+      "ipa": "/ˈɡrænsʌn/",
+      "pos": "n",
+      "zh": "孙子，外孙",
+      "example": "My grandson is five years old.",
+      "emoji": "👦",
+      "cefr": "A1"
+    },
+    {
+      "word": "twin",
+      "ipa": "/twɪn/",
+      "pos": "n.",
+      "zh": "双胞胎",
+      "example": "The twins look exactly alike.",
+      "emoji": "👯",
+      "cefr": "A2"
+    },
+    {
+      "word": "relative",
+      "ipa": "/ˈrelətɪv/",
+      "pos": "n.",
+      "zh": "亲戚",
+      "example": "We visited our relatives at New Year.",
+      "emoji": "👨‍👩‍👧",
+      "cefr": "A2"
+    },
+    {
+      "word": "ancestor",
+      "ipa": "/ˈænsestə(r)/",
+      "pos": "n.",
+      "zh": "祖先",
+      "example": "His ancestors came from Italy.",
+      "emoji": "🏺",
+      "cefr": "B1"
+    },
+    {
+      "word": "nephew",
+      "ipa": "/ˈnefjuː/",
+      "pos": "n.",
+      "zh": "侄子",
+      "example": "My nephew is five years old.",
+      "emoji": "🧒",
+      "cefr": "A2"
+    },
+    {
+      "word": "niece",
+      "ipa": "/niːs/",
+      "pos": "n.",
+      "zh": "侄女",
+      "example": "My niece loves to draw.",
+      "emoji": "👧",
+      "cefr": "A2"
+    },
+    {
+      "word": "husband",
+      "ipa": "/ˈhʌzbənd/",
+      "pos": "n.",
+      "zh": "丈夫",
+      "example": "Her husband works in a bank.",
+      "emoji": "🤵",
+      "cefr": "A1"
+    },
+    {
+      "word": "wife",
+      "ipa": "/waɪf/",
+      "pos": "n.",
+      "zh": "妻子",
+      "example": "His wife is a teacher.",
+      "emoji": "👰",
       "cefr": "A1"
     }
   ],
@@ -437,6 +572,96 @@
       "example": "These grapes are sweet.",
       "emoji": "🍇",
       "cefr": "A2"
+    },
+    {
+      "word": "pizza",
+      "ipa": "/ˈpiːtsə/",
+      "pos": "n",
+      "zh": "披萨",
+      "example": "We had pizza for dinner.",
+      "emoji": "🍕",
+      "cefr": "A1"
+    },
+    {
+      "word": "hamburger",
+      "ipa": "/ˈhæmbɜːɡə(r)/",
+      "pos": "n",
+      "zh": "汉堡",
+      "example": "He wants a hamburger and fries.",
+      "emoji": "🍔",
+      "cefr": "A1"
+    },
+    {
+      "word": "cheese",
+      "ipa": "/tʃiːz/",
+      "pos": "n.",
+      "zh": "奶酪",
+      "example": "I put cheese on the sandwich.",
+      "emoji": "🧀",
+      "cefr": "A2"
+    },
+    {
+      "word": "jam",
+      "ipa": "/dʒæm/",
+      "pos": "n.",
+      "zh": "果酱",
+      "example": "She likes bread with strawberry jam.",
+      "emoji": "🍓",
+      "cefr": "A2"
+    },
+    {
+      "word": "dumpling",
+      "ipa": "/ˈdʌmplɪŋ/",
+      "pos": "n.",
+      "zh": "饺子",
+      "example": "We made dumplings for the festival.",
+      "emoji": "🥟",
+      "cefr": "A2"
+    },
+    {
+      "word": "bacon",
+      "ipa": "/ˈbeɪkən/",
+      "pos": "n.",
+      "zh": "培根",
+      "example": "He had bacon and eggs for breakfast.",
+      "emoji": "🥓",
+      "cefr": "A2"
+    },
+    {
+      "word": "sausage",
+      "ipa": "/ˈsɒsɪdʒ/",
+      "pos": "n.",
+      "zh": "香肠",
+      "example": "The sausage smells delicious.",
+      "emoji": "🌭",
+      "cefr": "A2"
+    },
+    {
+      "word": "sandwich",
+      "ipa": "/ˈsænwɪtʃ/",
+      "pos": "n.",
+      "zh": "三明治",
+      "example": "I packed a sandwich for lunch.",
+      "emoji": "🥪",
+      "cefr": "A1"
+    },
+    {
+      "word": "fries",
+      "ipa": "/fraɪz/",
+      "pos": "n.",
+      "zh": "薯条",
+      "example": "The kids ordered fries with their meal.",
+      "emoji": "🍟",
+      "cefr": "A2"
+    },
+    {
+      "word": "yogurt",
+      "ipa": "/ˈjɒɡət/",
+      "pos": "n.",
+      "zh": "酸奶",
+      "example": "I eat yogurt with fruit every morning.",
+      "emoji": "🥛",
+      "cefr": "A1"
     }
   ],
   "animals": [
@@ -547,6 +772,42 @@
       "example": "The elephant is huge.",
       "emoji": "🐘",
       "cefr": "A1"
+    },
+    {
+      "word": "zebra",
+      "ipa": "/ˈzebrə/",
+      "pos": "n",
+      "zh": "斑马",
+      "example": "A zebra has black and white stripes.",
+      "emoji": "🦓",
+      "cefr": "A1"
+    },
+    {
+      "word": "camel",
+      "ipa": "/ˈkæml/",
+      "pos": "n",
+      "zh": "骆驼",
+      "example": "The camel walks in the desert.",
+      "emoji": "🐫",
+      "cefr": "A2"
+    },
+    {
+      "word": "frog",
+      "ipa": "/frɒɡ/",
+      "pos": "n.",
+      "zh": "青蛙",
+      "example": "The frog jumped into the pond.",
+      "emoji": "🐸",
+      "cefr": "A1"
+    },
+    {
+      "word": "hedgehog",
+      "ipa": "/ˈhedʒhɒɡ/",
+      "pos": "n.",
+      "zh": "刺猬",
+      "example": "The hedgehog rolled into a ball.",
+      "emoji": "🦔",
+      "cefr": "A2"
     }
   ],
   "body": [
@@ -657,6 +918,105 @@
       "example": "Brush your teeth twice a day.",
       "emoji": "🦷",
       "cefr": "A1"
+    },
+    {
+      "word": "back",
+      "ipa": "/bæk/",
+      "pos": "n",
+      "zh": "背部",
+      "example": "My back hurts after the long walk.",
+      "emoji": "🧍",
+      "cefr": "A1"
+    },
+    {
+      "word": "body",
+      "ipa": "/ˈbɒdi/",
+      "pos": "n",
+      "zh": "身体",
+      "example": "Exercise keeps your body healthy.",
+      "emoji": "🏃",
+      "cefr": "A1"
+    },
+    {
+      "word": "finger",
+      "ipa": "/ˈfɪŋɡə(r)/",
+      "pos": "n.",
+      "zh": "手指",
+      "example": "She wore a ring on her finger.",
+      "emoji": "☝️",
+      "cefr": "A1"
+    },
+    {
+      "word": "toe",
+      "ipa": "/təʊ/",
+      "pos": "n.",
+      "zh": "脚趾",
+      "example": "He stubbed his toe on the door.",
+      "emoji": "🦶",
+      "cefr": "A2"
+    },
+    {
+      "word": "skin",
+      "ipa": "/skɪn/",
+      "pos": "n.",
+      "zh": "皮肤",
+      "example": "Her skin is soft and smooth.",
+      "emoji": "🤚",
+      "cefr": "A2"
+    },
+    {
+      "word": "bone",
+      "ipa": "/bəʊn/",
+      "pos": "n.",
+      "zh": "骨头",
+      "example": "The dog chewed on a bone.",
+      "emoji": "🦴",
+      "cefr": "A2"
+    },
+    {
+      "word": "muscle",
+      "ipa": "/ˈmʌsl/",
+      "pos": "n.",
+      "zh": "肌肉",
+      "example": "Exercise builds strong muscles.",
+      "emoji": "💪",
+      "cefr": "B1"
+    },
+    {
+      "word": "brain",
+      "ipa": "/breɪn/",
+      "pos": "n.",
+      "zh": "大脑",
+      "example": "The brain controls our body.",
+      "emoji": "🧠",
+      "cefr": "A2"
+    },
+    {
+      "word": "lip",
+      "ipa": "/lɪp/",
+      "pos": "n.",
+      "zh": "嘴唇",
+      "example": "Her lips were dry in winter.",
+      "emoji": "👄",
+      "cefr": "A2"
+    },
+    {
+      "word": "cheek",
+      "ipa": "/tʃiːk/",
+      "pos": "n.",
+      "zh": "脸颊",
+      "example": "Her cheeks turned red with shyness.",
+      "emoji": "😊",
+      "cefr": "A1"
+    },
+    {
+      "word": "eyebrow",
+      "ipa": "/ˈaɪbraʊ/",
+      "pos": "n.",
+      "zh": "眉毛",
+      "example": "He raised his eyebrows in surprise.",
+      "emoji": "🤨",
+      "cefr": "A2"
     }
   ],
   "weather": [
@@ -767,6 +1127,51 @@
       "example": "How is the weather?",
       "emoji": "🌡️",
       "cefr": "A1"
+    },
+    {
+      "word": "temperature",
+      "ipa": "/ˈtemprətʃə(r)/",
+      "pos": "n",
+      "zh": "温度",
+      "example": "The temperature dropped at night.",
+      "emoji": "🌡️",
+      "cefr": "A2"
+    },
+    {
+      "word": "humid",
+      "ipa": "/ˈhjuːmɪd/",
+      "pos": "adj",
+      "zh": "潮湿的",
+      "example": "Summer in the south is hot and humid.",
+      "emoji": "💧",
+      "cefr": "A2"
+    },
+    {
+      "word": "sunshine",
+      "ipa": "/ˈsʌnʃaɪn/",
+      "pos": "n.",
+      "zh": "阳光",
+      "example": "The sunshine warms the room.",
+      "emoji": "☀️",
+      "cefr": "A2"
+    },
+    {
+      "word": "forecast",
+      "ipa": "/ˈfɔːkɑːst/",
+      "pos": "n.",
+      "zh": "预报",
+      "example": "The forecast says rain tomorrow.",
+      "emoji": "📡",
+      "cefr": "B1"
+    },
+    {
+      "word": "foggy",
+      "ipa": "/ˈfɒɡi/",
+      "pos": "adj.",
+      "zh": "有雾的",
+      "example": "The morning was foggy and cold.",
+      "emoji": "🌫️",
+      "cefr": "A2"
     }
   ],
   "time": [
@@ -877,6 +1282,69 @@
       "example": "Wait a minute, please.",
       "emoji": "⏱️",
       "cefr": "A1"
+    },
+    {
+      "word": "second",
+      "ipa": "/ˈsekənd/",
+      "pos": "n",
+      "zh": "秒",
+      "example": "Wait a second, please.",
+      "emoji": "⏱️",
+      "cefr": "A1"
+    },
+    {
+      "word": "weekend",
+      "ipa": "/ˌwiːkˈend/",
+      "pos": "n",
+      "zh": "周末",
+      "example": "We play football on the weekend.",
+      "emoji": "🗓️",
+      "cefr": "A1"
+    },
+    {
+      "word": "noon",
+      "ipa": "/nuːn/",
+      "pos": "n.",
+      "zh": "正午",
+      "example": "The sun is highest at noon.",
+      "emoji": "☀️",
+      "cefr": "A2"
+    },
+    {
+      "word": "midnight",
+      "ipa": "/ˈmɪdnaɪt/",
+      "pos": "n.",
+      "zh": "午夜",
+      "example": "The party ended at midnight.",
+      "emoji": "🌃",
+      "cefr": "A2"
+    },
+    {
+      "word": "season",
+      "ipa": "/ˈsiːzn/",
+      "pos": "n.",
+      "zh": "季节",
+      "example": "Spring is my favorite season.",
+      "emoji": "🍃",
+      "cefr": "A2"
+    },
+    {
+      "word": "moment",
+      "ipa": "/ˈməʊmənt/",
+      "pos": "n.",
+      "zh": "片刻",
+      "example": "Wait a moment, please.",
+      "emoji": "⏳",
+      "cefr": "A2"
+    },
+    {
+      "word": "century",
+      "ipa": "/ˈsentʃəri/",
+      "pos": "n.",
+      "zh": "世纪",
+      "example": "The building is a century old.",
+      "emoji": "🏛️",
+      "cefr": "B1"
     }
   ],
   "transport": [
@@ -987,6 +1455,78 @@
       "example": "The road is wide.",
       "emoji": "🛣️",
       "cefr": "A1"
+    },
+    {
+      "word": "traffic",
+      "ipa": "/ˈtræfɪk/",
+      "pos": "n",
+      "zh": "交通",
+      "example": "The traffic is heavy in the morning.",
+      "emoji": "🚗",
+      "cefr": "A2"
+    },
+    {
+      "word": "passenger",
+      "ipa": "/ˈpæsɪndʒə(r)/",
+      "pos": "n",
+      "zh": "乘客",
+      "example": "The bus is full of passengers.",
+      "emoji": "🚌",
+      "cefr": "A2"
+    },
+    {
+      "word": "vehicle",
+      "ipa": "/ˈviːəkl/",
+      "pos": "n.",
+      "zh": "车辆",
+      "example": "This road is for vehicles only.",
+      "emoji": "🚙",
+      "cefr": "B1"
+    },
+    {
+      "word": "commute",
+      "ipa": "/kəˈmjuːt/",
+      "pos": "v.",
+      "zh": "通勤",
+      "example": "She commutes to work by train.",
+      "emoji": "🚄",
+      "cefr": "B1"
+    },
+    {
+      "word": "pedestrian",
+      "ipa": "/pəˈdestriən/",
+      "pos": "n.",
+      "zh": "行人",
+      "example": "The pedestrian crossed the road.",
+      "emoji": "🚶",
+      "cefr": "B1"
+    },
+    {
+      "word": "lane",
+      "ipa": "/leɪn/",
+      "pos": "n.",
+      "zh": "车道",
+      "example": "Stay in the left lane.",
+      "emoji": "🛣️",
+      "cefr": "A2"
+    },
+    {
+      "word": "highway",
+      "ipa": "/ˈhaɪweɪ/",
+      "pos": "n.",
+      "zh": "公路",
+      "example": "The highway connects the two cities.",
+      "emoji": "🛤️",
+      "cefr": "A2"
+    },
+    {
+      "word": "crosswalk",
+      "ipa": "/ˈkrɒswɔːk/",
+      "pos": "n.",
+      "zh": "人行横道",
+      "example": "Cross the road at the crosswalk.",
+      "emoji": "🚸",
+      "cefr": "A2"
     }
   ],
   "daily": [
@@ -1096,6 +1636,87 @@
       "zh": "钥匙",
       "example": "Where is my key?",
       "emoji": "🔑",
+      "cefr": "A1"
+    },
+    {
+      "word": "clock",
+      "ipa": "/klɒk/",
+      "pos": "n",
+      "zh": "时钟",
+      "example": "The clock on the wall is new.",
+      "emoji": "🕐",
+      "cefr": "A1"
+    },
+    {
+      "word": "glasses",
+      "ipa": "/ˈɡlɑːsɪz/",
+      "pos": "n",
+      "zh": "眼镜",
+      "example": "I wear glasses for reading.",
+      "emoji": "👓",
+      "cefr": "A1"
+    },
+    {
+      "word": "umbrella",
+      "ipa": "/ʌmˈbrelə/",
+      "pos": "n.",
+      "zh": "雨伞",
+      "example": "Take an umbrella, it will rain.",
+      "emoji": "☂️",
+      "cefr": "A1"
+    },
+    {
+      "word": "backpack",
+      "ipa": "/ˈbækpæk/",
+      "pos": "n.",
+      "zh": "双肩包",
+      "example": "He carried his books in a backpack.",
+      "emoji": "🎒",
+      "cefr": "A2"
+    },
+    {
+      "word": "calendar",
+      "ipa": "/ˈkælɪndə(r)/",
+      "pos": "n.",
+      "zh": "日历",
+      "example": "Mark the date on the calendar.",
+      "emoji": "📅",
+      "cefr": "A2"
+    },
+    {
+      "word": "diary",
+      "ipa": "/ˈdaɪəri/",
+      "pos": "n.",
+      "zh": "日记",
+      "example": "She writes in her diary every night.",
+      "emoji": "📔",
+      "cefr": "A2"
+    },
+    {
+      "word": "pencil case",
+      "ipa": "/ˈpensl keɪs/",
+      "pos": "n.",
+      "zh": "铅笔盒",
+      "example": "My pencil case is blue.",
+      "emoji": "✏️",
+      "cefr": "A2"
+    },
+    {
+      "word": "yawn",
+      "ipa": "/jɔːn/",
+      "pos": "v.",
+      "zh": "打哈欠",
+      "example": "He yawned during the long meeting.",
+      "emoji": "🥱",
+      "cefr": "A2"
+    },
+    {
+      "word": "nap",
+      "ipa": "/næp/",
+      "pos": "n.",
+      "zh": "小睡",
+      "example": "I take a short nap after lunch.",
+      "emoji": "😴",
       "cefr": "A1"
     }
   ]

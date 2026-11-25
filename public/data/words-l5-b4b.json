@@ -1,1037 +1,1292 @@
 [
- {
-  "id": "l5d_cognition",
-  "title": "认知与记忆",
-  "emoji": "🧠",
-  "words": [
-   {
-    "word": "cognition",
-    "ipa": "/kɒɡˈnɪʃn/",
-    "pos": "n.",
-    "zh": "认知",
-    "example": "Sleep debt measurably slows cognition.",
+  {
+    "id": "l5d_cognition",
+    "title": "认知与记忆",
     "emoji": "🧠",
-    "cefr": "C1"
-   },
-   {
-    "word": "intuition",
-    "ipa": "/ˌɪntjuˈɪʃn/",
-    "pos": "n.",
-    "zh": "直觉",
-    "example": "She trusted her intuition and changed flights.",
-    "emoji": "💡",
-    "cefr": "B2"
-   },
-   {
-    "word": "retention",
-    "ipa": "/rɪˈtenʃn/",
-    "pos": "n.",
-    "zh": "记忆保持；留存",
-    "example": "Spaced repetition improves long-term retention.",
-    "emoji": "📥",
-    "cefr": "C1"
-   },
-   {
-    "word": "distraction",
-    "ipa": "/dɪˈstrækʃn/",
-    "pos": "n.",
-    "zh": "干扰；分心事物",
-    "example": "Notifications are the biggest distraction while studying.",
-    "emoji": "🔔",
-    "cefr": "B2"
-   },
-   {
-    "word": "recall",
-    "ipa": "/rɪˈkɔːl/",
-    "pos": "v./n.",
-    "zh": "回忆；召回",
-    "example": "Names are harder to recall than faces.",
-    "emoji": "🎞️",
-    "cefr": "B2"
-   },
-   {
-    "word": "insight",
-    "ipa": "/ˈɪnsaɪt/",
-    "pos": "n.",
-    "zh": "洞察；领悟",
-    "example": "Her talk offered fresh insight into buyer habits.",
-    "emoji": "🔍",
-    "cefr": "B2"
-   },
-   {
-    "word": "conscience",
-    "ipa": "/ˈkɒnʃəns/",
-    "pos": "n.",
-    "zh": "良心；是非感",
-    "example": "He returned the wallet out of conscience.",
-    "emoji": "🧭",
-    "cefr": "B2"
-   },
-   {
-    "word": "subconscious",
-    "ipa": "/ˌsʌbˈkɒnʃəs/",
-    "pos": "adj./n.",
-    "zh": "潜意识的",
-    "example": "Subsconscious biases shape many daily choices.",
-    "emoji": "🌙",
-    "cefr": "C1"
-   },
-   {
-    "word": "alertness",
-    "ipa": "/əˈlɜːtnəs/",
-    "pos": "n.",
-    "zh": "警觉；机敏",
-    "example": "Caffeine briefly boosts alertness.",
-    "emoji": "⚡",
-    "cefr": "C1"
-   },
-   {
-    "word": "lapse",
-    "ipa": "/læps/",
-    "pos": "n.",
-    "zh": "（短暂）失误；间隔",
-    "example": "A momentary lapse cost him the match.",
-    "emoji": "⏳",
-    "cefr": "C1"
-   },
-   {
-    "word": "sensory",
-    "ipa": "/ˈsensəri/",
-    "pos": "adj.",
-    "zh": "感官的",
-    "example": "Babies learn through rich sensory experience.",
-    "emoji": "👂",
-    "cefr": "C1"
-   },
-   {
-    "word": "mindfulness",
-    "ipa": "/ˈmaɪndfəlnəs/",
-    "pos": "n.",
-    "zh": "正念",
-    "example": "Ten minutes of mindfulness lowered her stress.",
-    "emoji": "🧘",
-    "cefr": "B2"
-   }
-  ]
- },
- {
-  "id": "l5d_personality",
-  "title": "人格特质",
-  "emoji": "🪞",
-  "words": [
-   {
-    "word": "extrovert",
-    "ipa": "/ˈekstrəvɜːt/",
-    "pos": "n.",
-    "zh": "外向者",
-    "example": "As an extrovert, she recharges around people.",
-    "emoji": "🎤",
-    "cefr": "C1"
-   },
-   {
-    "word": "introvert",
-    "ipa": "/ˈɪntrəvɜːt/",
-    "pos": "n.",
-    "zh": "内向者",
-    "example": "Introverts often prefer writing to speaking up.",
-    "emoji": "📖",
-    "cefr": "C1"
-   },
-   {
-    "word": "temperament",
-    "ipa": "/ˈtemprəmənt/",
-    "pos": "n.",
-    "zh": "性情；气质",
-    "example": "A calm temperament suits emergency work.",
-    "emoji": "🌡️",
-    "cefr": "C1"
-   },
-   {
-    "word": "arrogance",
-    "ipa": "/ˈærəɡəns/",
-    "pos": "n.",
-    "zh": "傲慢",
-    "example": "His arrogance alienated the whole team.",
-    "emoji": "😤",
-    "cefr": "B2"
-   },
-   {
-    "word": "humility",
-    "ipa": "/hjuːˈmɪləti/",
-    "pos": "n.",
-    "zh": "谦逊",
-    "example": "True leaders show humility in success.",
-    "emoji": "🙇",
-    "cefr": "C1"
-   },
-   {
-    "word": "ambition",
-    "ipa": "/æmˈbɪʃn/",
-    "pos": "n.",
-    "zh": "雄心；抱负",
-    "example": "Her ambition is to lead a research lab.",
-    "emoji": "🏔️",
-    "cefr": "B2"
-   },
-   {
-    "word": "integrity",
-    "ipa": "/ɪnˈteɡrəti/",
-    "pos": "n.",
-    "zh": "正直；完整",
-    "example": "He resigned rather than compromise his integrity.",
-    "emoji": "🛡️",
-    "cefr": "C1"
-   },
-   {
-    "word": "compulsive",
-    "ipa": "/kəmˈpʌlsɪv/",
-    "pos": "adj.",
-    "zh": "强迫性的；难以抑制的",
-    "example": "Compulsive checking of feeds wastes hours.",
-    "emoji": "🔁",
-    "cefr": "C1"
-   },
-   {
-    "word": "assertive",
-    "ipa": "/əˈsɜːtɪv/",
-    "pos": "adj.",
-    "zh": "坚定自信的",
-    "example": "Assertive negotiation got the refund quickly.",
-    "emoji": "🗣️",
-    "cefr": "C1"
-   },
-   {
-    "word": "reserved",
-    "ipa": "/rɪˈzɜːvd/",
-    "pos": "adj.",
-    "zh": "矜持的；含蓄的",
-    "example": "He is reserved until he knows people well.",
-    "emoji": "🤫",
-    "cefr": "B2"
-   },
-   {
-    "word": "candid",
-    "ipa": "/ˈkændɪd/",
-    "pos": "adj.",
-    "zh": "坦率的",
-    "example": "She gave candid feedback about the draft.",
-    "emoji": "💬",
-    "cefr": "C1"
-   },
-   {
-    "word": "meticulous",
-    "ipa": "/məˈtɪkjələs/",
-    "pos": "adj.",
-    "zh": "一丝不苟的",
-    "example": "Meticulous notes made the audit painless.",
-    "emoji": "📏",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5d_mental_health",
-  "title": "心理健康",
-  "emoji": "💚",
-  "words": [
-   {
-    "word": "exhaustion",
-    "ipa": "/ɪɡˈzɔːstʃən/",
-    "pos": "n.",
-    "zh": "精疲力竭",
-    "example": "Heat exhaustion forced the crew to rest.",
-    "emoji": "🥵",
-    "cefr": "C1"
-   },
-   {
-    "word": "medication",
-    "ipa": "/ˌmedɪˈkeɪʃn/",
-    "pos": "n.",
-    "zh": "药物；药物治疗",
-    "example": "Take the medication exactly as prescribed.",
-    "emoji": "💊",
-    "cefr": "B2"
-   },
-   {
-    "word": "psychiatrist",
-    "ipa": "/saɪˈkaɪətrɪst/",
-    "pos": "n.",
-    "zh": "精神科医生",
-    "example": "A psychiatrist adjusted the treatment plan.",
-    "emoji": "🩺",
-    "cefr": "C1"
-   },
-   {
-    "word": "counsellor",
-    "ipa": "/ˈkaʊnsələ/",
-    "pos": "n.",
-    "zh": "咨询师",
-    "example": "The school counsellor runs a peer support group.",
-    "emoji": "🗣️",
-    "cefr": "B2"
-   },
-   {
-    "word": "relapse",
-    "ipa": "/ˈriːlæps/",
-    "pos": "n./v.",
-    "zh": "复发；故态复萌",
-    "example": "A relapse is common in early recovery.",
-    "emoji": "🔄",
-    "cefr": "C1"
-   },
-   {
-    "word": "obsession",
-    "ipa": "/əbˈseʃn/",
-    "pos": "n.",
-    "zh": "痴迷；萦绕",
-    "example": "Perfect grades became an unhealthy obsession.",
-    "emoji": "🌀",
-    "cefr": "B2"
-   },
-   {
-    "word": "phobia",
-    "ipa": "/ˈfəʊbiə/",
-    "pos": "n.",
-    "zh": "恐惧症",
-    "example": "Exposure therapy can reduce a phobia gradually.",
-    "emoji": "😱",
-    "cefr": "C1"
-   },
-   {
-    "word": "insomnia",
-    "ipa": "/ɪnˈsɒmniə/",
-    "pos": "n.",
-    "zh": "失眠",
-    "example": "Cutting coffee after noon eased her insomnia.",
-    "emoji": "🌙",
-    "cefr": "C1"
-   },
-   {
-    "word": "grief",
-    "ipa": "/ɡriːf/",
-    "pos": "n.",
-    "zh": "悲痛",
-    "example": "Grief after a loss needs time, not advice.",
-    "emoji": "🖤",
-    "cefr": "C1"
-   },
-   {
-    "word": "trauma",
-    "ipa": "/ˈtrɔːmə/",
-    "pos": "n.",
-    "zh": "创伤",
-    "example": "The program trains teachers to recognise trauma.",
-    "emoji": "🩹",
-    "cefr": "C1"
-   },
-   {
-    "word": "stigma",
-    "ipa": "/ˈstɪɡmə/",
-    "pos": "n.",
-    "zh": "污名；耻辱感",
-    "example": "Stigma still stops men from seeking help.",
+    "words": [
+      {
+        "word": "cognition",
+        "ipa": "/kɒɡˈnɪʃn/",
+        "pos": "n.",
+        "zh": "认知",
+        "example": "Sleep debt measurably slows cognition.",
+        "emoji": "🧠",
+        "cefr": "C1"
+      },
+      {
+        "word": "intuition",
+        "ipa": "/ˌɪntjuˈɪʃn/",
+        "pos": "n.",
+        "zh": "直觉",
+        "example": "She trusted her intuition and changed flights.",
+        "emoji": "💡",
+        "cefr": "B2"
+      },
+      {
+        "word": "retention",
+        "ipa": "/rɪˈtenʃn/",
+        "pos": "n.",
+        "zh": "记忆保持；留存",
+        "example": "Spaced repetition improves long-term retention.",
+        "emoji": "📥",
+        "cefr": "C1"
+      },
+      {
+        "word": "distraction",
+        "ipa": "/dɪˈstrækʃn/",
+        "pos": "n.",
+        "zh": "干扰；分心事物",
+        "example": "Notifications are the biggest distraction while studying.",
+        "emoji": "🔔",
+        "cefr": "B2"
+      },
+      {
+        "word": "recall",
+        "ipa": "/rɪˈkɔːl/",
+        "pos": "v./n.",
+        "zh": "回忆；召回",
+        "example": "Names are harder to recall than faces.",
+        "emoji": "🎞️",
+        "cefr": "B2"
+      },
+      {
+        "word": "insight",
+        "ipa": "/ˈɪnsaɪt/",
+        "pos": "n.",
+        "zh": "洞察；领悟",
+        "example": "Her talk offered fresh insight into buyer habits.",
+        "emoji": "🔍",
+        "cefr": "B2"
+      },
+      {
+        "word": "conscience",
+        "ipa": "/ˈkɒnʃəns/",
+        "pos": "n.",
+        "zh": "良心；是非感",
+        "example": "He returned the wallet out of conscience.",
+        "emoji": "🧭",
+        "cefr": "B2"
+      },
+      {
+        "word": "subconscious",
+        "ipa": "/ˌsʌbˈkɒnʃəs/",
+        "pos": "adj./n.",
+        "zh": "潜意识的",
+        "example": "Subsconscious biases shape many daily choices.",
+        "emoji": "🌙",
+        "cefr": "C1"
+      },
+      {
+        "word": "alertness",
+        "ipa": "/əˈlɜːtnəs/",
+        "pos": "n.",
+        "zh": "警觉；机敏",
+        "example": "Caffeine briefly boosts alertness.",
+        "emoji": "⚡",
+        "cefr": "C1"
+      },
+      {
+        "word": "lapse",
+        "ipa": "/læps/",
+        "pos": "n.",
+        "zh": "（短暂）失误；间隔",
+        "example": "A momentary lapse cost him the match.",
+        "emoji": "⏳",
+        "cefr": "C1"
+      },
+      {
+        "word": "sensory",
+        "ipa": "/ˈsensəri/",
+        "pos": "adj.",
+        "zh": "感官的",
+        "example": "Babies learn through rich sensory experience.",
+        "emoji": "👂",
+        "cefr": "C1"
+      },
+      {
+        "word": "mindfulness",
+        "ipa": "/ˈmaɪndfəlnəs/",
+        "pos": "n.",
+        "zh": "正念",
+        "example": "Ten minutes of mindfulness lowered her stress.",
+        "emoji": "🧘",
+        "cefr": "B2"
+      },
+      {
+        "word": "schemata",
+        "ipa": "/ˈskiːmətə/",
+        "pos": "n.",
+        "zh": "图式",
+        "example": "Existing schemata shape new learning.",
+        "emoji": "🗂️",
+        "cefr": "C2"
+      },
+      {
+        "word": "heuristics",
+        "ipa": "/hjuˈrɪstɪks/",
+        "pos": "n.",
+        "zh": "启发式",
+        "example": "We often solve problems using heuristics.",
+        "emoji": "🧩",
+        "cefr": "C1"
+      },
+      {
+        "word": "forensics",
+        "ipa": "/fəˈrensɪks/",
+        "pos": "n.",
+        "zh": "法医学",
+        "example": "Forensics identified the suspect's fingerprints.",
+        "emoji": "🔍",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_verbs"
+  },
+  {
+    "id": "l5d_personality",
+    "title": "人格特质",
+    "emoji": "🪞",
+    "words": [
+      {
+        "word": "extrovert",
+        "ipa": "/ˈekstrəvɜːt/",
+        "pos": "n.",
+        "zh": "外向者",
+        "example": "As an extrovert, she recharges around people.",
+        "emoji": "🎤",
+        "cefr": "C1"
+      },
+      {
+        "word": "introvert",
+        "ipa": "/ˈɪntrəvɜːt/",
+        "pos": "n.",
+        "zh": "内向者",
+        "example": "Introverts often prefer writing to speaking up.",
+        "emoji": "📖",
+        "cefr": "C1"
+      },
+      {
+        "word": "temperament",
+        "ipa": "/ˈtemprəmənt/",
+        "pos": "n.",
+        "zh": "性情；气质",
+        "example": "A calm temperament suits emergency work.",
+        "emoji": "🌡️",
+        "cefr": "C1"
+      },
+      {
+        "word": "arrogance",
+        "ipa": "/ˈærəɡəns/",
+        "pos": "n.",
+        "zh": "傲慢",
+        "example": "His arrogance alienated the whole team.",
+        "emoji": "😤",
+        "cefr": "B2"
+      },
+      {
+        "word": "humility",
+        "ipa": "/hjuːˈmɪləti/",
+        "pos": "n.",
+        "zh": "谦逊",
+        "example": "True leaders show humility in success.",
+        "emoji": "🙇",
+        "cefr": "C1"
+      },
+      {
+        "word": "ambition",
+        "ipa": "/æmˈbɪʃn/",
+        "pos": "n.",
+        "zh": "雄心；抱负",
+        "example": "Her ambition is to lead a research lab.",
+        "emoji": "🏔️",
+        "cefr": "B2"
+      },
+      {
+        "word": "integrity",
+        "ipa": "/ɪnˈteɡrəti/",
+        "pos": "n.",
+        "zh": "正直；完整",
+        "example": "He resigned rather than compromise his integrity.",
+        "emoji": "🛡️",
+        "cefr": "C1"
+      },
+      {
+        "word": "compulsive",
+        "ipa": "/kəmˈpʌlsɪv/",
+        "pos": "adj.",
+        "zh": "强迫性的；难以抑制的",
+        "example": "Compulsive checking of feeds wastes hours.",
+        "emoji": "🔁",
+        "cefr": "C1"
+      },
+      {
+        "word": "assertive",
+        "ipa": "/əˈsɜːtɪv/",
+        "pos": "adj.",
+        "zh": "坚定自信的",
+        "example": "Assertive negotiation got the refund quickly.",
+        "emoji": "🗣️",
+        "cefr": "C1"
+      },
+      {
+        "word": "reserved",
+        "ipa": "/rɪˈzɜːvd/",
+        "pos": "adj.",
+        "zh": "矜持的；含蓄的",
+        "example": "He is reserved until he knows people well.",
+        "emoji": "🤫",
+        "cefr": "B2"
+      },
+      {
+        "word": "candid",
+        "ipa": "/ˈkændɪd/",
+        "pos": "adj.",
+        "zh": "坦率的",
+        "example": "She gave candid feedback about the draft.",
+        "emoji": "💬",
+        "cefr": "C1"
+      },
+      {
+        "word": "meticulous",
+        "ipa": "/məˈtɪkjələs/",
+        "pos": "adj.",
+        "zh": "一丝不苟的",
+        "example": "Meticulous notes made the audit painless.",
+        "emoji": "📏",
+        "cefr": "C1"
+      },
+      {
+        "word": "persona",
+        "ipa": "/pəˈsəʊnə/",
+        "pos": "n.",
+        "zh": "人格面具",
+        "example": "His online persona hides his shyness.",
+        "emoji": "🎭",
+        "cefr": "C1"
+      },
+      {
+        "word": "narcissism",
+        "ipa": "/ˈnɑːsɪsɪzəm/",
+        "pos": "n.",
+        "zh": "自恋",
+        "example": "His narcissism made him hard to work with.",
+        "emoji": "🪞",
+        "cefr": "C2"
+      },
+      {
+        "word": "infantry",
+        "ipa": "/ˈɪnfəntri/",
+        "pos": "n.",
+        "zh": "步兵",
+        "example": "Infantry units advanced at dawn.",
+        "emoji": "🎖️",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_feelings"
+  },
+  {
+    "id": "l5d_mental_health",
+    "title": "心理健康",
+    "emoji": "💚",
+    "words": [
+      {
+        "word": "exhaustion",
+        "ipa": "/ɪɡˈzɔːstʃən/",
+        "pos": "n.",
+        "zh": "精疲力竭",
+        "example": "Heat exhaustion forced the crew to rest.",
+        "emoji": "🥵",
+        "cefr": "C1"
+      },
+      {
+        "word": "medication",
+        "ipa": "/ˌmedɪˈkeɪʃn/",
+        "pos": "n.",
+        "zh": "药物；药物治疗",
+        "example": "Take the medication exactly as prescribed.",
+        "emoji": "💊",
+        "cefr": "B2"
+      },
+      {
+        "word": "psychiatrist",
+        "ipa": "/saɪˈkaɪətrɪst/",
+        "pos": "n.",
+        "zh": "精神科医生",
+        "example": "A psychiatrist adjusted the treatment plan.",
+        "emoji": "🩺",
+        "cefr": "C1"
+      },
+      {
+        "word": "counsellor",
+        "ipa": "/ˈkaʊnsələ/",
+        "pos": "n.",
+        "zh": "咨询师",
+        "example": "The school counsellor runs a peer support group.",
+        "emoji": "🗣️",
+        "cefr": "B2"
+      },
+      {
+        "word": "relapse",
+        "ipa": "/ˈriːlæps/",
+        "pos": "n./v.",
+        "zh": "复发；故态复萌",
+        "example": "A relapse is common in early recovery.",
+        "emoji": "🔄",
+        "cefr": "C1"
+      },
+      {
+        "word": "obsession",
+        "ipa": "/əbˈseʃn/",
+        "pos": "n.",
+        "zh": "痴迷；萦绕",
+        "example": "Perfect grades became an unhealthy obsession.",
+        "emoji": "🌀",
+        "cefr": "B2"
+      },
+      {
+        "word": "phobia",
+        "ipa": "/ˈfəʊbiə/",
+        "pos": "n.",
+        "zh": "恐惧症",
+        "example": "Exposure therapy can reduce a phobia gradually.",
+        "emoji": "😱",
+        "cefr": "C1"
+      },
+      {
+        "word": "insomnia",
+        "ipa": "/ɪnˈsɒmniə/",
+        "pos": "n.",
+        "zh": "失眠",
+        "example": "Cutting coffee after noon eased her insomnia.",
+        "emoji": "🌙",
+        "cefr": "C1"
+      },
+      {
+        "word": "grief",
+        "ipa": "/ɡriːf/",
+        "pos": "n.",
+        "zh": "悲痛",
+        "example": "Grief after a loss needs time, not advice.",
+        "emoji": "🖤",
+        "cefr": "C1"
+      },
+      {
+        "word": "trauma",
+        "ipa": "/ˈtrɔːmə/",
+        "pos": "n.",
+        "zh": "创伤",
+        "example": "The program trains teachers to recognise trauma.",
+        "emoji": "🩹",
+        "cefr": "C1"
+      },
+      {
+        "word": "stigma",
+        "ipa": "/ˈstɪɡmə/",
+        "pos": "n.",
+        "zh": "污名；耻辱感",
+        "example": "Stigma still stops men from seeking help.",
+        "emoji": "🎭",
+        "cefr": "C1"
+      },
+      {
+        "word": "intervention",
+        "ipa": "/ˌɪntəˈvenʃn/",
+        "pos": "n.",
+        "zh": "干预；介入",
+        "example": "Early intervention prevents minor issues growing serious.",
+        "emoji": "🚨",
+        "cefr": "B2"
+      },
+      {
+        "word": "coping",
+        "ipa": "/ˈkəʊpɪŋ/",
+        "pos": "n.",
+        "zh": "应对",
+        "example": "Good coping skills ease anxiety.",
+        "emoji": "🤝",
+        "cefr": "C1"
+      },
+      {
+        "word": "counseling",
+        "ipa": "/ˈkaʊnsəlɪŋ/",
+        "pos": "n.",
+        "zh": "心理咨询",
+        "example": "Counseling offers a safe space.",
+        "emoji": "🗨️",
+        "cefr": "C2",
+        "level": "C1"
+      },
+      {
+        "word": "battalion",
+        "ipa": "/bəˈtæliən/",
+        "pos": "n.",
+        "zh": "营",
+        "example": "The battalion marched at dawn.",
+        "emoji": "🎖️",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_health"
+  },
+  {
+    "id": "l5d_emotions_complex",
+    "title": "复杂情绪",
     "emoji": "🎭",
-    "cefr": "C1"
-   },
-   {
-    "word": "intervention",
-    "ipa": "/ˌɪntəˈvenʃn/",
-    "pos": "n.",
-    "zh": "干预；介入",
-    "example": "Early intervention prevents minor issues growing serious.",
-    "emoji": "🚨",
-    "cefr": "B2"
-   }
-  ]
- },
- {
-  "id": "l5d_emotions_complex",
-  "title": "复杂情绪",
-  "emoji": "🎭",
-  "words": [
-   {
-    "word": "nostalgia",
-    "ipa": "/nɒˈstældʒə/",
-    "pos": "n.",
-    "zh": "怀旧",
-    "example": "Old songs fill him with nostalgia for school days.",
-    "emoji": "📻",
-    "cefr": "C1"
-   },
-   {
-    "word": "melancholy",
-    "ipa": "/ˈmelənkəli/",
-    "pos": "n.",
-    "zh": "忧郁；伤感",
-    "example": "Autumn always brings a gentle melancholy.",
-    "emoji": "🍂",
-    "cefr": "C1"
-   },
-   {
-    "word": "gratitude",
-    "ipa": "/ˈɡrætɪtjuːd/",
-    "pos": "n.",
-    "zh": "感激",
-    "example": "A gratitude journal improves reported mood.",
-    "emoji": "🙏",
-    "cefr": "B2"
-   },
-   {
-    "word": "jealousy",
-    "ipa": "/ˈdʒeləsi/",
-    "pos": "n.",
-    "zh": "嫉妒",
-    "example": "Jealousy poisoned what was a solid friendship.",
-    "emoji": "🐍",
-    "cefr": "B2"
-   },
-   {
-    "word": "contentment",
-    "ipa": "/kənˈtentmənt/",
-    "pos": "n.",
-    "zh": "满足；知足",
-    "example": "Contentment, not constant pleasure, predicts happiness.",
-    "emoji": "🫖",
-    "cefr": "C1"
-   },
-   {
-    "word": "sympathy",
-    "ipa": "/ˈsɪmpəθi/",
-    "pos": "n.",
-    "zh": "同情",
-    "example": "Cards poured in expressing sympathy for the family.",
-    "emoji": "💌",
-    "cefr": "B2"
-   },
-   {
-    "word": "compassion",
-    "ipa": "/kəmˈpæʃn/",
-    "pos": "n.",
-    "zh": "怜悯；慈悲",
-    "example": "Nursing demands skill as well as compassion.",
-    "emoji": "🤲",
-    "cefr": "C1"
-   },
-   {
-    "word": "indifference",
-    "ipa": "/ɪnˈdɪfrəns/",
-    "pos": "n.",
-    "zh": "冷漠",
-    "example": "Public indifference let the issue drift for years.",
-    "emoji": "😐",
-    "cefr": "B2"
-   },
-   {
-    "word": "irritation",
-    "ipa": "/ˌɪrɪˈteɪʃn/",
-    "pos": "n.",
-    "zh": "恼怒",
-    "example": "He hid his irritation at the repeated delays.",
-    "emoji": "😤",
-    "cefr": "B2"
-   },
-   {
-    "word": "awe",
-    "ipa": "/ɔː/",
-    "pos": "n.",
-    "zh": "敬畏",
-    "example": "They stood in awe of the northern lights.",
-    "emoji": "🌌",
-    "cefr": "C1"
-   },
-   {
-    "word": "solitude",
-    "ipa": "/ˈsɒlɪtjuːd/",
-    "pos": "n.",
-    "zh": "独处；孤寂",
-    "example": "She treasured the solitude of early mornings.",
-    "emoji": "🌲",
-    "cefr": "C1"
-   },
-   {
-    "word": "elated",
-    "ipa": "/ɪˈleɪtɪd/",
-    "pos": "adj.",
-    "zh": "兴高采烈的",
-    "example": "He was elated after crossing the finish line.",
-    "emoji": "🎉",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5d_social_psych",
-  "title": "社会心理",
-  "emoji": "👥",
-  "words": [
-   {
-    "word": "conformity",
-    "ipa": "/kənˈfɔːməti/",
-    "pos": "n.",
-    "zh": "从众",
-    "example": "Conformity explains why queues feel obligatory.",
-    "emoji": "🚶",
-    "cefr": "C1"
-   },
-   {
-    "word": "stereotype",
-    "ipa": "/ˈsteriətaɪp/",
-    "pos": "n.",
-    "zh": "刻板印象",
-    "example": "Ads quietly reinforce old gender stereotypes.",
-    "emoji": "🏷️",
-    "cefr": "B2"
-   },
-   {
-    "word": "bigotry",
-    "ipa": "/ˈbɪɡətri/",
-    "pos": "n.",
-    "zh": "偏执；顽固偏见",
-    "example": "Bigotry thrives where people never meet outsiders.",
-    "emoji": "🙅",
-    "cefr": "C1"
-   },
-   {
-    "word": "empathy",
-    "ipa": "/ˈempəθi/",
-    "pos": "n.",
-    "zh": "共情；同理心",
-    "example": "Reading fiction measurably builds empathy.",
-    "emoji": "🫶",
-    "cefr": "B2"
-   },
-   {
-    "word": "counterpart",
-    "ipa": "/ˈkaʊntəpɑːt/",
-    "pos": "n.",
-    "zh": "对应的人/物",
-    "example": "She earns double what her counterpart made in 1990.",
-    "emoji": "🔀",
-    "cefr": "C1"
-   },
-   {
-    "word": "obedience",
-    "ipa": "/əˈbiːdiəns/",
-    "pos": "n.",
-    "zh": "服从",
-    "example": "Milgram's experiments exposed blind obedience.",
-    "emoji": "🎖️",
-    "cefr": "C1"
-   },
-   {
-    "word": "scapegoat",
-    "ipa": "/ˈskeɪpɡəʊt/",
-    "pos": "n.",
-    "zh": "替罪羊",
-    "example": "Minorities often become scapegoats in hard times.",
-    "emoji": "🐐",
-    "cefr": "C1"
-   },
-   {
-    "word": "identity",
-    "ipa": "/aɪˈdentəti/",
-    "pos": "n.",
-    "zh": "身份；认同",
-    "example": "Adolescence is when identity forms fastest.",
-    "emoji": "🪪",
-    "cefr": "B2"
-   },
-   {
-    "word": "cohesion",
-    "ipa": "/kəʊˈhiːʒn/",
-    "pos": "n.",
-    "zh": "凝聚力",
-    "example": "Team rituals build cohesion between members.",
-    "emoji": "🧲",
-    "cefr": "C1"
-   },
-   {
-    "word": "isolation",
-    "ipa": "/ˌaɪsəˈleɪʃn/",
-    "pos": "n.",
-    "zh": "孤立；隔离",
-    "example": "Remote work can bring unexpected isolation.",
-    "emoji": "🏝️",
-    "cefr": "B2"
-   },
-   {
-    "word": "belonging",
-    "ipa": "/bɪˈlɒŋɪŋ/",
-    "pos": "n.",
-    "zh": "归属感",
-    "example": "Clubs give freshmen a sense of belonging.",
-    "emoji": "🏡",
-    "cefr": "B2"
-   },
-   {
-    "word": "altruism",
-    "ipa": "/ˈæltruɪzəm/",
-    "pos": "n.",
-    "zh": "利他主义",
-    "example": "Anonymous donations are pure altruism.",
-    "emoji": "🫴",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5d_decision_judgment",
-  "title": "决策与判断",
-  "emoji": "⚖️",
-  "words": [
-   {
-    "word": "impulse",
-    "ipa": "/ˈɪmpʌls/",
-    "pos": "n.",
-    "zh": "冲动",
-    "example": "Buy the dress tomorrow, not on impulse tonight.",
-    "emoji": "⚡",
-    "cefr": "B2"
-   },
-   {
-    "word": "rationale",
-    "ipa": "/ˌræʃəˈnɑːl/",
-    "pos": "n.",
-    "zh": "基本原理；依据",
-    "example": "The memo explains the rationale behind the price rise.",
-    "emoji": "📐",
-    "cefr": "C1"
-   },
-   {
-    "word": "trade-off",
-    "ipa": "/ˈtreɪdɒf/",
-    "pos": "n.",
-    "zh": "权衡；取舍",
-    "example": "Speed versus cost is the classic trade-off.",
+    "words": [
+      {
+        "word": "nostalgia",
+        "ipa": "/nɒˈstældʒə/",
+        "pos": "n.",
+        "zh": "怀旧",
+        "example": "Old songs fill him with nostalgia for school days.",
+        "emoji": "📻",
+        "cefr": "C1"
+      },
+      {
+        "word": "melancholy",
+        "ipa": "/ˈmelənkəli/",
+        "pos": "n.",
+        "zh": "忧郁；伤感",
+        "example": "Autumn always brings a gentle melancholy.",
+        "emoji": "🍂",
+        "cefr": "C1"
+      },
+      {
+        "word": "gratitude",
+        "ipa": "/ˈɡrætɪtjuːd/",
+        "pos": "n.",
+        "zh": "感激",
+        "example": "A gratitude journal improves reported mood.",
+        "emoji": "🙏",
+        "cefr": "B2"
+      },
+      {
+        "word": "jealousy",
+        "ipa": "/ˈdʒeləsi/",
+        "pos": "n.",
+        "zh": "嫉妒",
+        "example": "Jealousy poisoned what was a solid friendship.",
+        "emoji": "🐍",
+        "cefr": "B2"
+      },
+      {
+        "word": "contentment",
+        "ipa": "/kənˈtentmənt/",
+        "pos": "n.",
+        "zh": "满足；知足",
+        "example": "Contentment, not constant pleasure, predicts happiness.",
+        "emoji": "🫖",
+        "cefr": "C1"
+      },
+      {
+        "word": "sympathy",
+        "ipa": "/ˈsɪmpəθi/",
+        "pos": "n.",
+        "zh": "同情",
+        "example": "Cards poured in expressing sympathy for the family.",
+        "emoji": "💌",
+        "cefr": "B2"
+      },
+      {
+        "word": "compassion",
+        "ipa": "/kəmˈpæʃn/",
+        "pos": "n.",
+        "zh": "怜悯；慈悲",
+        "example": "Nursing demands skill as well as compassion.",
+        "emoji": "🤲",
+        "cefr": "C1"
+      },
+      {
+        "word": "indifference",
+        "ipa": "/ɪnˈdɪfrəns/",
+        "pos": "n.",
+        "zh": "冷漠",
+        "example": "Public indifference let the issue drift for years.",
+        "emoji": "😐",
+        "cefr": "B2"
+      },
+      {
+        "word": "irritation",
+        "ipa": "/ˌɪrɪˈteɪʃn/",
+        "pos": "n.",
+        "zh": "恼怒",
+        "example": "He hid his irritation at the repeated delays.",
+        "emoji": "😤",
+        "cefr": "B2"
+      },
+      {
+        "word": "awe",
+        "ipa": "/ɔː/",
+        "pos": "n.",
+        "zh": "敬畏",
+        "example": "They stood in awe of the northern lights.",
+        "emoji": "🌌",
+        "cefr": "C1"
+      },
+      {
+        "word": "solitude",
+        "ipa": "/ˈsɒlɪtjuːd/",
+        "pos": "n.",
+        "zh": "独处；孤寂",
+        "example": "She treasured the solitude of early mornings.",
+        "emoji": "🌲",
+        "cefr": "C1"
+      },
+      {
+        "word": "elated",
+        "ipa": "/ɪˈleɪtɪd/",
+        "pos": "adj.",
+        "zh": "兴高采烈的",
+        "example": "He was elated after crossing the finish line.",
+        "emoji": "🎉",
+        "cefr": "C1"
+      },
+      {
+        "word": "schadenfreude",
+        "ipa": "/ˈʃɑːdənfrɔɪdə/",
+        "pos": "n.",
+        "zh": "幸灾乐祸",
+        "example": "He felt schadenfreude at her failure.",
+        "emoji": "🙈",
+        "cefr": "C2"
+      },
+      {
+        "word": "ambivalence",
+        "ipa": "/æmˈbɪvələns/",
+        "pos": "n.",
+        "zh": "矛盾心理",
+        "example": "Ambivalence marked her feelings about moving.",
+        "emoji": "🌗",
+        "cefr": "C1"
+      },
+      {
+        "word": "multilateral",
+        "ipa": "/ˌmʌltiˈlætərəl/",
+        "pos": "adj.",
+        "zh": "多边的",
+        "example": "The treaty was signed through multilateral talks.",
+        "emoji": "🌐",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_feelings"
+  },
+  {
+    "id": "l5d_social_psych",
+    "title": "社会心理",
+    "emoji": "👥",
+    "words": [
+      {
+        "word": "conformity",
+        "ipa": "/kənˈfɔːməti/",
+        "pos": "n.",
+        "zh": "从众",
+        "example": "Conformity explains why queues feel obligatory.",
+        "emoji": "🚶",
+        "cefr": "C1"
+      },
+      {
+        "word": "stereotype",
+        "ipa": "/ˈsteriətaɪp/",
+        "pos": "n.",
+        "zh": "刻板印象",
+        "example": "Ads quietly reinforce old gender stereotypes.",
+        "emoji": "🏷️",
+        "cefr": "B2"
+      },
+      {
+        "word": "bigotry",
+        "ipa": "/ˈbɪɡətri/",
+        "pos": "n.",
+        "zh": "偏执；顽固偏见",
+        "example": "Bigotry thrives where people never meet outsiders.",
+        "emoji": "🙅",
+        "cefr": "C1"
+      },
+      {
+        "word": "empathy",
+        "ipa": "/ˈempəθi/",
+        "pos": "n.",
+        "zh": "共情；同理心",
+        "example": "Reading fiction measurably builds empathy.",
+        "emoji": "🫶",
+        "cefr": "B2"
+      },
+      {
+        "word": "counterpart",
+        "ipa": "/ˈkaʊntəpɑːt/",
+        "pos": "n.",
+        "zh": "对应的人/物",
+        "example": "She earns double what her counterpart made in 1990.",
+        "emoji": "🔀",
+        "cefr": "C1"
+      },
+      {
+        "word": "obedience",
+        "ipa": "/əˈbiːdiəns/",
+        "pos": "n.",
+        "zh": "服从",
+        "example": "Milgram's experiments exposed blind obedience.",
+        "emoji": "🎖️",
+        "cefr": "C1"
+      },
+      {
+        "word": "scapegoat",
+        "ipa": "/ˈskeɪpɡəʊt/",
+        "pos": "n.",
+        "zh": "替罪羊",
+        "example": "Minorities often become scapegoats in hard times.",
+        "emoji": "🐐",
+        "cefr": "C1"
+      },
+      {
+        "word": "identity",
+        "ipa": "/aɪˈdentəti/",
+        "pos": "n.",
+        "zh": "身份；认同",
+        "example": "Adolescence is when identity forms fastest.",
+        "emoji": "🪪",
+        "cefr": "B2"
+      },
+      {
+        "word": "cohesion",
+        "ipa": "/kəʊˈhiːʒn/",
+        "pos": "n.",
+        "zh": "凝聚力",
+        "example": "Team rituals build cohesion between members.",
+        "emoji": "🧲",
+        "cefr": "C1"
+      },
+      {
+        "word": "isolation",
+        "ipa": "/ˌaɪsəˈleɪʃn/",
+        "pos": "n.",
+        "zh": "孤立；隔离",
+        "example": "Remote work can bring unexpected isolation.",
+        "emoji": "🏝️",
+        "cefr": "B2"
+      },
+      {
+        "word": "belonging",
+        "ipa": "/bɪˈlɒŋɪŋ/",
+        "pos": "n.",
+        "zh": "归属感",
+        "example": "Clubs give freshmen a sense of belonging.",
+        "emoji": "🏡",
+        "cefr": "B2"
+      },
+      {
+        "word": "altruism",
+        "ipa": "/ˈæltruɪzəm/",
+        "pos": "n.",
+        "zh": "利他主义",
+        "example": "Anonymous donations are pure altruism.",
+        "emoji": "🫴",
+        "cefr": "C1"
+      },
+      {
+        "word": "ingroup",
+        "ipa": "/ˈɪnɡruːp/",
+        "pos": "n.",
+        "zh": "内群体",
+        "example": "People favor members of their ingroup.",
+        "emoji": "⭕",
+        "cefr": "C2"
+      },
+      {
+        "word": "attitude",
+        "ipa": "/ˈætɪtjuːd/",
+        "pos": "n.",
+        "zh": "态度",
+        "example": "Attitude shapes behavior.",
+        "emoji": "🧭",
+        "cefr": "C2",
+        "level": "C1"
+      },
+      {
+        "word": "temperate",
+        "ipa": "/ˈtempərət/",
+        "pos": "adj.",
+        "zh": "温带的",
+        "example": "Wheat grows best in temperate zones.",
+        "emoji": "🌾",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_feelings"
+  },
+  {
+    "id": "l5d_decision_judgment",
+    "title": "决策与判断",
     "emoji": "⚖️",
-    "cefr": "C1"
-   },
-   {
-    "word": "hindsight",
-    "ipa": "/ˈhaɪndsaɪt/",
-    "pos": "n.",
-    "zh": "事后聪明",
-    "example": "With hindsight, the warning signs were obvious.",
-    "emoji": "🔭",
-    "cefr": "C1"
-   },
-   {
-    "word": "heuristic",
-    "ipa": "/hjʊəˈrɪstɪk/",
-    "pos": "n.",
-    "zh": "启发式（思维捷径）",
-    "example": "A quick heuristic saves time but invites errors.",
-    "emoji": "🧮",
-    "cefr": "C1"
-   },
-   {
-    "word": "consensus",
-    "ipa": "/kənˈsensəs/",
-    "pos": "n.",
-    "zh": "共识",
-    "example": "After two hours, the committee reached a consensus.",
-    "emoji": "🤝",
-    "cefr": "B2"
-   },
-   {
-    "word": "reconsider",
-    "ipa": "/ˌriːkənˈsɪdə/",
-    "pos": "v.",
-    "zh": "重新考虑",
-    "example": "Rising costs made the board reconsider the merger.",
-    "emoji": "🔄",
-    "cefr": "B2"
-   },
-   {
-    "word": "hesitate",
-    "ipa": "/ˈhezɪteɪt/",
-    "pos": "v.",
-    "zh": "犹豫",
-    "example": "Don't hesitate to ask if anything is unclear.",
-    "emoji": "🤔",
-    "cefr": "B2"
-   },
-   {
-    "word": "overwhelm",
-    "ipa": "/ˌəʊvəˈwelm/",
-    "pos": "v.",
-    "zh": "压垮；使不知所措",
-    "example": "Too many choices overwhelm the average shopper.",
-    "emoji": "🌊",
-    "cefr": "B2"
-   },
-   {
-    "word": "prioritise",
-    "ipa": "/praɪˈɒrɪtaɪz/",
-    "pos": "v.",
-    "zh": "确定优先次序",
-    "example": "List the tasks, then prioritise ruthlessly.",
-    "emoji": "📊",
-    "cefr": "B2"
-   },
-   {
-    "word": "ramification",
-    "ipa": "/ˌræmɪfɪˈkeɪʃn/",
-    "pos": "n.",
-    "zh": "（间接）后果",
-    "example": "The legal ramifications took months to unfold.",
-    "emoji": "🌿",
-    "cefr": "C1"
-   },
-   {
-    "word": "intuition-based",
-    "ipa": "/ˌɪntjuˈɪʃn beɪst/",
-    "pos": "adj.",
-    "zh": "凭直觉的",
-    "example": "Intuition-based hiring often repeats past mistakes.",
-    "emoji": "🎲",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5d_morality_values",
-  "title": "道德与价值",
-  "emoji": "🕊️",
-  "words": [
-   {
-    "word": "ethical",
-    "ipa": "/ˈeθɪkl/",
-    "pos": "adj.",
-    "zh": "合乎伦理的",
-    "example": "Ethical sourcing now shapes consumer choices.",
-    "emoji": "🪶",
-    "cefr": "B2"
-   },
-   {
-    "word": "moral",
-    "ipa": "/ˈmɒrəl/",
-    "pos": "adj./n.",
-    "zh": "道德的；寓意",
-    "example": "Courts and morals do not always agree.",
+    "words": [
+      {
+        "word": "impulse",
+        "ipa": "/ˈɪmpʌls/",
+        "pos": "n.",
+        "zh": "冲动",
+        "example": "Buy the dress tomorrow, not on impulse tonight.",
+        "emoji": "⚡",
+        "cefr": "B2"
+      },
+      {
+        "word": "rationale",
+        "ipa": "/ˌræʃəˈnɑːl/",
+        "pos": "n.",
+        "zh": "基本原理；依据",
+        "example": "The memo explains the rationale behind the price rise.",
+        "emoji": "📐",
+        "cefr": "C1"
+      },
+      {
+        "word": "trade-off",
+        "ipa": "/ˈtreɪdɒf/",
+        "pos": "n.",
+        "zh": "权衡；取舍",
+        "example": "Speed versus cost is the classic trade-off.",
+        "emoji": "⚖️",
+        "cefr": "C1"
+      },
+      {
+        "word": "hindsight",
+        "ipa": "/ˈhaɪndsaɪt/",
+        "pos": "n.",
+        "zh": "事后聪明",
+        "example": "With hindsight, the warning signs were obvious.",
+        "emoji": "🔭",
+        "cefr": "C1"
+      },
+      {
+        "word": "heuristic",
+        "ipa": "/hjʊəˈrɪstɪk/",
+        "pos": "n.",
+        "zh": "启发式（思维捷径）",
+        "example": "A quick heuristic saves time but invites errors.",
+        "emoji": "🧮",
+        "cefr": "C1"
+      },
+      {
+        "word": "consensus",
+        "ipa": "/kənˈsensəs/",
+        "pos": "n.",
+        "zh": "共识",
+        "example": "After two hours, the committee reached a consensus.",
+        "emoji": "🤝",
+        "cefr": "B2"
+      },
+      {
+        "word": "reconsider",
+        "ipa": "/ˌriːkənˈsɪdə/",
+        "pos": "v.",
+        "zh": "重新考虑",
+        "example": "Rising costs made the board reconsider the merger.",
+        "emoji": "🔄",
+        "cefr": "B2"
+      },
+      {
+        "word": "hesitate",
+        "ipa": "/ˈhezɪteɪt/",
+        "pos": "v.",
+        "zh": "犹豫",
+        "example": "Don't hesitate to ask if anything is unclear.",
+        "emoji": "🤔",
+        "cefr": "B2"
+      },
+      {
+        "word": "overwhelm",
+        "ipa": "/ˌəʊvəˈwelm/",
+        "pos": "v.",
+        "zh": "压垮；使不知所措",
+        "example": "Too many choices overwhelm the average shopper.",
+        "emoji": "🌊",
+        "cefr": "B2"
+      },
+      {
+        "word": "prioritise",
+        "ipa": "/praɪˈɒrɪtaɪz/",
+        "pos": "v.",
+        "zh": "确定优先次序",
+        "example": "List the tasks, then prioritise ruthlessly.",
+        "emoji": "📊",
+        "cefr": "B2"
+      },
+      {
+        "word": "ramification",
+        "ipa": "/ˌræmɪfɪˈkeɪʃn/",
+        "pos": "n.",
+        "zh": "（间接）后果",
+        "example": "The legal ramifications took months to unfold.",
+        "emoji": "🌿",
+        "cefr": "C1"
+      },
+      {
+        "word": "intuition-based",
+        "ipa": "/ˌɪntjuˈɪʃn beɪst/",
+        "pos": "adj.",
+        "zh": "凭直觉的",
+        "example": "Intuition-based hiring often repeats past mistakes.",
+        "emoji": "🎲",
+        "cefr": "C1"
+      },
+      {
+        "word": "anchoring",
+        "ipa": "/ˈæŋkərɪŋ/",
+        "pos": "n.",
+        "zh": "锚定效应",
+        "example": "Anchoring skews price estimates.",
+        "emoji": "⚓",
+        "cefr": "C2"
+      },
+      {
+        "word": "overconfidence",
+        "ipa": "/ˌəʊvəˈkɒnfɪdəns/",
+        "pos": "n.",
+        "zh": "过度自信",
+        "example": "Overconfidence caused risky bets.",
+        "emoji": "😎",
+        "cefr": "C1"
+      },
+      {
+        "word": "evaporation",
+        "ipa": "/ɪˌvæpəˈreɪʃn/",
+        "pos": "n.",
+        "zh": "蒸发",
+        "example": "Evaporation cools the air.",
+        "emoji": "💨",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_verbs"
+  },
+  {
+    "id": "l5d_morality_values",
+    "title": "道德与价值",
     "emoji": "🕊️",
-    "cefr": "B2"
-   },
-   {
-    "word": "virtue",
-    "ipa": "/ˈvɜːtʃuː/",
-    "pos": "n.",
-    "zh": "美德",
-    "example": "Patience is a virtue the internet erodes.",
-    "emoji": "🏅",
-    "cefr": "B2"
-   },
-   {
-    "word": "dilemma",
-    "ipa": "/dɪˈlemə/",
-    "pos": "n.",
-    "zh": "两难困境",
-    "example": "Loyalty versus honesty is a timeless dilemma.",
-    "emoji": "🔀",
-    "cefr": "B2"
-   },
-   {
-    "word": "accountability",
-    "ipa": "/əˌkaʊntəˈbɪləti/",
-    "pos": "n.",
-    "zh": "问责；担责",
-    "example": "Accountability keeps public funds honest.",
-    "emoji": "📋",
-    "cefr": "C1"
-   },
-   {
-    "word": "corrupt",
-    "ipa": "/kəˈrʌpt/",
-    "pos": "adj./v.",
-    "zh": "腐败的；腐蚀",
-    "example": "The corrupt official diverted relief funds.",
-    "emoji": "💰",
-    "cefr": "B2"
-   },
-   {
-    "word": "accountable",
-    "ipa": "/əˈkaʊntəbl/",
-    "pos": "adj.",
-    "zh": "负有责任的",
-    "example": "Managers must be accountable for safety lapses.",
-    "emoji": "🧾",
-    "cefr": "C1"
-   },
-   {
-    "word": "sacrifice",
-    "ipa": "/ˈsækrɪfaɪs/",
-    "pos": "n./v.",
-    "zh": "牺牲",
-    "example": "Parents quietly make every sacrifice for children.",
-    "emoji": "🕯️",
-    "cefr": "B2"
-   },
-   {
-    "word": "justice",
-    "ipa": "/ˈdʒʌstɪs/",
-    "pos": "n.",
-    "zh": "正义；司法",
-    "example": "Victims waited a decade for justice.",
-    "emoji": "⚖️",
-    "cefr": "B2"
-   },
-   {
-    "word": "obligation",
-    "ipa": "/ˌɒblɪˈɡeɪʃn/",
-    "pos": "n.",
-    "zh": "义务；责任",
-    "example": "Contracts create a legal obligation to deliver.",
-    "emoji": "🔗",
-    "cefr": "B2"
-   },
-   {
-    "word": "betrayal",
-    "ipa": "/bɪˈtreɪəl/",
-    "pos": "n.",
-    "zh": "背叛",
-    "example": "Leaking the file was an unforgivable betrayal.",
-    "emoji": "🗡️",
-    "cefr": "C1"
-   },
-   {
-    "word": "conscience-driven",
-    "ipa": "/ˈkɒnʃəns drɪvn/",
-    "pos": "adj.",
-    "zh": "良心驱动的",
-    "example": "She made a conscience-driven decision to quit.",
-    "emoji": "🧭",
-    "cefr": "C1"
-   }
-  ]
- },
- {
-  "id": "l5d_stress_coping",
-  "title": "压力与应对",
-  "emoji": "🧯",
-  "words": [
-   {
-    "word": "cope",
-    "ipa": "/kəʊp/",
-    "pos": "v.",
-    "zh": "应对；应付",
-    "example": "Music helps her cope with exam nerves.",
+    "words": [
+      {
+        "word": "ethical",
+        "ipa": "/ˈeθɪkl/",
+        "pos": "adj.",
+        "zh": "合乎伦理的",
+        "example": "Ethical sourcing now shapes consumer choices.",
+        "emoji": "🪶",
+        "cefr": "B2"
+      },
+      {
+        "word": "moral",
+        "ipa": "/ˈmɒrəl/",
+        "pos": "adj./n.",
+        "zh": "道德的；寓意",
+        "example": "Courts and morals do not always agree.",
+        "emoji": "🕊️",
+        "cefr": "B2"
+      },
+      {
+        "word": "virtue",
+        "ipa": "/ˈvɜːtʃuː/",
+        "pos": "n.",
+        "zh": "美德",
+        "example": "Patience is a virtue the internet erodes.",
+        "emoji": "🏅",
+        "cefr": "B2"
+      },
+      {
+        "word": "dilemma",
+        "ipa": "/dɪˈlemə/",
+        "pos": "n.",
+        "zh": "两难困境",
+        "example": "Loyalty versus honesty is a timeless dilemma.",
+        "emoji": "🔀",
+        "cefr": "B2"
+      },
+      {
+        "word": "accountability",
+        "ipa": "/əˌkaʊntəˈbɪləti/",
+        "pos": "n.",
+        "zh": "问责；担责",
+        "example": "Accountability keeps public funds honest.",
+        "emoji": "📋",
+        "cefr": "C1"
+      },
+      {
+        "word": "corrupt",
+        "ipa": "/kəˈrʌpt/",
+        "pos": "adj./v.",
+        "zh": "腐败的；腐蚀",
+        "example": "The corrupt official diverted relief funds.",
+        "emoji": "💰",
+        "cefr": "B2"
+      },
+      {
+        "word": "accountable",
+        "ipa": "/əˈkaʊntəbl/",
+        "pos": "adj.",
+        "zh": "负有责任的",
+        "example": "Managers must be accountable for safety lapses.",
+        "emoji": "🧾",
+        "cefr": "C1"
+      },
+      {
+        "word": "sacrifice",
+        "ipa": "/ˈsækrɪfaɪs/",
+        "pos": "n./v.",
+        "zh": "牺牲",
+        "example": "Parents quietly make every sacrifice for children.",
+        "emoji": "🕯️",
+        "cefr": "B2"
+      },
+      {
+        "word": "justice",
+        "ipa": "/ˈdʒʌstɪs/",
+        "pos": "n.",
+        "zh": "正义；司法",
+        "example": "Victims waited a decade for justice.",
+        "emoji": "⚖️",
+        "cefr": "B2"
+      },
+      {
+        "word": "obligation",
+        "ipa": "/ˌɒblɪˈɡeɪʃn/",
+        "pos": "n.",
+        "zh": "义务；责任",
+        "example": "Contracts create a legal obligation to deliver.",
+        "emoji": "🔗",
+        "cefr": "B2"
+      },
+      {
+        "word": "betrayal",
+        "ipa": "/bɪˈtreɪəl/",
+        "pos": "n.",
+        "zh": "背叛",
+        "example": "Leaking the file was an unforgivable betrayal.",
+        "emoji": "🗡️",
+        "cefr": "C1"
+      },
+      {
+        "word": "conscience-driven",
+        "ipa": "/ˈkɒnʃəns drɪvn/",
+        "pos": "adj.",
+        "zh": "良心驱动的",
+        "example": "She made a conscience-driven decision to quit.",
+        "emoji": "🧭",
+        "cefr": "C1"
+      },
+      {
+        "word": "reciprocity",
+        "ipa": "/ˌresɪˈprɒsəti/",
+        "pos": "n.",
+        "zh": "互惠",
+        "example": "Reciprocity builds trust in trade.",
+        "emoji": "🔄",
+        "cefr": "C1"
+      },
+      {
+        "word": "conscientiousness",
+        "ipa": "/ˌkɒnʃiˈenʃəsnəs/",
+        "pos": "n.",
+        "zh": "尽责性",
+        "example": "Conscientiousness predicts academic success.",
+        "emoji": "📋",
+        "cefr": "C2"
+      },
+      {
+        "word": "biofuel",
+        "ipa": "/ˈbaɪəʊfjuːəl/",
+        "pos": "n.",
+        "zh": "生物燃料",
+        "example": "Buses run on biofuel from crops.",
+        "emoji": "🌽",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_safety"
+  },
+  {
+    "id": "l5d_stress_coping",
+    "title": "压力与应对",
     "emoji": "🧯",
-    "cefr": "B2"
-   },
-   {
-    "word": "milestone",
-    "ipa": "/ˈmaɪlstəʊn/",
-    "pos": "n.",
-    "zh": "里程碑",
-    "example": "Shipping the beta was the team’s first milestone.",
-    "emoji": "🚩",
-    "cefr": "C1"
-   },
-   {
-    "word": "overload",
-    "ipa": "/ˌəʊvəˈləʊd/",
-    "pos": "n./v.",
-    "zh": "超负荷",
-    "example": "Information overload drains decision quality.",
-    "emoji": "🚦",
-    "cefr": "B2"
-   },
-   {
-    "word": "recharge",
-    "ipa": "/ˌriːˈtʃɑːdʒ/",
-    "pos": "v.",
-    "zh": "恢复精力；充电",
-    "example": "Unplug completely at weekends to recharge.",
-    "emoji": "🔌",
-    "cefr": "B2"
-   },
-   {
-    "word": "anticipate",
-    "ipa": "/ænˈtɪsɪpeɪt/",
-    "pos": "v.",
-    "zh": "预期；预料",
-    "example": "Good planners anticipate delays in advance.",
-    "emoji": "🔮",
-    "cefr": "B2"
-   },
-   {
-    "word": "procrastinate",
-    "ipa": "/prəʊˈkræstɪneɪt/",
-    "pos": "v.",
-    "zh": "拖延",
-    "example": "I procrastinate most on tasks that feel vague.",
-    "emoji": "🕐",
-    "cefr": "C1"
-   },
-   {
-    "word": "deadline-driven",
-    "ipa": "/ˈdedlaɪn drɪvn/",
-    "pos": "adj.",
-    "zh": "期限驱动的",
-    "example": "Deadline-driven sprints keep the team focused.",
-    "emoji": "🎯",
-    "cefr": "C1"
-   },
-   {
-    "word": "breathe",
-    "ipa": "/briːð/",
-    "pos": "v.",
-    "zh": "呼吸",
-    "example": "Breathe deeply before answering hostile questions.",
-    "emoji": "🫁",
-    "cefr": "B2"
-   },
-   {
-    "word": "outlook",
-    "ipa": "/ˈaʊtlʊk/",
-    "pos": "n.",
-    "zh": "展望；心态",
-    "example": "A positive outlook correlates with better recovery.",
-    "emoji": "🌅",
-    "cefr": "B2"
-   },
-   {
-    "word": "vent",
-    "ipa": "/vent/",
-    "pos": "v./n.",
-    "zh": "发泄；出气口",
-    "example": "Complaining to vent rarely solves anything.",
-    "emoji": "🫸",
-    "cefr": "C1"
-   },
-   {
-    "word": "pessimism",
-    "ipa": "/ˈpesɪmɪzəm/",
-    "pos": "n.",
-    "zh": "悲观（情绪）",
-    "example": "Economic pessimism spread through the market.",
-    "emoji": "☹️",
-    "cefr": "C1"
-   },
-   {
-    "word": "withdraw",
-    "ipa": "/wɪðˈdrɔː/",
-    "pos": "v.",
-    "zh": "退缩；撤回",
-    "example": "Under pressure he withdrew from friends.",
-    "emoji": "🚪",
-    "cefr": "B2"
-   }
-  ]
- },
- {
-  "id": "l5d_consciousness",
-  "title": "意识与状态",
-  "emoji": "🌀",
-  "words": [
-   {
-    "word": "awaken",
-    "ipa": "/əˈweɪkən/",
-    "pos": "v.",
-    "zh": "唤醒；觉醒",
-    "example": "The documentary awakened public concern.",
-    "emoji": "☀️",
-    "cefr": "C1"
-   },
-   {
-    "word": "trance",
-    "ipa": "/trɑːns/",
-    "pos": "n.",
-    "zh": "恍惚；出神",
-    "example": "Repetitive music can put dancers in a trance.",
+    "words": [
+      {
+        "word": "cope",
+        "ipa": "/kəʊp/",
+        "pos": "v.",
+        "zh": "应对；应付",
+        "example": "Music helps her cope with exam nerves.",
+        "emoji": "🧯",
+        "cefr": "B2"
+      },
+      {
+        "word": "milestone",
+        "ipa": "/ˈmaɪlstəʊn/",
+        "pos": "n.",
+        "zh": "里程碑",
+        "example": "Shipping the beta was the team’s first milestone.",
+        "emoji": "🚩",
+        "cefr": "C1"
+      },
+      {
+        "word": "overload",
+        "ipa": "/ˌəʊvəˈləʊd/",
+        "pos": "n./v.",
+        "zh": "超负荷",
+        "example": "Information overload drains decision quality.",
+        "emoji": "🚦",
+        "cefr": "B2"
+      },
+      {
+        "word": "recharge",
+        "ipa": "/ˌriːˈtʃɑːdʒ/",
+        "pos": "v.",
+        "zh": "恢复精力；充电",
+        "example": "Unplug completely at weekends to recharge.",
+        "emoji": "🔌",
+        "cefr": "B2"
+      },
+      {
+        "word": "anticipate",
+        "ipa": "/ænˈtɪsɪpeɪt/",
+        "pos": "v.",
+        "zh": "预期；预料",
+        "example": "Good planners anticipate delays in advance.",
+        "emoji": "🔮",
+        "cefr": "B2"
+      },
+      {
+        "word": "procrastinate",
+        "ipa": "/prəʊˈkræstɪneɪt/",
+        "pos": "v.",
+        "zh": "拖延",
+        "example": "I procrastinate most on tasks that feel vague.",
+        "emoji": "🕐",
+        "cefr": "C1"
+      },
+      {
+        "word": "deadline-driven",
+        "ipa": "/ˈdedlaɪn drɪvn/",
+        "pos": "adj.",
+        "zh": "期限驱动的",
+        "example": "Deadline-driven sprints keep the team focused.",
+        "emoji": "🎯",
+        "cefr": "C1"
+      },
+      {
+        "word": "breathe",
+        "ipa": "/briːð/",
+        "pos": "v.",
+        "zh": "呼吸",
+        "example": "Breathe deeply before answering hostile questions.",
+        "emoji": "🫁",
+        "cefr": "B2"
+      },
+      {
+        "word": "outlook",
+        "ipa": "/ˈaʊtlʊk/",
+        "pos": "n.",
+        "zh": "展望；心态",
+        "example": "A positive outlook correlates with better recovery.",
+        "emoji": "🌅",
+        "cefr": "B2"
+      },
+      {
+        "word": "vent",
+        "ipa": "/vent/",
+        "pos": "v./n.",
+        "zh": "发泄；出气口",
+        "example": "Complaining to vent rarely solves anything.",
+        "emoji": "🫸",
+        "cefr": "C1"
+      },
+      {
+        "word": "pessimism",
+        "ipa": "/ˈpesɪmɪzəm/",
+        "pos": "n.",
+        "zh": "悲观（情绪）",
+        "example": "Economic pessimism spread through the market.",
+        "emoji": "☹️",
+        "cefr": "C1"
+      },
+      {
+        "word": "withdraw",
+        "ipa": "/wɪðˈdrɔː/",
+        "pos": "v.",
+        "zh": "退缩；撤回",
+        "example": "Under pressure he withdrew from friends.",
+        "emoji": "🚪",
+        "cefr": "B2"
+      },
+      {
+        "word": "cortisol",
+        "ipa": "/ˈkɔːtɪsɒl/",
+        "pos": "n.",
+        "zh": "皮质醇",
+        "example": "Chronic stress raises cortisol levels.",
+        "emoji": "🧪",
+        "cefr": "C2"
+      },
+      {
+        "word": "eustress",
+        "ipa": "/juːˈstres/",
+        "pos": "n.",
+        "zh": "良性压力",
+        "example": "A deadline can create healthy eustress.",
+        "emoji": "⚡",
+        "cefr": "C2"
+      },
+      {
+        "word": "biodegradable",
+        "ipa": "/ˌbaɪəʊdɪˈɡreɪdəbl/",
+        "pos": "adj.",
+        "zh": "可生物降解的",
+        "example": "These bags are biodegradable.",
+        "emoji": "♻️",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_health"
+  },
+  {
+    "id": "l5d_consciousness",
+    "title": "意识与状态",
     "emoji": "🌀",
-    "cefr": "C1"
-   },
-   {
-    "word": "drowsy",
-    "ipa": "/ˈdraʊzi/",
-    "pos": "adj.",
-    "zh": "昏昏欲睡的",
-    "example": "Warm rooms make readers drowsy fast.",
-    "emoji": "😴",
-    "cefr": "C1"
-   },
-   {
-    "word": "vivid",
-    "ipa": "/ˈvɪvɪd/",
-    "pos": "adj.",
-    "zh": "生动的；鲜明的",
-    "example": "She recalled the crash in vivid detail.",
-    "emoji": "🎨",
-    "cefr": "B2"
-   },
-   {
-    "word": "nightmare",
-    "ipa": "/ˈnaɪtmeə/",
-    "pos": "n.",
-    "zh": "噩梦",
-    "example": "Stress at work triggers his nightmares.",
-    "emoji": "👻",
-    "cefr": "B2"
-   },
-   {
-    "word": "lucid",
-    "ipa": "/ˈluːsɪd/",
-    "pos": "adj.",
-    "zh": "清醒的；明晰的",
-    "example": "Lucid dreaming lets you steer the plot.",
-    "emoji": "💡",
-    "cefr": "C1"
-   },
-   {
-    "word": "hypnosis",
-    "ipa": "/hɪpˈnəʊsɪs/",
-    "pos": "n.",
-    "zh": "催眠（状态）",
-    "example": "Clinical hypnosis helps some patients quit smoking.",
-    "emoji": "🔮",
-    "cefr": "C1"
-   },
-   {
-    "word": "stimulant",
-    "ipa": "/ˈstɪmjələnt/",
-    "pos": "n.",
-    "zh": "兴奋剂；刺激物",
-    "example": "Coffee is the world's most popular stimulant.",
-    "emoji": "☕",
-    "cefr": "C1"
-   },
-   {
-    "word": "dizzy",
-    "ipa": "/ˈdɪzi/",
-    "pos": "adj.",
-    "zh": "头晕的",
-    "example": "Standing up fast made her dizzy.",
-    "emoji": "💫",
-    "cefr": "B2"
-   },
-   {
-    "word": "paralysis",
-    "ipa": "/pəˈræləsɪs/",
-    "pos": "n.",
-    "zh": "瘫痪；麻痹",
-    "example": "Sleep paralysis fades once breathing steadies.",
-    "emoji": "🛌",
-    "cefr": "C1"
-   },
-   {
-    "word": "sensation",
-    "ipa": "/senˈseɪʃn/",
-    "pos": "n.",
-    "zh": "感觉；知觉",
-    "example": "A tingling sensation spread through her fingers.",
-    "emoji": "🤲",
-    "cefr": "B2"
-   },
-   {
-    "word": "disoriented",
-    "ipa": "/dɪˈsɔːriəntɪd/",
-    "pos": "adj.",
-    "zh": "迷失方向的",
-    "example": "Jet lag left him disoriented for days.",
-    "emoji": "🧭",
-    "cefr": "C1"
-   }
-  ]
- }
+    "words": [
+      {
+        "word": "awaken",
+        "ipa": "/əˈweɪkən/",
+        "pos": "v.",
+        "zh": "唤醒；觉醒",
+        "example": "The documentary awakened public concern.",
+        "emoji": "☀️",
+        "cefr": "C1"
+      },
+      {
+        "word": "trance",
+        "ipa": "/trɑːns/",
+        "pos": "n.",
+        "zh": "恍惚；出神",
+        "example": "Repetitive music can put dancers in a trance.",
+        "emoji": "🌀",
+        "cefr": "C1"
+      },
+      {
+        "word": "drowsy",
+        "ipa": "/ˈdraʊzi/",
+        "pos": "adj.",
+        "zh": "昏昏欲睡的",
+        "example": "Warm rooms make readers drowsy fast.",
+        "emoji": "😴",
+        "cefr": "C1"
+      },
+      {
+        "word": "vivid",
+        "ipa": "/ˈvɪvɪd/",
+        "pos": "adj.",
+        "zh": "生动的；鲜明的",
+        "example": "She recalled the crash in vivid detail.",
+        "emoji": "🎨",
+        "cefr": "B2"
+      },
+      {
+        "word": "nightmare",
+        "ipa": "/ˈnaɪtmeə/",
+        "pos": "n.",
+        "zh": "噩梦",
+        "example": "Stress at work triggers his nightmares.",
+        "emoji": "👻",
+        "cefr": "B2"
+      },
+      {
+        "word": "lucid",
+        "ipa": "/ˈluːsɪd/",
+        "pos": "adj.",
+        "zh": "清醒的；明晰的",
+        "example": "Lucid dreaming lets you steer the plot.",
+        "emoji": "💡",
+        "cefr": "C1"
+      },
+      {
+        "word": "hypnosis",
+        "ipa": "/hɪpˈnəʊsɪs/",
+        "pos": "n.",
+        "zh": "催眠（状态）",
+        "example": "Clinical hypnosis helps some patients quit smoking.",
+        "emoji": "🔮",
+        "cefr": "C1"
+      },
+      {
+        "word": "stimulant",
+        "ipa": "/ˈstɪmjələnt/",
+        "pos": "n.",
+        "zh": "兴奋剂；刺激物",
+        "example": "Coffee is the world's most popular stimulant.",
+        "emoji": "☕",
+        "cefr": "C1"
+      },
+      {
+        "word": "dizzy",
+        "ipa": "/ˈdɪzi/",
+        "pos": "adj.",
+        "zh": "头晕的",
+        "example": "Standing up fast made her dizzy.",
+        "emoji": "💫",
+        "cefr": "B2"
+      },
+      {
+        "word": "paralysis",
+        "ipa": "/pəˈræləsɪs/",
+        "pos": "n.",
+        "zh": "瘫痪；麻痹",
+        "example": "Sleep paralysis fades once breathing steadies.",
+        "emoji": "🛌",
+        "cefr": "C1"
+      },
+      {
+        "word": "sensation",
+        "ipa": "/senˈseɪʃn/",
+        "pos": "n.",
+        "zh": "感觉；知觉",
+        "example": "A tingling sensation spread through her fingers.",
+        "emoji": "🤲",
+        "cefr": "B2"
+      },
+      {
+        "word": "disoriented",
+        "ipa": "/dɪˈsɔːriəntɪd/",
+        "pos": "adj.",
+        "zh": "迷失方向的",
+        "example": "Jet lag left him disoriented for days.",
+        "emoji": "🧭",
+        "cefr": "C1"
+      },
+      {
+        "word": "qualia",
+        "ipa": "/ˈkwɑːliə/",
+        "pos": "n.",
+        "zh": "感受质",
+        "example": "Qualia describe what red feels like.",
+        "emoji": "🌈",
+        "cefr": "C2"
+      },
+      {
+        "word": "awareness",
+        "ipa": "/əˈweənəs/",
+        "pos": "n.",
+        "zh": "意识",
+        "example": "Raising awareness prevents harm.",
+        "emoji": "💡",
+        "cefr": "C2",
+        "level": "C1"
+      },
+      {
+        "word": "forge",
+        "ipa": "/fɔːdʒ/",
+        "pos": "v.",
+        "zh": "锻造",
+        "example": "Workers forge steel in the furnace.",
+        "emoji": "🔨",
+        "cefr": "C1"
+      }
+    ],
+    "extends_from": "l2_verbs"
+  }
 ]
