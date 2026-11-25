@@ -109,7 +109,7 @@
 
 | 能力 | 实现方式 | 说明 |
 |---|---|---|
-| 离线发音 TTS | meSpeak（eSpeak 变体）本地合成（优先）+ Web Speech API 系统语音兜底 | 不依赖系统语音包，弱网/离线可发音；播放失败自动切换系统语音兜底 |
+| 离线发音 TTS | Kokoro-82M 神经网络合成（主）+ Web Speech API 系统语音兜底 | 真人级音质（浏览器端离线 TTS 真人感第 1）；基于 @huggingface/transformers 直连 ONNX 会话；WebGPU+fp16 优先、WASM+q8 回退；模型约 88MB 启动后台预热（同源代理 /api/hf 转发 HF 镜像），Cache API 永久缓存后离线可用；长文本按句流水线合成，首句合成完即出声 |
 | 男女声切换 | f1–f5 女声 / m1–m7 男声变体 | 个人中心可切换并试听，默认女声，偏好本地记忆 |
 | 语速控制 | 0.7x / 1.0x / 1.3x 多档 | 听力、磨耳朵、跟读均支持 |
 | AI 对话陪练 | Pollinations.ai 匿名免费 LLM（OpenAI 兼容，免 Key） | 5 个场景角色，多轮对话，回复自动朗读；限流有友好提示 |
@@ -159,7 +159,7 @@
 | SEO | 语义化标签、meta 描述、Open Graph、每页动态 title |
 | 安全头 | HSTS、严格 CSP（仅放开模型镜像与 CDN）、X-Frame-Options、Referrer-Policy |
 | 缓存策略 | `/assets/*` 长缓存指纹文件，`/data/*` 1 天缓存，HTML 不缓存 |
-| 性能 | 路由级懒加载、manualChunks 分包，mespeak/whisper 独立按需加载 |
+| 性能 | 路由级懒加载、manualChunks 分包，neural-tts（transformers/onnxruntime/phonemizer）/whisper 独立按需加载 |
 | 部署 | Cloudflare Pages（Git 自动部署），自定义域名 + HTTPS |
 | 质量保障 | ESLint 9 flat config；冒烟测试 31 项；E2E 全流程（puppeteer）；同步码单测 33 项 |
 

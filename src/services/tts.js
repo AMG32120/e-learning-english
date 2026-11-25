@@ -1,24 +1,23 @@
 /* ============================================================
-   services/tts.js —— 发音引擎封装（离线优先版）
-   播放优先级：meSpeak 离线合成（程序自含，不依赖系统语音/网络）
+   services/tts.js —— 发音引擎封装（Kokoro 神经音质版）
+   播放优先级：Kokoro-82M 神经网络离线合成（v1.0 ONNX，Apache-2.0）
               → 系统 Web Speech API（speechSynthesis）兜底 → 失败
-   - 离线优先原因：
-     1) 国内环境 Chrome 的 Google 网络语音（如 Google US English）不可达，
-        合成静默失败并以 interrupted 错误收场——既无声也不报错；
-     2) Windows 本地语音多为中文（zh-CN），读英语效果差；
-     3) meSpeak 离线合成行为完全确定，配合 Web Audio 解锁即可稳定出声。
-   - Chrome 系统引擎缺陷 workaround：speak 前 cancel() 清空队列 + resume()，
-     并延迟 150ms 再 speak；utterance 未真正 onstart 就报 interrupted 时
-     视为「播放失败」而非用户停止，以便触发兜底。
+   - Kokoro 是浏览器端可跑的离线神经 TTS 中真人感最强的开源模型
+     （TTS Arena 浏览器可跑榜第 1），按需加载（WebGPU+fp16 约 88MB，
+     回退 WASM+q8），模型/声音文件存入浏览器 Cache API，二次访问免下载。
+   - 国内网络对 huggingface.co 直连不可靠：模块加载时安装 fetch 垫片，
+     将 HF 请求重定向到 hf-mirror.com（模型与声音向量文件均改走镜像）。
+   - 长文本经 kokoro stream() 按句切分，边合成边播放（流水线，首句
+     合成完即出声，不等整段）。
    - speak() 返回 Promise<{ engine, started, voiceName, reason }>
-     engine 取值：offline | system | none
+     engine 取值：kokoro | system | none
+   - 进度事件：模型下载期间派发 window CustomEvent('tts-kokoro')，
+     detail = { phase: 'progress'|'ready'|'error', loaded, total, message }
+     供 UI（如 TtsButton）展示首次加载进度。
    ============================================================ */
 
 let voicesCache = []
 let voicesLoaded = false
-let userStopped = false
-let offlineEnginePromise = null
-
 const VOICE_WAIT_TIMEOUT = 3000   // 语音列表等待上限（毫秒）
 const SPEAK_DELAY_MS = 150        // Chrome 缺陷 workaround 延迟（毫秒）
 const VOICE_POLL_INTERVAL = 100   // 语音列表轮询间隔（毫秒）
@@ -54,15 +53,266 @@ export function setVoiceGender(gender) {
   return voiceGender || DEFAULT_VOICE_GENDER
 }
 
-// meSpeak 性别变体映射（eSpeak voice variants，内置在 mespeak 引擎中）
-// f2：自然女声；m3：清晰男声
-const OFFLINE_VARIANTS = { female: 'f2', male: 'm3' }
+/* Kokoro 音色映射（延续 f2/m3 男女声概念）：
+   女声 Heart（A 级，最自然），男声 Michael（C+ 级中最佳男声） */
+const KOKORO_VOICES = { female: 'af_heart', male: 'am_michael' }
+const KOKORO_VOICE_LABELS = { af_heart: 'Heart 女声', am_michael: 'Michael 男声' }
 
-/* 系统语音的性别启发式识别（按引擎名称猜测，Windows/macOS 常见语音名） */
-const FEMALE_NAME_RE = /female|zira|susan|hazel|samantha|karen|aria|jenny|sonia|eva|anna|kate|victoria|tessa|linda|heather|fiona|moira|tina|serena|allison|ava|nicky|joana|catherine|vicki/i
-const MALE_NAME_RE = /(?<![a-z])male|david|mark(?!us)|daniel|alex|fred|tom|george|ryan|guy|james|oliver|arthur|reed|rocko|grandpa|ralph|mohammad|aaron/i
+function emitKokoroEvent(detail) {
+  try {
+    window.dispatchEvent(new CustomEvent('tts-kokoro', { detail }))
+  } catch { /* ignore */ }
+}
 
-/* ---------- 语音加载可靠性 ---------- */
+/* ---------- HF 镜像垫片（模块加载即安装） ----------
+   兜底用：任何仍直连 huggingface.co 的请求改写到 hf-mirror.com。
+   模型/音色的主路径已走同源代理 /api/hf（见 HF_PROXY_BASE）。 */
+const HF_HOST = 'https://huggingface.co'
+const HF_MIRROR = 'https://hf-mirror.com'
+if (typeof window !== 'undefined' && typeof window.fetch === 'function' && !window.__ttsHfShimInstalled) {
+  const origFetch = window.fetch.bind(window)
+  window.fetch = (input, init) => {
+    const url = typeof input === 'string' ? input : input instanceof URL ? input.href : input && input.url
+    if (typeof url === 'string' && url.startsWith(HF_HOST)) {
+      return origFetch(url.replace(HF_HOST, HF_MIRROR), init)
+    }
+    return origFetch(input, init)
+  }
+  window.__ttsHfShimInstalled = true
+}
+
+/* ---------- Kokoro 引擎（惰性加载，WebGPU 优先） ---------- */
+
+function makeKokoroProgress() {
+  const files = new Map()
+  return (p) => {
+    if (p.status === 'progress' && p.total) {
+      files.set(p.file, { loaded: p.loaded, total: p.total })
+    } else if (p.status === 'done' && p.file) {
+      const f = files.get(p.file)
+      if (f) f.loaded = f.total
+    }
+    let loaded = 0
+    let total = 0
+    for (const f of files.values()) { loaded += f.loaded; total += f.total }
+    if (total > 0) {
+      emitKokoroEvent({
+        phase: 'progress',
+        loaded,
+        total,
+        message: `${(loaded / 1048576).toFixed(1)}MB / ${(total / 1048576).toFixed(1)}MB`,
+      })
+    }
+  }
+}
+
+function webgpuAvailable() {
+  return typeof navigator !== 'undefined' && typeof navigator.gpu !== 'undefined'
+}
+
+/* ---------- Kokoro 直连实现 ----------
+   不用 kokoro-js 的 generate/stream 包装层（实测其对 q8/wasm 返回空
+   waveform，见 2026-11-25 诊断记录），改为基于主站已有
+   @huggingface/transformers 直接驱动 StyleTextToSpeech2 ONNX 会话：
+   phonemize → tokenizer → style 切片 → session.run → waveform。
+   声音向量（voices/*.bin，约 26KB/个）经镜像拉取并 Cache API 持久化。 */
+
+const KOKORO_MODEL = 'onnx-community/Kokoro-82M-v1.0-ONNX'
+/* 同源代理基址：dev 由 vite 中间件、生产由 Cloudflare Pages Function
+   提供 /api/hf/* → hf-mirror.com（回退 huggingface.co）的同源转发，
+   规避镜像站重定向响应缺失跨域头导致的 CORS 失败。 */
+const HF_PROXY_BASE = `${typeof location !== 'undefined' ? location.origin : ''}/api/hf`
+const KOKORO_SR = 24000
+
+let kokoroEnginePromise = null
+
+async function fetchVoiceBin(name) {
+  const url = `${HF_PROXY_BASE}/${KOKORO_MODEL}/resolve/main/voices/${name}.bin`
+  try {
+    const cache = await caches.open('kokoro-voices')
+    const hit = await cache.match(url)
+    if (hit) return new Float32Array(await hit.arrayBuffer())
+  } catch { /* Cache API 不可用时直连 */ }
+  const res = await fetch(url)
+  if (!res.ok) throw new Error(`音色向量下载失败：${name} (${res.status})`)
+  const buf = await res.arrayBuffer()
+  try {
+    const cache = await caches.open('kokoro-voices')
+    await cache.put(url, new Response(buf))
+  } catch { /* ignore */ }
+  return new Float32Array(buf)
+}
+
+/* 句子切分：按终止符切句；超长句再按逗号/分号细分（Kokoro 单次合成
+   上限约 510 phoneme token，控制每段长度以保证韵律与稳定） */
+function splitSentences(text) {
+  const parts = text.match(/[^.!?…。？！\n]+[.!?…。？！]*[\s]*/g) || [text]
+  const out = []
+  for (const p of parts) {
+    const s = p.trim()
+    if (!s) continue
+    if (s.length <= 300) { out.push(s); continue }
+    let buf = ''
+    for (const seg of s.split(/(?<=[,;:、，；：])\s*/)) {
+      if ((buf + seg).length > 280 && buf) { out.push(buf.trim()); buf = seg } else { buf += seg }
+    }
+    if (buf.trim()) out.push(buf.trim())
+  }
+  return out
+}
+
+/* Float32 PCM → 16bit mono WAV Blob（供 Audio 元素播放） */
+function encodeWavBlob(pcm, sampleRate) {
+  const n = pcm.length
+  const buf = new ArrayBuffer(44 + n * 2)
+  const v = new DataView(buf)
+  const str = (off, s) => { for (let i = 0; i < s.length; i++) v.setUint8(off + i, s.charCodeAt(i)) }
+  str(0, 'RIFF')
+  v.setUint32(4, 36 + n * 2, true)
+  str(8, 'WAVE')
+  str(12, 'fmt ')
+  v.setUint32(16, 16, true)
+  v.setUint16(20, 1, true)   // PCM
+  v.setUint16(22, 1, true)   // mono
+  v.setUint32(24, sampleRate, true)
+  v.setUint32(28, sampleRate * 2, true)
+  v.setUint16(32, 2, true)
+  v.setUint16(34, 16, true)
+  str(36, 'data')
+  v.setUint32(40, n * 2, true)
+  for (let i = 0; i < n; i++) {
+    const x = Math.max(-1, Math.min(1, pcm[i]))
+    v.setInt16(44 + i * 2, x < 0 ? x * 0x8000 : x * 0x7fff, true)
+  }
+  return new Blob([buf], { type: 'audio/wav' })
+}
+
+function ensureKokoro() {
+  if (!kokoroEnginePromise) {
+    kokoroEnginePromise = (async () => {
+      const [t, p] = await Promise.all([
+        import('@huggingface/transformers'),
+        import('phonemizer'),
+      ])
+      const { AutoTokenizer, StyleTextToSpeech2Model, Tensor, env } = t
+      const { phonemize } = p
+      // transformers 的模型/分词器文件统一走同源代理（transformers 按
+      // remoteHost + remotePathTemplate 拼接 URL，须带尾斜杠）
+      env.remoteHost = `${HF_PROXY_BASE}/`
+      const progress = makeKokoroProgress()
+      let tokenizer = null
+      let model = null
+      let deviceLabel = ''
+      if (webgpuAvailable()) {
+        try {
+          tokenizer = await AutoTokenizer.from_pretrained(KOKORO_MODEL, { progress_callback: progress })
+          model = await StyleTextToSpeech2Model.from_pretrained(KOKORO_MODEL, {
+            dtype: 'fp16', device: 'webgpu', progress_callback: progress,
+          })
+          deviceLabel = 'WebGPU / fp16'
+        } catch (e) {
+          console.warn('[TTS] Kokoro WebGPU 加载失败，回退 WASM：', e && e.message)
+          tokenizer = null
+          model = null
+        }
+      }
+      if (!model) {
+        tokenizer = await AutoTokenizer.from_pretrained(KOKORO_MODEL, { progress_callback: progress })
+        model = await StyleTextToSpeech2Model.from_pretrained(KOKORO_MODEL, {
+          dtype: 'q8', device: 'wasm', progress_callback: progress,
+        })
+        deviceLabel = 'WASM / q8'
+      }
+      console.info(`[TTS] Kokoro 神经引擎就绪（${deviceLabel}）`)
+      emitKokoroEvent({ phase: 'ready', message: 'Kokoro 就绪' })
+      return { tokenizer, model, Tensor, phonemize, deviceLabel }
+    })().catch((e) => {
+      kokoroEnginePromise = null // 允许下次重试
+      emitKokoroEvent({ phase: 'error', message: (e && e.message) || '加载失败' })
+      throw e
+    })
+  }
+  return kokoroEnginePromise
+}
+
+/* 合成单句 → WAV Blob（内部直接驱动 ONNX 会话，绕开包装层） */
+async function synthSentence(eng, text, voiceName, voiceData, speed) {
+  const phonemes = (await eng.phonemize(text, 'en-us')).join(' ')
+  if (!phonemes.trim()) throw new Error('音素转换结果为空')
+  const { input_ids } = eng.tokenizer(phonemes, { truncation: true })
+  const tokenLen = input_ids.dims.at(-1)
+  const offset = 256 * Math.min(Math.max(tokenLen - 2, 0), 509)
+  const style = new eng.Tensor('float32', voiceData.slice(offset, offset + 256), [1, 256])
+  const spd = new eng.Tensor('float32', [speed], [1])
+  const out = await eng.model({ input_ids, style, speed: spd })
+  const waveform = out && out.waveform
+  const pcm = waveform && waveform.data
+  if (!pcm || !pcm.length) throw new Error('Kokoro 输出音频为空（waveform 缺失）')
+  const flat = pcm.length !== 1 && pcm[0] instanceof Float32Array ? null : pcm
+  return encodeWavBlob(flat || pcm, KOKORO_SR)
+}
+
+/* Kokoro 整段播放：逐句合成入队，首句合成完立即出声 */
+async function playWithKokoro(eng, text, { rate = 0.85, gender, onStart, onEnd }) {
+  const myToken = ++playToken
+  const voiceName = KOKORO_VOICES[gender] || KOKORO_VOICES.female
+  const speed = Math.min(1.4, Math.max(0.6, rate))
+  const voiceData = await fetchVoiceBin(voiceName)
+  if (myToken !== playToken) return { ok: true, started: false, superseded: true }
+
+  const queue = []
+  let producerDone = false
+  let producerErr = null
+  const sentences = splitSentences(text)
+    ; (async () => {
+      try {
+        for (const sentence of sentences) {
+          if (myToken !== playToken) return
+          queue.push(await synthSentence(eng, sentence, voiceName, voiceData, speed))
+        }
+      } catch (e) {
+        producerErr = e
+      }
+      producerDone = true
+    })()
+
+  let started = false
+  for (;;) {
+    if (myToken !== playToken) {
+      if (currentAudio) { try { currentAudio.pause() } catch { /* ignore */ } }
+      if (started) { try { onEnd && onEnd() } catch { /* ignore */ } }
+      return { ok: true, started, superseded: true }
+    }
+    if (!queue.length) {
+      if (producerDone) break
+      await new Promise((r) => setTimeout(r, 60))
+      continue
+    }
+    const blob = queue.shift()
+    if (!started) {
+      started = true
+      try { onStart && onStart() } catch { /* ignore */ }
+    }
+    await playAudioBlob(blob, myToken)
+  }
+  if (producerErr) throw producerErr
+  if (started) {
+    try { onEnd && onEnd() } catch { /* ignore */ }
+    return { ok: true, started: true, superseded: false }
+  }
+  throw new Error('Kokoro 未生成任何音频')
+}
+
+/** 预加载 Kokoro 引擎（可在应用空闲期调用，提前完成首次下载） */
+export function preloadKokoro() {
+  try {
+    return ensureKokoro()
+  } catch (e) {
+    return Promise.reject(e)
+  }
+}
+
+/* ---------- 系统语音（兜底） ---------- */
 
 function refreshVoices() {
   if (typeof window === 'undefined' || !window.speechSynthesis) return []
@@ -84,11 +334,7 @@ function refreshVoices() {
 // 部分浏览器语音列表异步加载：主动监听 voiceschanged + 兜底轮询
 if (typeof window !== 'undefined' && window.speechSynthesis) {
   refreshVoices()
-  window.speechSynthesis.onvoiceschanged = () => {
-    console.info('[TTS] 触发 voiceschanged，重新拉取语音列表')
-    refreshVoices()
-  }
-  // 兜底轮询一次
+  window.speechSynthesis.onvoiceschanged = () => refreshVoices()
   setTimeout(refreshVoices, 300)
 }
 
@@ -127,6 +373,10 @@ export function isTtsSupported() {
   return typeof window !== 'undefined' && 'speechSynthesis' in window
 }
 
+/* 系统语音的性别启发式识别（按引擎名称猜测，Windows/macOS 常见语音名） */
+const FEMALE_NAME_RE = /female|zira|susan|hazel|samantha|karen|aria|jenny|sonia|eva|anna|kate|victoria|tessa|linda|heather|fiona|moira|tina|serena|allison|ava|nicky|joana|catherine|vicki/i
+const MALE_NAME_RE = /(?<![a-z])male|david|mark(?!us)|daniel|alex|fred|tom|george|ryan|guy|james|oliver|arthur|reed|rocko|grandpa|ralph|mohammad|aaron/i
+
 /* 择优选择英语语音（可按性别偏好过滤） */
 export function getEnglishVoice(preferGender) {
   refreshVoices()
@@ -155,129 +405,36 @@ export function getEnglishVoice(preferGender) {
     || candidates.find((v) => lower(v) === 'en-gb' || lower(v) === 'en_gb')
     || candidates.find(isEnOf)
     || candidates.find((v) => /^en/i.test(v.name))
-  if (preferred) {
-    console.info(`[TTS] 英语语音选择：${preferred.name} (${preferred.lang})${gender ? `，性别偏好=${gender}` : ''}`)
-  } else {
-    console.warn('[TTS] 未找到英语语音，可用语音：', voicesCache.map((v) => `${v.name}(${v.lang})`).join(', '))
-  }
   return preferred || null
 }
 
-/* ---------- Web Audio 自动播放策略解锁 ----------
- * 浏览器自动播放策略：AudioContext 若不在用户手势的同步链路内创建/恢复，
- * 会处于 suspended 状态且不报错（source.start() 静默无声）。
- * meSpeak 在异步合成完成后才 new AudioContext()，此时手势激活已失效 → 没有声音。
- * 解法：
- *  1) speak() 入口（点击手势内同步执行）立即创建并 resume 一个「主上下文」
- *  2) 包装 window.AudioContext，让后续所有构造（包括 meSpeak 的）复用主上下文
- */
-let primeAudioCtx = null
-let audioCtxPatched = false
+/* ---------- 播放管理：token 化，支持打断/切换 ---------- */
 
-function ensurePrimeAudio() {
-  if (typeof window === 'undefined') return
-  const AC = window.AudioContext || window.webkitAudioContext
-  if (!AC) return
-  try {
-    if (!primeAudioCtx) primeAudioCtx = new AC()
-  } catch {
-    return
-  }
-  if (primeAudioCtx && primeAudioCtx.state === 'suspended') {
-    primeAudioCtx.resume().catch(() => {})
-  }
-  if (!audioCtxPatched) {
-    audioCtxPatched = true
-    const RealAC = AC
-    const SharedContext = class extends RealAC {
-      constructor(...args) {
-        if (primeAudioCtx) return primeAudioCtx
-        super(...args)
-        primeAudioCtx = this
-        if (this.state === 'suspended') this.resume().catch(() => {})
-        return this
-      }
+let playToken = 0      // 每次 speak() 递增；旧 token 的播放即失效
+let currentAudio = null
+
+function playAudioBlob(blob, myToken) {
+  return new Promise((resolve) => {
+    let done = false
+    const finish = () => {
+      if (done) return
+      done = true
+      if (currentAudio) currentAudio = null
+      resolve()
     }
-    try {
-      window.AudioContext = SharedContext
-      if (window.webkitAudioContext) window.webkitAudioContext = SharedContext
-    } catch {
-      /* 某些环境下属性只读，无法包装，忽略 */
-    }
-  }
-}
-
-/* ---------- meSpeak 离线引擎（惰性加载） ---------- */
-
-async function loadOfflineEngine() {
-  if (!offlineEnginePromise) {
-    offlineEnginePromise = (async () => {
-      try {
-        const [{ default: meSpeak }, { default: config }, { default: enUs }] = await Promise.all([
-          import('mespeak'),
-          import('mespeak/src/mespeak_config.json'),
-          import('mespeak/voices/en/en-us.json'),
-        ])
-        meSpeak.loadConfig(config)
-        meSpeak.loadVoice(enUs)
-        console.info('[TTS] meSpeak 离线引擎就绪（语音 en/en-us）')
-        return meSpeak
-      } catch (e) {
-        console.warn('[TTS] meSpeak 离线引擎加载失败：', e && e.message)
-        offlineEnginePromise = null // 允许下次重试
-        return null
-      }
-    })()
-  }
-  return offlineEnginePromise
-}
-
-async function speakWithOffline(text, { rate = 0.85, gender, onStart, onEnd }) {
-  const ms = await loadOfflineEngine()
-  if (!ms) return false
-  try {
-    const variant = OFFLINE_VARIANTS[gender] || ''
-    const wav = ms.speak(text, {
-      rawdata: 'data-url',
-      voice: 'en/en-us',
-      variant: variant || undefined,
-      amplitude: 80,
-      pitch: 45,
-      speed: Math.round(175 - rate * 40),
-      wordgap: 2
+    const audio = new Audio(URL.createObjectURL(blob))
+    currentAudio = audio
+    // 被新 speak/stopSpeak 打断时（pause 且 token 失效）立即结束
+    audio.addEventListener('pause', () => {
+      if (myToken !== playToken) finish()
     })
-    if (!wav) {
-      console.warn('[TTS] meSpeak 未生成音频流')
-      return false
-    }
-    // 播放前再次确保主上下文处于运行态
-    if (primeAudioCtx && primeAudioCtx.state === 'suspended') {
-      primeAudioCtx.resume().catch(() => {})
-    }
-    const ok = await new Promise((resolve) => {
-      let started = false
-      try {
-        ms.play(wav, 1.0, (success) => {
-          if (started) {
-            try { onEnd && onEnd() } catch { /* ignore */ }
-          }
-          resolve(!!success || userStopped)
-        })
-        started = true
-        try { onStart && onStart() } catch { /* ignore */ }
-      } catch (e) {
-        console.warn('[TTS] meSpeak.play() 异常：', e && e.message)
-        resolve(false)
-      }
-    })
-    return ok
-  } catch (e) {
-    console.warn('[TTS] meSpeak 离线播放失败：', e && e.message)
-    return false
-  }
+    audio.onended = finish
+    audio.onerror = finish
+    audio.play().catch(finish)
+  })
 }
 
-/* ---------- 系统引擎播放 ---------- */
+/* ---------- 系统引擎播放（兜底） ---------- */
 
 function speakWithSystem(text, voice, { rate = 0.85, pitch = 1, onStart, onEnd }) {
   return new Promise((resolve) => {
@@ -298,7 +455,7 @@ function speakWithSystem(text, voice, { rate = 0.85, pitch = 1, onStart, onEnd }
     utter.onend = () => {
       console.info('[TTS] 播放结束')
       try { onEnd && onEnd() } catch { /* ignore */ }
-      _finish(true)
+      finish(true)
     }
     utter.onerror = (e) => {
       const err = e && (e.error || (e instanceof Error ? e.message : ''))
@@ -307,17 +464,17 @@ function speakWithSystem(text, voice, { rate = 0.85, pitch = 1, onStart, onEnd }
           // 已开始后被打断：视为用户主动停止/切换，正常结束
           console.info('[TTS] 播放被用户停止（' + err + '）')
           try { onEnd && onEnd() } catch { /* ignore */ }
-          _finish(true)
+          finish(true)
         } else {
           // 从未开始就被打断（如 Google 网络语音在国内不可达）：
           // 这是「播放失败」，必须返回 false 触发兜底引擎
           console.warn('[TTS] 系统语音未开始即被打断（' + err + '），判定为播放失败：' + voice.name)
-          _finish(false)
+          finish(false)
         }
       } else {
         console.warn('[TTS] 系统引擎播放失败：', err)
         try { onEnd && onEnd() } catch { /* ignore */ }
-        _finish(false)
+        finish(false)
       }
     }
 
@@ -348,32 +505,36 @@ function speakWithSystem(text, voice, { rate = 0.85, pitch = 1, onStart, onEnd }
 /* ---------- 对外主入口 ---------- */
 
 /**
- * 播放文本（自动降级）
+ * 播放文本（自动降级：Kokoro → 系统 → 失败）
  * @param {string} text 要朗读的文本
  * @param {object} opts { rate, pitch, onStart, onEnd, onError }
- * @returns {Promise<{engine: 'system'|'offline'|'none', started: boolean, voiceName: string|null, reason?: string}>}
+ * @returns {Promise<{engine: 'kokoro'|'system'|'none', started: boolean, voiceName: string|null, reason?: string}>}
  */
 export async function speak(text, opts = {}) {
   const t = String(text == null ? '' : text).trim()
   const { rate = 0.85, pitch = 1, gender, onStart, onEnd, onError } = opts
-  userStopped = false
   const genderPref = gender === 'female' || gender === 'male' ? gender : loadVoiceGender()
-
-  // 在用户手势内同步解锁 Web Audio（修复 meSpeak 离线合成无声问题）
-  ensurePrimeAudio()
 
   if (!t) {
     console.warn('[TTS] 播放失败：文本为空')
     return { engine: 'none', started: false, voiceName: null, reason: 'empty' }
   }
 
-  // 1) meSpeak 离线合成（主引擎）：程序自含发音，不依赖系统语音与网络
-  const offlineOk = await speakWithOffline(t, { rate, pitch, gender: genderPref, onStart, onEnd })
-  if (offlineOk) {
-    console.info(`[TTS] 引擎选择=offline，语音=en/en-us${genderPref ? `+${OFFLINE_VARIANTS[genderPref]}` : ''}（meSpeak），结果=成功`)
-    return { engine: 'offline', started: true, voiceName: `meSpeak en/en-us${genderPref ? ` (${genderPref === 'male' ? '男声' : '女声'})` : ''}` }
+  // 1) Kokoro 神经合成（主引擎）：首次调用触发模型下载（进度见 tts-kokoro 事件）
+  try {
+    playToken += 1 // 使上一轮播放失效
+    const eng = await ensureKokoro()
+    const res = await playWithKokoro(eng, t, { rate, gender: genderPref, onStart, onEnd })
+    const vName = KOKORO_VOICE_LABELS[KOKORO_VOICES[genderPref]] || KOKORO_VOICES[genderPref]
+    if (res.ok && !res.superseded) {
+      console.info(`[TTS] 引擎选择=kokoro，音色=${KOKORO_VOICES[genderPref]}，结果=成功`)
+      return { engine: 'kokoro', started: res.started, voiceName: `Kokoro ${vName}` }
+    }
+    // superseded：被新的 speak/stop 打断，视为正常结束
+    return { engine: 'kokoro', started: res.started, voiceName: null, reason: 'superseded' }
+  } catch (e) {
+    console.warn('[TTS] Kokoro 合成不可用，尝试系统语音兜底：', e && e.message)
   }
-  console.warn('[TTS] meSpeak 离线合成不可用，尝试系统语音兜底')
 
   // 2) 系统引擎兜底：等待语音列表就绪（最多 3 秒）并尝试英语语音
   if (isTtsSupported()) {
@@ -394,22 +555,29 @@ export async function speak(text, opts = {}) {
   }
 
   // 3) 彻底失败
-  console.error('[TTS] 播放失败：离线引擎与系统引擎均不可用')
-  try { onError && onError(new Error('TTS unavailable: offline engine failed and no usable system voice')) } catch { /* ignore */ }
+  console.error('[TTS] 播放失败：Kokoro 与系统引擎均不可用')
+  try { onError && onError(new Error('TTS unavailable: kokoro engine failed and no usable system voice')) } catch { /* ignore */ }
   return { engine: 'none', started: false, voiceName: null, reason: 'no_engine' }
 }
 
-/* 停止播放（系统 + 离线） */
+/* 停止播放（使当前 token 失效 + 暂停音频 + 取消系统合成） */
 export function stopSpeak() {
-  userStopped = true
+  playToken += 1
+  if (currentAudio) {
+    try { currentAudio.pause() } catch { /* ignore */ }
+  }
   if (typeof window !== 'undefined' && window.speechSynthesis) {
     try { window.speechSynthesis.cancel() } catch { /* ignore */ }
   }
-  if (offlineEnginePromise) {
-    offlineEnginePromise.then((ms) => {
-      if (ms && ms.stop) {
-        try { ms.stop() } catch { /* ignore */ }
-      }
+}
+
+/* ---------- 空闲预热：应用启动 8 秒后后台预加载 Kokoro ----------
+   首次访问需下载约 88MB（进度见 tts-kokoro 事件，完成后永久缓存）；
+   预热让用户第一次点播放时几乎无需等待。离线/失败静默，speak 时重试。 */
+if (typeof window !== 'undefined') {
+  setTimeout(() => {
+    preloadKokoro().catch((e) => {
+      console.info('[TTS] Kokoro 预热未完成（将在首次播放时重试）：', e && e.message)
     })
-  }
+  }, 8000)
 }

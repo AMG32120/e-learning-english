@@ -8,6 +8,40 @@ export default defineConfig({
   base: './',
   plugins: [
     vue(),
+    /* HF 镜像同源代理（dev）：/api/hf/* → hf-mirror.com（回退 huggingface.co）。
+       服务端跟随 30x 重定向后转发，规避镜像站重定向响应缺少跨域头的问题；
+       生产环境由 functions/api/hf/[[path]].js 提供同一接口。 */
+    {
+      name: 'hf-mirror-proxy',
+      configureServer(server) {
+        server.middlewares.use(async (req, res, next) => {
+          if (!req.url || !req.url.startsWith('/api/hf/')) return next()
+          const path = req.url.slice('/api/hf'.length)
+          const headers = { 'user-agent': 'e-learning-tts-proxy' }
+          if (req.headers.range) headers.range = req.headers.range
+          if (req.headers['if-none-match']) headers['if-none-match'] = req.headers['if-none-match']
+          let r = null
+          for (const base of ['https://hf-mirror.com', 'https://huggingface.co']) {
+            r = await fetch(base + path, { headers, redirect: 'follow' }).catch(() => null)
+            if (r && r.ok) break
+            if (r && r.status === 404) break // 404 说明文件不存在，无需换源
+          }
+          if (!r) {
+            res.statusCode = 502
+            res.end('HF proxy: upstream unreachable')
+            return
+          }
+          res.statusCode = r.status
+          for (const h of ['content-type', 'content-length', 'etag', 'accept-ranges', 'content-range']) {
+            const v = r.headers.get(h)
+            if (v) res.setHeader(h, v)
+          }
+          res.setHeader('cache-control', 'public, max-age=86400')
+          const { Readable } = await import('node:stream')
+          Readable.fromWeb(r.body).pipe(res)
+        })
+      },
+    },
     /* PWA：预缓存构建产物，断网可练、可安装到桌面 */
     VitePWA({
       registerType: 'autoUpdate',
@@ -32,6 +66,10 @@ export default defineConfig({
            改用下方 runtimeCaching 在首次请求后写入 CacheFirst 缓存，
            离线时同样可用。 */
         globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
+        /* kokoro 神经 TTS 引擎独立分包约 2.2MB，上调预缓存单文件上限
+           使其进入 Service Worker 预缓存（离线也能合成；模型本体不走
+           预缓存，由 Cache API 从 HF 镜像拉取后持久化） */
+        maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
         navigateFallback: 'index.html',
         runtimeCaching: [
           {
@@ -64,8 +102,11 @@ export default defineConfig({
            提升并行加载与长期缓存（数据更新不影响框架缓存） */
         manualChunks(id) {
           if (id.includes('node_modules')) {
-            // mespeak 配置/音库由动态 import 按需加载，不并入 vendor
-            if (id.includes('mespeak')) return undefined
+            // 神经 TTS（transformers/onnxruntime/phonemizer）由动态 import
+            // 惰性加载，独立分包不并入 vendor，避免拖慢首屏
+            if (id.includes('onnxruntime') || id.includes('phonemizer') || id.includes('@huggingface')) {
+              return undefined
+            }
             return 'vendor'
           }
           if (id.includes('/src/data/')) return 'data'

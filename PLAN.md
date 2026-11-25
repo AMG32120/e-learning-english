@@ -298,7 +298,7 @@ AIGC:
 | 状态管理 | Pinia（或轻量 composable） | 管理登录态、当前关卡、学习进度等全局状态，配合 localStorage 持久化 |
 | 样式方案 | CSS 变量（设计令牌）+ 响应式布局（Flex/Grid/媒体查询） | 三端适配统一管理；可在组件内 scoped 样式 |
 | 图标 | SVG 内联 / 图标库（轻量） | 保持轻量与清晰 |
-| 发音 | meSpeak 离线合成（优先）+ Web Speech API 系统语音（兜底） | 免后端 TTS；**meSpeak 本地合成优先**（不依赖系统语音包，完全离线可用），播放失败自动切换系统语音，全无则降级提示 |
+| 发音 | Kokoro-82M 神经网络合成（主）+ Web Speech API 系统语音（兜底） | 免后端 TTS；**Kokoro 神经离线合成**（Apache-2.0，WebGPU+fp16 / WASM+q8，模型 Cache API 永久缓存），播放失败自动切换系统语音，全无则降级提示 |
 | 数据存储 | **数据分层**：学习内容数据（词库/对话/语法/听力/阅读）放 `src/data/` 静态代码包；localStorage 仅存账号、登录态、用户信息、学习进度、打卡、徽章 | 内容与用户数据分离，控制 localStorage 容量，便于内容分批更新 |
 | 部署 | 静态托管（GitHub Pages / Vercel / Nginx / 本地直接访问） | Vite 构建产物为纯静态文件 |
 
@@ -333,10 +333,10 @@ AIGC:
 > 以下方案均已在代码中落地并实测通过，与规划的技术选型保持一致。
 
 - **TTS 三层发音引擎**（`src/services/tts.js`）：引擎取值 `offline | system | none`。
-  1. **meSpeak 离线合成（优先）**：惰性加载 `mespeak`（^2.0.2）与内置 en-US 语音配置，生成 WAV data-url 播放，完全离线可用、不依赖系统语音包；
+  1. **Kokoro 神经合成（主引擎，v0.7.1 起）**：基于主站自有的 `@huggingface/transformers`（4.3.2）直接驱动 `StyleTextToSpeech2Model` ONNX 会话（phonemize → tokenizer → style 切片 → session.run，绕开 kokoro-js 包装层——其 generate 对 q8/wasm 实测返回空 waveform）；WebGPU+fp16 优先、WASM+q8 回退；模型约 88MB 首访后台预热下载（进度经 tts-kokoro 事件），存浏览器 Cache API 后离线可用；模型/音色文件经同源代理 `/api/hf/*`（dev=vite 中间件，生产=Cloudflare Pages Function）转发 hf-mirror.com（回退 huggingface.co），服务端跟随重定向规避镜像跨域头缺失问题；长文本按句切分流水线合成，首句合成完即出声；
   2. **系统语音兜底**（Web Speech API `speechSynthesis`）：meSpeak 不可用或播放失败时自动降级，运行时枚举浏览器可用语音，优先 en-US / en-GB，无则取首个可用英语语音；
   3. **双引擎均失败**返回 `none`，界面给出降级提示（不阻断闯关）。
-  - 构建产物含 meSpeak 配置 chunk（约 570KB / gzip 约 296KB），Vite 报 >500kB 提示属预期（离线合成代价，已确认不影响产物可用性）。
+  - 构建产物中神经 TTS（transformers + onnxruntime + phonemizer）独立分包、动态按需加载，不占首屏 vendor 体积；模型本体（约 88MB）不走应用静态资源，由浏览器 Cache API 经 /api/hf 同源代理从 HF 镜像拉取。
 - **路由守卫**（`src/router/index.js`）：全局 `beforeEach`；未登录访问非 public 路由重定向 `/login`（携带 `redirect` 回跳参数）；已登录访问 public 路由重定向 `/map`；路由 `meta.title` 同步 `document.title`。
 - **内容可见性过滤器**：巩固小测、复习池、每日一句、随机测验统一从"已学习 / 已解锁内容池"抽取（只出不超前、不引入未学内容），与闯关解锁共用同一数据源；关卡解锁阈值 `LEVEL_UNLOCK_RATIO = 0.8`（`src/data/levels.js`）。
 
