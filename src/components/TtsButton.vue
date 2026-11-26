@@ -17,7 +17,7 @@
 
 <script setup>
 import { ref, watch, onMounted, onBeforeUnmount } from 'vue'
-import { speak, stopSpeak } from '../services/tts'
+import { speak, stopSpeak, queueKokoroPrefetch } from '../services/tts'
 
 const props = defineProps({
   text: { type: String, required: true },
@@ -46,7 +46,12 @@ function onKokoroEvent(e) {
   }
 }
 
-onMounted(() => window.addEventListener('tts-kokoro', onKokoroEvent))
+onMounted(() => {
+  window.addEventListener('tts-kokoro', onKokoroEvent)
+  // 课程页面渲染出按钮后，把文本加入后台预合成队列：
+  // 空闲时提前合成入缓存，用户点播放直接秒出（弱设备首次合成需数秒）
+  queueKokoroPrefetch([{ text: props.text, rate: props.rate }])
+})
 onBeforeUnmount(() => window.removeEventListener('tts-kokoro', onKokoroEvent))
 
 async function play() {
@@ -69,9 +74,10 @@ async function play() {
 
 watch(
   () => props.text,
-  () => {
+  (t) => {
     stopSpeak()
     playing.value = false
+    if (t) queueKokoroPrefetch([{ text: t, rate: props.rate }])
   }
 )
 

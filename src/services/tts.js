@@ -321,9 +321,13 @@ function ensureKokoro() {
   return kokoroEnginePromise
 }
 
-/* 合成单句 → WAV Blob（内部直接驱动 ONNX 会话，绕开包装层） */
+/* 合成单句 → WAV Blob（内部直接驱动 ONNX 会话，绕开包装层）。
+   附带分段计时日志（音素转换 / 模型推理 / 总耗时），便于诊断
+   "合成慢"发生在哪一环（弱 GPU 的 WebGPU/q8 推理可达数秒~十几秒）。 */
 async function synthSentence(eng, text, voiceName, voiceData, speed) {
+  const t0 = performance.now()
   const phonemes = (await eng.phonemize(text, 'en-us')).join(' ')
+  const t1 = performance.now()
   if (!phonemes.trim()) throw new Error('音素转换结果为空')
   const { input_ids } = eng.tokenizer(phonemes, { truncation: true })
   const tokenLen = input_ids.dims.at(-1)
@@ -331,11 +335,24 @@ async function synthSentence(eng, text, voiceName, voiceData, speed) {
   const style = new eng.Tensor('float32', voiceData.slice(offset, offset + 256), [1, 256])
   const spd = new eng.Tensor('float32', [speed], [1])
   const out = await eng.model({ input_ids, style, speed: spd })
+  const t2 = performance.now()
   const waveform = out && out.waveform
   const pcm = waveform && waveform.data
   if (!pcm || !pcm.length) throw new Error('Kokoro 输出音频为空（waveform 缺失）')
   const flat = pcm.length !== 1 && pcm[0] instanceof Float32Array ? null : pcm
-  return encodeWavBlob(flat || pcm, KOKORO_SR)
+  const blob = encodeWavBlob(flat || pcm, KOKORO_SR)
+  const t3 = performance.now()
+  console.info(
+    `[TTS] 合成"${text.slice(0, 20)}"：音素 ${Math.round(t1 - t0)}ms，推理 ${Math.round(t2 - t1)}ms，编码 ${Math.round(t3 - t2)}ms，总计 ${Math.round(t3 - t0)}ms（${eng.deviceLabel}）`
+  )
+  return blob
+}
+
+/* 语速量化到 0.05 步长：不同页面 0.8/0.82/0.85 这类细微差别在听感上
+   几乎无差异，量化后可共用同一份音频缓存，提高预合成命中率 */
+function quantizeSpeed(rate) {
+  const r = Math.min(1.4, Math.max(0.6, Number(rate) || 0.85))
+  return Math.round(r / 0.05) * 0.05
 }
 
 /* 合成结果缓存：同一 (音色, 语速, 文本) 的 WAV 永久存 Cache API。
@@ -356,28 +373,39 @@ async function synthCached(eng, text, voiceName, voiceData, speed) {
 }
 
 /* Kokoro 整段播放：逐句合成入队，首句合成完立即出声 */
+let playingActive = false   // 是否正在进行 Kokoro 播放（预合成让路判断用）
+
 async function playWithKokoro(eng, text, { rate = 0.85, gender, onStart, onEnd }) {
   const myToken = ++playToken
   const voiceName = KOKORO_VOICES[gender] || KOKORO_VOICES.female
-  const speed = Math.min(1.4, Math.max(0.6, rate))
+  const speed = quantizeSpeed(rate)
   const voiceData = await fetchVoiceBin(voiceName)
   if (myToken !== playToken) return { ok: true, started: false, superseded: true }
+  playingActive = true
+  try {
+    return await kokoroPlaybackLoop(eng, myToken, splitSentences(text), { voiceName, speed, voiceData, onStart, onEnd })
+  } finally {
+    playingActive = false
+  }
+}
 
+/* 播放主循环（拆出来便于 playWithKokoro 统一管理 playingActive） */
+
+async function kokoroPlaybackLoop(eng, myToken, sentences, { voiceName, speed, voiceData, onStart, onEnd }) {
   const queue = []
   let producerDone = false
   let producerErr = null
-  const sentences = splitSentences(text)
-    ; (async () => {
-      try {
-        for (const sentence of sentences) {
-          if (myToken !== playToken) return
-          queue.push(await synthCached(eng, sentence, voiceName, voiceData, speed))
-        }
-      } catch (e) {
-        producerErr = e
+  ; (async () => {
+    try {
+      for (const sentence of sentences) {
+        if (myToken !== playToken) return
+        queue.push(await synthCached(eng, sentence, voiceName, voiceData, speed))
       }
-      producerDone = true
-    })()
+    } catch (e) {
+      producerErr = e
+    }
+    producerDone = true
+  })()
 
   let started = false
   for (;;) {
@@ -404,6 +432,80 @@ async function playWithKokoro(eng, text, { rate = 0.85, gender, onStart, onEnd }
     return { ok: true, started: true, superseded: false }
   }
   throw new Error('Kokoro 未生成任何音频')
+}
+
+/* ---------- 后台预合成队列 ----------
+   学习页渲染出单词/例句后，空闲时把尚未合成的文本提前合成入缓存，
+   用户点播放时直接命中缓存秒出（弱设备上首次合成需数秒~十几秒，
+   预合成把这些等待转移到用户点播放之前）。
+   安全约束：
+   - 仅当模型已缓存时才工作，绝不因预取触发 88MB 下载
+   - 用户播放时自动让路（合成抢 GPU 会拖慢当前播放）
+   - 每条之间歇 300ms，不持续占满 GPU；失败静默忽略 */
+const PREFETCH_DELAY_MS = 2500   // 入队后延迟启动（等课程渲染稳定）
+const PREFETCH_GAP_MS = 300      // 两条预合成之间的间隔
+
+const prefetchQueue = []
+const prefetchSeen = new Set()
+let prefetchTimer = null
+let prefetchRunning = false
+
+function sleep(ms) { return new Promise((r) => setTimeout(r, ms)) }
+
+/**
+ * 把文本加入后台预合成队列
+ * @param {Array<{text: string, rate?: number, gender?: 'female'|'male'}>|object} items
+ */
+export function queueKokoroPrefetch(items) {
+  if (!Array.isArray(items)) items = [items]
+  let added = false
+  for (const it of items) {
+    const text = String((it && it.text) || '').trim()
+    if (!text || text.length > 300) continue
+    const rate = quantizeSpeed(it && it.rate)
+    const gender = it && it.gender === 'male' ? 'male' : 'female'
+    const key = `${gender}|${rate}|${text}`
+    if (prefetchSeen.has(key)) continue
+    prefetchSeen.add(key)
+    prefetchQueue.push({ text, rate, gender, key })
+    added = true
+  }
+  if (added && !prefetchTimer && !prefetchRunning) {
+    prefetchTimer = setTimeout(runPrefetch, PREFETCH_DELAY_MS)
+  }
+}
+
+async function runPrefetch() {
+  prefetchTimer = null
+  if (prefetchRunning || !prefetchQueue.length) return
+  if (isModelSkipped()) { prefetchQueue.length = 0; return }
+  /* 模型未缓存时清空队列直接返回：预合成绝不触发大文件下载 */
+  try {
+    if (!(await isKokoroModelCached())) { prefetchQueue.length = 0; return }
+  } catch { return }
+  prefetchRunning = true
+  try {
+    while (prefetchQueue.length) {
+      /* 正在播放时让路：合成与播放抢 GPU 会导致当前播放卡顿 */
+      while (playingActive) await sleep(500)
+      const item = prefetchQueue.shift()
+      try {
+        const eng = await ensureKokoro()
+        const voiceName = KOKORO_VOICES[item.gender]
+        const voiceData = await fetchVoiceBin(voiceName)
+        await synthCached(eng, item.text, voiceName, voiceData, item.rate)
+      } catch (e) {
+        console.warn('[TTS] 预合成失败（忽略，点播放时会重试）：', item.text.slice(0, 30), e && e.message)
+      }
+      await sleep(PREFETCH_GAP_MS)
+    }
+  } finally {
+    prefetchRunning = false
+    /* 循环期间又入队了新文本（如让路等待时用户翻页），继续消化 */
+    if (prefetchQueue.length) {
+      prefetchTimer = setTimeout(runPrefetch, PREFETCH_DELAY_MS)
+    }
+  }
 }
 
 /** 预加载 Kokoro 引擎（可在应用空闲期调用，提前完成首次下载） */
