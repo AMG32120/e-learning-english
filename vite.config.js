@@ -15,9 +15,38 @@ export default defineConfig({
       name: 'hf-mirror-proxy',
       configureServer(server) {
         server.middlewares.use(async (req, res, next) => {
-          if (!req.url || !req.url.startsWith('/api/hf/')) return next()
+          if (!req.url) return next()
+          /* /api/ort/*：ONNX 运行时（ort-wasm-simd-threaded.asyncify
+             mjs/wasm）同源代理。transformers.js 默认从 jsdelivr CDN 加载，
+             国内直连不稳定且不走 Cache API；改为同源代理 + SW CacheFirst。 */
+          if (req.url.startsWith('/api/ort/')) {
+            const ORT_VERSION = '1.31.0-dev.20260914-8d85527a0'
+            const file = req.url.slice('/api/ort/'.length).split('?')[0]
+            const r = await fetch(
+              `https://cdn.jsdelivr.net/npm/onnxruntime-web@${ORT_VERSION}/dist/${file}`,
+              { redirect: 'follow', headers: { 'accept-encoding': 'identity' } }
+            ).catch(() => null)
+            if (!r || !r.ok) {
+              res.statusCode = r ? r.status : 502
+              res.end('ORT proxy: upstream unreachable')
+              return
+            }
+            res.statusCode = r.status
+            for (const h of ['content-type', 'accept-ranges', 'content-range']) {
+              const v = r.headers.get(h)
+              if (v) res.setHeader(h, v)
+            }
+            /* 不转发 content-length：上游若返回压缩体而运行时已自动解压，
+               声明的压缩长度会令浏览器提前截断（曾致 wasm 截断为 4.7MB）。
+               改用 chunked 让浏览器按实际流接收。 */
+            res.setHeader('cache-control', 'public, max-age=31536000, immutable')
+            const { Readable } = await import('node:stream')
+            Readable.fromWeb(r.body).pipe(res)
+            return
+          }
+          if (!req.url.startsWith('/api/hf/')) return next()
           const path = req.url.slice('/api/hf'.length)
-          const headers = { 'user-agent': 'e-learning-tts-proxy' }
+          const headers = { 'user-agent': 'e-learning-tts-proxy', 'accept-encoding': 'identity' }
           if (req.headers.range) headers.range = req.headers.range
           if (req.headers['if-none-match']) headers['if-none-match'] = req.headers['if-none-match']
           let r = null
@@ -32,7 +61,8 @@ export default defineConfig({
             return
           }
           res.statusCode = r.status
-          for (const h of ['content-type', 'content-length', 'etag', 'accept-ranges', 'content-range']) {
+          /* 同 /api/ort：不转发 content-length，防止压缩/解压长度错位截断 */
+          for (const h of ['content-type', 'etag', 'accept-ranges', 'content-range']) {
             const v = r.headers.get(h)
             if (v) res.setHeader(h, v)
           }
@@ -81,10 +111,19 @@ export default defineConfig({
             }
           },
           {
-            /* ONNX 运行时 wasm/胶水 mjs：transformers.js 默认从
-               jsdelivr CDN 加载（dist 内不打包该文件，见
-               scripts/prune-dist.cjs）。CacheFirst 保证首次联网加载后
-               离线可用（Kokoro / Whisper 依赖）。 */
+            /* ONNX 运行时 wasm/胶水 mjs：经同源 /api/ort 代理（生产为
+               Worker，dev 为中间件），服务端从 jsdelivr 拉取后转发。
+               CacheFirst（运行时缓存无单文件大小限制，26MB wasm 可入），
+               首次联网加载后离线可用、重复访问不再下载。 */
+            urlPattern: /\/api\/ort\//,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'ort-runtime',
+              expiration: { maxEntries: 10, maxAgeSeconds: 60 * 60 * 24 * 90 }
+            }
+          },
+          {
+            /* jsdelivr CDN 直连兜底（历史遗留路径） */
             urlPattern: /^https:\/\/cdn\.jsdelivr\.net\//,
             handler: 'CacheFirst',
             options: {

@@ -7,10 +7,36 @@
 
 const UPSTREAMS = ['https://hf-mirror.com', 'https://huggingface.co']
 const PROXY_PREFIX = '/api/hf/'
+/* ONNX 运行时文件（transformers 4.3.2 内置版本）：
+   默认由浏览器直连 jsdelivr CDN，国内不稳定；改经同源代理，
+   浏览器侧再由 SW CacheFirst 持久化。 */
+const ORT_PREFIX = '/api/ort/'
+const ORT_VERSION = '1.31.0-dev.20260914-8d85527a0'
+
+async function proxyOrt(url) {
+  const file = url.pathname.slice(ORT_PREFIX.length)
+  const r = await fetch(
+    `https://cdn.jsdelivr.net/npm/onnxruntime-web@${ORT_VERSION}/dist/${file}`,
+    { redirect: 'follow', headers: { 'accept-encoding': 'identity' } }
+  ).catch(() => null)
+  if (!r || !r.ok) {
+    return new Response('ORT proxy: upstream unreachable', { status: r ? r.status : 502 })
+  }
+  const out = new Headers()
+  /* 不转发 content-length：上游压缩体被运行时解压后长度会错位，
+     声明压缩长度会令浏览器提前截断（wasm 截断 → Unexpected end of
+     input）。去掉后以 chunked 按实际流传输。 */
+  for (const h of ['content-type', 'accept-ranges', 'content-range']) {
+    const v = r.headers.get(h)
+    if (v) out.set(h, v)
+  }
+  out.set('cache-control', 'public, max-age=31536000, immutable')
+  return new Response(r.body, { status: r.status, headers: out })
+}
 
 async function proxyHf(request, url) {
   const path = url.pathname.slice(PROXY_PREFIX.length)
-  const headers = { 'user-agent': 'e-learning-tts-proxy' }
+  const headers = { 'user-agent': 'e-learning-tts-proxy', 'accept-encoding': 'identity' }
   const range = request.headers.get('range')
   if (range) headers.range = range
   const inm = request.headers.get('if-none-match')
@@ -30,7 +56,8 @@ async function proxyHf(request, url) {
     return new Response('HF proxy: upstream unreachable', { status: 502 })
   }
   const out = new Headers()
-  for (const h of ['content-type', 'content-length', 'etag', 'accept-ranges', 'content-range']) {
+  /* 不转发 content-length（同 proxyOrt 的压缩/解压错位截断问题） */
+  for (const h of ['content-type', 'etag', 'accept-ranges', 'content-range']) {
     const v = r.headers.get(h)
     if (v) out.set(h, v)
   }
@@ -43,6 +70,9 @@ export default {
     const url = new URL(request.url)
     if (url.pathname.startsWith(PROXY_PREFIX)) {
       return proxyHf(request, url)
+    }
+    if (url.pathname.startsWith(ORT_PREFIX)) {
+      return proxyOrt(url)
     }
     return env.ASSETS.fetch(request)
   },

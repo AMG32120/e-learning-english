@@ -158,15 +158,15 @@ function webgpuAvailable() {
   return typeof navigator !== 'undefined' && typeof navigator.gpu !== 'undefined'
 }
 
-/* WebGPU 真实可用性：navigator.gpu 存在不代表能拿到适配器（如浏览器
-   GPU 加速被禁用、驱动黑名单等），必须 requestAdapter 实测，否则
-   from_pretrained(webgpu) 中途失败静默掉进慢速 WASM 模式。 */
+/* WebGPU 适配器探测：navigator.gpu 存在不代表能拿到适配器（如浏览器
+   GPU 加速被禁用、驱动黑名单等），必须 requestAdapter 实测；返回适配器
+   或 null（供后续按 shader-f16 特性决定 fp16 是否可用）。 */
 async function webgpuAdapterReady() {
-  if (!webgpuAvailable()) return false
+  if (!webgpuAvailable()) return null
   try {
-    return !!(await navigator.gpu.requestAdapter())
+    return await navigator.gpu.requestAdapter()
   } catch {
-    return false
+    return null
   }
 }
 
@@ -178,10 +178,14 @@ async function webgpuAdapterReady() {
    声音向量（voices/*.bin，约 26KB/个）经镜像拉取并 Cache API 持久化。 */
 
 const KOKORO_MODEL = 'onnx-community/Kokoro-82M-v1.0-ONNX'
-/* 同源代理基址：dev 由 vite 中间件、生产由 Cloudflare Pages Function
+/* 同源代理基址：dev 由 vite 中间件、生产由 Cloudflare Worker
    提供 /api/hf/* → hf-mirror.com（回退 huggingface.co）的同源转发，
    规避镜像站重定向响应缺失跨域头导致的 CORS 失败。 */
 const HF_PROXY_BASE = `${typeof location !== 'undefined' ? location.origin : ''}/api/hf`
+/* ONNX 运行时同样走同源代理：transformers 4.3.2 默认让浏览器直连
+   jsdelivr CDN 拉 ort-wasm-simd-threaded.asyncify mjs/wasm（约 26MB），
+   国内直连不稳定且失败会静默掉进不可用状态。 */
+const ORT_VERSION = '1.31.0-dev.20260914-8d85527a0'
 const KOKORO_SR = 24000
 
 let kokoroEnginePromise = null
@@ -259,30 +263,41 @@ function ensureKokoro() {
       // transformers 的模型/分词器文件统一走同源代理（transformers 按
       // remoteHost + remotePathTemplate 拼接 URL，须带尾斜杠）
       env.remoteHost = `${HF_PROXY_BASE}/`
+      // ONNX 运行时（胶水 mjs + wasm）也改走同源代理，不再直连 jsdelivr
+      if (env.backends && env.backends.onnx && env.backends.onnx.wasm) {
+        env.backends.onnx.wasm.wasmPaths = {
+          mjs: `/api/ort/ort-wasm-simd-threaded.asyncify.mjs?v=${ORT_VERSION}`,
+          wasm: `/api/ort/ort-wasm-simd-threaded.asyncify.wasm?v=${ORT_VERSION}`,
+        }
+      }
       const progress = makeKokoroProgress()
-      let tokenizer = null
+      const adapter = await webgpuAdapterReady()
+      const hasF16 = !!(adapter && adapter.features && adapter.features.has('shader-f16'))
+      /* 设备降级链：fp16+WebGPU（最快）→ q8+WebGPU（真 GPU 但不支持
+         fp16，如部分核显/软件适配器）→ q8+WASM（纯 CPU，较慢）。
+         每次失败记日志并继续降级，绝不静默卡死。 */
+      const candidates = [
+        adapter && hasF16 ? { dtype: 'fp16', device: 'webgpu', label: 'WebGPU / fp16' } : null,
+        adapter ? { dtype: 'q8', device: 'webgpu', label: 'WebGPU / q8' } : null,
+        { dtype: 'q8', device: 'wasm', label: 'WASM / q8' },
+      ].filter(Boolean)
+      const tokenizer = await AutoTokenizer.from_pretrained(KOKORO_MODEL, { progress_callback: progress })
       let model = null
       let deviceLabel = ''
-      if (await webgpuAdapterReady()) {
+      for (const c of candidates) {
         try {
-          tokenizer = await AutoTokenizer.from_pretrained(KOKORO_MODEL, { progress_callback: progress })
           model = await StyleTextToSpeech2Model.from_pretrained(KOKORO_MODEL, {
-            dtype: 'fp16', device: 'webgpu', progress_callback: progress,
+            ...c,
+            progress_callback: progress,
           })
-          deviceLabel = 'WebGPU / fp16'
+          deviceLabel = c.label
+          break
         } catch (e) {
-          console.warn('[TTS] Kokoro WebGPU 加载失败，回退 WASM：', e && e.message)
-          tokenizer = null
+          console.warn(`[TTS] Kokoro ${c.label} 加载失败，尝试下一档：`, e && e.message)
           model = null
         }
       }
-      if (!model) {
-        tokenizer = await AutoTokenizer.from_pretrained(KOKORO_MODEL, { progress_callback: progress })
-        model = await StyleTextToSpeech2Model.from_pretrained(KOKORO_MODEL, {
-          dtype: 'q8', device: 'wasm', progress_callback: progress,
-        })
-        deviceLabel = 'WASM / q8'
-      }
+      if (!model) throw new Error('所有设备档位（WebGPU fp16/q8、WASM q8）均加载失败')
       console.info(`[TTS] Kokoro 神经引擎就绪（${deviceLabel}），开始首次合成预热…`)
       emitKokoroEvent({ phase: 'warming', message: '首次合成预热中…', device: deviceLabel })
       /* 首次推理预热：ORT 首次会话编译（尤其 WebGPU 管线）耗时 20~60 秒，
