@@ -42,7 +42,7 @@
             autocomplete="new-password"
           />
         </div>
-        <div class="form-error">{{ error }}</div>
+        <div v-if="error" class="form-error">{{ error }}</div>
         <button class="btn btn-primary btn-block" type="submit" :disabled="loading">
           {{ loading ? '注册中…' : '注册并开始学习' }}
         </button>

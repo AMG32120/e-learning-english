@@ -29,7 +29,7 @@
             autocomplete="current-password"
           />
         </div>
-        <div class="form-error">{{ error }}</div>
+        <div v-if="error" class="form-error">{{ error }}</div>
         <button class="btn btn-primary btn-block" type="submit" :disabled="loading">
           {{ loading ? '登录中…' : '登录' }}
         </button>
@@ -55,7 +55,7 @@
           <label class="form-label" for="reset-pwd2">确认新密码</label>
           <input id="reset-pwd2" v-model="resetPassword2" class="form-input" type="password" placeholder="再次输入新密码" />
         </div>
-        <div class="form-error">{{ error }}</div>
+        <div v-if="error" class="form-error">{{ error }}</div>
         <button class="btn btn-primary btn-block" type="submit" :disabled="loading">
           {{ loading ? '处理中…' : '重置密码' }}
         </button>
@@ -68,7 +68,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useAuthStore } from '../stores/auth'
 import { useProgressStore } from '../stores/progress'
@@ -86,6 +86,12 @@ const resetPassword = ref('')
 const resetPassword2 = ref('')
 const error = ref('')
 const loading = ref(false)
+
+// 切换 登录/忘记密码 视图时清空上一步遗留的错误提示与加载态
+watch(mode, () => {
+  error.value = ''
+  loading.value = false
+})
 
 async function doLogin() {
   error.value = ''
