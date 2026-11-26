@@ -47,7 +47,7 @@
     <!-- 发音声音：男声 / 女声 -->
     <div class="card profile-voice">
       <h2 class="card-title">发音声音</h2>
-      <p class="data-tip">切换单词与例句的朗读声（内置离线发音，无需联网），点击后立即生效并试听。</p>
+      <p class="data-tip">切换单词与例句的朗读声，点击后立即生效并试听。</p>
       <div class="voice-grid">
         <button
           v-for="g in VOICE_OPTIONS"
@@ -58,11 +58,32 @@
         >
           <div class="voice-icon">{{ g.value === 'male' ? '👨' : '👩' }}</div>
           <div class="voice-name">{{ g.label }}</div>
-          <div class="voice-desc">{{ g.desc }}</div>
+          <div class="voice-desc">{{ g.value === 'male' ? '沉稳标准男声' : '清晰自然女声' }}</div>
         </button>
       </div>
+      <p v-if="maleMissingTip" class="voice-hint">⚠️ 本机未安装男声英语语音，切换后仍会使用女声。下载下方的真人发音引擎后即可使用男声。</p>
       <button class="btn btn-soft preview-btn" :disabled="previewing" @click="previewVoice">
         {{ previewing ? '播放中…' : '🔊 试听当前声音' }}
+      </button>
+    </div>
+
+    <!-- 真人发音引擎（Kokoro）：下载状态与入口 -->
+    <div class="card profile-engine">
+      <h2 class="card-title">真人发音引擎</h2>
+      <p class="data-tip">神经网络合成（Kokoro-82M），真人级音质、支持男女声，仅首次需下载约 88MB，之后离线可用。未下载时使用系统发音（音质因设备而异）。</p>
+      <div class="engine-status">
+        <template v-if="engineState === 'ready'">✅ 已下载并启用</template>
+        <template v-else-if="engineState === 'downloading'">⏳ 下载中（{{ engineMsg }}）</template>
+        <template v-else-if="engineState === 'error'">❌ 下载失败：{{ engineMsg }}</template>
+        <template v-else>⬇️ 未下载</template>
+      </div>
+      <button
+        v-if="engineState !== 'ready' && engineState !== 'downloading'"
+        class="btn btn-primary btn-block"
+        :disabled="engineBusy"
+        @click="downloadEngine"
+      >
+        {{ engineState === 'error' ? '重试下载' : '下载真人发音引擎（约 88MB）' }}
       </button>
     </div>
 
@@ -123,13 +144,23 @@
 </template>
 
 <script setup>
-import { computed, ref } from 'vue'
+import { computed, onBeforeUnmount, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { useAuthStore } from '../stores/auth'
 import { useProgressStore } from '../stores/progress'
 import { useThemeStore, THEMES } from '../stores/theme'
 import { exportUserDataJson, importUserData } from '../services/storage'
-import { speak, stopSpeak, getVoiceGender, setVoiceGender } from '../services/tts'
+import {
+  speak,
+  stopSpeak,
+  getVoiceGender,
+  setVoiceGender,
+  isKokoroModelCached,
+  preloadKokoro,
+  setModelSkipped,
+  hasSystemMaleVoice,
+  waitForVoices,
+} from '../services/tts'
 
 const router = useRouter()
 const auth = useAuthStore()
@@ -192,6 +223,11 @@ function chooseGoal(n) {
 
 function chooseVoice(gender) {
   currentGender.value = setVoiceGender(gender)
+  if (gender === 'male') {
+    maleMissingTip.value = !hasSystemMaleVoice()
+  } else {
+    maleMissingTip.value = false
+  }
   previewVoice()
 }
 
@@ -208,6 +244,65 @@ async function previewVoice() {
     previewing.value = false
   }
 }
+
+/* ---------- 真人发音引擎状态与下载入口 ---------- */
+
+const engineState = ref('checking') // checking | ready | missing | downloading | error
+const engineMsg = ref('')
+const engineBusy = ref(false)
+const maleMissingTip = ref(false)
+
+function onKokoroEvent(e) {
+  const d = e.detail || {}
+  if (d.phase === 'progress') {
+    engineState.value = 'downloading'
+    engineMsg.value = d.message || '下载中…'
+  } else if (d.phase === 'ready') {
+    engineState.value = 'ready'
+    engineMsg.value = ''
+  } else if (d.phase === 'error') {
+    engineState.value = 'error'
+    engineMsg.value = d.message || '下载失败'
+  }
+}
+
+async function initEngineStatus() {
+  window.addEventListener('tts-kokoro', onKokoroEvent)
+  const cached = await isKokoroModelCached().catch(() => false)
+  if (cached) {
+    engineState.value = 'ready'
+    setModelSkipped(false) // 模型已在缓存中，历史跳过标记失效
+  } else {
+    engineState.value = 'missing'
+  }
+  /* 男声可用性：等系统语音列表就绪后检测（仅系统语音参与） */
+  try {
+    await waitForVoices(3000)
+    if (currentGender.value === 'male' && !hasSystemMaleVoice()) {
+      maleMissingTip.value = true
+    }
+  } catch { /* ignore */ }
+}
+
+async function downloadEngine() {
+  engineBusy.value = true
+  engineMsg.value = '准备中…'
+  engineState.value = 'downloading'
+  try {
+    await preloadKokoro()
+    engineState.value = 'ready'
+  } catch (e) {
+    engineState.value = 'error'
+    engineMsg.value = (e && e.message) || '下载失败'
+  }
+  engineBusy.value = false
+}
+
+onBeforeUnmount(() => {
+  window.removeEventListener('tts-kokoro', onKokoroEvent)
+})
+
+initEngineStatus()
 
 /* 导出用户进度：下载 JSON 备份文件 */
 function doExport() {
@@ -377,6 +472,34 @@ function doLogout() {
 
 .preview-btn {
   margin-top: var(--space-sm);
+}
+
+.voice-hint {
+  margin-top: var(--space-sm);
+  font-size: 12px;
+  line-height: 1.6;
+  color: #8a5a00;
+  background: #fff6e5;
+  border: 1px solid #f0c674;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+[data-theme='night'] .voice-hint {
+  color: #ffd98a;
+  background: #3a2f14;
+  border-color: #6b5a2a;
+}
+
+.engine-status {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--c-text-primary);
+  background: var(--c-bg-soft);
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: var(--space-sm);
+  font-variant-numeric: tabular-nums;
 }
 
 .data-tip {

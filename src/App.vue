@@ -1,5 +1,8 @@
 <template>
   <div class="app-shell">
+    <!-- 首次资源准备引导（词库 + 真人发音引擎），完成后自动消失 -->
+    <BootGate />
+
     <TopNav v-if="auth.isLoggedIn" />
     <main class="app-main">
       <router-view />
@@ -25,6 +28,7 @@ import { onMounted, onBeforeUnmount, ref } from 'vue'
 import TopNav from './components/TopNav.vue'
 import BottomTab from './components/BottomTab.vue'
 import RestReminder from './components/RestReminder.vue'
+import BootGate from './components/BootGate.vue'
 import { useAuthStore } from './stores/auth'
 import { useThemeStore } from './stores/theme'
 import { useProgressStore } from './stores/progress'

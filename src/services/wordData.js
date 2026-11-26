@@ -68,6 +68,29 @@ const WORD_DATA_FILES = [
 
 const RETRY_DELAYS = [0, 600, 2000] // 首次 + 两次重试的等待毫秒数
 
+/* ---------- 加载进度（供首次准备页 BootGate 展示） ---------- */
+
+const progressState = { loaded: 0, total: WORD_DATA_FILES.length }
+
+/** 当前词库加载进度快照 { loaded, total }（loaded 为已处理完的文件数） */
+export function getWordDataProgress() {
+  return { ...progressState }
+}
+
+/** 词库是否已加载就绪（同步 getter 可安全使用的充分条件） */
+export function isWordDataReady() {
+  return !!isLoaded()
+}
+
+function bumpProgress() {
+  progressState.loaded += 1
+  try {
+    window.dispatchEvent(new CustomEvent('worddata-progress', {
+      detail: { loaded: progressState.loaded, total: progressState.total },
+    }))
+  } catch { /* ignore */ }
+}
+
 /* 已加载缓存：{ l2: WORDS_L2, l5: L5_THEMES, l8: L8_ACADEMIC_WORDS, corpus: { l6, l13, l14 } } */
 const cache = { l2: null, l5: null, l8: null, corpus: null }
 let loadPromise = null
@@ -142,14 +165,17 @@ function dedupeL5(source) {
 export function preloadWordData() {
   if (isLoaded()) return Promise.resolve(cache)
   if (!loadPromise) {
-    loadPromise = Promise.all(
-      WORD_DATA_FILES.map((f) =>
-        fetchJsonWithRetry(f.file).catch((e) => {
+    progressState.loaded = 0
+    const tasks = WORD_DATA_FILES.map((f) => {
+      const p = fetchJsonWithRetry(f.file)
+        .catch((e) => {
           if (f.optional) return f.type === 'array' ? [] : {}
           throw e
         })
-      )
-    )
+      // 无论成功/失败（optional 降级）都计入进度
+      return p.then((data) => { bumpProgress(); return data }, (e) => { bumpProgress(); throw e })
+    })
+    loadPromise = Promise.all(tasks)
       .then((results) => {
         const l2 = {}
         const l5 = []

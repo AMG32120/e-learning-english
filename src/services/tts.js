@@ -64,6 +64,54 @@ function emitKokoroEvent(detail) {
   } catch { /* ignore */ }
 }
 
+/* ---------- Kokoro 模型缓存检测与用户跳过标记 ---------- */
+
+const MODEL_SKIP_KEY = 'qc-boot-model-skip'   // 用户在首次准备页选择"跳过真人发音"
+
+/* 模型本体是否已下载进浏览器 Cache API（transformers 的缓存名为
+   transformers-cache，缓存键为模型文件 URL，含 onnx 模型文件） */
+export async function isKokoroModelCached() {
+  if (typeof caches === 'undefined') return false
+  try {
+    const cache = await caches.open('transformers-cache')
+    const keys = await cache.keys()
+    return keys.some((req) => /Kokoro-82M.*\.onnx/i.test(req.url))
+  } catch {
+    return false
+  }
+}
+
+function isModelSkipped() {
+  try {
+    return localStorage.getItem(MODEL_SKIP_KEY) === '1'
+  } catch {
+    return false
+  }
+}
+
+/* 记录/清除"跳过真人发音"标记（BootGate 与设置页使用） */
+export function setModelSkipped(v) {
+  try {
+    if (v) localStorage.setItem(MODEL_SKIP_KEY, '1')
+    else localStorage.removeItem(MODEL_SKIP_KEY)
+  } catch { /* ignore */ }
+}
+
+/* 用户是否选择过"跳过真人发音"（同步近似，只看用户标记；
+   speak() 内部会再异步确认模型是否已缓存，缓存命中则不受标记影响） */
+export function shouldSkipKokoro() {
+  return isModelSkipped()
+}
+
+/* 系统语音中是否存在可用的男声英语语音（供设置页提示用）。
+   getEnglishVoice('male') 匹配不到男声时会退回全部候选，
+   这里再用启发式二次确认是否真的匹配到男声。 */
+export function hasSystemMaleVoice() {
+  const voice = getEnglishVoice('male')
+  if (!voice) return false
+  return MALE_NAME_RE.test(voice.name) && !FEMALE_NAME_RE.test(voice.name)
+}
+
 /* ---------- HF 镜像垫片（模块加载即安装） ----------
    兜底用：任何仍直连 huggingface.co 的请求改写到 hf-mirror.com。
    模型/音色的主路径已走同源代理 /api/hf（见 HF_PROXY_BASE）。 */
@@ -521,19 +569,32 @@ export async function speak(text, opts = {}) {
   }
 
   // 1) Kokoro 神经合成（主引擎）：首次调用触发模型下载（进度见 tts-kokoro 事件）
-  try {
-    playToken += 1 // 使上一轮播放失效
-    const eng = await ensureKokoro()
-    const res = await playWithKokoro(eng, t, { rate, gender: genderPref, onStart, onEnd })
-    const vName = KOKORO_VOICE_LABELS[KOKORO_VOICES[genderPref]] || KOKORO_VOICES[genderPref]
-    if (res.ok && !res.superseded) {
-      console.info(`[TTS] 引擎选择=kokoro，音色=${KOKORO_VOICES[genderPref]}，结果=成功`)
-      return { engine: 'kokoro', started: res.started, voiceName: `Kokoro ${vName}` }
+  //    用户选择过"跳过真人发音"且模型尚未缓存时不尝试，避免点击播放
+  //    意外触发 88MB 下载（缓存命中则标记自动失效）
+  let kokoroAvailable = true
+  if (isModelSkipped() && typeof caches !== 'undefined') {
+    try {
+      const cached = await isKokoroModelCached()
+      if (!cached) kokoroAvailable = false
+    } catch { /* 缓存 API 异常时按未跳过处理 */ }
+  }
+  if (kokoroAvailable) {
+    try {
+      playToken += 1 // 使上一轮播放失效
+      const eng = await ensureKokoro()
+      const res = await playWithKokoro(eng, t, { rate, gender: genderPref, onStart, onEnd })
+      const vName = KOKORO_VOICE_LABELS[KOKORO_VOICES[genderPref]] || KOKORO_VOICES[genderPref]
+      if (res.ok && !res.superseded) {
+        console.info(`[TTS] 引擎选择=kokoro，音色=${KOKORO_VOICES[genderPref]}，结果=成功`)
+        return { engine: 'kokoro', started: res.started, voiceName: `Kokoro ${vName}` }
+      }
+      // superseded：被新的 speak/stop 打断，视为正常结束
+      return { engine: 'kokoro', started: res.started, voiceName: null, reason: 'superseded' }
+    } catch (e) {
+      console.warn('[TTS] Kokoro 合成不可用，尝试系统语音兜底：', e && e.message)
     }
-    // superseded：被新的 speak/stop 打断，视为正常结束
-    return { engine: 'kokoro', started: res.started, voiceName: null, reason: 'superseded' }
-  } catch (e) {
-    console.warn('[TTS] Kokoro 合成不可用，尝试系统语音兜底：', e && e.message)
+  } else {
+    console.info('[TTS] 用户已跳过真人发音且模型未缓存，直接使用系统语音')
   }
 
   // 2) 系统引擎兜底：等待语音列表就绪（最多 3 秒）并尝试英语语音
@@ -571,13 +632,18 @@ export function stopSpeak() {
   }
 }
 
-/* ---------- 空闲预热：应用启动 8 秒后后台预加载 Kokoro ----------
-   首次访问需下载约 88MB（进度见 tts-kokoro 事件，完成后永久缓存）；
-   预热让用户第一次点播放时几乎无需等待。离线/失败静默，speak 时重试。 */
+/* ---------- 空闲预热：仅当模型已缓存时才后台预热 ----------
+   未缓存时不再自动下载（88MB 需用户在首次准备页或设置页确认后
+   主动触发 preloadKokoro()），避免移动端偷跑流量。 */
 if (typeof window !== 'undefined') {
   setTimeout(() => {
-    preloadKokoro().catch((e) => {
-      console.info('[TTS] Kokoro 预热未完成（将在首次播放时重试）：', e && e.message)
-    })
+    isKokoroModelCached()
+      .then((cached) => {
+        if (!cached) return
+        return preloadKokoro().catch((e) => {
+          console.info('[TTS] Kokoro 预热未完成（将在首次播放时重试）：', e && e.message)
+        })
+      })
+      .catch(() => { /* ignore */ })
   }, 8000)
 }
