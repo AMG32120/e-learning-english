@@ -310,6 +310,7 @@ function doLogout() {
 .profile-card,
 .profile-theme,
 .profile-voice,
+.profile-engine,
 .profile-goal,
 .profile-links,
 .profile-data {
@@ -428,59 +429,6 @@ function doLogout() {
   color: #ffd98a;
   background: #3a2f14;
   border-color: #6b5a2a;
-}
-
-.engine-status {
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--c-text-primary);
-  background: var(--c-bg-soft);
-  border-radius: 8px;
-  padding: 10px 12px;
-  margin-bottom: var(--space-sm);
-  font-variant-numeric: tabular-nums;
-}
-
-.engine-device {
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--c-text-muted, #93a1b3);
-}
-
-.engine-slow-tip {
-  margin-top: calc(var(--space-sm) * -1);
-  margin-bottom: var(--space-sm);
-}
-
-/* 推理设备切换（自动检测 / 仅用 CPU） */
-.device-select {
-  display: flex;
-  align-items: center;
-  gap: var(--space-sm);
-  flex-wrap: wrap;
-  margin-bottom: var(--space-sm);
-}
-
-.device-select-label {
-  font-size: 13px;
-  color: var(--c-text-secondary);
-}
-
-.device-opt {
-  border: 1px solid var(--c-border, #e0e0e0);
-  background: transparent;
-  color: var(--c-text-secondary);
-  border-radius: 8px;
-  padding: 6px 12px;
-  font-size: 13px;
-  cursor: pointer;
-}
-
-.device-opt.active {
-  border-color: var(--c-primary);
-  background: var(--c-primary-soft, rgba(59, 130, 246, 0.1));
-  color: var(--c-primary);
-  font-weight: 600;
 }
 
 .data-tip {

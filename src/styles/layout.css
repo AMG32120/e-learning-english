@@ -140,6 +140,14 @@
   gap: var(--space-md);
 }
 
+/* 关卡卡片网格（等级页内的"第 N 关"卡片）
+   移动端单列，平板两列，桌面三列（见底部媒体查询） */
+.grid-stages {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+}
+
 /* 通用按钮 */
 .btn {
   display: inline-flex;
@@ -295,6 +303,10 @@
   }
 
   .grid-levels {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-stages {
     grid-template-columns: repeat(2, 1fr);
   }
 }

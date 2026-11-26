@@ -20,11 +20,9 @@
         </div>
         <div class="form-field">
           <label class="form-label" for="login-password">密码</label>
-          <input
+          <PasswordInput
             id="login-password"
             v-model="password"
-            class="form-input"
-            type="password"
             placeholder="请输入密码"
             autocomplete="current-password"
           />
@@ -49,11 +47,11 @@
         </div>
         <div class="form-field">
           <label class="form-label" for="reset-pwd">新密码</label>
-          <input id="reset-pwd" v-model="resetPassword" class="form-input" type="password" placeholder="至少 6 位" />
+          <PasswordInput id="reset-pwd" v-model="resetPassword" placeholder="至少 6 位" />
         </div>
         <div class="form-field">
           <label class="form-label" for="reset-pwd2">确认新密码</label>
-          <input id="reset-pwd2" v-model="resetPassword2" class="form-input" type="password" placeholder="再次输入新密码" />
+          <PasswordInput id="reset-pwd2" v-model="resetPassword2" placeholder="再次输入新密码" />
         </div>
         <div v-if="error" class="form-error">{{ error }}</div>
         <button class="btn btn-primary btn-block" type="submit" :disabled="loading">
@@ -72,6 +70,7 @@ import { ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useAuthStore } from '../stores/auth'
 import { useProgressStore } from '../stores/progress'
+import PasswordInput from '../components/PasswordInput.vue'
 
 const route = useRoute()
 const router = useRouter()

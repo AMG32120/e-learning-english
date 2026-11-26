@@ -22,22 +22,18 @@
         </div>
         <div class="form-field">
           <label class="form-label" for="reg-password">密码 *</label>
-          <input
+          <PasswordInput
             id="reg-password"
             v-model="password"
-            class="form-input"
-            type="password"
             placeholder="至少 6 位"
             autocomplete="new-password"
           />
         </div>
         <div class="form-field">
           <label class="form-label" for="reg-password2">确认密码 *</label>
-          <input
+          <PasswordInput
             id="reg-password2"
             v-model="password2"
-            class="form-input"
-            type="password"
             placeholder="再次输入密码"
             autocomplete="new-password"
           />
@@ -59,6 +55,7 @@ import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { useAuthStore } from '../stores/auth'
 import { useProgressStore } from '../stores/progress'
+import PasswordInput from '../components/PasswordInput.vue'
 
 const router = useRouter()
 const auth = useAuthStore()
