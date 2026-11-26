@@ -3,7 +3,7 @@
     <div class="auth-card card">
       <h1 class="auth-title">启程英语</h1>
       <p class="auth-subtitle">从 A 开始，向世界出发。零基础闯关式英语学习，直达托福雅思。</p>
-      <p class="auth-subtitle" style="font-size: 14px; margin-top: -8px; letter-spacing: 1px">From A to World</p>
+      <p class="auth-subtitle auth-subtitle-en">From A to World</p>
 
       <!-- 登录表单 -->
       <form v-if="mode === 'login'" @submit.prevent="doLogin">
@@ -41,8 +41,8 @@
 
       <!-- 忘记密码表单 -->
       <form v-else @submit.prevent="doReset">
-        <h2 class="auth-subtitle" style="font-size: 16px; font-weight: 700">重置密码</h2>
-        <p class="form-hint" style="margin-bottom: 12px">纯前端单机场景：校验用户名存在后即可直接重置新密码</p>
+        <h2 class="auth-subtitle auth-reset-title">重置密码</h2>
+        <p class="form-hint auth-reset-hint">纯前端单机场景：校验用户名存在后即可直接重置新密码</p>
         <div class="form-field">
           <label class="form-label" for="reset-username">用户名</label>
           <input id="reset-username" v-model.trim="resetUsername" class="form-input" type="text" placeholder="请输入用户名" />
@@ -172,6 +172,21 @@ async function doReset() {
   text-align: center;
   color: var(--c-text-secondary);
   margin-bottom: var(--space-lg);
+}
+
+.auth-subtitle-en {
+  font-size: 14px;
+  margin-top: -8px;
+  letter-spacing: 1px;
+}
+
+.auth-reset-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.auth-reset-hint {
+  margin-bottom: 12px;
 }
 
 .auth-links {

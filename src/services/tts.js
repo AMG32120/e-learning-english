@@ -112,6 +112,33 @@ export function hasSystemMaleVoice() {
   return MALE_NAME_RE.test(voice.name) && !FEMALE_NAME_RE.test(voice.name)
 }
 
+/* ---------- 推理设备偏好（自动检测 / 仅用 CPU） ----------
+   无显卡设备（虚拟机/服务器/核显过旧）上 WebGPU 往往落在软件适配器
+   上，比纯 CPU 更慢；此时可强制走 WASM/CPU。持久化 localStorage。 */
+const DEVICE_PREF_KEY = 'tts-engine-device'
+
+function loadDevicePref() {
+  try {
+    const v = localStorage.getItem(DEVICE_PREF_KEY)
+    if (v === 'auto' || v === 'cpu') return v
+  } catch { /* ignore */ }
+  return 'auto'
+}
+
+/** 当前推理设备偏好：'auto'（自动检测）| 'cpu'（强制 WASM/CPU） */
+export function getEngineDevicePref() {
+  return loadDevicePref()
+}
+
+/** 设置推理设备偏好并持久化（'auto' | 'cpu' | null 恢复默认） */
+export function setEngineDevicePref(v) {
+  try {
+    if (v === 'auto' || v === 'cpu') localStorage.setItem(DEVICE_PREF_KEY, v)
+    else localStorage.removeItem(DEVICE_PREF_KEY)
+  } catch { /* ignore */ }
+  return loadDevicePref()
+}
+
 /* ---------- HF 镜像垫片（模块加载即安装） ----------
    兜底用：任何仍直连 huggingface.co 的请求改写到 hf-mirror.com。
    模型/音色的主路径已走同源代理 /api/hf（见 HF_PROXY_BASE）。 */
@@ -271,7 +298,10 @@ function ensureKokoro() {
         }
       }
       const progress = makeKokoroProgress()
-      const adapter = await webgpuAdapterReady()
+      /* 设备档位选择：用户偏好"仅用 CPU"时跳过所有 WebGPU 档位
+        （无显卡设备上软件 WebGPU 适配器比纯 CPU 更慢） */
+      const devicePref = loadDevicePref()
+      const adapter = devicePref === 'cpu' ? null : await webgpuAdapterReady()
       const hasF16 = !!(adapter && adapter.features && adapter.features.has('shader-f16'))
       /* 设备降级链：fp16+WebGPU（最快）→ q8+WebGPU（真 GPU 但不支持
          fp16，如部分核显/软件适配器）→ q8+WASM（纯 CPU，较慢）。
@@ -281,6 +311,9 @@ function ensureKokoro() {
         adapter ? { dtype: 'q8', device: 'webgpu', label: 'WebGPU / q8' } : null,
         { dtype: 'q8', device: 'wasm', label: 'WASM / q8' },
       ].filter(Boolean)
+      if (devicePref === 'cpu') {
+        console.info('[TTS] 用户已设置"仅用 CPU"，跳过 WebGPU，直接使用 WASM/q8')
+      }
       const tokenizer = await AutoTokenizer.from_pretrained(KOKORO_MODEL, { progress_callback: progress })
       let model = null
       let deviceLabel = ''
@@ -515,6 +548,13 @@ export function preloadKokoro() {
   } catch (e) {
     return Promise.reject(e)
   }
+}
+
+/** 重置引擎实例：切换推理设备等设置后调用，下次播放时按新设置重新加载
+    （模型文件仍在缓存中，无需重新下载，只有会话编译需要重来） */
+export function resetKokoroEngine() {
+  stopSpeak()
+  kokoroEnginePromise = null
 }
 
 /* ---------- 系统语音（兜底） ---------- */
@@ -772,10 +812,54 @@ export async function speak(text, opts = {}) {
     console.warn('[TTS] speechSynthesis 不可用')
   }
 
-  // 3) 彻底失败
+  // 3) 彻底失败：Kokoro 与系统引擎均不可用（常见于跳过了模型下载
+  //    且本机未安装英语语音包），弹全局 toast 引导用户解决。
+  //    每次会话最多提示一次，避免连点刷屏；覆盖不走 TtsButton 的
+  //    直接调用页面（跟读/听力/陪练/强化练习）。
   console.error('[TTS] 播放失败：Kokoro 与系统引擎均不可用')
+  showNoVoiceToast()
   try { onError && onError(new Error('TTS unavailable: kokoro engine failed and no usable system voice')) } catch { /* ignore */ }
   return { engine: 'none', started: false, voiceName: null, reason: 'no_engine' }
+}
+
+/* ---------- 无可用英语语音的全局提示 ----------
+   底部 toast + 「去下载」按钮（跳转个人中心 → 真人发音引擎）。
+   纯 DOM 实现，不依赖 Vue 组件；跳转通过 window 事件交由 App.vue
+   处理（tts.js 不直接持有路由实例）。 */
+let noVoiceToastShown = false
+
+function showNoVoiceToast() {
+  if (noVoiceToastShown || typeof document === 'undefined' || !document.body) return
+  noVoiceToastShown = true
+  try {
+    /* 样式集中在 src/styles/components.css（CSP style-src 'self' 禁止
+       内联 <style> 注入，报错 "Applying inline style violates CSP"） */
+    const el = document.createElement('div')
+    el.className = 'tts-novoice-toast'
+    el.setAttribute('role', 'alert')
+    const text = document.createElement('span')
+    text.className = 'tts-toast-text'
+    text.textContent = '未检测到可用的英语发音：可在「个人中心 → 真人发音引擎」下载离线神经发音（约 88MB），或在系统设置中安装英语语音后刷新页面。'
+    const btn = document.createElement('button')
+    btn.className = 'tts-toast-btn'
+    btn.textContent = '去下载'
+    btn.addEventListener('click', () => {
+      try { window.dispatchEvent(new CustomEvent('tts:open-profile')) } catch { /* ignore */ }
+      dismiss()
+    })
+    el.appendChild(text)
+    el.appendChild(btn)
+    document.body.appendChild(el)
+    let closed = false
+    function dismiss() {
+      if (closed) return
+      closed = true
+      el.classList.remove('show')
+      setTimeout(() => { try { el.remove() } catch { /* ignore */ } }, 400)
+    }
+    requestAnimationFrame(() => el.classList.add('show'))
+    setTimeout(dismiss, 10000)   // 10 秒后自动消失
+  } catch { /* ignore */ }
 }
 
 /* 停止播放（使当前 token 失效 + 暂停音频 + 取消系统合成） */

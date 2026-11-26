@@ -60,16 +60,14 @@ async function play() {
     playing.value = false
     return
   }
-  const result = await speak(props.text, {
+  await speak(props.text, {
     rate: props.rate,
     onStart: () => (playing.value = true),
     onEnd: () => (playing.value = false),
     onError: () => (playing.value = false)
   })
-  // result.engine: kokoro=神经合成（正常播放，不提示）；system=系统语音兜底；none=全部不可用
-  if (!result.started || result.engine === 'none') {
-    alert('未检测到可用的英语语音引擎：神经合成引擎加载失败且系统无英语语音。请联网后刷新页面重试（首次需下载神经音质模型），或在系统设置中安装英语语音。')
-  }
+  // result.engine: kokoro=神经合成（正常播放，不提示）；system=系统语音兜底；
+  // none=全部不可用 → speak() 内部已弹全局 toast 引导下载，无需在此 alert
 }
 
 watch(

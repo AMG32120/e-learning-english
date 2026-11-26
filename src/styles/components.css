@@ -273,3 +273,52 @@
 }
 .back-btn:hover { background: var(--c-bg-soft); }
 
+
+/* ---------- 无可用英语语音全局提示（tts.js 动态创建 DOM，样式放这里以符合 CSP） ---------- */
+.tts-novoice-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%) translateY(12px);
+  max-width: min(560px, calc(100vw - 32px));
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--c-bg-card, #fff);
+  color: var(--c-text, #333);
+  border: 1px solid var(--c-border, #e0e0e0);
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-size: 13px;
+  line-height: 1.5;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+  z-index: 1000;
+}
+
+.tts-novoice-toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.tts-novoice-toast .tts-toast-text {
+  flex: 1;
+}
+
+.tts-novoice-toast .tts-toast-btn {
+  flex-shrink: 0;
+  border: none;
+  background: var(--c-primary, #3b82f6);
+  color: #fff;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+html[data-theme='night'] .tts-novoice-toast {
+  background: #2a2f3a;
+  color: #e8e8e8;
+  border-color: #3d4450;
+}

@@ -25,6 +25,7 @@
 
 <script setup>
 import { onMounted, onBeforeUnmount, ref } from 'vue'
+import { useRouter } from 'vue-router'
 import TopNav from './components/TopNav.vue'
 import BottomTab from './components/BottomTab.vue'
 import RestReminder from './components/RestReminder.vue'
@@ -36,10 +37,16 @@ import { useProgressStore } from './stores/progress'
 const auth = useAuthStore()
 const theme = useThemeStore()
 const progress = useProgressStore()
+const router = useRouter()
 
 const isMobile = ref(false)
 const quotaToast = ref(false)
 let mq = null
+
+/* 发音引擎 toast 的「去下载」按钮：跳转个人中心真人发音引擎卡片 */
+function onTtsOpenProfile() {
+  router.push('/profile')
+}
 
 function updateMobile(e) {
   isMobile.value = e.matches
@@ -63,6 +70,7 @@ onMounted(() => {
     mq.addEventListener('change', updateMobile)
   }
   window.addEventListener('app:storage-quota', onStorageQuota)
+  window.addEventListener('tts:open-profile', onTtsOpenProfile)
 })
 
 onBeforeUnmount(() => {
@@ -70,6 +78,7 @@ onBeforeUnmount(() => {
     mq.removeEventListener('change', updateMobile)
   }
   window.removeEventListener('app:storage-quota', onStorageQuota)
+  window.removeEventListener('tts:open-profile', onTtsOpenProfile)
 })
 </script>
 

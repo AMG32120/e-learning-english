@@ -10,7 +10,7 @@
       <div class="card placement-card">
         <div class="placement-progress">
           第 {{ index + 1 }} / {{ QUESTIONS.length }} 题
-          <div class="progress-bar" style="margin-top: 6px">
+          <div class="progress-bar progress-bar-mt">
             <div class="progress-fill" :style="{ width: ((index + 1) / QUESTIONS.length) * 100 + '%' }"></div>
           </div>
         </div>
@@ -156,6 +156,11 @@ function goL1() {
   font-size: 14px;
   color: var(--c-text-secondary);
   margin-bottom: var(--space-lg);
+}
+
+/* 进度条与题号留出间距（原内联 style 违反 CSP，改用类） */
+.progress-bar-mt {
+  margin-top: 6px;
 }
 
 .placement-question {

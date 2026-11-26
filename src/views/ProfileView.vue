@@ -83,6 +83,22 @@
       <p v-if="engineDevice && /WASM/i.test(engineDevice)" class="data-tip engine-slow-tip">
         当前设备使用 CPU 模式合成，首次合成每句需 10~30 秒，重复播放不受影响（已缓存）。
       </p>
+      <div class="device-select">
+        <span class="device-select-label">推理设备</span>
+        <button
+          class="device-opt"
+          :class="{ active: devicePref === 'auto' }"
+          @click="chooseDevice('auto')"
+        >自动检测</button>
+        <button
+          class="device-opt"
+          :class="{ active: devicePref === 'cpu' }"
+          @click="chooseDevice('cpu')"
+        >仅用 CPU（无显卡设备推荐）</button>
+      </div>
+      <p v-if="deviceJustSwitched" class="data-tip engine-slow-tip">
+        设备已切换，下次播放时生效（模型无需重新下载）。
+      </p>
       <button
         v-if="engineState !== 'ready' && engineState !== 'downloading'"
         class="btn btn-primary btn-block"
@@ -163,6 +179,9 @@ import {
   setVoiceGender,
   isKokoroModelCached,
   preloadKokoro,
+  resetKokoroEngine,
+  getEngineDevicePref,
+  setEngineDevicePref,
   setModelSkipped,
   hasSystemMaleVoice,
   waitForVoices,
@@ -258,6 +277,17 @@ const engineMsg = ref('')
 const engineBusy = ref(false)
 const engineDevice = ref('')
 const maleMissingTip = ref(false)
+const devicePref = ref(getEngineDevicePref())
+const deviceJustSwitched = ref(false)
+
+/* 切换推理设备（自动检测 / 仅用 CPU）：重置引擎实例，下次播放按新设置加载 */
+function chooseDevice(v) {
+  if (devicePref.value === v) return
+  devicePref.value = setEngineDevicePref(v)
+  resetKokoroEngine()
+  engineDevice.value = ''
+  deviceJustSwitched.value = true
+}
 
 function onKokoroEvent(e) {
   const d = e.detail || {}
@@ -270,6 +300,7 @@ function onKokoroEvent(e) {
   } else if (d.phase === 'ready') {
     engineState.value = 'ready'
     engineMsg.value = ''
+    deviceJustSwitched.value = false
     if (d.device) engineDevice.value = d.device
   } else if (d.phase === 'error') {
     engineState.value = 'error'
@@ -522,6 +553,37 @@ function doLogout() {
 .engine-slow-tip {
   margin-top: calc(var(--space-sm) * -1);
   margin-bottom: var(--space-sm);
+}
+
+/* 推理设备切换（自动检测 / 仅用 CPU） */
+.device-select {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-sm);
+}
+
+.device-select-label {
+  font-size: 13px;
+  color: var(--c-text-secondary);
+}
+
+.device-opt {
+  border: 1px solid var(--c-border, #e0e0e0);
+  background: transparent;
+  color: var(--c-text-secondary);
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.device-opt.active {
+  border-color: var(--c-primary);
+  background: var(--c-primary-soft, rgba(59, 130, 246, 0.1));
+  color: var(--c-primary);
+  font-weight: 600;
 }
 
 .data-tip {

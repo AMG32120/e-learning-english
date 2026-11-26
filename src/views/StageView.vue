@@ -4,14 +4,14 @@
       <template v-if="stage.available === false">
         <div class="alert alert-info">
           本关内容将在后续阶段开放。
-          <button class="btn btn-ghost" style="margin-top: 8px" @click="goBack">返回关卡列表</button>
+          <button class="btn btn-ghost back-mt" @click="goBack">返回关卡列表</button>
         </div>
       </template>
 
       <template v-else-if="!progress.isStageUnlocked(stage.id)">
         <div class="alert alert-warn">
           本关尚未解锁，请先完成上一关。
-          <button class="btn btn-ghost" style="margin-top: 8px" @click="goBack">返回关卡列表</button>
+          <button class="btn btn-ghost back-mt" @click="goBack">返回关卡列表</button>
         </div>
       </template>
 
@@ -225,7 +225,7 @@
 
     <div v-else class="alert alert-warn">
       关卡不存在。
-      <button class="btn btn-ghost" style="margin-top: 8px" @click="router.push('/map')">返回闯关地图</button>
+      <button class="btn btn-ghost back-mt" @click="router.push('/map')">返回闯关地图</button>
     </div>
   </div>
 </template>
@@ -1115,5 +1115,10 @@ buildQuiz()
   .read-actions {
     flex-direction: column;
   }
+}
+
+/* 返回按钮与上方内容留出间距（原内联 style 违反 CSP，改用类） */
+.back-mt {
+  margin-top: 8px;
 }
 </style>
