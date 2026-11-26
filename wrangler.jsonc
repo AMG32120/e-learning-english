@@ -1,0 +1,14 @@
+{
+  // Cloudflare Workers Builds 部署配置。
+  // 注意：本项目走 Workers 静态资产模式（非 Pages），/api/* 由 worker
+  // 入口脚本处理，其余请求直接命中 dist 静态资产（SPA 回退）。
+  "name": "e-learning-english",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  }
+}
