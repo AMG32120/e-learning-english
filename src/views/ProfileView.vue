@@ -72,11 +72,17 @@
       <h2 class="card-title">真人发音引擎</h2>
       <p class="data-tip">神经网络合成（Kokoro-82M），真人级音质、支持男女声，仅首次需下载约 88MB，之后离线可用。未下载时使用系统发音（音质因设备而异）。</p>
       <div class="engine-status">
-        <template v-if="engineState === 'ready'">✅ 已下载并启用</template>
+        <template v-if="engineState === 'ready'">
+          ✅ 已下载并启用
+          <span v-if="engineDevice" class="engine-device">（运行设备：{{ engineDevice }}）</span>
+        </template>
         <template v-else-if="engineState === 'downloading'">⏳ 下载中（{{ engineMsg }}）</template>
         <template v-else-if="engineState === 'error'">❌ 下载失败：{{ engineMsg }}</template>
         <template v-else>⬇️ 未下载</template>
       </div>
+      <p v-if="engineDevice && /WASM/i.test(engineDevice)" class="data-tip engine-slow-tip">
+        当前设备使用 CPU 模式合成，首次合成每句需 10~30 秒，重复播放不受影响（已缓存）。
+      </p>
       <button
         v-if="engineState !== 'ready' && engineState !== 'downloading'"
         class="btn btn-primary btn-block"
@@ -250,6 +256,7 @@ async function previewVoice() {
 const engineState = ref('checking') // checking | ready | missing | downloading | error
 const engineMsg = ref('')
 const engineBusy = ref(false)
+const engineDevice = ref('')
 const maleMissingTip = ref(false)
 
 function onKokoroEvent(e) {
@@ -257,9 +264,13 @@ function onKokoroEvent(e) {
   if (d.phase === 'progress') {
     engineState.value = 'downloading'
     engineMsg.value = d.message || '下载中…'
+  } else if (d.phase === 'warming') {
+    engineState.value = 'downloading'
+    engineMsg.value = d.message || '预热中…'
   } else if (d.phase === 'ready') {
     engineState.value = 'ready'
     engineMsg.value = ''
+    if (d.device) engineDevice.value = d.device
   } else if (d.phase === 'error') {
     engineState.value = 'error'
     engineMsg.value = d.message || '下载失败'
@@ -500,6 +511,17 @@ function doLogout() {
   padding: 10px 12px;
   margin-bottom: var(--space-sm);
   font-variant-numeric: tabular-nums;
+}
+
+.engine-device {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--c-text-muted, #93a1b3);
+}
+
+.engine-slow-tip {
+  margin-top: calc(var(--space-sm) * -1);
+  margin-bottom: var(--space-sm);
 }
 
 .data-tip {

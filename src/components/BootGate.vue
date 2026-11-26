@@ -115,6 +115,8 @@ function onKokoroProgress(e) {
   const d = e.detail || {}
   if (d.phase === 'progress') {
     modelProgress.value = { loaded: d.loaded || 0, total: d.total || 0, message: d.message }
+  } else if (d.phase === 'warming') {
+    modelProgress.value = { loaded: 1, total: 1, message: d.message || '预热中…' }
   } else if (d.phase === 'ready') {
     modelDone.value = true
     modelProgress.value = { loaded: 1, total: 1, message: '完成' }

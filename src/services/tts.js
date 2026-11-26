@@ -158,6 +158,18 @@ function webgpuAvailable() {
   return typeof navigator !== 'undefined' && typeof navigator.gpu !== 'undefined'
 }
 
+/* WebGPU 真实可用性：navigator.gpu 存在不代表能拿到适配器（如浏览器
+   GPU 加速被禁用、驱动黑名单等），必须 requestAdapter 实测，否则
+   from_pretrained(webgpu) 中途失败静默掉进慢速 WASM 模式。 */
+async function webgpuAdapterReady() {
+  if (!webgpuAvailable()) return false
+  try {
+    return !!(await navigator.gpu.requestAdapter())
+  } catch {
+    return false
+  }
+}
+
 /* ---------- Kokoro 直连实现 ----------
    不用 kokoro-js 的 generate/stream 包装层（实测其对 q8/wasm 返回空
    waveform，见 2026-11-25 诊断记录），改为基于主站已有
@@ -251,7 +263,7 @@ function ensureKokoro() {
       let tokenizer = null
       let model = null
       let deviceLabel = ''
-      if (webgpuAvailable()) {
+      if (await webgpuAdapterReady()) {
         try {
           tokenizer = await AutoTokenizer.from_pretrained(KOKORO_MODEL, { progress_callback: progress })
           model = await StyleTextToSpeech2Model.from_pretrained(KOKORO_MODEL, {
@@ -271,9 +283,20 @@ function ensureKokoro() {
         })
         deviceLabel = 'WASM / q8'
       }
-      console.info(`[TTS] Kokoro 神经引擎就绪（${deviceLabel}）`)
-      emitKokoroEvent({ phase: 'ready', message: 'Kokoro 就绪' })
-      return { tokenizer, model, Tensor, phonemize, deviceLabel }
+      console.info(`[TTS] Kokoro 神经引擎就绪（${deviceLabel}），开始首次合成预热…`)
+      emitKokoroEvent({ phase: 'warming', message: '首次合成预热中…', device: deviceLabel })
+      /* 首次推理预热：ORT 首次会话编译（尤其 WebGPU 管线）耗时 20~60 秒，
+         在加载阶段静默完成，避免用户第一次点播放时长时间无响应。 */
+      const eng = { tokenizer, model, Tensor, phonemize, deviceLabel }
+      try {
+        const voiceData = await fetchVoiceBin('af_heart')
+        await synthSentence(eng, 'Hello.', 'af_heart', voiceData, 1)
+      } catch (e) {
+        console.warn('[TTS] 预热合成失败（不影响后续使用）：', e && e.message)
+      }
+      console.info(`[TTS] Kokoro 神经引擎预热完成（${deviceLabel}）`)
+      emitKokoroEvent({ phase: 'ready', message: 'Kokoro 就绪', device: deviceLabel })
+      return eng
     })().catch((e) => {
       kokoroEnginePromise = null // 允许下次重试
       emitKokoroEvent({ phase: 'error', message: (e && e.message) || '加载失败' })
@@ -300,6 +323,23 @@ async function synthSentence(eng, text, voiceName, voiceData, speed) {
   return encodeWavBlob(flat || pcm, KOKORO_SR)
 }
 
+/* 合成结果缓存：同一 (音色, 语速, 文本) 的 WAV 永久存 Cache API。
+   学习场景对同一单词/例句反复点播，命中后零合成等待。 */
+async function synthCached(eng, text, voiceName, voiceData, speed) {
+  const key = `https://kokoro.cache/${voiceName}/${speed}/${encodeURIComponent(text)}`
+  let cache = null
+  try {
+    cache = await caches.open('kokoro-audio')
+    const hit = await cache.match(key)
+    if (hit) return new Blob([await hit.arrayBuffer()], { type: 'audio/wav' })
+  } catch { /* Cache API 不可用时直接合成 */ }
+  const blob = await synthSentence(eng, text, voiceName, voiceData, speed)
+  try {
+    if (cache) await cache.put(key, new Response(blob))
+  } catch { /* ignore */ }
+  return blob
+}
+
 /* Kokoro 整段播放：逐句合成入队，首句合成完立即出声 */
 async function playWithKokoro(eng, text, { rate = 0.85, gender, onStart, onEnd }) {
   const myToken = ++playToken
@@ -316,7 +356,7 @@ async function playWithKokoro(eng, text, { rate = 0.85, gender, onStart, onEnd }
       try {
         for (const sentence of sentences) {
           if (myToken !== playToken) return
-          queue.push(await synthSentence(eng, sentence, voiceName, voiceData, speed))
+          queue.push(await synthCached(eng, sentence, voiceName, voiceData, speed))
         }
       } catch (e) {
         producerErr = e

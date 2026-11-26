@@ -36,6 +36,9 @@ function onKokoroEvent(e) {
     loading.value = true
     const pct = d.total ? Math.round((d.loaded / d.total) * 100) : 0
     progressText.value = pct + '%'
+  } else if (d.phase === 'warming') {
+    loading.value = true
+    progressText.value = '预热'
   } else if (d.phase === 'ready') {
     loading.value = false
   } else if (d.phase === 'error') {
