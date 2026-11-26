@@ -24,6 +24,14 @@ const VOICE_POLL_INTERVAL = 100   // 语音列表轮询间隔（毫秒）
 
 /* ---------- 声音性别偏好（男声/女声，本地记忆） ---------- */
 
+/* ---------- 真人发音引擎总开关 ----------
+   实测部分无显卡设备上合成过慢（WebGPU 首句 62s / 纯 CPU 102s），
+   已决定放弃 Kokoro 离线引擎，统一使用系统语音（快、零下载）；
+   系统无英语语音时由 toast 提示安装。
+   保留全部 Kokoro 代码与同源代理，未来如需恢复把此开关改回 true，
+   并在 BootGate / ProfileView 恢复下载入口即可。 */
+export const KOKORO_ENABLED = false
+
 const GENDER_KEY = 'tts-voice-gender'   // localStorage 存储键
 export const VOICE_GENDERS = ['female', 'male']  // 支持的取值
 export const DEFAULT_VOICE_GENDER = 'female'     // 默认女声（自然，适合跟读）
@@ -490,6 +498,8 @@ function sleep(ms) { return new Promise((r) => setTimeout(r, ms)) }
  * @param {Array<{text: string, rate?: number, gender?: 'female'|'male'}>|object} items
  */
 export function queueKokoroPrefetch(items) {
+  /* 引擎已禁用：预合成无意义，直接忽略入队请求 */
+  if (!KOKORO_ENABLED) return
   if (!Array.isArray(items)) items = [items]
   let added = false
   for (const it of items) {
@@ -541,8 +551,9 @@ async function runPrefetch() {
   }
 }
 
-/** 预加载 Kokoro 引擎（可在应用空闲期调用，提前完成首次下载） */
+/** 预加载 Kokoro 引擎（当前引擎已禁用，直接返回完成态） */
 export function preloadKokoro() {
+  if (!KOKORO_ENABLED) return Promise.resolve(null)
   try {
     return ensureKokoro()
   } catch (e) {
@@ -765,10 +776,11 @@ export async function speak(text, opts = {}) {
     return { engine: 'none', started: false, voiceName: null, reason: 'empty' }
   }
 
-  // 1) Kokoro 神经合成（主引擎）：首次调用触发模型下载（进度见 tts-kokoro 事件）
-  //    用户选择过"跳过真人发音"且模型尚未缓存时不尝试，避免点击播放
+  // 1) Kokoro 神经合成（主引擎）：当前已禁用（KOKORO_ENABLED = false），
+  //    直接使用系统语音；开关恢复后此处自动重新生效。
+  //    用户选择过"跳过真人发音"且模型尚未缓存时也不尝试，避免点击播放
   //    意外触发 88MB 下载（缓存命中则标记自动失效）
-  let kokoroAvailable = true
+  let kokoroAvailable = KOKORO_ENABLED
   if (isModelSkipped() && typeof caches !== 'undefined') {
     try {
       const cached = await isKokoroModelCached()
@@ -823,32 +835,21 @@ export async function speak(text, opts = {}) {
 }
 
 /* ---------- 无可用英语语音的全局提示 ----------
-   底部 toast + 「去下载」按钮（跳转个人中心 → 真人发音引擎）。
-   纯 DOM 实现，不依赖 Vue 组件；跳转通过 window 事件交由 App.vue
-   处理（tts.js 不直接持有路由实例）。 */
+   底部 toast，引导用户安装系统英语语音包（每次会话最多一次）。
+   纯 DOM 实现，样式集中在 src/styles/components.css。 */
 let noVoiceToastShown = false
 
 function showNoVoiceToast() {
   if (noVoiceToastShown || typeof document === 'undefined' || !document.body) return
   noVoiceToastShown = true
   try {
-    /* 样式集中在 src/styles/components.css（CSP style-src 'self' 禁止
-       内联 <style> 注入，报错 "Applying inline style violates CSP"） */
     const el = document.createElement('div')
     el.className = 'tts-novoice-toast'
     el.setAttribute('role', 'alert')
     const text = document.createElement('span')
     text.className = 'tts-toast-text'
-    text.textContent = '未检测到可用的英语发音：可在「个人中心 → 真人发音引擎」下载离线神经发音（约 88MB），或在系统设置中安装英语语音后刷新页面。'
-    const btn = document.createElement('button')
-    btn.className = 'tts-toast-btn'
-    btn.textContent = '去下载'
-    btn.addEventListener('click', () => {
-      try { window.dispatchEvent(new CustomEvent('tts:open-profile')) } catch { /* ignore */ }
-      dismiss()
-    })
+    text.textContent = '本机未检测到可用的英语发音：请在系统设置中安装英语语音（Windows：设置 → 时间和语言 → 语言和区域 → 添加语言"English"，勾选"语音"）后刷新页面。'
     el.appendChild(text)
-    el.appendChild(btn)
     document.body.appendChild(el)
     let closed = false
     function dismiss() {
@@ -858,7 +859,7 @@ function showNoVoiceToast() {
       setTimeout(() => { try { el.remove() } catch { /* ignore */ } }, 400)
     }
     requestAnimationFrame(() => el.classList.add('show'))
-    setTimeout(dismiss, 10000)   // 10 秒后自动消失
+    setTimeout(dismiss, 12000)   // 12 秒后自动消失
   } catch { /* ignore */ }
 }
 
@@ -876,7 +877,7 @@ export function stopSpeak() {
 /* ---------- 空闲预热：仅当模型已缓存时才后台预热 ----------
    未缓存时不再自动下载（88MB 需用户在首次准备页或设置页确认后
    主动触发 preloadKokoro()），避免移动端偷跑流量。 */
-if (typeof window !== 'undefined') {
+if (typeof window !== 'undefined' && KOKORO_ENABLED) {
   setTimeout(() => {
     isKokoroModelCached()
       .then((cached) => {

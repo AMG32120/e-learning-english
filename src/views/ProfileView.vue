@@ -61,52 +61,16 @@
           <div class="voice-desc">{{ g.value === 'male' ? '沉稳标准男声' : '清晰自然女声' }}</div>
         </button>
       </div>
-      <p v-if="maleMissingTip" class="voice-hint">⚠️ 本机未安装男声英语语音，切换后仍会使用女声。下载下方的真人发音引擎后即可使用男声。</p>
+      <p v-if="maleMissingTip" class="voice-hint">⚠️ 本机未安装男声英语语音，切换后仍会使用女声。</p>
       <button class="btn btn-soft preview-btn" :disabled="previewing" @click="previewVoice">
         {{ previewing ? '播放中…' : '🔊 试听当前声音' }}
       </button>
     </div>
 
-    <!-- 真人发音引擎（Kokoro）：下载状态与入口 -->
+    <!-- 发音说明：系统语音（真人发音引擎已下线） -->
     <div class="card profile-engine">
-      <h2 class="card-title">真人发音引擎</h2>
-      <p class="data-tip">神经网络合成（Kokoro-82M），真人级音质、支持男女声，仅首次需下载约 88MB，之后离线可用。未下载时使用系统发音（音质因设备而异）。</p>
-      <div class="engine-status">
-        <template v-if="engineState === 'ready'">
-          ✅ 已下载并启用
-          <span v-if="engineDevice" class="engine-device">（运行设备：{{ engineDevice }}）</span>
-        </template>
-        <template v-else-if="engineState === 'downloading'">⏳ 下载中（{{ engineMsg }}）</template>
-        <template v-else-if="engineState === 'error'">❌ 下载失败：{{ engineMsg }}</template>
-        <template v-else>⬇️ 未下载</template>
-      </div>
-      <p v-if="engineDevice && /WASM/i.test(engineDevice)" class="data-tip engine-slow-tip">
-        当前设备使用 CPU 模式合成，首次合成每句需 10~30 秒，重复播放不受影响（已缓存）。
-      </p>
-      <div class="device-select">
-        <span class="device-select-label">推理设备</span>
-        <button
-          class="device-opt"
-          :class="{ active: devicePref === 'auto' }"
-          @click="chooseDevice('auto')"
-        >自动检测</button>
-        <button
-          class="device-opt"
-          :class="{ active: devicePref === 'cpu' }"
-          @click="chooseDevice('cpu')"
-        >仅用 CPU（无显卡设备推荐）</button>
-      </div>
-      <p v-if="deviceJustSwitched" class="data-tip engine-slow-tip">
-        设备已切换，下次播放时生效（模型无需重新下载）。
-      </p>
-      <button
-        v-if="engineState !== 'ready' && engineState !== 'downloading'"
-        class="btn btn-primary btn-block"
-        :disabled="engineBusy"
-        @click="downloadEngine"
-      >
-        {{ engineState === 'error' ? '重试下载' : '下载真人发音引擎（约 88MB）' }}
-      </button>
+      <h2 class="card-title">发音说明</h2>
+      <p class="data-tip">单词与例句使用系统内置英语语音朗读，无需下载任何资源。若听不到声音，请在系统设置中安装英语语音（Windows：设置 → 时间和语言 → 语言和区域 → 添加语言"English"，勾选"语音"）后刷新页面。</p>
     </div>
 
     <!-- 每日学习目标 -->
@@ -166,7 +130,7 @@
 </template>
 
 <script setup>
-import { computed, onBeforeUnmount, ref } from 'vue'
+import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { useAuthStore } from '../stores/auth'
 import { useProgressStore } from '../stores/progress'
@@ -177,12 +141,6 @@ import {
   stopSpeak,
   getVoiceGender,
   setVoiceGender,
-  isKokoroModelCached,
-  preloadKokoro,
-  resetKokoroEngine,
-  getEngineDevicePref,
-  setEngineDevicePref,
-  setModelSkipped,
   hasSystemMaleVoice,
   waitForVoices,
 } from '../services/tts'
@@ -270,54 +228,11 @@ async function previewVoice() {
   }
 }
 
-/* ---------- 真人发音引擎状态与下载入口 ---------- */
+/* ---------- 发音提示：男声可用性检测（发音使用系统语音，无需下载） ---------- */
 
-const engineState = ref('checking') // checking | ready | missing | downloading | error
-const engineMsg = ref('')
-const engineBusy = ref(false)
-const engineDevice = ref('')
 const maleMissingTip = ref(false)
-const devicePref = ref(getEngineDevicePref())
-const deviceJustSwitched = ref(false)
 
-/* 切换推理设备（自动检测 / 仅用 CPU）：重置引擎实例，下次播放按新设置加载 */
-function chooseDevice(v) {
-  if (devicePref.value === v) return
-  devicePref.value = setEngineDevicePref(v)
-  resetKokoroEngine()
-  engineDevice.value = ''
-  deviceJustSwitched.value = true
-}
-
-function onKokoroEvent(e) {
-  const d = e.detail || {}
-  if (d.phase === 'progress') {
-    engineState.value = 'downloading'
-    engineMsg.value = d.message || '下载中…'
-  } else if (d.phase === 'warming') {
-    engineState.value = 'downloading'
-    engineMsg.value = d.message || '预热中…'
-  } else if (d.phase === 'ready') {
-    engineState.value = 'ready'
-    engineMsg.value = ''
-    deviceJustSwitched.value = false
-    if (d.device) engineDevice.value = d.device
-  } else if (d.phase === 'error') {
-    engineState.value = 'error'
-    engineMsg.value = d.message || '下载失败'
-  }
-}
-
-async function initEngineStatus() {
-  window.addEventListener('tts-kokoro', onKokoroEvent)
-  const cached = await isKokoroModelCached().catch(() => false)
-  if (cached) {
-    engineState.value = 'ready'
-    setModelSkipped(false) // 模型已在缓存中，历史跳过标记失效
-  } else {
-    engineState.value = 'missing'
-  }
-  /* 男声可用性：等系统语音列表就绪后检测（仅系统语音参与） */
+async function initVoiceHint() {
   try {
     await waitForVoices(3000)
     if (currentGender.value === 'male' && !hasSystemMaleVoice()) {
@@ -326,25 +241,7 @@ async function initEngineStatus() {
   } catch { /* ignore */ }
 }
 
-async function downloadEngine() {
-  engineBusy.value = true
-  engineMsg.value = '准备中…'
-  engineState.value = 'downloading'
-  try {
-    await preloadKokoro()
-    engineState.value = 'ready'
-  } catch (e) {
-    engineState.value = 'error'
-    engineMsg.value = (e && e.message) || '下载失败'
-  }
-  engineBusy.value = false
-}
-
-onBeforeUnmount(() => {
-  window.removeEventListener('tts-kokoro', onKokoroEvent)
-})
-
-initEngineStatus()
+initVoiceHint()
 
 /* 导出用户进度：下载 JSON 备份文件 */
 function doExport() {
