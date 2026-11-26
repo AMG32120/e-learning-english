@@ -10,5 +10,12 @@
     "binding": "ASSETS",
     "not_found_handling": "single-page-application",
     "run_worker_first": ["/api/*"]
-  }
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "qceng-db",
+      "database_id": "3d74f916-0593-45bf-beca-6af7b5289efe"
+    }
+  ]
 }

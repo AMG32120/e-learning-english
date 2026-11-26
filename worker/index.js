@@ -2,8 +2,12 @@
    职责一：/api/hf/* → HF 模型同源代理（hf-mirror.com，回退 huggingface.co）
            服务端跟随 30x 重定向后流式转发，规避镜像站重定向响应缺少
            Access-Control-Allow-Origin 的问题，使浏览器同源拉取神经 TTS 模型。
-   职责二：其余请求交由 ASSETS 绑定回落到静态资产（SPA 回退由 wrangler
+   职责二：/api/ort/* → ONNX 运行时文件同源代理（jsdelivr）。
+   职责三：/api/cloud/* → 云端账号与进度存取（D1 数据库）。
+   职责四：其余请求交由 ASSETS 绑定回落到静态资产（SPA 回退由 wrangler
            assets 的 not_found_handling 配置处理，不经此脚本）。 */
+
+import { handleCloudApi } from './cloud.js'
 
 const UPSTREAMS = ['https://hf-mirror.com', 'https://huggingface.co']
 const PROXY_PREFIX = '/api/hf/'
@@ -74,6 +78,8 @@ export default {
     if (url.pathname.startsWith(ORT_PREFIX)) {
       return proxyOrt(url)
     }
+    const cloud = await handleCloudApi(request, env)
+    if (cloud) return cloud
     return env.ASSETS.fetch(request)
   },
 }

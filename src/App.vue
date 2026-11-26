@@ -32,6 +32,7 @@ import BootGate from './components/BootGate.vue'
 import { useAuthStore } from './stores/auth'
 import { useThemeStore } from './stores/theme'
 import { useProgressStore } from './stores/progress'
+import { initCloudSync } from './services/cloudSync'
 
 const auth = useAuthStore()
 const theme = useThemeStore()
@@ -40,6 +41,12 @@ const progress = useProgressStore()
 const isMobile = ref(false)
 const quotaToast = ref(false)
 let mq = null
+
+/* 云端进度合并完成（晚于首屏加载）：刷新内存中的进度与主题 */
+function onCloudSynced() {
+  progress.loadForCurrentUser()
+  theme.init()
+}
 
 function updateMobile(e) {
   isMobile.value = e.matches
@@ -63,6 +70,9 @@ onMounted(() => {
     mq.addEventListener('change', updateMobile)
   }
   window.addEventListener('app:storage-quota', onStorageQuota)
+  window.addEventListener('app:cloud-synced', onCloudSynced)
+  /* 云同步：注册保存钩子；已登录时后台拉取合并云端进度 */
+  initCloudSync()
 })
 
 onBeforeUnmount(() => {
@@ -70,6 +80,7 @@ onBeforeUnmount(() => {
     mq.removeEventListener('change', updateMobile)
   }
   window.removeEventListener('app:storage-quota', onStorageQuota)
+  window.removeEventListener('app:cloud-synced', onCloudSynced)
 })
 </script>
 

@@ -123,9 +123,20 @@ export function getUserData(username) {
   return buildDefaultUserData()
 }
 
+/* 保存钩子：云同步层（cloudSync.js）注册，saveUserData 时收到通知
+   以排队推送云端；避免 storage ↔ cloudSync 循环依赖 */
+let saveHook = null
+
+export function setSaveHook(fn) {
+  saveHook = typeof fn === 'function' ? fn : null
+}
+
 export function saveUserData(username, data) {
   if (!username) return
   safeSet(`user_${username}`, { ...data, version: USER_DATA_VERSION })
+  if (saveHook) {
+    try { saveHook(username) } catch { /* ignore */ }
+  }
 }
 
 /* ---------- 数据导出 / 导入（PLAN §3.2.9.1） ----------

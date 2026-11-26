@@ -36,6 +36,7 @@ export default [
         speechSynthesis: 'readonly',
         fetch: 'readonly',
         performance: 'readonly',
+        requestAnimationFrame: 'readonly',
         caches: 'readonly',
         location: 'readonly',
         Headers: 'readonly',

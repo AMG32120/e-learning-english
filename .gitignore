@@ -14,3 +14,12 @@ tests/e2e-report.json
 
 # 本地工具数据
 .workbuddy/
+.wrangler/
+
+# 临时日志与一次性数据修补脚本
+*.log
+temp/
+temp_*
+tests/patch-*.cjs
+tests/fix-*.cjs
+dev*.log
