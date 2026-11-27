@@ -8,7 +8,7 @@
    ============================================================ */
 import { defineStore } from 'pinia'
 import { LEVELS, getStageById, getStageWords, getLevel, LEVEL_UNLOCK_RATIO } from '../data/levels'
-import { getUserData, saveUserData } from '../services/storage'
+import { getUserData, saveUserData, buildDefaultUserData } from '../services/storage'
 import { getWordsL2, getL5Themes } from '../services/wordData'
 import { findWord } from '../services/dictionary'
 import { useAuthStore } from './auth'
@@ -439,6 +439,31 @@ export const useProgressStore = defineStore('progress', {
       } else {
         this.data = null
       }
+    },
+
+    /* 重置学习进度：清空关卡进度/复习池/打卡/徽章/等级测验/统计/自测记录，
+       保留账号资料（昵称头像注册时间）、主题、引导状态与每日目标。
+       重置后经保存钩子自动同步云端（云端同样归零）。 */
+    resetProgress() {
+      const auth = useAuthStore()
+      if (!auth.isLoggedIn || !this.data) return
+      const fresh = buildDefaultUserData()
+      this.data = {
+        ...fresh,
+        profile: { ...this.data.profile },
+        theme: this.data.theme,
+        onboardingDone: this.data.onboardingDone,
+        dailyGoal: this.data.dailyGoal
+      }
+      // auth 层快照同步（placementDone 归零后 _persist 不会用旧值覆盖回来）
+      if (auth.userData) {
+        auth.userData = {
+          ...auth.userData,
+          ...this.data,
+          profile: { ...this.data.profile }
+        }
+      }
+      this._persist()
     },
 
     /* 复习池键归一化：清理历史遗留的不可读键（L3-2:1 / quiz-123 / exam-L1-0） */

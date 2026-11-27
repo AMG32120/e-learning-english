@@ -147,6 +147,12 @@
         </div>
         <button class="btn btn-ghost cancel-import" @click="cancelImport">取消</button>
       </div>
+      <button class="btn btn-danger btn-block reset-progress-btn" @click="doResetProgress">
+        🗑️ 重置学习进度
+      </button>
+      <p class="data-tip reset-tip">
+        清空关卡进度、复习池、打卡、徽章、学习统计与水平自测记录（云端同步归零，不可恢复）；账号资料、主题与每日目标保留。
+      </p>
     </div>
 
     <!-- 学习入口 -->
@@ -335,6 +341,19 @@ function doLogout() {
   auth.logout()
   progress.clearData()
   router.push('/login')
+}
+
+/* 重置学习进度：二次确认后清零（本地 + 云端），保留账号资料与设置 */
+function doResetProgress() {
+  const ok = confirm(
+    '确定要重置学习进度吗？\n\n' +
+      '将清空：关卡进度、复习池、打卡、徽章、学习统计、水平自测记录\n' +
+      '将保留：账号资料、主题、每日学习目标\n\n' +
+      '重置会同步到云端，且无法恢复！'
+  )
+  if (!ok) return
+  progress.resetProgress()
+  alert('学习进度已重置（云端同步归零）。')
 }
 </script>
 
@@ -564,6 +583,15 @@ function doLogout() {
 .btn-danger {
   background: #d9534f;
   color: #fff;
+}
+
+.reset-progress-btn {
+  margin-top: var(--space-md);
+}
+
+.reset-tip {
+  margin-top: var(--space-xs);
+  font-size: 12px;
 }
 
 .profile-head {

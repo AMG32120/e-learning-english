@@ -49,6 +49,7 @@ export default [
         SpeechRecognition: 'readonly',
         webkitSpeechRecognition: 'readonly',
         alert: 'readonly',
+        confirm: 'readonly',
         require: 'readonly',
         process: 'readonly',
         console: 'readonly',
