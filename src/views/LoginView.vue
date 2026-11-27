@@ -48,18 +48,15 @@
           </div>
         </template>
         <template v-else>
-          <template v-if="resetQuestion">
-            <p class="form-hint auth-reset-hint">请回答注册时设置的密保问题</p>
-            <div class="form-field">
-              <label class="form-label" for="reset-question">密保问题</label>
-              <input id="reset-question" class="form-input" type="text" :value="resetQuestion" disabled />
-            </div>
-            <div class="form-field">
-              <label class="form-label" for="reset-answer">密保答案</label>
-              <input id="reset-answer" v-model.trim="resetAnswer" class="form-input" type="text" placeholder="答案不区分大小写和空格" autocomplete="off" />
-            </div>
-          </template>
-          <p v-else class="form-hint auth-reset-hint">当前离线或账号未设置密保：将直接重置本地密码，云端密码需联网后重新重置一次</p>
+          <p class="form-hint auth-reset-hint">请回答注册时设置的密保问题</p>
+          <div class="form-field">
+            <label class="form-label" for="reset-question">密保问题</label>
+            <input id="reset-question" class="form-input" type="text" :value="resetQuestion" disabled />
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="reset-answer">密保答案</label>
+            <input id="reset-answer" v-model.trim="resetAnswer" class="form-input" type="text" placeholder="答案不区分大小写和空格" autocomplete="off" />
+          </div>
           <div class="form-field">
             <label class="form-label" for="reset-pwd">新密码</label>
             <PasswordInput id="reset-pwd" v-model="resetPassword" placeholder="至少 6 位" />
@@ -103,7 +100,6 @@ const resetPassword2 = ref('')
 const resetStep = ref(1) // 1: 输入用户名查密保问题；2: 答题 + 设置新密码
 const resetQuestion = ref('')
 const resetAnswer = ref('')
-const resetFallback = ref(false) // 离线/未上云：走本地旧密码哈希通道
 const error = ref('')
 const loading = ref(false)
 
@@ -114,7 +110,6 @@ watch(mode, () => {
   resetStep.value = 1
   resetQuestion.value = ''
   resetAnswer.value = ''
-  resetFallback.value = false
 })
 
 async function doLogin() {
@@ -152,15 +147,6 @@ async function checkQuestion() {
   loading.value = false
   if (res.kind === 'ok') {
     resetQuestion.value = res.question
-    resetFallback.value = false
-    resetStep.value = 2
-    return
-  }
-  if (res.kind === 'offline' && resetUsername.value) {
-    // 离线兜底：本地存在账号时可走旧密码哈希通道（无密保问答），
-    // 情况说明已由步骤 2 的提示文案展示，不再弹红色错误
-    resetQuestion.value = ''
-    resetFallback.value = true
     resetStep.value = 2
     return
   }
@@ -171,7 +157,6 @@ function backToStep1() {
   resetStep.value = 1
   resetQuestion.value = ''
   resetAnswer.value = ''
-  resetFallback.value = false
   error.value = ''
 }
 
@@ -185,7 +170,7 @@ async function doReset() {
     error.value = '两次输入的密码不一致'
     return
   }
-  if (!resetFallback.value && !resetAnswer.value) {
+  if (!resetAnswer.value) {
     error.value = '请输入密保答案'
     return
   }
@@ -193,8 +178,7 @@ async function doReset() {
   const res = await auth.resetPasswordSecure({
     username: resetUsername.value,
     answer: resetAnswer.value,
-    newPassword: resetPassword.value,
-    useLocalFallback: resetFallback.value
+    newPassword: resetPassword.value
   })
   loading.value = false
   if (!res.ok) {

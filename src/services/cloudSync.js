@@ -188,7 +188,8 @@ export async function checkCloudAuth(username, passwordHash) {
   return { kind: 'denied', msg: res.data.msg || '云端校验失败' }
 }
 
-/** 本地账号缺失时，用云端账号信息补写本地账号表（新设备首次登录） */
+/** 本地账号缺失时，用云端账号信息补写本地账号表（新设备首次登录）。
+    仅作展示缓存（如个人中心显示密保问题），不再参与任何登录校验决策。 */
 export function ensureLocalAccount(username, passwordHash, nickname, createdAt) {
   if (findAccount(username)) return
   saveAccounts([
@@ -197,26 +198,27 @@ export function ensureLocalAccount(username, passwordHash, nickname, createdAt) 
   ])
 }
 
-/** 云端无此账号时，把本地老账号迁移上云（注册 + 推送全量数据），失败静默 */
+/** 本地遗留老账号（云端建库前注册）一次性迁移上云，失败返回 false */
 export async function migrateLocalAccount(username, passwordHash, nickname) {
   const reg = await api('/register', {
     body: { username, passwordHash, nickname: nickname || username }
   })
-  if (!reg || !reg.data.ok) return
+  if (!reg || !reg.data.ok) return false
   setCloudToken(await computeToken(username, passwordHash))
   pushRetries = 0
   queuePush(username)
+  return true
 }
 
 /**
- * 注册后的云端写入。在线时若用户名已被云端占用则失败（需在本地写入之前调用）。
- * @returns {Promise<{ok: boolean, msg?: string, offline?: boolean}>}
+ * 注册后的云端写入。用户名被占用或离线均失败（账号体系全云端，离线不可注册）。
+ * @returns {Promise<{ok: boolean, msg?: string}>}
  */
 export async function cloudRegister(username, passwordHash, nickname, securityQuestion, securityAnswerHash) {
   const res = await api('/register', {
     body: { username, passwordHash, nickname, securityQuestion, securityAnswerHash }
   })
-  if (!res) return { ok: true, offline: true } // 离线：仅本地注册，联网后迁移
+  if (!res) return { ok: false, msg: '当前离线，无法注册（账号体系已全云端，请联网后重试）' }
   if (res.data.ok) {
     setCloudToken(await computeToken(username, passwordHash))
     return { ok: true }
@@ -230,31 +232,6 @@ export async function cloudRegister(username, passwordHash, nickname, securityQu
 export function afterRegister(username) {
   pushRetries = 0
   queuePush(username)
-}
-
-/**
- * 重置密码后的云端更新（使用旧哈希派生凭证）。
- * @returns {Promise<{ok: boolean, offline?: boolean}>}
- */
-export async function afterReset(username, oldPasswordHash, newPasswordHash) {
-  const oldToken = await computeToken(username, oldPasswordHash)
-  const res = await api('/reset', { body: { username, token: oldToken, passwordHash: newPasswordHash } })
-  if (!res) return { ok: true, offline: true }
-  if (res.data.ok) {
-    setCloudToken(res.data.token)
-    queuePush(username)
-    return { ok: true }
-  }
-  if (res.data.code === 'no_user' || res.status === 404) {
-    // 云端还没有这个账号：直接以新密码注册上云
-    const reg = await api('/register', { body: { username, passwordHash: newPasswordHash, nickname: username } })
-    if (reg && reg.data.ok) {
-      setCloudToken(await computeToken(username, newPasswordHash))
-      queuePush(username)
-    }
-    return { ok: true, offline: !reg }
-  }
-  return { ok: false, msg: res.data.msg || '云端密码更新失败' }
 }
 
 /* ---------- 密保问题（忘记密码的身份验证通道） ---------- */
@@ -272,12 +249,12 @@ export async function fetchSecurityQuestion(username) {
 }
 
 /**
- * 凭密保答案重置云端密码（未登录/忘密码场景）。
- * @returns {Promise<{ok: boolean, msg?: string, offline?: boolean}>}
+ * 凭密保答案重置云端密码（未登录/忘密码场景，必须联网）。
+ * @returns {Promise<{ok: boolean, msg?: string}>}
  */
 export async function cloudResetSecure(username, answerHash, newPasswordHash) {
   const res = await api('/reset-secure', { body: { username, answerHash, passwordHash: newPasswordHash } })
-  if (!res) return { ok: true, offline: true }
+  if (!res) return { ok: false, msg: '当前离线，无法重置密码（请联网后重试）' }
   if (res.data.ok) {
     setCloudToken(res.data.token)
     return { ok: true }
@@ -286,16 +263,18 @@ export async function cloudResetSecure(username, answerHash, newPasswordHash) {
 }
 
 /**
- * 登录态下修改密保问题。
- * @returns {Promise<{ok: boolean, msg?: string, offline?: boolean}>}
+ * 登录态下修改密保问题（必须联网）。
+ * @returns {Promise<{ok: boolean, msg?: string}>}
  */
 export async function cloudSecurityUpdate(username, question, answerHash) {
   const token = getCloudToken()
-  if (!token) return { ok: true, offline: true }
+  if (!token) return { ok: false, msg: '登录凭证缺失，请重新登录后再试' }
   const res = await api('/security-update', { body: { username, token, question, answerHash } })
-  if (!res) return { ok: true, offline: true }
+  if (!res) return { ok: false, msg: '当前离线，无法修改密保（请联网后重试）' }
   if (res.data.ok) return { ok: true }
-  if (res.status === 404 && res.data.code === 'no_user') return { ok: true, offline: true }
+  if (res.status === 404 && res.data.code === 'no_user') {
+    return { ok: false, msg: '云端无此账号（老账号请先登录一次以完成迁移）' }
+  }
   return { ok: false, msg: res.data.msg || '云端密保更新失败' }
 }
 

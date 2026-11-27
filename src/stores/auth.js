@@ -3,7 +3,6 @@
    ============================================================ */
 import { defineStore } from 'pinia'
 import {
-  accountExists,
   findAccount,
   getAccounts,
   getSession,
@@ -23,7 +22,6 @@ import {
   migrateLocalAccount,
   cloudRegister,
   afterRegister,
-  afterReset,
   queuePush,
   clearCloudToken,
   computeToken,
@@ -88,9 +86,7 @@ export const useAuthStore = defineStore('auth', {
       if (!/^[a-zA-Z0-9_]{2,20}$/.test(username)) {
         return { ok: false, msg: '用户名需为 2~20 位字母、数字或下划线' }
       }
-      if (accountExists(username)) {
-        return { ok: false, msg: '该用户名已被注册，请换一个' }
-      }
+      // 用户名查重以云端为准（本地账号表只是展示缓存，可能过期）
       if (String(password || '').length < 6) {
         return { ok: false, msg: '密码长度至少 6 位' }
       }
@@ -104,14 +100,10 @@ export const useAuthStore = defineStore('auth', {
         ? await sha256(normalizeAnswer(securityAnswer))
         : ''
 
-      /* 云端查重与注册（在线时云端权威：用户名已被云端占用则提前失败，
-         避免本地注册成功而云端冲突；离线时跳过，联网后自动迁移上云） */
+      /* 云端注册（账号体系全云端：占用/离线均失败，本地账号表仅写展示缓存） */
       const cloud = await cloudRegister(username, hash, nick, securityQuestion, answerHash)
       if (!cloud.ok) {
         return { ok: false, msg: cloud.msg }
-      }
-      if (accountExists(username)) {
-        return { ok: false, msg: '该用户名已被注册，请换一个' }
       }
 
       const accounts = getAccounts()
@@ -133,24 +125,20 @@ export const useAuthStore = defineStore('auth', {
       setSession(username)
       this.session = username
       this._loadUserData()
-      if (cloud.offline) {
-        // 离线注册：仍写入本地凭证，联网后由迁移/推送补同步
-        setCloudToken(await computeToken(username, hash))
-      }
       afterRegister(username)
       return { ok: true, msg: '注册成功，已自动登录' }
     },
 
-    /* 登录：云端校验优先（在线时云端权威），本地兜底（离线可用） */
+    /* 登录：完全走云端校验（账号体系全云端，离线不可登录）。
+       本地账号表仅作展示缓存，不参与任何校验决策。 */
     async login({ username, password }) {
       username = String(username || '').trim()
       const hash = await sha256(String(password || ''))
-      let acc = findAccount(username)
 
-      /* 1) 云端校验（在线时进行） */
+      /* 1) 云端校验 */
       const cloud = await checkCloudAuth(username, hash)
       if (cloud.kind === 'ok') {
-        // 云端认可：本地账号缺失（新设备）或本地哈希过期时以云端为准
+        // 本地账号表补写/更新（展示缓存），云端进度合并到本地缓存
         ensureLocalAccount(username, hash, cloud.nickname, cloud.data && cloud.data.profile && cloud.data.profile.createdAt)
         if (cloud.data) {
           const merged = mergeUserData(getUserData(username), cloud.data)
@@ -165,100 +153,67 @@ export const useAuthStore = defineStore('auth', {
         return { ok: true, msg: '登录成功' }
       }
       if (cloud.kind === 'denied') {
-        // 云端存在该账号但密码不一致：若本地哈希与输入一致（曾在离线状态改过密码），
-        // 以本地为准继续登录（云端同步将不可用，控制台提示）；否则按云端拒绝处理
-        if (acc && acc.passwordHash === hash) {
-          console.warn('[cloud] 云端密码与本地不一致，本次仅本地登录，进度暂不同步。可在云端设备改回一致密码后恢复同步。')
-        } else {
-          return { ok: false, msg: cloud.msg }
-        }
+        return { ok: false, msg: cloud.msg }
       }
-
-      /* 2) 本地校验（云端无此账号或离线时兜底） */
-      if (!acc) {
-        return { ok: false, msg: '用户名不存在' }
-      }
-      if (acc.passwordHash !== hash) {
-        return { ok: false, msg: '密码错误' }
-      }
-      setSession(username)
-      this.session = username
-      this._loadUserData()
-      setCloudToken(await computeToken(username, hash))
       if (cloud.kind === 'no_user') {
-        // 本地注册的老账号尚未上云：自动迁移（后台执行，不阻塞登录）
-        migrateLocalAccount(username, hash, acc.nickname).catch(() => { /* ignore */ })
-      } else {
-        // 离线登录：联网后由队列推送补同步
+        // 云端建库前注册的本地遗留老账号：凭输入的密码一次性迁移上云后正常登录
+        const acc = findAccount(username)
+        if (!acc) return { ok: false, msg: '用户名不存在' }
+        const migrated = await migrateLocalAccount(username, hash, acc.nickname)
+        if (!migrated) return { ok: false, msg: '当前离线，无法登录（账号体系已全云端，请联网后重试）' }
+        setSession(username)
+        this.session = username
+        this._loadUserData()
+        setCloudToken(await computeToken(username, hash))
         queuePush(username)
+        return { ok: true, msg: '登录成功（本地老账号已迁移上云）' }
       }
-      return { ok: true, msg: '登录成功' }
+      /* 离线 */
+      return { ok: false, msg: '当前离线，无法登录（账号体系已全云端，请联网后重试）' }
     },
 
-    /* 忘记密码·第一步：查询密保问题（云端优先，本地账号无云端问题时降级） */
+    /* 忘记密码·第一步：查询密保问题（全云端） */
     async getSecurityQuestion(username) {
       username = String(username || '').trim()
       const cloud = await fetchSecurityQuestion(username)
       if (cloud.kind === 'ok') return { kind: 'ok', question: cloud.question }
-      if (cloud.kind === 'no_user') {
-        // 云端无此账号：看本地（老账号离线迁移场景）
-        if (findAccount(username)) return { kind: 'no_question', msg: '该账号尚未上云或未设置密保问题，仅可离线重置本地密码' }
-        return { kind: 'no_user', msg: '用户名不存在' }
-      }
+      if (cloud.kind === 'no_user') return { kind: 'no_user', msg: '用户名不存在' }
       if (cloud.kind === 'no_question') return { kind: 'no_question', msg: '该账号未设置密保问题，请联系管理员重置' }
-      // 离线：本地兜底（老密码哈希派生凭证的老流程仍可用）
-      if (findAccount(username)) return { kind: 'offline', msg: '当前离线，将直接重置本地密码（联网后请重新同步）' }
-      return { kind: 'offline', msg: '当前离线且本地无此账号记录，无法重置' }
+      return { kind: 'offline', msg: '当前离线，无法验证身份（请联网后重试）' }
     },
 
-    /* 忘记密码·第二步：凭密保答案重置（云端密保优先，本地老流程兜底） */
-    async resetPasswordSecure({ username, answer, newPassword, useLocalFallback = false }) {
+    /* 忘记密码·第二步：凭密保答案重置（全云端，必须联网） */
+    async resetPasswordSecure({ username, answer, newPassword }) {
       username = String(username || '').trim()
       if (String(newPassword || '').length < 6) {
         return { ok: false, msg: '新密码长度至少 6 位' }
       }
       const newHash = await sha256(String(newPassword))
-      const acc = findAccount(username)
-
-      /* 1) 云端密保通道：凭答案哈希重置 */
-      if (!useLocalFallback) {
-        const answerHash = await sha256(normalizeAnswer(answer))
-        const cloud = await cloudResetSecure(username, answerHash, newHash)
-        if (!cloud.ok) return { ok: false, msg: cloud.msg }
-        // 本地有此账号则同步改本地哈希；没有则补写（新设备找回后可离线登录）
-        const accounts = getAccounts()
-        const local = accounts.find((a) => a.username === username)
-        if (local) {
-          local.passwordHash = newHash
-        } else {
-          accounts.push({ username, passwordHash: newHash, createdAt: Date.now(), nickname: username })
-        }
-        saveAccounts(accounts)
-        return { ok: true, msg: '密码已重置，请使用新密码登录' }
-      }
-
-      /* 2) 本地兜底通道：旧哈希派生凭证（离线 / 老账号未上云） */
-      if (!acc) {
-        return { ok: false, msg: '用户名不存在，无法重置' }
-      }
-      const oldHash = acc.passwordHash
-      const cloud = await afterReset(username, oldHash, newHash)
-      const cloudMsg = cloud && cloud.ok === false ? '（云端更新失败，联网后请重新重置）' : ''
+      const answerHash = await sha256(normalizeAnswer(answer))
+      const cloud = await cloudResetSecure(username, answerHash, newHash)
+      if (!cloud.ok) return { ok: false, msg: cloud.msg }
+      // 本地账号缓存同步改哈希；没有则补写（展示缓存）
       const accounts = getAccounts()
       const local = accounts.find((a) => a.username === username)
-      if (local) local.passwordHash = newHash
+      if (local) {
+        local.passwordHash = newHash
+      } else {
+        accounts.push({ username, passwordHash: newHash, createdAt: Date.now(), nickname: username })
+      }
       saveAccounts(accounts)
-      return { ok: true, msg: `密码已重置，请使用新密码登录${cloudMsg}` }
+      return { ok: true, msg: '密码已重置，请使用新密码登录' }
     },
 
-    /* 登录态下设置/修改密保问题（个人中心·账号安全） */
+    /* 登录态下设置/修改密保问题（全云端，必须联网） */
     async setSecurityQuestion({ question, answer }) {
       if (!this.isLoggedIn) return { ok: false, msg: '请先登录' }
       if (!question) return { ok: false, msg: '请选择或输入密保问题' }
       if (!normalizeAnswer(answer)) return { ok: false, msg: '请填写密保答案' }
       const answerHash = await sha256(normalizeAnswer(answer))
 
-      // 本地账号表同步（离线兜底）
+      const cloud = await cloudSecurityUpdate(this.session, question, answerHash)
+      if (!cloud.ok) return { ok: false, msg: cloud.msg }
+      // 云端成功后同步本地展示缓存
       const accounts = getAccounts()
       const acc = accounts.find((a) => a.username === this.session)
       if (acc) {
@@ -266,10 +221,7 @@ export const useAuthStore = defineStore('auth', {
         acc.securityAnswerHash = answerHash
         saveAccounts(accounts)
       }
-      // 云端更新（离线静默，联网后建议重新设置一次）
-      const cloud = await cloudSecurityUpdate(this.session, question, answerHash)
-      if (!cloud.ok) return { ok: false, msg: cloud.msg }
-      return { ok: true, msg: cloud.offline ? '密保已保存到本地，联网后将同步云端（当前云端未更新）' : '密保问题已更新' }
+      return { ok: true, msg: '密保问题已更新' }
     },
 
     /* 退出登录 */
