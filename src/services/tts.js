@@ -16,6 +16,9 @@
      供 UI（如 TtsButton）展示首次加载进度。
    ============================================================ */
 
+import { getSession } from './storage'
+import { queuePush } from './cloudSync'
+
 let voicesCache = []
 let voicesLoaded = false
 const VOICE_WAIT_TIMEOUT = 3000   // 语音列表等待上限（毫秒）
@@ -58,6 +61,9 @@ export function setVoiceGender(gender) {
     if (voiceGender) localStorage.setItem(GENDER_KEY, voiceGender)
     else localStorage.removeItem(GENDER_KEY)
   } catch { /* ignore */ }
+  // 切换后立即触发云端推送（doPush 会把当前值快照进 prefs 一起上云；未登录时静默跳过）
+  const username = getSession()
+  if (username) queuePush(username)
   return voiceGender || DEFAULT_VOICE_GENDER
 }
 

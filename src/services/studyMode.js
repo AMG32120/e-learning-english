@@ -3,8 +3,16 @@
    progress store 的解锁 getter 读取此 ref，切换后地图/关卡列表即时刷新。 */
 
 import { ref, watch } from 'vue'
+import { getSession } from './storage'
+import { queuePush } from './cloudSync'
 
 const KEY = 'study-mode' // 'stage' | 'free'
+
+/** 切换后立即触发云端推送（doPush 会把当前值快照进 prefs 一起上云；未登录时静默跳过） */
+function syncToCloud() {
+  const username = getSession()
+  if (username) queuePush(username)
+}
 
 function readSaved() {
   try {
@@ -33,6 +41,7 @@ if (typeof window !== 'undefined') {
 
 export function setStudyMode(mode) {
   studyMode.value = mode === 'free' ? 'free' : 'stage'
+  syncToCloud()
 }
 
 export function isFreeMode() {
