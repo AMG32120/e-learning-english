@@ -734,13 +734,11 @@ function claim() {
     progress.recordQuiz({ correct: correctCount.value, total: questions.value.length })
   }
   rewarded.value = true
-  if (nextStage.value) {
-    // 保留结果页 900ms，让星星动效与解锁提示可见后再跳转
-    const nextId = nextStage.value.id
-    setTimeout(() => router.push(`/stage/${nextId}`), 900)
-  } else {
+  if (!nextStage.value) {
     levelFinishedMsg.value = '恭喜！已完成本等级全部关卡，前往闯关地图选择下一等级。'
   }
+  /* 不自动跳转：停留在结算页，由用户自行选择
+     进入下一关 / 重练本关 / 返回关卡列表 / 返回闯关地图 */
 }
 
 /* 重练本关：重置答题状态并重新生成题目 */
