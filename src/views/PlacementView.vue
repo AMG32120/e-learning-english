@@ -320,7 +320,7 @@ const correctCount = ref(0)
 const done = ref(false)
 const failedTier = ref(-1) // 未通过的组下标；全部通过为 -1
 
-const tierQuestions = computed(() => tierQuestionSets.value[tierIndex.value] || [])
+const tierQuestions = computed(() => tierQuestionSets[tierIndex.value] || [])
 const current = computed(() => tierQuestions.value[tierQIndex.value] || { q: '', options: [] })
 const currentTier = computed(() => TIERS[tierIndex.value] || TIERS[0])
 const correctAnswerLabel = computed(() => {
