@@ -12,6 +12,7 @@ import { getUserData, saveUserData } from '../services/storage'
 import { getWordsL2, getL5Themes } from '../services/wordData'
 import { findWord } from '../services/dictionary'
 import { useAuthStore } from './auth'
+import { isFreeMode } from '../services/studyMode'
 
 function pad(n) {
   return n < 10 ? `0${n}` : `${n}`
@@ -204,10 +205,11 @@ export const useProgressStore = defineStore('progress', {
       return s.data ? s.data.progress.stages : {}
     },
 
-    /* 关卡是否解锁 */
+    /* 关卡是否解锁（自由模式下全部开放） */
     isStageUnlocked(s) {
       const self = this
       return (stageId) => {
+        if (isFreeMode()) return true
         if (!s.data) return false
         const stage = getStageById(stageId)
         if (!stage) return false
@@ -223,8 +225,9 @@ export const useProgressStore = defineStore('progress', {
       }
     },
 
-    /* 等级是否解锁 */
+    /* 等级是否解锁（自由模式下全部开放） */
     isLevelUnlocked: (s) => (level) => {
+      if (isFreeMode()) return true
       if (!s.data) return false
       if (level <= 1) return true
       const prevLevel = getLevel(level - 1)
@@ -697,9 +700,9 @@ export const useProgressStore = defineStore('progress', {
       if (next) {
         this.data.progress.recommendedStage = next.id
       } else {
-        // 当前等级最后一关：推荐下一等级第 1 关（若已解锁）
+        // 当前等级最后一关：推荐下一等级第 1 关（若已解锁且该等级确实有关卡）
         const nextLevel = getLevel(stage.level + 1)
-        if (nextLevel && this.isLevelUnlocked(nextLevel.level)) {
+        if (nextLevel && nextLevel.stages.length && this.isLevelUnlocked(nextLevel.level)) {
           this.data.progress.recommendedStage = nextLevel.stages[0].id
         }
       }

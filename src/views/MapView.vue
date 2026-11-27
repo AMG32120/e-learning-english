@@ -1,7 +1,10 @@
 ﻿<template>
   <div class="page-container map">
     <h1 class="page-title">闯关地图</h1>
-    <p class="page-subtitle">按顺序解锁等级，从字母启蒙到托福雅思冲刺</p>
+    <p class="page-subtitle">
+      <template v-if="isFree">自由模式：全部等级已开放，点击任意等级即可开始</template>
+      <template v-else>关卡模式：按顺序解锁等级，从字母启蒙到托福雅思冲刺</template>
+    </p>
 
     <div class="grid-levels">
       <button
@@ -35,11 +38,15 @@
 
 <script setup>
 import { useRouter } from 'vue-router'
+import { computed } from 'vue'
 import { LEVELS } from '../data/levels'
 import { useProgressStore } from '../stores/progress'
+import { studyMode } from '../services/studyMode'
 
 const router = useRouter()
 const progress = useProgressStore()
+
+const isFree = computed(() => studyMode.value === 'free')
 
 function lvp(lv) {
   return progress.getLevelProgress(lv.level)

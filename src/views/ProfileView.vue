@@ -44,6 +44,37 @@
       </div>
     </div>
 
+    <!-- 学习模式：关卡模式（顺序解锁）/ 自由模式（全部开放） -->
+    <div class="card profile-mode">
+      <h2 class="card-title">学习模式</h2>
+      <p class="data-tip">
+        决定等级与关卡的开放方式，切换后立即生效（不影响已有进度和星级）。
+      </p>
+      <div class="mode-grid">
+        <button
+          class="mode-item"
+          :class="{ active: studyMode === 'stage' }"
+          @click="chooseMode('stage')"
+        >
+          <div class="mode-icon">🔒</div>
+          <div class="mode-name">关卡模式</div>
+          <div class="mode-desc">按顺序闯关解锁：完成前一关才能进入下一关，上一等级完成 80% 解锁下一等级。循序渐进，默认模式。</div>
+        </button>
+        <button
+          class="mode-item"
+          :class="{ active: studyMode === 'free' }"
+          @click="chooseMode('free')"
+        >
+          <div class="mode-icon">🔓</div>
+          <div class="mode-name">自由模式</div>
+          <div class="mode-desc">所有 16 个等级、全部关卡一次性开放，可任意挑选想学的内容自由跳转，适合复习或有基础的学习者。</div>
+        </button>
+      </div>
+      <p class="mode-current">
+        当前模式：<strong>{{ studyMode === 'free' ? '自由模式（全部开放）' : '关卡模式（顺序解锁）' }}</strong>
+      </p>
+    </div>
+
     <!-- 发音声音：男声 / 女声 -->
     <div class="card profile-voice">
       <h2 class="card-title">发音声音</h2>
@@ -136,6 +167,7 @@ import { useAuthStore } from '../stores/auth'
 import { useProgressStore } from '../stores/progress'
 import { useThemeStore, THEMES } from '../stores/theme'
 import { exportUserDataJson, importUserData } from '../services/storage'
+import { studyMode, setStudyMode } from '../services/studyMode'
 import {
   speak,
   stopSpeak,
@@ -199,6 +231,11 @@ const GOAL_OPTIONS = [
   { value: 50, label: '冲刺' },
   { value: 0, label: '关闭' }
 ]
+
+/* 学习模式切换（关卡模式 / 自由模式），立即生效 */
+function chooseMode(m) {
+  setStudyMode(m)
+}
 
 function chooseGoal(n) {
   progress.setDailyGoal(n)
@@ -309,12 +346,67 @@ function doLogout() {
 
 .profile-card,
 .profile-theme,
+.profile-mode,
 .profile-voice,
 .profile-engine,
 .profile-goal,
 .profile-links,
 .profile-data {
   margin-bottom: var(--space-md);
+}
+
+/* 学习模式切换 */
+.mode-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-sm);
+}
+
+.mode-item {
+  border: 2px solid var(--c-border, #e0e0e0);
+  background: transparent;
+  border-radius: 10px;
+  padding: 14px 12px;
+  text-align: left;
+  cursor: pointer;
+  color: var(--c-text-primary);
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.mode-item.active {
+  border-color: var(--c-primary);
+  background: var(--c-primary-soft, rgba(59, 130, 246, 0.08));
+}
+
+.mode-icon {
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.mode-name {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.mode-item.active .mode-name {
+  color: var(--c-primary);
+}
+
+.mode-desc {
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--c-text-secondary);
+}
+
+.mode-current {
+  margin-top: var(--space-sm);
+  font-size: 13px;
+  color: var(--c-text-secondary);
+}
+
+.mode-current strong {
+  color: var(--c-primary);
 }
 
 /* 每日目标档位 */
