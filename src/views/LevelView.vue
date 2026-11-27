@@ -40,10 +40,24 @@
           :class="{ open: isOpen(g) }"
           @click="toggle(g)"
         >
-          <span class="unit-caret">{{ isOpen(g) ? '▾' : '▸' }}</span>
+          <span class="unit-caret" :class="{ open: isOpen(g) }">▸</span>
           <span class="unit-emoji">{{ g.emoji }}</span>
-          <span class="unit-title">单元 {{ g.unit }} · {{ g.title }}</span>
-          <span class="unit-stars">{{ g.stars }} / {{ g.max }} ★</span>
+          <span class="unit-meta">
+            <span class="unit-title-row">
+              <span class="unit-title">单元 {{ g.unit }} · {{ g.title }}</span>
+              <span class="unit-stars">{{ g.stars }} / {{ g.max }} ★</span>
+            </span>
+            <span class="unit-sub">
+              <span class="unit-bar">
+                <span
+                  class="unit-bar-fill"
+                  :class="{ done: g.stages.length && g.completed === g.stages.length }"
+                  :style="{ width: (g.stages.length ? (g.completed / g.stages.length) * 100 : 0) + '%' }"
+                ></span>
+              </span>
+              <span class="unit-count">{{ g.completed }} / {{ g.stages.length }} 关</span>
+            </span>
+          </span>
         </button>
         <div v-show="!g.title || isOpen(g)" class="grid-stages">
           <button
@@ -52,14 +66,16 @@
             class="stage-card"
             :class="{
               locked: !unlocked(st),
-              completed: record(st) && record(st).completed
+              completed: record(st) && record(st).completed,
+              current: st.id === currentStageId
             }"
             :disabled="!unlocked(st)"
             @click="openStage(st)"
           >
             <div class="stage-card-head">
               <span class="stage-num">第 {{ st.stage }} 关</span>
-              <span v-if="st.available === false" class="badge-chip">后续开放</span>
+              <span v-if="st.id === currentStageId" class="current-chip">进行中</span>
+              <span v-else-if="st.available === false" class="badge-chip">后续开放</span>
               <span v-else-if="record(st)" class="stars">
                 <span v-for="i in 3" :key="i" class="star" :class="{ empty: i > record(st).bestStars }">★</span>
               </span>
@@ -102,7 +118,8 @@ const groups = computed(() => {
   return [...map.values()].map((g) => ({
     ...g,
     stars: g.stages.reduce((sum, st) => sum + ((progress.stages[st.id] && progress.stages[st.id].bestStars) || 0), 0),
-    max: g.stages.length * 3
+    max: g.stages.length * 3,
+    completed: g.stages.filter((st) => record(st) && record(st).completed).length
   }))
 })
 
@@ -121,21 +138,27 @@ const examDesc = computed(() => {
   return `完成本等级全部 ${lp.total} 关后可挑战阶段综合测验（当前 ${lp.completed}/${lp.total}）。`
 })
 
-/* ---------- 单元折叠：单元数量多时默认只展开当前进度所在单元 ---------- */
+/* ---------- 单元折叠：默认全部展开，用户可手动收起单个单元 ---------- */
 const manualOpen = ref({})
 
 const hasUnits = computed(() => groups.value.some((g) => g.title))
 
-/* 当前进度所在单元：第一个还有未通关关卡的单元 */
-const currentUnit = computed(() => {
-  const g = groups.value.find((x) => x.stages.some((st) => !record(st) || !record(st).completed))
-  return g ? g.unit : (groups.value.length ? groups.value[groups.value.length - 1].unit : 0)
+/* 进行中的关卡：全等级内第一个已解锁且未通关的关卡（用于高亮） */
+const currentStageId = computed(() => {
+  for (const g of groups.value) {
+    for (const st of g.stages) {
+      if (st.available !== false && unlocked(st) && !(record(st) && record(st).completed)) {
+        return st.id
+      }
+    }
+  }
+  return ''
 })
 
 function isOpen(g) {
   if (!g.title) return true
   if (g.unit in manualOpen.value) return manualOpen.value[g.unit]
-  return g.unit === currentUnit.value
+  return true
 }
 
 const allOpen = computed(() => {
@@ -220,55 +243,180 @@ function openStage(st) {
   color: var(--c-text-muted);
 }
 
+/* ---------- 单元头：卡片式 + 完成度进度条 ---------- */
 .unit-head {
   display: flex;
   width: 100%;
   align-items: center;
-  gap: var(--space-xs);
-  padding: 8px 10px;
+  gap: 12px;
+  padding: 12px 16px;
   border: 1px solid var(--c-border);
-  border-radius: var(--radius-md);
+  border-radius: 14px;
   background: var(--c-surface);
   cursor: pointer;
   text-align: left;
   font-family: inherit;
-  transition: background 0.15s ease;
+  transition: background 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .unit-head:hover {
   background: var(--c-surface-2);
+  border-color: var(--c-primary, #3b82f6);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .unit-head.open {
+  border-color: var(--c-primary, #3b82f6);
   background: var(--c-surface-2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .unit-caret {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--c-text-muted);
-  width: 10px;
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.unit-caret.open {
+  transform: rotate(90deg);
 }
 
 .unit-emoji {
-  font-size: 18px;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
   line-height: 1;
+  background: var(--c-surface-2);
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.unit-head.open .unit-emoji {
+  background: var(--c-bg-card, #fff);
+}
+
+.unit-meta {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.unit-title-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-sm);
 }
 
 .unit-title {
   font-size: 15px;
   font-weight: 700;
   color: var(--c-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .unit-stars {
-  margin-left: auto;
+  font-size: 12px;
+  color: #f5a623;
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.unit-sub {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.unit-bar {
+  flex: 1;
+  height: 5px;
+  border-radius: 3px;
+  background: var(--c-border, #e0e0e0);
+  overflow: hidden;
+}
+
+.unit-bar-fill {
+  display: block;
+  height: 100%;
+  border-radius: 3px;
+  background: var(--c-primary, #3b82f6);
+  transition: width 0.3s ease;
+}
+
+.unit-bar-fill.done {
+  background: #34c77b;
+}
+
+.unit-count {
   font-size: 12px;
   color: var(--c-text-muted);
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- 关卡卡三态 ---------- */
+.stage-card {
+  position: relative;
+}
+
+.stage-card.completed {
+  border-color: #34c77b;
+  background: rgba(52, 199, 123, 0.05);
+}
+
+.stage-card.current {
+  border-color: var(--c-primary, #3b82f6);
+  border-width: 2px;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.12);
+}
+
+.stage-card.locked {
+  border-style: dashed;
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.current-chip {
+  font-size: 11px;
+  font-weight: 700;
+  color: #fff;
+  background: var(--c-primary, #3b82f6);
+  border-radius: 999px;
+  padding: 2px 10px;
+  line-height: 1.5;
 }
 
 .stage-lock {
   font-size: 13px;
   color: var(--c-text-muted);
+}
+
+/* 完成角标：右上角小对勾 */
+.stage-card.completed::after {
+  content: '✓';
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #34c77b;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 4px rgba(52, 199, 123, 0.4);
 }
 
 .exam-entry {
