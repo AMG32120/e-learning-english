@@ -295,21 +295,30 @@ function l8Themes() {
   return segs
 }
 
+/* 分段是否为空（词库未加载时建出的空分段，数据到位后需要重建） */
+function segmentsEmpty(segs) {
+  return !segs || !segs.length || segs.every((seg) => !seg || !seg.words || !seg.words.length)
+}
+
 function ensureThemeSegments() {
-  if (!L2_LEVEL_THEMES[0]) {
+  /* 注意：不能只用"是否为 null"判断。应用现在立即挂载、词库后台加载，
+     挂载瞬间的首次访问可能在词库就绪前建出全空分段并被永久锁死
+     （表现为词汇等级零关卡、通关 L1 后推荐下一关时报 reading 'id'）。
+     这里改为：分段为空时（首次或词库后到）都重建。 */
+  if (segmentsEmpty(L2_LEVEL_THEMES[0])) {
     const segs = segmentL2Themes()
     segs.forEach((seg, i) => {
       L2_LEVEL_THEMES[i] = seg
     })
   }
-  if (!L5_LEVEL_THEMES[0]) {
+  if (segmentsEmpty(L5_LEVEL_THEMES[0])) {
     const segs = chunk(l5WordThemes(), 5)
     segs[4] = segs[4].concat(phraseThemes())
     segs.forEach((seg, i) => {
       L5_LEVEL_THEMES[i] = seg
     })
   }
-  if (!L8_THEMES[0]) {
+  if (segmentsEmpty(L8_THEMES[0])) {
     L8_THEMES[0] = l8Themes()
   }
 }

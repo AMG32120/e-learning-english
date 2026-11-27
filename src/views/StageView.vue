@@ -728,6 +728,7 @@ const levelFinishedMsg = ref('')
 
 function claim() {
   if (rewarded.value) return
+  if (!stage.value) return // 极端情况（关卡数据被重建且 ID 失效）时静默保护
   progress.completeStage(stage.value.id, stars.value)
   progress.checkInToday()
   if (isQuizStage.value && questions.value.length) {
