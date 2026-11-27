@@ -190,10 +190,23 @@ async function send() {
   }
 }
 
+/* 朗读文本：只保留英文对话本体。
+   AI 回复末尾带「💡 中文讲解」行、说错话时带「✏️ 更正: ...」行，
+   这些不属于对话内容，朗读时从首个 💡/✏️ 处截断（页面显示不受影响）。 */
+function speechText(text) {
+  const cut = text.search(/💡|✏️/)
+  const body = cut >= 0 ? text.slice(0, cut) : text
+  return body
+    .replace(/[#*`|>-]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .replace(/[(（]\s*$/, '')
+    .trim()
+}
+
 function replay(text) {
   stopSpeak()
-  // 去掉 markdown 常见符号，仅朗读
-  const clean = text.replace(/[#*`|>-]/g, ' ').replace(/\s+/g, ' ').trim()
+  const clean = speechText(text)
+  if (!clean) return // 整条都是讲解/更正时（理论上少见）不朗读
   speak(clean, { rate: 0.85 }).catch(() => {})
 }
 
