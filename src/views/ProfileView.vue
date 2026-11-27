@@ -75,10 +75,10 @@
       </p>
     </div>
 
-    <!-- 发音声音：男声 / 女声 -->
+    <!-- 发音声音：男声 / 女声（含发音说明） -->
     <div class="card profile-voice">
       <h2 class="card-title">发音声音</h2>
-      <p class="data-tip">切换单词与例句的朗读声，点击后立即生效并试听。</p>
+      <p class="data-tip">单词与例句使用系统内置英语语音朗读（无需下载任何资源），选择朗读声音后立即生效并试听。若听不到声音，请在系统设置中安装英语语音（Windows：设置 → 时间和语言 → 语言和区域 → 添加语言 "English"，勾选"语音"）后刷新页面。</p>
       <div class="voice-grid">
         <button
           v-for="g in VOICE_OPTIONS"
@@ -96,12 +96,6 @@
       <button class="btn btn-soft preview-btn" :disabled="previewing" @click="previewVoice">
         {{ previewing ? '播放中…' : '🔊 试听当前声音' }}
       </button>
-    </div>
-
-    <!-- 发音说明：系统语音（真人发音引擎已下线） -->
-    <div class="card profile-engine">
-      <h2 class="card-title">发音说明</h2>
-      <p class="data-tip">单词与例句使用系统内置英语语音朗读，无需下载任何资源。若听不到声音，请在系统设置中安装英语语音（Windows：设置 → 时间和语言 → 语言和区域 → 添加语言"English"，勾选"语音"）后刷新页面。</p>
     </div>
 
     <!-- 每日学习目标 -->
@@ -125,65 +119,16 @@
       </p>
     </div>
 
-    <!-- 数据管理：导出 / 导入用户进度 -->
+    <!-- 进度管理：重置学习进度（学习进度已自动云同步，无需手动备份） -->
     <div class="card profile-data">
-      <h2 class="card-title">数据管理</h2>
-      <p class="data-tip">学习进度可导出为 JSON 文件备份，也可生成同步码/二维码在设备之间迁移（仅限同一账号）。</p>
-      <div class="data-actions">
-        <button class="btn btn-primary" @click="doExport">导出进度</button>
-        <label class="btn btn-soft import-btn">
-          导入进度
-          <input ref="importInput" type="file" accept=".json,application/json" @change="doImport" />
-        </label>
-      </div>
-      <button class="btn btn-ghost btn-block sync-entry" @click="router.push('/sync')">
-        📱 跨设备同步（同步码 / 二维码）
-      </button>
-      <div class="import-mode" v-if="showImportMode">
-        <p class="data-tip">检测到当前账号已有学习进度，请选择导入方式：</p>
-        <div class="data-actions">
-          <button class="btn btn-soft" @click="confirmImport('merge')">合并导入（取较高值）</button>
-          <button class="btn btn-danger" @click="confirmImport('overwrite')">覆盖导入（整体替换）</button>
-        </div>
-        <button class="btn btn-ghost cancel-import" @click="cancelImport">取消</button>
-      </div>
-      <button class="btn btn-danger btn-block reset-progress-btn" @click="doResetProgress">
+      <h2 class="card-title">学习进度</h2>
+      <p class="data-tip">学习进度已自动同步云端，登录即可在任意设备恢复，无需手动备份。</p>
+      <button class="btn btn-danger btn-block" @click="doResetProgress">
         🗑️ 重置学习进度
       </button>
       <p class="data-tip reset-tip">
         清空关卡进度、复习池、打卡、徽章、学习统计与水平自测记录（云端同步归零，不可恢复）；账号资料、主题与每日目标保留。
       </p>
-    </div>
-
-    <!-- 账号安全：密保问题 -->
-    <div class="card profile-security">
-      <h2 class="card-title">账号安全</h2>
-      <p class="data-tip">密保问题用于忘记密码时验证身份（换设备/清除浏览器数据后也能找回密码）。</p>
-      <div class="form-field">
-        <label class="form-label" for="sec-question">密保问题</label>
-        <select id="sec-question" v-model="securityQuestion" class="form-input form-select">
-          <option v-for="q in SECURITY_QUESTIONS" :key="q" :value="q">{{ q }}</option>
-        </select>
-        <p v-if="currentSecurityQuestion && currentSecurityQuestion !== securityQuestion" class="form-tip">
-          当前：{{ currentSecurityQuestion }}
-        </p>
-        <p v-else-if="!currentSecurityQuestion" class="form-tip">尚未设置密保问题，建议立即设置</p>
-      </div>
-      <div class="form-field">
-        <label class="form-label" for="sec-answer">密保答案</label>
-        <input
-          id="sec-answer"
-          v-model.trim="securityAnswer"
-          class="form-input"
-          type="text"
-          placeholder="答案不区分大小写和空格"
-          autocomplete="off"
-        />
-      </div>
-      <button class="btn btn-soft" :disabled="securityLoading" @click="doSaveSecurity">
-        {{ securityLoading ? '保存中…' : '保存密保问题' }}
-      </button>
-      <p v-if="securityMsg" class="data-tip security-msg">{{ securityMsg }}</p>
     </div>
 
     <!-- 学习入口 -->
@@ -200,10 +145,9 @@
 <script setup>
 import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { useAuthStore, SECURITY_QUESTIONS } from '../stores/auth'
+import { useAuthStore } from '../stores/auth'
 import { useProgressStore } from '../stores/progress'
 import { useThemeStore, THEMES } from '../stores/theme'
-import { exportUserDataJson, importUserData, findAccount } from '../services/storage'
 import { studyMode, setStudyMode } from '../services/studyMode'
 import {
   speak,
@@ -222,32 +166,7 @@ const themeStore = useThemeStore()
 const nickname = ref(auth.nickname)
 const avatar = ref(auth.profile.avatar || '')
 
-const importInput = ref(null)
-const showImportMode = ref(false)
-let pendingImportText = ''
-
 const avatarChar = computed(() => (auth.profile.avatar || auth.nickname || auth.username || '学').charAt(0).toUpperCase())
-
-/* 账号安全：密保问题查看与修改 */
-const currentSecurityQuestion = ref((findAccount(auth.username) || {}).securityQuestion || '')
-const securityQuestion = ref(currentSecurityQuestion.value || SECURITY_QUESTIONS[0])
-const securityAnswer = ref('')
-const securityLoading = ref(false)
-const securityMsg = ref('')
-
-async function doSaveSecurity() {
-  securityMsg.value = ''
-  securityLoading.value = true
-  const res = await auth.setSecurityQuestion({ question: securityQuestion.value, answer: securityAnswer.value })
-  securityLoading.value = false
-  if (res.ok) {
-    currentSecurityQuestion.value = securityQuestion.value
-    securityAnswer.value = ''
-    securityMsg.value = res.msg || '密保问题已保存'
-  } else {
-    securityMsg.value = res.msg
-  }
-}
 
 const createdDate = computed(() => {
   const t = auth.profile.createdAt
@@ -338,57 +257,6 @@ async function initVoiceHint() {
 
 initVoiceHint()
 
-/* 导出用户进度：下载 JSON 备份文件 */
-function doExport() {
-  const json = exportUserDataJson(auth.username)
-  if (!json) {
-    alert('暂无数据可导出')
-    return
-  }
-  const blob = new Blob([json], { type: 'application/json' })
-  const url = URL.createObjectURL(blob)
-  const a = document.createElement('a')
-  a.href = url
-  a.download = `elearning-backup-${auth.username}-${new Date().toISOString().slice(0, 10)}.json`
-  document.body.appendChild(a)
-  a.click()
-  document.body.removeChild(a)
-  URL.revokeObjectURL(url)
-}
-
-/* 选择备份文件后：读取内容并校验账号匹配，再进入导入方式确认 */
-function doImport(ev) {
-  const file = ev.target.files && ev.target.files[0]
-  if (!file) return
-  const reader = new FileReader()
-  reader.onload = () => {
-    pendingImportText = String(reader.result || '')
-    showImportMode.value = true
-  }
-  reader.readAsText(file)
-  if (importInput.value) importInput.value.value = ''
-}
-
-function cancelImport() {
-  showImportMode.value = false
-  pendingImportText = ''
-}
-
-function confirmImport(mode) {
-  const res = importUserData(auth.username, pendingImportText, mode)
-  if (res && res.ok) {
-    showImportMode.value = false
-    pendingImportText = ''
-    progress.loadForCurrentUser()
-    themeStore.init()
-    alert(res.message || '导入成功')
-  } else {
-    showImportMode.value = false
-    pendingImportText = ''
-    alert((res && res.reason) || '导入失败，请检查备份文件')
-  }
-}
-
 function doLogout() {
   auth.logout()
   progress.clearData()
@@ -419,22 +287,10 @@ function doResetProgress() {
 .profile-theme,
 .profile-mode,
 .profile-voice,
-.profile-engine,
 .profile-goal,
 .profile-links,
-.profile-data,
-.profile-security {
+.profile-data {
   margin-bottom: var(--space-md);
-}
-
-/* 账号安全卡 */
-.profile-security .form-select {
-  appearance: auto;
-}
-
-.security-msg {
-  margin-top: 8px;
-  color: var(--c-primary);
 }
 
 /* 学习模式切换 */
@@ -611,45 +467,9 @@ function doResetProgress() {
   margin-bottom: var(--space-sm);
 }
 
-.data-actions {
-  display: flex;
-  gap: var(--space-sm);
-  flex-wrap: wrap;
-  margin-bottom: var(--space-sm);
-}
-
-.import-btn {
-  position: relative;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-}
-
-.import-btn input[type='file'] {
-  display: none;
-}
-
-.sync-entry {
-  margin-top: var(--space-xs);
-}
-
-.import-mode {
-  border-top: 1px solid var(--c-border);
-  padding-top: var(--space-sm);
-  margin-top: var(--space-sm);
-}
-
-.cancel-import {
-  margin-top: var(--space-xs);
-}
-
 .btn-danger {
   background: #d9534f;
   color: #fff;
-}
-
-.reset-progress-btn {
-  margin-top: var(--space-md);
 }
 
 .reset-tip {
