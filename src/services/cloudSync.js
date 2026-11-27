@@ -212,8 +212,10 @@ export async function migrateLocalAccount(username, passwordHash, nickname) {
  * 注册后的云端写入。在线时若用户名已被云端占用则失败（需在本地写入之前调用）。
  * @returns {Promise<{ok: boolean, msg?: string, offline?: boolean}>}
  */
-export async function cloudRegister(username, passwordHash, nickname) {
-  const res = await api('/register', { body: { username, passwordHash, nickname } })
+export async function cloudRegister(username, passwordHash, nickname, securityQuestion, securityAnswerHash) {
+  const res = await api('/register', {
+    body: { username, passwordHash, nickname, securityQuestion, securityAnswerHash }
+  })
   if (!res) return { ok: true, offline: true } // 离线：仅本地注册，联网后迁移
   if (res.data.ok) {
     setCloudToken(await computeToken(username, passwordHash))
@@ -253,6 +255,48 @@ export async function afterReset(username, oldPasswordHash, newPasswordHash) {
     return { ok: true, offline: !reg }
   }
   return { ok: false, msg: res.data.msg || '云端密码更新失败' }
+}
+
+/* ---------- 密保问题（忘记密码的身份验证通道） ---------- */
+
+/**
+ * 查询账号的密保问题（仅问题文本）。
+ * @returns {{kind:'ok',question}|{kind:'no_user'}|{kind:'no_question'}|{kind:'offline'}}
+ */
+export async function fetchSecurityQuestion(username) {
+  const res = await api(`/question?u=${encodeURIComponent(username)}`, { method: 'GET' })
+  if (!res) return { kind: 'offline' }
+  if (res.data.ok) return { kind: 'ok', question: res.data.question }
+  if (res.data.code === 'no_user') return { kind: 'no_user' }
+  return { kind: 'no_question' }
+}
+
+/**
+ * 凭密保答案重置云端密码（未登录/忘密码场景）。
+ * @returns {Promise<{ok: boolean, msg?: string, offline?: boolean}>}
+ */
+export async function cloudResetSecure(username, answerHash, newPasswordHash) {
+  const res = await api('/reset-secure', { body: { username, answerHash, passwordHash: newPasswordHash } })
+  if (!res) return { ok: true, offline: true }
+  if (res.data.ok) {
+    setCloudToken(res.data.token)
+    return { ok: true }
+  }
+  return { ok: false, msg: res.data.msg || '云端密码重置失败' }
+}
+
+/**
+ * 登录态下修改密保问题。
+ * @returns {Promise<{ok: boolean, msg?: string, offline?: boolean}>}
+ */
+export async function cloudSecurityUpdate(username, question, answerHash) {
+  const token = getCloudToken()
+  if (!token) return { ok: true, offline: true }
+  const res = await api('/security-update', { body: { username, token, question, answerHash } })
+  if (!res) return { ok: true, offline: true }
+  if (res.data.ok) return { ok: true }
+  if (res.status === 404 && res.data.code === 'no_user') return { ok: true, offline: true }
+  return { ok: false, msg: res.data.msg || '云端密保更新失败' }
 }
 
 /* ---------- 初始化 ---------- */

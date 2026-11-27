@@ -155,6 +155,37 @@
       </p>
     </div>
 
+    <!-- 账号安全：密保问题 -->
+    <div class="card profile-security">
+      <h2 class="card-title">账号安全</h2>
+      <p class="data-tip">密保问题用于忘记密码时验证身份（换设备/清除浏览器数据后也能找回密码）。</p>
+      <div class="form-field">
+        <label class="form-label" for="sec-question">密保问题</label>
+        <select id="sec-question" v-model="securityQuestion" class="form-input form-select">
+          <option v-for="q in SECURITY_QUESTIONS" :key="q" :value="q">{{ q }}</option>
+        </select>
+        <p v-if="currentSecurityQuestion && currentSecurityQuestion !== securityQuestion" class="form-tip">
+          当前：{{ currentSecurityQuestion }}
+        </p>
+        <p v-else-if="!currentSecurityQuestion" class="form-tip">尚未设置密保问题，建议立即设置</p>
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="sec-answer">密保答案</label>
+        <input
+          id="sec-answer"
+          v-model.trim="securityAnswer"
+          class="form-input"
+          type="text"
+          placeholder="答案不区分大小写和空格"
+          autocomplete="off"
+        />
+      </div>
+      <button class="btn btn-soft" :disabled="securityLoading" @click="doSaveSecurity">
+        {{ securityLoading ? '保存中…' : '保存密保问题' }}
+      </button>
+      <p v-if="securityMsg" class="data-tip security-msg">{{ securityMsg }}</p>
+    </div>
+
     <!-- 学习入口 -->
     <div class="card profile-links">
       <button class="profile-link" @click="router.push('/onboarding')">重新查看入学引导</button>
@@ -169,10 +200,10 @@
 <script setup>
 import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { useAuthStore } from '../stores/auth'
+import { useAuthStore, SECURITY_QUESTIONS } from '../stores/auth'
 import { useProgressStore } from '../stores/progress'
 import { useThemeStore, THEMES } from '../stores/theme'
-import { exportUserDataJson, importUserData } from '../services/storage'
+import { exportUserDataJson, importUserData, findAccount } from '../services/storage'
 import { studyMode, setStudyMode } from '../services/studyMode'
 import {
   speak,
@@ -196,6 +227,27 @@ const showImportMode = ref(false)
 let pendingImportText = ''
 
 const avatarChar = computed(() => (auth.profile.avatar || auth.nickname || auth.username || '学').charAt(0).toUpperCase())
+
+/* 账号安全：密保问题查看与修改 */
+const currentSecurityQuestion = ref((findAccount(auth.username) || {}).securityQuestion || '')
+const securityQuestion = ref(currentSecurityQuestion.value || SECURITY_QUESTIONS[0])
+const securityAnswer = ref('')
+const securityLoading = ref(false)
+const securityMsg = ref('')
+
+async function doSaveSecurity() {
+  securityMsg.value = ''
+  securityLoading.value = true
+  const res = await auth.setSecurityQuestion({ question: securityQuestion.value, answer: securityAnswer.value })
+  securityLoading.value = false
+  if (res.ok) {
+    currentSecurityQuestion.value = securityQuestion.value
+    securityAnswer.value = ''
+    securityMsg.value = res.msg || '密保问题已保存'
+  } else {
+    securityMsg.value = res.msg
+  }
+}
 
 const createdDate = computed(() => {
   const t = auth.profile.createdAt
@@ -370,8 +422,19 @@ function doResetProgress() {
 .profile-engine,
 .profile-goal,
 .profile-links,
-.profile-data {
+.profile-data,
+.profile-security {
   margin-bottom: var(--space-md);
+}
+
+/* 账号安全卡 */
+.profile-security .form-select {
+  appearance: auto;
+}
+
+.security-msg {
+  margin-top: 8px;
+  color: var(--c-primary);
 }
 
 /* 学习模式切换 */

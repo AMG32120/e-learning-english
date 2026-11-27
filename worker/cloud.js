@@ -45,14 +45,20 @@ function dbUnavailable() {
 
 /* ---------- 路由处理 ---------- */
 
-/* 注册：POST /api/cloud/register  { username, passwordHash, nickname } */
+/* 注册：POST /api/cloud/register
+   { username, passwordHash, nickname, securityQuestion?, securityAnswerHash? } */
 async function handleRegister(request, db) {
   const body = await readJson(request)
   const username = String((body && body.username) || '').trim()
   const passwordHash = String((body && body.passwordHash) || '')
   const nickname = String((body && body.nickname) || '').trim()
+  const securityQuestion = String((body && body.securityQuestion) || '').trim()
+  const securityAnswerHash = String((body && body.securityAnswerHash) || '')
   if (!USERNAME_RE.test(username)) return json({ ok: false, msg: '用户名需为 2~20 位字母、数字或下划线' }, 400)
   if (passwordHash.length !== 64) return json({ ok: false, msg: '密码哈希无效' }, 400)
+  if (securityQuestion && securityAnswerHash.length !== 64) {
+    return json({ ok: false, msg: '密保答案哈希无效' }, 400)
+  }
 
   const exists = await db
     .prepare('SELECT username FROM users WHERE username = ?1')
@@ -61,8 +67,11 @@ async function handleRegister(request, db) {
   if (exists) return json({ ok: false, msg: '该用户名已被注册，请换一个' }, 409)
 
   await db
-    .prepare('INSERT INTO users (username, password_hash, nickname, created_at) VALUES (?1, ?2, ?3, ?4)')
-    .bind(username, passwordHash, nickname || username, Date.now())
+    .prepare(
+      `INSERT INTO users (username, password_hash, nickname, created_at, security_question, security_answer_hash)
+       VALUES (?1, ?2, ?3, ?4, ?5, ?6)`
+    )
+    .bind(username, passwordHash, nickname || username, Date.now(), securityQuestion, securityAnswerHash)
     .run()
   return json({ ok: true, msg: '注册成功' })
 }
@@ -175,6 +184,81 @@ async function handleReset(request, db) {
   return json({ ok: true, token: newToken })
 }
 
+/* 查询密保问题：GET /api/cloud/question?u=<username>
+   仅返回问题文本（不含答案），供忘记密码流程展示 */
+async function handleQuestion(url, db) {
+  const username = url.searchParams.get('u') || ''
+  if (!USERNAME_RE.test(username)) return json({ ok: false, msg: '用户名无效' }, 400)
+
+  const user = await db
+    .prepare('SELECT security_question FROM users WHERE username = ?1')
+    .bind(username)
+    .first()
+  if (!user) return json({ ok: false, msg: '用户名不存在', code: 'no_user' }, 404)
+  if (!user.security_question) return json({ ok: false, msg: '该账号未设置密保问题', code: 'no_question' }, 404)
+  return json({ ok: true, question: user.security_question })
+}
+
+/* 凭密保答案重置密码：POST /api/cloud/reset-secure
+   { username, answerHash(SHA-256 规范化答案), passwordHash(新哈希) }
+   仅适用于未登录/忘密码场景；答案哈希比对通过才允许改密 */
+async function handleResetSecure(request, db) {
+  const body = await readJson(request)
+  const username = String((body && body.username) || '').trim()
+  const answerHash = String((body && body.answerHash) || '')
+  const passwordHash = String((body && body.passwordHash) || '')
+  if (!username || answerHash.length !== 64 || passwordHash.length !== 64) {
+    return json({ ok: false, msg: '参数无效' }, 400)
+  }
+
+  const user = await db
+    .prepare('SELECT security_answer_hash, security_question FROM users WHERE username = ?1')
+    .bind(username)
+    .first()
+  if (!user) return json({ ok: false, msg: '用户名不存在', code: 'no_user' }, 404)
+  if (!user.security_question || !user.security_answer_hash) {
+    return json({ ok: false, msg: '该账号未设置密保问题', code: 'no_question' }, 404)
+  }
+  if (user.security_answer_hash !== answerHash) {
+    return json({ ok: false, msg: '密保答案不正确' }, 401)
+  }
+
+  await db
+    .prepare('UPDATE users SET password_hash = ?2 WHERE username = ?1')
+    .bind(username, passwordHash)
+    .run()
+  const newToken = await makeToken(username, passwordHash)
+  return json({ ok: true, token: newToken })
+}
+
+/* 修改密保问题（登录态）：POST /api/cloud/security-update
+   { username, token, question, answerHash } */
+async function handleSecurityUpdate(request, db) {
+  const body = await readJson(request)
+  const username = String((body && body.username) || '').trim()
+  const token = String((body && body.token) || '')
+  const question = String((body && body.question) || '').trim()
+  const answerHash = String((body && body.answerHash) || '')
+  if (!username || !token || !question || question.length > 60 || answerHash.length !== 64) {
+    return json({ ok: false, msg: '参数无效' }, 400)
+  }
+
+  const user = await db
+    .prepare('SELECT password_hash FROM users WHERE username = ?1')
+    .bind(username)
+    .first()
+  if (!user) return json({ ok: false, msg: '用户名不存在', code: 'no_user' }, 404)
+  if ((await makeToken(username, user.password_hash)) !== token) {
+    return json({ ok: false, msg: '凭证无效' }, 401)
+  }
+
+  await db
+    .prepare('UPDATE users SET security_question = ?2, security_answer_hash = ?3 WHERE username = ?1')
+    .bind(username, question, answerHash)
+    .run()
+  return json({ ok: true })
+}
+
 /* ---------- 总入口：返回 null 表示非本模块路由 ---------- */
 export async function handleCloudApi(request, env) {
   const url = new URL(request.url)
@@ -194,6 +278,12 @@ export async function handleCloudApi(request, env) {
           : await handleSaveData(request, db)
       case '/api/cloud/reset':
         return await handleReset(request, db)
+      case '/api/cloud/question':
+        return await handleQuestion(url, db)
+      case '/api/cloud/reset-secure':
+        return await handleResetSecure(request, db)
+      case '/api/cloud/security-update':
+        return await handleSecurityUpdate(request, db)
       default:
         return json({ ok: false, msg: '未知接口' }, 404)
     }

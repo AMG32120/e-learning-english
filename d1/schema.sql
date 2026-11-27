@@ -7,10 +7,12 @@
 -- ============================================================
 
 CREATE TABLE IF NOT EXISTS users (
-  username      TEXT PRIMARY KEY,              -- 用户名（2~20 位字母数字下划线）
-  password_hash TEXT NOT NULL,                 -- SHA-256(password) 十六进制，前端计算
-  nickname      TEXT NOT NULL DEFAULT '',      -- 昵称
-  created_at    INTEGER NOT NULL               -- 创建时间（毫秒时间戳）
+  username             TEXT PRIMARY KEY,          -- 用户名（2~20 位字母数字下划线）
+  password_hash        TEXT NOT NULL,             -- SHA-256(password) 十六进制，前端计算
+  nickname             TEXT NOT NULL DEFAULT '',  -- 昵称
+  created_at           INTEGER NOT NULL,          -- 创建时间（毫秒时间戳）
+  security_question    TEXT NOT NULL DEFAULT '',  -- 密保问题文本（忘记密码时下发）
+  security_answer_hash TEXT NOT NULL DEFAULT ''   -- SHA-256(规范化答案) 十六进制，前端计算
 );
 
 CREATE TABLE IF NOT EXISTS user_data (

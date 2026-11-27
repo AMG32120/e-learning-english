@@ -2,7 +2,7 @@
   <div class="auth-page">
     <div class="auth-card card">
       <h1 class="auth-title">注册新账号</h1>
-      <p class="auth-subtitle">数据仅保存在本机浏览器（localStorage）</p>
+      <p class="auth-subtitle">注册后进度自动云端同步，多设备通用</p>
 
       <form @submit.prevent="doRegister">
         <div class="form-field">
@@ -38,6 +38,24 @@
             autocomplete="new-password"
           />
         </div>
+        <div class="form-field">
+          <label class="form-label" for="reg-question">密保问题 *</label>
+          <select id="reg-question" v-model="question" class="form-input form-select">
+            <option v-for="q in SECURITY_QUESTIONS" :key="q" :value="q">{{ q }}</option>
+          </select>
+          <p class="form-tip">忘记密码时用于验证身份，请务必记住答案</p>
+        </div>
+        <div class="form-field">
+          <label class="form-label" for="reg-answer">密保答案 *</label>
+          <input
+            id="reg-answer"
+            v-model.trim="answer"
+            class="form-input"
+            type="text"
+            placeholder="答案不区分大小写和空格"
+            autocomplete="off"
+          />
+        </div>
         <div v-if="error" class="form-error">{{ error }}</div>
         <button class="btn btn-primary btn-block" type="submit" :disabled="loading">
           {{ loading ? '注册中…' : '注册并开始学习' }}
@@ -53,7 +71,7 @@
 <script setup>
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { useAuthStore } from '../stores/auth'
+import { useAuthStore, SECURITY_QUESTIONS } from '../stores/auth'
 import { useProgressStore } from '../stores/progress'
 import PasswordInput from '../components/PasswordInput.vue'
 
@@ -65,6 +83,8 @@ const username = ref('')
 const nickname = ref('')
 const password = ref('')
 const password2 = ref('')
+const question = ref(SECURITY_QUESTIONS[0])
+const answer = ref('')
 const error = ref('')
 const loading = ref(false)
 
@@ -82,8 +102,18 @@ async function doRegister() {
     error.value = '两次输入的密码不一致'
     return
   }
+  if (!answer.value) {
+    error.value = '请填写密保答案（忘记密码时用于验证身份）'
+    return
+  }
   loading.value = true
-  const res = await auth.register({ username: username.value, password: password.value, nickname: nickname.value })
+  const res = await auth.register({
+    username: username.value,
+    password: password.value,
+    nickname: nickname.value,
+    securityQuestion: question.value,
+    securityAnswer: answer.value
+  })
   loading.value = false
   if (!res.ok) {
     error.value = res.msg
@@ -131,5 +161,15 @@ async function doRegister() {
 
 .link-btn {
   color: var(--c-primary);
+}
+
+.form-tip {
+  font-size: 12px;
+  color: var(--c-text-secondary);
+  margin-top: 4px;
+}
+
+.form-select {
+  appearance: auto;
 }
 </style>
