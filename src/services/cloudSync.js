@@ -29,6 +29,40 @@ const PUSH_DELAY_MS = 3000   // 保存后防抖推送延迟
 const RETRY_DELAY_MS = 10000 // 推送失败重试延迟
 const TIMEOUT_MS = 10000     // 单次请求超时
 
+/* ---------- 偏好同步（发音性别 / 学习模式） ----------
+   偏好平时存独立 localStorage 键（tts.js / studyMode.js 各自读写），
+   推送时快照进 user_data.prefs 一并上云；拉取合并后写回这些键并
+   派发 app:prefs-synced，由 tts.js / studyMode.js 监听刷新运行时状态。 */
+
+const GENDER_KEY = 'tts-voice-gender'
+const STUDY_MODE_KEY = 'study-mode'
+
+/** 读取当前生效的偏好（仅读取实际存在的键，未设置的字段不覆盖） */
+function readLivePrefs() {
+  const prefs = {}
+  try {
+    const g = localStorage.getItem(GENDER_KEY)
+    if (g === 'female' || g === 'male') prefs.ttsGender = g
+    const m = localStorage.getItem(STUDY_MODE_KEY)
+    if (m === 'stage' || m === 'free') prefs.studyMode = m
+  } catch { /* ignore */ }
+  return prefs
+}
+
+/** 把合并后的偏好写回各服务的 localStorage 键并通知刷新 */
+function applyPrefs(prefs) {
+  if (!prefs || typeof window === 'undefined') return
+  try {
+    if (prefs.ttsGender === 'female' || prefs.ttsGender === 'male') {
+      localStorage.setItem(GENDER_KEY, prefs.ttsGender)
+    }
+    if (prefs.studyMode === 'stage' || prefs.studyMode === 'free') {
+      localStorage.setItem(STUDY_MODE_KEY, prefs.studyMode)
+    }
+  } catch { /* ignore */ }
+  window.dispatchEvent(new CustomEvent('app:prefs-synced', { detail: { prefs } }))
+}
+
 /* ---------- 凭证 ---------- */
 
 export function getCloudToken() {
@@ -89,6 +123,7 @@ export async function pullAndMerge(username, token) {
   const local = getUserData(username)
   const merged = mergeUserData(local, res.data.data)
   saveUserData(username, merged)   // 会经保存钩子把合并结果推回云端
+  applyPrefs(merged.prefs)         // 云端偏好落地到各服务的 localStorage 键
   return { pulled: true, offline: false }
 }
 
@@ -104,11 +139,18 @@ export function queuePush(username) {
   pushTimer = setTimeout(() => doPush(username), pushRetries ? RETRY_DELAY_MS : PUSH_DELAY_MS)
 }
 
+/** 供登录合并后落地云端偏好（与 pullAndMerge 内部同一逻辑） */
+export function applyCloudPrefs(prefs) {
+  applyPrefs(prefs)
+}
+
 async function doPush(username) {
   pushTimer = null
   const token = getCloudToken()
   if (!token) return
   const data = getUserData(username)
+  // 推送前把偏好快照并入（偏好平时存独立键，不在 user_data 实时落盘）
+  data.prefs = { ...(data.prefs || {}), ...readLivePrefs() }
   const res = await api('/data', { body: { username, token, data } })
   if (res && res.data && res.data.ok) {
     pushRetries = 0
@@ -215,12 +257,50 @@ export async function afterReset(username, oldPasswordHash, newPasswordHash) {
 
 /* ---------- 初始化 ---------- */
 
+/* 页面关闭/切后台时冲刷仍在防抖等待中的推送（fetch keepalive 允许
+   在页面卸载后继续发送；仅在有排队推送时触发，避免无谓请求） */
+function flushPendingPush() {
+  if (!pushTimer) return
+  clearTimeout(pushTimer)
+  pushTimer = null
+  const username = getSession()
+  const token = getCloudToken()
+  if (!username || !token) return
+  try {
+    const data = getUserData(username)
+    data.prefs = { ...(data.prefs || {}), ...readLivePrefs() }
+    fetch(`${API_BASE}/data`, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ username, token, data }),
+      keepalive: true
+    }).catch(() => { /* 离线遗留数据下次启动补推 */ })
+  } catch { /* ignore */ }
+}
+
+/** 浏览器恢复联网时补推离线期间遗留的改动 */
+function setupOnlineRecovery() {
+  if (typeof window === 'undefined') return
+  window.addEventListener('online', () => {
+    if (!getCloudToken()) return
+    const username = getSession()
+    if (!username) return
+    pushRetries = 0
+    queuePush(username)
+  })
+  window.addEventListener('pagehide', flushPendingPush)
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') flushPendingPush()
+  })
+}
+
 /**
  * 应用启动时调用：注册保存钩子；已登录且有凭证时拉取云端进度合并。
  * 合并完成后派发 app:cloud-synced 事件，供 App.vue 刷新界面数据。
  */
 export function initCloudSync() {
   setSaveHook((username) => queuePush(username))
+  setupOnlineRecovery()
 
   const token = getCloudToken()
   if (!token) return

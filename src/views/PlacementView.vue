@@ -443,6 +443,16 @@ function goL1() {
   margin-bottom: var(--space-lg);
 }
 
+/* 组别文字与进度条之间留出间距 */
+.progress-bar-mt {
+  margin-top: 10px;
+}
+
+/* 选项列表与「下一题」按钮之间留出间距（未作答时中间无反馈区，原本贴死） */
+.placement-card .btn-block {
+  margin-top: var(--space-md);
+}
+
 .tier-badge {
   display: inline-block;
   background: var(--c-primary-soft, rgba(59, 130, 246, 0.12));

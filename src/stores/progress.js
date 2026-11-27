@@ -453,7 +453,8 @@ export const useProgressStore = defineStore('progress', {
         profile: { ...this.data.profile },
         theme: this.data.theme,
         onboardingDone: this.data.onboardingDone,
-        dailyGoal: this.data.dailyGoal
+        dailyGoal: this.data.dailyGoal,
+        prefs: { ...this.data.prefs }
       }
       // auth 层快照同步（placementDone 归零后 _persist 不会用旧值覆盖回来）
       if (auth.userData) {

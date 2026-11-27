@@ -85,6 +85,10 @@ export function buildDefaultUserData() {
     onboardingDone: false,
     placementDone: false,
     dailyGoal: 20, // 每日学习目标（题/词次），0 表示不设目标
+    prefs: {
+      ttsGender: 'female', // 发音偏好：'female' | 'male'
+      studyMode: 'stage'   // 学习模式：'stage' 关卡模式 | 'free' 自由模式
+    },
     progress: {
       stages: {}, // { [stageId]: { bestStars, completed, attempts, completedAt } }
       recommendedStage: 'L1-1'
@@ -117,6 +121,7 @@ export function getUserData(username) {
       reviewPool: data.reviewPool || {},
       checkins: data.checkins || {},
       badges: data.badges || [],
+      prefs: { ...def.prefs, ...(data.prefs || {}) },
       stats: { ...def.stats, ...(data.stats || {}) }
     }
   }
@@ -202,6 +207,15 @@ export function mergeUserData(base, incoming) {
     badges: [...new Set([...(base.badges || []), ...(incoming.badges || [])])],
     levelExams: { ...(base.levelExams || {}), ...(incoming.levelExams || {}) }
   }
+  // 偏好合并（单值标量，无法比较时间戳）：本地已改为非默认值 → 以本地为准
+  // （覆盖"离线改了偏好被云端旧值冲掉"）；本地仍是默认值 → 采用云端值
+  // （覆盖"新设备登录时拿到云端偏好"）
+  const pa = base.prefs || def.prefs
+  const pb = incoming.prefs || def.prefs
+  merged.prefs = {
+    ttsGender: pa.ttsGender && pa.ttsGender !== def.prefs.ttsGender ? pa.ttsGender : (pb.ttsGender || def.prefs.ttsGender),
+    studyMode: pa.studyMode && pa.studyMode !== def.prefs.studyMode ? pa.studyMode : (pb.studyMode || def.prefs.studyMode)
+  }
   // 关卡进度合并：bestStars / completed / completedAt 取较高或较新，attempts 相加
   const stageKeys = new Set([
     ...Object.keys(base.progress.stages || {}),
@@ -217,7 +231,9 @@ export function mergeUserData(base, incoming) {
       merged.progress.stages[key] = {
         bestStars: Math.max(a.bestStars || 0, b.bestStars || 0),
         completed: !!(a.completed || b.completed),
-        attempts: (a.attempts || 0) + (b.attempts || 0),
+        // 练习次数取较大值而非累加：刷新时云端即本机上次推送的同一份，
+        // 累加会导致每刷新一次次数翻倍
+        attempts: Math.max(a.attempts || 0, b.attempts || 0),
         completedAt: Math.max(a.completedAt || 0, b.completedAt || 0)
       }
     }
@@ -226,16 +242,20 @@ export function mergeUserData(base, incoming) {
   const sa = base.stats || def.stats
   const sb = incoming.stats || def.stats
 
-  // 每日学习统计：按日期累加（两台设备的学习量应相加）
+  // 每日学习统计：按日期取较大值。不能用累加——刷新时云端数据就是
+  // 本机上次推送的同一份，累加会让今日目标每次刷新翻倍（滚雪球）；
+  // 同日多设备学习取较高一方，误差远小于翻倍
   const daily = {}
-  for (const src of [sa.daily || {}, sb.daily || {}]) {
-    for (const [key, day] of Object.entries(src)) {
-      const target = daily[key] || {}
-      for (const [field, v] of Object.entries(day || {})) {
-        target[field] = (target[field] || 0) + (Number(v) || 0)
-      }
-      daily[key] = target
+  const dailyKeys = new Set([...Object.keys(sa.daily || {}), ...Object.keys(sb.daily || {})])
+  for (const key of dailyKeys) {
+    const a = (sa.daily || {})[key] || {}
+    const b = (sb.daily || {})[key] || {}
+    const target = {}
+    const fields = new Set([...Object.keys(a), ...Object.keys(b)])
+    for (const field of fields) {
+      target[field] = Math.max(Number(a[field]) || 0, Number(b[field]) || 0)
     }
+    daily[key] = target
   }
 
   // 词汇量曲线：按日期合并取较大值，并按日期排序

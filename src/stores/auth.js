@@ -27,7 +27,8 @@ import {
   queuePush,
   clearCloudToken,
   computeToken,
-  setCloudToken
+  setCloudToken,
+  applyCloudPrefs
 } from '../services/cloudSync'
 
 export const useAuthStore = defineStore('auth', {
@@ -128,6 +129,7 @@ export const useAuthStore = defineStore('auth', {
         if (cloud.data) {
           const merged = mergeUserData(getUserData(username), cloud.data)
           saveUserData(username, merged)
+          applyCloudPrefs(merged.prefs) // 云端偏好（发音性别/学习模式）落地
         }
         setSession(username)
         this.session = username

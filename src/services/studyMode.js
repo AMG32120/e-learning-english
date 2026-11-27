@@ -22,6 +22,15 @@ watch(studyMode, (v) => {
   } catch { /* ignore */ }
 })
 
+/* 云端同步落地偏好（cloudSync 拉取合并后派发）：刷新响应式状态，
+   地图/关卡列表随即按新模式刷新 */
+if (typeof window !== 'undefined') {
+  window.addEventListener('app:prefs-synced', (e) => {
+    const m = e.detail && e.detail.prefs && e.detail.prefs.studyMode
+    if (m === 'stage' || m === 'free') studyMode.value = m
+  })
+}
+
 export function setStudyMode(mode) {
   studyMode.value = mode === 'free' ? 'free' : 'stage'
 }

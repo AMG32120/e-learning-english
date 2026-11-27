@@ -61,6 +61,12 @@ export function setVoiceGender(gender) {
   return voiceGender || DEFAULT_VOICE_GENDER
 }
 
+/* 云端同步落地偏好（cloudSync 拉取合并后派发）：清空内存缓存，
+   下次 getVoiceGender 重新从 localStorage 读取 */
+if (typeof window !== 'undefined') {
+  window.addEventListener('app:prefs-synced', () => { voiceGender = null })
+}
+
 /* Kokoro 音色映射（延续 f2/m3 男女声概念）：
    女声 Heart（A 级，最自然），男声 Michael（C+ 级中最佳男声） */
 const KOKORO_VOICES = { female: 'af_heart', male: 'am_michael' }
