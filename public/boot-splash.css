@@ -1,0 +1,52 @@
+/* 首屏加载指示：应用 JS 解析/挂载期间的过渡画面，挂载后被 Vue 替换。
+   独立文件而非 index.html 内联 —— CSP style-src 'self' 拦截内联样式 */
+#boot-splash {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  background: #f4f7fc;
+  color: #5b6b7f;
+  font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-size: 14px;
+  z-index: 9999;
+}
+#boot-splash .boot-logo {
+  font-size: 34px;
+  font-weight: 800;
+  color: #2f7cf6;
+  letter-spacing: 2px;
+}
+#boot-splash .boot-spinner {
+  width: 30px;
+  height: 30px;
+  border: 3px solid #d5e2f7;
+  border-top-color: #2f7cf6;
+  border-radius: 50%;
+  animation: boot-spin 0.9s linear infinite;
+}
+@keyframes boot-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+#boot-splash .boot-tip {
+  opacity: 0.7;
+  font-size: 13px;
+}
+@media (prefers-color-scheme: dark) {
+  #boot-splash {
+    background: #16181d;
+    color: #9aa7b8;
+  }
+  #boot-splash .boot-logo {
+    color: #5c9bff;
+  }
+  #boot-splash .boot-spinner {
+    border-color: #2a3040;
+    border-top-color: #5c9bff;
+  }
+}

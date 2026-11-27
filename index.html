@@ -13,44 +13,15 @@
     <meta property="og:type" content="website" />
     <meta property="og:image" content="/icons/icon-512.png" />
     <title>启程英语</title>
-    <style>
-      /* 首屏加载指示：应用 JS 解析/挂载期间的过渡画面，挂载后被 Vue 替换 */
-      #boot-splash {
-        position: fixed;
-        inset: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 14px;
-        background: #f4f7fc;
-        color: #5b6b7f;
-        font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-        font-size: 14px;
-        z-index: 9999;
-      }
-      #boot-splash .boot-logo { font-size: 34px; font-weight: 800; color: #2F7CF6; }
-      #boot-splash .boot-spinner {
-        width: 30px;
-        height: 30px;
-        border: 3px solid #d5e2f7;
-        border-top-color: #2F7CF6;
-        border-radius: 50%;
-        animation: boot-spin 0.9s linear infinite;
-      }
-      @keyframes boot-spin { to { transform: rotate(360deg); } }
-      @media (prefers-color-scheme: dark) {
-        #boot-splash { background: #16181d; color: #9aa7b8; }
-        #boot-splash .boot-logo { color: #5c9bff; }
-      }
-    </style>
+    <!-- 启动屏样式为独立文件：CSP style-src 'self' 会拦截 index.html 内联 <style> -->
+    <link rel="stylesheet" href="/boot-splash.css" />
   </head>
   <body>
     <div id="app">
       <div id="boot-splash">
         <div class="boot-logo">启程英语</div>
         <div class="boot-spinner"></div>
-        <div>正在加载学习内容…</div>
+        <div class="boot-tip">正在加载学习内容…</div>
       </div>
     </div>
     <script type="module" src="/src/main.js"></script>
